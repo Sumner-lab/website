@@ -12,6 +12,7 @@
   --color-header-text: #f5f1e8;
 
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
   --wrap-width: 72rem;
   --radius: 0.5rem;
 }
@@ -50,9 +51,15 @@ a:hover { text-decoration-thickness: 2px; }
   border: 0;
 }
 
-h1, h2, h3, h4 { line-height: 1.25; margin: 1.5em 0 0.5em; }
-h1 { font-size: clamp(1.9rem, 1.5rem + 1.6vw, 2.75rem); margin-top: 0; }
-h2 { font-size: clamp(1.4rem, 1.2rem + 0.8vw, 1.9rem); }
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 1.5em 0 0.5em;
+  letter-spacing: -0.01em;
+}
+h1 { font-size: clamp(2.1rem, 1.5rem + 2.4vw, 3.5rem); margin-top: 0; }
+h2 { font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2.1rem); }
 p { margin: 0 0 1em; }
 
 /* ---- Header ---- */
@@ -60,6 +67,8 @@ p { margin: 0 0 1em; }
 .site-header {
   background: var(--color-header-bg);
   color: var(--color-header-text);
+  position: relative;
+  z-index: 10;
 }
 
 .site-header .wrap {
@@ -67,8 +76,8 @@ p { margin: 0 0 1em; }
   align-items: center;
   justify-content: space-between;
   gap: 1.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
   flex-wrap: wrap;
 }
 
@@ -80,13 +89,13 @@ p { margin: 0 0 1em; }
   line-height: 1.2;
 }
 
-.site-name { font-size: 1.25rem; font-weight: 700; }
-.site-tagline { font-size: 0.8rem; color: #c9c2b3; }
+.site-name { font-family: var(--font-display); font-size: 1.4rem; font-weight: 600; }
+.site-tagline { font-size: 0.78rem; color: #c9c2b3; letter-spacing: 0.02em; }
 
 .site-nav ul {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 1.75rem;
   margin: 0;
   padding: 0;
   flex-wrap: wrap;
@@ -96,9 +105,10 @@ p { margin: 0 0 1em; }
   color: var(--color-header-text);
   text-decoration: none;
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
+  letter-spacing: 0.02em;
   border-bottom: 2px solid transparent;
-  padding-bottom: 0.15rem;
+  padding-bottom: 0.2rem;
 }
 
 .site-nav a:hover,
@@ -126,15 +136,75 @@ p { margin: 0 0 1em; }
 .nav-toggle-bars::before { content: ""; margin-top: 4px; }
 .nav-toggle-bars::after { content: ""; margin-top: 4px; }
 
+/* Hero pages: header floats transparently over the image instead of its own bar */
+body.has-hero .site-header {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.55), rgba(0,0,0,0));
+}
+
 /* ---- Hero (homepage) ---- */
 
 .hero {
-  background: linear-gradient(135deg, var(--color-header-bg), #3a2e1a);
-  color: var(--color-header-text);
+  position: relative;
+  min-height: 88vh;
+  background-size: cover;
+  background-position: center 30%;
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
 }
-.hero .wrap { padding: 3.5rem 1.5rem; }
-.hero h1 { margin: 0; color: #fff; }
-.hero-tagline { color: #d8cfb8; font-size: 1.1rem; margin: 0.5rem 0 0; }
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10,8,5,0.88) 0%, rgba(10,8,5,0.35) 45%, rgba(10,8,5,0.05) 75%);
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 3.5rem 1.5rem 4.5rem;
+  max-width: 46rem;
+}
+.hero h1 {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(2.6rem, 2rem + 4vw, 5rem);
+}
+.hero-tagline {
+  color: #ecdfc3;
+  font-size: clamp(1.05rem, 1rem + 0.4vw, 1.3rem);
+  margin: 0.75rem 0 0;
+  max-width: 34rem;
+}
+
+.feature-band {
+  min-height: 46vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 3rem;
+}
+.feature-band-caption {
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(to top, rgba(10,8,5,0.75), rgba(10,8,5,0));
+  width: 100%;
+}
+.feature-band-caption p {
+  color: #f5f1e8;
+  margin: 0;
+  font-size: 0.95rem;
+  max-width: 34rem;
+}
+
+.intro-prose {
+  font-size: 1.15rem;
+  color: var(--color-text);
+  max-width: 42rem;
+  padding-top: 2.5rem;
+}
 
 /* ---- Page / post / person ---- */
 
@@ -194,32 +264,48 @@ p { margin: 0 0 1em; }
 }
 .home-link:hover { border-color: var(--color-accent); }
 
-/* ---- People grid ---- */
+/* ---- People grid (photo-forward, editorial tiles) ---- */
 
 .people-grid {
   list-style: none;
-  margin: 1rem 0 2rem;
+  margin: 1.25rem 0 2rem;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
-  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  gap: 1rem;
 }
 .people-card a {
+  position: relative;
   text-decoration: none;
-  color: var(--color-text);
+  color: #fff;
   display: block;
-  text-align: center;
+  aspect-ratio: 3 / 4;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--color-header-bg);
 }
 .people-card img {
   width: 100%;
-  aspect-ratio: 1;
+  height: 100%;
   object-fit: cover;
-  border-radius: var(--radius);
-  margin-bottom: 0.5rem;
+  transition: transform 0.35s ease;
 }
-.people-card-name { display: block; font-weight: 600; }
-.people-card-role { display: block; color: var(--color-text-muted); font-size: 0.85rem; }
-.people-grid-alumni { opacity: 0.85; }
+.people-card a:hover img { transform: scale(1.05); }
+.people-card a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10,8,5,0.85), rgba(10,8,5,0) 55%);
+}
+.people-card-name, .people-card-role {
+  position: absolute;
+  left: 0.9rem;
+  right: 0.9rem;
+  z-index: 1;
+}
+.people-card-name { bottom: 2.2rem; font-family: var(--font-display); font-weight: 600; font-size: 1.05rem; }
+.people-card-role { bottom: 0.8rem; font-size: 0.78rem; color: #dcd3bd; }
+.people-grid-alumni { opacity: 0.9; }
 
 /* ---- Post list ---- */
 
@@ -264,9 +350,11 @@ p { margin: 0 0 1em; }
     flex-direction: column;
     gap: 0;
     width: 100%;
+    background: var(--color-header-bg);
   }
   .site-nav ul.is-open { display: flex; }
   .site-nav li { border-top: 1px solid #3a352c; }
-  .site-nav a { display: block; padding: 0.75rem 0; }
+  .site-nav a { display: block; padding: 0.75rem 0.25rem; }
   .site-header .wrap { flex-direction: column; align-items: stretch; }
+  .hero { min-height: 70vh; }
 }
