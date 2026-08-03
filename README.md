@@ -18,6 +18,20 @@ python3 -m http.server 8000
 
 Then open `http://localhost:8000` in a browser.
 
+## Sharing a preview with someone outside the team
+
+Some links on the site use absolute paths (e.g. `/our-group/`), so just double-clicking `index.html` won't navigate correctly — it needs to be served, not opened directly as a file. Two easy ways to hand someone a working preview:
+
+**Zip it and have them run the same local server:**
+
+```bash
+zip -r site-preview.zip . -x ".git/*"
+```
+
+Send the zip. They unzip it, run `python3 -m http.server 8000` from inside the folder, and open `http://localhost:8000`.
+
+**Or get them an actual link, no download needed:** drag the folder onto [app.netlify.com/drop](https://app.netlify.com/drop) — it publishes it and gives you a public URL in seconds, no account required. These are temporary unless claimed with a free Netlify account, so it's best for a quick look rather than a permanent link.
+
 ## Status
 
 - [x] Site content copied over
