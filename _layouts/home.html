@@ -12,12 +12,25 @@ layout: default
   <div class="prose intro-prose">
     {{ content }}
   </div>
-  <div class="home-links">
-    <a class="home-link" href="{{ '/people/' | relative_url }}">Meet the group &rarr;</a>
-    <a class="home-link" href="{{ '/research/' | relative_url }}">Our research &rarr;</a>
-    <a class="home-link" href="{{ '/updates/' | relative_url }}">Latest news &rarr;</a>
-  </div>
 </article>
+
+<section class="explore wrap">
+  <h2 class="section-heading">Explore</h2>
+  <div class="explore-grid">
+    <a class="explore-tile" href="{{ '/people/' | relative_url }}" style="background-image: url('{{ '/wp-content/uploads/2016/09/IMG_5389.jpg' | relative_url }}');">
+      <span class="explore-tile-label">Our Group</span>
+    </a>
+    <a class="explore-tile" href="{{ '/research/' | relative_url }}" style="background-image: url('{{ '/wp-content/uploads/2026/01/tree_hymeno-1-1-1024x724.jpg' | relative_url }}');">
+      <span class="explore-tile-label">Research</span>
+    </a>
+    <a class="explore-tile" href="{{ '/updates/' | relative_url }}" style="background-image: url('{{ '/wp-content/uploads/2025/07/WhatsApp-Image-2026-06-13-at-10.20.18.jpeg' | relative_url }}');">
+      <span class="explore-tile-label">News &amp; Updates</span>
+    </a>
+    <a class="explore-tile" href="{{ '/endless-forms/' | relative_url }}" style="background-image: url('{{ '/wp-content/uploads/2014/11/Soapbox-Science-64-of-79.jpg' | relative_url }}');">
+      <span class="explore-tile-label">Endless Forms</span>
+    </a>
+  </div>
+</section>
 
 {% if page.feature_image %}
 <div class="feature-band" style="background-image: url('{{ page.feature_image | relative_url }}');">
@@ -26,3 +39,17 @@ layout: default
   </div>
 </div>
 {% endif %}
+
+<section class="latest wrap">
+  <h2 class="section-heading">Latest from the lab</h2>
+  <div class="latest-grid">
+    {% for post in site.posts limit: 3 %}
+    <a class="latest-card" href="{{ post.url | relative_url }}">
+      {% if post.image %}<span class="latest-card-image" style="background-image: url('{{ post.image | relative_url }}');"></span>{% endif %}
+      <span class="latest-card-date">{{ post.date | date: "%-d %b %Y" }}</span>
+      <span class="latest-card-title">{{ post.title }}</span>
+    </a>
+    {% endfor %}
+  </div>
+  <a class="home-link" href="{{ '/updates/' | relative_url }}">All news &amp; updates &rarr;</a>
+</section>

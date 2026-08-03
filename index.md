@@ -3,8 +3,8 @@ layout: home
 title: Home
 hero: true
 hero_image: /assets/images/hero-yellowjacket.jpg
-feature_image: /assets/images/field-nest.jpg
-feature_caption: "A Metapolybia wasp colony, tagged and ready for observation in the field."
+feature_image: /assets/images/trophallaxis.jpg
+feature_caption: "Trophallaxis: workers exchanging food, marked with paint dots to track individual behaviour within the colony."
 ---
 We are an evolutionary biology research group at University College London, using insects — mostly wasps — to understand how cooperation, conflict and complex societies evolve.
 

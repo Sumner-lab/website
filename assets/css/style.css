@@ -178,6 +178,28 @@ body.has-hero .site-header {
   max-width: 34rem;
 }
 
+.page-header-band {
+  position: relative;
+  min-height: 42vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+}
+.page-header-band::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10,8,5,0.8) 0%, rgba(10,8,5,0.25) 55%, rgba(10,8,5,0.05) 80%);
+}
+.page-header-band-content {
+  position: relative;
+  z-index: 1;
+  padding: 2.5rem 1.5rem 2.5rem;
+}
+.page-header-band h1 { color: #fff; margin: 0; }
+
 .feature-band {
   min-height: 46vh;
   background-size: cover;
@@ -205,6 +227,91 @@ body.has-hero .site-header {
   max-width: 42rem;
   padding-top: 2.5rem;
 }
+
+.prose blockquote {
+  margin: 1.75em 0;
+  padding: 0.25em 0 0.25em 1.25em;
+  border-left: 3px solid var(--color-accent);
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-style: italic;
+  color: var(--color-text);
+}
+.prose blockquote p { margin: 0 0 0.3em; }
+
+.section-heading { margin-top: 0; }
+
+/* ---- Explore grid (homepage) ---- */
+
+.explore { padding: 3rem 1.5rem; }
+.explore-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 1rem;
+}
+.explore-tile {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: 12rem;
+  border-radius: var(--radius);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  text-decoration: none;
+}
+.explore-tile::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10,8,5,0.78), rgba(10,8,5,0.05) 60%);
+  transition: background 0.25s ease;
+}
+.explore-tile:hover::after { background: linear-gradient(to top, rgba(10,8,5,0.9), rgba(10,8,5,0.15) 60%); }
+.explore-tile-label {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.15rem;
+  padding: 1rem;
+}
+
+/* ---- Latest from the lab (homepage) ---- */
+
+.latest { padding: 1rem 1.5rem 4rem; }
+.latest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.5rem;
+  margin: 1.25rem 0 1.75rem;
+}
+.latest-card { text-decoration: none; color: var(--color-text); display: block; }
+.latest-card-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--radius);
+  margin-bottom: 0.75rem;
+}
+.latest-card-date {
+  display: block;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.latest-card-title {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 0.2rem;
+}
+.latest-card:hover .latest-card-title { text-decoration: underline; }
 
 /* ---- Page / post / person ---- */
 
@@ -315,17 +422,26 @@ body.has-hero .site-header {
 }
 .post-list-item a {
   display: flex;
+  align-items: center;
   gap: 1rem;
   padding: 0.9rem 0;
   text-decoration: none;
   color: var(--color-text);
 }
+.post-list-image {
+  flex: none;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: var(--radius);
+  background-size: cover;
+  background-position: center;
+}
+.post-list-text { display: flex; flex-direction: column; gap: 0.15rem; }
 .post-list-date {
   color: var(--color-text-muted);
-  min-width: 7rem;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
-.post-list-title { font-weight: 600; }
+.post-list-title { font-weight: 600; font-family: var(--font-display); font-size: 1.05rem; }
 .post-list-item a:hover .post-list-title { text-decoration: underline; }
 
 .pagination { display: flex; gap: 1rem; margin-top: 1.5rem; }

@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {% feed_meta %}
 </head>
-<body class="{% if page.hero %}has-hero{% endif %}">
+<body class="{% if page.hero or page.header_image %}has-hero{% endif %}">
   {% include header.html %}
   <main id="main">
     {{ content }}

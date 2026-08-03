@@ -1,5 +1,6 @@
 ---
 title: Wasp Picnic Survey 2026
+image: /wp-content/uploads/2025/07/WhatsApp-Image-2026-06-13-at-10.20.18.jpeg
 ---
 Summer time means wasps visiting picnics! Sometimes they go for protein (e.g. ham), other times it's sugar (e.g. jam). Learning about the type of food wasps are after tells us about their life-cycle and can help us better manage them.
 
