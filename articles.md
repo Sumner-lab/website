@@ -1,5 +1,5 @@
 ---
-title: Articles from the Lab
+title: Public Writing
 permalink: /articles/
 header_image: /wp-content/uploads/2026/01/tree_hymeno-1-1-1024x724.jpg
 redirect_from:

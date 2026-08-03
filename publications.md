@@ -1,5 +1,5 @@
 ---
-title: Lab Publications
+title: Publications
 permalink: /publications/
 header_image: /assets/images/hero-yellowjacket.jpg
 ---
