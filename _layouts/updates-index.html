@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="page wrap">
+  <h1>{{ page.title }}</h1>
+  <div class="prose">{{ content }}</div>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li class="post-list-item">
+      <a href="{{ post.url | relative_url }}">
+        <span class="post-list-date">{{ post.date | date: "%-d %b %Y" }}</span>
+        <span class="post-list-title">{{ post.title }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</article>

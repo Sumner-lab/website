@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<article class="page wrap">
+  <h1>{{ page.title }}</h1>
+  <div class="prose">{{ content }}</div>
+
+  {% assign current = site.people | where: "status", "current" %}
+  {% assign alumni = site.people | where: "status", "alumni" %}
+
+  <h2>Current group</h2>
+  <ul class="people-grid">
+    {% for person in current %}
+    <li class="people-card">
+      <a href="{{ person.url | relative_url }}">
+        {% if person.photo %}<img src="{{ person.photo | relative_url }}" alt="">{% endif %}
+        <span class="people-card-name">{{ person.name | default: person.title }}</span>
+        {% if person.role %}<span class="people-card-role">{{ person.role }}</span>{% endif %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  {% if alumni.size > 0 %}
+  <h2>Left the nest</h2>
+  <ul class="people-grid people-grid-alumni">
+    {% for person in alumni %}
+    <li class="people-card">
+      <a href="{{ person.url | relative_url }}">
+        {% if person.photo %}<img src="{{ person.photo | relative_url }}" alt="">{% endif %}
+        <span class="people-card-name">{{ person.name | default: person.title }}</span>
+        {% if person.role %}<span class="people-card-role">{{ person.role }}</span>{% endif %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</article>

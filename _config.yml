@@ -1,0 +1,40 @@
+title: The Sumner Lab
+description: Insect Research Group, University College London
+url: "https://www.sumnerlab.co.uk"
+lang: en-GB
+
+markdown: kramdown
+permalink: /:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+
+collections:
+  people:
+    output: true
+    permalink: /people/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: "person"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

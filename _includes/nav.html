@@ -1,0 +1,11 @@
+<nav class="site-nav" aria-label="Primary">
+  <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">
+    <span class="sr-only">Menu</span>
+    <span class="nav-toggle-bars" aria-hidden="true"></span>
+  </button>
+  <ul id="primary-menu">
+    {% for item in site.data.nav %}
+    <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
