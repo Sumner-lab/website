@@ -200,6 +200,18 @@ body.has-hero .site-header {
 }
 .page-header-band h1 { color: #fff; margin: 0; }
 
+/* For poster/graphic header images (e.g. a book cover) rather than photos */
+.page-header-band-contain {
+  background-color: var(--color-header-bg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 15%;
+  min-height: 50vh;
+}
+.page-header-band-contain::after {
+  background: linear-gradient(to top, rgba(10,8,5,0.9) 0%, rgba(10,8,5,0.4) 30%, rgba(10,8,5,0) 55%);
+}
+
 .feature-band {
   min-height: 46vh;
   background-size: cover;
@@ -255,6 +267,7 @@ body.has-hero .site-header {
   align-items: flex-end;
   min-height: 12rem;
   border-radius: var(--radius);
+  background-color: var(--color-header-bg);
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -266,6 +279,9 @@ body.has-hero .site-header {
   inset: 0;
   background: linear-gradient(to top, rgba(10,8,5,0.78), rgba(10,8,5,0.05) 60%);
   transition: background 0.25s ease;
+}
+.explore-tile:not([style*="background-image"])::after {
+  background: linear-gradient(160deg, var(--color-accent), var(--color-header-bg));
 }
 .explore-tile:hover::after { background: linear-gradient(to top, rgba(10,8,5,0.9), rgba(10,8,5,0.15) 60%); }
 .explore-tile-label {
