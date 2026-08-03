@@ -2,6 +2,7 @@
 name: Caroline Chandler
 role: PhD Student, Wasps in UK Farming Systems
 status: current
+order: 4
 photo: /wp-content/uploads/2026/01/IMG_3731-768x1024.jpg
 title: Caroline Chandler
 redirect_from:

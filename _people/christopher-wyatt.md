@@ -2,6 +2,7 @@
 name: Christopher Wyatt
 role: Eco-Flow Project Lead
 status: current
+order: 5
 photo: /wp-content/uploads/2019/05/ucl.jpg
 title: Christopher Wyatt
 redirect_from:

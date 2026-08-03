@@ -2,6 +2,7 @@
 name: Seirian Sumner
 role: Principal Investigator · Professor of Behavioural Ecology
 status: current
+order: 1
 photo: /wp-content/uploads/2014/09/Seirian-Sumner.jpg
 title: Seirian Sumner
 redirect_from:

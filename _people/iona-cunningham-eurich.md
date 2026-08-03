@@ -2,6 +2,7 @@
 name: Iona Cunningham-Eurich
 role: PhD Student, Parasitoid Wasp Diversity & Ecology
 status: current
+order: 10
 photo: /wp-content/uploads/2022/10/image.png
 title: Iona Cunningham-Eurich
 redirect_from:

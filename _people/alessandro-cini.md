@@ -1,7 +1,7 @@
 ---
 name: Alessandro Cini
 role: Postdoctoral Research Fellow (Marie Skłodowska-Curie)
-status: current
+status: alumni
 photo: /wp-content/uploads/2017/03/DSCN7111-1024x768.jpg
 title: Alessandro Cini
 redirect_from:

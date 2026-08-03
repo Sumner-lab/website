@@ -2,6 +2,7 @@
 name: Romuald Tcheutchoua
 role: PhD Student, Wasps as Biocontrol Agents
 status: current
+order: 11
 title: Romuald Tcheutchoua
 redirect_from:
   - /the-group/romuald-tcheutchoua/

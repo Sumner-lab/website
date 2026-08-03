@@ -2,6 +2,7 @@
 name: Cintia Akemi Oi
 role: Postdoctoral Researcher (NERC) / Scientific Associate (NHM)
 status: current
+order: 6
 photo: /wp-content/uploads/2022/10/image-1.png
 title: Cintia Akemi Oi
 redirect_from:

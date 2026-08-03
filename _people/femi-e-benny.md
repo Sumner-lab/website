@@ -2,6 +2,7 @@
 name: Femi E Benny
 role: PhD Student, Ecology & Behaviour of Asian Giant Hornets
 status: current
+order: 7
 photo: /wp-content/uploads/2025/01/IMG_5255-scaled.jpg
 title: Femi E Benny
 redirect_from:
