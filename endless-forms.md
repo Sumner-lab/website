@@ -2,8 +2,6 @@
 title: Endless Forms
 permalink: /endless-forms/
 header_image: /wp-content/uploads/2014/11/Soapbox-Science-64-of-79.jpg
-redirect_from:
-  - /endless-forms/
 ---
 **Endless Forms: The Secret World of Wasps**, Seirian Sumner's book, is out now.
 
