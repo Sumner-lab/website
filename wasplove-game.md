@@ -1,7 +1,8 @@
 ---
-title: The #WaspLove Computer Game
+title: "The #WaspLove Computer Game"
 permalink: /wasplove-game/
-header_image: /wp-content/uploads/2020/02/Wasplove_game-1024x523.png
+header_image: /wp-content/uploads/2020/02/Wasplove_game.png
+header_image_fit: contain
 redirect_from:
   - /outreach-and-citizen-science/how-to-have-impact-the-wasplove-game/
 ---
