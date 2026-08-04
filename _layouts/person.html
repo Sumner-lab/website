@@ -4,7 +4,7 @@ layout: default
 <article class="person wrap">
   <header class="person-header">
     {% if page.photo %}
-    <img class="person-photo" src="{{ page.photo | relative_url }}" alt="{{ page.name | default: page.title }}">
+    <img class="person-photo" src="{{ page.photo | relative_url }}" alt="{{ page.name | default: page.title }}"{% if page.photo_position %} style="object-position: {{ page.photo_position }};"{% endif %}>
     {% endif %}
     <div>
       <h1>{{ page.name | default: page.title }}</h1>

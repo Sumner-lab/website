@@ -3,6 +3,7 @@ name: Benjamin Taylor
 role: Human Frontiers Science Program Research Fellow
 status: current
 order: 3
+photo: /wp-content/uploads/2026/08/bentay.jpg
 title: Benjamin Taylor
 redirect_from:
   - /our-group/benjamin-taylor/

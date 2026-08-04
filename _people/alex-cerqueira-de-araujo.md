@@ -3,6 +3,7 @@ name: Alex Cerqueira de Araujo
 role: Senior Bioinformatician
 status: current
 order: 2
+photo: /wp-content/uploads/2026/08/alexcda.jpg
 title: Alex Cerqueira de Araujo
 redirect_from:
   - /our-group/alex-cerqueira-de-araujo/
