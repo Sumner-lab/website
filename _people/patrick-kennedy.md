@@ -2,6 +2,7 @@
 name: Patrick Kennedy
 role: PhD Student, Social Evolution (now Dr Kennedy)
 status: alumni
+photo: /wp-content/uploads/2026/08/patrickkennedy.jpeg
 title: Patrick Kennedy
 redirect_from:
   - /left-the-nest/patrick-kennedy/
