@@ -23,6 +23,6 @@ My main interests revolve around plant-animal interactions, particularly seed di
 - 2009–2010: MSc (Hons.) Conservation, University College London
 - 2007–2009: BSc (Hons.) Biological Sciences, Roehampton University
 
-![Fieldwork in Jonkershoek Nature Reserve, South Africa](/wp-content/uploads/2014/09/DSC_0153_mini.jpg)
+![Fieldwork in Jonkershoek Nature Reserve, South Africa]({{ site.baseurl }}/wp-content/uploads/2014/09/DSC_0153_mini.jpg)
 
 **Contact:** [ajm.devenish@bristol.ac.uk](mailto:ajm.devenish@bristol.ac.uk) / [a.devenish@kew.org](mailto:a.devenish@kew.org)

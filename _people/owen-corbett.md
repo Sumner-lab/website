@@ -13,7 +13,7 @@ redirect_from:
 
 **Research interests:** Behavioural ecology and evolutionary biology of eusocial species — the evolutionary mechanisms underlying plasticity of behaviour within the social environment, and resolution of reproductive conflict in cooperatively breeding societies.
 
-![Marking wasps in a derelict potting shed at the UWI Field Station, University of the West Indies, Trinidad](/wp-content/uploads/2019/05/69903355_10156231822837441_6683091111122042880_o.jpg)
+![Marking wasps in a derelict potting shed at the UWI Field Station, University of the West Indies, Trinidad]({{ site.baseurl }}/wp-content/uploads/2019/05/69903355_10156231822837441_6683091111122042880_o.jpg)
 
 **Background**
 

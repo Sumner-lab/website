@@ -20,11 +20,11 @@ I use genomic, transcriptomic and proteomic data to find evolutionary patterns a
 
 #### Evolution of viral symbiosis in parasitoid wasps
 
-![](/wp-content/uploads/2025/01/images_for_labwebsite_wasp.png)
+![]({{ site.baseurl }}/wp-content/uploads/2025/01/images_for_labwebsite_wasp.png)
 
 #### Comparative genomics in ticks
 
-![](/wp-content/uploads/2025/01/images_for_labwebsite_ticks.png)
+![]({{ site.baseurl }}/wp-content/uploads/2025/01/images_for_labwebsite_ticks.png)
 
 **Background**
 

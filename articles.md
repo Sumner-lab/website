@@ -26,7 +26,7 @@ Sharing our passion for the world of insects with the public — general-audienc
 - Sumner, S. (2009) How did the social insects become social? In: *What's Next? Dispatches on the Future of Science* (ed. Brockman, M.), pp. 199–210. Vintage, New York.
 - Sumner, S. (2009) Reassessing Relatedness. In: *What Have You Changed Your Mind About?* (ed. Brockman, J.), p. 416. Harper Perennial.
 
-Seirian is also the author of **Endless Forms: The Secret World of Wasps** — see the [book page](/endless-forms/).
+Seirian is also the author of **Endless Forms: The Secret World of Wasps** — see the [book page]({{ site.baseurl }}/endless-forms/).
 
 ## Femi E Benny
 
@@ -45,8 +45,8 @@ Seirian is also the author of **Endless Forms: The Secret World of Wasps** — s
 - Femi E.B. (2021) [Eating insects could be the future of food](https://india.mongabay.com/2021/05/explainer-eating-insects-could-be-the-future-of-food/). Mongabay.
 - Femi E.B. (2021) [Understanding the Alarm Around Asian Giant Hornets in the US](https://science.thewire.in/environment/understanding-the-alarm-around-asian-giant-hornets-in-the-us/). The Wire Science.
 
-*(Full profile: [Femi E Benny](/people/femi-e-benny/).)*
+*(Full profile: [Femi E Benny]({{ site.baseurl }}/people/femi-e-benny/).)*
 
 ---
 
-*Have popular-science writing to add? [Get in touch](/contact/) — this page only includes what's been written into individual profile pages so far, not a full survey of everyone who has written for a general audience.*
+*Have popular-science writing to add? [Get in touch]({{ site.baseurl }}/contact/) — this page only includes what's been written into individual profile pages so far, not a full survey of everyone who has written for a general audience.*

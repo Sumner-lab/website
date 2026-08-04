@@ -13,25 +13,25 @@ TV, radio, and press coverage of the lab's work — and the people behind it.
   <iframe src="https://videopress.com/embed/fc2GWn8i?cover=1&autoPlay=0&controls=1&loop=0&muted=0&persistVolume=1&playsinline=0&preloadContent=metadata&useAverageColor=1&hd=0" title="VideoPress Video Player" frameborder="0" allowfullscreen loading="lazy"></iframe>
 </div>
 
-Our very own PhD student [Idris Adams](/people/idris-adams/) wowed the nation with his insights into the world of wasps, marking 2026 as an excellent "wasp summer" with the warm, dry spring and plenty of prey.
+Our very own PhD student [Idris Adams]({{ site.baseurl }}/people/idris-adams/) wowed the nation with his insights into the world of wasps, marking 2026 as an excellent "wasp summer" with the warm, dry spring and plenty of prey.
 
 Sumner, S. (2025) [What to do when wasps crash your picnic – a scientist's guide to dining safely with these insects](https://theconversation.com/what-to-do-when-wasps-crash-your-picnic-a-scientists-guide-to-dining-safely-with-these-insects-261589). *The Conversation* (July 2025) — republished in The Independent, BBC Online, and featured in The Sunday Times, plus republished in French, Spanish and Chinese. This was the second most-read article in The Conversation written by a UCL author in 2025, reaching over 90,000 readers.
 
 ## Where Are the Wasps? Summer 2026
 
-A flip-flop spring — warm to wet, chilly to cooking — followed by a succession of heatwaves might explain the apparent shortage of social wasps in the UK this year. Read about it in [Seirian's article in The Conversation](https://theconversation.com/where-have-all-the-wasps-gone-this-summer-288535). Surprising interest from the media in this — and the link with a large number of flies. This also became an opportunity to recruit members of the public to tell us what wasps at their picnics are eating, in the [Wasp Picnic Survey 2026](/wasp-picnic-survey-2026/), run by [PhD student Femi Benny](/people/femi-e-benny/).
+A flip-flop spring — warm to wet, chilly to cooking — followed by a succession of heatwaves might explain the apparent shortage of social wasps in the UK this year. Read about it in [Seirian's article in The Conversation](https://theconversation.com/where-have-all-the-wasps-gone-this-summer-288535). Surprising interest from the media in this — and the link with a large number of flies. This also became an opportunity to recruit members of the public to tell us what wasps at their picnics are eating, in the [Wasp Picnic Survey 2026]({{ site.baseurl }}/wasp-picnic-survey-2026/), run by [PhD student Femi Benny]({{ site.baseurl }}/people/femi-e-benny/).
 
 **Media highlights**
 
-- [Radio 4 Today Programme](/wp-content/uploads/2026/06/Radio4_Today_310726.m4a) (31/7/26)
+- [Radio 4 Today Programme]({{ site.baseurl }}/wp-content/uploads/2026/06/Radio4_Today_310726.m4a) (31/7/26)
 
-  <audio controls src="/wp-content/uploads/2026/06/Radio4_Today_310726.m4a"></audio>
+  <audio controls src="{{ site.baseurl }}/wp-content/uploads/2026/06/Radio4_Today_310726.m4a"></audio>
 
 - [The Times](https://www.thetimes.com/uk/science/article/wasps-weather-feed-insects-heatwave-8dvrwx0rz) (31/7/26)
 - [The Telegraph](https://www.telegraph.co.uk/news/2026/07/31/flies-swarm-as-weather-extremes-are-buzz-kill-for-wasps/) (31/7/26)
 - [Times Radio](https://www.thetimes.com/radio/show/20260801-34116/2026-08-01?login=true) (1/8/26)
 
-  <audio controls src="/wp-content/uploads/2026/06/TimesRadio_2026.m4a"></audio>
+  <audio controls src="{{ site.baseurl }}/wp-content/uploads/2026/06/TimesRadio_2026.m4a"></audio>
 
 - LBC Radio (1/8/26)
 
@@ -39,7 +39,7 @@ A flip-flop spring — warm to wet, chilly to cooking — followed by a successi
 
 The [World of Wasps exhibition](https://www.ucl.ac.uk/museums-collections/events/2025/jun/world-wasps), held at UCL's Grant Museum of Zoology (June 2025 – January 2026), attracted a lot of media interest. The exhibition and our lab's work featured on BBC News, over 30 BBC regional radio channels, and hit international media with [CNN](https://edition.cnn.com/science/love-wasps-exhibition-c2e-spc).
 
-![CNN filming Seirian about the World of Wasps exhibition.](/wp-content/uploads/2026/02/CNN-world-of-wasps_3-1024x723.jpeg)
+![CNN filming Seirian about the World of Wasps exhibition.]({{ site.baseurl }}/wp-content/uploads/2026/02/CNN-world-of-wasps_3-1024x723.jpeg)
 
 ## The Conversation, 23 August 2024
 
@@ -59,7 +59,7 @@ Unlike bees, which we adore for their honey and waggle dances, wasps have suffer
 
 [Read the full article](https://www.theguardian.com/environment/2022/may/22/revenge-of-the-wasp-woman-dr-seirian-sumner-loves-wasps-and-advocates-for-them)
 
-![Photograph: Alex Lake/The Observer](/wp-content/uploads/2022/05/Photograph-Alex-Lake-The-Observer.png)
+![Photograph: Alex Lake/The Observer]({{ site.baseurl }}/wp-content/uploads/2022/05/Photograph-Alex-Lake-The-Observer.png)
 
 ---
 

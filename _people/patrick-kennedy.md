@@ -13,4 +13,4 @@ Patrick is now a Marie Curie Fellow and Simons Society Junior Fellow at Columbia
 
 Patrick's website: [www.patrickckennedy.com](http://www.patrickckennedy.com)
 
-![Polistes canadensis, Panama](/wp-content/uploads/2023/05/Panama1.png)
+![Polistes canadensis, Panama]({{ site.baseurl }}/wp-content/uploads/2023/05/Panama1.png)
