@@ -13,4 +13,10 @@ Thanks to the skills, artistry and perseverance of Amber and Dave at [Fo.am](htt
 
 The game went viral on social media on release, played by everyone from kids to PhD students to dedicated gamers, with over 3,900 games played in the first two weeks alone. It's since been installed as an interactive exhibit at the Eden Project, which sees over a million visitors a year.
 
-![The WaspLove game, playable at wasplove.com](/wp-content/uploads/2020/02/Wasplove_game-1024x523.png)
+## Play now
+
+<div class="game-embed">
+  <iframe src="https://wasplove.com/" title="The #WaspLove game" loading="lazy" sandbox="allow-scripts allow-same-origin"></iframe>
+</div>
+
+Playing up here a bit small? [Open the game fullscreen at wasplove.com](https://wasplove.com/).
