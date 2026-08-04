@@ -10,6 +10,11 @@ Did your picnic wasp want Ham (protein) or Jam (sugar)? Take part in our [quick 
 
 ![](/wp-content/uploads/2025/07/wasp-on-sausage-1024x768.jpg)
 
+<figure>
+  <img src="/wp-content/uploads/2025/07/WhatsApp-Image-2026-06-13-at-10.20.18.jpeg" alt="QR code linking to the Wasp Picnic Survey 2026" style="max-width: 220px;">
+  <figcaption>Scan to take the survey.</figcaption>
+</figure>
+
 **Why should I take part?**
 
 - Wasps are important pest-controllers and pollinators. Read more [here](https://www.theglobeandmail.com/opinion/article-how-i-learned-to-stop-worrying-and-love-the-wasp-and-why-you-should/).
