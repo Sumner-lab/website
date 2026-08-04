@@ -14,15 +14,24 @@ layout: default
 
   {% assign current = site.people | where: "status", "current" | sort: "order" %}
   {% assign alumni = site.people | where: "status", "alumni" | sort: "name" %}
+  {% assign rotations = "-1.6,1.2,-0.8,1.8,-1.2,0.9,-1.9,1.5" | split: "," %}
 
   <h2>Current group</h2>
   <ul class="people-grid">
     {% for person in current %}
-    <li class="people-card">
+    {% assign r_index = forloop.index0 | modulo: 8 %}
+    {% assign r = rotations[r_index] %}
+    <li class="people-card" style="--r: {{ r }}deg;">
       <a href="{{ person.url | relative_url }}">
-        {% if person.photo %}<img src="{{ person.photo | relative_url }}" alt="">{% endif %}
-        <span class="people-card-name">{{ person.name | default: person.title }}</span>
-        {% if person.role %}<span class="people-card-role">{{ person.role }}</span>{% endif %}
+        {% if person.photo %}
+          <img src="{{ person.photo | relative_url }}" alt="">
+        {% else %}
+          <span class="people-card-placeholder" aria-hidden="true">{{ person.name | default: person.title | slice: 0, 1 }}</span>
+        {% endif %}
+        <span class="people-card-caption">
+          <span class="people-card-name">{{ person.name | default: person.title }}</span>
+          {% if person.role %}<span class="people-card-role">{{ person.role }}</span>{% endif %}
+        </span>
       </a>
     </li>
     {% endfor %}
@@ -32,11 +41,19 @@ layout: default
   <h2>Left the nest</h2>
   <ul class="people-grid people-grid-alumni">
     {% for person in alumni %}
-    <li class="people-card">
+    {% assign r_index = forloop.index0 | modulo: 8 %}
+    {% assign r = rotations[r_index] %}
+    <li class="people-card" style="--r: {{ r }}deg;">
       <a href="{{ person.url | relative_url }}">
-        {% if person.photo %}<img src="{{ person.photo | relative_url }}" alt="">{% endif %}
-        <span class="people-card-name">{{ person.name | default: person.title }}</span>
-        {% if person.role %}<span class="people-card-role">{{ person.role }}</span>{% endif %}
+        {% if person.photo %}
+          <img src="{{ person.photo | relative_url }}" alt="">
+        {% else %}
+          <span class="people-card-placeholder" aria-hidden="true">{{ person.name | default: person.title | slice: 0, 1 }}</span>
+        {% endif %}
+        <span class="people-card-caption">
+          <span class="people-card-name">{{ person.name | default: person.title }}</span>
+          {% if person.role %}<span class="people-card-role">{{ person.role }}</span>{% endif %}
+        </span>
       </a>
     </li>
     {% endfor %}

@@ -410,50 +410,61 @@ body.has-hero .site-header {
 }
 .home-link:hover { border-color: var(--color-accent); }
 
-/* ---- People grid (photo-forward, editorial tiles) ---- */
+/* ---- People grid (instant-photo cards) ---- */
 
 .people-grid {
   list-style: none;
-  margin: 1.25rem 0 2rem;
-  padding: 0;
+  margin: 2rem 0 2.5rem;
+  padding: 2rem 1.5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: 2rem 1.5rem;
+  background: linear-gradient(180deg, var(--color-accent-light), transparent 45%);
+  border-radius: var(--radius);
 }
 .people-card a {
-  position: relative;
-  text-decoration: none;
-  color: #fff;
   display: block;
-  aspect-ratio: 3 / 4;
-  border-radius: var(--radius);
-  overflow: hidden;
-  background: var(--color-header-bg);
+  text-decoration: none;
+  color: var(--color-text);
+  background: var(--color-surface);
+  padding: 0.6rem 0.6rem 1rem;
+  box-shadow: 0 10px 22px -8px rgba(20,15,5,0.28), 0 2px 4px rgba(20,15,5,0.08);
+  transform: rotate(var(--r));
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.people-card a:hover {
+  transform: rotate(0deg) translateY(-3px);
+  box-shadow: 0 16px 28px -10px rgba(20,15,5,0.32);
 }
 .people-card img {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 1;
   object-fit: cover;
-  transition: transform 0.35s ease;
+  display: block;
+  filter: saturate(0.88) sepia(0.08) contrast(1.03);
 }
-.people-card a:hover img { transform: scale(1.05); }
-.people-card a::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(to bottom, rgba(10,8,5,0.8) 0%, rgba(10,8,5,0) 30%),
-    linear-gradient(to top, rgba(10,8,5,0.85) 0%, rgba(10,8,5,0) 40%);
+.people-card-placeholder {
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-accent-light);
+  color: var(--color-accent);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 2.5rem;
 }
-.people-card-name, .people-card-role {
-  position: absolute;
-  left: 0.9rem;
-  right: 0.9rem;
-  z-index: 1;
+.people-card-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 0.65rem;
 }
-.people-card-name { top: 0.7rem; font-family: var(--font-display); font-weight: 600; font-size: 1.05rem; line-height: 1.25; }
-.people-card-role { bottom: 0.8rem; font-size: 0.78rem; color: #dcd3bd; }
-.people-grid-alumni { opacity: 0.9; }
+.people-card-name { font-family: var(--font-display); font-weight: 600; font-size: 1rem; }
+.people-card-role { font-size: 0.75rem; color: var(--color-text-muted); margin-top: 0.15rem; }
+.people-grid-alumni { background: linear-gradient(180deg, var(--color-border), transparent 45%); }
 
 /* ---- Post list ---- */
 
