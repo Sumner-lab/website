@@ -11,4 +11,6 @@ header_image_fit: contain
 
 [Get your copy](https://harpercollins.co.uk/products/endless-forms-the-secret-world-of-wasps-seirian-sumner?variant=39532321472590)
 
-*(Reviews, media coverage, and more to come once the rest of the site is converted.)*
+See TV, radio, and press coverage of the lab on the [Media](/media/) page — including BBC Breakfast, CNN, The Observer, and BBC Radio 4.
+
+*(More reviews to come once the rest of the site is converted.)*
