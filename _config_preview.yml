@@ -1,0 +1,12 @@
+# Overrides applied only for the temporary branch-preview deploy
+# (github.io/website/), not for local dev or the eventual production
+# build on the real domain. See .github/workflows/pages.yml.
+url: "https://sumner-lab.github.io"
+baseurl: "/website"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - CNAME
