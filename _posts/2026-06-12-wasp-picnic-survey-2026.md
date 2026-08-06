@@ -23,7 +23,12 @@ Did your picnic wasp want Ham (protein) or Jam (sugar)? Take part in our [quick 
 
 **Do you run a cafe, pub, or restaurant?**
 
-We'd love it if you'd print out [this poster]({{ site.baseurl }}/wp-content/uploads/2026/06/ham-or-jam-poster_UCL2026.pdf) and pin it up in your outdoor dining space, to encourage your visitors to take part.
+We'd love it if you'd print out this poster and pin it up in your outdoor dining space, to encourage your visitors to take part.
+
+<a class="poster-link" href="{{ site.baseurl }}/wp-content/uploads/2026/06/ham-or-jam-poster_UCL2026.pdf" target="_blank" rel="noopener">
+  <img src="{{ site.baseurl }}/assets/images/ham-or-jam-poster.jpg" alt="Ham or Jam picnic survey poster">
+</a>
+<p class="poster-caption"><a href="{{ site.baseurl }}/wp-content/uploads/2026/06/ham-or-jam-poster_UCL2026.pdf" target="_blank" rel="noopener">Open or download the full poster (PDF)</a></p>
 
 **Ham or Jam media highlights**
 

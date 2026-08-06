@@ -367,6 +367,26 @@ body.has-hero .site-header {
   height: auto;
 }
 
+.poster-link {
+  display: block;
+  max-width: 320px;
+  margin: 1em 0 0;
+}
+.poster-link img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: var(--radius);
+  box-shadow: 0 0.6rem 1.5rem rgba(10,8,5,0.18);
+  border: 1px solid rgba(10,8,5,0.08);
+  transition: transform 0.2s ease;
+}
+.poster-link:hover img { transform: translateY(-3px); }
+.poster-caption {
+  font-size: 0.9rem;
+  margin: 0.75em 0 1.5em;
+}
+
 .game-embed {
   position: relative;
   width: 100%;
