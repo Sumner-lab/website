@@ -1,26 +1,15 @@
 ---
 layout: default
 ---
-{% if page.header_image %}
-<div class="post-cover" style="background-image: url('{{ page.header_image | relative_url }}');{% if page.header_image_position %} background-position: {{ page.header_image_position }};{% endif %}">
-  <div class="post-cover-content wrap">
-    <p class="post-meta post-meta-light"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></p>
-    <h1>{{ page.title }}</h1>
-  </div>
-</div>
-<article class="post wrap">
-  <div class="prose">
-    {{ content }}
-  </div>
-</article>
-{% else %}
 <article class="post wrap">
   <header class="post-header">
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></p>
     <h1>{{ page.title }}</h1>
   </header>
+  {% if page.banner_image %}
+  <img class="post-banner" src="{{ page.banner_image | relative_url }}" alt="{{ page.banner_alt | default: page.title }}">
+  {% endif %}
   <div class="prose">
     {{ content }}
   </div>
 </article>
-{% endif %}

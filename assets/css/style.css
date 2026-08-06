@@ -212,38 +212,19 @@ body.has-hero .site-header {
   background: linear-gradient(to top, rgba(10,8,5,0.9) 0%, rgba(10,8,5,0.4) 30%, rgba(10,8,5,0) 55%);
 }
 
-/* ---- Post cover banner ---- */
+/* ---- Post banner (in-flow, below header — not an overlapping hero) ---- */
 
-.post-cover {
-  position: relative;
-  min-height: 46vh;
-  background-size: cover;
-  background-position: center 20%;
-  display: flex;
-  align-items: flex-end;
-  color: #fff;
-}
-.post-cover::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, rgba(10,8,5,0.85) 0%, rgba(10,8,5,0.3) 55%, rgba(10,8,5,0.05) 80%);
-}
-.post-cover-content {
-  position: relative;
-  z-index: 1;
-  padding: 2.5rem 1.5rem 2.5rem;
-}
-.post-cover h1 { color: #fff; margin: 0; }
-.post-meta-light {
-  color: #ecdfc3;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  margin-bottom: 0.25rem;
+.post-banner {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4.5 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--radius);
+  margin: 1.5rem 0 2rem;
 }
 @media (max-width: 600px) {
-  .post-cover { min-height: 36vh; }
+  .post-banner { aspect-ratio: 2.2 / 1; }
 }
 
 .feature-band {
