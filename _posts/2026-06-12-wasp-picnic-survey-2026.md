@@ -32,8 +32,26 @@ We'd love it if you'd print out this poster and pin it up in your outdoor dining
 
 **Ham or Jam media highlights**
 
-- [Radio 4 Today Programme]({{ site.baseurl }}/wp-content/uploads/2026/06/Radio4_Today_310726.m4a) (31/7/26)
-- [The Times](https://www.thetimes.com/uk/science/article/wasps-weather-feed-insects-heatwave-8dvrwx0rz) (31/7/26)
-- [The Telegraph](https://www.telegraph.co.uk/news/2026/07/31/flies-swarm-as-weather-extremes-are-buzz-kill-for-wasps/) (31/7/26)
-- [Times Radio](https://www.thetimes.com/radio/show/20260801-34116/2026-08-01?login=true) (1/8/26)
-- LBC Radio (1/8/26)
+<ul class="media-list">
+  <li>
+    <span class="media-source">Radio 4 Today Programme</span>
+    <audio controls preload="none" src="{{ site.baseurl }}/wp-content/uploads/2026/06/Radio4_Today_310726.m4a"></audio>
+    <span class="media-date">31/7/26</span>
+  </li>
+  <li>
+    <a href="https://www.thetimes.com/uk/science/article/wasps-weather-feed-insects-heatwave-8dvrwx0rz">The Times</a>
+    <span class="media-date">31/7/26</span>
+  </li>
+  <li>
+    <a href="https://www.telegraph.co.uk/news/2026/07/31/flies-swarm-as-weather-extremes-are-buzz-kill-for-wasps/">The Telegraph</a>
+    <span class="media-date">31/7/26</span>
+  </li>
+  <li>
+    <a class="media-play" href="https://www.thetimes.com/radio/show/20260801-34116/2026-08-01?login=true" target="_blank" rel="noopener"><span class="media-play-icon" aria-hidden="true"></span>Listen: Times Radio</a>
+    <span class="media-date">1/8/26</span>
+  </li>
+  <li>
+    <span class="media-source">LBC Radio</span>
+    <span class="media-date">1/8/26</span>
+  </li>
+</ul>

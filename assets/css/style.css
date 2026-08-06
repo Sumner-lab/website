@@ -387,6 +387,52 @@ body.has-hero .site-header {
   margin: 0.75em 0 1.5em;
 }
 
+.media-list {
+  list-style: none;
+  margin: 1em 0 1.5em;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.media-list li {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.media-source { font-weight: 600; }
+.media-date {
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}
+.media-list audio {
+  height: 2.25rem;
+  flex: 1 1 15rem;
+  max-width: 22rem;
+}
+.media-play {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.3rem 0.85rem 0.3rem 0.7rem;
+  border-radius: 999px;
+  background: var(--color-accent-light);
+  color: var(--color-accent);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.media-play:hover { background: var(--color-accent); color: #fff; }
+.media-play-icon {
+  width: 0;
+  height: 0;
+  border-top: 0.32rem solid transparent;
+  border-bottom: 0.32rem solid transparent;
+  border-left: 0.5rem solid currentColor;
+}
+
 .game-embed {
   position: relative;
   width: 100%;
