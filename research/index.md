@@ -8,12 +8,13 @@ We combine genomic, transcriptomic, and behavioural approaches to understand how
 
 <ul class="research-tiles">
   <li>
-    <a class="research-tile" href="{{ site.baseurl }}/research/evolution/" style="background-image: url('{{ site.baseurl }}/wp-content/uploads/2026/01/tree_hymeno-1-1-1536x1085.jpg');">
+    <a class="research-tile" href="{{ site.baseurl }}/research/evolution/" style="background-image: url('{{ site.baseurl }}/assets/images/termites-kirkwood.jpg');">
       <div class="research-tile-content">
         <p class="research-tile-title">Evolution</p>
         <p class="research-tile-desc">Sociality, major transitions to superorganismality, social parasitism and parasitoid-host relationships.</p>
       </div>
     </a>
+    <a class="research-tile-credit" href="https://www.flickr.com/photos/fearless_craig/3997312896/" target="_blank" rel="noopener">Photo: Craig Kirkwood (CC BY-SA 2.0)</a>
   </li>
   <li>
     <a class="research-tile" href="{{ site.baseurl }}/research/genomics/" style="background-image: url('{{ site.baseurl }}/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-23-at-14.50.02-1536x1152.jpeg');">

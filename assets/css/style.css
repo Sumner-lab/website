@@ -326,6 +326,7 @@ body.has-hero .site-header {
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
+.research-tiles > li { position: relative; }
 @media (max-width: 700px) {
   .research-tiles { grid-template-columns: 1fr; }
 }
@@ -388,6 +389,20 @@ a.research-tile:hover::after {
   padding: 0.25rem 0.6rem;
   border-radius: 999px;
 }
+.research-tile-credit {
+  position: absolute;
+  z-index: 1;
+  top: 0.6rem;
+  right: 0.6rem;
+  background: rgba(10,8,5,0.55);
+  color: #fff;
+  font-size: 0.62rem;
+  letter-spacing: 0.02em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+}
+.research-tile-credit:hover { background: rgba(10,8,5,0.75); }
 @media (max-width: 700px) {
   .research-tile { min-height: 16rem; }
 }
