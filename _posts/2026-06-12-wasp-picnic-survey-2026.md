@@ -77,7 +77,10 @@ We'd love it if you'd print out this poster and pin it up in your outdoor dining
   </li>
   <li class="media-card" style="--r: 1.1deg;">
     <a class="media-card-inner" href="https://theconversation.com/where-have-all-the-wasps-gone-this-summer-288535" target="_blank" rel="noopener">
-      <img class="media-card-thumb" src="{{ site.baseurl }}/assets/images/conversation-wasps-gone.jpg" alt="A wasp in flight">
+      <div class="media-card-photo">
+        <img class="media-card-thumb" src="{{ site.baseurl }}/assets/images/conversation-wasps-gone.jpg" alt="A wasp in flight">
+        <span class="media-card-credit">Credit: Dabuch/Shutterstock</span>
+      </div>
       <p class="media-card-outlet">The Conversation</p>
       <p class="media-card-headline">Where have all the wasps gone this summer?</p>
       <p class="media-card-meta"><span>Seirian Sumner</span><span>29 Jul 2026</span></p>
