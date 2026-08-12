@@ -1,0 +1,5 @@
+---
+title: Seirian’s Seminar Frenzy
+image: /wp-content/uploads/2014/09/DSC_0105-200x300.jpg
+---
+[<img src="{{ site.baseurl }}/wp-content/uploads/2014/09/DSC_0105-200x300.jpg" class="alignleft size-medium wp-image-80" loading="lazy" decoding="async" srcset="{{ site.baseurl }}/wp-content/uploads/2014/09/DSC_0105-200x300.jpg 200w, {{ site.baseurl }}/wp-content/uploads/2014/09/DSC_0105-685x1024.jpg 685w" sizes="auto, (max-width: 200px) 100vw, 200px" width="200" height="300" alt="DSC_0105" />]({{ site.baseurl }}/wp-content/uploads/2014/09/DSC_0105.jpg)Seirian is keeping busy with a series of seminars in UK universities in the next few weeks, where she is talking about the molecular basis of sociality. Find her at <a href="http://www.ucl.ac.uk/cee/events/gene-regulation" target="_blank">UCL</a>, <a href="http://www.swansea.ac.uk/science/whats-happening/biosciencesseminarseries2014.php" target="_blank">Swansea</a>, Bath and <a href="http://psychology.exeter.ac.uk/research/seminars/" target="_blank">Exeter</a>.

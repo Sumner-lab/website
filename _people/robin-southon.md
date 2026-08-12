@@ -6,6 +6,7 @@ photo: /wp-content/uploads/2014/09/IMG_0331.jpg
 title: Robin Southon
 redirect_from:
   - /left-the-nest/robin-southon/
+  - /the-group/robin-southon/
 ---
 **Position:** PhD Student
 

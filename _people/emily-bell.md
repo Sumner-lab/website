@@ -6,6 +6,7 @@ photo: /wp-content/uploads/2014/09/photo-23.jpg
 title: Emily Bell
 redirect_from:
   - /left-the-nest/emily-bell/
+  - /the-group/emily-bell/
 ---
 **Position:** PhD Student
 

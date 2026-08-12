@@ -6,6 +6,7 @@ photo: /wp-content/uploads/2014/09/11856326_10153539475267329_812875471567851683
 title: Daisy Taylor
 redirect_from:
   - /left-the-nest/daisy-taylor/
+  - /the-group/daisy-taylor/
 ---
 *On fieldwork in Trinidad.*
 

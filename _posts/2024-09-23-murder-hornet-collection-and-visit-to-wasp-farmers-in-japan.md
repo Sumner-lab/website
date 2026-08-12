@@ -1,0 +1,19 @@
+---
+title: Murder hornet collection and visit to wasp farmers in Japan
+image: /wp-content/uploads/2025/01/de60d054-ac44-466f-a868-fbf007b5e2b3-2-1024x768.jpg
+---
+Serian, Bob and Cintia were hosted by Prof. Tatsuya Saga (University of Kobe) for wasp hunting in Gifu.
+
+Prof. Tatsuya Saga, our collaborator in Japan invited Cintia, Bob and Seirian to visit Kobe and Gifu in Japan. We gave talks in the University of Kobe and headed to Gifu for wasp hunting. From the 2<sup>nd</sup> to the 5<sup>th</sup> September, we went to the region of Gifu for our field work. Prof. Hakura Fugioka (Okayama University) and two students from Kobe University were assisting in the field.
+
+We were looking for *Vespula shidai* nests and the wasp farmer, Mr. Takahashi taught us his methods to locate a wasp nest. This visit was joined by Prof. Koji Tsuchida (Gifu University). Mr. Takahashi used meat trap to attract the wasps and attach a thin thread to a paper, in which the wasp would bring back to the nest. We ran after the wasps to try to locate the nest. Eventually we found a nest in the woods, it was underground next to a tree, making it very difficult to excavate. Later that day, we went to Mr. Takahashi farm to check his colonies. We had around 20 nests in his farm, in which he raised to provide food. He put lots of effort to feed his colonies every day and provide sugar water and fresh meat as well. Mr. Takahashi also offered some of the cooked larvae boiled with soy sauce, mirin and sugar. It was delicious!
+
+On the following day, we went for a murder hornet hunt together with the Japanese Wasp Keeper Association (JWKA). We collected a Vespa analis nest, but we want to track a Vespa mandarinia one. First, we had lunch, where the wasp hunters have brought oniguiris with cooked wasps. I learned that each of the farmer has his own methods to find nests, which involves knot a thread in the constriction of the thorax and abdomen of the wasp and follow her back to the nest. Lots of running and group effort. This was done in an apiary, in which usually *Vespa mandarinia* comes to hunt for honeybees, but would prefer to hunt grasshopper if they had a chance. The wasp keepers set some grasshopper preys to attract the hornets and then, they attach a thread in the constriction between the thorax and the abdomen. We eventually found a nest close to a small forest fragment.
+
+The nest was collected by the wasp keepers, and it was a small nest. The combs were brought back to the lab, as one of the students from Prof. Tsuchida is recording the sounds the hornet make and also the sounds of a hornet flight. We also made some sake with the hornets in situ, but unfortunately we didn’t bring those back!
+
+We learned a lot about the techniques used by the wasp farmers, and we hope we can apply some or their knowledge in our research. We are also interested in the interaction of people and the use of insect as food. So, this trip was mind-blowing!
+
+<figure class="wp-block-image size-large">
+<a href="{{ site.baseurl }}/wp-content/uploads/2025/01/de60d054-ac44-466f-a868-fbf007b5e2b3-2.jpg"><img src="{{ site.baseurl }}/wp-content/uploads/2025/01/de60d054-ac44-466f-a868-fbf007b5e2b3-2-1024x768.jpg" class="wp-image-2046" loading="lazy" decoding="async" srcset="{{ site.baseurl }}/wp-content/uploads/2025/01/de60d054-ac44-466f-a868-fbf007b5e2b3-2-1024x768.jpg 1024w, {{ site.baseurl }}/wp-content/uploads/2025/01/de60d054-ac44-466f-a868-fbf007b5e2b3-2-300x225.jpg 300w, {{ site.baseurl }}/wp-content/uploads/2025/01/de60d054-ac44-466f-a868-fbf007b5e2b3-2-768x576.jpg 768w, {{ site.baseurl }}/wp-content/uploads/2025/01/de60d054-ac44-466f-a868-fbf007b5e2b3-2-1536x1152.jpg 1536w, {{ site.baseurl }}/wp-content/uploads/2025/01/de60d054-ac44-466f-a868-fbf007b5e2b3-2.jpg 1600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" width="1024" height="768" /></a>
+</figure>

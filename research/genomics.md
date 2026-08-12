@@ -3,6 +3,7 @@ title: Genomics and Bioinformatics
 permalink: /research/genomics/
 redirect_from:
   - /genomics/
+  - /wasp-genomes/
 ---
 The rapid creation and application of novel bioinformatics tools is allowing our lab to more accurately and swiftly explore questions relating to the molecular foundations of behaviour and adaptation in both solitary and social insect systems.
 

@@ -6,6 +6,7 @@ photo: /wp-content/uploads/2026/08/patrickkennedy.jpeg
 title: Patrick Kennedy
 redirect_from:
   - /left-the-nest/patrick-kennedy/
+  - /the-group/patrick-kennedy/
 ---
 Congratulations to Patrick for becoming Dr Kennedy in 2019!
 

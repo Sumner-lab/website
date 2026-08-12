@@ -8,6 +8,7 @@ title: Benjamin Taylor
 redirect_from:
   - /our-group/benjamin-taylor/
   - /the-group/benjamin-taylor/
+  - /left-the-nest/benjamin-taylor/
 ---
 Formerly a PhD student in the Sumner Lab, for the past three years I've been working with Dr Brock Harpur at Purdue University in Indiana on USDA-funded projects on the population genomics of invasive "murder" hornets and the genomic signatures of a major evolutionary transition in Australian stingless bees. I've now returned to the Sumner Lab to continue my Human Frontiers Science Program Fellowship, applying machine learning pipelines to identify regulomic features associated with social evolution in bees and wasps.
 

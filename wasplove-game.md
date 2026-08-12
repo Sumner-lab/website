@@ -5,6 +5,7 @@ header_image: /wp-content/uploads/2020/02/Wasplove_game.png
 header_image_fit: contain
 redirect_from:
   - /outreach-and-citizen-science/how-to-have-impact-the-wasplove-game/
+  - /research/wasplove/
 ---
 [Step into the shoes of a wasp colony](http://wasplove.com/) — see how well you can raise a successful colony. WARNING: this computer game is highly addictive!
 
