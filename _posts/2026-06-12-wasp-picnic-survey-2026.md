@@ -32,26 +32,48 @@ We'd love it if you'd print out this poster and pin it up in your outdoor dining
 
 **Ham or Jam media highlights**
 
-<ul class="media-list">
-  <li>
-    <span class="media-source">Radio 4 Today Programme</span>
-    <audio controls preload="none" src="{{ site.baseurl }}/wp-content/uploads/2026/06/Radio4_Today_310726.m4a"></audio>
-    <span class="media-date">31/7/26</span>
+<ul class="media-board">
+  <li class="media-card" style="--r: -2.2deg;">
+    <div class="media-card-inner media-card-text">
+      <p class="media-card-outlet">BBC Radio 4 &middot; Today Programme</p>
+      <audio controls preload="none" src="{{ site.baseurl }}/wp-content/uploads/2026/06/Radio4_Today_310726.m4a"></audio>
+      <p class="media-card-meta"><span>Radio</span><span>31 Jul 2026</span></p>
+    </div>
   </li>
-  <li>
-    <a href="https://www.thetimes.com/uk/science/article/wasps-weather-feed-insects-heatwave-8dvrwx0rz">The Times</a>
-    <span class="media-date">31/7/26</span>
+  <li class="media-card" style="--r: 1.6deg;">
+    <a class="media-card-inner media-card-text" href="https://www.thetimes.com/uk/science/article/wasps-weather-feed-insects-heatwave-8dvrwx0rz" target="_blank" rel="noopener">
+      <p class="media-card-outlet">The Times</p>
+      <p class="media-card-headline">Wasps vanishing thanks to wild weather — and in come the flies</p>
+      <p class="media-card-sub">Our stripy friends appear to have dwindled due to variations in the climate as well as pest control.</p>
+      <p class="media-card-meta"><span>Read the article &#8599;</span><span>31 Jul 2026</span></p>
+    </a>
   </li>
-  <li>
-    <a href="https://www.telegraph.co.uk/news/2026/07/31/flies-swarm-as-weather-extremes-are-buzz-kill-for-wasps/">The Telegraph</a>
-    <span class="media-date">31/7/26</span>
+  <li class="media-card" style="--r: -1.3deg;">
+    <a class="media-card-inner media-card-text" href="https://www.telegraph.co.uk/news/2026/07/31/flies-swarm-as-weather-extremes-are-buzz-kill-for-wasps/" target="_blank" rel="noopener">
+      <p class="media-card-outlet">The Telegraph</p>
+      <p class="media-card-headline">Flies lord it over wasps after summer weather extremes</p>
+      <p class="media-card-sub">Tropical conditions lead to explosion in pest numbers as population of their main predator declines.</p>
+      <p class="media-card-meta"><span>Cameron Henderson</span><span>31 Jul 2026</span></p>
+    </a>
   </li>
-  <li>
-    <a class="media-play" href="https://www.thetimes.com/radio/show/20260801-34116/2026-08-01?login=true" target="_blank" rel="noopener"><span class="media-play-icon" aria-hidden="true"></span>Listen: Times Radio</a>
-    <span class="media-date">1/8/26</span>
+  <li class="media-card" style="--r: 2deg;">
+    <a class="media-card-inner media-card-text" href="https://www.thetimes.com/radio/show/20260801-34116/2026-08-01?login=true" target="_blank" rel="noopener">
+      <p class="media-card-outlet">Times Radio</p>
+      <p class="media-card-meta"><span class="media-play"><span class="media-play-icon" aria-hidden="true"></span>Listen</span><span>1 Aug 2026</span></p>
+    </a>
   </li>
-  <li>
-    <span class="media-source">LBC Radio</span>
-    <span class="media-date">1/8/26</span>
+  <li class="media-card" style="--r: -1.8deg;">
+    <div class="media-card-inner media-card-text">
+      <p class="media-card-outlet">LBC Radio</p>
+      <p class="media-card-meta"><span>Radio</span><span>1 Aug 2026</span></p>
+    </div>
+  </li>
+  <li class="media-card" style="--r: 1.1deg;">
+    <a class="media-card-inner" href="https://theconversation.com/where-have-all-the-wasps-gone-this-summer-288535" target="_blank" rel="noopener">
+      <img class="media-card-thumb" src="{{ site.baseurl }}/assets/images/conversation-wasps-gone.jpg" alt="A wasp in flight">
+      <p class="media-card-outlet">The Conversation</p>
+      <p class="media-card-headline">Where have all the wasps gone this summer?</p>
+      <p class="media-card-meta"><span>Seirian Sumner</span><span>29 Jul 2026</span></p>
+    </a>
   </li>
 </ul>
