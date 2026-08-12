@@ -1,5 +1,5 @@
 ---
-title: Wasp Picnic Survey 2026
+title: "Ham or Jam: Wasp Picnic Survey 2026"
 image: /wp-content/uploads/2025/07/wasp-on-sausage-1024x768.jpg
 banner_image: /assets/images/vespula-apple.jpg
 banner_alt: A wasp investigating a bitten apple
