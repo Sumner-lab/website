@@ -49,7 +49,11 @@ We'd love it if you'd print out this poster and pin it up in your outdoor dining
     </a>
   </li>
   <li class="media-card" style="--r: -1.3deg;">
-    <a class="media-card-inner media-card-text" href="https://www.telegraph.co.uk/news/2026/07/31/flies-swarm-as-weather-extremes-are-buzz-kill-for-wasps/" target="_blank" rel="noopener">
+    <a class="media-card-inner" href="https://www.telegraph.co.uk/news/2026/07/31/flies-swarm-as-weather-extremes-are-buzz-kill-for-wasps/" target="_blank" rel="noopener">
+      <div class="media-card-photo">
+        <img class="media-card-thumb" src="{{ site.baseurl }}/assets/images/telegraph-wasp-fennel.jpg" alt="A wasp on flowering fennel">
+        <span class="media-card-credit">Credit: Jackie Bale</span>
+      </div>
       <p class="media-card-outlet">The Telegraph</p>
       <p class="media-card-headline">Flies lord it over wasps after summer weather extremes</p>
       <p class="media-card-sub">Tropical conditions lead to explosion in pest numbers as population of their main predator declines.</p>

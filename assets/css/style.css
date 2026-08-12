@@ -445,6 +445,19 @@ a.media-card-inner:hover {
   margin: 0 0 0.6rem;
   filter: saturate(0.94) contrast(1.02);
 }
+.media-card-photo { position: relative; margin: 0 0 0.6rem; }
+.media-card-photo .media-card-thumb { margin: 0; }
+.media-card-credit {
+  position: absolute;
+  right: 0.4rem;
+  bottom: 0.4rem;
+  background: rgba(10,8,5,0.55);
+  color: #fff;
+  font-size: 0.62rem;
+  letter-spacing: 0.02em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+}
 .media-card-outlet {
   font-size: 0.72rem;
   text-transform: uppercase;
