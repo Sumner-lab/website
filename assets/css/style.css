@@ -217,14 +217,14 @@ body.has-hero .site-header {
 .post-banner {
   display: block;
   width: 100%;
-  aspect-ratio: 4.5 / 1;
+  aspect-ratio: 3.2 / 1;
   object-fit: cover;
-  object-position: center;
+  object-position: center 64%;
   border-radius: var(--radius);
   margin: 1.5rem 0 2rem;
 }
 @media (max-width: 600px) {
-  .post-banner { aspect-ratio: 2.2 / 1; }
+  .post-banner { aspect-ratio: 2 / 1; }
 }
 
 .feature-band {
