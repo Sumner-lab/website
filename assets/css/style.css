@@ -218,13 +218,14 @@ body.has-hero .site-header {
   display: block;
   width: 100%;
   aspect-ratio: 4 / 1;
+  max-height: 210px;
   object-fit: cover;
   object-position: center 64%;
   border-radius: var(--radius);
   margin: 1.5rem 0 2rem;
 }
 @media (max-width: 600px) {
-  .post-banner { aspect-ratio: 2.4 / 1; }
+  .post-banner { aspect-ratio: 2.4 / 1; max-height: 160px; }
 }
 
 .feature-band {
@@ -368,7 +369,7 @@ body.has-hero .site-header {
 }
 
 .prose figure.qr-figure {
-  max-width: 190px;
+  max-width: 240px;
   margin: 0;
 }
 .prose figure.qr-figure img {
@@ -376,7 +377,7 @@ body.has-hero .site-header {
   height: auto;
 }
 
-.poster-figure { max-width: 190px; margin: 0; }
+.poster-figure { max-width: 240px; margin: 0; }
 .poster-figure a { display: block; }
 .poster-figure img {
   width: 100%;
