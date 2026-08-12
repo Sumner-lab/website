@@ -316,6 +316,82 @@ body.has-hero .site-header {
   padding: 1rem;
 }
 
+/* ---- Research theme tiles ---- */
+
+.research-tiles {
+  list-style: none;
+  margin: 2rem 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+@media (max-width: 700px) {
+  .research-tiles { grid-template-columns: 1fr; }
+}
+.research-tile {
+  position: relative;
+  display: flex;
+  min-height: 20rem;
+  align-items: flex-end;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background-color: var(--color-header-bg);
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  color: #fff;
+}
+.research-tile::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10,8,5,0.82) 0%, rgba(10,8,5,0.25) 55%, rgba(10,8,5,0.05) 80%);
+  transition: background 0.25s ease;
+}
+a.research-tile:hover::after {
+  background: linear-gradient(to top, rgba(10,8,5,0.9), rgba(10,8,5,0.35) 55%, rgba(10,8,5,0.08) 80%);
+}
+.research-tile-content {
+  position: relative;
+  z-index: 1;
+  padding: 1.5rem;
+}
+.research-tile-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin: 0 0 0.4rem;
+}
+.research-tile-desc {
+  font-size: 0.88rem;
+  color: #ecdfc3;
+  margin: 0;
+  max-width: 26rem;
+  line-height: 1.5;
+}
+.research-tile-soon {
+  filter: grayscale(0.5) brightness(0.7);
+  cursor: default;
+}
+.research-tile-badge {
+  position: absolute;
+  z-index: 1;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(251,250,247,0.9);
+  color: var(--color-text);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+}
+@media (max-width: 700px) {
+  .research-tile { min-height: 16rem; }
+}
+
 /* ---- Latest from the lab (homepage) ---- */
 
 .latest { padding: 1rem 1.5rem 4rem; }
