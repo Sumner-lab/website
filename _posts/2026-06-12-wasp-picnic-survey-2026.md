@@ -10,11 +10,6 @@ Summer time means wasps visiting picnics! Sometimes they go for protein (e.g. ha
 
 Did your picnic wasp want Ham (protein) or Jam (sugar)? Take part in our [quick survey here](https://qualtrics.ucl.ac.uk/jfe/form/SV_9uCgtFs0qtVLwlo)!
 
-<figure class="qr-figure">
-  <img src="{{ site.baseurl }}/wp-content/uploads/2025/07/WhatsApp-Image-2026-06-13-at-10.20.18.jpeg" alt="QR code linking to the Wasp Picnic Survey 2026">
-  <figcaption>Scan to take the survey.</figcaption>
-</figure>
-
 **Why should I take part?**
 
 - Wasps are important pest-controllers and pollinators. Read more [here](https://www.theglobeandmail.com/opinion/article-how-i-learned-to-stop-worrying-and-love-the-wasp-and-why-you-should/).
@@ -25,10 +20,18 @@ Did your picnic wasp want Ham (protein) or Jam (sugar)? Take part in our [quick 
 
 We'd love it if you'd print out this poster and pin it up in your outdoor dining space, to encourage your visitors to take part.
 
-<a class="poster-link" href="{{ site.baseurl }}/wp-content/uploads/2026/06/ham-or-jam-poster_UCL2026.pdf" target="_blank" rel="noopener">
-  <img src="{{ site.baseurl }}/assets/images/ham-or-jam-poster.jpg" alt="Ham or Jam picnic survey poster">
-</a>
-<p class="poster-caption"><a href="{{ site.baseurl }}/wp-content/uploads/2026/06/ham-or-jam-poster_UCL2026.pdf" target="_blank" rel="noopener">Open or download the full poster (PDF)</a></p>
+<div class="action-row">
+  <figure class="qr-figure">
+    <img src="{{ site.baseurl }}/wp-content/uploads/2025/07/WhatsApp-Image-2026-06-13-at-10.20.18.jpeg" alt="QR code linking to the Wasp Picnic Survey 2026">
+    <figcaption>Scan to take the survey</figcaption>
+  </figure>
+  <figure class="poster-figure">
+    <a href="{{ site.baseurl }}/wp-content/uploads/2026/06/ham-or-jam-poster_UCL2026.pdf" target="_blank" rel="noopener">
+      <img src="{{ site.baseurl }}/assets/images/ham-or-jam-poster.jpg" alt="Ham or Jam picnic survey poster">
+    </a>
+    <figcaption><a href="{{ site.baseurl }}/wp-content/uploads/2026/06/ham-or-jam-poster_UCL2026.pdf" target="_blank" rel="noopener">Open or download the poster (PDF)</a></figcaption>
+  </figure>
+</div>
 
 **Ham or Jam media highlights**
 

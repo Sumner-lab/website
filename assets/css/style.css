@@ -217,14 +217,14 @@ body.has-hero .site-header {
 .post-banner {
   display: block;
   width: 100%;
-  aspect-ratio: 3.2 / 1;
+  aspect-ratio: 4 / 1;
   object-fit: cover;
   object-position: center 64%;
   border-radius: var(--radius);
   margin: 1.5rem 0 2rem;
 }
 @media (max-width: 600px) {
-  .post-banner { aspect-ratio: 2 / 1; }
+  .post-banner { aspect-ratio: 2.4 / 1; }
 }
 
 .feature-band {
@@ -359,33 +359,34 @@ body.has-hero .site-header {
 .prose figure { margin: 1.5em 0; }
 .prose figcaption { color: var(--color-text-muted); font-size: 0.875rem; margin-top: 0.4em; }
 
+.action-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.75rem;
+  margin: 1.5em 0;
+}
+
 .prose figure.qr-figure {
-  max-width: 420px;
+  max-width: 190px;
+  margin: 0;
 }
 .prose figure.qr-figure img {
   width: 100%;
   height: auto;
 }
 
-.poster-link {
-  display: block;
-  max-width: 320px;
-  margin: 1em 0 0;
-}
-.poster-link img {
+.poster-figure { max-width: 190px; margin: 0; }
+.poster-figure a { display: block; }
+.poster-figure img {
   width: 100%;
   height: auto;
-  margin: 0;
   border-radius: var(--radius);
   box-shadow: 0 0.6rem 1.5rem rgba(10,8,5,0.18);
   border: 1px solid rgba(10,8,5,0.08);
   transition: transform 0.2s ease;
 }
-.poster-link:hover img { transform: translateY(-3px); }
-.poster-caption {
-  font-size: 0.9rem;
-  margin: 0.75em 0 1.5em;
-}
+.poster-figure a:hover img { transform: translateY(-3px); }
 
 .media-play {
   display: inline-flex;
