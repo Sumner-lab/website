@@ -4,6 +4,18 @@
       <span class="site-name">The Sumner Lab</span>
       <span class="site-tagline">Insect Research Group &middot; UCL</span>
     </a>
-    {% include nav.html %}
+    <div class="header-right">
+      {% include nav.html %}
+      <div class="search">
+        <button class="search-toggle" aria-expanded="false" aria-controls="search-box" data-search-index="{{ '/search.json' | relative_url }}">
+          <span class="sr-only">Search</span>
+          <span class="search-icon" aria-hidden="true"></span>
+        </button>
+        <div class="search-box" id="search-box">
+          <input class="search-input" type="text" placeholder="Search the site&hellip;" aria-label="Search the site">
+          <ul class="search-results"></ul>
+        </div>
+      </div>
+    </div>
   </div>
 </header>

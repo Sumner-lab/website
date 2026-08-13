@@ -1,0 +1,39 @@
+---
+layout: null
+---
+[
+{% assign first = true %}
+{% for p in site.pages %}
+  {% if p.title and p.url != "/search.json" %}
+    {% unless first %},{% endunless %}
+    {% assign first = false %}
+    {
+      "title": {{ p.title | jsonify }},
+      "url": {{ p.url | relative_url | jsonify }},
+      "type": "page",
+      "excerpt": {{ p.content | strip_html | strip_newlines | truncatewords: 24 | jsonify }}
+    }
+  {% endif %}
+{% endfor %}
+{% for post in site.posts %}
+  {% unless first %},{% endunless %}
+  {% assign first = false %}
+  {
+    "title": {{ post.title | jsonify }},
+    "url": {{ post.url | relative_url | jsonify }},
+    "type": "post",
+    "date": {{ post.date | date: "%-d %B %Y" | jsonify }},
+    "excerpt": {{ post.content | strip_html | strip_newlines | truncatewords: 24 | jsonify }}
+  }
+{% endfor %}
+{% for person in site.people %}
+  {% unless first %},{% endunless %}
+  {% assign first = false %}
+  {
+    "title": {{ person.name | default: person.title | jsonify }},
+    "url": {{ person.url | relative_url | jsonify }},
+    "type": "person",
+    "excerpt": {{ person.role | default: "" | jsonify }}
+  }
+{% endfor %}
+]
