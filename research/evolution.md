@@ -13,6 +13,6 @@ The insect world provides us with endless opportunities to learn about the evolu
 - The evolution of generalist and specialist parasitoid-host relationships
 - The evolution of parental investment strategies
 
-![Phylogenetic diversity of Hymenoptera with publicly available genome assemblies. Alex and colleagues are using these data to study the evolution of social traits across bees, wasps and ants.]({{ site.baseurl }}/wp-content/uploads/2026/01/tree_hymeno-1-1-1024x724.jpg)
+![Phylogenetic diversity of Hymenoptera with publicly available genome assemblies. Alex and colleagues are using these data to study the evolution of social traits across bees, wasps and ants.]({{ site.baseurl }}/wp-content/uploads/2026/01/tree_hymeno_lab.png)
 
 We are always interested in asking new questions, trying new approaches, and discovering new insect systems.
