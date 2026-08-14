@@ -6,6 +6,9 @@ photo: /wp-content/uploads/2022/10/1637268490434-300x300.jpeg
 title: Lewis Revely
 redirect_from:
   - /the-group/lewis-revely/
+links:
+  - label: Twitter
+    url: https://twitter.com/LewisRevely
 ---
 Dr Lewis Revely has completed his PhD and now works with the Futures, Foresight and Emerging Technologies group in the Government Office for Science.
 
@@ -24,4 +27,4 @@ Dr Lewis Revely has completed his PhD and now works with the Futures, Foresight 
 
 - Revely, L., Sumner, S. and Eggleton, P. (2021) [The plasticity and developmental potential of termites](https://www.frontiersin.org/articles/10.3389/fevo.2021.552624/full). *Frontiers in Ecology and Evolution*, 9, p.552624. doi: [10.3389/fevo.2021.552624](https://doi.org/10.3389/fevo.2021.552624)
 
-**Contact:** [lewis.revely.18@ucl.ac.uk](mailto:lewis.revely.18@ucl.ac.uk) · Twitter: [@LewisRevely](https://twitter.com/LewisRevely)
+**Contact:** [lewis.revely.18@ucl.ac.uk](mailto:lewis.revely.18@ucl.ac.uk)

@@ -7,6 +7,9 @@ title: Sam Duckerin
 redirect_from:
   - /left-the-nest/sam-duckerin/
   - /the-group/sam-duckerin/
+links:
+  - label: Twitter
+    url: https://twitter.com/samduckerin
 ---
 Congratulations to Sam for becoming Dr Duckerin in Nov 2018! Sam is now travelling the world.
 
@@ -26,4 +29,4 @@ This project was funded by the BBSRC as part of the South West Doctoral Training
 - 2013–2014: Research Collaborator, Bionanoscience Group, University of Bristol
 - 2010–2013: BSc (Hons) Biology, University of Bristol
 
-**Contact:** [sam.duckerin@bristol.ac.uk](mailto:sam.duckerin@bristol.ac.uk) · Twitter: [@samduckerin](https://twitter.com/samduckerin)
+**Contact:** [sam.duckerin@bristol.ac.uk](mailto:sam.duckerin@bristol.ac.uk)

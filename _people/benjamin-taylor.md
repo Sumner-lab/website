@@ -9,6 +9,9 @@ redirect_from:
   - /our-group/benjamin-taylor/
   - /the-group/benjamin-taylor/
   - /left-the-nest/benjamin-taylor/
+links:
+  - label: Bluesky
+    url: https://bsky.app/profile/bentaylorevo.bsky.social
 ---
 Formerly a PhD student in the Sumner Lab, for the past three years I've been working with Dr Brock Harpur at Purdue University in Indiana on USDA-funded projects on the population genomics of invasive "murder" hornets and the genomic signatures of a major evolutionary transition in Australian stingless bees. I've now returned to the Sumner Lab to continue my Human Frontiers Science Program Fellowship, applying machine learning pipelines to identify regulomic features associated with social evolution in bees and wasps.
 
@@ -36,4 +39,4 @@ My work combines behavioural, transcriptomic and genomic data to investigate the
 - Taylor B.A., Cini A., Wyatt C., Reuter M., & Sumner S. (2021) The molecular basis of socially-mediated phenotypic plasticity in a eusocial paper wasp. *Nature Communications*, 12, 775. doi: [10.1038/s41467-021-21095-6](https://doi.org/10.1038/s41467-021-21095-6)
 - Taylor B.A., Reuter M., & Sumner S. (2019) Patterns of reproductive differentiation and reproductive plasticity in the major evolutionary transition to superorganismality. *Current Opinion in Insect Science*, 34, 40-47. doi: [10.1016/j.cois.2019.02.007](https://doi.org/10.1016/j.cois.2019.02.007)
 
-**Contact:** [benjamin.aaron.taylor@gmail.com](mailto:benjamin.aaron.taylor@gmail.com) · Bluesky: [@bentaylorevo.bsky.social](https://bsky.app/profile/bentaylorevo.bsky.social)
+**Contact:** [benjamin.aaron.taylor@gmail.com](mailto:benjamin.aaron.taylor@gmail.com)

@@ -6,6 +6,9 @@ photo: /wp-content/uploads/2014/09/adam-cover.jpg
 title: Adam Devenish
 redirect_from:
   - /left-the-nest/adam-devenish/
+links:
+  - label: Twitter
+    url: https://twitter.com/antinvasions
 ---
 **Position:** PhD Student
 

@@ -7,6 +7,11 @@ photo: /wp-content/uploads/2022/10/image.png
 title: Iona Cunningham-Eurich
 redirect_from:
   - /the-group/iona-cunningham-eurich/
+links:
+  - label: Instagram
+    url: https://www.instagram.com/ionacunninghameurich/
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/ionacunninghameurich/
 ---
 **Position:** PhD Student
 
@@ -26,7 +31,7 @@ Previously, I completed my MSci at UCL under the supervision of Seirian Sumner a
 - 2021–present: PhD Candidate, Natural History Museum & University College London, NERC DTP Cohort 8
 - 2016–2020: MSci Zoology, University College London
 
-**Contact:** [iona.cunningham-eurich.16@ucl.ac.uk](mailto:iona.cunningham-eurich.16@ucl.ac.uk) / [iona.cunningham-eurich@nhm.ac.uk](mailto:iona.cunningham-eurich@nhm.ac.uk) · [Instagram](https://www.instagram.com/ionacunninghameurich/) · [LinkedIn](https://www.linkedin.com/in/ionacunninghameurich/)
+**Contact:** [iona.cunningham-eurich.16@ucl.ac.uk](mailto:iona.cunningham-eurich.16@ucl.ac.uk) / [iona.cunningham-eurich@nhm.ac.uk](mailto:iona.cunningham-eurich@nhm.ac.uk)
 
 **Publications**
 

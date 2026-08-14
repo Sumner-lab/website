@@ -12,6 +12,13 @@ layout: default
       {% if page.status == "alumni" %}<p class="person-status">Former lab member</p>{% endif %}
     </div>
   </header>
+  {% if page.links %}
+  <div class="person-links">
+    {% for link in page.links %}
+    <a class="person-link-btn" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
   <div class="prose">
     {{ content }}
   </div>

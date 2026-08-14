@@ -6,6 +6,9 @@ photo: /wp-content/uploads/2015/10/itsame.png
 title: Ryan Brock
 redirect_from:
   - /left-the-nest/ryan-brock/
+links:
+  - label: Twitter
+    url: https://twitter.com/RBrock94
 ---
 **Position:** Master's by Research student
 
@@ -22,4 +25,4 @@ See my blog (covering recent papers relating to eusociality) at [youmeeusocialit
 - 2015–present: MSc by Research, University of Bristol
 - 2012–2015: BSc (Hons) Biological Sciences, University of East Anglia
 
-**Contact:** [rb15971@bristol.ac.uk](mailto:rb15971@bristol.ac.uk) / [ryanbrock94@aol.com](mailto:ryanbrock94@aol.com) · Twitter: [@RBrock94](https://twitter.com/RBrock94)
+**Contact:** [rb15971@bristol.ac.uk](mailto:rb15971@bristol.ac.uk) / [ryanbrock94@aol.com](mailto:ryanbrock94@aol.com)

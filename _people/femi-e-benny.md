@@ -7,6 +7,11 @@ photo: /wp-content/uploads/2025/01/IMG_5255-scaled.jpg
 title: Femi E Benny
 redirect_from:
   - /the-group/femi-e-benny/
+links:
+  - label: Bluesky
+    url: https://bsky.app/profile/femi-benny.bsky.social
+  - label: Instagram
+    url: https://instagram.com/femibenny
 ---
 **Position:** PhD Student
 
@@ -24,14 +29,14 @@ I'm from India, and completed my Master's in Applied Zoology (Entomology) at Cal
 - 2016–2018: MSc Applied Zoology (Entomology), University of Calicut, Kerala
 - 2013–2016: BSc Zoology, Providence Women's College, Kerala
 
-**Contact:** [femi.benny.24@ucl.ac.uk](mailto:femi.benny.24@ucl.ac.uk) · Bluesky: [@femi-benny.bsky.social](https://bsky.app/profile/femi-benny.bsky.social) · Instagram: [@femibenny](https://instagram.com/femibenny)
+**Contact:** [femi.benny.24@ucl.ac.uk](mailto:femi.benny.24@ucl.ac.uk)
 
 **Publications**
 
-- Femi, E.B., Ranjith A.P., & Priyadarsanan, D.R. (2024) Addition to the Eumeninae (Hymenoptera: Vespidae) fauna of India with the description of a new species from Northeast India. *Entomon* 49(3): 465-470.
-- Femi, E.B., Ranjith, A.P. & Priyadarsanan, D.R. (2024) Additions to the trigonalyid fauna of India with the description of a new species from south India. *Zootaxa*, 5419(2), 265–274.
-- Anoop, N.R., Femi, E.B., Yathumon, M.A., & Aswaj, Punnath. (2023) Butterflies with a taste for elephant dung: puddling of adult butterflies on elephant dung in India's Western Ghats. *Food Webs*.
-- Ranjith, A., Burks, R.A., Femi, E.B., & Priyadarsanan, D.R. (2023) First report of two eulophid genera (Hymenoptera: Chalcidoidea: Eulophidae) from India with the description of two new species. *Zootaxa*, 5231(4), 471-480.
+- Femi, E.B., Ranjith A.P., & Priyadarsanan, D.R. (2024) Addition to the Eumeninae (Hymenoptera: Vespidae) fauna of India with the description of a new species from Northeast India. *Entomon* 49(3): 465-470. doi: [10.33307/entomon.v49i3.1268](https://doi.org/10.33307/entomon.v49i3.1268)
+- Femi, E.B., Ranjith, A.P. & Priyadarsanan, D.R. (2024) Additions to the trigonalyid fauna of India with the description of a new species from south India. *Zootaxa*, 5419(2), 265–274. doi: [10.11646/zootaxa.5419.2.5](https://doi.org/10.11646/zootaxa.5419.2.5)
+- Anoop, N.R., Femi, E.B., Yathumon, M.A., & Aswaj, Punnath. (2023) Butterflies with a taste for elephant dung: puddling of adult butterflies on elephant dung in India's Western Ghats. *Food Webs*. doi: [10.1016/j.fooweb.2023.e00323](https://doi.org/10.1016/j.fooweb.2023.e00323)
+- Ranjith, A., Burks, R.A., Femi, E.B., & Priyadarsanan, D.R. (2023) First report of two eulophid genera (Hymenoptera: Chalcidoidea: Eulophidae) from India with the description of two new species. *Zootaxa*, 5231(4), 471-480. doi: [10.11646/zootaxa.5231.4.8](https://doi.org/10.11646/zootaxa.5231.4.8)
 - Kaimal, S.G., & Femi, E.B. (2019) Butterfly diversity of Vengalam mangroves, Calicut, Kerala. *Perspectives in Life Sciences*. UGC-HRDC, University of Calicut.
 
 **Popular Science Articles**
@@ -39,7 +44,7 @@ I'm from India, and completed my Master's in Applied Zoology (Entomology) at Cal
 - Femi E.B. (2025) [Giant Water Bugs: Close Encounters with Toe Biters](https://roundglasssustain.com/species/giant-water-bugs). Round Glass Sustain.
 - Femi E.B. (2024) [Spot Me If You Can: Mimicry and Camouflage in Insects](https://roundglasssustain.com/photo-stories/insect-mimicry). Round Glass Sustain.
 - Femi E.B. (2024) [Nature's Artists: The World of Potter Wasps](https://roundglasssustain.com/species/potter-wasps). Round Glass Sustain.
-- Femi E.B. & Amritha Jaiprakash (2024) Moving Beyond "Creepy Crawlies." Kerala Calling.
+- Femi E.B. & Amritha Jaiprakash (2024) [Moving Beyond "Creepy Crawlies."](https://prd.kerala.gov.in/sites/default/files/inline-files/kerala%20calling%20august%2024.pdf) Kerala Calling.
 - Femi E.B. (2024) [Quest for the Himalayan Giant: A Journey to the Realm of *Apis laboriosa*](https://roundglasssustain.com/species/himalayan-giant-honey-bee). Round Glass Sustain.
 - Femi E.B. (2024) Climate change and insects: We don't know enough. Antenna (Royal Entomological Society).
 - Femi E.B. (2024) [Spider Wasps: The Solitary Hunters of Your Backyard](https://roundglasssustain.com/species/spider-wasps). Round Glass Sustain.

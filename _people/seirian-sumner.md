@@ -7,6 +7,11 @@ photo: /wp-content/uploads/2014/09/Seirian-Sumner.jpg
 title: Seirian Sumner
 redirect_from:
   - /the-group/seirian-sumner/
+links:
+  - label: Bluesky
+    url: https://bsky.app/profile/waspwoman.bsky.social
+  - label: Twitter
+    url: https://twitter.com/WaspWoman
 ---
 ## Biography
 
@@ -17,6 +22,5 @@ Thereafter, I held a succession of independent fellowships funded by the Smithso
 I took a Senior Lectureship in the School of Biological Sciences at the University of Bristol in November 2012, and moved to University College London in October 2016 as a Reader in Behavioural Ecology, where I am currently based. I became a full Professor in October 2020.
 
 **Email:** [s.sumner@ucl.ac.uk](mailto:s.sumner@ucl.ac.uk)
-**Twitter:** [@waspwoman](https://twitter.com/WaspWoman)
-**Bluesky:** [@waspwoman.bsky.social](https://bsky.app/profile/waspwoman.bsky.social)
+
 **Address:** Centre for Biodiversity and Environment Research, University College London, Gower Street, London, WC1E 6BT

@@ -7,6 +7,9 @@ photo: /wp-content/uploads/2024/01/profile-picture.jpeg
 title: Idris Adams
 redirect_from:
   - /the-group/idris-adams/
+links:
+  - label: Bluesky
+    url: https://bsky.app/profile/idrisadams.bsky.social
 ---
 **Position:** PhD Student
 
@@ -19,7 +22,7 @@ redirect_from:
 - 2023–present: PhD Candidate, University College London, NERC DTP Cohort 10
 - 2019–2023: MSci Zoology, University of Sussex
 
-**Contact:** [idris.adams.23@ucl.ac.uk](mailto:idris.adams.23@ucl.ac.uk) · Bluesky: [@idrisadams.bsky.social](https://bsky.app/profile/idrisadams.bsky.social)
+**Contact:** [idris.adams.23@ucl.ac.uk](mailto:idris.adams.23@ucl.ac.uk)
 
 **Publications**
 

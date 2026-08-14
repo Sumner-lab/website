@@ -7,6 +7,9 @@ title: Emily Bell
 redirect_from:
   - /left-the-nest/emily-bell/
   - /the-group/emily-bell/
+links:
+  - label: Twitter
+    url: https://twitter.com/emilyfbell
 ---
 **Position:** PhD Student
 
@@ -28,4 +31,4 @@ In advanced eusocial insects (ants, honeybees, some vespid wasps), castes are de
 
 **Science Outreach:** I'm passionate about sharing my love of science with the public, making my work accessible to people of all ages. I helped co-organise Soapbox Science Bristol with Dr Sumner and colleagues at the Institute of Zoology, and co-founded a science outreach venture, [Popup Science](http://www.popupscience.co.uk/), with former Sumner group member Chris Wyatt. See my YouTube video ["The Life of a Field Biologist"](https://www.youtube.com/watch?v=Qg218jX6jJM), given to staff and students at Our Lady's Abingdon School, Oxfordshire, as part of their Culture and Technology series.
 
-**Contact:** [emily.bell@bristol.ac.uk](mailto:emily.bell@bristol.ac.uk) · Twitter: [@emilyfbell](https://twitter.com/emilyfbell)
+**Contact:** [emily.bell@bristol.ac.uk](mailto:emily.bell@bristol.ac.uk)

@@ -6,6 +6,9 @@ photo: /wp-content/uploads/2022/10/owen1-1024x1024.jpg
 title: Owen Corbett
 redirect_from:
   - /the-group/owen-corbett/
+links:
+  - label: Bluesky
+    url: https://bsky.app/profile/owenrcorbett.bsky.social
 ---
 *Owen successfully defended his thesis on 15th April 2025.*
 
@@ -19,5 +22,3 @@ redirect_from:
 
 - 2018–2025: PhD Candidate, University College London
 - 2014–2018: MSci Biological Sciences, University College London
-
-**Contact:** [Bluesky @OwenRCorbett](https://bsky.app/profile/owenrcorbett.bsky.social)

@@ -6,6 +6,11 @@ photo: /wp-content/uploads/2019/11/profile-pic.jpg
 title: Emeline Favreau
 redirect_from:
   - /the-group/emeline-favreau/
+links:
+  - label: Personal website
+    url: https://emelinefavreau.github.io/
+  - label: Twitter
+    url: https://twitter.com/EmelineFavreau
 ---
 Emeline has now started working as a Bioinformatician in the Department of Medicine at the University of Cambridge, working on the [INTREPID project](https://intrepidproject.info) exploring molecular data from Primary Immunodeficient patients.
 
@@ -30,4 +35,4 @@ Emeline has now started working as a Bioinformatician in the Department of Medic
 - **Favreau, E.**, Martínez-Ruiz, C., Rodrigues Santiago, L., Hammond, R.L. and Wurm, Y. (2018) [Genes and genomic processes underpinning the social lives of ants](https://doi.org/10.1016/j.cois.2017.12.001). *Current Opinion in Insect Science*. 26:451-479.
 - Lyal, C.H.C. and **Favreau, E.** (2015) [The rectal valve in Curculionoidea and other Coleoptera (Insecta)](http://dx.doi.org/10.11646/zootaxa.3926.4.1). *Zootaxa*. 3926(4):451-479.
 
-**Contact:** [emeline.favreau.15@ucl.ac.uk](mailto:emeline.favreau.15@ucl.ac.uk) · [emelinefavreau.github.io](https://emelinefavreau.github.io/) · [Twitter](https://twitter.com/EmelineFavreau)
+**Contact:** [emeline.favreau.15@ucl.ac.uk](mailto:emeline.favreau.15@ucl.ac.uk)

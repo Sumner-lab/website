@@ -7,6 +7,9 @@ photo: /wp-content/uploads/2026/01/fernando.jpg
 title: Fernando Duarte Frutos
 redirect_from:
   - /our-group/fernando-duarte/
+links:
+  - label: GitHub
+    url: https://github.com/FernandoDuarteF
 ---
 **Position:** Bioinformatician
 
@@ -25,4 +28,4 @@ redirect_from:
 - 2023–2024: Bioinformatician, Centre for Genomic Regulation
 - 2024–present: Bioinformatician, University College London
 
-**Contact:** [f.frutos@ucl.ac.uk](mailto:f.frutos@ucl.ac.uk) · [GitHub](https://github.com/FernandoDuarteF)
+**Contact:** [f.frutos@ucl.ac.uk](mailto:f.frutos@ucl.ac.uk)

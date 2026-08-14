@@ -8,6 +8,11 @@ title: Cintia Akemi Oi
 redirect_from:
   - /our-group/cintia-oi/
   - /the-group/cintia-oi/
+links:
+  - label: Bluesky
+    url: https://bsky.app/profile/cintiaoi.bsky.social
+  - label: Personal website
+    url: https://sites.google.com/view/cintiaoi
 ---
 **Position:** Post-doctoral researcher (NERC) / Scientific Associate (NHM)
 
@@ -42,7 +47,7 @@ Aside from my main projects, I'm also interested in neurobiology (differences in
 38. Ferreira, H.M, Alves D.A., Cool L., **Oi, C.A.**, Oliveira R.C., Wenseleers T. Toward greater realism in inclusive fitness models: the case of caste fate conflict in insect societies. *Evolution Letters*, 2024, qrad068. doi: [10.1093/evlett/qrad068](https://doi.org/10.1093/evlett/qrad068)
 37. Prato, A. Santos E.F., Ferreira H.M., **Oi, C.A.**, Nascimento F.S., Rantala M.J., Krams I., de Souza A.R. Immune response in paper wasp workers: task matters more than age. *Journal of Insect Physiology* 104629 (2024). doi: [10.1016/j.jinsphys.2024.104629](https://doi.org/10.1016/j.jinsphys.2024.104629)
 36. da Silva, R.C., **Oi, C.A.** & do Nascimento, F.S. (2023) Chemical resemblance of egg surface compounds and Dufour's gland in two Neotropical Polistinae wasps *Polistes versicolor* (Olivier) and *Mischocyttarus metathoracicus* (de Saussure, 1854). *Neotropical Entomology*. doi: 10.1007/s13744-023-01089-3
-35. Mattens, A., Chan, K. & **Oi, C.A.** The effect of juvenile hormone on the chemical profile and fertility of *Lasius niger* queens. *Chemoecology* 33, 177–182 (2023). doi: 10.1007/s00049-023-00394-y
+35. Mattens, A., Chan, K. & **Oi, C.A.** The effect of juvenile hormone on the chemical profile and fertility of *Lasius niger* queens. *Chemoecology* 33, 177–182 (2023). doi: [10.1007/s00049-023-00394-y](https://doi.org/10.1007/s00049-023-00394-y)
 34. da Silva, R.C., do Nascimento, F.S., Wenseleers, T., **Oi CA** (2023) Chemical signatures of egg maternity and Dufour's gland in vespine wasps. *Sci Nat* 110, 25. doi: 10.1007/s00114-023-01852-x
 33. da Silva RC, Aguiar JMRBV, **Oi, CA.**, Eterna, JB, Giurfa M, Nascimento FS. Sex and lifestyle dictate learning performance in a Neotropical wasp (2023) *iScience*. doi: 10.1016/j.isci.2023.106469
 32. da Silva RC, Wenseleers T, **Oi, CA.**, Nascimento FS. Tiny but socially valuable: eggs as sources of communication in the social wasp *Mischocyttarus cerberus* (2023) *Behavioral Ecology and Sociobiology* 73: 38. doi: 10.1007/s00265-019-2647-2
@@ -91,5 +96,4 @@ Aside from my main projects, I'm also interested in neurobiology (differences in
 **Contact**
 
 - Email: [c.oi@ucl.ac.uk](mailto:c.oi@ucl.ac.uk) / [cintia.oi@nhm.ac.uk](mailto:cintia.oi@nhm.ac.uk)
-- Bluesky: [@cintiaoi.bsky.social](https://bsky.app/profile/cintiaoi.bsky.social)
-- [Google Scholar](https://scholar.google.be/citations?user=AOt97HQAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Cintia-Oi) · [Personal website](https://sites.google.com/view/cintiaoi)
+- [Google Scholar](https://scholar.google.be/citations?user=AOt97HQAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Cintia-Oi)

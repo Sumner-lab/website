@@ -629,7 +629,7 @@ a.research-tile:hover::after {
 }
 .book-cover a:hover img { transform: translateY(-3px); }
 
-.media-play {
+.media-play, .person-link-btn {
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
@@ -642,13 +642,20 @@ a.research-tile:hover::after {
   font-weight: 600;
   transition: background 0.15s ease, color 0.15s ease;
 }
-.media-play:hover { background: var(--color-accent); color: #fff; }
+.media-play:hover, .person-link-btn:hover { background: var(--color-accent); color: #fff; }
 .media-play-icon {
   width: 0;
   height: 0;
   border-top: 0.32rem solid transparent;
   border-bottom: 0.32rem solid transparent;
   border-left: 0.5rem solid currentColor;
+}
+.person-link-btn { padding: 0.35rem 0.9rem; }
+.person-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.25rem 0 0;
 }
 
 /* ---- Media scatter board ---- */
