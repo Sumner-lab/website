@@ -44,8 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
     posts.forEach(function (post) {
       var author = post.author || {};
       var record = post.record || {};
-      var name = author.displayName || author.handle || "Someone";
-      var handle = author.handle ? "@" + author.handle : "";
+      var handle = author.handle ? "@" + author.handle : "Someone";
       var text = record.text || "";
       var postUrl =
         "https://bsky.app/profile/" +
@@ -60,23 +59,21 @@ document.addEventListener("DOMContentLoaded", function () {
           })
         : "";
 
-      var thumb = getThumb(post.embed);
-      var img = thumb
-        ? '<img class="social-post-image" src="' + escapeAttr(thumb) + '" alt="" loading="lazy">'
-        : "";
-
-      var quoting = "";
-      if (
+      var quotingHandle =
         post.embed &&
         post.embed.$type === "app.bsky.embed.record#view" &&
         post.embed.record &&
         post.embed.record.author
-      ) {
-        quoting =
-          '<span class="social-post-quoting">quoting @' +
-          escapeHtml(post.embed.record.author.handle || "") +
-          "</span>";
-      }
+          ? post.embed.record.author.handle
+          : null;
+
+      var meta = escapeHtml(handle) + " &middot; " + escapeHtml(date);
+      if (quotingHandle) meta += " &middot; quoting @" + escapeHtml(quotingHandle);
+
+      var thumb = getThumb(post.embed);
+      var img = thumb
+        ? '<img class="social-post-image" src="' + escapeAttr(thumb) + '" alt="" loading="lazy">'
+        : "";
 
       var el = document.createElement("a");
       el.className = "social-post";
@@ -85,25 +82,12 @@ document.addEventListener("DOMContentLoaded", function () {
       el.rel = "noopener";
       el.innerHTML =
         img +
-        '<div class="social-post-body">' +
-        '<div class="social-post-author">' +
-        (author.avatar
-          ? '<img class="social-post-avatar" src="' + escapeAttr(author.avatar) + '" alt="">'
-          : "") +
-        '<span><span class="social-post-name">' +
-        escapeHtml(name) +
-        "</span> <span class=\"social-post-handle\">" +
-        escapeHtml(handle) +
-        "</span></span>" +
-        "</div>" +
-        '<p class="social-post-text">' +
-        escapeHtml(text) +
-        "</p>" +
-        '<span class="social-post-date">' +
-        escapeHtml(date) +
+        '<span class="social-post-meta">' +
+        meta +
         "</span>" +
-        quoting +
-        "</div>";
+        '<span class="social-post-text">' +
+        escapeHtml(text) +
+        "</span>";
       grid.appendChild(el);
     });
   }

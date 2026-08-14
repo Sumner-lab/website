@@ -517,48 +517,46 @@ a.research-tile:hover::after {
 /* ---- Social wall (#sumnerlabucl on Bluesky) ---- */
 
 .social-wall { padding: 1rem 1.5rem 3.5rem; }
-.social-wall-intro { color: var(--color-text-muted); max-width: 38rem; margin: 0.5rem 0 1.5rem; }
 .social-wall-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 1.25rem;
+  /* auto-fill (not auto-fit) so a single post keeps a normal card width
+     instead of stretching to fill the whole row */
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 1.5rem;
+  margin: 1.25rem 0 0;
 }
 .social-wall-status { color: var(--color-text-muted); grid-column: 1 / -1; }
-.social-post {
-  display: block;
-  text-decoration: none;
-  color: var(--color-text);
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  overflow: hidden;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
-}
-.social-post:hover { box-shadow: 0 0.75rem 1.75rem -0.5rem rgba(10,8,5,0.25); transform: translateY(-2px); }
+.social-post { text-decoration: none; color: var(--color-text); display: block; }
 /* .prose img (higher specificity than a bare class) can otherwise leak
-   margin/border-radius onto these when the wall is embedded in body content */
-.social-wall .social-post img { margin: 0; border-radius: 0; }
-.social-post-image { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
-.social-post-body { padding: 1rem; }
-.social-post-author { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
-.social-post-avatar { width: 1.75rem; height: 1.75rem; border-radius: 50%; object-fit: cover; }
-.social-post-name { font-weight: 600; font-size: 0.88rem; }
-.social-post-handle { color: var(--color-text-muted); font-size: 0.8rem; }
-.social-post-text {
-  font-size: 0.9rem;
-  line-height: 1.5;
-  margin: 0 0 0.5rem;
-  white-space: pre-wrap;
-  overflow-wrap: break-word;
-}
-.social-post-date { color: var(--color-text-muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.03em; }
-.social-post-quoting {
+   margin/border-radius onto this when the wall is embedded in body content */
+.social-wall .social-post img { margin: 0; }
+.social-post-image {
   display: block;
-  margin-top: 0.35rem;
-  font-size: 0.75rem;
-  font-style: italic;
-  color: var(--color-text-muted);
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: var(--radius);
+  margin-bottom: 0.75rem;
 }
+.social-post-meta {
+  display: block;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.social-post-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.4;
+  margin: 0.2rem 0 0;
+}
+.social-post:hover .social-post-text { text-decoration: underline; }
 
 /* ---- Latest from the lab (homepage) ---- */
 
