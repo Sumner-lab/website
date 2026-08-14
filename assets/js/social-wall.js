@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function loadPosts(tag, grid) {
     var url =
-      "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=" +
+      "https://api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=" +
       encodeURIComponent("#" + tag) +
       "&sort=latest&limit=9";
 
