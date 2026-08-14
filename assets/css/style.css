@@ -284,12 +284,16 @@ body.has-hero .site-header {
 
 .page-header-band {
   position: relative;
-  min-height: 42vh;
+  aspect-ratio: 3.2 / 1;
+  max-height: 460px;
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: flex-end;
   color: #fff;
+}
+@media (max-width: 700px) {
+  .page-header-band { aspect-ratio: 1.6 / 1; }
 }
 .page-header-band::after {
   content: "";
