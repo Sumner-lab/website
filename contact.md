@@ -1,7 +1,8 @@
 ---
 title: Contact
 permalink: /contact/
-header_image: /wp-content/uploads/2026/02/UCL_2018_BWSsort-2048x1536.jpg
+header_image: /assets/images/group-ucl200-crawling.jpeg
+header_image_position: "center 55%"
 ---
 Get in touch to talk about internships, PhD studentships, postdocs, and fellowship applications. We embrace equality in science, and welcome expressions of interest from the widest diversity of people, from all backgrounds, geographical regions, and interests. Email Seirian to discuss further!
 

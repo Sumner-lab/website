@@ -2,7 +2,7 @@
 layout: default
 ---
 {% if page.header_image %}
-<div class="page-header-band" style="background-image: url('{{ page.header_image | relative_url }}');">
+<div class="page-header-band" style="background-image: url('{{ page.header_image | relative_url }}');{% if page.header_image_position %} background-position: {{ page.header_image_position }};{% endif %}">
   <div class="page-header-band-content wrap">
     <h1>{{ page.title }}</h1>
   </div>
