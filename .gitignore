@@ -4,4 +4,5 @@ _site_preview/
 .jekyll-metadata
 .bundle/
 vendor/
+__pycache__/
 sumnerlab-preview.zip
