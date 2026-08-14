@@ -650,12 +650,22 @@ a.research-tile:hover::after {
   border-bottom: 0.32rem solid transparent;
   border-left: 0.5rem solid currentColor;
 }
-.person-link-btn { padding: 0.35rem 0.9rem; }
+.person-link-btn { padding: 0.35rem 0.9rem 0.35rem 0.7rem; }
 .person-links {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
   margin: 1.25rem 0 0;
+}
+.person-link-icon {
+  width: 1.05rem;
+  height: 1.05rem;
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 /* ---- Media scatter board ---- */
