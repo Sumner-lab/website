@@ -941,3 +941,76 @@ a.media-card-inner:hover {
   .search-box { right: auto; left: 0; }
   .hero { min-height: 70vh; }
 }
+
+/* ---- Numbers page (unlisted analytics dashboard) ---- */
+
+.numbers-updated {
+  color: var(--color-text-muted);
+  font-size: 0.88rem;
+  margin: -0.5rem 0 1.5rem;
+}
+.numbers-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 1rem;
+  margin: 0 0 2.5rem;
+}
+.numbers-stat {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.25rem;
+}
+.numbers-stat-value {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.9rem;
+  font-variant-numeric: tabular-nums;
+}
+.numbers-stat-label {
+  color: var(--color-text-muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-top: 0.2rem;
+}
+
+.numbers-map-wrap {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.world-map-svg { width: 100%; height: auto; display: block; }
+.world-map-svg .country {
+  fill: var(--color-bg);
+  stroke: var(--color-border);
+  stroke-width: 0.5;
+  transition: fill 0.15s ease, fill-opacity 0.15s ease;
+}
+.world-map-svg .country:hover { fill: var(--color-accent); fill-opacity: 1; }
+
+.numbers-empty {
+  background: var(--color-accent-light);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.numbers-empty h3 { margin-top: 0; }
+
+.numbers-table { width: 100%; border-collapse: collapse; margin-bottom: 2.5rem; }
+.numbers-table th, .numbers-table td {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.92rem;
+}
+.numbers-table th {
+  color: var(--color-text-muted);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.numbers-table td.num { text-align: right; font-variant-numeric: tabular-nums; }

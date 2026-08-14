@@ -4,7 +4,7 @@ layout: null
 [
 {% assign first = true %}
 {% for p in site.pages %}
-  {% if p.title and p.url != "/search.json" %}
+  {% if p.title and p.url != "/search.json" and p.hidden != true %}
     {% unless first %},{% endunless %}
     {% assign first = false %}
     {
