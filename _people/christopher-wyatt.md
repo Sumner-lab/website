@@ -9,6 +9,8 @@ title: Christopher Wyatt
 redirect_from:
   - /the-group/christopher-wyatt/
 links:
+  - label: Bluesky
+    url: https://bsky.app/profile/chris-wyatt.bsky.social
   - label: GitHub
     url: https://github.com/chriswyatt1
   - label: Eco-Flow

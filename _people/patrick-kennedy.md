@@ -7,6 +7,9 @@ title: Patrick Kennedy
 redirect_from:
   - /left-the-nest/patrick-kennedy/
   - /the-group/patrick-kennedy/
+links:
+  - label: Personal website
+    url: https://www.patrickckennedy.com/
 ---
 Congratulations to Patrick for becoming Dr Kennedy in 2019!
 
