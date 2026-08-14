@@ -6,7 +6,7 @@ lang: en-GB
 # Cloudflare Web Analytics site token (public identifier, safe to commit --
 # not the same as the secret API token used to read data back out).
 # See /numbers/ for setup notes. Leave blank to keep analytics disabled.
-cloudflare_analytics_token: ""
+cloudflare_analytics_token: "0da1aac0d85e474b989ced1a441b445e"
 
 markdown: kramdown
 permalink: /:title/
