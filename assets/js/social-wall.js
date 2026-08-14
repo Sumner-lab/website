@@ -60,17 +60,22 @@ document.addEventListener("DOMContentLoaded", function () {
           })
         : "";
 
-      var img = "";
+      var thumb = getThumb(post.embed);
+      var img = thumb
+        ? '<img class="social-post-image" src="' + escapeAttr(thumb) + '" alt="" loading="lazy">'
+        : "";
+
+      var quoting = "";
       if (
         post.embed &&
-        post.embed.images &&
-        post.embed.images.length &&
-        post.embed.images[0].thumb
+        post.embed.$type === "app.bsky.embed.record#view" &&
+        post.embed.record &&
+        post.embed.record.author
       ) {
-        img =
-          '<img class="social-post-image" src="' +
-          escapeAttr(post.embed.images[0].thumb) +
-          '" alt="" loading="lazy">';
+        quoting =
+          '<span class="social-post-quoting">quoting @' +
+          escapeHtml(post.embed.record.author.handle || "") +
+          "</span>";
       }
 
       var el = document.createElement("a");
@@ -97,9 +102,42 @@ document.addEventListener("DOMContentLoaded", function () {
         '<span class="social-post-date">' +
         escapeHtml(date) +
         "</span>" +
+        quoting +
         "</div>";
       grid.appendChild(el);
     });
+  }
+
+  // Pulls a preview image out of any embed shape Bluesky returns, including
+  // a quote post -- where the picture belongs to the *quoted* post, nested
+  // under embed.record.embeds, not the top-level embed itself.
+  function getThumb(embed) {
+    if (!embed) return null;
+    switch (embed.$type) {
+      case "app.bsky.embed.images#view":
+        return embed.images && embed.images[0] ? embed.images[0].thumb : null;
+      case "app.bsky.embed.gallery#view":
+        return embed.items && embed.items[0] ? embed.items[0].thumbnail : null;
+      case "app.bsky.embed.video#view":
+        return embed.thumbnail || null;
+      case "app.bsky.embed.external#view":
+        return embed.external ? embed.external.thumb : null;
+      case "app.bsky.embed.record#view":
+        return embed.record && embed.record.embeds && embed.record.embeds[0]
+          ? getThumb(embed.record.embeds[0])
+          : null;
+      case "app.bsky.embed.recordWithMedia#view":
+        return (
+          getThumb(embed.media) ||
+          (embed.record &&
+            embed.record.record &&
+            embed.record.record.embeds &&
+            getThumb(embed.record.record.embeds[0])) ||
+          null
+        );
+      default:
+        return null;
+    }
   }
 
   function escapeHtml(s) {
