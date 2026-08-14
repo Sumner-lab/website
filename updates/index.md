@@ -2,7 +2,7 @@
 title: News & Updates
 permalink: /updates/
 layout: updates-index
-header_image: /wp-content/uploads/2025/07/wasp-on-sausage-1024x768.jpg
+header_image: /assets/images/hero-yellowjacket.jpg
 redirect_from:
   - /category/blog/
   - /category/news/

@@ -1,7 +1,7 @@
 ---
 title: Endless Forms
 permalink: /endless-forms/
-header_image: /assets/images/endless-forms-banner.jpg
+header_image: /assets/images/endlessformbanner.png
 ---
 <figure class="book-cover">
   <a href="https://harpercollins.co.uk/products/endless-forms-the-secret-world-of-wasps-seirian-sumner?variant=39532321472590" target="_blank" rel="noopener">
