@@ -514,6 +514,45 @@ a.research-tile:hover::after {
   .research-tile { min-height: 16rem; }
 }
 
+/* ---- Social wall (#sumnerlabucl on Bluesky) ---- */
+
+.social-wall { padding: 1rem 1.5rem 3.5rem; }
+.social-wall-intro { color: var(--color-text-muted); max-width: 38rem; margin: 0.5rem 0 1.5rem; }
+.social-wall-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.25rem;
+}
+.social-wall-status { color: var(--color-text-muted); grid-column: 1 / -1; }
+.social-post {
+  display: block;
+  text-decoration: none;
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.social-post:hover { box-shadow: 0 0.75rem 1.75rem -0.5rem rgba(10,8,5,0.25); transform: translateY(-2px); }
+/* .prose img (higher specificity than a bare class) can otherwise leak
+   margin/border-radius onto these when the wall is embedded in body content */
+.social-wall .social-post img { margin: 0; border-radius: 0; }
+.social-post-image { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
+.social-post-body { padding: 1rem; }
+.social-post-author { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+.social-post-avatar { width: 1.75rem; height: 1.75rem; border-radius: 50%; object-fit: cover; }
+.social-post-name { font-weight: 600; font-size: 0.88rem; }
+.social-post-handle { color: var(--color-text-muted); font-size: 0.8rem; }
+.social-post-text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0 0 0.5rem;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+.social-post-date { color: var(--color-text-muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.03em; }
+
 /* ---- Latest from the lab (homepage) ---- */
 
 .latest { padding: 1rem 1.5rem 4rem; }
