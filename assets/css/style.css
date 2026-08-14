@@ -310,7 +310,6 @@ body.has-hero .site-header {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center 15%;
-  min-height: 50vh;
 }
 .page-header-band-contain::after {
   background: linear-gradient(to top, rgba(10,8,5,0.9) 0%, rgba(10,8,5,0.4) 30%, rgba(10,8,5,0) 55%);
@@ -583,6 +582,18 @@ a.research-tile:hover::after {
   transition: transform 0.2s ease;
 }
 .poster-figure a:hover img { transform: translateY(-3px); }
+
+.book-cover { max-width: 200px; margin: 0 0 1.5rem; }
+.book-cover a { display: block; }
+.book-cover img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: 0 0.6rem 1.5rem rgba(10,8,5,0.18);
+  border: 1px solid rgba(10,8,5,0.08);
+  transition: transform 0.2s ease;
+}
+.book-cover a:hover img { transform: translateY(-3px); }
 
 .media-play {
   display: inline-flex;

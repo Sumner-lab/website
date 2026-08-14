@@ -1,9 +1,14 @@
 ---
 title: Endless Forms
 permalink: /endless-forms/
-header_image: /assets/images/endless-forms-cover.jpg
-header_image_fit: contain
+header_image: /assets/images/endless-forms-banner.jpg
 ---
+<figure class="book-cover">
+  <a href="https://harpercollins.co.uk/products/endless-forms-the-secret-world-of-wasps-seirian-sumner?variant=39532321472590" target="_blank" rel="noopener">
+    <img src="{{ site.baseurl }}/assets/images/endless-forms-cover.jpg" alt="Endless Forms: The Secret World of Wasps, book cover">
+  </a>
+</figure>
+
 **Endless Forms: The Secret World of Wasps**, Seirian Sumner's book, is out now.
 
 > "A marvellous, revelatory natural history"
