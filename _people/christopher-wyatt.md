@@ -8,6 +8,11 @@ photo_position: "center 12%"
 title: Christopher Wyatt
 redirect_from:
   - /the-group/christopher-wyatt/
+links:
+  - label: GitHub
+    url: https://github.com/chriswyatt1
+  - label: Eco-Flow
+    url: https://eco-flow.github.io/
 ---
 **Position:** Eco-Flow project lead (September 2023–present)
 
