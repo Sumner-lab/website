@@ -514,84 +514,70 @@ a.research-tile:hover::after {
   .research-tile { min-height: 16rem; }
 }
 
-/* ---- Social wall (#sumnerlabucl on Bluesky) ---- */
-
-.social-wall { padding: 1rem 1.5rem 3.5rem; }
-.social-wall-grid {
-  display: grid;
-  /* auto-fill (not auto-fit) so a single post keeps a normal card width
-     instead of stretching to fill the whole row */
-  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
-  gap: 1.5rem;
-  margin: 1.25rem 0 0;
-}
-.social-wall-status { color: var(--color-text-muted); grid-column: 1 / -1; }
-.social-post { text-decoration: none; color: var(--color-text); display: block; }
-/* .prose img (higher specificity than a bare class) can otherwise leak
-   margin/border-radius onto this when the wall is embedded in body content */
-.social-wall .social-post img { margin: 0; }
-.social-post-image {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
-  border-radius: var(--radius);
-  margin-bottom: 0.75rem;
-}
-.social-post-meta {
-  display: block;
-  color: var(--color-text-muted);
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-}
-.social-post-text {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 1.05rem;
-  line-height: 1.4;
-  margin: 0.2rem 0 0;
-}
-.social-post:hover .social-post-text { text-decoration: underline; }
-
-/* ---- Latest from the lab (homepage) ---- */
+/* ---- Latest from the lab (homepage) / #sumnerlabucl (Bluesky) card grids ----
+   Both sections show posts as the same-looking card, so their rules are
+   shared (grouped selectors) rather than duplicated in parallel -- that
+   duplication is exactly what let the two drift out of sync before. */
 
 .latest { padding: 1rem 1.5rem 4rem; }
-.latest-grid {
+.social-wall { padding: 1rem 1.5rem 3.5rem; }
+
+.latest-grid, .social-wall-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 1.5rem;
-  margin: 1.25rem 0 1.75rem;
+  margin: 1.25rem 0 0;
 }
-.latest-card { text-decoration: none; color: var(--color-text); display: block; }
-.latest-card-image {
+.latest-grid { margin-bottom: 1.75rem; }
+.social-wall-status { color: var(--color-text-muted); grid-column: 1 / -1; }
+
+.latest-card, .social-post {
+  text-decoration: none;
+  color: var(--color-text);
+  display: block;
+  /* caps a card at roughly what a 3-up row produces, so 1-2 posts don't
+     stretch wider than a full row would make them -- same effect as
+     auto-fit already gives .latest-grid's usual 3 items */
+  max-width: 22rem;
+}
+
+.latest-card-image, .social-post-image {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 10;
-  background-size: cover;
-  background-position: center;
   border-radius: var(--radius);
   margin-bottom: 0.75rem;
 }
-.latest-card-date {
+.latest-card-image { background-size: cover; background-position: center; }
+.social-post-image { object-fit: cover; }
+/* .prose img (higher specificity than a bare class) can otherwise leak
+   margin/border-radius onto this when the wall is embedded in body content */
+.social-wall .social-post img { margin: 0; }
+
+.latest-card-date, .social-post-meta {
   display: block;
   color: var(--color-text-muted);
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
-.latest-card-title {
+
+.latest-card-title, .social-post-text {
   display: block;
   font-family: var(--font-display);
   font-weight: 600;
   font-size: 1.1rem;
   margin-top: 0.2rem;
 }
-.latest-card:hover .latest-card-title { text-decoration: underline; }
+.social-post-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  line-height: 1.4;
+}
+.latest-card:hover .latest-card-title,
+.social-post:hover .social-post-text { text-decoration: underline; }
 
 /* ---- Page / post / person ---- */
 

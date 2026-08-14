@@ -57,7 +57,7 @@ layout: default
   <div class="latest-grid">
     {% for post in site.posts limit: 3 %}
     <a class="latest-card" href="{{ post.url | relative_url }}">
-      {% if post.image %}<span class="latest-card-image" style="background-image: url('{{ post.image | relative_url }}');"></span>{% endif %}
+      <span class="latest-card-image" style="background-image: url('{{ post.image | default: '/assets/images/hero-yellowjacket.jpg' | relative_url }}');"></span>
       <span class="latest-card-date">{{ post.date | date: "%-d %b %Y" }}</span>
       <span class="latest-card-title">{{ post.title }}</span>
     </a>
