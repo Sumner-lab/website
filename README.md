@@ -1,12 +1,13 @@
 # Sumner Lab website
 
-This repo holds the Sumner Lab website. It replaces our old 123reg/WordPress hosting — the site is now hosted for free on GitHub Pages.
+This repo holds the Sumner Lab website. It replaces our old 123reg/WordPress hosting — the site is now hosted for free on GitHub Pages (but not yet default on sumnerlab.co.uk). Here is the site: https://sumner-lab.github.io/website/
 
-## What's here (phase 1)
+## What's here 
 
+**MAIN**
 This is a straight copy of the old WordPress site: every page saved as plain HTML, with all the images and styling, pulled directly from the live site. There's no WordPress, database, or admin login behind it anymore — GitHub just serves these files as they are.
-
-**Phase 2 (planned):** convert the pages to Markdown, which will be much easier to read and edit than raw HTML. Editing instructions will follow once that's done.
+**JEKYLL**
+A markdown version of the new site. 
 
 ## Previewing the site
 
