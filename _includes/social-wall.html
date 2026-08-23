@@ -1,6 +1,20 @@
-<section class="social-wall wrap" id="sumnerlabucl-on-bluesky" data-hashtag="sumnerlabucl">
-  <h2 class="section-heading">#sumnerlabucl on Bluesky</h2>
-  <div class="social-wall-grid" aria-live="polite">
-    <p class="social-wall-status">Loading recent posts&hellip;</p>
+{% assign wall = site.data.social_wall %}
+{% assign hashtag = wall.hashtag | default: "sumnerlabucl" %}
+<section class="social-wall wrap" id="{{ hashtag }}-on-bluesky">
+  <h2 class="section-heading">#{{ hashtag }} on Bluesky</h2>
+  <div class="social-wall-grid">
+    {% if wall.posts.size > 0 %}
+      {% for post in wall.posts %}
+      <a class="social-post{% unless post.image %} social-post--no-image{% endunless %}" href="{{ post.url }}" target="_blank" rel="noopener">
+        {% if post.image %}<img class="social-post-image" src="{{ post.image }}" alt="" loading="lazy">{% endif %}
+        <span class="social-post-meta">{{ post.handle }} &middot; {{ post.date | date: "%-d %b %Y" }}{% if post.quoting %} &middot; quoting @{{ post.quoting }}{% endif %}</span>
+        <span class="social-post-text">{{ post.text }}</span>
+      </a>
+      {% endfor %}
+    {% elsif wall.updated %}
+      <p class="social-wall-status">No posts tagged #{{ hashtag }} yet &mdash; be the first!</p>
+    {% else %}
+      <p class="social-wall-status">Couldn&rsquo;t load posts right now &mdash; <a href="https://bsky.app/hashtag/{{ hashtag }}" target="_blank" rel="noopener">see them directly on Bluesky</a>.</p>
+    {% endif %}
   </div>
 </section>

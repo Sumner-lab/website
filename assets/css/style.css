@@ -579,6 +579,16 @@ a.research-tile:hover::after {
 .latest-card:hover .latest-card-title,
 .social-post:hover .social-post-text { text-decoration: underline; }
 
+/* No photo (eg. a reply post whose picture lives on an earlier post in the
+   thread that we couldn't recover) -- read as a lighter, more compact note
+   rather than a full card with a missing image. */
+.social-post--no-image { max-width: 16rem; }
+.social-post--no-image .social-post-text {
+  font-size: 0.95rem;
+  font-weight: 500;
+  -webkit-line-clamp: 2;
+}
+
 /* ---- Page / post / person ---- */
 
 .page, .post { padding: 2.5rem 1.5rem 4rem; }
