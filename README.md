@@ -1,8 +1,8 @@
 # Sumner Lab website
 
-This repo holds the Sumner Lab website. It replaces our old 123reg/WordPress hosting — the site will be hosted for free on GitHub Pages.
+This repo holds the Sumner Lab website, live at **[sumner-lab.github.io/website](https://sumner-lab.github.io/website/)**. It replaced our old 123reg/WordPress hosting and is hosted for free on GitHub Pages.
 
-**This branch (`jekyll-markdown`) is phase 2**, still in progress and not yet merged to `main`. `main` has phase 1: a straight HTML copy of the old WordPress site, working but hard to edit (every page's nav/header is duplicated in every file). This branch rebuilds the site as Markdown pages on Jekyll, with one shared template, so editing a page means editing a short Markdown file, and a nav change happens in one place instead of hundreds.
+The site is built as Markdown pages on Jekyll, with one shared template, so editing a page means editing a short Markdown file, and a nav change happens in one place instead of being duplicated across hundreds of files. The original straight-HTML copy of the old WordPress site (working, but with every page's nav/header duplicated in every file) is archived on the [`old_web_format`](https://github.com/Sumner-lab/website/tree/old_web_format) branch.
 
 ## Previewing the site
 
@@ -25,7 +25,7 @@ Needs Ruby + [Bundler](https://bundler.io/) installed (`gem install bundler` if 
 - **The nav menu**: edit `_data/nav.yml` — one file, applies everywhere.
 - **Images**: drop them anywhere under `wp-content/uploads/`, reference with a relative path.
 
-Preview locally before pushing. GitHub Actions rebuilds and redeploys automatically on push once this is live (see `.github/workflows/pages.yml`).
+Preview locally before pushing. GitHub Actions rebuilds and redeploys automatically on every push to `main` (see `.github/workflows/pages.yml`).
 
 ## Sharing a preview with someone outside the team
 
@@ -46,7 +46,7 @@ The zip is large (~160MB) because it includes every image on the site — fine f
 - [x] Jekyll scaffold + shared template (fixes phase 1's duplicated-nav problem)
 - [x] A representative slice converted and padded out for design review (homepage, 5 people, 3 posts, several research/outreach pages)
 - [ ] Remaining ~120 pages/posts/people batch-converted
-- [ ] Merged into `main`
+- [x] Merged into `main`
 - [ ] GitHub Pages switched on with our domain
 - [ ] DNS updated so sumnerlab.co.uk points here
 - [ ] HTTPS confirmed working
