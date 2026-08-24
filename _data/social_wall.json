@@ -1,12 +1,12 @@
 {
   "hashtag": "sumnerlabucl",
-  "updated": "2026-08-24T12:23:57Z",
+  "updated": "2026-08-24T13:53:57Z",
   "posts": [
     {
-      "url": "https://bsky.app/profile/chris-wyatt.bsky.social/post/3mtnvwlrxk22a",
+      "url": "https://bsky.app/profile/chris-wyatt.bsky.social/post/3mtnvw7km422a",
       "handle": "@chris-wyatt.bsky.social",
-      "text": "This work was funded by @biofair.bsky.social, ensuring this pipeline follows FAIR principles. And BBSRC (gtr.ukri.org/projects?ref...). And was directed by #Eco-flow, an initiative to build reproducible pipelines for agro-eco-evolutionary biology (eco-flow.github.io) at #UCL #sumnerlabucl",
-      "date": "2026-08-22T08:59:26.508Z",
+      "text": "nf-core/genomeqc is finally on bioRxiv,, a best-practice #Nextflow pipeline for comparing #genome & assembly quality, grown out of the 2024 @nf-co.re  Barcelona hackathon with Fernando Duarte, @stephenturner.us and more.",
+      "date": "2026-08-22T08:59:26.504Z",
       "image": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:do6wtglec6o6dlujfqvxm7lv/bafkreiegd2gcttmzfeudyoilin7x56wcjdeuqhsjipy3gzgyg3er3apj7m",
       "quoting": null
     },
