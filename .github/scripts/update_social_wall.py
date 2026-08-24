@@ -12,14 +12,6 @@ password from Settings -> Privacy and Security -> App Passwords, NOT the
 account's real password) routes calls through the account's own session
 instead of the anonymous path, which isn't subject to that block.
 
-NOTE ON CONFIDENCE: creating a session against the entryway
-(com.atproto.server.createSession) and then calling app.bsky.feed.* methods
-on that *same* host with the resulting Bearer token is the standard pattern
-official atproto client libraries use (the entryway proxies app-view
-lexicons for authenticated sessions) -- but it's not independently verified
-here against a real account. If auth calls fail with something other than a
-plain network error, this is the first place to check.
-
 Falls back to the unauthenticated endpoint if no credentials are set, so
 this still runs (best-effort) before that's configured. Retries a handful of
 times either way; if every attempt still fails, this leaves the existing
@@ -199,13 +191,16 @@ for post in raw_posts:
         if reply:
             parent_uri = (reply.get("parent") or {}).get("uri")
             root_uri = (reply.get("root") or {}).get("uri")
-            parent_post = related_posts.get(parent_uri)
-            if parent_post:
-                thumb = get_thumb(parent_post.get("embed"))
-            if not thumb and root_uri != parent_uri:
-                root_post = related_posts.get(root_uri)
-                if root_post:
-                    thumb = get_thumb(root_post.get("embed"))
+            # Prefer the thread's opening post over the immediate parent --
+            # the first post is usually the one carrying the photo the rest
+            # of the thread is talking about, even several replies deep.
+            root_post = related_posts.get(root_uri)
+            if root_post:
+                thumb = get_thumb(root_post.get("embed"))
+            if not thumb and parent_uri != root_uri:
+                parent_post = related_posts.get(parent_uri)
+                if parent_post:
+                    thumb = get_thumb(parent_post.get("embed"))
 
     embed = post.get("embed") or {}
     quoting_handle = None
