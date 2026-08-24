@@ -17,6 +17,9 @@ jobs:
           ref: main
 
       - run: python3 .github/scripts/update_social_wall.py
+        env:
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
 
       - run: |
           if git diff --quiet -- _data/social_wall.json; then

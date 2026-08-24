@@ -1,15 +1,30 @@
 #!/usr/bin/env python3
-"""Pulls recent #sumnerlabucl posts from Bluesky's public search API and
-writes _data/social_wall.json, which _includes/social-wall.html renders at
-build time.
+"""Pulls recent #sumnerlabucl posts from Bluesky and writes
+_data/social_wall.json, which _includes/social-wall.html renders at build
+time.
 
-No auth required -- this hits Bluesky's public unauthenticated AppView
-(public.api.bsky.app), which is quite flaky about returning plain 403s
-("Request forbidden by administrative rules") for a chunk of requests
-regardless of headers used. Retries a handful of times to ride that out; if
-every attempt still fails, this leaves the existing data file untouched
-(exit 0, no write) so the site always keeps showing the last good fetch
-rather than going blank.
+Bluesky's public unauthenticated AppView (public.api.bsky.app) hard-blocks
+cloud/datacenter IPs -- including GitHub Actions runners -- with a flat 403
+("Request forbidden by administrative rules") on effectively every request,
+confirmed across 10+ scheduled runs that all "succeeded" but never actually
+got data. Authenticating (BSKY_HANDLE + BSKY_APP_PASSWORD env vars, an app
+password from Settings -> Privacy and Security -> App Passwords, NOT the
+account's real password) routes calls through the account's own session
+instead of the anonymous path, which isn't subject to that block.
+
+NOTE ON CONFIDENCE: creating a session against the entryway
+(com.atproto.server.createSession) and then calling app.bsky.feed.* methods
+on that *same* host with the resulting Bearer token is the standard pattern
+official atproto client libraries use (the entryway proxies app-view
+lexicons for authenticated sessions) -- but it's not independently verified
+here against a real account. If auth calls fail with something other than a
+plain network error, this is the first place to check.
+
+Falls back to the unauthenticated endpoint if no credentials are set, so
+this still runs (best-effort) before that's configured. Retries a handful of
+times either way; if every attempt still fails, this leaves the existing
+data file untouched (exit 0, no write) so the site always keeps showing the
+last good fetch rather than going blank.
 
 HASHTAG below must match the data-hashtag attribute in
 _includes/social-wall.html.
@@ -24,7 +39,8 @@ import urllib.request
 from datetime import datetime, timezone
 
 HASHTAG = "sumnerlabucl"
-API_BASE = "https://public.api.bsky.app/xrpc"
+PUBLIC_API_BASE = "https://public.api.bsky.app/xrpc"
+AUTH_API_BASE = "https://bsky.social/xrpc"
 USER_AGENT = "SumnerLabWebsiteBot/1.0 (+https://sumner-lab.github.io/website/; fetches the #sumnerlabucl social wall)"
 POST_LIMIT = 9
 FETCH_ATTEMPTS = 8
@@ -34,11 +50,43 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))
 OUT_PATH = os.path.join(REPO_ROOT, "_data", "social_wall.json")
 
+BSKY_HANDLE = os.environ.get("BSKY_HANDLE", "")
+BSKY_APP_PASSWORD = os.environ.get("BSKY_APP_PASSWORD", "")
+
+API_BASE = PUBLIC_API_BASE
+access_token = None
+
+
+def create_session():
+    body = json.dumps({"identifier": BSKY_HANDLE, "password": BSKY_APP_PASSWORD}).encode()
+    req = urllib.request.Request(
+        f"{AUTH_API_BASE}/com.atproto.server.createSession",
+        data=body,
+        headers={"Content-Type": "application/json", "User-Agent": USER_AGENT},
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.loads(r.read())["accessJwt"]
+
+
+if BSKY_HANDLE and BSKY_APP_PASSWORD:
+    try:
+        access_token = create_session()
+        API_BASE = AUTH_API_BASE
+        print(f"Authenticated to Bluesky as {BSKY_HANDLE}.")
+    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as e:
+        print(f"Couldn't create a Bluesky session ({e}) -- falling back to the "
+              f"public unauthenticated API.")
+else:
+    print("BSKY_HANDLE / BSKY_APP_PASSWORD not set -- using the public "
+          "unauthenticated API (less reliable from cloud IPs).")
+
 
 def fetch_json(url):
-    req = urllib.request.Request(
-        url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"}
-    )
+    headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
+    if access_token:
+        headers["Authorization"] = f"Bearer {access_token}"
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=20) as r:
         return json.loads(r.read())
 
