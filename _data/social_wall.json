@@ -1,5 +1,22 @@
 {
   "hashtag": "sumnerlabucl",
-  "updated": null,
-  "posts": []
+  "updated": "2026-08-24T11:24:03Z",
+  "posts": [
+    {
+      "url": "https://bsky.app/profile/chris-wyatt.bsky.social/post/3mtnvwlrxk22a",
+      "handle": "@chris-wyatt.bsky.social",
+      "text": "This work was funded by @biofair.bsky.social, ensuring this pipeline follows FAIR principles. And BBSRC (gtr.ukri.org/projects?ref...). And was directed by #Eco-flow, an initiative to build reproducible pipelines for agro-eco-evolutionary biology (eco-flow.github.io) at #UCL #sumnerlabucl",
+      "date": "2026-08-22T08:59:26.508Z",
+      "image": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:do6wtglec6o6dlujfqvxm7lv/bafkreidnrgwy362ieqmnhbda423cksmwpv5c744hpsad2uuiisrf4tghyi",
+      "quoting": null
+    },
+    {
+      "url": "https://bsky.app/profile/chris-wyatt.bsky.social/post/3mszoj5zdok2e",
+      "handle": "@chris-wyatt.bsky.social",
+      "text": "Citizen science UK wasp survey worth taking part in :), from Sumner lab #sumnerlabucl",
+      "date": "2026-08-14T07:53:37.714Z",
+      "image": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:g2syplhduvniqojxe2qpc4uh/bafkreif3oy4vxam6qvd277cctixzc6ubjr7kpvcfchobycb5xld724aml4",
+      "quoting": "uk.theconversation.com"
+    }
+  ]
 }
