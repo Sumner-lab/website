@@ -1,12 +1,13 @@
 {% assign wall = site.data.social_wall %}
 {% assign hashtag = wall.hashtag | default: "sumnerlabucl" %}
+{% assign placeholder_image = "/assets/images/wasp-illustration.jpeg" | relative_url %}
 <section class="social-wall wrap" id="{{ hashtag }}-on-bluesky">
   <h2 class="section-heading">#{{ hashtag }} on Bluesky</h2>
   <div class="social-wall-grid">
     {% if wall.posts.size > 0 %}
       {% for post in wall.posts %}
-      <a class="social-post{% unless post.image %} social-post--no-image{% endunless %}" href="{{ post.url }}" target="_blank" rel="noopener">
-        {% if post.image %}<img class="social-post-image" src="{{ post.image }}" alt="" loading="lazy">{% endif %}
+      <a class="social-post" href="{{ post.url }}" target="_blank" rel="noopener">
+        <img class="social-post-image{% unless post.image %} social-post-image--placeholder{% endunless %}" src="{{ post.image | default: placeholder_image }}" alt="" loading="lazy">
         <span class="social-post-meta">{{ post.handle }} &middot; {{ post.date | date: "%-d %b %Y" }}{% if post.quoting %} &middot; quoting @{{ post.quoting }}{% endif %}</span>
         <span class="social-post-text">{{ post.text }}</span>
       </a>

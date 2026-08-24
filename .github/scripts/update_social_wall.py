@@ -130,7 +130,7 @@ def get_thumb(embed):
 def fetch_posts_by_uri(uris):
     """Batch-fetches full post views for the given at:// URIs, chunked to
     the API's 25-per-request cap. Returns {uri: postView}. Best-effort: if
-    this fails, callers just fall back to having no borrowed image."""
+    this fails, callers just fall back to the reply itself."""
     result = {}
     uris = [u for u in uris if u]
     for i in range(0, len(uris), 25):
@@ -139,8 +139,8 @@ def fetch_posts_by_uri(uris):
         try:
             data = fetch_json(f"{API_BASE}/app.bsky.feed.getPosts?{qs}")
         except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as e:
-            print(f"Note: couldn't fetch parent/root posts for image lookup ({e}); "
-                  f"affected posts will render without a borrowed image.")
+            print(f"Note: couldn't fetch thread root posts ({e}); affected "
+                  f"replies will render as themselves instead.")
             continue
         for post in data.get("posts", []):
             result[post["uri"]] = post
@@ -162,45 +162,37 @@ except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as e:
 
 raw_posts = search_data.get("posts", [])
 
-# A reply that quotes/mentions the hashtag often doesn't carry its own photo
-# -- the photo is on an earlier post in the same thread (the reply's parent,
-# or the thread root). Batch-fetch those so we can borrow the image instead
-# of showing a text-only card when a picture exists just one hop away.
-needed_uris = set()
-for post in raw_posts:
-    if get_thumb(post.get("embed")):
-        continue
+# A hashtag mention buried in a reply is usually a follow-up comment on a
+# thread someone else started (often themselves) with the actual
+# announcement -- show that opening post instead, not the reply that
+# happened to carry the tag. Batch-fetch every thread root we need.
+def reply_root_uri(post):
     reply = (post.get("record") or {}).get("reply")
-    if reply:
-        needed_uris.add((reply.get("parent") or {}).get("uri"))
-        needed_uris.add((reply.get("root") or {}).get("uri"))
+    return (reply.get("root") or {}).get("uri") if reply else None
 
-related_posts = fetch_posts_by_uri(needed_uris) if needed_uris else {}
+
+root_uris = {reply_root_uri(post) for post in raw_posts if reply_root_uri(post)}
+root_posts = fetch_posts_by_uri(root_uris) if root_uris else {}
+
+resolved_posts = []
+seen_uris = set()
+for post in raw_posts:
+    root_uri = reply_root_uri(post)
+    # Best-effort: if this isn't a reply, or the root fetch failed, fall
+    # back to showing the matched post itself rather than dropping it.
+    target = root_posts.get(root_uri, post) if root_uri else post
+    if target["uri"] in seen_uris:
+        continue  # two matched replies in the same thread -> one card
+    seen_uris.add(target["uri"])
+    resolved_posts.append(target)
 
 out_posts = []
-for post in raw_posts:
+for post in resolved_posts:
     author = post.get("author") or {}
     record = post.get("record") or {}
     handle = author.get("handle")
     if not handle:
         continue
-
-    thumb = get_thumb(post.get("embed"))
-    if not thumb:
-        reply = record.get("reply")
-        if reply:
-            parent_uri = (reply.get("parent") or {}).get("uri")
-            root_uri = (reply.get("root") or {}).get("uri")
-            # Prefer the thread's opening post over the immediate parent --
-            # the first post is usually the one carrying the photo the rest
-            # of the thread is talking about, even several replies deep.
-            root_post = related_posts.get(root_uri)
-            if root_post:
-                thumb = get_thumb(root_post.get("embed"))
-            if not thumb and parent_uri != root_uri:
-                parent_post = related_posts.get(parent_uri)
-                if parent_post:
-                    thumb = get_thumb(parent_post.get("embed"))
 
     embed = post.get("embed") or {}
     quoting_handle = None
@@ -214,7 +206,7 @@ for post in raw_posts:
             "handle": f"@{handle}",
             "text": record.get("text", ""),
             "date": record.get("createdAt"),
-            "image": thumb,
+            "image": get_thumb(embed),
             "quoting": quoting_handle,
         }
     )
