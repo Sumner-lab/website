@@ -1,6 +1,6 @@
 {
   "updated": "2026-08-30",
-  "method": "per-day-unsampled-v2",
+  "method": "per-day-unsampled-v3",
   "counted_dates": [
     "2026-08-14",
     "2026-08-15",
@@ -21,7 +21,7 @@
   ],
   "pageviews": 114,
   "visits": 24,
-  "countries_count": 0,
+  "countries_count": 2,
   "top_pages": [
     {
       "path": "/website/",
@@ -76,5 +76,18 @@
       "views": 1
     }
   ],
-  "top_countries": []
+  "top_countries": [
+    {
+      "name": "United Kingdom",
+      "views": 57,
+      "visits": 21,
+      "iso": "GB"
+    },
+    {
+      "name": "Brazil",
+      "views": 57,
+      "visits": 3,
+      "iso": "BR"
+    }
+  ]
 }
