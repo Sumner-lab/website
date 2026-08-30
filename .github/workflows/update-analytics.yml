@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   update:
@@ -31,3 +32,11 @@ jobs:
           git add _data/analytics.json
           git commit -m "Update visit analytics"
           git push
+
+          # A push made with the default GITHUB_TOKEN doesn't trigger other
+          # workflows' `push` events, so pages.yml wouldn't otherwise pick
+          # up this new data. Dispatching it directly via the API isn't
+          # subject to that restriction.
+          gh workflow run pages.yml
+        env:
+          GH_TOKEN: ${{ github.token }}
