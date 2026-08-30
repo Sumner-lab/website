@@ -21,7 +21,7 @@
   ],
   "pageviews": 114,
   "visits": 24,
-  "countries_count": 2,
+  "countries_count": 0,
   "top_pages": [
     {
       "path": "/website/",
@@ -76,16 +76,5 @@
       "views": 1
     }
   ],
-  "top_countries": [
-    {
-      "name": "GB",
-      "views": 57,
-      "visits": 21
-    },
-    {
-      "name": "BR",
-      "views": 57,
-      "visits": 3
-    }
-  ]
+  "top_countries": []
 }
