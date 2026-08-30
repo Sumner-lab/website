@@ -1,6 +1,6 @@
 {
   "updated": "2026-08-30",
-  "method": "per-day-unsampled",
+  "method": "per-day-unsampled-v2",
   "counted_dates": [
     "2026-08-14",
     "2026-08-15",
@@ -19,9 +19,73 @@
     "2026-08-28",
     "2026-08-29"
   ],
-  "pageviews": 0,
-  "visits": 0,
-  "countries_count": 0,
-  "top_pages": [],
-  "top_countries": []
+  "pageviews": 114,
+  "visits": 24,
+  "countries_count": 2,
+  "top_pages": [
+    {
+      "path": "/website/",
+      "views": 38
+    },
+    {
+      "path": "/website/people/",
+      "views": 29
+    },
+    {
+      "path": "/website/numbers/",
+      "views": 10
+    },
+    {
+      "path": "/website/people/iona-cunningham-eurich/",
+      "views": 10
+    },
+    {
+      "path": "/website/updates/",
+      "views": 10
+    },
+    {
+      "path": "/website/contact/",
+      "views": 4
+    },
+    {
+      "path": "/website/endless-forms/",
+      "views": 3
+    },
+    {
+      "path": "/website/people/benjamin-taylor/",
+      "views": 2
+    },
+    {
+      "path": "/website/people/christopher-wyatt/",
+      "views": 2
+    },
+    {
+      "path": "/website/research/",
+      "views": 2
+    },
+    {
+      "path": "/website/wasp-picnic-survey-2026/",
+      "views": 2
+    },
+    {
+      "path": "/website/media/",
+      "views": 1
+    },
+    {
+      "path": "/website/people/seirian-sumner/",
+      "views": 1
+    }
+  ],
+  "top_countries": [
+    {
+      "name": "GB",
+      "views": 57,
+      "visits": 21
+    },
+    {
+      "name": "BR",
+      "views": 57,
+      "visits": 3
+    }
+  ]
 }
