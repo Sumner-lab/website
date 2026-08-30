@@ -148,7 +148,12 @@ def discover_site_tag():
     return BEACON_TOKEN
 
 
-SITE_TAG = discover_site_tag()
+# An explicit override takes priority over discovery -- useful once the
+# right site tag is confirmed (eg. by comparing request paths in the
+# diagnostic below against this site's actual URL structure), especially
+# if the token can't list Web Analytics sites (a different permission from
+# "Account Analytics: Read", so the REST discovery below may 403).
+SITE_TAG = os.environ.get("CLOUDFLARE_SITE_TAG", "") or discover_site_tag()
 
 # One calendar day, always unsampled and always within the query-span cap --
 # used to accumulate the ledger.
@@ -224,6 +229,24 @@ query Sites($account: String!, $start: Date!, $end: Date!) {
       ) {
         count
         dimensions { siteTag }
+      }
+    }
+  }
+}
+"""
+
+# Diagnostic companion to SITES_QUERY: the request paths for one candidate
+# site tag, so it can be told apart from another site sharing the account.
+PATHS_QUERY = """
+query Paths($account: String!, $site: String!, $start: Date!, $end: Date!) {
+  viewer {
+    accounts(filter: { accountTag: $account }) {
+      pages: rumPageloadEventsAdaptiveGroups(
+        filter: { siteTag: $site, date_geq: $start, date_leq: $end }
+        limit: 5
+        orderBy: [count_DESC]
+      ) {
+        dimensions { requestPath }
       }
     }
   }
@@ -329,7 +352,18 @@ if views_7d == 0:
         if sites:
             print("No data for our site tag. Site tags with data in this account (last 7d):")
             for s in sites:
-                print(f"  {s['dimensions']['siteTag']}: {s['count']} page views")
+                tag = s["dimensions"]["siteTag"]
+                print(f"  {tag}: {s['count']} page views")
+                # This account may track more than one site -- print each
+                # candidate's actual page paths so the right one can be told
+                # apart by eye (and set as CLOUDFLARE_SITE_TAG once known).
+                try:
+                    paths = graphql(PATHS_QUERY, {"account": ACCOUNT_ID, "site": tag,
+                                                  "start": week_ago_iso, "end": today_iso})
+                    top = [p["dimensions"]["requestPath"] for p in (paths.get("pages") or [])]
+                    print(f"    top paths: {top}")
+                except (urllib.error.URLError, urllib.error.HTTPError, RuntimeError) as e:
+                    print(f"    (couldn't fetch paths: {e})")
             print(f"(We queried siteTag={SITE_TAG})")
         else:
             print(f"No RUM data in this account yet for the last 7 days (queried "
