@@ -6,15 +6,10 @@ Requires env vars: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID.
 Reads the (non-secret) site token straight out of _config.yml so it doesn't
 need to be duplicated as a separate GitHub secret.
 
-NOTE ON CONFIDENCE: the overall query shape (viewer -> accounts ->
-rumPageloadEventsAdaptiveGroups, filtered by siteTag/datetime, an
-account-scoped dataset needing "Account Analytics: Read") is confirmed from
-Cloudflare's own docs and community reports. The exact dimension field names
-for country and path are not independently confirmed and are the most likely
-things to need a one-line fix -- if this script fails with a GraphQL schema
-error, open Cloudflare's GraphQL API Explorer (linked from the Analytics
-GraphQL API docs), paste the query below, and its autocomplete/introspection
-will show the real field names under AccountRumPageloadEventsAdaptiveGroups.
+The query shape (viewer -> accounts -> rumPageloadEventsAdaptiveGroups,
+filtered by siteTag/datetime, an account-scoped dataset needing "Account
+Analytics: Read") and its dimension field names are confirmed working
+against a real account/token.
 """
 import json
 import os
@@ -55,9 +50,6 @@ if not API_TOKEN or not ACCOUNT_ID:
 with open(os.path.join(SCRIPT_DIR, "country_lookup.json")) as f:
     COUNTRY_NAME_TO_ISO = json.load(f)
 
-# QUERY FIELD NAMES TO VERIFY if this errors: dimensions.countryName,
-# dimensions.requestPath. Everything else (dataset name, filter shape,
-# accounts scope, count metric) is higher-confidence.
 QUERY = """
 query GetAnalytics($accountTag: string!, $siteTag: string!, $since: Time!, $until: Time!) {
   viewer {
@@ -126,10 +118,17 @@ def query(since, until):
 
 now = datetime.now(timezone.utc)
 now_iso = now.strftime("%Y-%m-%dT%H:%M:%SZ")
-epoch_iso = "2020-01-01T00:00:00Z"
+# Cloudflare's Analytics GraphQL API hard-caps any single query at 13 weeks
+# 2 days (93 days) -- confirmed directly from its own error message
+# ("account ... cannot request a time range wider than 13w2d"). There's no
+# true "all time" available from this endpoint without paginating across
+# multiple 90-day windows and merging results, which isn't worth the
+# complexity for this internal stats page -- so "all time" here really
+# means "the last 90 days", and numbers.md's labels say so.
+window_start_iso = (now - timedelta(days=90)).strftime("%Y-%m-%dT%H:%M:%SZ")
 week_ago_iso = (now - timedelta(days=7)).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-all_time = query(epoch_iso, now_iso)
+all_time = query(window_start_iso, now_iso)
 last_7 = query(week_ago_iso, now_iso)
 
 countries = []

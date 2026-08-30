@@ -15,11 +15,11 @@ sitemap: false
 <div class="numbers-stats">
   <div class="numbers-stat">
     <div class="numbers-stat-value">{{ site.data.analytics.totals.views }}</div>
-    <div class="numbers-stat-label">Page views (all time)</div>
+    <div class="numbers-stat-label">Page views (last 90 days)</div>
   </div>
   <div class="numbers-stat">
     <div class="numbers-stat-value">{{ site.data.analytics.totals.visits }}</div>
-    <div class="numbers-stat-label">Visits (all time)</div>
+    <div class="numbers-stat-label">Visits (last 90 days)</div>
   </div>
   <div class="numbers-stat">
     <div class="numbers-stat-value">{{ site.data.analytics.countries | size }}</div>
