@@ -60,7 +60,7 @@ SNAPSHOT_PATH = os.path.join(REPO_ROOT, "_data", "analytics.json")
 LEDGER_PATH = os.path.join(REPO_ROOT, "_data", "analytics_totals.json")
 
 LAUNCH_DATE = "2026-08-14"  # day cloudflare_analytics_token first went live in _config.yml
-LEDGER_METHOD = "per-day-unsampled-v2"  # bump to force a clean ledger rebuild
+LEDGER_METHOD = "per-day-unsampled-v3"  # bump to force a clean ledger rebuild
 
 
 def get_beacon_token():
