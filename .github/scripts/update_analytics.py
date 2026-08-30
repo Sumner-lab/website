@@ -89,6 +89,17 @@ if not API_TOKEN:
 with open(os.path.join(SCRIPT_DIR, "country_lookup.json")) as f:
     COUNTRY_NAME_TO_ISO = json.load(f)
 
+# The GraphQL `countryName` dimension actually returns ISO alpha-2 codes
+# ("GB", "BR"), not full names -- confirmed against real Cloudflare data
+# (the original assumption it returned names was unverified). Build the
+# reverse lookup for display, preferring the longest name per code (eg.
+# "United Kingdom" over "Britain") since country_lookup.json has a few
+# name variants mapping to the same code.
+ISO_TO_COUNTRY_NAME = {}
+for _name, _iso in COUNTRY_NAME_TO_ISO.items():
+    if _iso not in ISO_TO_COUNTRY_NAME or len(_name) > len(ISO_TO_COUNTRY_NAME[_iso]):
+        ISO_TO_COUNTRY_NAME[_iso] = _name
+
 
 def load_json(path):
     try:
@@ -268,8 +279,8 @@ def update_ledger(yesterday):
 
     counted = set(prev.get("counted_dates") or [])
     pages = {p["path"]: int(p["views"]) for p in (prev.get("top_pages") or [])}
-    countries = {c["name"]: int(c["views"]) for c in (prev.get("top_countries") or [])}
-    country_visits = {c["name"]: int(c.get("visits") or 0) for c in (prev.get("top_countries") or [])}
+    countries = {c["iso"]: int(c["views"]) for c in (prev.get("top_countries") or []) if c.get("iso")}
+    country_visits = {c["iso"]: int(c.get("visits") or 0) for c in (prev.get("top_countries") or []) if c.get("iso")}
     pv = int(prev.get("pageviews") or 0)
     vis = int(prev.get("visits") or 0)
 
@@ -277,12 +288,12 @@ def update_ledger(yesterday):
     last = datetime.date.fromisoformat(yesterday)
     ingested = 0
     while day <= last:
-        iso = day.isoformat()
+        day_iso = day.isoformat()
         day += datetime.timedelta(days=1)
-        if iso in counted:
+        if day_iso in counted:
             continue
 
-        acct = graphql(DAY_QUERY, {"account": ACCOUNT_ID, "site": SITE_TAG, "day": iso})
+        acct = graphql(DAY_QUERY, {"account": ACCOUNT_ID, "site": SITE_TAG, "day": day_iso})
         tgroups = acct.get("totals") or []
         if tgroups:
             pv += int(tgroups[0]["count"])
@@ -291,11 +302,13 @@ def update_ledger(yesterday):
             path = g["dimensions"]["requestPath"] or "/"
             pages[path] = pages.get(path, 0) + int(g["count"])
         for g in (acct.get("countries") or []):
-            name = g["dimensions"]["countryName"] or "Unknown"
-            countries[name] = countries.get(name, 0) + int(g["count"])
-            country_visits[name] = country_visits.get(name, 0) + int((g.get("sum") or {}).get("visits") or 0)
+            # Despite the field's name, `countryName` returns an ISO
+            # alpha-2 code (eg. "GB"), not a full country name.
+            code = g["dimensions"]["countryName"] or "ZZ"
+            countries[code] = countries.get(code, 0) + int(g["count"])
+            country_visits[code] = country_visits.get(code, 0) + int((g.get("sum") or {}).get("visits") or 0)
 
-        counted.add(iso)
+        counted.add(day_iso)
         ingested += 1
 
     print(f"Ledger: ingested {ingested} new day(s); {pv} page views / {vis} visits all-time "
@@ -303,16 +316,16 @@ def update_ledger(yesterday):
 
     top_countries = []
     unmatched = []
-    for name, views in countries.items():
-        entry = {"name": name, "views": views, "visits": country_visits.get(name, 0)}
-        iso_code = COUNTRY_NAME_TO_ISO.get(name)
-        if iso_code:
-            entry["iso"] = iso_code
+    for code, views in countries.items():
+        display_name = ISO_TO_COUNTRY_NAME.get(code)
+        entry = {"name": display_name or code, "views": views, "visits": country_visits.get(code, 0)}
+        if display_name:
+            entry["iso"] = code
         else:
-            unmatched.append(name)
+            unmatched.append(code)
         top_countries.append(entry)
     if unmatched:
-        print(f"Note: {len(unmatched)} country name(s) had no ISO match and won't shade on "
+        print(f"Note: {len(unmatched)} country code(s) had no name match and won't shade on "
               f"the map (they still count toward totals): {', '.join(unmatched)}")
     top_countries.sort(key=lambda c: (-c["visits"], c["name"]))
 
