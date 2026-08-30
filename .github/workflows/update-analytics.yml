@@ -2,12 +2,20 @@ name: Update visit analytics
 
 on:
   schedule:
-    - cron: "17 6 * * *" # once a day; time is arbitrary, chosen to avoid the top of the hour
+    - cron: "17 6 * * *"  # once a day; time is arbitrary, chosen to avoid the top of the hour
+    - cron: "17 18 * * *" # backup run 12h later, in case the morning schedule is dropped/delayed
+  push:
+    branches: [main] # also refresh whenever the live site changes
   workflow_dispatch:
 
 permissions:
   contents: write
   actions: write
+
+# Don't let two runs (eg. a push landing right as the schedule fires) clash.
+concurrency:
+  group: update-analytics
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -23,14 +31,15 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
       - run: |
-          if git diff --quiet -- _data/analytics.json; then
+          if git diff --quiet -- _data/analytics.json _data/analytics_totals.json; then
             echo "No change in analytics data."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _data/analytics.json
+          git add _data/analytics.json _data/analytics_totals.json
           git commit -m "Update visit analytics"
+          git pull --rebase origin main
           git push
 
           # A push made with the default GITHUB_TOKEN doesn't trigger other
