@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "method": "per-day-unsampled-v3",
   "counted_dates": [
     "2026-08-14",
@@ -17,15 +17,16 @@
     "2026-08-26",
     "2026-08-27",
     "2026-08-28",
-    "2026-08-29"
+    "2026-08-29",
+    "2026-08-30"
   ],
-  "pageviews": 114,
-  "visits": 24,
+  "pageviews": 124,
+  "visits": 34,
   "countries_count": 2,
   "top_pages": [
     {
       "path": "/website/",
-      "views": 38
+      "views": 39
     },
     {
       "path": "/website/people/",
@@ -33,7 +34,7 @@
     },
     {
       "path": "/website/numbers/",
-      "views": 10
+      "views": 11
     },
     {
       "path": "/website/people/iona-cunningham-eurich/",
@@ -49,7 +50,7 @@
     },
     {
       "path": "/website/endless-forms/",
-      "views": 3
+      "views": 4
     },
     {
       "path": "/website/people/benjamin-taylor/",
@@ -85,8 +86,8 @@
     },
     {
       "name": "Brazil",
-      "views": 57,
-      "visits": 3,
+      "views": 60,
+      "visits": 5,
       "iso": "BR"
     }
   ]
