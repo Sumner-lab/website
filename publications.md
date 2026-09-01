@@ -3,7 +3,7 @@ title: Publications
 permalink: /publications/
 header_image: /assets/images/hero-yellowjacket.jpg
 ---
-Peer-reviewed papers, book chapters, and other academic outputs from the lab — every entry includes Seirian Sumner as an author, which is what scopes this list to work connected to the lab, rather than the wider personal publication record of anyone who has passed through it (see individual [people]({{ site.baseurl }}/people/) pages for that).
+Peer-reviewed papers, book chapters, and other academic outputs co-authored by Seirian Sumner. For work published by lab members without Sumner as a co-author, see [Wider Sumner Lab Papers]({{ site.baseurl }}/publications/wider/).
 
 ## 2026
 

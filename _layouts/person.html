@@ -9,7 +9,13 @@ layout: default
     <div>
       <h1>{{ page.name | default: page.title }}</h1>
       {% if page.role %}<p class="person-role">{{ page.role }}</p>{% endif %}
-      {% if page.status == "alumni" %}<p class="person-status">Former lab member</p>{% endif %}
+      {% if page.stints %}
+      <p class="person-status">{% if page.status == "alumni" %}Former lab member{% else %}With the lab{% endif %} · {% for stint in page.stints %}{{ stint.joined }}{% if stint.left %}–{{ stint.left }}{% else %}–present{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+      {% elsif page.status == "alumni" %}
+      <p class="person-status">Former lab member{% if page.joined %} · {{ page.joined }}{% if page.left %}–{{ page.left }}{% endif %}{% endif %}</p>
+      {% elsif page.joined %}
+      <p class="person-status">With the lab since {{ page.joined }}</p>
+      {% endif %}
     </div>
   </header>
   {% if page.links %}
@@ -33,6 +39,9 @@ layout: default
         {% elsif link.url contains "linkedin.com" %}
         <rect x="3" y="3" width="18" height="18" rx="3"/>
         <text x="12" y="16.5" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="currentColor" stroke="none">in</text>
+        {% elsif link.url contains "orcid.org" %}
+        <circle cx="12" cy="12" r="9"/>
+        <text x="12" y="15.5" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="currentColor" stroke="none">iD</text>
         {% else %}
         <circle cx="12" cy="12" r="9"/>
         <path d="M3 12h18"/>
