@@ -1,6 +1,8 @@
 ---
 title: Eco-Flow – A bioinformatics ecosystem for agri-ecology
 image: /wp-content/uploads/2023/11/image-3.png
+redirect_from:
+  - /research/eco-flow/
 ---
 <figure class="wp-block-image aligncenter size-full">
 <a href="{{ site.baseurl }}/wp-content/uploads/2023/11/image-3.png"><img src="{{ site.baseurl }}/wp-content/uploads/2023/11/image-3.png" class="wp-image-1834" loading="lazy" decoding="async" srcset="{{ site.baseurl }}/wp-content/uploads/2023/11/image-3.png 460w, {{ site.baseurl }}/wp-content/uploads/2023/11/image-3-300x109.png 300w" sizes="auto, (max-width: 460px) 100vw, 460px" width="460" height="167" /></a>

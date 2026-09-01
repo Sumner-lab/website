@@ -8,6 +8,7 @@ photo: /wp-content/uploads/2026/08/RomualdT.jpeg
 title: Romuald Tcheutchoua
 redirect_from:
   - /the-group/romuald-tcheutchoua/
+  - /romuald-tcheutchoua/
 ---
 **Position:** PhD Student
 

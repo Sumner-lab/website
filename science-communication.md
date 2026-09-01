@@ -2,6 +2,8 @@
 title: Science Communication
 permalink: /science-communication/
 header_image: /assets/images/endlessformbanner.png
+redirect_from:
+  - /outreach-and-citizen-science/
 ---
 Sharing the wonder — and the science — of wasps with the public is central to what we do, through writing, books, live events and citizen science.
 

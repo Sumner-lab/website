@@ -5,6 +5,8 @@ hero: true
 hero_image: /assets/images/hero-yellowjacket.jpg
 feature_image: /assets/images/trophallaxis.jpg
 feature_caption: "Trophallaxis: workers exchanging food, marked with paint dots to track individual behaviour within the colony."
+redirect_from:
+  - /the-sumner-lab/
 ---
 We are an evolutionary biology research group at University College London, using insects — mostly wasps — to understand how cooperation, conflict and complex societies evolve.
 
