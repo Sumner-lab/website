@@ -57,7 +57,14 @@ CROSSREF_MAILTO = "s.sumner@ucl.ac.uk"
 USER_AGENT = f"SumnerLabWebsiteBot/1.0 (mailto:{CROSSREF_MAILTO}; +https://sumner-lab.github.io/website/)"
 
 SEIRIAN_ORCID = "0000-0003-0213-2018"
-EXCLUDED_WORK_TYPES = {"preprint", "dataset", "data_set", "working_paper", "other", "annotation"}
+# publications.md has never listed a preprint, even historically (it's
+# framed as peer-reviewed papers/book chapters/etc.) -- keep excluding
+# them there. The wider-lab digest has no such "peer-reviewed only"
+# framing and exists to showcase current members' work, so it allows
+# preprints through; both still exclude non-paper record types.
+NON_PAPER_TYPES = {"dataset", "data_set", "working_paper", "other", "annotation"}
+MAIN_LIST_EXCLUDED_TYPES = NON_PAPER_TYPES | {"preprint"}
+WIDER_LIST_EXCLUDED_TYPES = NON_PAPER_TYPES
 MIN_CANDIDATE_YEAR = datetime.now(timezone.utc).year - 2
 WIDER_LIST_SIZE = 20
 CROSSREF_SLEEP_SECONDS = 0.3
@@ -512,7 +519,7 @@ def main():
             continue
         if summary["doi"] in known_dois:
             continue
-        if summary["type"] in EXCLUDED_WORK_TYPES:
+        if summary["type"] in MAIN_LIST_EXCLUDED_TYPES:
             continue
         if summary["year"] < MIN_CANDIDATE_YEAR:
             continue
@@ -550,7 +557,7 @@ def main():
             continue
         for group in groups:
             summary = summarize_group(group)
-            if not summary or summary["type"] in EXCLUDED_WORK_TYPES:
+            if not summary or summary["type"] in WIDER_LIST_EXCLUDED_TYPES:
                 continue
             if summary["doi"] in known_dois:
                 continue  # already on the main Sumner-authored list
