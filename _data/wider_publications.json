@@ -1,6 +1,50 @@
 {
-  "updated": "2026-09-01T19:36:05Z",
+  "updated": "2026-09-01T19:55:29Z",
   "publications": [
+    {
+      "doi": "10.64898/2026.08.20.745971",
+      "url": "https://doi.org/10.64898/2026.08.20.745971",
+      "title": "nf-core/genomeqc: a best-practice pipeline for comparing genome and assembly quality",
+      "journal": "bioRxiv",
+      "year": 2026,
+      "date": "2026-08-20",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "authors": [
+        {
+          "name": "Wyatt CD",
+          "lab_member": true
+        },
+        {
+          "name": "Duarte Frutos F",
+          "lab_member": true
+        },
+        {
+          "name": "Turner SD",
+          "lab_member": false
+        },
+        {
+          "name": "De Araujo AC",
+          "lab_member": true
+        },
+        {
+          "name": "Rashid U",
+          "lab_member": false
+        },
+        {
+          "name": "Begley V",
+          "lab_member": false
+        },
+        {
+          "name": "Sumner S",
+          "lab_member": true
+        }
+      ],
+      "source_orcid": [
+        "0000-0001-8033-2213"
+      ]
+    },
     {
       "doi": "10.5852/ejt.2026.1073.3298",
       "url": "https://doi.org/10.5852/ejt.2026.1073.3298",
@@ -110,6 +154,66 @@
       ]
     },
     {
+      "doi": "10.64898/2026.03.13.711553",
+      "url": "https://doi.org/10.64898/2026.03.13.711553",
+      "title": "The Bacterial Kinase AnmK Integrates into Tick Genome and Biology",
+      "journal": "bioRxiv",
+      "year": 2026,
+      "date": "2026-03-16",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "authors": [
+        {
+          "name": "Cerqueira de Araujo A",
+          "lab_member": true
+        },
+        {
+          "name": "Hajdu\u0161ek O",
+          "lab_member": false
+        },
+        {
+          "name": "Urbanov\u00e1 V",
+          "lab_member": false
+        },
+        {
+          "name": "\u0160ediv\u00e1 T",
+          "lab_member": false
+        },
+        {
+          "name": "Robbertse L",
+          "lab_member": false
+        },
+        {
+          "name": "Titz A",
+          "lab_member": false
+        },
+        {
+          "name": "Plantard O",
+          "lab_member": false
+        },
+        {
+          "name": "Stahl Y",
+          "lab_member": false
+        },
+        {
+          "name": "Mayer C",
+          "lab_member": false
+        },
+        {
+          "name": "Perner J",
+          "lab_member": false
+        },
+        {
+          "name": "Rispe C",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0002-9273-9886"
+      ]
+    },
+    {
       "doi": "10.1111/1365-2656.70126",
       "url": "https://doi.org/10.1111/1365-2656.70126",
       "title": "Long\u2010range pollen transport across the North Sea: Insights from migratory hoverflies landing on a remote oil rig",
@@ -150,6 +254,54 @@
         },
         {
           "name": "Wotton KR",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0001-8033-2213"
+      ]
+    },
+    {
+      "doi": "10.1101/2025.10.30.685565",
+      "url": "https://doi.org/10.1101/2025.10.30.685565",
+      "title": "Senescent cells exhibit features of developmental signaling centres",
+      "journal": "bioRxiv",
+      "year": 2025,
+      "date": "2025-10-31",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "authors": [
+        {
+          "name": "Sampaio Gon\u00e7alves D",
+          "lab_member": false
+        },
+        {
+          "name": "Dulac L",
+          "lab_member": false
+        },
+        {
+          "name": "Ritschka B",
+          "lab_member": false
+        },
+        {
+          "name": "Rhinn M",
+          "lab_member": false
+        },
+        {
+          "name": "Klein A",
+          "lab_member": false
+        },
+        {
+          "name": "Wyatt CD",
+          "lab_member": true
+        },
+        {
+          "name": "Irimia M",
+          "lab_member": false
+        },
+        {
+          "name": "Keyes WM",
           "lab_member": false
         }
       ],
@@ -209,7 +361,7 @@
       "doi": "10.58248/pn748",
       "url": "https://doi.org/10.58248/pn748",
       "title": "Regenerative agriculture",
-      "journal": "",
+      "journal": "Parliamentary Office of Science and Technology",
       "year": 2025,
       "date": "2025-06-16",
       "volume": null,
@@ -295,6 +447,46 @@
       ],
       "source_orcid": [
         "0009-0006-6696-2722"
+      ]
+    },
+    {
+      "doi": "10.1101/2024.08.27.609913",
+      "url": "https://doi.org/10.1101/2024.08.27.609913",
+      "title": "Optimization of screening methods leads to the discovery of new viruses in black soldier flies ( Hermetia illucens )",
+      "journal": "bioRxiv",
+      "year": 2024,
+      "date": "2024-08-27",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "authors": [
+        {
+          "name": "Pienaar RD",
+          "lab_member": false
+        },
+        {
+          "name": "Herrero S",
+          "lab_member": false
+        },
+        {
+          "name": "de Araujo AC",
+          "lab_member": true
+        },
+        {
+          "name": "Krupa F",
+          "lab_member": false
+        },
+        {
+          "name": "Abd-Alla AMM",
+          "lab_member": false
+        },
+        {
+          "name": "Herniou EA",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0002-9273-9886"
       ]
     },
     {
@@ -490,6 +682,150 @@
       ]
     },
     {
+      "doi": "10.1101/2024.02.29.581698",
+      "url": "https://doi.org/10.1101/2024.02.29.581698",
+      "title": "Genome sequences of four Ixodes species expands understanding of tick evolution",
+      "journal": "bioRxiv",
+      "year": 2024,
+      "date": "2024-02-29",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "authors": [
+        {
+          "name": "de Araujo AC",
+          "lab_member": true
+        },
+        {
+          "name": "No\u00ebl B",
+          "lab_member": false
+        },
+        {
+          "name": "Bretaudeau A",
+          "lab_member": false
+        },
+        {
+          "name": "Labadie K",
+          "lab_member": false
+        },
+        {
+          "name": "Boudet M",
+          "lab_member": false
+        },
+        {
+          "name": "Tadrent N",
+          "lab_member": false
+        },
+        {
+          "name": "Istace B",
+          "lab_member": false
+        },
+        {
+          "name": "Kritli S",
+          "lab_member": false
+        },
+        {
+          "name": "Cruaud C",
+          "lab_member": false
+        },
+        {
+          "name": "Olaso R",
+          "lab_member": false
+        },
+        {
+          "name": "Deleuze JF",
+          "lab_member": false
+        },
+        {
+          "name": "Voordouw M",
+          "lab_member": false
+        },
+        {
+          "name": "Hervet C",
+          "lab_member": false
+        },
+        {
+          "name": "Plantard O",
+          "lab_member": false
+        },
+        {
+          "name": "Zamoto-Niikura A",
+          "lab_member": false
+        },
+        {
+          "name": "Chertemps T",
+          "lab_member": false
+        },
+        {
+          "name": "Ma\u00efb\u00e8che M",
+          "lab_member": false
+        },
+        {
+          "name": "Hilliou F",
+          "lab_member": false
+        },
+        {
+          "name": "Goff GL",
+          "lab_member": false
+        },
+        {
+          "name": "Chmelar J",
+          "lab_member": false
+        },
+        {
+          "name": "Maz\u00e1k V",
+          "lab_member": false
+        },
+        {
+          "name": "Jmel MA",
+          "lab_member": false
+        },
+        {
+          "name": "Kotsyfakis M",
+          "lab_member": false
+        },
+        {
+          "name": "Medina JM",
+          "lab_member": false
+        },
+        {
+          "name": "Hackenberg M",
+          "lab_member": false
+        },
+        {
+          "name": "\u0160imo L",
+          "lab_member": false
+        },
+        {
+          "name": "Koutroumpa FA",
+          "lab_member": false
+        },
+        {
+          "name": "Wincker P",
+          "lab_member": false
+        },
+        {
+          "name": "Kopacek P",
+          "lab_member": false
+        },
+        {
+          "name": "Perner J",
+          "lab_member": false
+        },
+        {
+          "name": "Aury JM",
+          "lab_member": false
+        },
+        {
+          "name": "Rispe C",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0002-9273-9886"
+      ]
+    },
+    {
       "doi": "10.1007/s10340-023-01643-3",
       "url": "https://doi.org/10.1007/s10340-023-01643-3",
       "title": "Nest visitors of Vespula wasps and their potential use for biological control in an invaded range",
@@ -515,182 +851,6 @@
         {
           "name": "Oi CA",
           "lab_member": true
-        }
-      ],
-      "source_orcid": [
-        "0000-0002-3682-8219"
-      ]
-    },
-    {
-      "doi": "10.1111/1365-2656.14029",
-      "url": "https://doi.org/10.1111/1365-2656.14029",
-      "title": "Coupled information networks drive honeybee ( Apis mellifera ) collective foraging",
-      "journal": "Journal of Animal Ecology",
-      "year": 2024,
-      "date": "2024-01-01",
-      "volume": "93",
-      "issue": "1",
-      "pages": "71-82",
-      "authors": [
-        {
-          "name": "Hasenjager MJ",
-          "lab_member": false
-        },
-        {
-          "name": "Hoppitt W",
-          "lab_member": false
-        },
-        {
-          "name": "Cunningham\u2010Eurich I",
-          "lab_member": true
-        },
-        {
-          "name": "Franks VR",
-          "lab_member": false
-        },
-        {
-          "name": "Leadbeater E",
-          "lab_member": false
-        }
-      ],
-      "source_orcid": [
-        "0000-0002-7187-1407"
-      ]
-    },
-    {
-      "doi": "10.1098/rspb.2023.2274",
-      "url": "https://doi.org/10.1098/rspb.2023.2274",
-      "title": "Transcriptomic responses to location learning by honeybee dancers are partly mirrored in the brains of dance-followers",
-      "journal": "Proceedings of the Royal Society B: Biological Sciences",
-      "year": 2023,
-      "date": "2023-12-20",
-      "volume": "290",
-      "issue": "2013",
-      "pages": null,
-      "authors": [
-        {
-          "name": "Manfredini F",
-          "lab_member": false
-        },
-        {
-          "name": "Wurm Y",
-          "lab_member": false
-        },
-        {
-          "name": "Sumner S",
-          "lab_member": true
-        },
-        {
-          "name": "Leadbeater E",
-          "lab_member": false
-        }
-      ],
-      "source_orcid": [
-        "0000-0003-0213-2018"
-      ]
-    },
-    {
-      "doi": "10.1016/j.fooweb.2023.e00323",
-      "url": "https://doi.org/10.1016/j.fooweb.2023.e00323",
-      "title": "Butterflies with a taste for elephant dung: Puddling of adult butterflies on elephant dung in India's Western Ghats",
-      "journal": "Food Webs",
-      "year": 2023,
-      "date": "2023-12-01",
-      "volume": "37",
-      "issue": null,
-      "pages": "e00323",
-      "authors": [
-        {
-          "name": "Anoop N",
-          "lab_member": false
-        },
-        {
-          "name": "Femi EB",
-          "lab_member": false
-        },
-        {
-          "name": "Yathumon M",
-          "lab_member": false
-        },
-        {
-          "name": "Punnath A",
-          "lab_member": false
-        }
-      ],
-      "source_orcid": [
-        "0000-0001-5991-9896"
-      ]
-    },
-    {
-      "doi": "10.1111/imb.12862",
-      "url": "https://doi.org/10.1111/imb.12862",
-      "title": "Using citizen science data to assess the population genetic structure of the common yellowjacket wasp, Vespula vulgaris",
-      "journal": "Insect Molecular Biology",
-      "year": 2023,
-      "date": "2023-12-01",
-      "volume": "32",
-      "issue": "6",
-      "pages": "634-647",
-      "authors": [
-        {
-          "name": "Cunningham\u2010Eurich I",
-          "lab_member": true
-        },
-        {
-          "name": "Kontou D",
-          "lab_member": false
-        },
-        {
-          "name": "Yordanova M",
-          "lab_member": false
-        },
-        {
-          "name": "Maeda\u2010Obregon A",
-          "lab_member": false
-        },
-        {
-          "name": "Favreau E",
-          "lab_member": true
-        },
-        {
-          "name": "Wang J",
-          "lab_member": false
-        },
-        {
-          "name": "Hart AG",
-          "lab_member": false
-        },
-        {
-          "name": "Sumner S",
-          "lab_member": true
-        }
-      ],
-      "source_orcid": [
-        "0000-0002-7187-1407"
-      ]
-    },
-    {
-      "doi": "10.1007/s13744-023-01089-3",
-      "url": "https://doi.org/10.1007/s13744-023-01089-3",
-      "title": "Chemical Resemblance of Egg Surface Compounds and Dufour\u2019s Gland in Two Neotropical Polistinae Wasps Polistes versicolor (Olivier) and Mischocyttarus metathoracicus (de Saussure, 1854)",
-      "journal": "Neotropical Entomology",
-      "year": 2023,
-      "date": "2023-10-20",
-      "volume": "52",
-      "issue": "6",
-      "pages": "1041-1056",
-      "authors": [
-        {
-          "name": "da Silva RC",
-          "lab_member": false
-        },
-        {
-          "name": "Oi CA",
-          "lab_member": true
-        },
-        {
-          "name": "do Nascimento FS",
-          "lab_member": false
         }
       ],
       "source_orcid": [
