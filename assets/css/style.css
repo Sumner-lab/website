@@ -594,6 +594,16 @@ a.research-tile:hover::after {
 
 .prose :is(h2, h3) { margin-top: 1.75em; }
 .prose hr { border: none; border-top: 1px solid var(--color-border); margin: 3rem 0; }
+
+.media-callout {
+  background: var(--color-accent-light);
+  border-left: 4px solid var(--color-accent);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.4rem;
+  margin: 1.5rem 0 2.5rem;
+}
+.media-callout p { margin: 0; color: var(--color-text); }
+.media-callout a { color: var(--color-accent); text-decoration: underline; }
 .prose img { border-radius: var(--radius); margin: 1em 0; }
 .prose figure { margin: 1.5em 0; }
 .prose figcaption { color: var(--color-text-muted); font-size: 0.875rem; margin-top: 0.4em; }

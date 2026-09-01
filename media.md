@@ -7,6 +7,10 @@ redirect_from:
 ---
 TV, radio, and press coverage of the lab's work — and the people behind it.
 
+<aside class="media-callout">
+  <p><strong>Journalist or broadcaster?</strong> Our lab is often in the media, and we're always happy to contribute to TV, radio, podcasts, or any other format — get in touch with <a href="mailto:s.sumner@ucl.ac.uk">Seirian</a> to talk wasps.</p>
+</aside>
+
 ## Where Are the Wasps? Summer 2026
 
 A flip-flop spring — warm to wet, chilly to cooking — followed by a succession of heatwaves might explain the apparent shortage of social wasps in the UK this year. Read about it in [Seirian's article in The Conversation](https://theconversation.com/where-have-all-the-wasps-gone-this-summer-288535). Surprising interest from the media in this — and the link with a large number of flies. This also became an opportunity to recruit members of the public to tell us what wasps at their picnics are eating, in the [Wasp Picnic Survey 2026]({{ site.baseurl }}/wasp-picnic-survey-2026/), run by [PhD student Femi Benny]({{ site.baseurl }}/people/femi-e-benny/).
