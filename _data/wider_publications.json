@@ -1,4 +1,701 @@
 {
-  "updated": null,
-  "publications": []
+  "updated": "2026-09-01T19:36:05Z",
+  "publications": [
+    {
+      "doi": "10.5852/ejt.2026.1073.3298",
+      "url": "https://doi.org/10.5852/ejt.2026.1073.3298",
+      "title": "New species of Elaphropoda Lieftinck, 1966 and Habropoda Smith, 1854 (Hymenoptera, Apidae) from Arunachal Pradesh, India",
+      "journal": "European Journal of Taxonomy",
+      "year": 2026,
+      "date": "2026-07-06",
+      "volume": "1073",
+      "issue": null,
+      "pages": null,
+      "authors": [
+        {
+          "name": "Benny FE",
+          "lab_member": true
+        },
+        {
+          "name": "Priyadarsanan DR",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0001-5991-9896"
+      ]
+    },
+    {
+      "doi": "10.12688/wellcomeopenres.26881.1",
+      "url": "https://doi.org/10.12688/wellcomeopenres.26881.1",
+      "title": "The genome sequence of an ichneumonid wasp, Dolichomitus mesocentrus (Gravenhorst, 1829) (Hymenoptera: Ichneumonidae)",
+      "journal": "Wellcome Open Research",
+      "year": 2026,
+      "date": "2026-06-27",
+      "volume": "11",
+      "issue": null,
+      "pages": "401",
+      "authors": [
+        {
+          "name": "Broad GR",
+          "lab_member": false
+        },
+        {
+          "name": "Cunningham-Eurich I",
+          "lab_member": true
+        },
+        {
+          "name": "Crowley LM",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0002-7187-1407"
+      ]
+    },
+    {
+      "doi": "10.12688/wellcomeopenres.26493.1",
+      "url": "https://doi.org/10.12688/wellcomeopenres.26493.1",
+      "title": "The genome sequence of the solitary wasp, Nysson trimaculatus (Rossi, 1790) (Hymenoptera: Crabronidae)",
+      "journal": "Wellcome Open Research",
+      "year": 2026,
+      "date": "2026-05-02",
+      "volume": "11",
+      "issue": null,
+      "pages": "257",
+      "authors": [
+        {
+          "name": "Mitchell R",
+          "lab_member": false
+        },
+        {
+          "name": "Adams I",
+          "lab_member": true
+        },
+        {
+          "name": "Broad GR",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0009-0006-6696-2722"
+      ]
+    },
+    {
+      "doi": "10.12688/wellcomeopenres.26199.1",
+      "url": "https://doi.org/10.12688/wellcomeopenres.26199.1",
+      "title": "The genome sequence of the solitary wasp, Lestiphorus bicinctus (Rossi, 1794) (Hymenoptera: Crabronidae)",
+      "journal": "Wellcome Open Research",
+      "year": 2026,
+      "date": "2026-03-31",
+      "volume": "11",
+      "issue": null,
+      "pages": "197",
+      "authors": [
+        {
+          "name": "Mitchell R",
+          "lab_member": false
+        },
+        {
+          "name": "Adams I",
+          "lab_member": true
+        },
+        {
+          "name": "Broad GR",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0009-0006-6696-2722"
+      ]
+    },
+    {
+      "doi": "10.1111/1365-2656.70126",
+      "url": "https://doi.org/10.1111/1365-2656.70126",
+      "title": "Long\u2010range pollen transport across the North Sea: Insights from migratory hoverflies landing on a remote oil rig",
+      "journal": "Journal of Animal Ecology",
+      "year": 2025,
+      "date": "2025-11-01",
+      "volume": "94",
+      "issue": "11",
+      "pages": "2267-2281",
+      "authors": [
+        {
+          "name": "Doyle TD",
+          "lab_member": false
+        },
+        {
+          "name": "Jimenez\u2010Guri E",
+          "lab_member": false
+        },
+        {
+          "name": "Barnes JC",
+          "lab_member": false
+        },
+        {
+          "name": "Hannah C",
+          "lab_member": false
+        },
+        {
+          "name": "Murray S",
+          "lab_member": false
+        },
+        {
+          "name": "Wyatt CDR",
+          "lab_member": true
+        },
+        {
+          "name": "Poole OM",
+          "lab_member": false
+        },
+        {
+          "name": "Wotton KR",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0001-8033-2213"
+      ]
+    },
+    {
+      "doi": "10.1111/mec.17823",
+      "url": "https://doi.org/10.1111/mec.17823",
+      "title": "Multi\u2010Omic Analysis Reveals Population Differentiation and Signatures of Social Evolution in Tetragonula Stingless Bees",
+      "journal": "Molecular Ecology",
+      "year": 2025,
+      "date": "2025-07-01",
+      "volume": "34",
+      "issue": "13",
+      "pages": null,
+      "authors": [
+        {
+          "name": "Taylor BA",
+          "lab_member": true
+        },
+        {
+          "name": "Slater GP",
+          "lab_member": false
+        },
+        {
+          "name": "Stolle E",
+          "lab_member": false
+        },
+        {
+          "name": "Dorey J",
+          "lab_member": false
+        },
+        {
+          "name": "Buchmann G",
+          "lab_member": false
+        },
+        {
+          "name": "Oldroyd BP",
+          "lab_member": false
+        },
+        {
+          "name": "Gloag R",
+          "lab_member": false
+        },
+        {
+          "name": "Harpur BA",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0001-8634-0484"
+      ]
+    },
+    {
+      "doi": "10.58248/pn748",
+      "url": "https://doi.org/10.58248/pn748",
+      "title": "Regenerative agriculture",
+      "journal": "",
+      "year": 2025,
+      "date": "2025-06-16",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "authors": [
+        {
+          "name": "Cunningham-Eurich I",
+          "lab_member": true
+        },
+        {
+          "name": "Wentworth J",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0002-7187-1407"
+      ]
+    },
+    {
+      "doi": "10.1007/s10342-025-01770-9",
+      "url": "https://doi.org/10.1007/s10342-025-01770-9",
+      "title": "Effect of bark harvest intensity on the formation of cavities and other microhabitats in cork oaks (Quercus suber)",
+      "journal": "European Journal of Forest Research",
+      "year": 2025,
+      "date": "2025-06-01",
+      "volume": "144",
+      "issue": "3",
+      "pages": "467-479",
+      "authors": [
+        {
+          "name": "Visick OD",
+          "lab_member": false
+        },
+        {
+          "name": "Adams I",
+          "lab_member": true
+        },
+        {
+          "name": "Marzano FS",
+          "lab_member": false
+        },
+        {
+          "name": "Ratnieks FLW",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0009-0006-6696-2722"
+      ]
+    },
+    {
+      "doi": "10.1111/een.13361",
+      "url": "https://doi.org/10.1111/een.13361",
+      "title": "Do nest sites limit wild honey bee colonies? Decoding swarm waggle dances to assess nest site availability",
+      "journal": "Ecological Entomology",
+      "year": 2024,
+      "date": "2024-12-01",
+      "volume": "49",
+      "issue": "6",
+      "pages": "869-880",
+      "authors": [
+        {
+          "name": "Visick OD",
+          "lab_member": false
+        },
+        {
+          "name": "Adams I",
+          "lab_member": true
+        },
+        {
+          "name": "Ney P",
+          "lab_member": false
+        },
+        {
+          "name": "Marzano FS",
+          "lab_member": false
+        },
+        {
+          "name": "Ratnieks FLW",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0009-0006-6696-2722"
+      ]
+    },
+    {
+      "doi": "10.12688/wellcomeopenres.22738.1",
+      "url": "https://doi.org/10.12688/wellcomeopenres.22738.1",
+      "title": "The genome sequence of a braconid wasp, Aleiodes testaceus (Telenga, 1941)",
+      "journal": "Wellcome Open Research",
+      "year": 2024,
+      "date": "2024-07-26",
+      "volume": "9",
+      "issue": null,
+      "pages": "408",
+      "authors": [
+        {
+          "name": "Broad GR",
+          "lab_member": false
+        },
+        {
+          "name": "Cunningham-Eurich I",
+          "lab_member": true
+        }
+      ],
+      "source_orcid": [
+        "0000-0002-7187-1407"
+      ]
+    },
+    {
+      "doi": "10.1093/evlett/qrad068",
+      "url": "https://doi.org/10.1093/evlett/qrad068",
+      "title": "Toward greater realism in inclusive fitness models: the case of caste fate conflict in insect societies",
+      "journal": "Evolution Letters",
+      "year": 2024,
+      "date": "2024-05-29",
+      "volume": "8",
+      "issue": "3",
+      "pages": "387-396",
+      "authors": [
+        {
+          "name": "Ferreira HM",
+          "lab_member": false
+        },
+        {
+          "name": "Alves DA",
+          "lab_member": false
+        },
+        {
+          "name": "Cool L",
+          "lab_member": false
+        },
+        {
+          "name": "Oi CA",
+          "lab_member": true
+        },
+        {
+          "name": "Oliveira RC",
+          "lab_member": false
+        },
+        {
+          "name": "Wenseleers T",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0002-3682-8219"
+      ]
+    },
+    {
+      "doi": "10.1038/s41598-024-61534-0",
+      "url": "https://doi.org/10.1038/s41598-024-61534-0",
+      "title": "Population genomics of the invasive Northern Giant Hornet Vespa mandarinia in North America and across its native range",
+      "journal": "Scientific Reports",
+      "year": 2024,
+      "date": "2024-05-11",
+      "volume": "14",
+      "issue": "1",
+      "pages": null,
+      "authors": [
+        {
+          "name": "Taylor BA",
+          "lab_member": true
+        },
+        {
+          "name": "Tembrock LR",
+          "lab_member": false
+        },
+        {
+          "name": "Sankovitz M",
+          "lab_member": false
+        },
+        {
+          "name": "Wilson TM",
+          "lab_member": false
+        },
+        {
+          "name": "Looney C",
+          "lab_member": false
+        },
+        {
+          "name": "Takahashi J",
+          "lab_member": false
+        },
+        {
+          "name": "Gilligan TM",
+          "lab_member": false
+        },
+        {
+          "name": "Smith-Pardo AH",
+          "lab_member": false
+        },
+        {
+          "name": "Harpur BA",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0001-8634-0484"
+      ]
+    },
+    {
+      "doi": "10.1016/j.jinsphys.2024.104629",
+      "url": "https://doi.org/10.1016/j.jinsphys.2024.104629",
+      "title": "Immune response in paper wasp workers: Task matters more than age",
+      "journal": "Journal of Insect Physiology",
+      "year": 2024,
+      "date": "2024-05-01",
+      "volume": "154",
+      "issue": null,
+      "pages": "104629",
+      "authors": [
+        {
+          "name": "Prato A",
+          "lab_member": false
+        },
+        {
+          "name": "Fernando Santos E",
+          "lab_member": false
+        },
+        {
+          "name": "Mendes Ferreira H",
+          "lab_member": false
+        },
+        {
+          "name": "Akemi Oi C",
+          "lab_member": false
+        },
+        {
+          "name": "Santos do Nascimento F",
+          "lab_member": false
+        },
+        {
+          "name": "Rantala MJ",
+          "lab_member": false
+        },
+        {
+          "name": "Krams I",
+          "lab_member": false
+        },
+        {
+          "name": "Rodrigues de Souza A",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0002-3682-8219"
+      ]
+    },
+    {
+      "doi": "10.11646/zootaxa.5419.2.5",
+      "url": "https://doi.org/10.11646/zootaxa.5419.2.5",
+      "title": "Additions to the trigonalyid (Hymenoptera: Trigonalyidae) fauna of India with the description of a new species from south India",
+      "journal": "Zootaxa",
+      "year": 2024,
+      "date": "2024-03-06",
+      "volume": "5419",
+      "issue": "2",
+      "pages": "265-274",
+      "authors": [
+        {
+          "name": "FEMI EB",
+          "lab_member": true
+        },
+        {
+          "name": "RANJITH AP",
+          "lab_member": false
+        },
+        {
+          "name": "PRIYADARSANAN DR",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0001-5991-9896"
+      ]
+    },
+    {
+      "doi": "10.1007/s10340-023-01643-3",
+      "url": "https://doi.org/10.1007/s10340-023-01643-3",
+      "title": "Nest visitors of Vespula wasps and their potential use for biological control in an invaded range",
+      "journal": "Journal of Pest Science",
+      "year": 2024,
+      "date": "2024-01-01",
+      "volume": "97",
+      "issue": "1",
+      "pages": "445-453",
+      "authors": [
+        {
+          "name": "Stratford JE",
+          "lab_member": false
+        },
+        {
+          "name": "Stratford FMW",
+          "lab_member": false
+        },
+        {
+          "name": "Brown RL",
+          "lab_member": false
+        },
+        {
+          "name": "Oi CA",
+          "lab_member": true
+        }
+      ],
+      "source_orcid": [
+        "0000-0002-3682-8219"
+      ]
+    },
+    {
+      "doi": "10.1111/1365-2656.14029",
+      "url": "https://doi.org/10.1111/1365-2656.14029",
+      "title": "Coupled information networks drive honeybee ( Apis mellifera ) collective foraging",
+      "journal": "Journal of Animal Ecology",
+      "year": 2024,
+      "date": "2024-01-01",
+      "volume": "93",
+      "issue": "1",
+      "pages": "71-82",
+      "authors": [
+        {
+          "name": "Hasenjager MJ",
+          "lab_member": false
+        },
+        {
+          "name": "Hoppitt W",
+          "lab_member": false
+        },
+        {
+          "name": "Cunningham\u2010Eurich I",
+          "lab_member": true
+        },
+        {
+          "name": "Franks VR",
+          "lab_member": false
+        },
+        {
+          "name": "Leadbeater E",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0002-7187-1407"
+      ]
+    },
+    {
+      "doi": "10.1098/rspb.2023.2274",
+      "url": "https://doi.org/10.1098/rspb.2023.2274",
+      "title": "Transcriptomic responses to location learning by honeybee dancers are partly mirrored in the brains of dance-followers",
+      "journal": "Proceedings of the Royal Society B: Biological Sciences",
+      "year": 2023,
+      "date": "2023-12-20",
+      "volume": "290",
+      "issue": "2013",
+      "pages": null,
+      "authors": [
+        {
+          "name": "Manfredini F",
+          "lab_member": false
+        },
+        {
+          "name": "Wurm Y",
+          "lab_member": false
+        },
+        {
+          "name": "Sumner S",
+          "lab_member": true
+        },
+        {
+          "name": "Leadbeater E",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0003-0213-2018"
+      ]
+    },
+    {
+      "doi": "10.1016/j.fooweb.2023.e00323",
+      "url": "https://doi.org/10.1016/j.fooweb.2023.e00323",
+      "title": "Butterflies with a taste for elephant dung: Puddling of adult butterflies on elephant dung in India's Western Ghats",
+      "journal": "Food Webs",
+      "year": 2023,
+      "date": "2023-12-01",
+      "volume": "37",
+      "issue": null,
+      "pages": "e00323",
+      "authors": [
+        {
+          "name": "Anoop N",
+          "lab_member": false
+        },
+        {
+          "name": "Femi EB",
+          "lab_member": false
+        },
+        {
+          "name": "Yathumon M",
+          "lab_member": false
+        },
+        {
+          "name": "Punnath A",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0001-5991-9896"
+      ]
+    },
+    {
+      "doi": "10.1111/imb.12862",
+      "url": "https://doi.org/10.1111/imb.12862",
+      "title": "Using citizen science data to assess the population genetic structure of the common yellowjacket wasp, Vespula vulgaris",
+      "journal": "Insect Molecular Biology",
+      "year": 2023,
+      "date": "2023-12-01",
+      "volume": "32",
+      "issue": "6",
+      "pages": "634-647",
+      "authors": [
+        {
+          "name": "Cunningham\u2010Eurich I",
+          "lab_member": true
+        },
+        {
+          "name": "Kontou D",
+          "lab_member": false
+        },
+        {
+          "name": "Yordanova M",
+          "lab_member": false
+        },
+        {
+          "name": "Maeda\u2010Obregon A",
+          "lab_member": false
+        },
+        {
+          "name": "Favreau E",
+          "lab_member": true
+        },
+        {
+          "name": "Wang J",
+          "lab_member": false
+        },
+        {
+          "name": "Hart AG",
+          "lab_member": false
+        },
+        {
+          "name": "Sumner S",
+          "lab_member": true
+        }
+      ],
+      "source_orcid": [
+        "0000-0002-7187-1407"
+      ]
+    },
+    {
+      "doi": "10.1007/s13744-023-01089-3",
+      "url": "https://doi.org/10.1007/s13744-023-01089-3",
+      "title": "Chemical Resemblance of Egg Surface Compounds and Dufour\u2019s Gland in Two Neotropical Polistinae Wasps Polistes versicolor (Olivier) and Mischocyttarus metathoracicus (de Saussure, 1854)",
+      "journal": "Neotropical Entomology",
+      "year": 2023,
+      "date": "2023-10-20",
+      "volume": "52",
+      "issue": "6",
+      "pages": "1041-1056",
+      "authors": [
+        {
+          "name": "da Silva RC",
+          "lab_member": false
+        },
+        {
+          "name": "Oi CA",
+          "lab_member": true
+        },
+        {
+          "name": "do Nascimento FS",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0002-3682-8219"
+      ]
+    }
+  ]
 }
