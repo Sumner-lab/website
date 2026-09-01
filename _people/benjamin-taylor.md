@@ -3,6 +3,10 @@ name: Benjamin Taylor
 role: Human Frontiers Science Program Research Fellow
 status: current
 order: 3
+stints:
+  - joined: "2016"
+    left: "2021"
+  - joined: "2025"
 photo: /wp-content/uploads/2026/08/bentay.jpg
 title: Benjamin Taylor
 redirect_from:
@@ -12,6 +16,8 @@ redirect_from:
 links:
   - label: Bluesky
     url: https://bsky.app/profile/bentaylorevo.bsky.social
+  - label: ORCID
+    url: https://orcid.org/0000-0001-8634-0484
 ---
 Formerly a PhD student in the Sumner Lab, for the past three years I've been working with Dr Brock Harpur at Purdue University in Indiana on USDA-funded projects on the population genomics of invasive "murder" hornets and the genomic signatures of a major evolutionary transition in Australian stingless bees. I've now returned to the Sumner Lab to continue my Human Frontiers Science Program Fellowship, applying machine learning pipelines to identify regulomic features associated with social evolution in bees and wasps.
 

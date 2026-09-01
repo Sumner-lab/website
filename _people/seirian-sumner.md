@@ -3,6 +3,7 @@ name: Seirian Sumner
 role: Principal Investigator · Professor of Behavioural Ecology
 status: current
 order: 1
+joined: "2012"
 photo: /wp-content/uploads/2014/09/Seirian-Sumner.jpg
 title: Seirian Sumner
 redirect_from:
@@ -12,6 +13,8 @@ links:
     url: https://bsky.app/profile/waspwoman.bsky.social
   - label: Twitter
     url: https://twitter.com/WaspWoman
+  - label: ORCID
+    url: https://orcid.org/0000-0003-0213-2018
 ---
 ## Biography
 

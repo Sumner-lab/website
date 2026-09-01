@@ -3,6 +3,7 @@ name: Idris Adams
 role: PhD Student, Diet & Life History Evolution in Aculeate Wasps
 status: current
 order: 9
+joined: "2023"
 photo: /wp-content/uploads/2024/01/profile-picture.jpeg
 title: Idris Adams
 redirect_from:
@@ -10,6 +11,8 @@ redirect_from:
 links:
   - label: Bluesky
     url: https://bsky.app/profile/idrisadams.bsky.social
+  - label: ORCID
+    url: https://orcid.org/0009-0006-6696-2722
 ---
 **Position:** PhD Student
 

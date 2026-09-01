@@ -3,6 +3,7 @@ name: Femi E Benny
 role: PhD Student, Ecology & Behaviour of Asian Giant Hornets
 status: current
 order: 7
+joined: "2024"
 photo: /wp-content/uploads/2025/01/IMG_5255-scaled.jpg
 title: Femi E Benny
 redirect_from:
@@ -12,6 +13,8 @@ links:
     url: https://bsky.app/profile/femi-benny.bsky.social
   - label: Instagram
     url: https://instagram.com/femibenny
+  - label: ORCID
+    url: https://orcid.org/0000-0001-5991-9896
 ---
 **Position:** PhD Student
 

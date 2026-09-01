@@ -3,6 +3,11 @@ name: Christopher Wyatt
 role: Eco-Flow Project Lead
 status: current
 order: 5
+stints:
+  - joined: "2013"
+    left: "2014"
+  - joined: "2019"
+    left: "2026"
 photo: /wp-content/uploads/2019/05/ucl.jpg
 photo_position: "center 12%"
 title: Christopher Wyatt
@@ -15,6 +20,8 @@ links:
     url: https://github.com/chriswyatt1
   - label: Eco-Flow
     url: https://eco-flow.github.io/
+  - label: ORCID
+    url: https://orcid.org/0000-0001-8033-2213
 ---
 **Position:** Eco-Flow project lead (September 2023–present)
 

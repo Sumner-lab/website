@@ -3,6 +3,7 @@ name: Cintia Akemi Oi
 role: Postdoctoral Researcher (NERC) / Scientific Associate (NHM)
 status: current
 order: 6
+joined: "2022"
 photo: /wp-content/uploads/2022/10/image-1.png
 title: Cintia Akemi Oi
 redirect_from:
@@ -13,6 +14,8 @@ links:
     url: https://bsky.app/profile/cintiaoi.bsky.social
   - label: Personal website
     url: https://sites.google.com/view/cintiaoi
+  - label: ORCID
+    url: https://orcid.org/0000-0002-3682-8219
 ---
 **Position:** Post-doctoral researcher (NERC) / Scientific Associate (NHM)
 

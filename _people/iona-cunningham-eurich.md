@@ -3,6 +3,7 @@ name: Iona Cunningham-Eurich
 role: PhD Student, Parasitoid Wasp Diversity & Ecology
 status: current
 order: 10
+joined: "2021"
 photo: /wp-content/uploads/2022/10/image.png
 title: Iona Cunningham-Eurich
 redirect_from:
@@ -12,6 +13,8 @@ links:
     url: https://www.instagram.com/ionacunninghameurich/
   - label: LinkedIn
     url: https://www.linkedin.com/in/ionacunninghameurich/
+  - label: ORCID
+    url: https://orcid.org/0000-0002-7187-1407
 ---
 **Position:** PhD Student
 
