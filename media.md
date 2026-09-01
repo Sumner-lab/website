@@ -8,7 +8,7 @@ redirect_from:
 TV, radio, and press coverage of the lab's work — and the people behind it.
 
 <aside class="media-callout">
-  <p><strong>Journalist or broadcaster?</strong> Our lab is often in the media, and we're always happy to contribute to TV, radio, podcasts, or any other format — get in touch with <a href="mailto:s.sumner@ucl.ac.uk">Seirian</a> to talk wasps.</p>
+  <p><strong>Journalist or broadcaster?</strong> Our lab is often in the media, and we're always happy to contribute to TV, radio, podcasts, or any other format — <a href="{{ site.baseurl }}/contact/">get in touch</a> to talk wasps.</p>
 </aside>
 
 ## Where Are the Wasps? Summer 2026
