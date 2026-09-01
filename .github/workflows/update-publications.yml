@@ -59,6 +59,14 @@ jobs:
             exit 0
           fi
 
+          # actions/checkout@v4 configures a single-branch fetch refspec
+          # (main only), so a fresh checkout has no local tracking ref for
+          # this branch -- without this, --force-with-lease below has no
+          # baseline to compare against and refuses to push (fails safe),
+          # even on a legitimate update. The explicit "src:dest" refspec
+          # is needed since the repo's default fetch refspec won't map a
+          # bare branch name to refs/remotes/origin/* on its own here.
+          git fetch origin "$BRANCH:refs/remotes/origin/$BRANCH" 2>/dev/null || true
           git checkout -B "$BRANCH"
           git add publications.md _data/wider_publications.json
           git commit -m "Update publications from ORCID/Crossref"
