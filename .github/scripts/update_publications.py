@@ -147,8 +147,84 @@ def load_people(people_dir):
         name = fm.get("name") or fm.get("title")
         if not name:
             continue
-        people.append({"name": name, "status": fm.get("status"), "orcid": extract_orcid_id(fm)})
+        people.append({
+            "name": name, "status": fm.get("status"), "orcid": extract_orcid_id(fm),
+            "joined": fm.get("joined"), "left": fm.get("left"), "stints": fm.get("stints") or [],
+        })
     return people
+
+
+# ---------------------------------------------------------------------------
+# Membership windows -- when was this person actually in the lab? Used to
+# scope the wider-lab digest to work published during their time here, not
+# their whole career. `joined`/`left` (or a `stints` list of the same, for
+# people with more than one non-contiguous period) are free-text front
+# matter fields, e.g. "2019" or "September 2024" -- only ever year or
+# "Month Year" granularity in practice.
+# ---------------------------------------------------------------------------
+
+MONTH_NAMES = {
+    "jan": 1, "january": 1, "feb": 2, "february": 2, "mar": 3, "march": 3,
+    "apr": 4, "april": 4, "may": 5, "jun": 6, "june": 6, "jul": 7, "july": 7,
+    "aug": 8, "august": 8, "sep": 9, "sept": 9, "september": 9,
+    "oct": 10, "october": 10, "nov": 11, "november": 11, "dec": 12, "december": 12,
+}
+
+
+def parse_loose_date(s, end_of_period=False):
+    """Parses a free-text joined/left value into a (year, month) tuple.
+    Missing month defaults to the start of the year for a lower bound, or
+    the end of the year for an upper bound (end_of_period=True) -- these
+    fields don't carry day-level precision, so comparisons are done at
+    (year, month) granularity throughout."""
+    if not s:
+        return None
+    year_m = re.search(r"\b(\d{4})\b", s)
+    if not year_m:
+        return None
+    year = int(year_m.group(1))
+    month = None
+    for name, num in MONTH_NAMES.items():
+        if re.search(rf"\b{name}\b", s, re.IGNORECASE):
+            month = num
+            break
+    if month is None:
+        month = 12 if end_of_period else 1
+    return (year, month)
+
+
+def membership_windows(person):
+    """Returns [(start, end), ...] (year, month) tuples this person was
+    actually in the lab -- `end` is None for a still-ongoing stint.
+    Returns an empty list if there's no joined date recorded at all (via
+    `stints` or a plain `joined` field): callers should treat that as
+    "can't verify this person's dates" and exclude them, not assume
+    unrestricted access to their whole publication record."""
+    windows = []
+    for stint in person.get("stints") or []:
+        start = parse_loose_date(stint.get("joined"))
+        if not start:
+            continue
+        end = parse_loose_date(stint.get("left"), end_of_period=True) if stint.get("left") else None
+        windows.append((start, end))
+    if windows:
+        return windows
+    start = parse_loose_date(person.get("joined"))
+    if not start:
+        return []
+    end = parse_loose_date(person.get("left"), end_of_period=True) if person.get("left") else None
+    return [(start, end)]
+
+
+def in_membership_window(date_str, windows):
+    year, month = int(date_str[:4]), int(date_str[5:7])
+    for start, end in windows:
+        if (year, month) < start:
+            continue
+        if end is not None and (year, month) > end:
+            continue
+        return True
+    return False
 
 
 # ---------------------------------------------------------------------------
@@ -550,8 +626,20 @@ def main():
         print(f"Skipped {len(skipped)} candidate DOI(s) that couldn't be enriched via Crossref: {skipped}")
 
     # --- Part B: latest-20 digest for publications/wider.md ---
-    current_with_orcid = [p for p in people if p.get("status") == "current" and p.get("orcid")]
-    print(f"Fetching ORCID works for {len(current_with_orcid)} current member(s) with an ORCID iD...")
+    current_with_orcid = []
+    for p in people:
+        if p.get("status") != "current" or not p.get("orcid"):
+            continue
+        windows = membership_windows(p)
+        if not windows:
+            print(f"  Note: {p['name']} has no joined/stints date on record -- can't tell "
+                  f"which of their papers were published during their time in the lab, "
+                  f"so excluding them from the wider digest until that's added.")
+            continue
+        p["windows"] = windows
+        current_with_orcid.append(p)
+    print(f"Fetching ORCID works for {len(current_with_orcid)} current member(s) with an ORCID iD "
+          f"and known lab dates...")
 
     candidates = {}  # doi -> set of contributing ORCID ids
     for person in current_with_orcid:
@@ -566,6 +654,8 @@ def main():
                 continue
             if summary["doi"] in known_dois:
                 continue  # already on the main Sumner-authored list
+            if not in_membership_window(summary["date"], person["windows"]):
+                continue  # published outside their time in the lab
             candidates.setdefault(summary["doi"], set()).add(person["orcid"])
 
     enriched = []
