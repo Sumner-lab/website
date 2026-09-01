@@ -1,0 +1,79 @@
+name: Update publications
+
+on:
+  schedule:
+    - cron: "23 6 * * 1" # weekly, Monday ~06:23 UTC
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Compute and show the diff without opening/updating a PR"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-publications
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - run: python3 .github/scripts/update_publications.py
+        env:
+          ORCID_CLIENT_ID: ${{ secrets.ORCID_CLIENT_ID }}
+          ORCID_CLIENT_SECRET: ${{ secrets.ORCID_CLIENT_SECRET }}
+
+      - name: Show diff in the run summary
+        run: |
+          {
+            echo '```diff'
+            git diff -- publications.md _data/wider_publications.json
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Open or update the review PR
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BRANCH="bot/update-publications"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- publications.md _data/wider_publications.json; then
+            echo "No publication changes this run."
+            existing=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
+            if [ -n "$existing" ]; then
+              gh pr comment "$existing" --body "No publication changes remain outstanding as of this run -- closing."
+              gh pr close "$existing"
+              git push origin --delete "$BRANCH" || true
+            fi
+            exit 0
+          fi
+
+          git checkout -B "$BRANCH"
+          git add publications.md _data/wider_publications.json
+          git commit -m "Update publications from ORCID/Crossref"
+          git push --force-with-lease origin "$BRANCH"
+
+          existing=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            echo "Updated existing PR #$existing."
+          else
+            gh pr create --base main --head "$BRANCH" \
+              --title "Update publications ($(date -u +%Y-%m-%d))" \
+              --body "Automated weekly publication check, pulled from ORCID + Crossref.
+
+          - \`publications.md\`: new papers found on Seirian Sumner's ORCID record that weren't already listed.
+          - \`_data/wider_publications.json\`: refreshed latest-20 digest of publications by current lab members that don't include Sumner as a co-author.
+
+          This branch is bot-owned and gets force-pushed on every scheduled run -- review via PR comments rather than committing fixups directly to it."
+          fi

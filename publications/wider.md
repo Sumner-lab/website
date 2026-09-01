@@ -2,7 +2,9 @@
 title: Wider Sumner Lab Papers
 permalink: /publications/wider/
 ---
-Lab members also publish work that doesn't include Seirian Sumner as a co-author — from before, alongside, or after their time in the lab. Rather than duplicate that record here, each person's ORCID iD links to their own publication list, kept current by ORCID itself.
+Lab members also publish work that doesn't include Seirian Sumner as a co-author — from before, alongside, or after their time in the lab. The list below is generated automatically each week from current members' ORCID records; for the full picture, including work from before or after their time here, each person's ORCID iD links to their own publication list, kept current by ORCID itself.
+
+{% include latest-publications.html %}
 
 {% assign current = site.people | where: "status", "current" | sort: "order" %}
 {% assign alumni = site.people | where: "status", "alumni" | sort: "name" %}
