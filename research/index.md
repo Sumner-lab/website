@@ -25,13 +25,12 @@ We combine genomic, transcriptomic, and behavioural approaches to understand how
     </a>
   </li>
   <li>
-    <div class="research-tile research-tile-soon" style="background-image: url('{{ site.baseurl }}/wp-content/uploads/2022/11/double_trophollaxis_closeup-edited-1536x1382.jpg');">
-      <span class="research-tile-badge">Coming soon</span>
+    <a class="research-tile" href="{{ site.baseurl }}/research/mechanisms/" style="background-image: url('{{ site.baseurl }}/wp-content/uploads/2022/11/double_trophollaxis_closeup-edited-1536x1382.jpg');">
       <div class="research-tile-content">
         <p class="research-tile-title">Mechanisms and Development</p>
         <p class="research-tile-desc">Gene expression, physiology and behaviour, and their role in caste determination, queen succession and social parasitism.</p>
       </div>
-    </div>
+    </a>
   </li>
   <li>
     <a class="research-tile" href="{{ site.baseurl }}/research/ecology/" style="background-image: url('{{ site.baseurl }}/wp-content/uploads/2026/01/IMG_3456-scaled-1-1536x1024.jpg');">

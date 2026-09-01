@@ -3,6 +3,7 @@ title: Ecology and Human Interactions
 permalink: /research/ecology/
 redirect_from:
   - /ecology/
+  - /ethnography/
 ---
 Wasps play a huge role in shaping their ecosystems, through pollination, predation, and parasitism. Their diversity of species, behaviour and ecological roles is astounding, and their capacity to benefit humans is unparalleled — and yet they have one of the worst reputations of any insect worldwide. We want to know:
 
@@ -14,7 +15,7 @@ Wasps play a huge role in shaping their ecosystems, through pollination, predati
 
 ![Romuald's research harnesses nanopore sequencing to determine whether wasps could act as natural biocontrol agents to protect farmers against destructive crop pests such as fall armyworm.]({{ site.baseurl }}/wp-content/uploads/2025/01/rom-768x433.jpg)
 
-Read about how we use citizen science to power UK social wasp research in [The Big Wasp Survey](http://www.sumnerlab.co.uk/the-big-wasp-survey/) *(not yet converted to this new site)*.
+Read about how we use citizen science to power UK social wasp research in [The Big Wasp Survey]({{ site.baseurl }}/big-wasp-survey/).
 
 ## Human interactions
 
