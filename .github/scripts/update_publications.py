@@ -373,10 +373,15 @@ def fetch_crossref_work(doi):
 
     titles = msg.get("title") or []
     containers = msg.get("container-title") or []
+    # Preprints have no container-title (no journal) -- Crossref instead
+    # names the preprint server (bioRxiv, medRxiv, ...) under `institution`.
+    # Fall back to that so a preprint doesn't render with a blank venue.
+    institutions = msg.get("institution") or []
+    journal = containers[0] if containers else (institutions[0].get("name") if institutions else "")
     return {
         "doi": doi,
         "title": clean_text(titles[0]) if titles else "",
-        "journal": clean_text(containers[0]) if containers else "",
+        "journal": clean_text(journal),
         "authors": authors,
         "volume": msg.get("volume"),
         "issue": msg.get("issue"),

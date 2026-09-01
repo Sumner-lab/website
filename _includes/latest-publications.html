@@ -7,7 +7,7 @@
     <li>
       {% for author in pub.authors %}{% if author.lab_member %}<strong>{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
       {{ pub.year }}. {{ pub.title }}.
-      <em>{{ pub.journal }}</em>{% if pub.volume %}, {{ pub.volume }}{% if pub.issue %}({{ pub.issue }}){% endif %}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}.
+      {% if pub.journal %}<em>{{ pub.journal }}</em>{% if pub.volume %}, {{ pub.volume }}{% if pub.issue %}({{ pub.issue }}){% endif %}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}.{% endif %}
       <a href="{{ pub.url }}" target="_blank" rel="noreferrer noopener">{{ pub.url }}</a>
     </li>
     {% endfor %}
