@@ -178,9 +178,31 @@ def build_lab_member_index(people):
     return orcid_index, family_index
 
 
+def _names_loosely_overlap(a, b):
+    """Very loose sanity check -- does any (>1 char) token of `a` appear
+    as a substring of any token of `b`, or vice versa? Not a real
+    name-matching algorithm; only used to guard the ORCID-based match
+    below against a mismatched publisher/Crossref record (observed in
+    practice: a journal submitted the wrong author ORCID, which would
+    otherwise make this script confidently bold a completely unrelated
+    author's name as if they were a lab member)."""
+    a_tokens = [t.lower() for t in re.split(r"[\s\-]+", a or "") if len(t) > 1]
+    b_tokens = [t.lower() for t in re.split(r"[\s\-]+", b or "") if len(t) > 1]
+    return any(t in bt or bt in t for t in a_tokens for bt in b_tokens)
+
+
 def is_lab_member_author(author, orcid_index, family_index):
     if author.get("orcid") and author["orcid"] in orcid_index:
-        return True
+        member = orcid_index[author["orcid"]]
+        author_name = f"{author.get('given', '')} {author.get('family', '')}".strip()
+        if _names_loosely_overlap(author_name, member["name"]):
+            return True
+        print(f"    Note: Crossref lists ORCID {author['orcid']} for author "
+              f"'{author_name}', but that ORCID belongs to '{member['name']}' "
+              f"in _people -- the names don't overlap at all, so NOT treating "
+              f"this as a lab-member match (likely a publisher metadata error).")
+        # Falls through to name-based matching below rather than trusting
+        # a clearly-mismatched ORCID.
     candidates = family_index.get((author.get("family") or "").lower())
     if not candidates:
         return False
@@ -192,6 +214,22 @@ def is_lab_member_author(author, orcid_index, family_index):
     # matching initial belonging to someone else entirely.
     author_initial = (author.get("given") or "")[:1].lower()
     return any(c["given"][:1].lower() == author_initial for c in candidates if c["given"])
+
+
+# ---------------------------------------------------------------------------
+# Text cleanup -- Crossref (and occasionally ORCID) titles/journal names can
+# carry embedded JATS/XML inline markup (e.g. "<scp>UK</scp>" for small
+# caps, or <i>/<sub>/<sup>), including literal newlines and indentation
+# from the source XML. This strips tags and collapses whitespace rather
+# than trying to convert them to markdown -- simple and robust beats
+# faithfully preserving inline formatting for a plain-text citation line.
+# ---------------------------------------------------------------------------
+
+TAG_RE = re.compile(r"<[^>]+>")
+
+
+def clean_text(s):
+    return re.sub(r"\s+", " ", TAG_RE.sub("", s or "")).strip()
 
 
 # ---------------------------------------------------------------------------
@@ -261,8 +299,8 @@ def summarize_group(group):
     if not summaries:
         return None
     ws = summaries[0]
-    title = (((ws.get("title") or {}).get("title") or {}).get("value") or "").strip()
-    journal = ((ws.get("journal-title") or {}).get("value") or "").strip()
+    title = clean_text((((ws.get("title") or {}).get("title") or {}).get("value")))
+    journal = clean_text((ws.get("journal-title") or {}).get("value"))
     work_type = (ws.get("type") or "").strip().lower().replace("-", "_")
     pub_date = ws.get("publication-date") or {}
     year_raw = (pub_date.get("year") or {}).get("value")
@@ -330,8 +368,8 @@ def fetch_crossref_work(doi):
     containers = msg.get("container-title") or []
     return {
         "doi": doi,
-        "title": titles[0].strip() if titles else "",
-        "journal": containers[0].strip() if containers else "",
+        "title": clean_text(titles[0]) if titles else "",
+        "journal": clean_text(containers[0]) if containers else "",
         "authors": authors,
         "volume": msg.get("volume"),
         "issue": msg.get("issue"),
