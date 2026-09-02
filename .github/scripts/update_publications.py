@@ -690,10 +690,21 @@ def main():
         with open(OUT_PATH, encoding="utf-8") as f:
             existing_publications = json.load(f).get("publications")
 
+    # `enriched` (pre-truncation) is every DOI that's still an eligible
+    # candidate this run, regardless of whether it made the top
+    # WIDER_LIST_SIZE. A dropped entry whose DOI is still in there was
+    # simply outranked by more recent papers; one that ISN'T means it
+    # stopped being eligible altogether (fell outside the person's
+    # joined/left window, is now on the main Sumner-authored list, etc.)
+    # -- a meaningfully different, more specific reason worth reporting
+    # separately rather than lumping both into one generic "fell out".
+    enriched_dois = {w["doi"] for w in enriched}
     existing_dois = {e["doi"] for e in (existing_publications or [])}
     new_dois = {w["doi"] for w in wider_publications}
     newly_in_digest = [w for w in wider_publications if w["doi"] not in existing_dois]
-    dropped_from_digest = [e for e in (existing_publications or []) if e["doi"] not in new_dois]
+    dropped = [e for e in (existing_publications or []) if e["doi"] not in new_dois]
+    pushed_out = [e for e in dropped if e["doi"] in enriched_dois]
+    no_longer_eligible = [e for e in dropped if e["doi"] not in enriched_dois]
 
     # Compare ignoring source_orcid/order-of-discovery churn wouldn't be
     # meaningfully different from a plain equality check here since the
@@ -708,26 +719,43 @@ def main():
             json.dump(data, f, indent=2)
             f.write("\n")
         print(f"Wrote {OUT_PATH}: {len(wider_publications)} publication(s) "
-              f"({len(newly_in_digest)} new, {len(dropped_from_digest)} dropped off).")
+              f"({len(newly_in_digest)} new, {len(pushed_out)} outranked, "
+              f"{len(no_longer_eligible)} no longer eligible).")
 
-    write_run_summary(added, skipped, newly_in_digest, dropped_from_digest)
+    write_run_summary(added, skipped, newly_in_digest, pushed_out, no_longer_eligible,
+                       orcid_index, family_index)
 
 
-def summarize_work_for_report(work):
-    lead = work["authors"][0]
-    lead_name = f"{lead['family']} {given_name_initials(lead.get('given'))}".strip()
-    suffix = " et al." if len(work["authors"]) > 1 else ""
-    return f"{lead_name}{suffix} ({work['year']}) {work['title']}"
+def format_authors_for_report(authors, orcid_index=None, family_index=None):
+    """Full author list, lab members bolded -- so a reviewer can tell at a
+    glance whether this is a lab publication without cross-checking names
+    themselves. Accepts either already-tagged entries ({name, lab_member},
+    from the digest's own stored data) or raw Crossref authors ({given,
+    family, orcid}, from a fresh publications.md candidate -- pass
+    orcid_index/family_index to tag those on the fly)."""
+    rendered = []
+    for a in authors:
+        if "name" in a:
+            name, is_member = a["name"], a.get("lab_member", False)
+        else:
+            name = f"{a['family']} {given_name_initials(a.get('given'))}".strip()
+            is_member = is_lab_member_author(a, orcid_index, family_index)
+        rendered.append(f"**{name}**" if is_member else name)
+    return ", ".join(rendered) if rendered else "?"
+
+
+def summarize_work_for_report(work, orcid_index, family_index):
+    authors = format_authors_for_report(work["authors"], orcid_index, family_index)
+    return f"{authors} ({work['year']}) {work['title']}"
 
 
 def summarize_entry_for_report(entry):
-    authors = entry.get("authors") or []
-    lead = authors[0]["name"] if authors else "?"
-    suffix = " et al." if len(authors) > 1 else ""
-    return f"{lead}{suffix} ({entry['year']}) {entry['title']}"
+    authors = format_authors_for_report(entry.get("authors") or [])
+    return f"{authors} ({entry['year']}) {entry['title']}"
 
 
-def write_run_summary(added, skipped, newly_in_digest, dropped_from_digest):
+def write_run_summary(added, skipped, newly_in_digest, pushed_out, no_longer_eligible,
+                       orcid_index, family_index):
     """Writes a plain-English summary of this run to a file the workflow
     uses as the PR body/comment -- reviewing this is much easier than
     reading a raw diff of wider_publications.json, where even one new
@@ -738,7 +766,7 @@ def write_run_summary(added, skipped, newly_in_digest, dropped_from_digest):
              "## publications.md", ""]
     if added:
         lines.append(f"{len(added)} new entr{'y' if len(added) == 1 else 'ies'} added:")
-        lines += [f"- {summarize_work_for_report(w)}" for w in added]
+        lines += [f"- {summarize_work_for_report(w, orcid_index, family_index)}" for w in added]
     else:
         lines.append("No new Sumner-authored publications found this run.")
     if skipped:
@@ -746,16 +774,23 @@ def write_run_summary(added, skipped, newly_in_digest, dropped_from_digest):
         lines += [f"- `{doi}`" for doi in skipped]
 
     lines += ["", "## Wider-lab digest (publications/wider.md)", ""]
+    any_digest_change = newly_in_digest or pushed_out or no_longer_eligible
     if newly_in_digest:
         lines.append(f"{len(newly_in_digest)} newly entered the latest {WIDER_LIST_SIZE}:")
         lines += [f"- {summarize_entry_for_report(w)}" for w in newly_in_digest]
-    if dropped_from_digest:
-        if newly_in_digest:
+    if pushed_out:
+        if lines[-1]:
             lines.append("")
-        lines.append(f"{len(dropped_from_digest)} fell out of the latest {WIDER_LIST_SIZE} "
-                      f"(still published, just no longer among the most recent {WIDER_LIST_SIZE}):")
-        lines += [f"- {summarize_entry_for_report(e)}" for e in dropped_from_digest]
-    if not newly_in_digest and not dropped_from_digest:
+        lines.append(f"{len(pushed_out)} outranked by more recent papers (still published, "
+                      f"still eligible, just no longer among the most recent {WIDER_LIST_SIZE}):")
+        lines += [f"- {summarize_entry_for_report(e)}" for e in pushed_out]
+    if no_longer_eligible:
+        if lines[-1]:
+            lines.append("")
+        lines.append(f"{len(no_longer_eligible)} no longer eligible (published outside that "
+                      f"person's time in the lab, or now covered on the main publications list):")
+        lines += [f"- {summarize_entry_for_report(e)}" for e in no_longer_eligible]
+    if not any_digest_change:
         lines.append("No change in the wider-lab digest this run.")
 
     lines += ["", "---",
