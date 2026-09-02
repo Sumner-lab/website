@@ -1,6 +1,6 @@
 {
   "updated": "2026-09-02",
-  "method": "per-day-unsampled-v3",
+  "method": "per-day-unsampled-v4",
   "counted_dates": [
     "2026-08-14",
     "2026-08-15",
@@ -22,17 +22,17 @@
     "2026-08-31",
     "2026-09-01"
   ],
-  "pageviews": 293,
-  "visits": 36,
+  "pageviews": 282,
+  "visits": 24,
   "countries_count": 2,
   "top_pages": [
     {
       "path": "/website/",
-      "views": 63
+      "views": 75
     },
     {
       "path": "/website/people/",
-      "views": 41
+      "views": 32
     },
     {
       "path": "/website/updates/",
@@ -40,19 +40,23 @@
     },
     {
       "path": "/website/media/",
-      "views": 18
-    },
-    {
-      "path": "/website/endless-forms/",
-      "views": 16
-    },
-    {
-      "path": "/website/research/",
-      "views": 16
+      "views": 17
     },
     {
       "path": "/website/articles/",
       "views": 14
+    },
+    {
+      "path": "/website/research/",
+      "views": 14
+    },
+    {
+      "path": "/website/wasp-picnic-survey-2026/",
+      "views": 14
+    },
+    {
+      "path": "/website/endless-forms/",
+      "views": 13
     },
     {
       "path": "/website/numbers/",
@@ -61,10 +65,6 @@
     {
       "path": "/website/people/iona-cunningham-eurich/",
       "views": 10
-    },
-    {
-      "path": "/website/contact/",
-      "views": 8
     },
     {
       "path": "/website/publications/",
@@ -79,16 +79,16 @@
       "views": 7
     },
     {
-      "path": "/website/people/benjamin-taylor/",
-      "views": 6
+      "path": "/website/contact/",
+      "views": 4
     },
     {
-      "path": "/website/wasp-picnic-survey-2026/",
-      "views": 6
+      "path": "/website/people/benjamin-taylor/",
+      "views": 4
     },
     {
       "path": "/website/people/christopher-wyatt/",
-      "views": 5
+      "views": 3
     },
     {
       "path": "/website/research/evolution/",
@@ -127,10 +127,6 @@
       "views": 1
     },
     {
-      "path": "/website/people/seirian-sumner/",
-      "views": 1
-    },
-    {
       "path": "/website/research/mechanisms/",
       "views": 1
     },
@@ -146,14 +142,14 @@
   "top_countries": [
     {
       "name": "United Kingdom",
-      "views": 147,
-      "visits": 22,
+      "views": 140,
+      "visits": 21,
       "iso": "GB"
     },
     {
       "name": "Brazil",
-      "views": 139,
-      "visits": 6,
+      "views": 142,
+      "visits": 3,
       "iso": "BR"
     }
   ]
