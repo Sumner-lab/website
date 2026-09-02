@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "method": "per-day-unsampled-v3",
   "counted_dates": [
     "2026-08-14",
@@ -19,19 +19,40 @@
     "2026-08-28",
     "2026-08-29",
     "2026-08-30",
-    "2026-08-31"
+    "2026-08-31",
+    "2026-09-01"
   ],
-  "pageviews": 124,
-  "visits": 34,
+  "pageviews": 293,
+  "visits": 36,
   "countries_count": 2,
   "top_pages": [
     {
       "path": "/website/",
-      "views": 39
+      "views": 63
     },
     {
       "path": "/website/people/",
-      "views": 29
+      "views": 41
+    },
+    {
+      "path": "/website/updates/",
+      "views": 27
+    },
+    {
+      "path": "/website/media/",
+      "views": 18
+    },
+    {
+      "path": "/website/endless-forms/",
+      "views": 16
+    },
+    {
+      "path": "/website/research/",
+      "views": 16
+    },
+    {
+      "path": "/website/articles/",
+      "views": 14
     },
     {
       "path": "/website/numbers/",
@@ -42,53 +63,97 @@
       "views": 10
     },
     {
-      "path": "/website/updates/",
-      "views": 10
-    },
-    {
       "path": "/website/contact/",
-      "views": 4
+      "views": 8
     },
     {
-      "path": "/website/endless-forms/",
-      "views": 4
+      "path": "/website/publications/",
+      "views": 8
+    },
+    {
+      "path": "/website/publications/wider/",
+      "views": 8
+    },
+    {
+      "path": "/website/science-communication/",
+      "views": 7
     },
     {
       "path": "/website/people/benjamin-taylor/",
-      "views": 2
-    },
-    {
-      "path": "/website/people/christopher-wyatt/",
-      "views": 2
-    },
-    {
-      "path": "/website/research/",
-      "views": 2
+      "views": 6
     },
     {
       "path": "/website/wasp-picnic-survey-2026/",
+      "views": 6
+    },
+    {
+      "path": "/website/people/christopher-wyatt/",
+      "views": 5
+    },
+    {
+      "path": "/website/research/evolution/",
+      "views": 3
+    },
+    {
+      "path": "/website/research/genomics/",
+      "views": 3
+    },
+    {
+      "path": "/website/big-wasp-survey/",
       "views": 2
     },
     {
-      "path": "/website/media/",
+      "path": "/website/people/caroline-chandler/",
+      "views": 2
+    },
+    {
+      "path": "/website/people/femi-e-benny/",
+      "views": 2
+    },
+    {
+      "path": "/website/research/ecology/",
+      "views": 2
+    },
+    {
+      "path": "/website/soapbox-science/",
+      "views": 2
+    },
+    {
+      "path": "/website/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
+      "views": 1
+    },
+    {
+      "path": "/website/people/fernando-duarte/",
       "views": 1
     },
     {
       "path": "/website/people/seirian-sumner/",
+      "views": 1
+    },
+    {
+      "path": "/website/research/mechanisms/",
+      "views": 1
+    },
+    {
+      "path": "/website/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
+      "views": 1
+    },
+    {
+      "path": "/website/wasplove-game/",
       "views": 1
     }
   ],
   "top_countries": [
     {
       "name": "United Kingdom",
-      "views": 57,
-      "visits": 21,
+      "views": 147,
+      "visits": 22,
       "iso": "GB"
     },
     {
       "name": "Brazil",
-      "views": 60,
-      "visits": 5,
+      "views": 139,
+      "visits": 6,
       "iso": "BR"
     }
   ]
