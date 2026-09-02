@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <g transform="translate(5,15)">
+    <!-- wings (behind body) -->
+    <g fill="#f5f2ea" stroke="#1a1712" stroke-width="1.6" opacity="0.92">
+      <path d="M75,31 C69,14 49,4 28,9 C44,18 60,28 75,31 Z"/>
+      <path d="M79,35 C72,21 54,12 36,16 C51,23 65,32 79,35 Z"/>
+    </g>
+    <!-- legs -->
+    <g stroke="#15130f" stroke-width="2.6" stroke-linecap="round" fill="none">
+      <path d="M42,66 L33,80 M42,66 L37,84"/>
+      <path d="M58,60 L52,76 M58,60 L60,80"/>
+      <path d="M72,54 L69,70 M72,54 L76,72"/>
+    </g>
+    <!-- antennae -->
+    <g stroke="#15130f" stroke-width="2.4" stroke-linecap="round" fill="none">
+      <path d="M89,37 C95,28 99,23 105,20"/>
+      <path d="M89,40 C97,33 102,30 108,29"/>
+    </g>
+    <!-- abdomen -->
+    <path d="M52,32 C39,27 20,29 11,42 C5,50 5,50 11,58 C20,71 39,73 52,68 C59,63 59,37 52,32 Z" fill="#ffc42c"/>
+    <clipPath id="abd-clip"><path d="M52,32 C39,27 20,29 11,42 C5,50 5,50 11,58 C20,71 39,73 52,68 C59,63 59,37 52,32 Z"/></clipPath>
+    <g clip-path="url(#abd-clip)" fill="#15130f">
+      <rect x="0" y="38" width="60" height="7.5"/>
+      <rect x="0" y="49" width="60" height="7.5"/>
+      <rect x="0" y="60" width="60" height="7.5"/>
+    </g>
+    <!-- stinger -->
+    <path d="M11,48 L2,50 L11,52 Z" fill="#15130f"/>
+    <!-- waist -->
+    <path d="M51,45 L62,42 L62,58 L51,55 Z" fill="#15130f"/>
+    <!-- thorax -->
+    <ellipse cx="72" cy="49" rx="13" ry="11.5" fill="#15130f"/>
+    <!-- head -->
+    <circle cx="88" cy="44" r="8.3" fill="#15130f"/>
+    <!-- eye -->
+    <circle cx="90" cy="42.5" r="1.6" fill="#ffc42c"/>
+  </g>
+</svg>
