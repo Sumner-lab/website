@@ -60,7 +60,7 @@ SNAPSHOT_PATH = os.path.join(REPO_ROOT, "_data", "analytics.json")
 LEDGER_PATH = os.path.join(REPO_ROOT, "_data", "analytics_totals.json")
 
 LAUNCH_DATE = "2026-08-14"  # day cloudflare_analytics_token first went live in _config.yml
-LEDGER_METHOD = "per-day-unsampled-v3"  # bump to force a clean ledger rebuild
+LEDGER_METHOD = "per-day-unsampled-v4"  # bump to force a clean ledger rebuild
 
 
 def get_beacon_token():
@@ -168,17 +168,20 @@ SITE_TAG = os.environ.get("CLOUDFLARE_SITE_TAG", "") or discover_site_tag()
 
 # One calendar day, always unsampled and always within the query-span cap --
 # used to accumulate the ledger.
+#
+# No ungrouped "totals" sub-query here (there used to be one): confirmed
+# against real traffic that Cloudflare's rumPageloadEventsAdaptiveGroups
+# returns an unreliable `sum.visits` for an ungrouped, ranged aggregate --
+# a real week's ungrouped total reported 0 visits / 400 views, while the
+# exact same underlying data grouped by country correctly summed to ~78
+# visits / ~389 views. Every view falls into exactly one country, so
+# summing the per-country rows (which we fetch anyway, for the map) is
+# not an approximation -- it's the same total computed a way that
+# actually works, for both page views and visits.
 DAY_QUERY = """
 query Day($account: String!, $site: String!, $day: Date!) {
   viewer {
     accounts(filter: { accountTag: $account }) {
-      totals: rumPageloadEventsAdaptiveGroups(
-        filter: { siteTag: $site, date_geq: $day, date_leq: $day }
-        limit: 1
-      ) {
-        count
-        sum { visits }
-      }
       pages: rumPageloadEventsAdaptiveGroups(
         filter: { siteTag: $site, date_geq: $day, date_leq: $day }
         limit: 200
@@ -202,18 +205,12 @@ query Day($account: String!, $site: String!, $day: Date!) {
 """
 
 # A short (7-day) range for the live snapshot -- narrow enough to stay
-# unsampled too, so no separate per-day accumulation is needed here.
+# unsampled too, so no separate per-day accumulation is needed here. Same
+# "no ungrouped totals" reasoning as DAY_QUERY above.
 RANGE_QUERY = """
 query Range($account: String!, $site: String!, $start: Date!, $end: Date!) {
   viewer {
     accounts(filter: { accountTag: $account }) {
-      totals: rumPageloadEventsAdaptiveGroups(
-        filter: { siteTag: $site, date_geq: $start, date_leq: $end }
-        limit: 1
-      ) {
-        count
-        sum { visits }
-      }
       countries: rumPageloadEventsAdaptiveGroups(
         filter: { siteTag: $site, date_geq: $start, date_leq: $end }
         limit: 250
@@ -314,10 +311,6 @@ def update_ledger(yesterday):
             continue
 
         acct = graphql(DAY_QUERY, {"account": ACCOUNT_ID, "site": SITE_TAG, "day": day_iso})
-        tgroups = acct.get("totals") or []
-        if tgroups:
-            pv += int(tgroups[0]["count"])
-            vis += int((tgroups[0].get("sum") or {}).get("visits") or 0)
         for g in (acct.get("pages") or []):
             path = g["dimensions"]["requestPath"] or "/"
             pages[path] = pages.get(path, 0) + int(g["count"])
@@ -325,8 +318,12 @@ def update_ledger(yesterday):
             # Despite the field's name, `countryName` returns an ISO
             # alpha-2 code (eg. "GB"), not a full country name.
             code = g["dimensions"]["countryName"] or "ZZ"
-            countries[code] = countries.get(code, 0) + int(g["count"])
-            country_visits[code] = country_visits.get(code, 0) + int((g.get("sum") or {}).get("visits") or 0)
+            day_views = int(g["count"])
+            day_visits = int((g.get("sum") or {}).get("visits") or 0)
+            countries[code] = countries.get(code, 0) + day_views
+            country_visits[code] = country_visits.get(code, 0) + day_visits
+            pv += day_views
+            vis += day_visits
 
         counted.add(day_iso)
         ingested += 1
@@ -363,10 +360,6 @@ yesterday_iso = (today - datetime.timedelta(days=1)).isoformat()
 week_ago_iso = (today - datetime.timedelta(days=7)).isoformat()
 
 recent = graphql(RANGE_QUERY, {"account": ACCOUNT_ID, "site": SITE_TAG, "start": week_ago_iso, "end": today_iso})
-recent_totals = recent.get("totals") or []
-views_7d = int(recent_totals[0]["count"]) if recent_totals else 0
-visits_7d = int((recent_totals[0].get("sum") or {}).get("visits") or 0) if recent_totals else 0
-
 recent_country_groups = recent.get("countries") or []
 countries_7d = len(recent_country_groups)
 # Kept separately from the ledger's all-time top_countries (below) rather
@@ -381,6 +374,10 @@ for g in recent_country_groups:
     views_7d_by_code[code] = views_7d_by_code.get(code, 0) + int(g["count"])
     visits_7d_by_code[code] = visits_7d_by_code.get(code, 0) + int((g.get("sum") or {}).get("visits") or 0)
 top_countries_7d, _ = build_top_countries(views_7d_by_code, visits_7d_by_code)
+# See DAY_QUERY's comment: summing the per-country rows rather than
+# trusting a separate ungrouped total, which is unreliable for `visits`.
+views_7d = sum(views_7d_by_code.values())
+visits_7d = sum(visits_7d_by_code.values())
 
 if views_7d == 0:
     try:
