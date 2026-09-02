@@ -8,20 +8,21 @@ sitemap: false
 {% assign ledger = site.data.analytics_totals %}
 
 {% comment %}
-  All-time figures come from the cumulative ledger (analytics_totals.json):
-  accurate totals summed from unsampled per-day Cloudflare figures. Views
-  and visits are clamped up to the live 7-day snapshot as belt-and-braces,
-  since today's traffic can briefly run a day ahead of the ledger (which
-  only ingests whole finished days). Countries reached is deliberately NOT
-  clamped that way: unlike a running total, a country count can't be
-  nudged up without knowing *which* country, and the 7-day figure alone
-  has no such detail -- clamping it here would let the headline claim a
-  country neither the map nor the table below it could actually show.
+  All-time figures come straight from the cumulative ledger
+  (analytics_totals.json) -- accurate totals summed from unsampled
+  per-day Cloudflare figures, nothing else. They used to be clamped up
+  to the live 7-day snapshot whenever that read higher, on the theory
+  that the two data files could drift apart by a few random moments --
+  but both files are written by the same script run, so they're never
+  actually out of sync with each other. The only real gap is that the
+  ledger only ingests whole *finished* days (never today, which isn't
+  over yet), so "all time" is always current as of yesterday, not this
+  second -- a real, permanent, up-to-a-day lag, not a race condition,
+  and not something a shorter, more recent window should paper over by
+  standing in for it.
 {% endcomment %}
 {% assign total_views = ledger.pageviews | default: 0 %}
 {% assign total_visits = ledger.visits | default: 0 %}
-{% if snap.last7days.views > total_views %}{% assign total_views = snap.last7days.views %}{% endif %}
-{% if snap.last7days.visits > total_visits %}{% assign total_visits = snap.last7days.visits %}{% endif %}
 {% assign total_countries = ledger.countries_count | default: 0 %}
 
 <p class="numbers-updated">
@@ -54,7 +55,7 @@ sitemap: false
     <div class="numbers-stat-label">Visits (last 7 days)</div>
   </div>
 </div>
-<p class="numbers-caption">A "visit" groups a run of page views from the same person into one session; a "view" counts every page load. All-time figures are exact &mdash; summed one calendar day at a time since tracking began, not a sampled estimate.</p>
+<p class="numbers-caption">A "visit" groups a run of page views from the same person into one session; a "view" counts every page load. All-time figures are exact &mdash; summed one calendar day at a time since tracking began, not a sampled estimate &mdash; and current as of yesterday, since a day only gets counted once it's finished.</p>
 
 ## Where visits come from
 
