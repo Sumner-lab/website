@@ -995,6 +995,12 @@ a.media-card-inner:hover {
   margin-top: 0.2rem;
 }
 
+.numbers-caption {
+  color: var(--color-text-muted);
+  font-size: 0.88rem;
+  margin: -0.75rem 0 1.25rem;
+}
+
 .numbers-map-wrap {
   background: var(--color-surface);
   border: 1px solid var(--color-border);

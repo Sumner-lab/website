@@ -220,6 +220,7 @@ query Range($account: String!, $site: String!, $start: Date!, $end: Date!) {
         orderBy: [count_DESC]
       ) {
         count
+        sum { visits }
         dimensions { countryName }
       }
     }
@@ -263,6 +264,25 @@ query Paths($account: String!, $site: String!, $start: Date!, $end: Date!) {
   }
 }
 """
+
+
+def build_top_countries(views_by_code, visits_by_code):
+    """Turns {iso: views} / {iso: visits} maps into the sorted list shape
+    both data files store, resolving each code to a display name via
+    ISO_TO_COUNTRY_NAME. A code with no name match still counts toward
+    totals but is flagged so it won't silently fail to shade on the map."""
+    top = []
+    unmatched = []
+    for code, views in views_by_code.items():
+        display_name = ISO_TO_COUNTRY_NAME.get(code)
+        entry = {"name": display_name or code, "views": views, "visits": visits_by_code.get(code, 0)}
+        if display_name:
+            entry["iso"] = code
+        else:
+            unmatched.append(code)
+        top.append(entry)
+    top.sort(key=lambda c: (-c["visits"], c["name"]))
+    return top, unmatched
 
 
 def update_ledger(yesterday):
@@ -314,20 +334,10 @@ def update_ledger(yesterday):
     print(f"Ledger: ingested {ingested} new day(s); {pv} page views / {vis} visits all-time "
           f"across {len(countries)} countries.")
 
-    top_countries = []
-    unmatched = []
-    for code, views in countries.items():
-        display_name = ISO_TO_COUNTRY_NAME.get(code)
-        entry = {"name": display_name or code, "views": views, "visits": country_visits.get(code, 0)}
-        if display_name:
-            entry["iso"] = code
-        else:
-            unmatched.append(code)
-        top_countries.append(entry)
+    top_countries, unmatched = build_top_countries(countries, country_visits)
     if unmatched:
         print(f"Note: {len(unmatched)} country code(s) had no name match and won't shade on "
               f"the map (they still count toward totals): {', '.join(unmatched)}")
-    top_countries.sort(key=lambda c: (-c["visits"], c["name"]))
 
     top_pages = sorted(
         ({"path": p, "views": v} for p, v in pages.items()),
@@ -356,7 +366,21 @@ recent = graphql(RANGE_QUERY, {"account": ACCOUNT_ID, "site": SITE_TAG, "start":
 recent_totals = recent.get("totals") or []
 views_7d = int(recent_totals[0]["count"]) if recent_totals else 0
 visits_7d = int((recent_totals[0].get("sum") or {}).get("visits") or 0) if recent_totals else 0
-countries_7d = len(recent.get("countries") or [])
+
+recent_country_groups = recent.get("countries") or []
+countries_7d = len(recent_country_groups)
+# Kept separately from the ledger's all-time top_countries (below) rather
+# than used to inflate it: this window can and does legitimately include a
+# country the day-by-day ledger hasn't ingested yet (today is still in
+# progress), so treating the two as interchangeable made the "countries
+# reached" headline able to claim a country neither the map nor the table
+# under it could actually show.
+views_7d_by_code, visits_7d_by_code = {}, {}
+for g in recent_country_groups:
+    code = g["dimensions"]["countryName"] or "ZZ"
+    views_7d_by_code[code] = views_7d_by_code.get(code, 0) + int(g["count"])
+    visits_7d_by_code[code] = visits_7d_by_code.get(code, 0) + int((g.get("sum") or {}).get("visits") or 0)
+top_countries_7d, _ = build_top_countries(views_7d_by_code, visits_7d_by_code)
 
 if views_7d == 0:
     try:
@@ -392,6 +416,7 @@ snapshot = {
     "since": LAUNCH_DATE,
     "last7days": {"views": views_7d, "visits": visits_7d},
     "countries_7d": countries_7d,
+    "top_countries_7d": top_countries_7d,
 }
 
 os.makedirs(os.path.dirname(SNAPSHOT_PATH), exist_ok=True)
