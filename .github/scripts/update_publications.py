@@ -612,14 +612,15 @@ def main():
         line = format_citation_line(work, orcid_index, family_index)
         new_by_year.setdefault(str(work["year"]), []).append(line)
         known_dois.add(work["doi"])
-        added.append(work["doi"])
+        added.append(work)
 
     if new_by_year:
         new_text = insert_entries(original_text, new_by_year)
         assert_additive(original_text, new_text)
         with open(PUBLICATIONS_PATH, "w", encoding="utf-8") as f:
             f.write(new_text)
-        print(f"Added {len(added)} new entr{'y' if len(added) == 1 else 'ies'} to publications.md: {added}")
+        print(f"Added {len(added)} new entr{'y' if len(added) == 1 else 'ies'} to publications.md: "
+              f"{[w['doi'] for w in added]}")
     else:
         print("No new Sumner-authored publications found.")
     if skipped:
@@ -689,6 +690,11 @@ def main():
         with open(OUT_PATH, encoding="utf-8") as f:
             existing_publications = json.load(f).get("publications")
 
+    existing_dois = {e["doi"] for e in (existing_publications or [])}
+    new_dois = {w["doi"] for w in wider_publications}
+    newly_in_digest = [w for w in wider_publications if w["doi"] not in existing_dois]
+    dropped_from_digest = [e for e in (existing_publications or []) if e["doi"] not in new_dois]
+
     # Compare ignoring source_orcid/order-of-discovery churn wouldn't be
     # meaningfully different from a plain equality check here since the
     # list is freshly sorted each run -- a straight comparison is fine.
@@ -701,7 +707,65 @@ def main():
         with open(OUT_PATH, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2)
             f.write("\n")
-        print(f"Wrote {OUT_PATH}: {len(wider_publications)} publication(s).")
+        print(f"Wrote {OUT_PATH}: {len(wider_publications)} publication(s) "
+              f"({len(newly_in_digest)} new, {len(dropped_from_digest)} dropped off).")
+
+    write_run_summary(added, skipped, newly_in_digest, dropped_from_digest)
+
+
+def summarize_work_for_report(work):
+    lead = work["authors"][0]
+    lead_name = f"{lead['family']} {given_name_initials(lead.get('given'))}".strip()
+    suffix = " et al." if len(work["authors"]) > 1 else ""
+    return f"{lead_name}{suffix} ({work['year']}) {work['title']}"
+
+
+def summarize_entry_for_report(entry):
+    authors = entry.get("authors") or []
+    lead = authors[0]["name"] if authors else "?"
+    suffix = " et al." if len(authors) > 1 else ""
+    return f"{lead}{suffix} ({entry['year']}) {entry['title']}"
+
+
+def write_run_summary(added, skipped, newly_in_digest, dropped_from_digest):
+    """Writes a plain-English summary of this run to a file the workflow
+    uses as the PR body/comment -- reviewing this is much easier than
+    reading a raw diff of wider_publications.json, where even one new
+    discovery can shuffle several unrelated entries in/out of the top 20
+    and make the diff look far bigger and more confusing than what
+    actually changed."""
+    lines = ["Automated weekly publication check, pulled from ORCID + Crossref.", "",
+             "## publications.md", ""]
+    if added:
+        lines.append(f"{len(added)} new entr{'y' if len(added) == 1 else 'ies'} added:")
+        lines += [f"- {summarize_work_for_report(w)}" for w in added]
+    else:
+        lines.append("No new Sumner-authored publications found this run.")
+    if skipped:
+        lines += ["", f"{len(skipped)} candidate DOI(s) skipped (couldn't be enriched via Crossref):"]
+        lines += [f"- `{doi}`" for doi in skipped]
+
+    lines += ["", "## Wider-lab digest (publications/wider.md)", ""]
+    if newly_in_digest:
+        lines.append(f"{len(newly_in_digest)} newly entered the latest {WIDER_LIST_SIZE}:")
+        lines += [f"- {summarize_entry_for_report(w)}" for w in newly_in_digest]
+    if dropped_from_digest:
+        if newly_in_digest:
+            lines.append("")
+        lines.append(f"{len(dropped_from_digest)} fell out of the latest {WIDER_LIST_SIZE} "
+                      f"(still published, just no longer among the most recent {WIDER_LIST_SIZE}):")
+        lines += [f"- {summarize_entry_for_report(e)}" for e in dropped_from_digest]
+    if not newly_in_digest and not dropped_from_digest:
+        lines.append("No change in the wider-lab digest this run.")
+
+    lines += ["", "---",
+              "This branch is bot-owned and gets force-pushed on every scheduled run -- "
+              "review via PR comments rather than committing fixups directly to it."]
+
+    summary_path = os.environ.get("PUBLICATIONS_SUMMARY_PATH", "/tmp/publications_summary.md")
+    with open(summary_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Wrote run summary to {summary_path}")
 
 
 if __name__ == "__main__":

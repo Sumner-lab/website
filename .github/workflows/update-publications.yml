@@ -30,6 +30,7 @@ jobs:
         env:
           ORCID_CLIENT_ID: ${{ secrets.ORCID_CLIENT_ID }}
           ORCID_CLIENT_SECRET: ${{ secrets.ORCID_CLIENT_SECRET }}
+          PUBLICATIONS_SUMMARY_PATH: ${{ runner.temp }}/publications_summary.md
 
       - name: Show diff in the run summary
         run: |
@@ -72,16 +73,13 @@ jobs:
           git commit -m "Update publications from ORCID/Crossref"
           git push --force-with-lease origin "$BRANCH"
 
+          SUMMARY="${{ runner.temp }}/publications_summary.md"
           existing=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
           if [ -n "$existing" ]; then
             echo "Updated existing PR #$existing."
+            gh pr comment "$existing" --body-file "$SUMMARY"
           else
             gh pr create --base main --head "$BRANCH" \
               --title "Update publications ($(date -u +%Y-%m-%d))" \
-              --body "Automated weekly publication check, pulled from ORCID + Crossref.
-
-          - \`publications.md\`: new papers found on Seirian Sumner's ORCID record that weren't already listed.
-          - \`_data/wider_publications.json\`: refreshed latest-20 digest of publications by current lab members that don't include Sumner as a co-author.
-
-          This branch is bot-owned and gets force-pushed on every scheduled run -- review via PR comments rather than committing fixups directly to it."
+              --body-file "$SUMMARY"
           fi
