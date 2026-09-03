@@ -165,4 +165,6 @@ To connect it:
 
 Note: the public beacon token from step 2 is a *different* value from the internal "site tag" the GraphQL API actually filters on &mdash; the script resolves the real one automatically from Cloudflare's Web Analytics site list, so there's no need to look it up by hand.
 
+Want your own visits (or the whole lab's, while testing) left out of these numbers? See [Analytics Opt-Out]({{ site.baseurl }}/no-track/).
+
 This page is intentionally not linked from the site navigation, excluded from the sitemap and search results, and marked `noindex` &mdash; it's for lab members who know the URL, not public visitors.

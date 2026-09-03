@@ -14,7 +14,21 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   {% feed_meta %}
   {% if site.cloudflare_analytics_token != "" %}
-  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cloudflare_analytics_token }}"}'></script>
+  <script>
+  (function () {
+    // Lets a visitor opt out of analytics in this browser (see /no-track/)
+    // by skipping the beacon entirely rather than loading it and hoping it
+    // no-ops -- the opt-out is only real if the request is never sent.
+    try {
+      if (localStorage.getItem("sumnerlab-no-track") === "1") return;
+    } catch (e) {}
+    var s = document.createElement("script");
+    s.type = "module";
+    s.src = "https://static.cloudflareinsights.com/beacon.min.js";
+    s.setAttribute("data-cf-beacon", JSON.stringify({ token: "{{ site.cloudflare_analytics_token }}" }));
+    document.head.appendChild(s);
+  })();
+  </script>
   {% endif %}
 </head>
 <body class="{% if page.hero or page.header_image %}has-hero{% endif %}">

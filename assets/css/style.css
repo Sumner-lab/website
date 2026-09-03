@@ -671,6 +671,7 @@ a.research-tile:hover::after {
   border-left: 0.5rem solid currentColor;
 }
 .person-link-btn { padding: 0.35rem 0.9rem 0.35rem 0.7rem; }
+button.person-link-btn { border: none; cursor: pointer; font: inherit; }
 .person-links {
   display: flex;
   flex-wrap: wrap;
