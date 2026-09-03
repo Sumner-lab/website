@@ -1,10 +1,10 @@
 {
   "connected": true,
-  "updated": "2026-09-03T11:21:44Z",
+  "updated": "2026-09-03T11:40:12Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 482,
-    "visits": 117
+    "views": 485,
+    "visits": 119
   },
   "countries_7d": 10,
   "top_countries_7d": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "United Kingdom",
-      "views": 180,
-      "visits": 21,
+      "views": 183,
+      "visits": 23,
       "iso": "GB"
     },
     {
