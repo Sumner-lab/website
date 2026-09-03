@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "method": "per-day-unsampled-v4",
   "counted_dates": [
     "2026-08-14",
@@ -20,15 +20,20 @@
     "2026-08-29",
     "2026-08-30",
     "2026-08-31",
-    "2026-09-01"
+    "2026-09-01",
+    "2026-09-02"
   ],
-  "pageviews": 282,
-  "visits": 24,
-  "countries_count": 2,
+  "pageviews": 513,
+  "visits": 109,
+  "countries_count": 8,
   "top_pages": [
     {
       "path": "/website/",
       "views": 75
+    },
+    {
+      "path": "/",
+      "views": 40
     },
     {
       "path": "/website/people/",
@@ -39,8 +44,16 @@
       "views": 27
     },
     {
+      "path": "/people/",
+      "views": 21
+    },
+    {
       "path": "/website/media/",
       "views": 17
+    },
+    {
+      "path": "/science-communication/",
+      "views": 14
     },
     {
       "path": "/website/articles/",
@@ -55,8 +68,16 @@
       "views": 14
     },
     {
+      "path": "/media/",
+      "views": 13
+    },
+    {
       "path": "/website/endless-forms/",
       "views": 13
+    },
+    {
+      "path": "/numbers/",
+      "views": 11
     },
     {
       "path": "/website/numbers/",
@@ -65,6 +86,10 @@
     {
       "path": "/website/people/iona-cunningham-eurich/",
       "views": 10
+    },
+    {
+      "path": "/updates/",
+      "views": 9
     },
     {
       "path": "/website/publications/",
@@ -79,12 +104,96 @@
       "views": 7
     },
     {
+      "path": "/endless-forms/",
+      "views": 6
+    },
+    {
+      "path": "/people/idris-adams/",
+      "views": 5
+    },
+    {
+      "path": "/people/seirian-sumner/",
+      "views": 5
+    },
+    {
+      "path": "/publications/",
+      "views": 5
+    },
+    {
+      "path": "/wasp-picnic-survey-2026/",
+      "views": 5
+    },
+    {
+      "path": "/big-wasp-survey/",
+      "views": 4
+    },
+    {
+      "path": "/contact/",
+      "views": 4
+    },
+    {
+      "path": "/people/caroline-chandler/",
+      "views": 4
+    },
+    {
+      "path": "/people/cintia-oi/",
+      "views": 4
+    },
+    {
+      "path": "/people/emeline-favreau/",
+      "views": 4
+    },
+    {
+      "path": "/people/emily-bell/",
+      "views": 4
+    },
+    {
+      "path": "/people/lewis-revely/",
+      "views": 4
+    },
+    {
+      "path": "/people/sandra-moreno/",
+      "views": 4
+    },
+    {
+      "path": "/publications/wider/",
+      "views": 4
+    },
+    {
+      "path": "/research/",
+      "views": 4
+    },
+    {
       "path": "/website/contact/",
       "views": 4
     },
     {
       "path": "/website/people/benjamin-taylor/",
       "views": 4
+    },
+    {
+      "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
+      "views": 3
+    },
+    {
+      "path": "/people/adam-devenish/",
+      "views": 3
+    },
+    {
+      "path": "/people/alessandro-cini/",
+      "views": 3
+    },
+    {
+      "path": "/people/owen-corbett/",
+      "views": 3
+    },
+    {
+      "path": "/people/romuald-tcheutchoua/",
+      "views": 3
+    },
+    {
+      "path": "/research/evolution/",
+      "views": 3
     },
     {
       "path": "/website/people/christopher-wyatt/",
@@ -97,6 +206,38 @@
     {
       "path": "/website/research/genomics/",
       "views": 3
+    },
+    {
+      "path": "/articles/",
+      "views": 2
+    },
+    {
+      "path": "/billy-easeman-parasitoid-wasps/",
+      "views": 2
+    },
+    {
+      "path": "/people/benjamin-taylor/",
+      "views": 2
+    },
+    {
+      "path": "/people/daisy-taylor/",
+      "views": 2
+    },
+    {
+      "path": "/people/femi-e-benny/",
+      "views": 2
+    },
+    {
+      "path": "/people/sam-duckerin/",
+      "views": 2
+    },
+    {
+      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
+      "views": 2
+    },
+    {
+      "path": "/soapbox-science/",
+      "views": 2
     },
     {
       "path": "/website/big-wasp-survey/",
@@ -119,6 +260,86 @@
       "views": 2
     },
     {
+      "path": "/where-hornets-are-queens/",
+      "views": 2
+    },
+    {
+      "path": "/a-novel-method-of-assessing-dominance-hierarchies-shows-nuance-linearity-and-stability-in-the-dinosaur-ant-dinoponera-quadriceps/",
+      "views": 1
+    },
+    {
+      "path": "/autumn-2015-welcome-to-four-new-group-members/",
+      "views": 1
+    },
+    {
+      "path": "/colony-size-predicts-division-of-labour-in-attine-ants/",
+      "views": 1
+    },
+    {
+      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
+      "views": 1
+    },
+    {
+      "path": "/iussi-conference-cairns-2014/",
+      "views": 1
+    },
+    {
+      "path": "/new-paper-published-first-social-wasp-genome-and-more/",
+      "views": 1
+    },
+    {
+      "path": "/new-recruits-join-the-lab/",
+      "views": 1
+    },
+    {
+      "path": "/opening-the-life-sciences-building/",
+      "views": 1
+    },
+    {
+      "path": "/people/alex-cerqueira-de-araujo/",
+      "views": 1
+    },
+    {
+      "path": "/people/christopher-wyatt/",
+      "views": 1
+    },
+    {
+      "path": "/people/iona-cunningham-eurich/",
+      "views": 1
+    },
+    {
+      "path": "/people/patrick-kennedy/",
+      "views": 1
+    },
+    {
+      "path": "/people/robin-southon/",
+      "views": 1
+    },
+    {
+      "path": "/people/sam-morris/",
+      "views": 1
+    },
+    {
+      "path": "/position-available-work-with-us-on-soapbox-science/",
+      "views": 1
+    },
+    {
+      "path": "/research/genomics/",
+      "views": 1
+    },
+    {
+      "path": "/seirians-seminar-frenzy/",
+      "views": 1
+    },
+    {
+      "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
+      "views": 1
+    },
+    {
+      "path": "/wasps-matter/",
+      "views": 1
+    },
+    {
       "path": "/website/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
       "views": 1
     },
@@ -137,20 +358,64 @@
     {
       "path": "/website/wasplove-game/",
       "views": 1
+    },
+    {
+      "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
+      "views": 1
+    },
+    {
+      "path": "/why-fly-half-way-across-the-world-to-trinidad-when-there-are-plenty-of-wasps-drowning-in-my-lemonade-in-peckham/",
+      "views": 1
     }
   ],
   "top_countries": [
     {
       "name": "United Kingdom",
-      "views": 140,
-      "visits": 21,
+      "views": 223,
+      "visits": 39,
       "iso": "GB"
     },
     {
+      "name": "Singapore",
+      "views": 43,
+      "visits": 35,
+      "iso": "SG"
+    },
+    {
       "name": "Brazil",
-      "views": 142,
-      "visits": 3,
+      "views": 165,
+      "visits": 16,
       "iso": "BR"
+    },
+    {
+      "name": "United States of America",
+      "views": 11,
+      "visits": 9,
+      "iso": "US"
+    },
+    {
+      "name": "China",
+      "views": 67,
+      "visits": 7,
+      "iso": "CN"
+    },
+    {
+      "name": "Canada",
+      "views": 2,
+      "visits": 1,
+      "iso": "CA"
+    },
+    {
+      "name": "Netherlands",
+      "views": 1,
+      "visits": 1,
+      "iso": "NL"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "views": 1,
+      "visits": 1,
+      "iso": "TT"
     }
   ]
 }
