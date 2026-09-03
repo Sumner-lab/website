@@ -81,10 +81,17 @@ jobs:
 
           # A legitimate new contributor shouldn't be blocked -- just flagged
           # for the reviewer, since this repo is public and anyone can open
-          # an issue regardless of collaborator status.
+          # an issue regardless of collaborator status. Only flag when the
+          # lookup itself succeeds AND genuinely doesn't find them -- if the
+          # API call fails for any reason, say nothing rather than falsely
+          # accusing a real collaborator because the check couldn't run.
           COLLAB_NOTE=""
-          if ! gh api "repos/${{ github.repository }}/collaborators" --jq '.[].login' | grep -qx "$SUBMITTER"; then
-            COLLAB_NOTE=$'\n\n---\n**Note:** @'"$SUBMITTER"' is not a recognized collaborator on this repo -- please verify this is a legitimate submission before merging.'
+          if COLLAB_LIST=$(gh api "repos/${{ github.repository }}/collaborators" --jq '.[].login' 2>&1); then
+            if ! printf '%s\n' "$COLLAB_LIST" | grep -qx "$SUBMITTER"; then
+              COLLAB_NOTE=$'\n\n---\n**Note:** @'"$SUBMITTER"' is not a recognized collaborator on this repo -- please verify this is a legitimate submission before merging.'
+            fi
+          else
+            echo "Note: couldn't check collaborator status ($COLLAB_LIST) -- skipping that check for this PR."
           fi
 
           PR_BODY="Closes #$ISSUE
