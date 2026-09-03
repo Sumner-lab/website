@@ -1,6 +1,6 @@
 # Sumner Lab website
 
-This repo holds the Sumner Lab website, live at **[sumner-lab.github.io/website](https://sumner-lab.github.io/website/)**. It replaced our old 123reg/WordPress hosting and is hosted for free on GitHub Pages.
+This repo holds the Sumner Lab website, live at **[www.sumnerlab.co.uk](https://www.sumnerlab.co.uk)**. It replaced our old 123reg/WordPress hosting and is hosted for free on GitHub Pages.
 
 The site is built as Markdown pages on Jekyll, with one shared template, so editing a page means editing a short Markdown file, and a nav change happens in one place instead of being duplicated across hundreds of files. The original straight-HTML copy of the old WordPress site (working, but with every page's nav/header duplicated in every file) is archived on the [`old_web_format`](https://github.com/Sumner-lab/website/tree/old_web_format) branch.
 
@@ -20,7 +20,7 @@ Needs Ruby + [Bundler](https://bundler.io/) installed (`gem install bundler` if 
 ## Editing
 
 - **A page** (Contact, a research theme, etc.): edit its `.md` file directly — e.g. `contact.md`, `research/evolution.md`.
-- **A blog post**: add a file to `_posts/`, named `YYYY-MM-DD-title.md`.
+- **A blog post**: add a file to `_posts/`, named `YYYY-MM-DD-title.md`. Don't want to touch git/Markdown directly? Use the [Submit a new post](https://github.com/Sumner-lab/website/issues/new?template=new-post.yml) form instead — it opens a pull request automatically for someone to review.
 - **A team member**: add a file to `_people/`, with `name`, `role`, `status` (`current` or `alumni`) and `photo` in the front matter at the top of the file.
 - **The nav menu**: edit `_data/nav.yml` — one file, applies everywhere.
 - **Images**: drop them anywhere under `wp-content/uploads/`, reference with a relative path.
@@ -44,9 +44,8 @@ The zip is large (~160MB) because it includes every image on the site — fine f
 ## Status
 
 - [x] Jekyll scaffold + shared template (fixes phase 1's duplicated-nav problem)
-- [x] A representative slice converted and padded out for design review (homepage, 5 people, 3 posts, several research/outreach pages)
-- [ ] Remaining ~120 pages/posts/people batch-converted
+- [x] Full site converted (pages, posts, people)
 - [x] Merged into `main`
-- [ ] GitHub Pages switched on with our domain
-- [ ] DNS updated so sumnerlab.co.uk points here
-- [ ] HTTPS confirmed working
+- [x] GitHub Pages switched on with our domain
+- [x] DNS updated so sumnerlab.co.uk points here
+- [x] HTTPS confirmed working

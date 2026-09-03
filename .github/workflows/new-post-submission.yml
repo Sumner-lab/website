@@ -1,0 +1,110 @@
+name: New post submission
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  create-post-pr:
+    if: contains(github.event.issue.labels.*.name, 'new-post-submission')
+    runs-on: ubuntu-latest
+    concurrency:
+      group: new-post-${{ github.event.issue.number }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - run: pip install --quiet Pillow
+
+      - name: Build the post from the issue
+        id: build
+        run: python3 .github/scripts/create_post_from_issue.py
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_CREATED_AT: ${{ github.event.issue.created_at }}
+          NEW_POST_SUMMARY_PATH: ${{ runner.temp }}/new_post_summary.md
+          NEW_POST_MANIFEST_PATH: ${{ runner.temp }}/new_post_manifest.json
+
+      - name: Comment failure and stop
+        if: failure() && steps.build.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue comment "${{ github.event.issue.number }}" \
+            --body-file "${{ runner.temp }}/new_post_summary.md" || \
+          gh issue comment "${{ github.event.issue.number }}" \
+            --body "Something went wrong turning this into a post. A maintainer will need to take a look -- sorry about that!"
+
+      - name: Open the review PR
+        if: steps.build.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          MANIFEST="${{ runner.temp }}/new_post_manifest.json"
+          SUMMARY="${{ runner.temp }}/new_post_summary.md"
+          ISSUE="${{ github.event.issue.number }}"
+          BRANCH="bot/new-post-$ISSUE"
+          SUBMITTER="${{ github.event.issue.user.login }}"
+
+          POST_PATH=$(python3 -c "import json; print(json.load(open('$MANIFEST'))['post'] or '')")
+          if [ -z "$POST_PATH" ]; then
+            gh issue comment "$ISSUE" --body-file "$SUMMARY"
+            exit 0
+          fi
+
+          mapfile -t PATHS < <(python3 -c "
+          import json
+          m = json.load(open('$MANIFEST'))
+          print(m['post'])
+          for p in m['images']:
+              print(p)
+          ")
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add -- "${PATHS[@]}"
+          git commit -m "New post from issue #$ISSUE"
+          git push --force-with-lease origin "$BRANCH"
+
+          # A legitimate new contributor shouldn't be blocked -- just flagged
+          # for the reviewer, since this repo is public and anyone can open
+          # an issue regardless of collaborator status.
+          COLLAB_NOTE=""
+          if ! gh api "repos/${{ github.repository }}/collaborators" --jq '.[].login' | grep -qx "$SUBMITTER"; then
+            COLLAB_NOTE=$'\n\n---\n**Note:** @'"$SUBMITTER"' is not a recognized collaborator on this repo -- please verify this is a legitimate submission before merging.'
+          fi
+
+          PR_BODY="Closes #$ISSUE
+
+          Submitted by @$SUBMITTER.
+
+          $(cat "$SUMMARY")$COLLAB_NOTE"
+
+          POST_TITLE=$(python3 -c "import json; print(json.load(open('$MANIFEST'))['title'])")
+
+          existing=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            PR_NUMBER="$existing"
+          else
+            gh pr create --base main --head "$BRANCH" \
+              --title "New post: $POST_TITLE" \
+              --body "$PR_BODY"
+            PR_NUMBER=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
+          fi
+
+          gh issue comment "$ISSUE" --body "Thanks! This has been turned into a pull request for review: #$PR_NUMBER
+
+          $(cat "$SUMMARY")"

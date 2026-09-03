@@ -1,0 +1,46 @@
+name: Submit a new post
+description: Add a new blog/news item to the website -- no Markdown or git needed, just fill in the form below.
+title: "[New post] "
+labels: ["new-post-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill this in and submit -- it opens a pull request automatically, which someone will review before it goes live. You'll need to be signed in to GitHub to submit this, but nothing else technical is required.
+  - type: input
+    id: title
+    attributes:
+      label: Post title
+      description: A short, clear title -- this becomes the page heading and the page's web address.
+      placeholder: "e.g. Congratulations Dr Smith!"
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Your name
+      description: How you'd like to be credited, e.g. "Jane Smith". Leave blank if you'd rather not be named.
+  - type: input
+    id: publish_date
+    attributes:
+      label: Publish date (optional)
+      description: "Format: YYYY-MM-DD, e.g. 2026-09-03. Leave blank to use today's date."
+  - type: textarea
+    id: body
+    attributes:
+      label: Post content
+      description: Write the post itself. Leave a blank line between paragraphs to start a new one -- no special formatting needed. If you want it, *one asterisk* makes text italic and **two asterisks** makes it bold.
+    validations:
+      required: true
+  - type: textarea
+    id: photos
+    attributes:
+      label: Photos (optional)
+      description: Drag up to 5 photos into this box, or paste with Ctrl/Cmd+V -- GitHub uploads them automatically (you'll see text like "![image](...)" appear, that's normal, leave it as is). The first photo becomes the post's main image; any extras appear at the end of the post.
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Photo permission
+      options:
+        - label: I have permission to share any photos I've attached, and I'm happy for them to appear on the public lab website.
+          required: true
