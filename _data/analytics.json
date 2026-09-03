@@ -1,9 +1,9 @@
 {
   "connected": true,
-  "updated": "2026-09-03T19:48:58Z",
+  "updated": "2026-09-03T19:53:47Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 548,
+    "views": 549,
     "visits": 141
   },
   "countries_7d": 12,
@@ -22,7 +22,7 @@
     },
     {
       "name": "China",
-      "views": 148,
+      "views": 149,
       "visits": 25,
       "iso": "CN"
     },
