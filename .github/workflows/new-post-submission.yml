@@ -79,20 +79,17 @@ jobs:
           git commit -m "New post from issue #$ISSUE"
           git push --force-with-lease origin "$BRANCH"
 
-          # A legitimate new contributor shouldn't be blocked -- just flagged
-          # for the reviewer, since this repo is public and anyone can open
-          # an issue regardless of collaborator status. Only flag when the
-          # lookup itself succeeds AND genuinely doesn't find them -- if the
-          # API call fails for any reason, say nothing rather than falsely
-          # accusing a real collaborator because the check couldn't run.
+          # A "is this submitter a collaborator" flag was tried here and
+          # removed: confirmed via two live test runs that the default
+          # GITHUB_TOKEN can't reliably read the collaborators list --
+          # GitHub Actions' assignable token permissions (contents, issues,
+          # pull-requests, etc.) have no scope covering that endpoint at
+          # all, so the check silently returned an incomplete result every
+          # time rather than erroring, misfiring on every single submission
+          # including from real collaborators. A flag that's always wrong
+          # is worse than no flag -- every PR from this workflow already
+          # states who submitted it (below) for the reviewer to judge.
           COLLAB_NOTE=""
-          if COLLAB_LIST=$(gh api "repos/${{ github.repository }}/collaborators" --jq '.[].login' 2>&1); then
-            if ! printf '%s\n' "$COLLAB_LIST" | grep -qx "$SUBMITTER"; then
-              COLLAB_NOTE=$'\n\n---\n**Note:** @'"$SUBMITTER"' is not a recognized collaborator on this repo -- please verify this is a legitimate submission before merging.'
-            fi
-          else
-            echo "Note: couldn't check collaborator status ($COLLAB_LIST) -- skipping that check for this PR."
-          fi
 
           PR_BODY="Closes #$ISSUE
 
