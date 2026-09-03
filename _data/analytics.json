@@ -1,54 +1,83 @@
 {
   "connected": true,
-  "updated": "2026-09-03T20:00:11Z",
+  "updated": "2026-09-03T21:06:17Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 640,
-    "visits": 150
+    "views": 557,
+    "visits": 143
   },
-  "countries_7d": 7,
+  "countries_7d": 12,
   "top_countries_7d": [
     {
       "name": "Singapore",
-      "views": 70,
-      "visits": 60,
+      "views": 53,
+      "visits": 43,
       "iso": "SG"
     },
     {
-      "name": "China",
-      "views": 210,
-      "visits": 20,
-      "iso": "CN"
-    },
-    {
       "name": "United Kingdom",
-      "views": 250,
-      "visits": 20,
+      "views": 192,
+      "visits": 27,
       "iso": "GB"
     },
     {
+      "name": "China",
+      "views": 155,
+      "visits": 26,
+      "iso": "CN"
+    },
+    {
       "name": "United States of America",
-      "views": 20,
-      "visits": 20,
+      "views": 42,
+      "visits": 25,
       "iso": "US"
     },
     {
       "name": "Brazil",
-      "views": 70,
-      "visits": 10,
+      "views": 107,
+      "visits": 17,
       "iso": "BR"
     },
     {
+      "name": "Canada",
+      "views": 2,
+      "visits": 1,
+      "iso": "CA"
+    },
+    {
+      "name": "FR",
+      "views": 1,
+      "visits": 1
+    },
+    {
       "name": "Netherlands",
-      "views": 10,
-      "visits": 10,
+      "views": 1,
+      "visits": 1,
       "iso": "NL"
     },
     {
       "name": "Republic of Korea",
-      "views": 10,
-      "visits": 10,
+      "views": 1,
+      "visits": 1,
       "iso": "KR"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "views": 1,
+      "visits": 1,
+      "iso": "TT"
+    },
+    {
+      "name": "Belgium",
+      "views": 1,
+      "visits": 0,
+      "iso": "BE"
+    },
+    {
+      "name": "Germany",
+      "views": 1,
+      "visits": 0,
+      "iso": "DE"
     }
   ]
 }
