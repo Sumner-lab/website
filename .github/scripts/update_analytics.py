@@ -298,11 +298,14 @@ def update_ledger(yesterday):
     pages = {p["path"]: int(p["views"]) for p in (prev.get("top_pages") or [])}
     countries = {c["iso"]: int(c["views"]) for c in (prev.get("top_countries") or []) if c.get("iso")}
     country_visits = {c["iso"]: int(c.get("visits") or 0) for c in (prev.get("top_countries") or []) if c.get("iso")}
-    pv = int(prev.get("pageviews") or 0)
-    vis = int(prev.get("visits") or 0)
     # One entry per finished day, in ingestion order -- the actual daily
-    # breakdown, not just the running total, so growth (or a lull) is
+    # breakdown, not just a running total, so growth (or a lull) is
     # visible on the page instead of having to trust an opaque sum.
+    # pageviews/visits below are always computed FROM this, never tracked
+    # as a separate running total in parallel -- otherwise they're two
+    # numbers that are merely supposed to agree, rather than one number
+    # mechanically incapable of disagreeing with the rows shown on the
+    # page that it's the sum of.
     daily = list(prev.get("daily") or [])
 
     day = datetime.date.fromisoformat(LAUNCH_DATE)
@@ -327,14 +330,15 @@ def update_ledger(yesterday):
             vi = int((g.get("sum") or {}).get("visits") or 0)
             countries[code] = countries.get(code, 0) + v
             country_visits[code] = country_visits.get(code, 0) + vi
-            pv += v
-            vis += vi
             day_views += v
             day_visits += vi
 
         daily.append({"date": day_iso, "views": day_views, "visits": day_visits})
         counted.add(day_iso)
         ingested += 1
+
+    pv = sum(d["views"] for d in daily)
+    vis = sum(d["visits"] for d in daily)
 
     print(f"Ledger: ingested {ingested} new day(s); {pv} page views / {vis} visits all-time "
           f"across {len(countries)} countries.")
