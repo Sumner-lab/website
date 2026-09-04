@@ -133,6 +133,23 @@ sitemap: false
 <p class="numbers-caption">No visits recorded in the last 7 days.</p>
 {% endif %}
 
+{% assign daily = ledger.daily | reverse %}
+{% if daily.size > 0 %}
+## Daily figures
+
+<p class="numbers-caption">Every finished day since tracking began, most recent first &mdash; this is the actual data the all-time totals above are summed from, not just a running number to take on trust. Today isn't shown; it's still in progress and gets added once it's over.</p>
+
+<table class="numbers-table">
+  <tr><th>Date</th><th class="num">Views</th><th class="num">Visits</th></tr>
+  {% for d in daily limit: 30 %}
+  <tr><td>{{ d.date | date: "%-d %b %Y" }}</td><td class="num">{{ d.views }}</td><td class="num">{{ d.visits }}</td></tr>
+  {% endfor %}
+</table>
+{% if daily.size > 30 %}
+<p class="numbers-caption">Showing the most recent 30 of {{ daily.size }} days.</p>
+{% endif %}
+{% endif %}
+
 {% assign top_pages = ledger.top_pages %}
 {% if top_pages.size > 0 %}
 ## Top pages

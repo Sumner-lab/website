@@ -60,7 +60,7 @@ SNAPSHOT_PATH = os.path.join(REPO_ROOT, "_data", "analytics.json")
 LEDGER_PATH = os.path.join(REPO_ROOT, "_data", "analytics_totals.json")
 
 LAUNCH_DATE = "2026-08-14"  # day cloudflare_analytics_token first went live in _config.yml
-LEDGER_METHOD = "per-day-unsampled-v4"  # bump to force a clean ledger rebuild
+LEDGER_METHOD = "per-day-unsampled-v5"  # bump to force a clean ledger rebuild
 
 
 def get_beacon_token():
@@ -300,6 +300,10 @@ def update_ledger(yesterday):
     country_visits = {c["iso"]: int(c.get("visits") or 0) for c in (prev.get("top_countries") or []) if c.get("iso")}
     pv = int(prev.get("pageviews") or 0)
     vis = int(prev.get("visits") or 0)
+    # One entry per finished day, in ingestion order -- the actual daily
+    # breakdown, not just the running total, so growth (or a lull) is
+    # visible on the page instead of having to trust an opaque sum.
+    daily = list(prev.get("daily") or [])
 
     day = datetime.date.fromisoformat(LAUNCH_DATE)
     last = datetime.date.fromisoformat(yesterday)
@@ -314,17 +318,21 @@ def update_ledger(yesterday):
         for g in (acct.get("pages") or []):
             path = g["dimensions"]["requestPath"] or "/"
             pages[path] = pages.get(path, 0) + int(g["count"])
+        day_views, day_visits = 0, 0
         for g in (acct.get("countries") or []):
             # Despite the field's name, `countryName` returns an ISO
             # alpha-2 code (eg. "GB"), not a full country name.
             code = g["dimensions"]["countryName"] or "ZZ"
-            day_views = int(g["count"])
-            day_visits = int((g.get("sum") or {}).get("visits") or 0)
-            countries[code] = countries.get(code, 0) + day_views
-            country_visits[code] = country_visits.get(code, 0) + day_visits
-            pv += day_views
-            vis += day_visits
+            v = int(g["count"])
+            vi = int((g.get("sum") or {}).get("visits") or 0)
+            countries[code] = countries.get(code, 0) + v
+            country_visits[code] = country_visits.get(code, 0) + vi
+            pv += v
+            vis += vi
+            day_views += v
+            day_visits += vi
 
+        daily.append({"date": day_iso, "views": day_views, "visits": day_visits})
         counted.add(day_iso)
         ingested += 1
 
@@ -350,6 +358,7 @@ def update_ledger(yesterday):
         "countries_count": len(countries),
         "top_pages": top_pages,
         "top_countries": top_countries,
+        "daily": daily,
     }
 
 
