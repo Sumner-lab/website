@@ -2,8 +2,9 @@
 """Pulls Cloudflare Web Analytics (RUM) data into two Jekyll data files for
 the /numbers/ page:
 
-- _data/analytics.json        : live snapshot -- accurate figures for the
-                                 last 7 days.
+- _data/analytics.json        : snapshot covering the 7 most recently
+                                 finished days (never today, so it's
+                                 always a subset of the ledger below).
 - _data/analytics_totals.json : a persisted, cumulative ledger of true
                                  all-time totals (page views, visits,
                                  per-page and per-country counts), built by
@@ -204,9 +205,11 @@ query Day($account: String!, $site: String!, $day: Date!) {
 }
 """
 
-# A short (7-day) range for the live snapshot -- narrow enough to stay
-# unsampled too, so no separate per-day accumulation is needed here. Same
-# "no ungrouped totals" reasoning as DAY_QUERY above.
+# A short range, used only for the "last 7 days" per-country breakdown
+# (the map) -- narrow enough to stay unsampled too. The aggregate
+# views/visits figures don't use this at all; they're summed straight
+# from the ledger's own daily[] entries instead (see below), for the
+# same reason DAY_QUERY doesn't trust an ungrouped total.
 RANGE_QUERY = """
 query Range($account: String!, $site: String!, $start: Date!, $end: Date!) {
   viewer {
@@ -368,33 +371,45 @@ def update_ledger(yesterday):
 
 today = datetime.date.today()
 now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-today_iso = today.isoformat()
 yesterday_iso = (today - datetime.timedelta(days=1)).isoformat()
-week_ago_iso = (today - datetime.timedelta(days=7)).isoformat()
 
-recent = graphql(RANGE_QUERY, {"account": ACCOUNT_ID, "site": SITE_TAG, "start": week_ago_iso, "end": today_iso})
+ledger = update_ledger(yesterday_iso)
+
+# "Last 7 days" means the 7 most recently FINISHED days -- taken straight
+# from the same daily[] entries "all time" is summed from, deliberately
+# never including today (which is still in progress). This used to query
+# Cloudflare live, through *today*, which could -- and did -- read higher
+# than "all time" even with far fewer days behind it, simply because it
+# was measuring up to a later moment than "all time" is allowed to. That
+# contradicted what putting the two numbers side by side implies, and
+# meant "last 7 days" could disagree with the ledger it's a slice of.
+last_7_days = ledger["daily"][-7:]
+views_7d = sum(d["views"] for d in last_7_days)
+visits_7d = sum(d["visits"] for d in last_7_days)
+
+# The per-country breakdown for that window isn't in daily[] (which only
+# keeps each day's aggregate, not a per-country split), so this still
+# needs a live query -- for the exact same finished-day window, using the
+# actual dates daily[] just gave us rather than recomputing them
+# separately and risking an off-by-one drift between the two.
+if last_7_days:
+    window_start_iso, window_end_iso = last_7_days[0]["date"], last_7_days[-1]["date"]
+else:
+    window_start_iso = window_end_iso = yesterday_iso
+
+recent = graphql(RANGE_QUERY, {"account": ACCOUNT_ID, "site": SITE_TAG, "start": window_start_iso, "end": window_end_iso})
 recent_country_groups = recent.get("countries") or []
 countries_7d = len(recent_country_groups)
-# Kept separately from the ledger's all-time top_countries (below) rather
-# than used to inflate it: this window can and does legitimately include a
-# country the day-by-day ledger hasn't ingested yet (today is still in
-# progress), so treating the two as interchangeable made the "countries
-# reached" headline able to claim a country neither the map nor the table
-# under it could actually show.
 views_7d_by_code, visits_7d_by_code = {}, {}
 for g in recent_country_groups:
     code = g["dimensions"]["countryName"] or "ZZ"
     views_7d_by_code[code] = views_7d_by_code.get(code, 0) + int(g["count"])
     visits_7d_by_code[code] = visits_7d_by_code.get(code, 0) + int((g.get("sum") or {}).get("visits") or 0)
 top_countries_7d, _ = build_top_countries(views_7d_by_code, visits_7d_by_code)
-# See DAY_QUERY's comment: summing the per-country rows rather than
-# trusting a separate ungrouped total, which is unreliable for `visits`.
-views_7d = sum(views_7d_by_code.values())
-visits_7d = sum(visits_7d_by_code.values())
 
 if views_7d == 0:
     try:
-        diag = graphql(SITES_QUERY, {"account": ACCOUNT_ID, "start": week_ago_iso, "end": today_iso})
+        diag = graphql(SITES_QUERY, {"account": ACCOUNT_ID, "start": window_start_iso, "end": window_end_iso})
         sites = diag.get("sites") or []
         if sites:
             print("No data for our site tag. Site tags with data in this account (last 7d):")
@@ -406,7 +421,7 @@ if views_7d == 0:
                 # apart by eye (and set as CLOUDFLARE_SITE_TAG once known).
                 try:
                     paths = graphql(PATHS_QUERY, {"account": ACCOUNT_ID, "site": tag,
-                                                  "start": week_ago_iso, "end": today_iso})
+                                                  "start": window_start_iso, "end": window_end_iso})
                     top = [p["dimensions"]["requestPath"] for p in (paths.get("pages") or [])]
                     print(f"    top paths: {top}")
                 except (urllib.error.URLError, urllib.error.HTTPError, RuntimeError) as e:
@@ -417,8 +432,6 @@ if views_7d == 0:
                   f"siteTag={SITE_TAG}) -- likely just no traffic so far.")
     except (urllib.error.URLError, urllib.error.HTTPError, RuntimeError) as e:
         print(f"Note: diagnostic sites query failed too ({e}).")
-
-ledger = update_ledger(yesterday_iso)
 
 snapshot = {
     "connected": True,

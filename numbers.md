@@ -55,7 +55,7 @@ sitemap: false
     <div class="numbers-stat-label">Visits (last 7 days)</div>
   </div>
 </div>
-<p class="numbers-caption">A "visit" groups a run of page views from the same person into one session; a "view" counts every page load. All-time figures are exact &mdash; summed one calendar day at a time since tracking began, not a sampled estimate &mdash; and current as of yesterday, since a day only gets counted once it's finished.</p>
+<p class="numbers-caption">A "visit" groups a run of page views from the same person into one session; a "view" counts every page load. All figures here are exact &mdash; summed one calendar day at a time, not a sampled estimate &mdash; and current as of yesterday, since a day only gets counted once it's finished. That applies to "last 7 days" too: it's the 7 most recently finished days, not today's still-accumulating traffic, so it's always a subset of the all-time total above it.</p>
 
 ## Where visits come from
 
@@ -121,7 +121,7 @@ sitemap: false
 </style>
 {% endif %}
 
-<p class="numbers-caption">Just the last week &mdash; a truer read on where interest is <em>right now</em>. Can include a country the all-time map above hasn't caught up to yet, since that one only ingests whole finished days.</p>
+<p class="numbers-caption">Just the last week &mdash; a closer read on where interest is right now, versus the full history in the map above. Same finished-days cutoff as the all-time map, so this is always a slice of it, never ahead of it.</p>
 
 <table class="numbers-table">
   <tr><th>Country</th><th class="num">Visits</th></tr>
@@ -170,7 +170,7 @@ sitemap: false
 
 This page reads from two auto-generated files, refreshed by a GitHub Action (`.github/workflows/update-analytics.yml`, `.github/scripts/update_analytics.py`) that pulls from Cloudflare Web Analytics:
 
-- `_data/analytics.json` &mdash; a live snapshot: accurate figures for the last 7 days, including a per-country breakdown (`top_countries_7d`) used for the "last 7 days" map above.
+- `_data/analytics.json` &mdash; a snapshot covering the 7 most recently finished days (same cutoff as the ledger below, so it's always a subset of all-time, never ahead of it), including a per-country breakdown (`top_countries_7d`) used for the "last 7 days" map above.
 - `_data/analytics_totals.json` &mdash; a cumulative ledger of true all-time totals, built by summing accurate, unsampled *per-day* Cloudflare figures. Cloudflare's Analytics API caps any single query at 13 weeks 2 days and samples wider windows, so a real all-time total isn't obtainable any other way. Each day is counted exactly once, tracked in `counted_dates`, so the job self-heals after any gap without double-counting. (Same approach used on the [Eco-Flow site](https://github.com/Eco-Flow/Eco-Flow.github.io/blob/publish/scripts/fetch_cloudflare_stats.py).)
 
 To connect it:
