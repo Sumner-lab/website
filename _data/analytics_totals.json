@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "method": "per-day-unsampled-v4",
   "counted_dates": [
     "2026-08-14",
@@ -21,11 +21,12 @@
     "2026-08-30",
     "2026-08-31",
     "2026-09-01",
-    "2026-09-02"
+    "2026-09-02",
+    "2026-09-03"
   ],
-  "pageviews": 513,
-  "visits": 109,
-  "countries_count": 8,
+  "pageviews": 685,
+  "visits": 166,
+  "countries_count": 12,
   "top_pages": [
     {
       "path": "/website/",
@@ -33,7 +34,11 @@
     },
     {
       "path": "/",
-      "views": 40
+      "views": 54
+    },
+    {
+      "path": "/people/",
+      "views": 33
     },
     {
       "path": "/website/people/",
@@ -44,15 +49,31 @@
       "views": 27
     },
     {
-      "path": "/people/",
+      "path": "/people/sam-duckerin/",
       "views": 21
+    },
+    {
+      "path": "/people/christopher-wyatt/",
+      "views": 20
     },
     {
       "path": "/website/media/",
       "views": 17
     },
     {
+      "path": "/endless-forms/",
+      "views": 16
+    },
+    {
+      "path": "/autumn-2015-welcome-to-four-new-group-members/",
+      "views": 15
+    },
+    {
       "path": "/science-communication/",
+      "views": 15
+    },
+    {
+      "path": "/media/",
       "views": 14
     },
     {
@@ -68,7 +89,7 @@
       "views": 14
     },
     {
-      "path": "/media/",
+      "path": "/numbers/",
       "views": 13
     },
     {
@@ -76,7 +97,7 @@
       "views": 13
     },
     {
-      "path": "/numbers/",
+      "path": "/updates/",
       "views": 11
     },
     {
@@ -88,8 +109,28 @@
       "views": 10
     },
     {
-      "path": "/updates/",
+      "path": "/people/seirian-sumner/",
       "views": 9
+    },
+    {
+      "path": "/publications/",
+      "views": 9
+    },
+    {
+      "path": "/contact/",
+      "views": 8
+    },
+    {
+      "path": "/people/femi-e-benny/",
+      "views": 8
+    },
+    {
+      "path": "/people/idris-adams/",
+      "views": 8
+    },
+    {
+      "path": "/wasp-picnic-survey-2026/",
+      "views": 8
     },
     {
       "path": "/website/publications/",
@@ -100,59 +141,67 @@
       "views": 8
     },
     {
+      "path": "/big-wasp-survey/",
+      "views": 7
+    },
+    {
+      "path": "/people/caroline-chandler/",
+      "views": 7
+    },
+    {
+      "path": "/people/emily-bell/",
+      "views": 7
+    },
+    {
       "path": "/website/science-communication/",
       "views": 7
     },
     {
-      "path": "/endless-forms/",
+      "path": "/people/alessandro-cini/",
       "views": 6
     },
     {
-      "path": "/people/idris-adams/",
-      "views": 5
+      "path": "/people/benjamin-taylor/",
+      "views": 6
     },
     {
-      "path": "/people/seirian-sumner/",
-      "views": 5
-    },
-    {
-      "path": "/publications/",
-      "views": 5
-    },
-    {
-      "path": "/wasp-picnic-survey-2026/",
-      "views": 5
-    },
-    {
-      "path": "/big-wasp-survey/",
-      "views": 4
-    },
-    {
-      "path": "/contact/",
-      "views": 4
-    },
-    {
-      "path": "/people/caroline-chandler/",
-      "views": 4
-    },
-    {
-      "path": "/people/cintia-oi/",
-      "views": 4
+      "path": "/people/daisy-taylor/",
+      "views": 6
     },
     {
       "path": "/people/emeline-favreau/",
-      "views": 4
-    },
-    {
-      "path": "/people/emily-bell/",
-      "views": 4
+      "views": 6
     },
     {
       "path": "/people/lewis-revely/",
-      "views": 4
+      "views": 6
     },
     {
       "path": "/people/sandra-moreno/",
+      "views": 6
+    },
+    {
+      "path": "/research/evolution/",
+      "views": 6
+    },
+    {
+      "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
+      "views": 5
+    },
+    {
+      "path": "/people/cintia-oi/",
+      "views": 5
+    },
+    {
+      "path": "/research/",
+      "views": 5
+    },
+    {
+      "path": "/soapbox-science/",
+      "views": 5
+    },
+    {
+      "path": "/people/romuald-tcheutchoua/",
       "views": 4
     },
     {
@@ -160,7 +209,7 @@
       "views": 4
     },
     {
-      "path": "/research/",
+      "path": "/research/genomics/",
       "views": 4
     },
     {
@@ -172,7 +221,7 @@
       "views": 4
     },
     {
-      "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
+      "path": "/articles/",
       "views": 3
     },
     {
@@ -180,7 +229,7 @@
       "views": 3
     },
     {
-      "path": "/people/alessandro-cini/",
+      "path": "/people/iona-cunningham-eurich/",
       "views": 3
     },
     {
@@ -188,11 +237,11 @@
       "views": 3
     },
     {
-      "path": "/people/romuald-tcheutchoua/",
+      "path": "/people/patrick-kennedy/",
       "views": 3
     },
     {
-      "path": "/research/evolution/",
+      "path": "/people/robin-southon/",
       "views": 3
     },
     {
@@ -208,35 +257,19 @@
       "views": 3
     },
     {
-      "path": "/articles/",
-      "views": 2
-    },
-    {
       "path": "/billy-easeman-parasitoid-wasps/",
       "views": 2
     },
     {
-      "path": "/people/benjamin-taylor/",
+      "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
       "views": 2
     },
     {
-      "path": "/people/daisy-taylor/",
-      "views": 2
-    },
-    {
-      "path": "/people/femi-e-benny/",
-      "views": 2
-    },
-    {
-      "path": "/people/sam-duckerin/",
+      "path": "/no-track/",
       "views": 2
     },
     {
       "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
-      "views": 2
-    },
-    {
-      "path": "/soapbox-science/",
       "views": 2
     },
     {
@@ -268,10 +301,6 @@
       "views": 1
     },
     {
-      "path": "/autumn-2015-welcome-to-four-new-group-members/",
-      "views": 1
-    },
-    {
       "path": "/colony-size-predicts-division-of-labour-in-attine-ants/",
       "views": 1
     },
@@ -281,6 +310,10 @@
     },
     {
       "path": "/iussi-conference-cairns-2014/",
+      "views": 1
+    },
+    {
+      "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
       "views": 1
     },
     {
@@ -300,22 +333,6 @@
       "views": 1
     },
     {
-      "path": "/people/christopher-wyatt/",
-      "views": 1
-    },
-    {
-      "path": "/people/iona-cunningham-eurich/",
-      "views": 1
-    },
-    {
-      "path": "/people/patrick-kennedy/",
-      "views": 1
-    },
-    {
-      "path": "/people/robin-southon/",
-      "views": 1
-    },
-    {
       "path": "/people/sam-morris/",
       "views": 1
     },
@@ -324,15 +341,15 @@
       "views": 1
     },
     {
-      "path": "/research/genomics/",
-      "views": 1
-    },
-    {
       "path": "/seirians-seminar-frenzy/",
       "views": 1
     },
     {
       "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
+      "views": 1
+    },
+    {
+      "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
       "views": 1
     },
     {
@@ -364,6 +381,10 @@
       "views": 1
     },
     {
+      "path": "/what-roles-do-wasps-play-in-nature/",
+      "views": 1
+    },
+    {
       "path": "/why-fly-half-way-across-the-world-to-trinidad-when-there-are-plenty-of-wasps-drowning-in-my-lemonade-in-peckham/",
       "views": 1
     }
@@ -371,33 +392,33 @@
   "top_countries": [
     {
       "name": "United Kingdom",
-      "views": 223,
-      "visits": 39,
+      "views": 243,
+      "visits": 47,
       "iso": "GB"
     },
     {
       "name": "Singapore",
-      "views": 43,
-      "visits": 35,
+      "views": 55,
+      "visits": 44,
       "iso": "SG"
     },
     {
-      "name": "Brazil",
-      "views": 165,
-      "visits": 16,
-      "iso": "BR"
+      "name": "China",
+      "views": 167,
+      "visits": 27,
+      "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 11,
-      "visits": 9,
+      "views": 45,
+      "visits": 26,
       "iso": "US"
     },
     {
-      "name": "China",
-      "views": 67,
-      "visits": 7,
-      "iso": "CN"
+      "name": "Brazil",
+      "views": 167,
+      "visits": 17,
+      "iso": "BR"
     },
     {
       "name": "Canada",
@@ -406,16 +427,39 @@
       "iso": "CA"
     },
     {
+      "name": "FR",
+      "views": 1,
+      "visits": 1
+    },
+    {
       "name": "Netherlands",
       "views": 1,
       "visits": 1,
       "iso": "NL"
     },
     {
+      "name": "Republic of Korea",
+      "views": 1,
+      "visits": 1,
+      "iso": "KR"
+    },
+    {
       "name": "Trinidad and Tobago",
       "views": 1,
       "visits": 1,
       "iso": "TT"
+    },
+    {
+      "name": "Belgium",
+      "views": 1,
+      "visits": 0,
+      "iso": "BE"
+    },
+    {
+      "name": "Germany",
+      "views": 1,
+      "visits": 0,
+      "iso": "DE"
     }
   ]
 }
