@@ -26,7 +26,7 @@
   ],
   "pageviews": 685,
   "visits": 166,
-  "countries_count": 12,
+  "countries_count": 11,
   "top_pages": [
     {
       "path": "/website/",
@@ -425,11 +425,6 @@
       "views": 2,
       "visits": 1,
       "iso": "CA"
-    },
-    {
-      "name": "FR",
-      "views": 1,
-      "visits": 1
     },
     {
       "name": "Netherlands",
