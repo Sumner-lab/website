@@ -27,7 +27,7 @@
   ],
   "pageviews": 978,
   "visits": 305,
-  "countries_count": 50,
+  "countries_count": 48,
   "top_pages": [
     {
       "path": "/",
@@ -658,11 +658,6 @@
       "iso": "CA"
     },
     {
-      "name": "FR",
-      "views": 4,
-      "visits": 2
-    },
-    {
       "name": "Syria",
       "views": 2,
       "visits": 2,
@@ -739,11 +734,6 @@
       "views": 1,
       "visits": 1,
       "iso": "JO"
-    },
-    {
-      "name": "MT",
-      "views": 1,
-      "visits": 1
     },
     {
       "name": "Nepal",
