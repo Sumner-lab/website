@@ -28,7 +28,7 @@
   ],
   "pageviews": 1167,
   "visits": 372,
-  "countries_count": 50,
+  "countries_count": 49,
   "top_pages": [
     {
       "path": "/",
@@ -663,11 +663,6 @@
       "views": 2,
       "visits": 2,
       "iso": "DK"
-    },
-    {
-      "name": "FR",
-      "views": 2,
-      "visits": 2
     },
     {
       "name": "Syria",
