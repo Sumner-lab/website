@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -25,15 +25,16 @@
     "2026-09-03",
     "2026-09-04",
     "2026-09-05",
-    "2026-09-06"
+    "2026-09-06",
+    "2026-09-07"
   ],
-  "pageviews": 1217,
-  "visits": 416,
-  "countries_count": 49,
+  "pageviews": 1297,
+  "visits": 456,
+  "countries_count": 50,
   "top_pages": [
     {
       "path": "/",
-      "views": 98
+      "views": 110
     },
     {
       "path": "/website/",
@@ -41,19 +42,19 @@
     },
     {
       "path": "/people/",
-      "views": 68
+      "views": 73
     },
     {
       "path": "/updates/",
+      "views": 43
+    },
+    {
+      "path": "/people/seirian-sumner/",
       "views": 39
     },
     {
       "path": "/endless-forms/",
       "views": 36
-    },
-    {
-      "path": "/people/seirian-sumner/",
-      "views": 34
     },
     {
       "path": "/media/",
@@ -65,6 +66,14 @@
     },
     {
       "path": "/people/sam-duckerin/",
+      "views": 30
+    },
+    {
+      "path": "/contact/",
+      "views": 29
+    },
+    {
+      "path": "/people/christopher-wyatt/",
       "views": 28
     },
     {
@@ -72,20 +81,24 @@
       "views": 27
     },
     {
-      "path": "/contact/",
-      "views": 26
+      "path": "/wasp-picnic-survey-2026/",
+      "views": 23
     },
     {
-      "path": "/people/christopher-wyatt/",
-      "views": 26
+      "path": "/people/benjamin-taylor/",
+      "views": 22
     },
     {
       "path": "/science-communication/",
-      "views": 21
+      "views": 22
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 18
+      "views": 20
+    },
+    {
+      "path": "/research/",
+      "views": 20
     },
     {
       "path": "/people/lewis-revely/",
@@ -96,15 +109,27 @@
       "views": 18
     },
     {
-      "path": "/research/",
+      "path": "/research/evolution/",
       "views": 18
     },
     {
-      "path": "/wasp-picnic-survey-2026/",
-      "views": 18
+      "path": "/people/alessandro-cini/",
+      "views": 17
     },
     {
       "path": "/people/caroline-chandler/",
+      "views": 17
+    },
+    {
+      "path": "/people/daisy-taylor/",
+      "views": 17
+    },
+    {
+      "path": "/people/femi-e-benny/",
+      "views": 17
+    },
+    {
+      "path": "/people/idris-adams/",
       "views": 17
     },
     {
@@ -116,19 +141,7 @@
       "views": 16
     },
     {
-      "path": "/people/alessandro-cini/",
-      "views": 16
-    },
-    {
-      "path": "/people/benjamin-taylor/",
-      "views": 16
-    },
-    {
-      "path": "/people/daisy-taylor/",
-      "views": 16
-    },
-    {
-      "path": "/people/idris-adams/",
+      "path": "/people/romuald-tcheutchoua/",
       "views": 16
     },
     {
@@ -136,8 +149,8 @@
       "views": 16
     },
     {
-      "path": "/research/evolution/",
-      "views": 16
+      "path": "/big-wasp-survey/",
+      "views": 15
     },
     {
       "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
@@ -148,11 +161,11 @@
       "views": 15
     },
     {
-      "path": "/people/emily-bell/",
+      "path": "/people/adam-devenish/",
       "views": 15
     },
     {
-      "path": "/people/femi-e-benny/",
+      "path": "/people/emily-bell/",
       "views": 15
     },
     {
@@ -160,15 +173,7 @@
       "views": 15
     },
     {
-      "path": "/people/romuald-tcheutchoua/",
-      "views": 15
-    },
-    {
-      "path": "/big-wasp-survey/",
-      "views": 14
-    },
-    {
-      "path": "/people/adam-devenish/",
+      "path": "/people/emeline-favreau/",
       "views": 14
     },
     {
@@ -188,10 +193,6 @@
       "views": 14
     },
     {
-      "path": "/people/emeline-favreau/",
-      "views": 13
-    },
-    {
       "path": "/research/genomics/",
       "views": 13
     },
@@ -200,11 +201,15 @@
       "views": 13
     },
     {
+      "path": "/people/patrick-kennedy/",
+      "views": 11
+    },
+    {
       "path": "/website/numbers/",
       "views": 11
     },
     {
-      "path": "/people/patrick-kennedy/",
+      "path": "/people/iona-cunningham-eurich/",
       "views": 10
     },
     {
@@ -220,11 +225,11 @@
       "views": 8
     },
     {
-      "path": "/people/iona-cunningham-eurich/",
+      "path": "/website/science-communication/",
       "views": 7
     },
     {
-      "path": "/website/science-communication/",
+      "path": "/where-hornets-are-queens/",
       "views": 7
     },
     {
@@ -240,19 +245,23 @@
       "views": 6
     },
     {
-      "path": "/where-hornets-are-queens/",
+      "path": "/articles/",
       "views": 5
     },
     {
-      "path": "/articles/",
-      "views": 4
+      "path": "/people/alex-cerqueira-de-araujo/",
+      "views": 5
+    },
+    {
+      "path": "/people/fernando-duarte/",
+      "views": 5
+    },
+    {
+      "path": "/research/mechanisms/",
+      "views": 5
     },
     {
       "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
-      "views": 4
-    },
-    {
-      "path": "/people/alex-cerqueira-de-araujo/",
       "views": 4
     },
     {
@@ -260,7 +269,7 @@
       "views": 4
     },
     {
-      "path": "/research/mechanisms/",
+      "path": "/research/ecology/",
       "views": 4
     },
     {
@@ -284,15 +293,27 @@
       "views": 3
     },
     {
+      "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
+      "views": 3
+    },
+    {
       "path": "/no-track/",
       "views": 3
     },
     {
-      "path": "/people/fernando-duarte/",
+      "path": "/people/sam-morris/",
       "views": 3
     },
     {
-      "path": "/research/ecology/",
+      "path": "/sampling-european-hornets/",
+      "views": 3
+    },
+    {
+      "path": "/seirians-seminar-frenzy/",
+      "views": 3
+    },
+    {
+      "path": "/wasplove-game/",
       "views": 3
     },
     {
@@ -316,6 +337,10 @@
       "views": 2
     },
     {
+      "path": "/congratulations-dr-lewis-revely/",
+      "views": 2
+    },
+    {
       "path": "/cshl-conference-on-the-biology-genomics-of-social-insects-friends-by-cintia/",
       "views": 2
     },
@@ -336,10 +361,6 @@
       "views": 2
     },
     {
-      "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
-      "views": 2
-    },
-    {
       "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
       "views": 2
     },
@@ -356,15 +377,11 @@
       "views": 2
     },
     {
-      "path": "/people/sam-morris/",
+      "path": "/people/ryan-brock/",
       "views": 2
     },
     {
       "path": "/position-available-work-with-us-on-soapbox-science/",
-      "views": 2
-    },
-    {
-      "path": "/seirians-seminar-frenzy/",
       "views": 2
     },
     {
@@ -381,10 +398,6 @@
     },
     {
       "path": "/wasp-day-2023/",
-      "views": 2
-    },
-    {
-      "path": "/wasplove-game/",
       "views": 2
     },
     {
@@ -422,10 +435,6 @@
     {
       "path": "/why-fly-half-way-across-the-world-to-trinidad-when-there-are-plenty-of-wasps-drowning-in-my-lemonade-in-peckham/",
       "views": 2
-    },
-    {
-      "path": "/congratulations-dr-lewis-revely/",
-      "views": 1
     },
     {
       "path": "/daniel-altair-saureu-velasco-transcriptomics-of-caste-conflict-in-argentine-ants/",
@@ -492,14 +501,6 @@
       "views": 1
     },
     {
-      "path": "/people/ryan-brock/",
-      "views": 1
-    },
-    {
-      "path": "/sampling-european-hornets/",
-      "views": 1
-    },
-    {
       "path": "/sreya-magar-evolution-of-prey-selection-and-life-history-traits-in-sphecidae-wasps/",
       "views": 1
     },
@@ -543,32 +544,32 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 467,
-      "visits": 122,
+      "views": 489,
+      "visits": 144,
       "iso": "CN"
     },
     {
       "name": "Singapore",
-      "views": 96,
-      "visits": 71,
+      "views": 110,
+      "visits": 78,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 299,
-      "visits": 66,
+      "views": 331,
+      "visits": 70,
       "iso": "GB"
     },
     {
       "name": "Brazil",
-      "views": 189,
-      "visits": 33,
+      "views": 190,
+      "visits": 34,
       "iso": "BR"
     },
     {
       "name": "United States of America",
-      "views": 58,
-      "visits": 33,
+      "views": 60,
+      "visits": 34,
       "iso": "US"
     },
     {
@@ -600,6 +601,24 @@
       "views": 4,
       "visits": 4,
       "iso": "CO"
+    },
+    {
+      "name": "Canada",
+      "views": 4,
+      "visits": 3,
+      "iso": "CA"
+    },
+    {
+      "name": "Denmark",
+      "views": 3,
+      "visits": 3,
+      "iso": "DK"
+    },
+    {
+      "name": "Ireland",
+      "views": 3,
+      "visits": 3,
+      "iso": "IE"
     },
     {
       "name": "Kenya",
@@ -657,21 +676,9 @@
     },
     {
       "name": "Australia",
-      "views": 2,
-      "visits": 2,
-      "iso": "AU"
-    },
-    {
-      "name": "Canada",
       "views": 3,
       "visits": 2,
-      "iso": "CA"
-    },
-    {
-      "name": "Denmark",
-      "views": 2,
-      "visits": 2,
-      "iso": "DK"
+      "iso": "AU"
     },
     {
       "name": "Syria",
@@ -722,8 +729,14 @@
       "iso": "ET"
     },
     {
-      "name": "India",
+      "name": "Hungary",
       "views": 1,
+      "visits": 1,
+      "iso": "HU"
+    },
+    {
+      "name": "India",
+      "views": 2,
       "visits": 1,
       "iso": "IN"
     },
@@ -738,12 +751,6 @@
       "views": 1,
       "visits": 1,
       "iso": "IQ"
-    },
-    {
-      "name": "Ireland",
-      "views": 1,
-      "visits": 1,
-      "iso": "IE"
     },
     {
       "name": "Jordan",
@@ -795,7 +802,7 @@
     },
     {
       "name": "Russian Federation",
-      "views": 1,
+      "views": 3,
       "visits": 1,
       "iso": "RU"
     },
@@ -956,6 +963,11 @@
       "date": "2026-09-06",
       "views": 50,
       "visits": 44
+    },
+    {
+      "date": "2026-09-07",
+      "views": 80,
+      "visits": 40
     }
   ]
 }
