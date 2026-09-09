@@ -9,6 +9,23 @@ Sharing our passion for the world of insects with the public — general-audienc
 
 ## Seirian Sumner
 
+- Sumner, S. (2026) [Where have all the wasps gone this summer?](https://theconversation.com/where-have-all-the-wasps-gone-this-summer-288535) *The Conversation* (July 2026).
+- Benny, F.E. & Sumner, S. (2026) Wasps at your picnic? Here's why. *The Buzz — Buglife's Magazine* (due Summer 2026).
+- Corbett, O. & Sumner, S. (2026) [Keep calm and carry on: lessons from wasps on how societies survive power struggles](https://theconversation.com/keep-calm-and-carry-on-lessons-from-wasps-on-how-societies-survive-power-struggles-278689). *The Conversation* (25 May 2026).
+- Sumner, S. (2025) The simple trick that stops hungry wasps from ruining your picnic. *BBC Online* (Aug. 2025).
+- Sumner, S. (2025) [What to do when wasps crash your picnic – a scientist's guide to dining safely with these insects](https://theconversation.com/what-to-do-when-wasps-crash-your-picnic-a-scientists-guide-to-dining-safely-with-these-insects-261589). *The Conversation* (July 2025). Republished in *The Independent* and *BBC Online*; featured in *The Sunday Times*. Also republished in French, Spanish and Chinese.
+- Sumner, S. (2025) [Here's how to create a more nature-literate society](https://theconversation.com/heres-how-to-create-a-more-nature-literate-society-253373). *The Conversation* (Feb 2025).
+- Sumner, S. (2024) [Where the UK's wasps have gone and why they need your help](https://theconversation.com/where-the-uks-wasps-have-gone-and-why-they-need-your-help-236814). *The Conversation* (August 2024).
+- Sumner, S. (2024) [Why wasps matter](https://www.theglobeandmail.com/opinion/article-how-i-learned-to-stop-worrying-and-love-the-wasp-and-why-you-should/?intcmp=gift_share). *Globe and Mail*, Canada (August 2024).
+- Sumner, S. (2023) The lonely but essential lives of solitary wasps, and why they matter to gardeners. *The Garden*, Royal Horticultural Society Magazine (8 pages; June 2023).
+- Sumner, S. (2023) [What the complicated social lives of wasps can teach us about the evolution of animal societies](https://theconversation.com/what-the-complicated-social-lives-of-wasps-can-teach-us-about-the-evolution-of-animal-societies-200654). *The Conversation* (30 March 2023).
+- Sumner, S. (2022) [Plagues of wasps? A scientist explains why you shouldn't panic about rumours of rising populations](https://theconversation.com/plagues-of-wasps-a-scientist-explains-why-you-shouldnt-panic-about-rumours-of-rising-populations-189333). *The Conversation* (26 August 2022). Republished in [The Metro](https://metro.co.uk/2022/08/29/why-you-shouldnt-panic-about-rising-wasp-populations-17260151/) (29 August 2022).
+- Sumner, S. (2022) [How Wasps Are Less Bothersome—And More Beautiful—Than We Think](https://lithub.com/how-wasps-are-less-bothersome-and-more-beautiful-than-we-think/) (excerpt adapted from *Endless Forms*). *LitHub*.
+- Sumner, S. (2022) Taking the sting out of wasps. *Wall Street Journal* (14 July 2022).
+- Sumner, S. (2022) [Curious Questions: Should you get rid of wasps?](https://www.countrylife.co.uk/nature/curious-questions-should-you-get-rid-of-wasps-245758) *Country Life Magazine* (23 July 2022).
+- Sumner, S. (2022) [Scientist tries to take sting out of our fear and loathing of wasps and hails importance to ecosystems](https://www.sundaypost.com/fp/importance-of-wasps/). *Sunday Post* (28 June 2022).
+- Sumner, S. (2022) Don't let wasps spoil your jubilee picnic – be like an Argentinian, not like a badger. *The Guardian* (4 June 2022).
+- Sumner, S. (2022) [Five facts about the gruesome beauty of solitary wasps](https://theconversation.com/five-facts-about-the-gruesome-beauty-of-solitary-wasps-183168). *The Conversation* (23 May 2022).
 - Sumner, S. (2021) [Wasps: why I love them, and why you should too](https://theconversation.com/wasps-why-i-love-them-and-why-you-should-too-155982). *The Conversation*.
 - Sumner, S. (2021) Why I matter. *New Internationalist*, January, 529: 22-23. [newint.org](https://newint.org/features/2020/12/07/wasp-biodiversity-why-i-matter)
 - Sumner, S. (2020) [Why wasps become so annoying at the end of summer](https://theconversation.com/why-wasps-become-so-annoying-at-the-end-of-summer-145053). *The Conversation*.
@@ -30,6 +47,7 @@ Seirian is also the author of **Endless Forms: The Secret World of Wasps** — s
 
 ## Femi E Benny
 
+- Femi E.B. & Sumner, S. (2026) Wasps at your picnic? Here's why. *The Buzz — Buglife's Magazine* (due Summer 2026).
 - Femi E.B. (2025) [Giant Water Bugs: Close Encounters with Toe Biters](https://roundglasssustain.com/species/giant-water-bugs). Round Glass Sustain.
 - Femi E.B. (2024) [Spot Me If You Can: Mimicry and Camouflage in Insects](https://roundglasssustain.com/photo-stories/insect-mimicry). Round Glass Sustain.
 - Femi E.B. (2024) [Nature's Artists: The World of Potter Wasps](https://roundglasssustain.com/species/potter-wasps). Round Glass Sustain.
