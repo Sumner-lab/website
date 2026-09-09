@@ -1,7 +1,8 @@
 ---
 title: Public Writing
 permalink: /articles/
-header_image: /wp-content/uploads/2026/01/tree_hymeno-1-1-1024x724.jpg
+header_image: /wp-content/uploads/2026/05/foraging-belonogaster-copy-2-1024x999.jpeg
+header_image_position: "center 59%"
 redirect_from:
   - /outreach-and-citizen-science/popular-science-articles/
 ---

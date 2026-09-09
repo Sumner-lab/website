@@ -9,7 +9,7 @@ Sharing the wonder — and the science — of wasps with the public is central t
 
 <ul class="research-tiles">
   <li>
-    <a class="research-tile" href="{{ site.baseurl }}/articles/" style="background-image: url('{{ site.baseurl }}/wp-content/uploads/2026/01/tree_hymeno-1-1-1024x724.jpg');">
+    <a class="research-tile" href="{{ site.baseurl }}/articles/" style="background-image: url('{{ site.baseurl }}/wp-content/uploads/2026/05/foraging-belonogaster-copy-2-1024x999.jpeg'); background-position: center 59%;">
       <div class="research-tile-content">
         <p class="research-tile-title">Popular Science Articles</p>
         <p class="research-tile-desc">General-audience writing sharing our passion for the world of insects, by lab members past and present.</p>
