@@ -1,0 +1,83 @@
+name: Submit a media appearance
+description: Add a TV, radio, podcast, print, talk, prize, or exhibition mention to the Media page -- no Markdown or git needed, just fill in the form below.
+title: "[New media] "
+labels: ["new-media-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill this in and submit -- it opens a pull request automatically, which someone will review before it goes live. You'll need to be signed in to GitHub to submit this, but nothing else technical is required.
+  - type: input
+    id: outlet
+    attributes:
+      label: Outlet or event name
+      description: Who ran it -- the programme, publication, podcast, festival, or prize.
+      placeholder: "e.g. BBC Radio 4, Today Programme"
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - TV
+        - Radio
+        - Podcast
+        - Print
+        - Talk
+        - Prize
+        - Exhibition
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date (optional)
+      description: "Format: YYYY-MM-DD, e.g. 2026-09-03. Leave blank to use today's date."
+  - type: input
+    id: url
+    attributes:
+      label: Link (optional)
+      description: A link to the clip, article, episode, or event -- leave blank if there isn't one online.
+      placeholder: "https://..."
+  - type: input
+    id: headline
+    attributes:
+      label: Headline (optional)
+      description: The article title or episode title, if there is one worth naming.
+  - type: textarea
+    id: photo
+    attributes:
+      label: Photo (optional)
+      description: Drag one photo into this box, or paste with Ctrl/Cmd+V -- GitHub uploads it automatically (you'll see text like "![image](...)" appear, that's normal, leave it as is). Only the first photo is used. If "Feature this" below is ticked, this becomes the big image for the featured section rather than a small archive thumbnail.
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Photo permission
+      options:
+        - label: I have permission to share this photo, and I'm happy for it to appear on the public lab website.
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        The rest is only used for a **Featured** entry -- a highlighted section near the top of the page with a bigger image, instead of just a line in the archive further down. Leave the box below unticked for an ordinary archive entry.
+  - type: checkboxes
+    id: feature
+    attributes:
+      label: Feature this
+      options:
+        - label: Feature this on the Media page (bigger image, its own section, near the top)
+  - type: textarea
+    id: description
+    attributes:
+      label: Description (optional, featured entries only)
+      description: A sentence or two about this appearance, for the featured section. Leave blank to keep it to just the headline and links.
+  - type: textarea
+    id: other_links
+    attributes:
+      label: Other links (optional, featured entries only)
+      description: 'Extra related links for the featured section (interviews, follow-up coverage, etc). One per line, as: Label | https://...'
+      placeholder: |
+        The Times | https://www.thetimes.com/...
+        BBC Radio 4 | https://www.bbc.co.uk/sounds/...

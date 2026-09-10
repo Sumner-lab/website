@@ -1,0 +1,26 @@
+{% assign media_entries = site.data.media | sort: "date" | reverse %}
+{% assign media_by_year = media_entries | group_by_exp: "entry", "entry.date | date: '%Y'" %}
+<section class="media-archive" id="media-archive">
+  <h2 class="section-heading">Full media archive</h2>
+  <p class="section-desc">Every logged TV, radio, podcast, print, and speaking appearance, newest first. <a href="{{ site.baseurl }}/contact/">Spot something missing?</a></p>
+  {% for year in media_by_year %}
+  <div class="media-archive-year">
+    <h3 class="media-archive-year-heading">{{ year.name }}</h3>
+    <ul class="media-archive-list">
+      {% for entry in year.items %}
+      <li class="media-archive-row">
+        {% if entry.image %}
+        <span class="media-archive-thumb"><img src="{{ entry.image | relative_url }}" alt="" loading="lazy"></span>
+        {% else %}
+        <span class="media-archive-thumb-spacer" aria-hidden="true"></span>
+        {% endif %}
+        <span class="media-archive-badge">{{ entry.type | escape }}</span>
+        <span class="media-archive-outlet">{% if entry.url %}<a href="{{ entry.url | escape }}" target="_blank" rel="noopener">{{ entry.outlet | escape }}</a>{% else %}{{ entry.outlet | escape }}{% endif %}</span>
+        {% if entry.headline %}<span class="media-archive-headline">{{ entry.headline | escape }}</span>{% endif %}
+        <span class="media-archive-date">{% if entry.precision == "month" %}{{ entry.date | date: "%b %Y" }}{% else %}{{ entry.date | date: "%-d %b %Y" }}{% endif %}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>

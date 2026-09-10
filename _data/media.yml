@@ -1,0 +1,1270 @@
+# Seirian's full media-appearances log: TV, radio, podcasts, print,
+# invited talks, prizes, exhibitions. Rendered by _includes/media-archive.html
+# on the /media/ page, grouped by year.
+#
+# Hand-edited AND bot-appended (see .github/scripts/create_media_entry_from_issue.py)
+# -- the bot only ever appends a new entry as text, never rewrites this file, so it's
+# safe to add headline/image/credit to any entry below by hand at any time.
+#
+# Fields: outlet* type* date* (YYYY-MM-DD) | url headline description image credit
+#         precision (day|month, omit for day) submitted_via_issue submitted_by
+
+- outlet: 'BBC Radio Solent (Hampshire, Dorset and the Isle of Wight)'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2026-08-04
+
+- outlet: 'BBC Radio 5 Live Breakfast show'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2026-08-02
+
+- outlet: 'The Buzz - BugLife Magazine'
+  type: Print
+  type_detail: 'article'
+  date: 2026-08-01
+  precision: month
+
+- outlet: 'The Times Radio (at 2.hr 25min)'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2026-08-01
+  url: 'https://www.thetimes.com/radio/show/20260801-34116/2026-08-01'
+
+- outlet: 'LBC news'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2026-08-01
+
+- outlet: 'BBC Today Programme, Radio 4'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2026-07-31
+  url: 'https://www.bbc.co.uk/programmes/m002zgmj'
+
+- outlet: 'The Independent'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2026-07-31
+
+- outlet: 'The Telegraph'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2026-07-31
+  url: 'https://www.telegraph.co.uk/news/2026/07/31/flies-swarm-as-weather-extremes-are-buzz-kill-for-wasps/'
+  image: '/assets/images/telegraph-wasp-fennel.jpg'
+  credit: 'Jackie Bale'
+
+- outlet: 'The Times -newspaper'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2026-07-30
+  url: 'https://www.thetimes.com/uk/science/article/wasps-weather-feed-insects-heatwave-8dvrwx0rz'
+
+- outlet: 'The Conversation'
+  type: Print
+  type_detail: 'article'
+  date: 2026-07-29
+  url: 'https://theconversation.com/where-have-all-the-wasps-gone-this-summer-288535'
+
+- outlet: 'Fun Kids radio, Science Quest - BrainBox podcast'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2026-06-01
+  precision: month
+
+- outlet: 'UCL Grand Challenges Film Climate Change - Food security grant'
+  type: TV
+  type_detail: 'Interview - TV'
+  date: 2026-06-01
+  precision: month
+  url: 'https://www.youtube.com/watch?v=2fnVksjjv3A'
+
+- outlet: 'The Conversation'
+  type: Print
+  type_detail: 'article'
+  date: 2026-06-01
+  precision: month
+  url: 'https://theconversation.com/eco-literate-children-can-be-stewards-of-nature-heres-how-to-boost-environmental-education-285270'
+
+- outlet: 'Pest Controllers Magazine'
+  type: Print
+  type_detail: 'Article'
+  date: 2026-06-01
+  precision: month
+  url: 'https://www.ppconline.org/news/why-we-should-be-more-wasp-positive'
+
+- outlet: 'The Conversation (with Owen Corbett)'
+  type: Print
+  type_detail: 'article'
+  date: 2026-05-01
+  precision: month
+
+- outlet: 'Magazine article for esbri.se'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2026-04-01
+  precision: month
+
+- outlet: 'Big Smoke Podcast'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2026-04-01
+  precision: month
+  url: 'https://open.spotify.com/episode/1nd4sf3tBjbtDertBD7jb7'
+
+- outlet: 'Evil Animals Radio 4'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2026-04-01
+  precision: month
+  url: 'https://www.bbc.co.uk/sounds/play/p0nr3lnj'
+
+- outlet: 'UCL Press Climate Extinction Politics - podcast'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2026-02-11
+  url: 'https://soundcloud.com/uclsound/why-we-should-love-wasps'
+
+- outlet: 'ARTE German documentary on wasps - feature scientist'
+  type: TV
+  type_detail: 'Interview - TV'
+  date: 2026-01-25
+  url: 'https://www.arte.tv/en/videos/121328-012-A/42-the-answer-to-almost-everything/'
+
+- outlet: 'Kinesis Podcast - UCL student podcast magazine'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2026-01-01
+  precision: month
+  url: 'https://feeds.acast.com/public/shows/ucl-kinesis-podcast'
+
+- outlet: 'BBC Sport'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-12-15
+
+- outlet: 'Grant Museum UCL Conservation & Nature Society - UCL'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2025-12-02
+
+- outlet: 'Grant museum - Global Generation Community group - UCL'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2025-12-02
+
+- outlet: 'Nature Recovery Podcast'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2025-12-01
+  precision: month
+  url: 'https://www.buzzsprout.com/2135393/episodes/18322922'
+
+- outlet: 'Science Forum - Bulgaria'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2025-11-01
+  precision: month
+
+- outlet: 'Grant museum Lates - Nov UCL'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2025-11-01
+  precision: month
+
+- outlet: 'Leverhulme Nature Recovery Centre - Oxford'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2025-11-01
+  precision: month
+  url: 'https://www.youtube.com/watch?v=ELI_8KkwJm0'
+
+- outlet: 'Unknown Wales Conference 2025 - Cardiff'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2025-10-01
+  precision: month
+  url: 'https://museum.wales/cardiff/whatson/12712/Unknown-Wales-Conference-2025/'
+
+- outlet: 'Grant museum Lates - Oct UCL'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2025-10-01
+  precision: month
+
+- outlet: 'Explorers Club - London'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2025-09-25
+
+- outlet: 'Pest Perspectives'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2025-09-23
+  url: 'https://podcasts.apple.com/us/podcast/pest-perspectives-ep-34-seirian-sumner-endless-forms/id1792750319'
+
+- outlet: 'Daily Mail Ireland'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2025-09-22
+
+- outlet: 'Dubai Eye Radio - The Agenda show'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-09-01
+
+- outlet: 'BBC Radio 2 Jeremy Vine Show'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-08-26
+  url: 'https://www.bbc.co.uk/sounds/play/m002hbsb'
+
+- outlet: 'The Times Radio'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-08-01
+  precision: month
+
+- outlet: 'BBC You and Yours, Radio 4'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-08-01
+  precision: month
+
+- outlet: 'The Sunday Times - Article'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2025-08-01
+  precision: month
+  url: 'https://www.thetimes.com/article/0aa16915-7a75-4707-942d-7786b6ea1346'
+
+- outlet: 'BBC MANCHESTER'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-08-01
+  precision: month
+
+- outlet: 'BBC WILTSHIRE/GLOUCESTERSHIRE'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-08-01
+  precision: month
+
+- outlet: 'BBC HEREFORD & WORCESTER/SHROPSHIRE/STOKE'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-08-01
+  precision: month
+
+- outlet: 'BBC JERSEY/GUERNSEY'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-08-01
+  precision: month
+
+- outlet: 'BBC 3CR/NORTHAMPTON'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-08-01
+  precision: month
+
+- outlet: 'BBC CORNWALL/DEVON'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-08-01
+  precision: month
+
+- outlet: 'CNN - TV'
+  type: TV
+  type_detail: 'Interview - TV'
+  date: 2025-08-01
+  precision: month
+
+- outlet: 'CNN - article'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2025-08-01
+  precision: month
+  url: 'https://edition.cnn.com/science/love-wasps-exhibition-c2e-spc'
+
+- outlet: 'The Independent'
+  type: Print
+  type_detail: 'Article'
+  date: 2025-08-01
+  precision: month
+  url: 'https://www.independent.co.uk/life-style/health-and-families/wasp-sting-treatment-what-to-do-b2801407.html'
+
+- outlet: 'BBC Yorkshire SHEFFIELD'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-08-01
+  precision: month
+
+- outlet: 'BBC Online'
+  type: Print
+  type_detail: 'Article'
+  date: 2025-08-01
+  precision: month
+  url: 'https://www.bbc.com/future/article/20250808-the-simple-trick-that-stops-hungry-wasps-from-ruining-your-picnic'
+
+- outlet: 'Science of the Times - with Tim Coulson & Syma Khalid'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2025-08-01
+  precision: month
+  url: 'https://share.transistor.fm/s/40897162'
+
+- outlet: 'BBC 3 counties'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-08-01
+  precision: month
+
+- outlet: 'Guardian - interview'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2025-08-01
+  precision: month
+
+- outlet: 'LCB News'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-08-01
+  precision: month
+
+- outlet: 'BBC Wales Breakfast'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-08-01
+  precision: month
+
+- outlet: 'BBC Radio South 10.40am'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-08-01
+  precision: month
+
+- outlet: 'The Conversation'
+  type: Print
+  type_detail: 'article'
+  date: 2025-07-01
+  precision: month
+  url: 'https://theconversation.com/what-to-do-when-wasps-crash-your-picnic-a-scientists-guide-to-dining-safely-with-these-insects-261589'
+
+- outlet: 'BBC London Jamie Coliins Afternoon Show'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-07-01
+  precision: month
+
+- outlet: 'iNews interview about wasps'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2025-07-01
+  precision: month
+  url: 'https://inews.co.uk/news/no-not-imagining-more-wasps-invading-garden-3799933'
+
+- outlet: 'Yahoo News'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2025-07-01
+  precision: month
+  url: 'https://uk.style.yahoo.com/wasps-why-so-many-sting-deter-attract-113738405.html'
+
+- outlet: 'BBC News online'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2025-07-01
+  precision: month
+  url: 'https://www.bbc.co.uk/news/articles/cz7ld2jgqz2o'
+
+- outlet: 'BBC Radio Yorkshire'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-07-01
+  precision: month
+
+- outlet: 'BBCFiveLive'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-07-01
+  precision: month
+  url: 'https://www.bbc.co.uk/sounds/play/m002g19c'
+
+- outlet: 'daily Mail online'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2025-07-01
+  precision: month
+  url: 'https://www.dailymail.co.uk/news/article-14899859/Wasps-driest-springsummer-heat-boosted-numbers.html'
+
+- outlet: 'BBC Berkshire'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-07-01
+  precision: month
+
+- outlet: 'Springline Project - South Oxfordshire Mend the Gap'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2025-07-01
+  precision: month
+  url: 'https://cholseyparishcouncil.gov.uk/springline-events/'
+
+- outlet: 'Probus Club. Henley'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2025-06-01
+  precision: month
+
+- outlet: 'BBC 5 Live Breakfast Show - 6.50am'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-06-01
+  precision: month
+  url: 'https://www.bbc.co.uk/sounds/play/live/bbc_radio_five_live'
+
+- outlet: 'BBC West Midlands - 4.20pm'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-06-01
+  precision: month
+
+- outlet: 'BBC Sussex 10.14am'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-06-01
+  precision: month
+  url: 'https://www.bbc.co.uk/sounds/play/live/bbc_radio_sussex'
+
+- outlet: 'London News TV - 6.30pm'
+  type: TV
+  type_detail: 'Interview - TV'
+  date: 2025-06-01
+  precision: month
+  url: 'https://www.bbc.co.uk/iplayer/episode/m002f0zl/bbc-london-evening-news-24062025'
+
+- outlet: 'BBC Radio 4 - Today 7.22am'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-06-01
+  precision: month
+
+- outlet: 'South Moreton School - Science Week - Oxfordshire'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2025-06-01
+  precision: month
+
+- outlet: 'World of Wasps - Grant Museum UCL'
+  type: Exhibition
+  type_detail: 'Exhibition'
+  date: 2025-06-01
+  precision: month
+  url: 'https://www.ucl.ac.uk/museums-collections/events/2025/jun/world-wasps'
+  image: '/wp-content/uploads/2026/02/CNN-world-of-wasps_3-1024x723.jpeg'
+  credit: 'CNN'
+
+- outlet: 'Devon radio - CountrySide Matters'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2025-04-01
+  precision: month
+
+- outlet: 'Cranford House School (key stage 2) - Oxfordshire'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2025-03-01
+  precision: month
+
+- outlet: 'PestX - trade show for pest controllers - ExCel London'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2025-03-01
+  precision: month
+
+- outlet: 'The Conversation'
+  type: Print
+  type_detail: 'article'
+  date: 2025-02-01
+  precision: month
+  url: 'https://theconversation.com/heres-how-to-create-a-more-nature-literate-society-253373'
+
+- outlet: 'Nicky Jenner'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2025-01-01
+  precision: month
+
+- outlet: 'Really Small Museum - Shawn Smith (1 hr)'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2024-12-01
+  precision: month
+  url: 'https://www.youtube.com/watch?v=7idOoNF9ySw'
+
+- outlet: 'Die Zeit - 2nd on Sept. nonfiction list'
+  type: Print
+  type_detail: 'book review'
+  date: 2024-09-01
+  precision: month
+  url: 'https://www.zeit.de/2023/37/buchempfehlungen-sachbuch-september-2023'
+
+- outlet: 'BBC Radio 5 Live Colin Murray'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2024-09-01
+  precision: month
+
+- outlet: 'Globe and Mail, Canada (newspaper, online & print)'
+  type: Print
+  type_detail: 'article'
+  date: 2024-08-01
+  precision: month
+  url: 'https://www.theglobeandmail.com/opinion/article-how-i-learned-to-stop-worrying-and-love-the-wasp-and-why-you-should/'
+
+- outlet: 'The Conversation'
+  type: Print
+  type_detail: 'article'
+  date: 2024-08-01
+  precision: month
+  url: 'https://theconversation.com/where-the-uks-wasps-have-gone-and-why-they-need-your-help-236814'
+
+- outlet: 'BBC Regional radios. Various'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2024-08-01
+  precision: month
+
+- outlet: 'Guardian - interview'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2024-08-01
+  precision: month
+
+- outlet: 'BBC NORFOLK'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2024-08-01
+  precision: month
+
+- outlet: 'BBC NOTTINGHAM'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2024-08-01
+  precision: month
+
+- outlet: 'BBC HUMBERSIDE'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2024-08-01
+  precision: month
+
+- outlet: 'BBC LINCS'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2024-08-01
+  precision: month
+
+- outlet: 'BBC CUMBRIA'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2024-08-01
+  precision: month
+
+- outlet: 'BBC DERBY'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2024-08-01
+  precision: month
+
+- outlet: 'BBC KENT'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2024-08-01
+  precision: month
+
+- outlet: 'BBC SOMERSET'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2024-08-01
+  precision: month
+
+- outlet: 'BBC Birmingham'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2024-08-01
+  precision: month
+
+- outlet: 'BBC Radio 5 live'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2024-08-01
+  precision: month
+
+- outlet: 'BBC Sussex & Surrey'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2024-08-01
+  precision: month
+
+- outlet: 'BBC Happy Garden Podcast'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2024-08-01
+  precision: month
+
+- outlet: 'Dispatches - Explorers Club (online)'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2024-08-01
+  precision: month
+
+- outlet: 'The Garden Royal Horticultural Society'
+  type: Print
+  type_detail: 'article'
+  date: 2024-06-01
+  precision: month
+
+- outlet: 'LBC news - hornets'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2024-06-01
+  precision: month
+
+- outlet: 'Sky News - hornets'
+  type: TV
+  type_detail: 'Interview - TV'
+  date: 2024-06-01
+  precision: month
+
+- outlet: 'GLEX - Global Summit of Explorers- The Azores'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2024-06-01
+  precision: month
+  url: 'https://www.youtube.com/watch?v=jX5jaQGTr-Q'
+
+- outlet: 'Explorers'' Club New York'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2024-04-01
+  precision: month
+
+- outlet: 'Royal Horticultural Society, Podcast'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2023-11-01
+  precision: month
+  url: 'https://podcasts.apple.com/us/podcast/winter-preparation-the-case-for-no-dig/id605769651'
+
+- outlet: 'Endless Forms - Russian'
+  type: Print
+  type_detail: 'book'
+  date: 2023-10-01
+  precision: month
+  url: 'https://azbooka.ru/books/tayny-osinogo-gnezda-prichydlivyy-mir-samykh-nedootsenennykh-nasekomykh'
+
+- outlet: 'Welt - best non-fiction books in October No. 10.'
+  type: Print
+  type_detail: 'book review'
+  date: 2023-10-01
+  precision: month
+  url: 'https://www.welt.de/kultur/literarischewelt/article247659612/Beste-Sachbuecher-WELT-Bestenliste-fuer-Oktober.html'
+
+- outlet: 'Longlisted - wissenschaftsbuch.at'
+  type: Prize
+  type_detail: 'Prize'
+  date: 2023-10-01
+  precision: month
+  url: 'https://www.wissenschaftsbuch.at/'
+
+- outlet: 'Süddeutsche Zeitung - one of Germany''s largest newspapers'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2023-09-01
+  precision: month
+
+- outlet: 'Tagensanzeiger national daily Newspaper'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2023-09-01
+  precision: month
+  url: 'https://www.tagesanzeiger.ch/interview-zur-wespenplage-gib-der-wespe-konfi-wenn-sie-konfi-will-724764113010'
+
+- outlet: 'BBC Radio 5 Live Colin Murray Q&A (1 hour)'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2023-09-01
+  precision: month
+
+- outlet: 'Wallingford Café Scientifique'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2023-09-01
+  precision: month
+  url: 'https://www.wallingfordtowncouncil.gov.uk/council_events/wallingford-cafe-scientifique-endless-forms-why-we-should-love-wasps/'
+
+- outlet: 'Westerwald Literary Festival, Bendorf, Germany'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2023-08-01
+  precision: month
+  url: 'https://www.westerwaldkreis.de/pressemitteilungen-detailansicht/prof-dr-seirian-sumner-wespen-eine-versoehnung.html'
+
+- outlet: 'Royal Horticultural Society, Podcast'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2023-08-01
+  precision: month
+  url: 'https://podcasts.apple.com/gb/podcast/in-life-and-death/id605769651'
+
+- outlet: 'BBC Infinite Monkey Cage'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2023-07-01
+  precision: month
+  url: 'https://www.bbc.co.uk/sounds/play/m001np29'
+
+- outlet: 'ITV 6 O Clock news info piece on wasps'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2023-07-01
+  precision: month
+
+- outlet: 'Insecten (EOS Weteschap) Waarom we can wespen moeten houden (translated from The Conversation)'
+  type: Print
+  type_detail: 'article'
+  date: 2023-06-01
+  precision: month
+
+- outlet: 'The week Junior - NERC funded wasplove game is App of the Week'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2023-06-01
+  precision: month
+
+- outlet: 'Booktime Magazine'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2023-06-01
+  precision: month
+  url: 'https://indd.adobe.com/view/40ec335e-c0c6-4c22-9110-89904d2c8e74'
+
+- outlet: 'Henley Standard Linda Seward; in print (front page) & online'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2023-06-01
+  precision: month
+  url: 'https://www.henleystandard.co.uk/news/community-news--all-districts-/180783/why-we-should-learn-to-love-wasps-over-lunch.html'
+
+- outlet: 'Natural History Society of Northumbria and Newcastle University'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2023-06-01
+  precision: month
+  url: 'https://www.eventbrite.co.uk/e/why-we-should-love-wasps-a-talk-by-professor-seirian-sumner-tickets-636401683567'
+
+- outlet: 'Royal Horticultural Society, Podcast'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2023-06-01
+  precision: month
+  url: 'https://podcasts.apple.com/gb/podcast/june-garden-reset-gyo-chillies-protect-your-soil-and/id605769651'
+
+- outlet: 'EntoLive https://biologicalrecording.co.uk/'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2023-05-04
+  url: 'https://www.youtube.com/watch?v=nSqPwGhYqXU'
+
+- outlet: 'Chelsea Flower Show, Royal Entomological Society Show Garden'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2023-05-01
+  precision: month
+  url: 'https://www.royensoc.co.uk/chelsea/'
+
+- outlet: 'Oxford Entomological Society, Natural History Museum'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2023-05-01
+  precision: month
+  url: 'https://oumnh.ox.ac.uk/event/endless-forms-reasons-to-love-wasps'
+
+- outlet: 'Science for the People'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2023-05-01
+  precision: month
+  url: 'https://open.spotify.com/episode/2q68UCh3x4YsTQXbFvpg83'
+
+- outlet: 'Royal Entomological Society Student Forum 2023'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2023-03-29
+  url: 'https://www.royensoc.co.uk/event/student-forum-2023/'
+
+- outlet: 'The Conversation'
+  type: Print
+  type_detail: 'article'
+  date: 2023-03-01
+  precision: month
+  url: 'https://theconversation.com/what-the-complicated-social-lives-of-wasps-can-teach-us-about-the-evolution-of-animal-societies-200654'
+
+- outlet: 'Royal Institution'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2023-03-01
+  precision: month
+  url: 'https://www.rigb.org/whats-on/wasps-vs-snakes-vs-rats'
+
+- outlet: 'Watlington Envvironment Group'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2023-02-24
+
+- outlet: 'Harwell Gardening Society'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2023-02-10
+
+- outlet: 'Aston''s Outdoors Club'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2023-01-26
+
+- outlet: 'Cambridge University Press & Assessment ("Cambridge")'
+  type: Print
+  type_detail: 'article'
+  date: 2023-01-01
+  url: 'https://theconversation.com/wasps-why-i-love-them-and-why-you-should-too-155982'
+
+- outlet: 'Tin Drum'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2022-12-20
+
+- outlet: 'The Guardian'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2022-12-19
+  url: 'https://www.theguardian.com/environment/2022/dec/19/male-mason-wasps-genital-spines-thwart-predators-study'
+
+- outlet: 'Cambridge Literary Festival'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2022-11-20
+  url: 'https://www.cambridgeliteraryfestival.com/clf-player/seirian-sumner-the-secret-world-of-wasps/'
+
+- outlet: 'BBC World Service - Tooth & Claw'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2022-11-15
+
+- outlet: 'Interalia Magazine'
+  type: Print
+  type_detail: 'article'
+  date: 2022-11-01
+  precision: month
+  url: 'https://www.interaliamag.org/articles/seirian-sumner-extract-from-endless-forms-the-secret-world-of-wasps/'
+
+- outlet: 'The Telegraph - 50 best books of 2022'
+  type: Print
+  type_detail: 'book review'
+  date: 2022-11-01
+  precision: month
+  url: 'https://www.telegraph.co.uk/books/what-to-read/50-best-books-2022-fiction-history-politics-crime/'
+
+- outlet: 'BBC Jersey'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2022-10-25
+
+- outlet: 'Abingdon Naturalists Society'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2022-10-01
+  precision: month
+
+- outlet: 'BBC Scotland - Outdoors Sat am'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2022-10-01
+  precision: month
+
+- outlet: 'Blenheim Palace Autumn Festival'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2022-10-01
+  precision: month
+
+- outlet: 'Into the Wild -Ryan Dalton'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2022-10-01
+  precision: month
+  url: 'https://open.spotify.com/episode/0XQRzF6rmUtd5GaDAG0KuF'
+
+- outlet: 'New Scientist Live - public'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2022-10-01
+  precision: month
+  url: 'https://live.newscientist.com/programme'
+
+- outlet: 'New Scientist Live - schools'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2022-10-01
+  precision: month
+  url: 'https://live.newscientist.com/schools-day-programme-2022'
+
+- outlet: 'Academic Life - New Books Network (USA)'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2022-10-01
+  precision: month
+  url: 'https://newbooksnetwork.com/endless-forms'
+
+- outlet: 'Skeptics in the Pub - Online'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2022-10-01
+  precision: month
+  url: 'https://sitp.online/show/endless-forms-the-secret-world-of-wasps-seirian-sumner/'
+
+- outlet: 'The Future Forest Company'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2022-10-01
+  precision: month
+  url: 'https://thefutureforestcompany.com/2022/10/19/qa-the-secret-world-of-wasps-with-entomologist-professor-seirian-sumner/'
+
+- outlet: 'Kera Think USA (live radio 1 hr)'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2022-09-01
+  precision: month
+
+- outlet: 'Kera Think USA (podcast)'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2022-09-01
+  precision: month
+  url: 'https://think.kera.org/2022/09/16/wasps-are-pests-worth-protecting/'
+
+- outlet: 'BBC Today Programme, Radio 4'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2022-09-01
+  precision: month
+  url: 'https://www.bbc.co.uk/sounds/play/m001bky3'
+
+- outlet: 'Gardener''s World'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2022-08-01
+  precision: month
+  url: 'https://www.gardenersworld.com/podcast/wasps-with-professor-seirian-sumner/'
+
+- outlet: 'Independent Newspaper'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2022-08-01
+  precision: month
+  url: 'https://www.independent.co.uk/climate-change/news/wasp-population-heatwave-water-uk-b2140751.html'
+
+- outlet: 'The Conversation'
+  type: Print
+  type_detail: 'article'
+  date: 2022-08-01
+  precision: month
+  url: 'https://theconversation.com/plagues-of-wasps-a-scientist-explains-why-you-shouldnt-panic-about-rumours-of-rising-populations-189333'
+
+- outlet: 'The Conversation'
+  type: Print
+  type_detail: 'article'
+  date: 2022-07-01
+  precision: month
+  url: 'https://theconversation.com/five-facts-about-the-gruesome-beauty-of-solitary-wasps-183168'
+
+- outlet: 'The Metro'
+  type: Print
+  type_detail: 'article'
+  date: 2022-07-01
+  precision: month
+  url: 'https://metro.co.uk/2022/08/29/why-you-shouldnt-panic-about-rising-wasp-populations-17260151/'
+
+- outlet: 'LitHub (USA)'
+  type: Print
+  type_detail: 'article'
+  date: 2022-07-01
+  precision: month
+  url: 'https://lithub.com/how-wasps-are-less-bothersome-and-more-beautiful-than-we-think/'
+
+- outlet: 'Wall Street Journal'
+  type: Print
+  type_detail: 'article'
+  date: 2022-07-01
+  precision: month
+  url: 'https://www.wsj.com/articles/taking-the-sting-out-of-wasps-11657816150'
+
+- outlet: 'The Literary Supplement'
+  type: Print
+  type_detail: 'book review'
+  date: 2022-07-01
+  precision: month
+  url: 'https://www.the-tls.co.uk/articles/endless-forms-seirian-sumner-book-review-kate-shiepson/'
+
+- outlet: 'Shelf Awareness (USA)'
+  type: Print
+  type_detail: 'book review'
+  date: 2022-07-01
+  precision: month
+  url: 'https://www.shelf-awareness.com/issue.html?issue=4227#m56157'
+
+- outlet: 'Library Journal (USA)'
+  type: Print
+  type_detail: 'book review'
+  date: 2022-07-01
+  precision: month
+  url: 'https://www.libraryjournal.com/review/endless-forms-the-secret-world-of-wasps-1789187'
+
+- outlet: 'Nature'
+  type: Print
+  type_detail: 'book review'
+  date: 2022-07-01
+  precision: month
+  url: 'https://www.nature.com/articles/d41586-022-01758-0'
+
+- outlet: 'The Week'
+  type: Print
+  type_detail: 'book review'
+  date: 2022-07-01
+  precision: month
+  url: 'https://www.theweek.co.uk/arts-life/culture/books/957159/book-review-endless-forms-by-seirian-sumner'
+
+- outlet: 'Nature Ecology & Evolution'
+  type: Print
+  type_detail: 'book review'
+  date: 2022-07-01
+  precision: month
+  url: 'https://www.nature.com/articles/s41559-022-01822-y'
+
+- outlet: 'New Yorker (USA)'
+  type: Print
+  type_detail: 'book review'
+  date: 2022-07-01
+  precision: month
+  url: 'https://www.newyorker.com/magazine/2022/08/22/thrust-emergency-endless-forms-and-fabric'
+
+- outlet: 'Forbes Magazine (USA)'
+  type: Print
+  type_detail: 'book review'
+  date: 2022-07-01
+  precision: month
+  url: 'https://www.forbes.com/sites/grrlscientist/2022/08/03/endless-forms-the-secret-world-of-wasps-by-seirian-sumner-review/'
+
+- outlet: 'National Wildlife Federation (USA)'
+  type: Print
+  type_detail: 'book review'
+  date: 2022-07-01
+  precision: month
+  url: 'https://www.nwf.org/Magazines/National-Wildlife/2022/Aug-Sep/Gardening/Wasps'
+
+- outlet: 'Boston Globe'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2022-07-01
+  precision: month
+  url: 'https://www.bostonglobe.com/2022/07/14/opinion/case-wasps/'
+
+- outlet: 'Eureka podcast'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2022-07-01
+  precision: month
+  url: 'https://smarturl.it/eurekapod'
+
+- outlet: 'Science Friday (USA)'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2022-07-01
+  precision: month
+  url: 'https://www.sciencefriday.com/segments/endless-forms-wasp-facts/'
+
+- outlet: 'Armchair Expert (USA)'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2022-07-01
+  precision: month
+  url: 'https://armchairexpertpod.com/pods/seirian-sumner'
+
+- outlet: 'WBUR Here and Now (USA)'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2022-07-01
+  precision: month
+  url: 'https://www.wbur.org/hereandnow/2022/07/26/wasps-environmental-contributions'
+
+- outlet: 'The Week'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2022-07-01
+  precision: month
+  url: 'https://podcasts.apple.com/gb/podcast/15-are-we-facing-an-insectageddon/id1608367309'
+
+- outlet: 'The Guardian'
+  type: Print
+  type_detail: 'article'
+  date: 2022-06-01
+  precision: month
+  url: 'https://www.theguardian.com/commentisfree/2022/jun/04/wasps-jubilee-picnic-sting'
+
+- outlet: 'Sunday Post'
+  type: Print
+  type_detail: 'article'
+  date: 2022-06-01
+  precision: month
+  url: 'https://www.sundaypost.com/fp/importance-of-wasps/'
+
+- outlet: 'Country Life'
+  type: Print
+  type_detail: 'article'
+  date: 2022-06-01
+  precision: month
+  url: 'https://www.countrylife.co.uk/nature/curious-questions-should-you-get-rid-of-wasps-245758'
+
+- outlet: 'New Scientist'
+  type: Print
+  type_detail: 'book review'
+  date: 2022-06-01
+  precision: month
+  url: 'https://www.newscientist.com/article/mg25433881-300-endless-forms-review-lets-hear-it-for-wasps-says-a-lively-new-book/'
+
+- outlet: 'Daily Mail'
+  type: Print
+  type_detail: 'book review'
+  date: 2022-06-01
+  precision: month
+  url: 'https://www.telegraph.co.uk/books/what-to-read/natures-torture-porn-grotesque-truth-wasps/'
+
+- outlet: 'Smart Thinking Books'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2022-06-01
+  precision: month
+  url: 'https://smartthinkingbooks.com/smart-thinking-books-interview-seirian-sumner.html'
+
+- outlet: 'Aspire Programme, Dudley 6th form college'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2022-06-01
+  precision: month
+
+- outlet: 'Royal Entomological Society Young Scientists Conference'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2022-06-01
+  precision: month
+
+- outlet: 'Royal Horticultural Society, Wisley'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2022-06-01
+  precision: month
+
+- outlet: 'Telegraph'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2022-06-01
+  precision: month
+  url: 'https://www.telegraph.co.uk/environment/2022/08/11/time-learn-love-wasps/'
+
+- outlet: 'Topping Bookshop, Bath'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2022-06-01
+  precision: month
+
+- outlet: 'UCL Generation One'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2022-06-01
+  precision: month
+  url: 'https://soundcloud.com/uclsound/season-2-why-are-bees-and-wasps-important'
+
+- outlet: 'UCL Meet the expert'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2022-06-01
+  precision: month
+  url: 'https://www.ucl.ac.uk/lifesciences-faculty/news/2022/jul/meet-expert-professor-seirian-sumner'
+
+- outlet: 'Wealden Literary Festival, Wealdon'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2022-06-01
+  precision: month
+
+- outlet: 'BBC Start the Week, Radio 4'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2022-05-23
+  url: 'https://www.bbc.co.uk/programmes/m0017k6s'
+
+- outlet: 'BBC Radio 5 live'
+  type: Radio
+  type_detail: 'Interview - Radio'
+  date: 2022-05-01
+  precision: month
+
+- outlet: 'Pint of Science. Islington, London. "Battle of the Kingdoms"'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2022-05-01
+  precision: month
+
+- outlet: 'The Observer'
+  type: Print
+  type_detail: 'Interview - written'
+  date: 2022-05-01
+  precision: month
+  url: 'https://www.theguardian.com/environment/2022/may/22/revenge-of-the-wasp-woman-dr-seirian-sumner-loves-wasps-and-advocates-for-them'
+  image: '/wp-content/uploads/2022/05/Photograph-Alex-Lake-The-Observer.png'
+  credit: 'Alex Lake/The Observer'
+
+- outlet: 'Universiti Kebangsann Malaysia & entomological Society of Malaysia'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2022-04-01
+  precision: month
+
+- outlet: 'Oxford University Museum of Natural History 2022'
+  type: Podcast
+  type_detail: 'Podcast'
+  date: 2022-04-01
+  precision: month
+  url: 'https://crunchyontheoutside.com/2022/06/13/seirian-sumner-on-social-insects/'
+
+- outlet: 'UCL Lunchtime Lectures'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2022-04-01
+  precision: month
+
+- outlet: 'Linnean Society Lunchtime Lecture'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2022-03-01
+  precision: month
+  url: 'https://www.youtube.com/watch?v=vMacsp4jXA0'
+
+- outlet: 'Lancashire Science festival'
+  type: Talk
+  type_detail: 'Invited speaker/Lecture'
+  date: 2021-11-01
+  precision: month
+

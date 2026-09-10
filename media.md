@@ -1,7 +1,7 @@
 ---
 title: Media
 permalink: /media/
-header_image: /wp-content/uploads/2026/02/CNN-world-of-wasps_3-1024x723.jpeg
+header_image: /wp-content/uploads/2026/02/CNN-world-of-wasps_3-scaled.jpeg
 redirect_from:
   - /endless-forms/media/
 ---
@@ -11,23 +11,31 @@ TV, radio, and press coverage of the lab's work — and the people behind it.
   <p><strong>Journalist or broadcaster?</strong> Our lab is often in the media, and we're always happy to contribute to TV, radio, podcasts, or any other format — <a href="{{ site.baseurl }}/contact/">get in touch</a> to talk wasps.</p>
 </aside>
 
+<!-- new-media-submission bot inserts new Featured sections directly below this marker -- see .github/scripts/create_media_entry_from_issue.py -->
+
 ## Where Are the Wasps? Summer 2026
 
 A flip-flop spring — warm to wet, chilly to cooking — followed by a succession of heatwaves might explain the apparent shortage of social wasps in the UK this year. Read about it in [Seirian's article in The Conversation](https://theconversation.com/where-have-all-the-wasps-gone-this-summer-288535). Surprising interest from the media in this — and the link with a large number of flies. This also became an opportunity to recruit members of the public to tell us what wasps at their picnics are eating, in the [Wasp Picnic Survey 2026]({{ site.baseurl }}/wasp-picnic-survey-2026/), run by [PhD student Femi Benny]({{ site.baseurl }}/people/femi-e-benny/).
 
-**Media highlights**
-
-- [Radio 4 Today Programme]({{ site.baseurl }}/wp-content/uploads/2026/06/Radio4_Today_310726.m4a) (31/7/26)
-
-  <audio controls src="{{ site.baseurl }}/wp-content/uploads/2026/06/Radio4_Today_310726.m4a"></audio>
-
-- [The Times](https://www.thetimes.com/uk/science/article/wasps-weather-feed-insects-heatwave-8dvrwx0rz) (31/7/26)
-- [The Telegraph](https://www.telegraph.co.uk/news/2026/07/31/flies-swarm-as-weather-extremes-are-buzz-kill-for-wasps/) (31/7/26)
-- [Times Radio](https://www.thetimes.com/radio/show/20260801-34116/2026-08-01?login=true) (1/8/26)
-
-  <audio controls src="{{ site.baseurl }}/wp-content/uploads/2026/06/TimesRadio_2026.m4a"></audio>
-
-- LBC Radio (1/8/26)
+<div class="media-feature">
+  <img class="media-feature-image" src="{{ site.baseurl }}/assets/images/ham-or-jam-poster.jpg" alt="Ham or Jam picnic survey poster">
+  <div class="media-feature-highlights">
+    <p class="media-feature-highlights-label">Media highlights</p>
+    <ul>
+      <li>
+        <a href="{{ site.baseurl }}/wp-content/uploads/2026/06/Radio4_Today_310726.m4a">Radio 4 Today Programme</a> (31/7/26)
+        <audio controls preload="none" src="{{ site.baseurl }}/wp-content/uploads/2026/06/Radio4_Today_310726.m4a"></audio>
+      </li>
+      <li><a href="https://www.thetimes.com/uk/science/article/wasps-weather-feed-insects-heatwave-8dvrwx0rz">The Times</a> (31/7/26)</li>
+      <li><a href="https://www.telegraph.co.uk/news/2026/07/31/flies-swarm-as-weather-extremes-are-buzz-kill-for-wasps/">The Telegraph</a> (31/7/26)</li>
+      <li>
+        <a href="https://www.thetimes.com/radio/show/20260801-34116/2026-08-01?login=true">Times Radio</a> (1/8/26)
+        <audio controls preload="none" src="{{ site.baseurl }}/wp-content/uploads/2026/06/TimesRadio_2026.m4a"></audio>
+      </li>
+      <li>LBC Radio (1/8/26)</li>
+    </ul>
+  </div>
+</div>
 
 ---
 
@@ -47,7 +55,7 @@ Sumner, S. (2025) [What to do when wasps crash your picnic – a scientist's gui
 
 The [World of Wasps exhibition](https://www.ucl.ac.uk/museums-collections/events/2025/jun/world-wasps), held at UCL's Grant Museum of Zoology (June 2025 – January 2026), attracted a lot of media interest. The exhibition and our lab's work featured on BBC News, over 30 BBC regional radio channels, and hit international media with [CNN](https://edition.cnn.com/science/love-wasps-exhibition-c2e-spc).
 
-![CNN filming Seirian about the World of Wasps exhibition.]({{ site.baseurl }}/wp-content/uploads/2026/02/CNN-world-of-wasps_3-1024x723.jpeg)
+![CNN filming Seirian about the World of Wasps exhibition.]({{ site.baseurl }}/wp-content/uploads/2026/02/CNN-world-of-wasps_3-2048x1445.jpeg)
 
 ---
 
@@ -88,5 +96,9 @@ Unlike bees, which we adore for their honey and waggle dances, wasps have suffer
 ## BBC Radio 5, Naga Munchetty, 23 May 2022
 
 *Starting 1 hour 40 minutes in. No longer available on BBC Sounds — the original episode has since been removed by the BBC.*
+
+---
+
+{% include media-archive.html %}
 
 {% include social-wall.html %}

@@ -1,0 +1,109 @@
+name: New media submission
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  create-media-pr:
+    if: contains(github.event.issue.labels.*.name, 'new-media-submission')
+    runs-on: ubuntu-latest
+    concurrency:
+      group: new-media-${{ github.event.issue.number }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - run: pip install --quiet Pillow PyYAML
+
+      - name: Build the media entry from the issue
+        id: build
+        run: python3 .github/scripts/create_media_entry_from_issue.py
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_CREATED_AT: ${{ github.event.issue.created_at }}
+          NEW_MEDIA_SUMMARY_PATH: ${{ runner.temp }}/new_media_summary.md
+          NEW_MEDIA_MANIFEST_PATH: ${{ runner.temp }}/new_media_manifest.json
+
+      - name: Comment failure and stop
+        if: failure() && steps.build.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue comment "${{ github.event.issue.number }}" \
+            --body-file "${{ runner.temp }}/new_media_summary.md" || \
+          gh issue comment "${{ github.event.issue.number }}" \
+            --body "Something went wrong turning this into a media entry. A maintainer will need to take a look -- sorry about that!"
+
+      - name: Open the review PR
+        if: steps.build.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          MANIFEST="${{ runner.temp }}/new_media_manifest.json"
+          SUMMARY="${{ runner.temp }}/new_media_summary.md"
+          ISSUE="${{ github.event.issue.number }}"
+          BRANCH="bot/new-media-$ISSUE"
+          SUBMITTER="${{ github.event.issue.user.login }}"
+
+          HAS_CHANGES=$(python3 -c "
+          import json
+          m = json.load(open('$MANIFEST'))
+          print('yes' if (m['data_file'] or m['media_page']) else '')
+          ")
+          if [ -z "$HAS_CHANGES" ]; then
+            gh issue comment "$ISSUE" --body-file "$SUMMARY"
+            exit 0
+          fi
+
+          mapfile -t PATHS < <(python3 -c "
+          import json
+          m = json.load(open('$MANIFEST'))
+          if m['data_file']:
+              print(m['data_file'])
+          if m['media_page']:
+              print(m['media_page'])
+          for p in m['images']:
+              print(p)
+          ")
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add -- "${PATHS[@]}"
+          git commit -m "New media entry from issue #$ISSUE"
+          git push --force-with-lease origin "$BRANCH"
+
+          PR_BODY="Closes #$ISSUE
+
+          Submitted by @$SUBMITTER.
+
+          $(cat "$SUMMARY")"
+
+          OUTLET=$(python3 -c "import json; print(json.load(open('$MANIFEST'))['outlet'])")
+
+          existing=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            PR_NUMBER="$existing"
+          else
+            gh pr create --base main --head "$BRANCH" \
+              --title "New media entry: $OUTLET" \
+              --body "$PR_BODY"
+            PR_NUMBER=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
+          fi
+
+          gh issue comment "$ISSUE" --body "Thanks! This has been turned into a pull request for review: #$PR_NUMBER
+
+          $(cat "$SUMMARY")"
