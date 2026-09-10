@@ -32,7 +32,7 @@
   ],
   "pageviews": 1662,
   "visits": 587,
-  "countries_count": 56,
+  "countries_count": 55,
   "top_pages": [
     {
       "path": "/",
@@ -687,11 +687,6 @@
       "views": 3,
       "visits": 2,
       "iso": "AU"
-    },
-    {
-      "name": "FR",
-      "views": 8,
-      "visits": 2
     },
     {
       "name": "Republic of Korea",
