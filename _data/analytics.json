@@ -1,30 +1,24 @@
 {
   "connected": true,
-  "updated": "2026-09-09T20:59:05Z",
+  "updated": "2026-09-10T11:27:15Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 1200,
-    "visits": 496
+    "views": 1149,
+    "visits": 478
   },
   "countries_7d": 18,
   "top_countries_7d": [
     {
       "name": "China",
-      "views": 740,
-      "visits": 250,
+      "views": 780,
+      "visits": 280,
       "iso": "CN"
     },
     {
       "name": "Singapore",
-      "views": 140,
-      "visits": 110,
-      "iso": "SG"
-    },
-    {
-      "name": "United Kingdom",
-      "views": 280,
+      "views": 90,
       "visits": 60,
-      "iso": "GB"
+      "iso": "SG"
     },
     {
       "name": "Brazil",
@@ -33,9 +27,15 @@
       "iso": "BR"
     },
     {
+      "name": "United Kingdom",
+      "views": 160,
+      "visits": 40,
+      "iso": "GB"
+    },
+    {
       "name": "United States of America",
       "views": 60,
-      "visits": 40,
+      "visits": 30,
       "iso": "US"
     },
     {
@@ -61,12 +61,6 @@
       "views": 10,
       "visits": 10,
       "iso": "IE"
-    },
-    {
-      "name": "Netherlands",
-      "views": 10,
-      "visits": 10,
-      "iso": "NL"
     },
     {
       "name": "Portugal",
@@ -114,6 +108,12 @@
       "name": "FR",
       "views": 10,
       "visits": 0
+    },
+    {
+      "name": "Netherlands",
+      "views": 10,
+      "visits": 0,
+      "iso": "NL"
     }
   ]
 }
