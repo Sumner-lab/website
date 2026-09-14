@@ -18,7 +18,7 @@ links:
 ---
 **Position:** PhD Student
 
-**Project:** Ecology and behaviour of Asian giant hornets (*Vespa mandarinia*)
+**Project:** Understanding the ecosystem services of social wasps (Hymenoptera: Vespidae) using mixed methods approach (ecology + ethnobiology)
 
 **Research Interests:** I'm passionate about exploring how insects behave and interact with their environment, with a particular soft spot for wasps — especially hornets! I love heading into under-explored places, looking for insects and maybe even discovering new species. I'm a taxonomist by training, and love hymenopteran taxonomy, especially of Trigonalyidae, Vespinae and the Anthophorini tribe.
 
@@ -32,10 +32,13 @@ I'm from India, and completed my Master's in Applied Zoology (Entomology) at Cal
 - 2016–2018: MSc Applied Zoology (Entomology), University of Calicut, Kerala
 - 2013–2016: BSc Zoology, Providence Women's College, Kerala
 
-**Contact:** [femi.benny.24@ucl.ac.uk](mailto:femi.benny.24@ucl.ac.uk)
+**Contact:** [femi.benny.24@ucl.ac.uk](mail to:femi.benny.24@ucl.ac.uk)
 
 **Publications**
 
+- Benny, F.E., Chase, T., & Priyadarsanan, D.R. (2026) Indigenous Knowledge associated with the harvest of the Asian Giant Hornet among the indigenous communities of Northeast India. In: Jamir, T. & Müller, J. (eds.) *Indigenous Knowledge in Transformation. Northeast India*. Sidestone Press. doi: [10.59641/8y5797bk](https://doi.org/10.59641/8y5797bk)
+- Robertson, D.K., Vale-Hagan, W., Stratakos, A.C., Doran, O., Drinkwater, E., Wu, X., Miller, M.E., Davies, L., Lange, K.L., Nakamura, Y., Benny, F.E., Sumner, S., Koidis, A., & Stergiadis, S. (accepted) An updated review of the opportunities and challenges in insects as food and feed. *Nutrition Bulletin*.
+- Benny, F.E., & Priyadarsanan, D.R. (2026) New species of *Elaphropoda* Lieftinck, 1966 and *Habropoda* Smith, 1854 (Hymenoptera, Apidae) from Arunachal Pradesh, India. *European Journal of Taxonomy*, 1073, 1–21. doi: [10.5852/ejt.2026.1073.3298](https://doi.org/10.5852/ejt.2026.1073.3298)
 - Femi, E.B., Ranjith A.P., & Priyadarsanan, D.R. (2024) Addition to the Eumeninae (Hymenoptera: Vespidae) fauna of India with the description of a new species from Northeast India. *Entomon* 49(3): 465-470. doi: [10.33307/entomon.v49i3.1268](https://doi.org/10.33307/entomon.v49i3.1268)
 - Femi, E.B., Ranjith, A.P. & Priyadarsanan, D.R. (2024) Additions to the trigonalyid fauna of India with the description of a new species from south India. *Zootaxa*, 5419(2), 265–274. doi: [10.11646/zootaxa.5419.2.5](https://doi.org/10.11646/zootaxa.5419.2.5)
 - Anoop, N.R., Femi, E.B., Yathumon, M.A., & Aswaj, Punnath. (2023) Butterflies with a taste for elephant dung: puddling of adult butterflies on elephant dung in India's Western Ghats. *Food Webs*. doi: [10.1016/j.fooweb.2023.e00323](https://doi.org/10.1016/j.fooweb.2023.e00323)
@@ -44,6 +47,12 @@ I'm from India, and completed my Master's in Applied Zoology (Entomology) at Cal
 
 **Popular Science Articles**
 
+- Femi E.B. (2026) [Buzz Pollinators of the Indian Himalayas](https://roundglasssustain.com/species/bumblebees). Round Glass Sustain.
+- Femi E.B. & Thejavikho Chase (2026) [“We’ve been eating it for more than 100 years”: how one community turns stink bug infestations into lunch](https://www.theguardian.com/environment/2025/nov/21/turning-stink-bug-infestations-into-lunch-india-the-alternatives). *The Guardian*.
+- Femi E.B. (2026) [Commentary: Vanishing mango landraces reflect the loss of shared landscapes](https://india.mongabay.com/2026/05/vanishing-mango-landraces-reflect-the-loss-of-shared-landscapes-commentary/). *Mongabay*.
+- Femi E.B. & Laura M. (2025) [Wasps: unsung heroes of the insect world](https://www.iussi.org/). IUSSI.
+- Femi E.B. (2025) [Where hornets are Queens and not pests: a journey into the Land of Hills](https://www.sumnerlab.co.uk/where-hornets-are-queens/). UCL.
+- Femi E.B. (2025) [What it Took to Document India’s Edible Insects](https://www.hymenopterists.org/wp-content/uploads/2025/03/Hamuli_winter25_final.pdf). *Hamuli, International Society of Hymenopterists Newsletter*.
 - Femi E.B. (2025) [Giant Water Bugs: Close Encounters with Toe Biters](https://roundglasssustain.com/species/giant-water-bugs). Round Glass Sustain.
 - Femi E.B. (2024) [Spot Me If You Can: Mimicry and Camouflage in Insects](https://roundglasssustain.com/photo-stories/insect-mimicry). Round Glass Sustain.
 - Femi E.B. (2024) [Nature's Artists: The World of Potter Wasps](https://roundglasssustain.com/species/potter-wasps). Round Glass Sustain.
@@ -59,4 +68,4 @@ I'm from India, and completed my Master's in Applied Zoology (Entomology) at Cal
 - Femi E.B. (2021) [Eating insects could be the future of food](https://india.mongabay.com/2021/05/explainer-eating-insects-could-be-the-future-of-food/). Mongabay.
 - Femi E.B. (2021) [Understanding the Alarm Around Asian Giant Hornets in the US](https://science.thewire.in/environment/understanding-the-alarm-around-asian-giant-hornets-in-the-us/). The Wire Science.
 
-[Bento profile](https://bento.me/femi-e-benny) · [ResearchGate](https://www.researchgate.net/profile/Femi-Benny) · [Google Scholar](https://scholar.google.com/citations?user=8ftK4iQAAAAJ&hl=en)
+ [ResearchGate](https://www.researchgate.net/profile/Femi-Benny) · [Google Scholar](https://scholar.google.com/citations?user=8ftK4iQAAAAJ&hl=en)
