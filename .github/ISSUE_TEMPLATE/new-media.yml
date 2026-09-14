@@ -46,6 +46,12 @@ body:
     attributes:
       label: Headline (optional)
       description: The article title or episode title, if there is one worth naming.
+  - type: input
+    id: people
+    attributes:
+      label: Lab members involved (optional)
+      description: Who from the lab took part, separated by commas -- names as they appear on the People page. Their photos appear next to this entry in the media archive.
+      placeholder: "e.g. Seirian Sumner, Idris Adams"
   - type: textarea
     id: photo
     attributes:
