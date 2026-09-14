@@ -1,0 +1,22 @@
+{
+  "hashtag": "sumnerlabucl",
+  "updated": "2026-08-24T13:53:57Z",
+  "posts": [
+    {
+      "url": "https://bsky.app/profile/chris-wyatt.bsky.social/post/3mtnvw7km422a",
+      "handle": "@chris-wyatt.bsky.social",
+      "text": "nf-core/genomeqc is finally on bioRxiv,, a best-practice #Nextflow pipeline for comparing #genome & assembly quality, grown out of the 2024 @nf-co.re  Barcelona hackathon with Fernando Duarte, @stephenturner.us and more.",
+      "date": "2026-08-22T08:59:26.504Z",
+      "image": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:do6wtglec6o6dlujfqvxm7lv/bafkreiegd2gcttmzfeudyoilin7x56wcjdeuqhsjipy3gzgyg3er3apj7m",
+      "quoting": null
+    },
+    {
+      "url": "https://bsky.app/profile/chris-wyatt.bsky.social/post/3mszoj5zdok2e",
+      "handle": "@chris-wyatt.bsky.social",
+      "text": "Citizen science UK wasp survey worth taking part in :), from Sumner lab #sumnerlabucl",
+      "date": "2026-08-14T07:53:37.714Z",
+      "image": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:g2syplhduvniqojxe2qpc4uh/bafkreif3oy4vxam6qvd277cctixzc6ubjr7kpvcfchobycb5xld724aml4",
+      "quoting": "uk.theconversation.com"
+    }
+  ]
+}

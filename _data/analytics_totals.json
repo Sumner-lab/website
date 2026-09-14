@@ -1,0 +1,1063 @@
+{
+  "updated": "2026-09-14",
+  "method": "per-day-unsampled-v5",
+  "counted_dates": [
+    "2026-08-14",
+    "2026-08-15",
+    "2026-08-16",
+    "2026-08-17",
+    "2026-08-18",
+    "2026-08-19",
+    "2026-08-20",
+    "2026-08-21",
+    "2026-08-22",
+    "2026-08-23",
+    "2026-08-24",
+    "2026-08-25",
+    "2026-08-26",
+    "2026-08-27",
+    "2026-08-28",
+    "2026-08-29",
+    "2026-08-30",
+    "2026-08-31",
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13"
+  ],
+  "pageviews": 2131,
+  "visits": 869,
+  "countries_count": 59,
+  "top_pages": [
+    {
+      "path": "/",
+      "views": 205
+    },
+    {
+      "path": "/people/",
+      "views": 121
+    },
+    {
+      "path": "/wasp-picnic-survey-2026/",
+      "views": 108
+    },
+    {
+      "path": "/updates/",
+      "views": 91
+    },
+    {
+      "path": "/endless-forms/",
+      "views": 78
+    },
+    {
+      "path": "/website/",
+      "views": 75
+    },
+    {
+      "path": "/media/",
+      "views": 67
+    },
+    {
+      "path": "/people/seirian-sumner/",
+      "views": 61
+    },
+    {
+      "path": "/people/sam-duckerin/",
+      "views": 55
+    },
+    {
+      "path": "/contact/",
+      "views": 54
+    },
+    {
+      "path": "/people/christopher-wyatt/",
+      "views": 44
+    },
+    {
+      "path": "/research/",
+      "views": 44
+    },
+    {
+      "path": "/people/cintia-oi/",
+      "views": 36
+    },
+    {
+      "path": "/people/lewis-revely/",
+      "views": 33
+    },
+    {
+      "path": "/people/benjamin-taylor/",
+      "views": 32
+    },
+    {
+      "path": "/website/people/",
+      "views": 32
+    },
+    {
+      "path": "/people/alessandro-cini/",
+      "views": 31
+    },
+    {
+      "path": "/people/emeline-favreau/",
+      "views": 31
+    },
+    {
+      "path": "/people/femi-e-benny/",
+      "views": 31
+    },
+    {
+      "path": "/people/caroline-chandler/",
+      "views": 30
+    },
+    {
+      "path": "/publications/",
+      "views": 30
+    },
+    {
+      "path": "/research/evolution/",
+      "views": 30
+    },
+    {
+      "path": "/big-wasp-survey/",
+      "views": 29
+    },
+    {
+      "path": "/people/daisy-taylor/",
+      "views": 29
+    },
+    {
+      "path": "/people/emily-bell/",
+      "views": 29
+    },
+    {
+      "path": "/people/idris-adams/",
+      "views": 29
+    },
+    {
+      "path": "/science-communication/",
+      "views": 29
+    },
+    {
+      "path": "/research/genomics/",
+      "views": 28
+    },
+    {
+      "path": "/people/owen-corbett/",
+      "views": 27
+    },
+    {
+      "path": "/website/updates/",
+      "views": 27
+    },
+    {
+      "path": "/people/adam-devenish/",
+      "views": 26
+    },
+    {
+      "path": "/people/robin-southon/",
+      "views": 26
+    },
+    {
+      "path": "/people/romuald-tcheutchoua/",
+      "views": 25
+    },
+    {
+      "path": "/people/sandra-moreno/",
+      "views": 25
+    },
+    {
+      "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
+      "views": 24
+    },
+    {
+      "path": "/people/patrick-kennedy/",
+      "views": 20
+    },
+    {
+      "path": "/autumn-2015-welcome-to-four-new-group-members/",
+      "views": 18
+    },
+    {
+      "path": "/website/media/",
+      "views": 17
+    },
+    {
+      "path": "/numbers/",
+      "views": 16
+    },
+    {
+      "path": "/articles/",
+      "views": 14
+    },
+    {
+      "path": "/website/articles/",
+      "views": 14
+    },
+    {
+      "path": "/website/research/",
+      "views": 14
+    },
+    {
+      "path": "/website/wasp-picnic-survey-2026/",
+      "views": 14
+    },
+    {
+      "path": "/where-hornets-are-queens/",
+      "views": 14
+    },
+    {
+      "path": "/website/endless-forms/",
+      "views": 13
+    },
+    {
+      "path": "/people/iona-cunningham-eurich/",
+      "views": 12
+    },
+    {
+      "path": "/research/mechanisms/",
+      "views": 12
+    },
+    {
+      "path": "/soapbox-science/",
+      "views": 11
+    },
+    {
+      "path": "/website/numbers/",
+      "views": 11
+    },
+    {
+      "path": "/people/fernando-duarte/",
+      "views": 10
+    },
+    {
+      "path": "/publications/wider/",
+      "views": 10
+    },
+    {
+      "path": "/research/ecology/",
+      "views": 10
+    },
+    {
+      "path": "/website/people/iona-cunningham-eurich/",
+      "views": 10
+    },
+    {
+      "path": "/billy-easeman-parasitoid-wasps/",
+      "views": 9
+    },
+    {
+      "path": "/people/alex-cerqueira-de-araujo/",
+      "views": 9
+    },
+    {
+      "path": "/website/publications/",
+      "views": 8
+    },
+    {
+      "path": "/website/publications/wider/",
+      "views": 8
+    },
+    {
+      "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
+      "views": 8
+    },
+    {
+      "path": "/website/science-communication/",
+      "views": 7
+    },
+    {
+      "path": "/people/ryan-brock/",
+      "views": 6
+    },
+    {
+      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
+      "views": 6
+    },
+    {
+      "path": "/citizen-science-for-the-win/",
+      "views": 5
+    },
+    {
+      "path": "/no-track/",
+      "views": 5
+    },
+    {
+      "path": "/wasplove-game/",
+      "views": 5
+    },
+    {
+      "path": "/a-novel-method-of-assessing-dominance-hierarchies-shows-nuance-linearity-and-stability-in-the-dinosaur-ant-dinoponera-quadriceps/",
+      "views": 4
+    },
+    {
+      "path": "/colony-size-predicts-division-of-labour-in-attine-ants/",
+      "views": 4
+    },
+    {
+      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
+      "views": 4
+    },
+    {
+      "path": "/from-brussels-sprouts-to-brachiosaurs-our-science-communication-isnt-always-about-wasps/",
+      "views": 4
+    },
+    {
+      "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
+      "views": 4
+    },
+    {
+      "path": "/wasp-day-2023/",
+      "views": 4
+    },
+    {
+      "path": "/website/contact/",
+      "views": 4
+    },
+    {
+      "path": "/website/people/benjamin-taylor/",
+      "views": 4
+    },
+    {
+      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
+      "views": 4
+    },
+    {
+      "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
+      "views": 3
+    },
+    {
+      "path": "/euro-iussi-lausanne-2024/",
+      "views": 3
+    },
+    {
+      "path": "/in2science-a-level-student-blog/",
+      "views": 3
+    },
+    {
+      "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
+      "views": 3
+    },
+    {
+      "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
+      "views": 3
+    },
+    {
+      "path": "/new-paper-published-first-social-wasp-genome-and-more/",
+      "views": 3
+    },
+    {
+      "path": "/people/sam-morris/",
+      "views": 3
+    },
+    {
+      "path": "/sampling-european-hornets/",
+      "views": 3
+    },
+    {
+      "path": "/seirians-seminar-frenzy/",
+      "views": 3
+    },
+    {
+      "path": "/wasps-matter/",
+      "views": 3
+    },
+    {
+      "path": "/website/people/christopher-wyatt/",
+      "views": 3
+    },
+    {
+      "path": "/website/research/evolution/",
+      "views": 3
+    },
+    {
+      "path": "/website/research/genomics/",
+      "views": 3
+    },
+    {
+      "path": "/what-roles-do-wasps-play-in-nature/",
+      "views": 3
+    },
+    {
+      "path": "/whats-the-point-of-wasps/",
+      "views": 3
+    },
+    {
+      "path": "/congratulations-dr-lewis-revely/",
+      "views": 2
+    },
+    {
+      "path": "/cshl-conference-on-the-biology-genomics-of-social-insects-friends-by-cintia/",
+      "views": 2
+    },
+    {
+      "path": "/daniel-altair-saureu-velasco-transcriptomics-of-caste-conflict-in-argentine-ants/",
+      "views": 2
+    },
+    {
+      "path": "/david-blahout-pollination-syndromes-and-wasps-as-pollinators/",
+      "views": 2
+    },
+    {
+      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
+      "views": 2
+    },
+    {
+      "path": "/hoi-lam-daisy-choi-investigating-the-evolutionary-patterns-of-diets-and-predatory-wasps/",
+      "views": 2
+    },
+    {
+      "path": "/impact_managed_bees_can_have_on_wild_bumblebees/",
+      "views": 2
+    },
+    {
+      "path": "/iussi-conference-cairns-2014/",
+      "views": 2
+    },
+    {
+      "path": "/lonely-potter/",
+      "views": 2
+    },
+    {
+      "path": "/losses-in-behavioural-plasticity-and-the-evolution-of-altruism/",
+      "views": 2
+    },
+    {
+      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
+      "views": 2
+    },
+    {
+      "path": "/new-recruits-join-the-lab/",
+      "views": 2
+    },
+    {
+      "path": "/opening-the-life-sciences-building/",
+      "views": 2
+    },
+    {
+      "path": "/position-available-work-with-us-on-soapbox-science/",
+      "views": 2
+    },
+    {
+      "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
+      "views": 2
+    },
+    {
+      "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
+      "views": 2
+    },
+    {
+      "path": "/visit-collaborator-prof-fabio-nascimento-usp-brazil/",
+      "views": 2
+    },
+    {
+      "path": "/website/big-wasp-survey/",
+      "views": 2
+    },
+    {
+      "path": "/website/people/caroline-chandler/",
+      "views": 2
+    },
+    {
+      "path": "/website/people/femi-e-benny/",
+      "views": 2
+    },
+    {
+      "path": "/website/research/ecology/",
+      "views": 2
+    },
+    {
+      "path": "/website/soapbox-science/",
+      "views": 2
+    },
+    {
+      "path": "/why-fly-half-way-across-the-world-to-trinidad-when-there-are-plenty-of-wasps-drowning-in-my-lemonade-in-peckham/",
+      "views": 2
+    },
+    {
+      "path": "/extensive-local-gene-duplication-and-functional-divergence-among-paralogs-in-atlantic-salmon/",
+      "views": 1
+    },
+    {
+      "path": "/how-do-identical-genomes-produce-phenotypic-and-behavioural-diversity/",
+      "views": 1
+    },
+    {
+      "path": "/insights-from-a-nanopore-sequencing-visit-to-newcastle-university/",
+      "views": 1
+    },
+    {
+      "path": "/kendra-edwards-global-social-wasp-distributions/",
+      "views": 1
+    },
+    {
+      "path": "/lab-visit-wespenvriend/",
+      "views": 1
+    },
+    {
+      "path": "/lessons-from-the-jungle/",
+      "views": 1
+    },
+    {
+      "path": "/lucy-weatherley/",
+      "views": 1
+    },
+    {
+      "path": "/new-paper-highlighted-in-genome-biology-and-evolution/",
+      "views": 1
+    },
+    {
+      "path": "/nextflow-summit-and-hackathon-barcelona-october-2022/",
+      "views": 1
+    },
+    {
+      "path": "/sreya-magar-evolution-of-prey-selection-and-life-history-traits-in-sphecidae-wasps/",
+      "views": 1
+    },
+    {
+      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
+      "views": 1
+    },
+    {
+      "path": "/website/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
+      "views": 1
+    },
+    {
+      "path": "/website/people/fernando-duarte/",
+      "views": 1
+    },
+    {
+      "path": "/website/research/mechanisms/",
+      "views": 1
+    },
+    {
+      "path": "/website/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
+      "views": 1
+    },
+    {
+      "path": "/website/wasplove-game/",
+      "views": 1
+    }
+  ],
+  "top_countries": [
+    {
+      "name": "China",
+      "views": 907,
+      "visits": 291,
+      "iso": "CN"
+    },
+    {
+      "name": "Singapore",
+      "views": 244,
+      "visits": 173,
+      "iso": "SG"
+    },
+    {
+      "name": "United Kingdom",
+      "views": 419,
+      "visits": 123,
+      "iso": "GB"
+    },
+    {
+      "name": "United States of America",
+      "views": 158,
+      "visits": 90,
+      "iso": "US"
+    },
+    {
+      "name": "Brazil",
+      "views": 204,
+      "visits": 41,
+      "iso": "BR"
+    },
+    {
+      "name": "Germany",
+      "views": 30,
+      "visits": 27,
+      "iso": "DE"
+    },
+    {
+      "name": "Ireland",
+      "views": 10,
+      "visits": 10,
+      "iso": "IE"
+    },
+    {
+      "name": "Bangladesh",
+      "views": 7,
+      "visits": 7,
+      "iso": "BD"
+    },
+    {
+      "name": "South Africa",
+      "views": 9,
+      "visits": 7,
+      "iso": "ZA"
+    },
+    {
+      "name": "Netherlands",
+      "views": 10,
+      "visits": 6,
+      "iso": "NL"
+    },
+    {
+      "name": "Mexico",
+      "views": 5,
+      "visits": 5,
+      "iso": "MX"
+    },
+    {
+      "name": "Pakistan",
+      "views": 9,
+      "visits": 5,
+      "iso": "PK"
+    },
+    {
+      "name": "Canada",
+      "views": 5,
+      "visits": 4,
+      "iso": "CA"
+    },
+    {
+      "name": "Colombia",
+      "views": 4,
+      "visits": 4,
+      "iso": "CO"
+    },
+    {
+      "name": "Thailand",
+      "views": 5,
+      "visits": 4,
+      "iso": "TH"
+    },
+    {
+      "name": "Denmark",
+      "views": 3,
+      "visits": 3,
+      "iso": "DK"
+    },
+    {
+      "name": "Kenya",
+      "views": 3,
+      "visits": 3,
+      "iso": "KE"
+    },
+    {
+      "name": "Nigeria",
+      "views": 3,
+      "visits": 3,
+      "iso": "NG"
+    },
+    {
+      "name": "Saudi Arabia",
+      "views": 4,
+      "visits": 3,
+      "iso": "SA"
+    },
+    {
+      "name": "Ukraine",
+      "views": 4,
+      "visits": 3,
+      "iso": "UA"
+    },
+    {
+      "name": "Uzbekistan",
+      "views": 3,
+      "visits": 3,
+      "iso": "UZ"
+    },
+    {
+      "name": "Algeria",
+      "views": 2,
+      "visits": 2,
+      "iso": "DZ"
+    },
+    {
+      "name": "Argentina",
+      "views": 2,
+      "visits": 2,
+      "iso": "AR"
+    },
+    {
+      "name": "Australia",
+      "views": 4,
+      "visits": 2,
+      "iso": "AU"
+    },
+    {
+      "name": "Azerbaijan",
+      "views": 2,
+      "visits": 2,
+      "iso": "AZ"
+    },
+    {
+      "name": "Philippines",
+      "views": 3,
+      "visits": 2,
+      "iso": "PH"
+    },
+    {
+      "name": "Republic of Korea",
+      "views": 2,
+      "visits": 2,
+      "iso": "KR"
+    },
+    {
+      "name": "Romania",
+      "views": 2,
+      "visits": 2,
+      "iso": "RO"
+    },
+    {
+      "name": "Syria",
+      "views": 2,
+      "visits": 2,
+      "iso": "SY"
+    },
+    {
+      "name": "United Arab Emirates",
+      "views": 2,
+      "visits": 2,
+      "iso": "AE"
+    },
+    {
+      "name": "Venezuela",
+      "views": 3,
+      "visits": 2,
+      "iso": "VE"
+    },
+    {
+      "name": "Viet Nam",
+      "views": 2,
+      "visits": 2,
+      "iso": "VN"
+    },
+    {
+      "name": "Belgium",
+      "views": 4,
+      "visits": 1,
+      "iso": "BE"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "views": 2,
+      "visits": 1,
+      "iso": "BA"
+    },
+    {
+      "name": "Cambodia",
+      "views": 1,
+      "visits": 1,
+      "iso": "KH"
+    },
+    {
+      "name": "Ecuador",
+      "views": 1,
+      "visits": 1,
+      "iso": "EC"
+    },
+    {
+      "name": "Ethiopia",
+      "views": 1,
+      "visits": 1,
+      "iso": "ET"
+    },
+    {
+      "name": "Finland",
+      "views": 2,
+      "visits": 1,
+      "iso": "FI"
+    },
+    {
+      "name": "Greece",
+      "views": 1,
+      "visits": 1,
+      "iso": "GR"
+    },
+    {
+      "name": "Guatemala",
+      "views": 1,
+      "visits": 1,
+      "iso": "GT"
+    },
+    {
+      "name": "Hungary",
+      "views": 1,
+      "visits": 1,
+      "iso": "HU"
+    },
+    {
+      "name": "India",
+      "views": 6,
+      "visits": 1,
+      "iso": "IN"
+    },
+    {
+      "name": "Indonesia",
+      "views": 2,
+      "visits": 1,
+      "iso": "ID"
+    },
+    {
+      "name": "Iraq",
+      "views": 1,
+      "visits": 1,
+      "iso": "IQ"
+    },
+    {
+      "name": "Jordan",
+      "views": 1,
+      "visits": 1,
+      "iso": "JO"
+    },
+    {
+      "name": "Malaysia",
+      "views": 1,
+      "visits": 1,
+      "iso": "MY"
+    },
+    {
+      "name": "Nepal",
+      "views": 1,
+      "visits": 1,
+      "iso": "NP"
+    },
+    {
+      "name": "New Zealand",
+      "views": 1,
+      "visits": 1,
+      "iso": "NZ"
+    },
+    {
+      "name": "Oman",
+      "views": 2,
+      "visits": 1,
+      "iso": "OM"
+    },
+    {
+      "name": "Poland",
+      "views": 1,
+      "visits": 1,
+      "iso": "PL"
+    },
+    {
+      "name": "Portugal",
+      "views": 1,
+      "visits": 1,
+      "iso": "PT"
+    },
+    {
+      "name": "Russian Federation",
+      "views": 3,
+      "visits": 1,
+      "iso": "RU"
+    },
+    {
+      "name": "Switzerland",
+      "views": 2,
+      "visits": 1,
+      "iso": "CH"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "views": 1,
+      "visits": 1,
+      "iso": "TT"
+    },
+    {
+      "name": "Turkey",
+      "views": 1,
+      "visits": 1,
+      "iso": "TR"
+    },
+    {
+      "name": "Uruguay",
+      "views": 1,
+      "visits": 1,
+      "iso": "UY"
+    },
+    {
+      "name": "Qatar",
+      "views": 1,
+      "visits": 0,
+      "iso": "QA"
+    },
+    {
+      "name": "Spain",
+      "views": 1,
+      "visits": 0,
+      "iso": "ES"
+    },
+    {
+      "name": "Sweden",
+      "views": 2,
+      "visits": 0,
+      "iso": "SE"
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-08-14",
+      "views": 30,
+      "visits": 10
+    },
+    {
+      "date": "2026-08-15",
+      "views": 10,
+      "visits": 10
+    },
+    {
+      "date": "2026-08-16",
+      "views": 0,
+      "visits": 0
+    },
+    {
+      "date": "2026-08-17",
+      "views": 0,
+      "visits": 0
+    },
+    {
+      "date": "2026-08-18",
+      "views": 0,
+      "visits": 0
+    },
+    {
+      "date": "2026-08-19",
+      "views": 0,
+      "visits": 0
+    },
+    {
+      "date": "2026-08-20",
+      "views": 0,
+      "visits": 0
+    },
+    {
+      "date": "2026-08-21",
+      "views": 0,
+      "visits": 0
+    },
+    {
+      "date": "2026-08-22",
+      "views": 10,
+      "visits": 0
+    },
+    {
+      "date": "2026-08-23",
+      "views": 10,
+      "visits": 0
+    },
+    {
+      "date": "2026-08-24",
+      "views": 50,
+      "visits": 0
+    },
+    {
+      "date": "2026-08-25",
+      "views": 0,
+      "visits": 0
+    },
+    {
+      "date": "2026-08-26",
+      "views": 0,
+      "visits": 0
+    },
+    {
+      "date": "2026-08-27",
+      "views": 0,
+      "visits": 0
+    },
+    {
+      "date": "2026-08-28",
+      "views": 0,
+      "visits": 0
+    },
+    {
+      "date": "2026-08-29",
+      "views": 0,
+      "visits": 0
+    },
+    {
+      "date": "2026-08-30",
+      "views": 3,
+      "visits": 2
+    },
+    {
+      "date": "2026-08-31",
+      "views": 0,
+      "visits": 0
+    },
+    {
+      "date": "2026-09-01",
+      "views": 169,
+      "visits": 2
+    },
+    {
+      "date": "2026-09-02",
+      "views": 231,
+      "visits": 85
+    },
+    {
+      "date": "2026-09-03",
+      "views": 172,
+      "visits": 57
+    },
+    {
+      "date": "2026-09-04",
+      "views": 293,
+      "visits": 139
+    },
+    {
+      "date": "2026-09-05",
+      "views": 189,
+      "visits": 67
+    },
+    {
+      "date": "2026-09-06",
+      "views": 50,
+      "visits": 44
+    },
+    {
+      "date": "2026-09-07",
+      "views": 80,
+      "visits": 40
+    },
+    {
+      "date": "2026-09-08",
+      "views": 185,
+      "visits": 64
+    },
+    {
+      "date": "2026-09-09",
+      "views": 180,
+      "visits": 67
+    },
+    {
+      "date": "2026-09-10",
+      "views": 113,
+      "visits": 62
+    },
+    {
+      "date": "2026-09-11",
+      "views": 181,
+      "visits": 94
+    },
+    {
+      "date": "2026-09-12",
+      "views": 112,
+      "visits": 80
+    },
+    {
+      "date": "2026-09-13",
+      "views": 63,
+      "visits": 46
+    }
+  ]
+}
