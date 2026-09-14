@@ -1,8 +1,13 @@
 name: New media submission
 
+# Triggered by the label, not by the issue opening: the form's label is
+# applied as its own "labeled" event right after the issue is created, so
+# this still fires for every new submission -- and a maintainer can also
+# start it on an existing issue (eg. one opened before the label existed)
+# just by adding the label.
 on:
   issues:
-    types: [opened]
+    types: [labeled]
 
 permissions:
   contents: write
@@ -11,7 +16,7 @@ permissions:
 
 jobs:
   create-media-pr:
-    if: contains(github.event.issue.labels.*.name, 'new-media-submission')
+    if: github.event.label.name == 'new-media-submission'
     runs-on: ubuntu-latest
     concurrency:
       group: new-media-${{ github.event.issue.number }}
