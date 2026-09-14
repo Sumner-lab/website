@@ -1467,3 +1467,11 @@
   precision: month
   people: [seirian-sumner]
 
+- outlet: Pest Magazine
+  type: Print
+  date: 2026-08-26
+  url: 'https://www.pestmagazine.co.uk/news/university-college-london-asks-pest-professionals-to-help-track-what-wasps-are-eating.html'
+  headline: University College London asks pest professionals to help track what wasps are eating
+  image: /wp-content/uploads/2026/08/media-pest-magazine-issue24-1.png
+  submitted_via_issue: 24
+
