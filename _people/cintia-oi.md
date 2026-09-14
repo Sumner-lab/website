@@ -10,10 +10,6 @@ redirect_from:
   - /our-group/cintia-oi/
   - /the-group/cintia-oi/
 links:
-  - label: Instagram
-    url: https://www.instagram.com/cintia.oi/
-  - label: LinkedIn
-    url: https://www.linkedin.com/in/cintia-oi-527ab231/
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=AOt97HQAAAAJ&hl=en
   - label: Bluesky
@@ -22,6 +18,10 @@ links:
     url: https://sites.google.com/view/cintiaoi
   - label: ORCID
     url: https://orcid.org/0000-0002-3682-8219
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/cintia-oi-527ab231/
+  - label: Instagram
+    url: https://www.instagram.com/cintia.oi/
 ---
 **Position:** Post-doctoral researcher (NERC) / Scientific Associate (NHM)
 
