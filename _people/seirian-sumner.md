@@ -15,6 +15,10 @@ links:
     url: https://twitter.com/WaspWoman
   - label: ORCID
     url: https://orcid.org/0000-0003-0213-2018
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/seirian-sumner/
+  - label: Instagram
+    url: https://www.instagram.com/waspprof/
 ---
 ## Biography
 
