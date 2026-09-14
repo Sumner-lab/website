@@ -1,215 +1,78 @@
 {
   "connected": true,
-  "updated": "2026-09-14T16:18:24Z",
+  "updated": "2026-09-14T16:50:33Z",
   "since": "2026-08-14",
   "last7days": {
     "views": 914,
     "visits": 453
   },
-  "countries_7d": 34,
+  "countries_7d": 11,
   "top_countries_7d": [
     {
       "name": "China",
-      "views": 440,
-      "visits": 169,
+      "views": 460,
+      "visits": 200,
       "iso": "CN"
     },
     {
       "name": "Singapore",
-      "views": 148,
-      "visits": 102,
+      "views": 110,
+      "visits": 60,
       "iso": "SG"
     },
     {
-      "name": "United Kingdom",
-      "views": 120,
-      "visits": 57,
-      "iso": "GB"
-    },
-    {
       "name": "United States of America",
-      "views": 100,
-      "visits": 57,
+      "views": 180,
+      "visits": 60,
       "iso": "US"
     },
     {
       "name": "Germany",
-      "views": 29,
-      "visits": 27,
+      "views": 20,
+      "visits": 20,
       "iso": "DE"
     },
     {
-      "name": "Ireland",
-      "views": 9,
-      "visits": 9,
-      "iso": "IE"
-    },
-    {
-      "name": "Brazil",
-      "views": 15,
-      "visits": 8,
-      "iso": "BR"
-    },
-    {
-      "name": "Netherlands",
-      "views": 7,
-      "visits": 3,
-      "iso": "NL"
-    },
-    {
-      "name": "Canada",
-      "views": 2,
-      "visits": 2,
-      "iso": "CA"
-    },
-    {
-      "name": "FR",
-      "views": 8,
-      "visits": 2
-    },
-    {
-      "name": "South Africa",
-      "views": 2,
-      "visits": 2,
-      "iso": "ZA"
+      "name": "United Kingdom",
+      "views": 100,
+      "visits": 20,
+      "iso": "GB"
     },
     {
       "name": "Azerbaijan",
-      "views": 1,
-      "visits": 1,
+      "views": 10,
+      "visits": 10,
       "iso": "AZ"
     },
     {
-      "name": "Bosnia and Herzegovina",
-      "views": 1,
-      "visits": 1,
-      "iso": "BA"
-    },
-    {
-      "name": "Denmark",
-      "views": 1,
-      "visits": 1,
-      "iso": "DK"
-    },
-    {
-      "name": "Ecuador",
-      "views": 1,
-      "visits": 1,
-      "iso": "EC"
+      "name": "Brazil",
+      "views": 10,
+      "visits": 10,
+      "iso": "BR"
     },
     {
       "name": "Finland",
-      "views": 2,
-      "visits": 1,
+      "views": 10,
+      "visits": 10,
       "iso": "FI"
     },
     {
-      "name": "Greece",
-      "views": 1,
-      "visits": 1,
-      "iso": "GR"
-    },
-    {
-      "name": "Guatemala",
-      "views": 1,
-      "visits": 1,
-      "iso": "GT"
-    },
-    {
-      "name": "Hungary",
-      "views": 1,
-      "visits": 1,
-      "iso": "HU"
-    },
-    {
-      "name": "Malaysia",
-      "views": 1,
-      "visits": 1,
-      "iso": "MY"
-    },
-    {
-      "name": "New Zealand",
-      "views": 1,
-      "visits": 1,
-      "iso": "NZ"
-    },
-    {
-      "name": "Philippines",
-      "views": 1,
-      "visits": 1,
-      "iso": "PH"
-    },
-    {
-      "name": "Republic of Korea",
-      "views": 1,
-      "visits": 1,
-      "iso": "KR"
-    },
-    {
-      "name": "Romania",
-      "views": 1,
-      "visits": 1,
-      "iso": "RO"
-    },
-    {
-      "name": "Thailand",
-      "views": 1,
-      "visits": 1,
-      "iso": "TH"
-    },
-    {
-      "name": "Turkey",
-      "views": 1,
-      "visits": 1,
-      "iso": "TR"
+      "name": "South Africa",
+      "views": 10,
+      "visits": 10,
+      "iso": "ZA"
     },
     {
       "name": "Australia",
-      "views": 2,
+      "views": 20,
       "visits": 0,
       "iso": "AU"
     },
     {
-      "name": "Belgium",
-      "views": 2,
+      "name": "Netherlands",
+      "views": 10,
       "visits": 0,
-      "iso": "BE"
-    },
-    {
-      "name": "India",
-      "views": 5,
-      "visits": 0,
-      "iso": "IN"
-    },
-    {
-      "name": "Indonesia",
-      "views": 1,
-      "visits": 0,
-      "iso": "ID"
-    },
-    {
-      "name": "Pakistan",
-      "views": 3,
-      "visits": 0,
-      "iso": "PK"
-    },
-    {
-      "name": "Russian Federation",
-      "views": 2,
-      "visits": 0,
-      "iso": "RU"
-    },
-    {
-      "name": "Spain",
-      "views": 1,
-      "visits": 0,
-      "iso": "ES"
-    },
-    {
-      "name": "Sweden",
-      "views": 2,
-      "visits": 0,
-      "iso": "SE"
+      "iso": "NL"
     }
   ]
 }
