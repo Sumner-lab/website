@@ -19,6 +19,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      # update-social-wall.yml and update-analytics.yml keep their data on
+      # the site-data branch, since main only accepts approved PRs and a
+      # scheduled bot can't get one. Lay those copies over main's (which
+      # are just a fallback for local previews) before building.
+      - name: Use the latest bot-updated data
+        run: |
+          if git fetch --depth=1 origin site-data; then
+            git checkout FETCH_HEAD -- _data
+          else
+            echo "::warning::No site-data branch -- building with main's copy of the social wall and analytics data."
+          fi
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3"
