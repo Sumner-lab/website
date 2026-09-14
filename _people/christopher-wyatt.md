@@ -18,6 +18,8 @@ links:
     url: https://bsky.app/profile/chris-wyatt.bsky.social
   - label: GitHub
     url: https://github.com/chriswyatt1
+  - label: Twitter
+    url: https://twitter.com/chriswyatt1
   - label: Eco-Flow
     url: https://eco-flow.github.io/
   - label: ORCID
