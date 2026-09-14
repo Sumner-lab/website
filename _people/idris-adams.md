@@ -29,7 +29,9 @@ links:
 
 **Publications**
 
-- Mitchell, R., **Adams, I.**, Broad, G.R. (2026) The genome sequence of the solitary wasp, *Lestiphorus bicinctus* (Rossi, 1794) (Hymenoptera: Crabronidae). *Wellcome Open Research*, 11, 197.
+- Mitchell, R., **Adams, I.**, Broad, G.R. (2026) The genome sequence of the solitary wasp, *Lestiphorus bicinctus* (Rossi, 1794) (Hymenoptera: Crabronidae). *Wellcome Open Research*, 11, 197. doi: [10.12688/wellcomeopenres.26199.1](https://doi.org/10.12688/wellcomeopenres.26199.1)
+- Mitchell, R., **Adams, I.**, Broad, G.R. (2026) The genome sequence of the solitary wasp, *Nysson trimaculatus* (Rossi, 1790) (Hymenoptera: Crabronidae). *Wellcome Open Research*, 11, 257. doi: [10.12688/wellcomeopenres.26493.1](https://doi.org/10.12688/wellcomeopenres.26493.1)
+
 - Sumner, S. and **Adams, I.** (2025) The Wonderful World of Wasps. *Frontiers for Young Minds*, 13. doi: [10.3389/frym.2025.1632173](http://doi.org/10.3389/frym.2025.1632173)
-- Visick, O.D., **Adams, I.**, Marzano, F.S., Ratnieks, F.L.W. (2025) Effect of bark harvest intensity on the formation of cavities and other microhabitats in cork oaks (*Quercus suber*). *European Journal of Forest Research*.
-- Visick, O.D., **Adams, I.**, Ney, P., Marzano, F.S., Ratnieks, F.L.W. (2024) Do nest sites limit wild honey bee colonies? Decoding swarm waggle dances to assess nest site availability. *Ecological Entomology*, 49(6), pp. 869-880.
+- Visick, O.D., **Adams, I.**, Marzano, F.S., Ratnieks, F.L.W. (2025) Effect of bark harvest intensity on the formation of cavities and other microhabitats in cork oaks (*Quercus suber*). *European Journal of Forest Research*. doi: [10.1007/s10342-025-01770-9](https://doi.org/10.1007/s10342-025-01770-9)
+- Visick, O.D., **Adams, I.**, Ney, P., Marzano, F.S., Ratnieks, F.L.W. (2024) Do nest sites limit wild honey bee colonies? Decoding swarm waggle dances to assess nest site availability. *Ecological Entomology*, 49(6), pp. 869-880. doi: [10.1111/een.13361](https://doi.org/10.1111/een.13361)
