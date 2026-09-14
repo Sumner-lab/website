@@ -1473,5 +1473,34 @@
   url: 'https://www.pestmagazine.co.uk/news/university-college-london-asks-pest-professionals-to-help-track-what-wasps-are-eating.html'
   headline: University College London asks pest professionals to help track what wasps are eating
   image: /wp-content/uploads/2026/08/media-pest-magazine-issue24-1.png
+  people: [femi-e-benny]
   submitted_via_issue: 24
+
+- outlet: The Ecologist
+  type: Print
+  date: 2026-08-20
+  url: 'https://theecologist.org/2026/aug/20/are-wasps-losing-their-rhythm'
+  headline: Are wasps losing their rhythm?
+  image: /wp-content/uploads/2026/08/media-the-ecologist-issue19-1.png
+  people: [femi-e-benny]
+  submitted_via_issue: 19
+
+- outlet: BBC Look North
+  type: TV
+  date: 2025-08-05
+  people: [idris-adams]
+  submitted_via_issue: 21
+
+- outlet: TalkSport - Hawksbee and Jacobs Daily
+  type: Radio
+  date: 2025-12-19
+  url: 'https://talksport.com/darts/3837147/alexandra-palace-wasp-expert-explains-why-world-championship/'
+  people: [idris-adams]
+  submitted_via_issue: 22
+
+- outlet: Channel 5 News
+  type: TV
+  date: 2026-08-13
+  people: [idris-adams]
+  submitted_via_issue: 23
 
