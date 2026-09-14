@@ -12,9 +12,11 @@ permissions:
   contents: write
   actions: write
 
-# Don't let two runs (eg. a push landing right as the schedule fires) clash.
+# Shared with update-social-wall.yml: both push to the site-data branch, so
+# running one at a time stops their pushes racing each other (and stops a
+# push landing right as the schedule fires from clashing with itself).
 concurrency:
-  group: update-analytics
+  group: site-data
   cancel-in-progress: false
 
 jobs:
@@ -25,6 +27,19 @@ jobs:
         with:
           ref: main
 
+      # The data files live on the site-data branch, not main: main only
+      # accepts approved PRs, which a scheduled bot can't get. pages.yml
+      # lays site-data's _data/ over main's when it builds. Check it out
+      # alongside main (which still provides the script and _config.yml)
+      # and start from its copy -- the all-time ledger is cumulative, so
+      # the script must build on the latest one.
+      - name: Check out site-data
+        run: |
+          git fetch --depth=1 origin site-data
+          git worktree add --detach "$RUNNER_TEMP/site-data" FETCH_HEAD
+          cp "$RUNNER_TEMP/site-data/_data/analytics.json" \
+             "$RUNNER_TEMP/site-data/_data/analytics_totals.json" _data/
+
       - run: python3 .github/scripts/update_analytics.py
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -32,6 +47,8 @@ jobs:
           CLOUDFLARE_SITE_TAG: ${{ secrets.CLOUDFLARE_SITE_TAG }}
 
       - run: |
+          cp _data/analytics.json _data/analytics_totals.json "$RUNNER_TEMP/site-data/_data/"
+          cd "$RUNNER_TEMP/site-data"
           if git diff --quiet -- _data/analytics.json _data/analytics_totals.json; then
             echo "No change in analytics data."
             exit 0
@@ -40,13 +57,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _data/analytics.json _data/analytics_totals.json
           git commit -m "Update visit analytics"
-          git pull --rebase origin main
-          git push
+          git push origin HEAD:site-data
 
           # A push made with the default GITHUB_TOKEN doesn't trigger other
-          # workflows' `push` events, so pages.yml wouldn't otherwise pick
-          # up this new data. Dispatching it directly via the API isn't
-          # subject to that restriction.
-          gh workflow run pages.yml
+          # workflows' `push` events, and pages.yml only listens for pushes
+          # to main anyway, so dispatch it directly to pick up this new data.
+          gh workflow run pages.yml --repo "$GITHUB_REPOSITORY"
         env:
           GH_TOKEN: ${{ github.token }}

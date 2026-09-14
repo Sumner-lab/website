@@ -26,7 +26,9 @@ Needs Ruby + [Bundler](https://bundler.io/) installed (`gem install bundler` if 
 - **The nav menu**: edit `_data/nav.yml` — one file, applies everywhere.
 - **Images**: drop them anywhere under `wp-content/uploads/`, reference with a relative path.
 
-Preview locally before pushing. GitHub Actions rebuilds and redeploys automatically on every push to `main` (see `.github/workflows/pages.yml`).
+Preview locally before pushing. `main` is protected: changes go in through a pull request, which needs an approval from another lab member before it can be merged. GitHub Actions rebuilds and redeploys automatically whenever `main` changes (see `.github/workflows/pages.yml`).
+
+The social wall and visit analytics data (`_data/social_wall.json`, `_data/analytics.json`, `_data/analytics_totals.json`) are refreshed by scheduled bots on the separate `site-data` branch, since a bot can't get its changes approved. The live build always uses the `site-data` copies; the ones on `main` are only there so local previews have something to show.
 
 ## Sharing a preview with someone outside the team
 
