@@ -2,7 +2,6 @@
 name: Idris Adams
 role: PhD Student, Diet & Life History Evolution in Aculeate Wasps
 status: current
-order: 9
 joined: "2023"
 photo: /wp-content/uploads/2024/01/profile-picture.jpeg
 title: Idris Adams

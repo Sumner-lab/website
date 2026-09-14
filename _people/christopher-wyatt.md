@@ -2,7 +2,6 @@
 name: Christopher Wyatt
 role: Eco-Flow Project Lead
 status: current
-order: 5
 stints:
   - joined: "2013"
     left: "2014"

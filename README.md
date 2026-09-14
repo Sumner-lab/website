@@ -22,7 +22,7 @@ Needs Ruby + [Bundler](https://bundler.io/) installed (`gem install bundler` if 
 - **A page** (Contact, a research theme, etc.): edit its `.md` file directly — e.g. `contact.md`, `research/evolution.md`.
 - **A blog post**: add a file to `_posts/`, named `YYYY-MM-DD-title.md`. Don't want to touch git/Markdown directly? Use the [Submit a new post](https://github.com/Sumner-lab/website/issues/new?template=new-post.yml) form instead — it opens a pull request automatically for someone to review.
 - **A media appearance** (TV, radio, podcast, print, talk, prize, exhibition): add an entry to `_data/media.yml`, or use the [Submit a media appearance](https://github.com/Sumner-lab/website/issues/new?template=new-media.yml) form instead — same as above, it opens a pull request automatically.
-- **A team member**: add a file to `_people/`, with `name`, `role`, `status` (`current` or `alumni`) and `photo` in the front matter at the top of the file.
+- **A team member**: add a file to `_people/`, with `name`, `role`, `status` (`current` or `alumni`) and `photo` in the front matter at the top of the file. New lab members can use the [Add a new lab member](https://github.com/Sumner-lab/website/issues/new?template=new-member.yml) form instead — it builds their profile (photo, links and all) and opens a pull request automatically. Current members are listed alphabetically on the People page; `order:` is only needed to pin someone to the top.
 - **The nav menu**: edit `_data/nav.yml` — one file, applies everywhere.
 - **Images**: drop them anywhere under `wp-content/uploads/`, reference with a relative path.
 

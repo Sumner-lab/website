@@ -2,7 +2,6 @@
 name: Romuald Tcheutchoua
 role: PhD Student, Wasps as Biocontrol Agents
 status: current
-order: 11
 joined: "2020"
 photo: /wp-content/uploads/2026/08/RomualdT.jpeg
 title: Romuald Tcheutchoua

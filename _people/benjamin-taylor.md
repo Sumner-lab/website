@@ -2,7 +2,6 @@
 name: Benjamin Taylor
 role: Human Frontiers Science Program Research Fellow
 status: current
-order: 3
 stints:
   - joined: "2016"
     left: "2021"
