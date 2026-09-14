@@ -11,6 +11,8 @@ redirect_from:
 links:
   - label: Bluesky
     url: https://bsky.app/profile/idrisadams.bsky.social
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/idris-adams-a885341b3
   - label: ORCID
     url: https://orcid.org/0009-0006-6696-2722
 ---
