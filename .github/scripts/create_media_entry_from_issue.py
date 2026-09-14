@@ -57,6 +57,7 @@ def safe_url(url, notes):
     return url
 
 REPO_ROOT = post_lib.REPO_ROOT
+PEOPLE_DIR = os.path.join(REPO_ROOT, "_people")
 DATA_PATH = os.path.join(REPO_ROOT, "_data", "media.yml")
 MEDIA_PAGE_PATH = os.path.join(REPO_ROOT, "media.md")
 UPLOADS_ROOT = post_lib.UPLOADS_ROOT
@@ -78,6 +79,7 @@ FIELD_LABELS = {
     "date": "Date (optional)",
     "url": "Link (optional)",
     "headline": "Headline (optional)",
+    "people": "Lab members involved (optional)",
     "photo": "Photo (optional)",
     "consent": "Photo permission",
     "feature": "Feature this",
@@ -127,7 +129,53 @@ def parse_other_links(text, notes):
     return links
 
 
-def build_entry_block(fields, date_str, photo_path, notes):
+def load_people():
+    """{slug: name} for every _people/*.md file. The slug is the file name,
+    which is also what the archive looks people up by (and their
+    /people/<slug>/ URL)."""
+    people = {}
+    for fname in sorted(os.listdir(PEOPLE_DIR)):
+        if not fname.endswith(".md"):
+            continue
+        with open(os.path.join(PEOPLE_DIR, fname), encoding="utf-8") as f:
+            m = re.search(r'^name:\s*["\']?(.+?)["\']?\s*$', f.read(), flags=re.MULTILINE)
+        slug = fname[:-3]
+        people[slug] = m.group(1) if m else slug.replace("-", " ")
+    return people
+
+
+def resolve_people(text, notes):
+    """Matches the comma-separated "Lab members involved" names to _people/
+    slugs, trying in turn: the exact full name (or file name), first + last
+    name allowing a shortened first name (so "Femi Benny" finds "Femi E.
+    Benny" and "Chris Wyatt" finds "Christopher Wyatt"), then a first name
+    alone if only one person has it. A name that's unmatched or ambiguous is left out
+    and noted, for the reviewer to add by hand rather than guessed at."""
+    people = {slug: post_lib.slugify(name).split("-") for slug, name in load_people().items()}
+    slugs = []
+    for raw_name in re.split(r'[,;&\n]|\band\b', text):
+        name = raw_name.strip()
+        if not name:
+            continue
+        words = post_lib.slugify(name).split("-")
+        matches = [s for s, w in people.items() if w == words or s.split("-") == words]
+        if not matches and len(words) >= 2:
+            matches = [s for s, w in people.items() if w[0].startswith(words[0]) and w[-1] == words[-1]]
+        if not matches and len(words) == 1:
+            matches = [s for s, w in people.items() if w[0] == words[0]]
+        if len(matches) == 1:
+            if matches[0] not in slugs:
+                slugs.append(matches[0])
+        elif matches:
+            notes.append(f"\"{name}\" matches more than one person on the People page -- left out, "
+                         f"add the right one to `people:` by hand.")
+        else:
+            notes.append(f"Couldn't find \"{name}\" on the People page -- left out, add them to "
+                         f"`people:` by hand if they should be shown.")
+    return slugs
+
+
+def build_entry_block(fields, date_str, photo_path, people, notes):
     lines = [f"- outlet: {post_lib.yaml_quote(fields['outlet'].strip())}"]
     lines.append(f"  type: {fields['type'].strip()}")
     lines.append(f"  date: {date_str}")
@@ -139,6 +187,8 @@ def build_entry_block(fields, date_str, photo_path, notes):
         lines.append(f"  headline: {post_lib.yaml_quote(headline)}")
     if photo_path:
         lines.append(f"  image: {post_lib.yaml_quote(photo_path)}")
+    if people:
+        lines.append(f"  people: [{', '.join(people)}]")
     lines.append(f"  submitted_via_issue: {os.environ.get('ISSUE_NUMBER', '0')}")
     return "\n".join(lines) + "\n"
 
@@ -294,7 +344,8 @@ def main():
     elif fields["photo"].strip():
         notes.append("A photo was attached but the permission checkbox wasn't ticked -- photo skipped.")
 
-    entry_block = build_entry_block(fields, date_str, photo_path, notes)
+    people = resolve_people(fields["people"], notes)
+    entry_block = build_entry_block(fields, date_str, photo_path, people, notes)
     saved_to_data = append_entry(entry_block, notes)
 
     added_to_media_page = False
@@ -318,6 +369,8 @@ def main():
         summary_lines.append("- Added as a Featured section on the Media page.")
     if saved_images:
         summary_lines.append(f"- Photo: `{saved_images[0]}`.")
+    if people and saved_to_data:
+        summary_lines.append(f"- Lab members shown: {', '.join(f'`{s}`' for s in people)}.")
     if notes:
         summary_lines.append("")
         summary_lines.append("Notes from processing this submission:")
