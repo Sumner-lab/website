@@ -13,34 +13,23 @@ TV, radio, and press coverage of the lab's work — and the people behind it.
 
 <!-- new-media-submission bot inserts new Featured sections directly below this marker -- see .github/scripts/create_media_entry_from_issue.py -->
 
-## Pest Magazine, 26 August 2026
-
-**University College London asks pest professionals to help track what wasps are eating**
-
-<div class="media-feature">
-  <img class="media-feature-image" src="{{ site.baseurl }}/wp-content/uploads/2026/08/media-pest-magazine-issue24-1.png" alt="Pest Magazine">
-  <div class="media-feature-highlights">
-    <p class="media-feature-highlights-label">Media highlights</p>
-    <ul>
-      <li><a href="https://www.pestmagazine.co.uk/news/university-college-london-asks-pest-professionals-to-help-track-what-wasps-are-eating.html">Pest Magazine</a></li>
-    </ul>
-  </div>
-</div>
-
----
-
-## The Ecologist, 20 August 2026
-
-**Are wasps losing their rhythm?**
-
-<div class="media-feature">
-  <img class="media-feature-image" src="{{ site.baseurl }}/wp-content/uploads/2026/08/media-the-ecologist-issue19-1.png" alt="The Ecologist">
-  <div class="media-feature-highlights">
-    <p class="media-feature-highlights-label">Media highlights</p>
-    <ul>
-      <li><a href="https://theecologist.org/2026/aug/20/are-wasps-losing-their-rhythm">The Ecologist</a></li>
-    </ul>
-  </div>
+<div class="media-feature-cards">
+  <article class="media-feature-card">
+    <a class="media-feature-card-image" href="https://www.pestmagazine.co.uk/news/university-college-london-asks-pest-professionals-to-help-track-what-wasps-are-eating.html"><img src="{{ site.baseurl }}/wp-content/uploads/2026/08/media-pest-magazine-issue24-1.png" alt="Pest Magazine" loading="lazy"></a>
+    <div class="media-feature-card-body">
+      <h2>Pest Magazine, 26 August 2026</h2>
+      <p class="media-feature-card-headline">University College London asks pest professionals to help track what wasps are eating</p>
+      <p class="media-feature-card-link"><a href="https://www.pestmagazine.co.uk/news/university-college-london-asks-pest-professionals-to-help-track-what-wasps-are-eating.html">Read the article →</a></p>
+    </div>
+  </article>
+  <article class="media-feature-card">
+    <a class="media-feature-card-image" href="https://theecologist.org/2026/aug/20/are-wasps-losing-their-rhythm"><img src="{{ site.baseurl }}/wp-content/uploads/2026/08/media-the-ecologist-issue19-1.png" alt="The Ecologist" loading="lazy"></a>
+    <div class="media-feature-card-body">
+      <h2>The Ecologist, 20 August 2026</h2>
+      <p class="media-feature-card-headline">Are wasps losing their rhythm?</p>
+      <p class="media-feature-card-link"><a href="https://theecologist.org/2026/aug/20/are-wasps-losing-their-rhythm">Read the article →</a></p>
+    </div>
+  </article>
 </div>
 
 ---

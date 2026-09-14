@@ -67,7 +67,9 @@ body:
     attributes:
       value: |
         ---
-        The rest is only used for a **Featured** entry -- a highlighted section near the top of the page with a bigger image, instead of just a line in the archive further down. Leave the box below unticked for an ordinary archive entry.
+        The rest is only used for a **Featured** entry -- highlighted near the top of the page with a bigger image, instead of just a line in the archive further down. Leave the box below unticked for an ordinary archive entry.
+
+        With just a photo, headline and link, a featured entry appears as a **card**, side by side with the next short featured entry. Add a description or extra links below and it gets a **full-width section** of its own instead.
   - type: checkboxes
     id: feature
     attributes:
