@@ -29,6 +29,22 @@ TV, radio, and press coverage of the lab's work — and the people behind it.
 
 ---
 
+## The Ecologist, 20 August 2026
+
+**Are wasps losing their rhythm?**
+
+<div class="media-feature">
+  <img class="media-feature-image" src="{{ site.baseurl }}/wp-content/uploads/2026/08/media-the-ecologist-issue19-1.png" alt="The Ecologist">
+  <div class="media-feature-highlights">
+    <p class="media-feature-highlights-label">Media highlights</p>
+    <ul>
+      <li><a href="https://theecologist.org/2026/aug/20/are-wasps-losing-their-rhythm">The Ecologist</a></li>
+    </ul>
+  </div>
+</div>
+
+---
+
 ## Where Are the Wasps? Summer 2026
 
 A flip-flop spring — warm to wet, chilly to cooking — followed by a succession of heatwaves might explain the apparent shortage of social wasps in the UK this year. Read about it in [Seirian's article in The Conversation](https://theconversation.com/where-have-all-the-wasps-gone-this-summer-288535). Surprising interest from the media in this — and the link with a large number of flies. This also became an opportunity to recruit members of the public to tell us what wasps at their picnics are eating, in the [Wasp Picnic Survey 2026]({{ site.baseurl }}/wasp-picnic-survey-2026/), run by [PhD student Femi Benny]({{ site.baseurl }}/people/femi-e-benny/).
