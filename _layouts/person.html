@@ -24,6 +24,11 @@ layout: default
 {%- assign years = years | strip -%}
 {%- assign has_research = false -%}
 {%- if page.project or page.studies or page.themes or page.background -%}{%- assign has_research = true -%}{%- endif -%}
+{%- assign body = content | strip -%}
+{%- assign has_about = false -%}
+{%- if page.intro or page.background_text or page.biography or page.interests or page.other_interests or page.ask_me_about or body != "" -%}{%- assign has_about = true -%}{%- endif -%}
+{%- assign has_publications = false -%}
+{%- if page.publications.size > 0 or page.publications_text -%}{%- assign has_publications = true -%}{%- endif -%}
 
 <article class="nb wrap">
   <header class="nb-head">
@@ -37,13 +42,14 @@ layout: default
     <div class="nb-head-text">
       <h1>{{ person_name }}</h1>
       {% if page.role %}<p class="nb-role">{{ page.role }}</p>{% endif %}
-      {% if page.position or years != "" or page.studies %}
+      {% if page.position or years != "" or page.studies or page.contact %}
       <div class="nb-specimen">
         <p class="nb-specimen-cat"><span>Sumner Lab · UCL</span><span>{% if page.status == "alumni" %}Left the nest{% else %}Current group{% endif %}</span></p>
         <dl>
           {% if page.position %}<dt>Position</dt><dd>{{ page.position | markdownify | remove: "<p>" | remove: "</p>" | strip }}</dd>{% endif %}
           {% if years != "" %}<dt>In the lab</dt><dd>{{ years }}</dd>{% endif %}
           {% if page.studies %}<dt>Studies</dt><dd>{{ page.studies | markdownify | remove: "<p>" | remove: "</p>" | strip }}</dd>{% endif %}
+          {% if page.contact %}<dt>Contact</dt><dd class="nb-specimen-contact">{{ page.contact | replace: baseurl_tag, site.baseurl | markdownify }}</dd>{% endif %}
         </dl>
       </div>
       {% endif %}
@@ -53,22 +59,24 @@ layout: default
 
   <div class="nb-book" data-nb-tabs>
     <div class="nb-tabs" role="tablist" aria-label="Profile sections" hidden>
-      <button type="button" role="tab" id="nb-tab-about" aria-controls="about" aria-selected="true">About</button>
-      {% if has_research %}<button type="button" role="tab" id="nb-tab-research" aria-controls="research" aria-selected="false" tabindex="-1">Research</button>{% endif %}
-      {% if page.publications.size > 0 %}<button type="button" role="tab" id="nb-tab-publications" aria-controls="publications" aria-selected="false" tabindex="-1">Publications<span class="nb-count">{{ page.publications.size }}</span></button>{% endif %}
+      {% if has_about %}<button type="button" role="tab" id="nb-tab-about" aria-controls="about" aria-selected="true">About</button>{% endif %}
+      {% if has_research %}<button type="button" role="tab" id="nb-tab-research" aria-controls="research" aria-selected="{% if has_about %}false{% else %}true{% endif %}"{% if has_about %} tabindex="-1"{% endif %}>Research</button>{% endif %}
+      {% if has_publications %}<button type="button" role="tab" id="nb-tab-publications" aria-controls="publications" aria-selected="false" tabindex="-1">Publications{% if page.publications.size > 0 %}<span class="nb-count">{{ page.publications.size }}</span>{% endif %}</button>{% endif %}
       {% if my_media.size > 0 %}<button type="button" role="tab" id="nb-tab-media" aria-controls="media" aria-selected="false" tabindex="-1">In the media<span class="nb-count">{{ my_media.size }}</span></button>{% endif %}
     </div>
 
+    {% if has_about %}
     <section class="nb-page prose" id="about" role="tabpanel" aria-labelledby="nb-tab-about">
       <h2 class="nb-page-title">About</h2>
       {% if page.intro %}<div class="nb-block nb-intro">{{ page.intro | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
-      {% if page.interests %}<div class="nb-block"><h3 class="nb-label">Research interests</h3>{{ page.interests | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
-      {% if page.ask_me_about %}<div class="nb-block"><h3 class="nb-label">Ask me about</h3>{{ page.ask_me_about | markdownify }}</div>{% endif %}
-      {% if page.other_interests %}<div class="nb-block"><h3 class="nb-label">Other interests</h3>{{ page.other_interests | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
+      {% if page.background_text %}<div class="nb-block"><h3 class="nb-label">Background</h3>{{ page.background_text | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
       {% if page.biography %}<div class="nb-block"><h3 class="nb-label">Biography</h3>{{ page.biography | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
-      {% assign body = content | strip %}{% if body != "" %}<div class="nb-block">{{ content }}</div>{% endif %}
-      {% if page.contact %}<div class="nb-block"><h3 class="nb-label">Contact</h3>{{ page.contact | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
+      {% if page.interests %}<div class="nb-block"><h3 class="nb-label">Research interests</h3>{{ page.interests | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
+      {% if page.other_interests %}<div class="nb-block"><h3 class="nb-label">Other interests</h3>{{ page.other_interests | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
+      {% if page.ask_me_about %}<div class="nb-block"><h3 class="nb-label">Ask me about</h3>{{ page.ask_me_about | markdownify }}</div>{% endif %}
+      {% if body != "" %}<div class="nb-block">{{ content }}</div>{% endif %}
     </section>
+    {% endif %}
 
     {% if has_research %}
     <section class="nb-page prose" id="research" role="tabpanel" aria-labelledby="nb-tab-research">
@@ -126,13 +134,18 @@ layout: default
     </section>
     {% endif %}
 
-    {% if page.publications.size > 0 %}
+    {% if has_publications %}
     <section class="nb-page prose" id="publications" role="tabpanel" aria-labelledby="nb-tab-publications">
-      <h2 class="nb-page-title">{{ page.publications_label | default: "Publications" }}</h2>
-      {% if page.publications_label %}<h3 class="nb-label">{{ page.publications_label }}</h3>{% endif %}
-      <ul class="nb-pubs">
-        {% for pub in page.publications %}<li>{{ pub | replace: baseurl_tag, site.baseurl | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>{% endfor %}
-      </ul>
+      <h2 class="nb-page-title">Publications</h2>
+      {% if page.publications.size > 0 %}
+      <div class="nb-block">
+        {% if page.publications_label %}<h3 class="nb-label">{{ page.publications_label }}</h3>{% endif %}
+        <ul class="nb-pubs">
+          {% for pub in page.publications %}<li>{{ pub | replace: baseurl_tag, site.baseurl | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>{% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      {% if page.publications_text %}<div class="nb-block">{{ page.publications_text | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
     </section>
     {% endif %}
 

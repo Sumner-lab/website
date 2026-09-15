@@ -42,16 +42,20 @@ Everything goes in the front matter at the top of the file. Only `name`, `role`,
 | `status` | `current` or `alumni` ("Left the nest") |
 | `joined` / `left`, or `stints` for more than one spell | "In the lab" years |
 | `position` | Specimen label, e.g. `PhD Student` |
+| `contact` | Specimen label: email and any other contact details (Markdown) |
 | `studies` | Specimen label, e.g. `Asian giant hornets` |
 | `project` | Research tab |
 | `themes` | Research tab, and the theme filters on the People page, e.g. `[Ecology, Genomics]` |
 | `background` | Research tab: a list, one line per role, newest first. Lines starting with years (`2019–2023: …`) are drawn on the career ruler |
-| `intro`, `interests`, `ask_me_about`, `other_interests`, `biography`, `contact` | About tab (Markdown) |
+| `intro`, `background_text`, `biography`, `interests`, `other_interests`, `ask_me_about` | About tab, in that order (Markdown). `background_text` is shown under "Background", `interests` under "Research interests" |
 | `publications` (+ optional `publications_label`) | Publications tab: a list, one publication per line (Markdown) |
+| `publications_text` | Publications tab, below the list: anything else, e.g. book chapters or popular science articles, with their own subheadings (Markdown) |
 
 Media appearances fill in the **In the media** tab automatically, from entries in `_data/media.yml` that list the person under `people:`. Anything written below the front matter still shows on the About tab, so sections that don't fit a field (Teaching, Book chapters…) can stay as normal Markdown.
 
 Older profiles were written as one block of Markdown with bold labels (`**Position:**`, `**Background**`…). `bin/convert_profiles.py` moves those into the fields above without losing any text; run `python3 bin/convert_profiles.py --check` to preview it. It skips profiles that already use the fields, so it's safe to re-run.
+
+To see what each profile is still missing (years in the lab, career history, ORCID link, the newer fields…), run `python3 bin/profile_checklist.py`. It prints a table that can be pasted into an issue for the lab.
 
 ## Previewing a pull request
 

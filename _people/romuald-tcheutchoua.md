@@ -8,15 +8,10 @@ title: Romuald Tcheutchoua
 redirect_from:
   - /the-group/romuald-tcheutchoua/
   - /romuald-tcheutchoua/
+position: PhD Student
+project: Harnessing native social wasps as biocontrol agents for smallholder agriculture
+interests: Computational biology/genetics, environmental biology, ecological economics, molecular biology/genetics
+background:
+- '2020–present: Head of project management department at NGO'
+contact: '[ucbtrct@ucl.ac.uk](mailto:ucbtrct@ucl.ac.uk)'
 ---
-**Position:** PhD Student
-
-**Project:** Harnessing native social wasps as biocontrol agents for smallholder agriculture
-
-**Research Interests:** Computational biology/genetics, environmental biology, ecological economics, molecular biology/genetics
-
-**Background**
-
-- 2020–present: Head of project management department at NGO
-
-**Contact:** [ucbtrct@ucl.ac.uk](mailto:ucbtrct@ucl.ac.uk)

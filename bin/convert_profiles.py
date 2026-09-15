@@ -12,16 +12,20 @@ matter fields:
     Project, Current project               -> project
     Research interests, Interests          -> interests
     Other interests                        -> other_interests
-    Biography (and prose under Background) -> biography
+    Biography                              -> biography
     Background, Background/Biography,
-    Timeline (list lines)                  -> background (a list)
+    Timeline                               -> background (list lines) and
+                                              background_text (paragraphs)
     Publications, Selected/Main
     publications (a plain list)            -> publications (+ publications_label)
+    other publication sections (with
+    subheadings, Book chapters, Popular
+    science articles)                      -> publications_text
     Contact, Email, Address                -> contact
     text before the first label            -> intro
 
-Anything it doesn't recognise -- Teaching, Book chapters, a publications
-list mixed with other text, stray images -- stays in the page body exactly
+Anything it doesn't recognise -- Teaching, Science outreach, stray
+images -- stays in the page body exactly
 as written, and still shows on the profile's About tab. Nothing is
 reworded or dropped.
 
@@ -44,7 +48,8 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PEOPLE_DIR = os.path.join(REPO_ROOT, "_people")
 
 TEMPLATE_FIELDS = ["intro", "position", "project", "interests", "other_interests", "biography",
-                   "background", "publications_label", "publications", "contact"]
+                   "background", "background_text", "publications_label", "publications",
+                   "publications_text", "contact"]
 
 LABELS = {
     "position": "position",
@@ -54,11 +59,13 @@ LABELS = {
     "biography": "biography",
     "background": "background", "background/biography": "background", "timeline": "background",
     "publications": "publications", "selected publications": "publications", "main publications": "publications",
+    "book chapters": "publications", "book chapter": "publications", "popular science articles": "publications",
     "contact": "contact", "email": "contact", "address": "contact",
 }
 
 BOLD_HEADING = re.compile(r'^\*\*(?P<label>[^*\n]{1,40}?):?\*\*:?[ \t]*(?P<rest>.*)$')
 MD_HEADING = re.compile(r'^##[ \t]+(?P<label>[^#\n]+?)[ \t]*$')
+HORIZONTAL_RULE = re.compile(r"^\s*(?:-{3,}|\*{3,}|_{3,})\s*$")
 LIST_ITEM = re.compile(r'^(?:[-*]|\d+\.)[ \t]+(?P<item>.*)$')
 
 
@@ -186,17 +193,22 @@ def convert(front, body):
             items, prose = parsed
             if items:
                 fields.setdefault("background", []).extend(items)
-            add_text("biography", tidy(([rest, ""] if rest else []) + prose))
+            add_text("background_text", tidy(([rest, ""] if rest else []) + prose))
 
         elif key == "publications":
             parsed = split_list(lines)
-            if rest or parsed is None or not parsed[0] or tidy(parsed[1]) or "publications" in fields:
-                keep(sec)
-                notes.append(f"'{sec['label']}' isn't a plain list, kept as text")
-                continue
-            fields["publications"] = parsed[0]
-            if sec["label"].lower() != "publications":
-                fields["publications_label"] = sec["label"]
+            plain = (not rest and parsed is not None and parsed[0] and not tidy(parsed[1])
+                     and sec["label"].lower() in ("publications", "selected publications", "main publications"))
+            if plain and "publications" not in fields:
+                fields["publications"] = parsed[0]
+                if sec["label"].lower() != "publications":
+                    fields["publications_label"] = sec["label"]
+            else:
+                # Subheadings, notes or a second kind of list (book chapters,
+                # popular science): moved to the Publications tab as written.
+                heading = [] if sec["label"].lower() == "publications" and not rest else [sec["heading"], ""]
+                add_text("publications_text", tidy(heading + lines))
+                notes.append(f"'{sec['label']}' moved to the Publications tab as written")
 
         elif key == "contact":
             # Only the label's own line and a list straight after it; anything
@@ -216,7 +228,14 @@ def convert(front, body):
         else:
             keep(sec)
 
-    return fields, tidy(leftover), notes
+    # A divider that separated a moved section from what followed it (e.g.
+    # contact details, then photos) would otherwise open or close the text.
+    body = tidy(leftover).split("\n")
+    while body and HORIZONTAL_RULE.match(body[0]):
+        body = body[1:]
+    while body and HORIZONTAL_RULE.match(body[-1]):
+        body = body[:-1]
+    return fields, tidy(body), notes
 
 
 def render(front, fields, new_body):
