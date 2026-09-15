@@ -23,7 +23,7 @@ layout: default
 {%- endcapture -%}
 {%- assign years = years | strip -%}
 {%- assign has_research = false -%}
-{%- if page.project or page.studies or page.themes or page.background or page.background_text -%}{%- assign has_research = true -%}{%- endif -%}
+{%- if page.project or page.studies or page.themes or page.background -%}{%- assign has_research = true -%}{%- endif -%}
 {%- assign has_publications = false -%}
 {%- if page.publications.size > 0 or page.publications_text -%}{%- assign has_publications = true -%}{%- endif -%}
 
@@ -64,6 +64,7 @@ layout: default
     <section class="nb-page prose" id="about" role="tabpanel" aria-labelledby="nb-tab-about">
       <h2 class="nb-page-title">About</h2>
       {% if page.intro %}<div class="nb-block nb-intro">{{ page.intro | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
+      {% if page.background_text %}<div class="nb-block"><h3 class="nb-label">Background</h3>{{ page.background_text | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
       {% if page.interests %}<div class="nb-block"><h3 class="nb-label">Research interests</h3>{{ page.interests | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
       {% if page.ask_me_about %}<div class="nb-block"><h3 class="nb-label">Ask me about</h3>{{ page.ask_me_about | markdownify }}</div>{% endif %}
       {% if page.other_interests %}<div class="nb-block"><h3 class="nb-label">Other interests</h3>{{ page.other_interests | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
@@ -77,7 +78,6 @@ layout: default
       <h2 class="nb-page-title">Research</h2>
       {% if page.project %}<div class="nb-block"><h3 class="nb-label">Project</h3><p class="nb-project">{{ page.project | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p></div>{% endif %}
       {% if page.themes %}<div class="nb-block"><h3 class="nb-label">Research themes</h3><ul class="nb-themes">{% for theme in page.themes %}<li>{{ theme }}</li>{% endfor %}</ul></div>{% endif %}
-      {% if page.background_text %}<div class="nb-block"><h3 class="nb-label">Background</h3>{{ page.background_text | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
       {% if page.background %}
       {%- comment -%} Career ruler: lines starting with a year or year range ("2019–2023: ...", "Sept 2023–present: ...") are drawn to scale; any others are listed underneath. {%- endcomment -%}
       {%- assign ruler_min = 9999 -%}

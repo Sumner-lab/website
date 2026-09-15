@@ -46,7 +46,7 @@ Everything goes in the front matter at the top of the file. Only `name`, `role`,
 | `project` | Research tab |
 | `themes` | Research tab, and the theme filters on the People page, e.g. `[Ecology, Genomics]` |
 | `background` | Research tab: a list, one line per role, newest first. Lines starting with years (`2019–2023: …`) are drawn on the career ruler |
-| `background_text` | Research tab, above the career ruler: paragraphs about your background (Markdown) |
+| `background_text` | About tab, under "Background": paragraphs about who you are and your path so far (Markdown) |
 | `intro`, `interests`, `ask_me_about`, `other_interests`, `biography`, `contact` | About tab (Markdown) |
 | `publications` (+ optional `publications_label`) | Publications tab: a list, one publication per line (Markdown) |
 | `publications_text` | Publications tab, below the list: anything else, e.g. book chapters or popular science articles, with their own subheadings (Markdown) |
