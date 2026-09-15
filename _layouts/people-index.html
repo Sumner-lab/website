@@ -12,7 +12,11 @@ layout: default
   {% unless page.header_image %}<h1>{{ page.title }}</h1>{% endunless %}
   <div class="prose">{{ content }}</div>
 
-  {% assign current = site.people | where: "status", "current" | sort: "order" %}
+  {% comment %}Current members: anyone with an `order:` pinned first (eg. the PI), then everyone else alphabetically -- so a new member's profile needs no numbering.{% endcomment %}
+  {% assign current_people = site.people | where: "status", "current" %}
+  {% assign pinned = current_people | where_exp: "p", "p.order" | sort: "order" %}
+  {% assign unpinned = current_people | where_exp: "p", "p.order == nil" | sort: "name" %}
+  {% assign current = pinned | concat: unpinned %}
   {% assign alumni = site.people | where: "status", "alumni" | sort: "name" %}
   {% assign rotations = "-1.6,1.2,-0.8,1.8,-1.2,0.9,-1.9,1.5" | split: "," %}
 

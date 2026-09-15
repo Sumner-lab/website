@@ -1,0 +1,148 @@
+name: Add a new lab member
+description: New to the Sumner Lab? Add your profile to the People page -- no Markdown or git needed, just fill in the form below.
+title: "[New member] "
+labels: ["new-member-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to the lab! Fill this in and submit -- it opens a pull request automatically, which a lab member will review before your profile goes live. You'll need to be signed in to GitHub to submit this, but nothing else technical is required.
+
+        **Everything you enter here will be public on the lab website.** You can change any of it later.
+  - type: input
+    id: name
+    attributes:
+      label: Full name
+      description: As you'd like it to appear on the website.
+      placeholder: "e.g. Jane Smith"
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: Role and topic
+      description: One short line shown under your name on the People page.
+      placeholder: "e.g. PhD Student, Ecology & Behaviour of Asian Giant Hornets"
+    validations:
+      required: true
+  - type: input
+    id: position
+    attributes:
+      label: Position
+      placeholder: "e.g. PhD Student, Postdoctoral Research Fellow, Research Technician"
+    validations:
+      required: true
+  - type: input
+    id: joined
+    attributes:
+      label: Year you joined the lab
+      placeholder: "e.g. 2026"
+    validations:
+      required: true
+  - type: textarea
+    id: photo
+    attributes:
+      label: Profile photo
+      description: Drag one photo into this box, or paste with Ctrl/Cmd+V -- GitHub uploads it automatically (you'll see an image link appear, that's normal, leave it as is). A clear, roughly square photo of your face works best -- it's shown in a circle and on a small card.
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Permission
+      options:
+        - label: I'm happy for this photo and everything in this form to appear on the public lab website.
+          required: true
+  - type: textarea
+    id: interests
+    attributes:
+      label: Research interests
+      description: A few sentences about what you work on and what interests you -- writing in the first person is fine.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        Everything below is **optional** -- fill in whatever you'd like on your profile, and leave the rest blank.
+  - type: input
+    id: project
+    attributes:
+      label: Project (optional)
+      description: The title or a one-line summary of your current project.
+  - type: textarea
+    id: background
+    attributes:
+      label: Background (optional)
+      description: Your career and education so far, one per line, newest first.
+      placeholder: |
+        2026–present: PhD Candidate, University College London
+        2021–2025: MSci Zoology, University of Sussex
+  - type: input
+    id: email
+    attributes:
+      label: Contact email (optional)
+      description: Shown publicly on your profile.
+      placeholder: "e.g. jane.smith.26@ucl.ac.uk"
+  - type: textarea
+    id: publications
+    attributes:
+      label: Publications (optional)
+      description: One per line, in any citation style.
+  - type: textarea
+    id: other_interests
+    attributes:
+      label: Other interests (optional)
+      description: Anything outside research you'd like to share.
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Links (optional)** -- each one appears as a button on your profile. A full link always works; where noted, just your username or ID is fine too.
+  - type: input
+    id: bluesky
+    attributes:
+      label: Bluesky
+      placeholder: "e.g. janesmith.bsky.social"
+  - type: input
+    id: twitter
+    attributes:
+      label: X / Twitter
+      placeholder: "e.g. @janesmith"
+  - type: input
+    id: instagram
+    attributes:
+      label: Instagram
+      placeholder: "e.g. @janesmith"
+  - type: input
+    id: linkedin
+    attributes:
+      label: LinkedIn
+      placeholder: "https://www.linkedin.com/in/..."
+  - type: input
+    id: orcid
+    attributes:
+      label: ORCID
+      placeholder: "e.g. 0000-0002-1825-0097"
+  - type: input
+    id: scholar
+    attributes:
+      label: Google Scholar
+      placeholder: "https://scholar.google.com/citations?user=..."
+  - type: input
+    id: github
+    attributes:
+      label: GitHub
+      placeholder: "e.g. janesmith"
+  - type: input
+    id: website
+    attributes:
+      label: Personal website
+      placeholder: "https://..."
+  - type: textarea
+    id: other_links
+    attributes:
+      label: Other links
+      description: 'Anything else (ResearchGate, a lab blog...), one per line, as: Label | https://...'
+      placeholder: |
+        ResearchGate | https://www.researchgate.net/profile/...

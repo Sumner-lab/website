@@ -2,7 +2,6 @@
 name: Fernando Duarte Frutos
 role: Bioinformatician, Eco-Flow
 status: current
-order: 8
 joined: "2024"
 photo: /wp-content/uploads/2026/01/fernando.jpg
 title: Fernando Duarte Frutos
