@@ -30,7 +30,6 @@ interests: |-
   I have a broad interest in Hymenoptera and social insects, and my research interests span morphology, physiology, molecular biology, ecology, chemical ecology and behavioural ecology. I generally use wasps as my prime model system, but I love orchid bees and leaf-cutter ants too. The origin and maintenance of sociality in insects is a central question in my research. In the past, I studied how social queen pheromones could have evolved from cues or signals present in direct solitary ancestors, and the mechanisms that help maintain the honesty of queen signalling systems.
 
   Aside from my main projects, I'm also interested in neurobiology (differences in castes in social insects) and conservation ecology (population genetics of native bees, and pest control/sphecophiles in wasp nests).
-biography: I'm Brazilian/Belgian, and graduated with a BSc in Biology and a Master's in Genetics and Evolution at the Federal University of São Carlos, Brazil. For my PhD I moved to Belgium to study at KU Leuven, funded by the Science Without Borders programme (Brazil). After finishing my PhD I stayed at KUL for my first postdocs (funded by PDM and FWO). In 2022 I moved to London for a Marie Curie post-doctoral fellowship at UCL, and in 2024 I continued at UCL to work on the NERC project.
 background:
 - '2022–present: Postdoctoral researcher, UCL, UK'
 - '2022–2024: Marie Curie post-doctoral fellow'
@@ -38,6 +37,7 @@ background:
 - '2012–2016: PhD in Science (Biology), "The chemical crown of social insect wasps", Laboratory of Socioecology & Social Evolution, Dept. of Biology, KU Leuven, Belgium (CNPq SWB Fellowship)'
 - '2008–2010: MSc in Genetics and Evolution, Laboratory of Evolutionary Genetics of Hymenoptera (LGEH-UFSCAR), Federal University of São Carlos, Brazil (CAPES fellowship)'
 - '2003–2007: Licentiate in Biology & BSc in Biology, Federal University of São Carlos, Brazil'
+background_text: I'm Brazilian/Belgian, and graduated with a BSc in Biology and a Master's in Genetics and Evolution at the Federal University of São Carlos, Brazil. For my PhD I moved to Belgium to study at KU Leuven, funded by the Science Without Borders programme (Brazil). After finishing my PhD I stayed at KUL for my first postdocs (funded by PDM and FWO). In 2022 I moved to London for a Marie Curie post-doctoral fellowship at UCL, and in 2024 I continued at UCL to work on the NERC project.
 publications:
 - 'Ferreira, H.M., Di Pietro, V., **Oi, C.A.**, Alves, D.A., Korb, J., Ratnieks, F.L.W. and Wenseleers, T. (2025) Conflict over caste fate in insect societies. *Biological Reviews*. doi: [10.1111/brv.70107](https://doi.org/10.1111/brv.70107)'
 - 'Mattens A., Christiaens H., Debeuckelaere K., Di Pietro V., Ferreira H.M., Nascimento F.S., **Oi C.A.\***, Wenseleers T.\* Age-related differences in learning, memory and brain plasticity in workers of the common wasp *Vespula vulgaris*. *J Exp Biol* 2025; jeb.251673. doi: [10.1242/jeb.251673](https://doi.org/10.1242/jeb.251673)'
@@ -81,16 +81,16 @@ publications:
 - '**Oi C.A.**, M.M. López-Uribe, M. Cervini & M.A. Del Lama (2013) Non-lethal method of DNA sampling in euglossine bees supported by mark-recapture experiments and microsatellite genotyping. *Journal of Insect Conservation* 17(5): 1071-1079. doi: 10.1007/s10841-013-9582-8'
 - 'Cerântola N.C.M., **Oi C.A.**, Cervini M. & Del Lama M.A. (2011) Genetic differentiation of urban populations of *Euglossa cordata* from the state of São Paulo, Brazil. *Apidologie* 42: 214-222. doi: 10.1051/apido/2010055'
 - 'López-Uribe M.M., **Oi C.A.** & Del Lama M.A. (2008) Nectar-foraging behavior of euglossine bees (Hymenoptera: Apidae) in urban areas. *Apidologie* 39: 410-418. doi: [10.1051/apido:2008023](https://doi.org/10.1051/apido:2008023)'
+publications_text: |-
+  **Book chapters**
+
+  1. **Oi C.A.**, Oliveira. R.C., Wenseleers T. Causes and consequences of reproductive conflicts in wasp societies. In: *Neotropical Social Wasps: Basic and Applied Aspects*. Springer. doi: 10.1007/978-3-030-53510-0_8
+  2. Wenseleers, T., **Oi C.A.**, Oliveira R.C. Worker policing. In: *Encyclopedia of Social Insects*. Springer. doi: 10.1007/978-3-319-90306-4_137-1
+  3. Wenseleers, T., Princen, S., Oliveira, R.C., **Oi, C.A.** Conflicts of interest within colonies. In: *Encyclopedia of Social Insects* (ed. Christopher K. Starr). Springer. doi: 10.1007/978-3-319-90306-4_28-1
 contact: |-
   - Email: [c.oi@ucl.ac.uk](mailto:c.oi@ucl.ac.uk) / [cintia.oi@nhm.ac.uk](mailto:cintia.oi@nhm.ac.uk)
   - [Instagram](https://www.instagram.com/cintia.oi/) · [LinkedIn](https://www.linkedin.com/in/cintia-oi-527ab231/) · [Google Scholar](https://scholar.google.com/citations?user=AOt97HQAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Cintia-Oi)
 ---
-**Book chapters**
-
-1. **Oi C.A.**, Oliveira. R.C., Wenseleers T. Causes and consequences of reproductive conflicts in wasp societies. In: *Neotropical Social Wasps: Basic and Applied Aspects*. Springer. doi: 10.1007/978-3-030-53510-0_8
-2. Wenseleers, T., **Oi C.A.**, Oliveira R.C. Worker policing. In: *Encyclopedia of Social Insects*. Springer. doi: 10.1007/978-3-319-90306-4_137-1
-3. Wenseleers, T., Princen, S., Oliveira, R.C., **Oi, C.A.** Conflicts of interest within colonies. In: *Encyclopedia of Social Insects* (ed. Christopher K. Starr). Springer. doi: 10.1007/978-3-319-90306-4_28-1
-
 **Visiting students at UCL**
 
 - Zann Teo Jiexin (6 months, 2022) — Nanyang Technological University, Singapore. Bachelor of Science, CN Yang Scholars Programme. Overseas FYP Proposal (UCL) — Bachelor thesis

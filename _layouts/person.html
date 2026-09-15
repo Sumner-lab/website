@@ -23,7 +23,9 @@ layout: default
 {%- endcapture -%}
 {%- assign years = years | strip -%}
 {%- assign has_research = false -%}
-{%- if page.project or page.studies or page.themes or page.background -%}{%- assign has_research = true -%}{%- endif -%}
+{%- if page.project or page.studies or page.themes or page.background or page.background_text -%}{%- assign has_research = true -%}{%- endif -%}
+{%- assign has_publications = false -%}
+{%- if page.publications.size > 0 or page.publications_text -%}{%- assign has_publications = true -%}{%- endif -%}
 
 <article class="nb wrap">
   <header class="nb-head">
@@ -55,7 +57,7 @@ layout: default
     <div class="nb-tabs" role="tablist" aria-label="Profile sections" hidden>
       <button type="button" role="tab" id="nb-tab-about" aria-controls="about" aria-selected="true">About</button>
       {% if has_research %}<button type="button" role="tab" id="nb-tab-research" aria-controls="research" aria-selected="false" tabindex="-1">Research</button>{% endif %}
-      {% if page.publications.size > 0 %}<button type="button" role="tab" id="nb-tab-publications" aria-controls="publications" aria-selected="false" tabindex="-1">Publications<span class="nb-count">{{ page.publications.size }}</span></button>{% endif %}
+      {% if has_publications %}<button type="button" role="tab" id="nb-tab-publications" aria-controls="publications" aria-selected="false" tabindex="-1">Publications{% if page.publications.size > 0 %}<span class="nb-count">{{ page.publications.size }}</span>{% endif %}</button>{% endif %}
       {% if my_media.size > 0 %}<button type="button" role="tab" id="nb-tab-media" aria-controls="media" aria-selected="false" tabindex="-1">In the media<span class="nb-count">{{ my_media.size }}</span></button>{% endif %}
     </div>
 
@@ -75,6 +77,7 @@ layout: default
       <h2 class="nb-page-title">Research</h2>
       {% if page.project %}<div class="nb-block"><h3 class="nb-label">Project</h3><p class="nb-project">{{ page.project | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p></div>{% endif %}
       {% if page.themes %}<div class="nb-block"><h3 class="nb-label">Research themes</h3><ul class="nb-themes">{% for theme in page.themes %}<li>{{ theme }}</li>{% endfor %}</ul></div>{% endif %}
+      {% if page.background_text %}<div class="nb-block"><h3 class="nb-label">Background</h3>{{ page.background_text | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
       {% if page.background %}
       {%- comment -%} Career ruler: lines starting with a year or year range ("2019–2023: ...", "Sept 2023–present: ...") are drawn to scale; any others are listed underneath. {%- endcomment -%}
       {%- assign ruler_min = 9999 -%}
@@ -126,13 +129,18 @@ layout: default
     </section>
     {% endif %}
 
-    {% if page.publications.size > 0 %}
+    {% if has_publications %}
     <section class="nb-page prose" id="publications" role="tabpanel" aria-labelledby="nb-tab-publications">
-      <h2 class="nb-page-title">{{ page.publications_label | default: "Publications" }}</h2>
-      {% if page.publications_label %}<h3 class="nb-label">{{ page.publications_label }}</h3>{% endif %}
-      <ul class="nb-pubs">
-        {% for pub in page.publications %}<li>{{ pub | replace: baseurl_tag, site.baseurl | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>{% endfor %}
-      </ul>
+      <h2 class="nb-page-title">Publications</h2>
+      {% if page.publications.size > 0 %}
+      <div class="nb-block">
+        {% if page.publications_label %}<h3 class="nb-label">{{ page.publications_label }}</h3>{% endif %}
+        <ul class="nb-pubs">
+          {% for pub in page.publications %}<li>{{ pub | replace: baseurl_tag, site.baseurl | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>{% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      {% if page.publications_text %}<div class="nb-block">{{ page.publications_text | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
     </section>
     {% endif %}
 

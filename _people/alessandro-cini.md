@@ -24,26 +24,26 @@ background:
 - '2008–2010: PhD in Ethology and Animal Ecology, Dipartimento di Biologia Evoluzionistica "Leo Pardi", Università di Firenze, under the supervision of Dr.ssa Rita Cervo'
 - '2008: Diploma di Licenza in Scienze Biologiche, Scuola Normale Superiore di Pisa'
 - '2007: Master''s Degree in Neurobiology (summa cum laude), University of Pisa'
+publications_text: |-
+  **Main publications** ([full list on Google Scholar](https://scholar.google.com/citations?user=J1TqmeoAAAAJ&hl=it))
+
+  - Zapponi, L.\*, **Cini, A.\***, Bardiani, M., Hardersen, S., Maura, M., Maurizi, E., et al. (2016) Citizen science data as an efficient tool for mapping protected saproxylic beetles. *Biological Conservation*. (\*equally contributing authors)
+  - **Cini A.**, Patalano S., Segonds-Pichon A., Busby G., Cervo R., Sumner S. (2015) Social parasitism and the molecular basis of phenotypic evolution. *Frontiers in Genetics* 6, 32.
+  - Inghilesi A.F., Mazza G., Cervo R., **Cini A.** (2015) A network of sex and competition: the promiscuous mating system of an invasive weevil. *Current Zoology* 61, 85-97.
+  - **Cini, A.**, Ortolani, I., Zechini, L., & Cervo, R. (2015) Facial markings in the social cuckoo wasp *Polistes sulcifer*: no support for the visual deception and the assessment hypotheses. *Behavioural Processes*. 111, 19-24.
+  - **Cini, A.**, Anfora, G., Escudero-Colomar, L.A., Grassi, A., Santosuosso, U., Seljak, G., & Papini, A. (2014) Tracking the invasion of the alien fruit pest *Drosophila suzukii* in Europe. *Journal of Pest Science*, 87(4), 559-566.
+  - Baracchi, D., & **Cini, A.** (2014) A socio-spatial combined approach confirms a highly compartmentalised structure in honeybees. *Ethology*, 120(12), 1167-1176.
+  - **Cini, A.**, Nieri, R., Dapporto, L., Monnin, T., & Cervo, R. (2014) Almost royal: incomplete suppression of host worker ovarian development by a social parasite wasp. *Behavioral Ecology and Sociobiology*, 68(3), 467-475.
+  - **Cini, A.**, Bruschini, C., Signorotti, L., Pontieri, L., Turillazzi, S., & Cervo, R. (2011) The chemical basis of host nest detection and chemical integration in a cuckoo paper wasp. *Journal of Experimental Biology*, 214(21), 3698-3703.
+  - **Cini, A.**, Bruschini, C., Poggi, L., & Cervo, R. (2011) Fight or fool? Physical strength, instead of sensory deception, matters in host nest invasion by a wasp social parasite. *Animal Behaviour*, 81(6), 1139-1145.
+  - **Cini, A.**, Gioli, L., & Cervo, R. (2009) A quantitative threshold for nest-mate recognition in a paper social wasp. *Biology Letters*, 5(4), 459-461.
+  - Monnin, T., **Cini, A.**, Lecat, V., Fédérici, P., & Doums, C. (2009) No actual conflict over colony inheritance despite high potential conflict in the social wasp *Polistes dominulus*. *Proceedings of the Royal Society B*, 276(1662), 1593-1601.
 contact: '[cini.ales@gmail.com](mailto:cini.ales@gmail.com) · [www.alecini.it](http://www.alecini.it)'
 ---
 **Teaching**
 
 - "Social Insects in the Tropical Environments", International Master Course TROPIMUNDO, 2014–2016, University of Florence
 - "Experimental Biology Laboratory", Master's degree in Biology, teaching assistant, Dept. Biology, 2011, University of Florence
-
-**Main publications** ([full list on Google Scholar](https://scholar.google.com/citations?user=J1TqmeoAAAAJ&hl=it))
-
-- Zapponi, L.\*, **Cini, A.\***, Bardiani, M., Hardersen, S., Maura, M., Maurizi, E., et al. (2016) Citizen science data as an efficient tool for mapping protected saproxylic beetles. *Biological Conservation*. (\*equally contributing authors)
-- **Cini A.**, Patalano S., Segonds-Pichon A., Busby G., Cervo R., Sumner S. (2015) Social parasitism and the molecular basis of phenotypic evolution. *Frontiers in Genetics* 6, 32.
-- Inghilesi A.F., Mazza G., Cervo R., **Cini A.** (2015) A network of sex and competition: the promiscuous mating system of an invasive weevil. *Current Zoology* 61, 85-97.
-- **Cini, A.**, Ortolani, I., Zechini, L., & Cervo, R. (2015) Facial markings in the social cuckoo wasp *Polistes sulcifer*: no support for the visual deception and the assessment hypotheses. *Behavioural Processes*. 111, 19-24.
-- **Cini, A.**, Anfora, G., Escudero-Colomar, L.A., Grassi, A., Santosuosso, U., Seljak, G., & Papini, A. (2014) Tracking the invasion of the alien fruit pest *Drosophila suzukii* in Europe. *Journal of Pest Science*, 87(4), 559-566.
-- Baracchi, D., & **Cini, A.** (2014) A socio-spatial combined approach confirms a highly compartmentalised structure in honeybees. *Ethology*, 120(12), 1167-1176.
-- **Cini, A.**, Nieri, R., Dapporto, L., Monnin, T., & Cervo, R. (2014) Almost royal: incomplete suppression of host worker ovarian development by a social parasite wasp. *Behavioral Ecology and Sociobiology*, 68(3), 467-475.
-- **Cini, A.**, Bruschini, C., Signorotti, L., Pontieri, L., Turillazzi, S., & Cervo, R. (2011) The chemical basis of host nest detection and chemical integration in a cuckoo paper wasp. *Journal of Experimental Biology*, 214(21), 3698-3703.
-- **Cini, A.**, Bruschini, C., Poggi, L., & Cervo, R. (2011) Fight or fool? Physical strength, instead of sensory deception, matters in host nest invasion by a wasp social parasite. *Animal Behaviour*, 81(6), 1139-1145.
-- **Cini, A.**, Gioli, L., & Cervo, R. (2009) A quantitative threshold for nest-mate recognition in a paper social wasp. *Biology Letters*, 5(4), 459-461.
-- Monnin, T., **Cini, A.**, Lecat, V., Fédérici, P., & Doums, C. (2009) No actual conflict over colony inheritance despite high potential conflict in the social wasp *Polistes dominulus*. *Proceedings of the Royal Society B*, 276(1662), 1593-1601.
 
 **Science outreach**
 
