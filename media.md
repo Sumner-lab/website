@@ -15,6 +15,19 @@ TV, radio, and press coverage of the lab's work — and the people behind it.
 
 <div class="media-feature-cards">
   <article class="media-feature-card">
+    <a class="media-feature-card-image" href="https://inews.co.uk/opinion/simple-ways-stop-flies-home-summer-4686657"><img src="{{ site.baseurl }}/wp-content/uploads/2026/08/media-the-ipaper-issue52-1.jpg" alt="The iPAPER" loading="lazy"></a>
+    <div class="media-feature-card-body">
+      <h2>The iPAPER, 5 August 2026</h2>
+      <p class="media-feature-card-headline">Flies are everywhere right now - but there is a simple £10 solution</p>
+      <p class="media-feature-card-link"><a href="https://inews.co.uk/opinion/simple-ways-stop-flies-home-summer-4686657">Read the article →</a></p>
+    </div>
+  </article>
+</div>
+
+---
+
+<div class="media-feature-cards">
+  <article class="media-feature-card">
     <a class="media-feature-card-image" href="https://www.pestmagazine.co.uk/news/university-college-london-asks-pest-professionals-to-help-track-what-wasps-are-eating.html"><img src="{{ site.baseurl }}/wp-content/uploads/2026/08/media-pest-magazine-issue24-1.png" alt="Pest Magazine" loading="lazy"></a>
     <div class="media-feature-card-body">
       <h2>Pest Magazine, 26 August 2026</h2>
