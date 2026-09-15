@@ -42,12 +42,13 @@ Everything goes in the front matter at the top of the file. Only `name`, `role`,
 | `status` | `current` or `alumni` ("Left the nest") |
 | `joined` / `left`, or `stints` for more than one spell | "In the lab" years |
 | `position` | Specimen label, e.g. `PhD Student` |
+| `contact` | Specimen label: email and any other contact details (Markdown) |
 | `studies` | Specimen label, e.g. `Asian giant hornets` |
-| `project` | Research tab |
+| `project`, `interests` | Research tab (research interests as Markdown, can include images) |
 | `themes` | Research tab, and the theme filters on the People page, e.g. `[Ecology, Genomics]` |
 | `background` | Research tab: a list, one line per role, newest first. Lines starting with years (`2019–2023: …`) are drawn on the career ruler |
 | `background_text` | About tab, under "Background": paragraphs about who you are and your path so far (Markdown) |
-| `intro`, `interests`, `ask_me_about`, `other_interests`, `biography`, `contact` | About tab (Markdown) |
+| `intro`, `ask_me_about`, `other_interests`, `biography` | About tab (Markdown). The About tab is left out if a profile has none of these |
 | `publications` (+ optional `publications_label`) | Publications tab: a list, one publication per line (Markdown) |
 | `publications_text` | Publications tab, below the list: anything else, e.g. book chapters or popular science articles, with their own subheadings (Markdown) |
 
