@@ -1507,6 +1507,7 @@
 - outlet: BBC Breakfast
   type: TV
   date: 2025-07-24
+  url: 'https://videopress.com/v/fc2GWn8i'
   people: [idris-adams]
   submitted_via_issue: 36
 
