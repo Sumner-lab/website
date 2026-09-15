@@ -30,6 +30,29 @@ Preview locally before pushing. `main` is protected: changes go in through a pul
 
 The social wall and visit analytics data (`_data/social_wall.json`, `_data/analytics.json`, `_data/analytics_totals.json`) are refreshed by scheduled bots on the separate `site-data` branch, since a bot can't get its changes approved. The live build always uses the `site-data` copies; the ones on `main` are only there so local previews have something to show.
 
+## Profile pages
+
+Each file in `_people/` is one profile, shown as a "field notebook" page (`_layouts/person.html`): a polaroid photo, a specimen-label summary, and tabs for **About**, **Research**, **Publications** and **In the media**. A tab only appears when it has something in it.
+
+Everything goes in the front matter at the top of the file. Only `name`, `role`, `status` and `photo` are needed; leave out anything that doesn't apply.
+
+| Field | What it's for |
+|---|---|
+| `name`, `role`, `photo`, `photo_position`, `links` | Header, People page card, link buttons |
+| `status` | `current` or `alumni` ("Left the nest") |
+| `joined` / `left`, or `stints` for more than one spell | "In the lab" years |
+| `position` | Specimen label, e.g. `PhD Student` |
+| `studies` | Specimen label, e.g. `Asian giant hornets` |
+| `project` | Research tab |
+| `themes` | Research tab, and the theme filters on the People page, e.g. `[Ecology, Genomics]` |
+| `background` | Research tab: a list, one line per role, newest first. Lines starting with years (`2019–2023: …`) are drawn on the career ruler |
+| `intro`, `interests`, `ask_me_about`, `other_interests`, `biography`, `contact` | About tab (Markdown) |
+| `publications` (+ optional `publications_label`) | Publications tab: a list, one publication per line (Markdown) |
+
+Media appearances fill in the **In the media** tab automatically, from entries in `_data/media.yml` that list the person under `people:`. Anything written below the front matter still shows on the About tab, so sections that don't fit a field (Teaching, Book chapters…) can stay as normal Markdown.
+
+Older profiles were written as one block of Markdown with bold labels (`**Position:**`, `**Background**`…). `bin/convert_profiles.py` moves those into the fields above without losing any text; run `python3 bin/convert_profiles.py --check` to preview it. It skips profiles that already use the fields, so it's safe to re-run.
+
 ## Sharing a preview with someone outside the team
 
 Since this branch is unbuilt source, you can't just zip the repo and hand it over the way phase 1 worked — there'd be nothing to look at without Jekyll installed. Instead:
