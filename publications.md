@@ -3,7 +3,8 @@ title: Publications
 permalink: /publications/
 header_image: /assets/images/hero-yellowjacket.jpg
 ---
-Peer-reviewed papers, book chapters, and other academic outputs co-authored by Seirian Sumner. For work published by lab members without Sumner as a co-author, see [Wider Sumner Lab Papers]({{ site.baseurl }}/publications/wider/).
+Peer-reviewed papers, book chapters, and other academic outputs co-authored by Seirian Sumner. For work published by lab members without Sumner as a co-author, see [Wider Sumner Lab Papers]({{ site.baseurl }}/publications/wider/). 
+BLABLABLA
 
 ## 2026
 
