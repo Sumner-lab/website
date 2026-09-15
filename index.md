@@ -8,6 +8,6 @@ feature_caption: "Trophallaxis: workers exchanging food, marked with paint dots 
 redirect_from:
   - /the-sumner-lab/
 ---
-We are an evolutionary biology research group at University College London, using insects — mostly wasps — to understand how cooperation, conflict and complex societies evolve.
+We are an evolutionary biology research group at University College London, using insects — mostly wasps — to understand how cooperation, conflict and complex societies evolve. bla bla bla
 
 From the genomics of caste evolution to citizen science projects like the [Big Wasp Survey]({{ site.baseurl }}/big-wasp-survey/), our work spans the lab bench, the field, and the public's relationship with the insects most people love to hate.
