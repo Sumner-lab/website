@@ -3,7 +3,7 @@ title: Publications
 permalink: /publications/
 header_image: /assets/images/hero-yellowjacket.jpg
 ---
-Peer-reviewed papers, book chapters, and other academic outputs co-authored by Seirian Sumner. For work published by lab members without Sumner as a co-author, see [Wider Sumner Lab Papers]({{ site.baseurl }}/publications/wider/).
+This page lists peer-reviewed papers, book chapters, and other academic outputs from the lab that are co-authored by lab PI, Seirian Sumner. For papers authored by group members during their time in the Sumner Lab, but without Seirian as a co-author - e.g. due to other, independent collaborations - see  [Wider Sumner Lab Papers]({{ site.baseurl }}/publications/wider/).
 
 ## 2026
 
