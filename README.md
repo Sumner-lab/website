@@ -55,6 +55,10 @@ Older profiles were written as one block of Markdown with bold labels (`**Positi
 
 To see what each profile is still missing (years in the lab, career history, ORCID link, the newer fields…), run `python3 bin/profile_checklist.py`. It prints a table that can be pasted into an issue for the lab.
 
+## Previewing a pull request
+
+Every pull request gets a temporary copy of the site with its changes, built by Netlify (settings in `netlify.toml`). A couple of minutes after a PR is opened or updated, a **Deploy Preview** link appears in the checks at the bottom of the PR. Click it to look around before approving. Previews don't count towards visit analytics, and the live site is unaffected: it's still built by GitHub Pages.
+
 ## Sharing a preview with someone outside the team
 
 Since this branch is unbuilt source, you can't just zip the repo and hand it over the way phase 1 worked — there'd be nothing to look at without Jekyll installed. Instead:

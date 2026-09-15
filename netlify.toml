@@ -1,0 +1,19 @@
+# Netlify only builds previews of pull requests, so reviewers can click
+# "Deploy Preview" on a PR and see the site with its changes before
+# approving. The live site is still built and hosted by GitHub Pages
+# (.github/workflows/pages.yml).
+
+[build]
+  command = "bundle exec jekyll build --config _config.yml,_config_netlify.yml"
+  publish = "_site"
+
+[build.environment]
+  RUBY_VERSION = "3.3.6"
+
+# main is already live on GitHub Pages, and other branches don't need a
+# copy either: skip both. ("exit 0" tells Netlify not to build.)
+[context.production]
+  ignore = "exit 0"
+
+[context.branch-deploy]
+  ignore = "exit 0"
