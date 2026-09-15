@@ -4,6 +4,7 @@ role: Senior Bioinformatician
 status: current
 order: 2
 joined: "September 2024"
+scopus_author_id: "57463627000"
 photo: /wp-content/uploads/2026/08/alexcda.jpg
 title: Alex Cerqueira de Araujo
 redirect_from:
@@ -41,17 +42,8 @@ My study approaches integrate molecular and evolutionary biology, bioinformatics
 **Contact:** [alexandra.araujo@ucl.ac.uk](mailto:alexandra.araujo@ucl.ac.uk)
 
 **Publications**
+{% include scopus-publications.html %}
 
-*Articles*
-
-8. Cerqueira de Araujo A, Noël B, Bretaudeau A, Labadie K, Boudet M, Tadrent N, Istace B, Kritli S, Cruaud C, Olaso R, Deleuze J-F, Voordouw M, Hervet C, Plantard O, Zamoto-Niikura A, Chertemps T, Maïbèche M, Hilliou F, Le Goff G, Chmelar J, Mazák V, Jmel MA, Kotsyfakis M, Medina JM, Hackenberg M, Šimo L, Koutroumpa FA, Wincker P, Kopacek P, Perner J, Aury J-M, Rispe C. Genome sequences of four *Ixodes* species expands understanding of tick evolution. *BMC Biology*. 2025 Jan 21; 23(17). doi: [10.1186/s12915-025-02121-1](https://doi.org/10.1186/s12915-025-02121-1)
-7. Pienaar RD, Herrero S, Cerqueira de Araujo A, Krupa F, Abd-Alla AMM, Herniou EA. Optimization of screening methods leads to the discovery of new viruses in black soldier flies (*Hermetia illucens*). *bioRxiv* 2024.08.27.609913. doi: [10.1101/2024.08.27.609913](https://doi.org/10.1101/2024.08.27.609913)
-6. Cerqueira de Araujo A, Leobold M, Cariou M, Ferreira dos Santos B, Uzbekov R, Ricciardi R, Scaramozzino P, Lucchi A, Musset K, Drezen J-M, Josse T, Huguet E. Discovery of new endogenous viral elements in campoplegine wasps (Ichneumonidae, Campopleginae, *Campoplex*) suggests a widespread nudivirus domestication event. *bioRxiv* 2023.12.12.569846. doi: [10.1101/2023.12.12.569846](https://doi.org/10.1101/2023.12.12.569846)
-5. Cerqueira de Araujo A, Josse T, Sibut V, Urabe M, Asadullah A, Barbe V, Nakai M, Huguet E, Periquet G, Drezen J-M. *Chelonus inanitus* bracovirus encodes lineage specific proteins and truncated immune IκB-like factors. *Journal of General Virology*. 2022 Oct; 103(10). doi: [10.1099/jgv.0.001791](https://doi.org/10.1099/jgv.0.001791)
-4. Cerqueira de Araujo A, Leobold M, Bézier A, Musset K, Uzbekov R, Volkoff A-N, Drezen J-M, Huguet E, Josse T. Conserved viral transcription plays a key role in virus-like particle production of the parasitoid wasp *Venturia canescens*. *Journal of Virology*. 2022 Jun 9; e0052422. doi: [10.1128/jvi.00524-22](https://doi.org/10.1128/jvi.00524-22)
-3. Cerqueira de Araujo A, Huguet E, Herniou EA, Drezen J-M, Josse T. Transposable element repression using piRNAs, and its relevance to endogenous viral elements (EVEs) and immunity in insects. *Current Opinion in Insect Science*. 2022 Jan 19;100876. doi: [10.1016/j.cois.2022.100876](https://doi.org/10.1016/j.cois.2022.100876)
-2. Prigot‐Maurice C, Cerqueira de Araujo A, Beltran‐Bech S, Braquart‐Varnier C. Immune priming depends on age, sex and *Wolbachia* in the interaction between *Armadillidium vulgare* and *Salmonella*. *Journal of Evolutionary Biology*. 2021 Feb;34(2):256-69. doi: [10.1111/jeb.13721](https://doi.org/10.1111/jeb.13721)
-1. Prigot-Maurice C, Cerqueira de Araujo A, Durand S, Laverré T, Pigeault R, Verdon J, Bulet P, Beltran-Bech S, Braquart-Varnier C. Survival capacity of the common woodlouse *Armadillidium vulgare* is improved with a second infection of *Salmonella enterica*. *Journal of Invertebrate Pathology*. 2019 Nov 1;168:107278. doi: [10.1016/j.jip.2019.107278](https://doi.org/10.1016/j.jip.2019.107278)
 
 *Book chapter*
 
