@@ -53,6 +53,8 @@ Media appearances fill in the **In the media** tab automatically, from entries i
 
 Older profiles were written as one block of Markdown with bold labels (`**Position:**`, `**Background**`…). `bin/convert_profiles.py` moves those into the fields above without losing any text; run `python3 bin/convert_profiles.py --check` to preview it. It skips profiles that already use the fields, so it's safe to re-run.
 
+To see what each profile is still missing (years in the lab, career history, ORCID link, the newer fields…), run `python3 bin/profile_checklist.py`. It prints a table that can be pasted into an issue for the lab.
+
 ## Sharing a preview with someone outside the team
 
 Since this branch is unbuilt source, you can't just zip the repo and hand it over the way phase 1 worked — there'd be nothing to look at without Jekyll installed. Instead:

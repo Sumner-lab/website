@@ -59,6 +59,7 @@ LABELS = {
 
 BOLD_HEADING = re.compile(r'^\*\*(?P<label>[^*\n]{1,40}?):?\*\*:?[ \t]*(?P<rest>.*)$')
 MD_HEADING = re.compile(r'^##[ \t]+(?P<label>[^#\n]+?)[ \t]*$')
+HORIZONTAL_RULE = re.compile(r"^\s*(?:-{3,}|\*{3,}|_{3,})\s*$")
 LIST_ITEM = re.compile(r'^(?:[-*]|\d+\.)[ \t]+(?P<item>.*)$')
 
 
@@ -216,7 +217,14 @@ def convert(front, body):
         else:
             keep(sec)
 
-    return fields, tidy(leftover), notes
+    # A divider that separated a moved section from what followed it (e.g.
+    # contact details, then photos) would otherwise open or close the text.
+    body = tidy(leftover).split("\n")
+    while body and HORIZONTAL_RULE.match(body[0]):
+        body = body[1:]
+    while body and HORIZONTAL_RULE.match(body[-1]):
+        body = body[:-1]
+    return fields, tidy(body), notes
 
 
 def render(front, fields, new_body):
