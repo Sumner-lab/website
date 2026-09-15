@@ -245,6 +245,83 @@ def build_featured_section(fields, date_str, outlet, image_path, links, notes):
     return "\n".join(lines) + "\n"
 
 
+CARD_LINK_TEXT = {"Print": "Read the article", "TV": "Watch", "Radio": "Listen", "Podcast": "Listen"}
+
+# A row of Featured cards, as written by build_featured_card_group -- the
+# group's own tags sit at column 0 and everything inside is indented, so
+# the first unindented </div> is always the group's end.
+CARD_GROUP_RE = re.compile(r'<div class="media-feature-cards">\n(?P<cards>.*?)\n</div>', re.S)
+CARD_OPEN = '  <article class="media-feature-card">'
+
+
+def is_compact_feature(fields, other_links):
+    """A Featured submission with nothing to it beyond an image, headline
+    and one link would leave most of a full-width section empty, so it's
+    shown as a half-width card instead (paired side by side with the next
+    one). Anything with a description or extra links keeps the full
+    section layout, which has room for them."""
+    return not fields["description"].strip() and not other_links
+
+
+def build_featured_card(fields, date_str, outlet, media_type, image_path, notes):
+    """One card's HTML, indented to sit inside a media-feature-cards group.
+    Plain HTML rather than Markdown (Markdown isn't parsed inside an HTML
+    block), with all free text escaped -- issue text is untrusted input."""
+    import datetime
+    pretty_date = datetime.date.fromisoformat(date_str).strftime("%-d %B %Y")
+    esc_outlet = html.escape(outlet)
+    url = safe_url(fields["url"], notes)
+    href = html.escape(url) if url else None
+    headline = fields["headline"].strip()
+
+    lines = [CARD_OPEN]
+    if image_path:
+        img = f'<img src="{{{{ site.baseurl }}}}{image_path}" alt="{esc_outlet}" loading="lazy">'
+        lines.append(f'    <a class="media-feature-card-image" href="{href}">{img}</a>' if href
+                     else f'    <span class="media-feature-card-image">{img}</span>')
+    lines.append('    <div class="media-feature-card-body">')
+    lines.append(f'      <h2>{esc_outlet}, {pretty_date}</h2>')
+    if headline:
+        lines.append(f'      <p class="media-feature-card-headline">{html.escape(headline)}</p>')
+    if href:
+        link_text = CARD_LINK_TEXT.get(media_type, "Find out more")
+        lines.append(f'      <p class="media-feature-card-link"><a href="{href}">{link_text} →</a></p>')
+    lines.append('    </div>')
+    lines.append('  </article>')
+    return "\n".join(lines)
+
+
+def insert_featured_card(card_html, notes):
+    """Inserts a card below FEATURED_INSERT_MARKER in media.md: into the
+    card group directly below the marker if that group holds a single card
+    (making a side-by-side pair, newest on the left), otherwise as a new
+    group of its own. Returns (written, paired)."""
+    with open(MEDIA_PAGE_PATH, "r", encoding="utf-8") as f:
+        current = f.read()
+
+    if FEATURED_INSERT_MARKER not in current:
+        notes.append("Couldn't find the Featured-section insert marker in media.md -- "
+                      "not added as a Featured section (the archive entry was still saved).")
+        return False, False
+
+    head, _, rest = current.partition(FEATURED_INSERT_MARKER)
+    top = CARD_GROUP_RE.match(rest.lstrip("\n"))
+    if top and top.group("cards").count(CARD_OPEN) == 1:
+        rest = rest.lstrip("\n")
+        rest = ('<div class="media-feature-cards">\n' + card_html + "\n" + top.group("cards")
+                + "\n</div>" + rest[top.end():])
+        new_content = head + FEATURED_INSERT_MARKER + "\n\n" + rest
+        paired = True
+    else:
+        group = '<div class="media-feature-cards">\n' + card_html + "\n</div>\n\n---"
+        new_content = head + FEATURED_INSERT_MARKER + "\n\n" + group + rest
+        paired = False
+
+    with open(MEDIA_PAGE_PATH, "w", encoding="utf-8") as f:
+        f.write(new_content)
+    return True, paired
+
+
 def insert_featured_section(section_md, notes):
     """Inserts section_md directly after FEATURED_INSERT_MARKER in
     media.md. Returns True if the marker was found and the file written."""
@@ -349,10 +426,20 @@ def main():
     saved_to_data = append_entry(entry_block, notes)
 
     added_to_media_page = False
+    featured_note = None
     if is_featured:
         other_links = parse_other_links(fields["other_links"], notes)
-        section_md = build_featured_section(fields, date_str, outlet, photo_path, other_links, notes)
-        added_to_media_page = insert_featured_section(section_md, notes)
+        if is_compact_feature(fields, other_links):
+            card_html = build_featured_card(fields, date_str, outlet, media_type, photo_path, notes)
+            added_to_media_page, paired = insert_featured_card(card_html, notes)
+            featured_note = ("- Added as a Featured card on the Media page, side by side with the one below it."
+                             if paired else
+                             "- Added as a Featured card on the Media page (it'll sit side by side with the "
+                             "next short featured entry).")
+        else:
+            section_md = build_featured_section(fields, date_str, outlet, photo_path, other_links, notes)
+            added_to_media_page = insert_featured_section(section_md, notes)
+            featured_note = "- Added as a Featured section on the Media page."
 
     with open(manifest_path, "w", encoding="utf-8") as f:
         json.dump({
@@ -366,7 +453,7 @@ def main():
     if saved_to_data:
         summary_lines.append("- Added to `_data/media.yml`.")
     if added_to_media_page:
-        summary_lines.append("- Added as a Featured section on the Media page.")
+        summary_lines.append(featured_note)
     if saved_images:
         summary_lines.append(f"- Photo: `{saved_images[0]}`.")
     if people and saved_to_data:

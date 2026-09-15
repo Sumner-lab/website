@@ -9,12 +9,18 @@ redirect_from:
   - /our-group/cintia-oi/
   - /the-group/cintia-oi/
 links:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=AOt97HQAAAAJ&hl=en
   - label: Bluesky
     url: https://bsky.app/profile/cintiaoi.bsky.social
   - label: Personal website
     url: https://sites.google.com/view/cintiaoi
   - label: ORCID
     url: https://orcid.org/0000-0002-3682-8219
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/cintia-oi-527ab231/
+  - label: Instagram
+    url: https://www.instagram.com/cintia.oi/
 ---
 **Position:** Post-doctoral researcher (NERC) / Scientific Associate (NHM)
 
@@ -98,4 +104,4 @@ Aside from my main projects, I'm also interested in neurobiology (differences in
 **Contact**
 
 - Email: [c.oi@ucl.ac.uk](mailto:c.oi@ucl.ac.uk) / [cintia.oi@nhm.ac.uk](mailto:cintia.oi@nhm.ac.uk)
-- [Google Scholar](https://scholar.google.be/citations?user=AOt97HQAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Cintia-Oi)
+- [Instagram](https://www.instagram.com/cintia.oi/) · [LinkedIn](https://www.linkedin.com/in/cintia-oi-527ab231/) · [Google Scholar](https://scholar.google.com/citations?user=AOt97HQAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Cintia-Oi)
