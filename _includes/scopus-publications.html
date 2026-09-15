@@ -1,0 +1,13 @@
+{% assign scopus_key = 'scopus_' | append: page.slug %}
+{% assign scopus = site.data.people[scopus_key].publications %}
+{% if scopus %}
+<p><em>Scopus-indexed articles and preprints</em></p>
+<p>This list is refreshed automatically from the <a href="https://www.scopus.com/authid/detail.uri?authorId={{ page.scopus_author_id }}">Scopus author profile</a>.</p>
+{% if scopus.size > 0 %}
+{% for publication in scopus %}
+{{ forloop.index }}. {{ publication.authors }}. {{ publication.year }}. {{ publication.title }}. <em>{{ publication.journal }}</em>. <a href="{{ publication.url }}">{{ publication.url }}</a>{% if publication.citations != nil %} - <strong>{{ publication.citations }} Scopus citation{% unless publication.citations == 1 %}s{% endunless %}</strong>{% endif %}<br>
+{% endfor %}
+{% else %}
+<p>The Scopus list is currently empty.</p>
+{% endif %}
+{% endif %}
