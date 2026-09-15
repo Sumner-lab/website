@@ -53,6 +53,10 @@ Media appearances fill in the **In the media** tab automatically, from entries i
 
 Older profiles were written as one block of Markdown with bold labels (`**Position:**`, `**Background**`…). `bin/convert_profiles.py` moves those into the fields above without losing any text; run `python3 bin/convert_profiles.py --check` to preview it. It skips profiles that already use the fields, so it's safe to re-run.
 
+## Previewing a pull request
+
+Every pull request gets a temporary copy of the site with its changes, built by Netlify (settings in `netlify.toml`). A couple of minutes after a PR is opened or updated, a **Deploy Preview** link appears in the checks at the bottom of the PR. Click it to look around before approving. Previews don't count towards visit analytics, and the live site is unaffected: it's still built by GitHub Pages.
+
 ## Sharing a preview with someone outside the team
 
 Since this branch is unbuilt source, you can't just zip the repo and hand it over the way phase 1 worked — there'd be nothing to look at without Jekyll installed. Instead:
