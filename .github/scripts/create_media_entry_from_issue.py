@@ -57,6 +57,7 @@ def safe_url(url, notes):
     return url
 
 REPO_ROOT = post_lib.REPO_ROOT
+PEOPLE_DIR = os.path.join(REPO_ROOT, "_people")
 DATA_PATH = os.path.join(REPO_ROOT, "_data", "media.yml")
 MEDIA_PAGE_PATH = os.path.join(REPO_ROOT, "media.md")
 UPLOADS_ROOT = post_lib.UPLOADS_ROOT
@@ -78,6 +79,7 @@ FIELD_LABELS = {
     "date": "Date (optional)",
     "url": "Link (optional)",
     "headline": "Headline (optional)",
+    "people": "Lab members involved (optional)",
     "photo": "Photo (optional)",
     "consent": "Photo permission",
     "feature": "Feature this",
@@ -127,7 +129,53 @@ def parse_other_links(text, notes):
     return links
 
 
-def build_entry_block(fields, date_str, photo_path, notes):
+def load_people():
+    """{slug: name} for every _people/*.md file. The slug is the file name,
+    which is also what the archive looks people up by (and their
+    /people/<slug>/ URL)."""
+    people = {}
+    for fname in sorted(os.listdir(PEOPLE_DIR)):
+        if not fname.endswith(".md"):
+            continue
+        with open(os.path.join(PEOPLE_DIR, fname), encoding="utf-8") as f:
+            m = re.search(r'^name:\s*["\']?(.+?)["\']?\s*$', f.read(), flags=re.MULTILINE)
+        slug = fname[:-3]
+        people[slug] = m.group(1) if m else slug.replace("-", " ")
+    return people
+
+
+def resolve_people(text, notes):
+    """Matches the comma-separated "Lab members involved" names to _people/
+    slugs, trying in turn: the exact full name (or file name), first + last
+    name allowing a shortened first name (so "Femi Benny" finds "Femi E.
+    Benny" and "Chris Wyatt" finds "Christopher Wyatt"), then a first name
+    alone if only one person has it. A name that's unmatched or ambiguous is left out
+    and noted, for the reviewer to add by hand rather than guessed at."""
+    people = {slug: post_lib.slugify(name).split("-") for slug, name in load_people().items()}
+    slugs = []
+    for raw_name in re.split(r'[,;&\n]|\band\b', text):
+        name = raw_name.strip()
+        if not name:
+            continue
+        words = post_lib.slugify(name).split("-")
+        matches = [s for s, w in people.items() if w == words or s.split("-") == words]
+        if not matches and len(words) >= 2:
+            matches = [s for s, w in people.items() if w[0].startswith(words[0]) and w[-1] == words[-1]]
+        if not matches and len(words) == 1:
+            matches = [s for s, w in people.items() if w[0] == words[0]]
+        if len(matches) == 1:
+            if matches[0] not in slugs:
+                slugs.append(matches[0])
+        elif matches:
+            notes.append(f"\"{name}\" matches more than one person on the People page -- left out, "
+                         f"add the right one to `people:` by hand.")
+        else:
+            notes.append(f"Couldn't find \"{name}\" on the People page -- left out, add them to "
+                         f"`people:` by hand if they should be shown.")
+    return slugs
+
+
+def build_entry_block(fields, date_str, photo_path, people, notes):
     lines = [f"- outlet: {post_lib.yaml_quote(fields['outlet'].strip())}"]
     lines.append(f"  type: {fields['type'].strip()}")
     lines.append(f"  date: {date_str}")
@@ -139,6 +187,8 @@ def build_entry_block(fields, date_str, photo_path, notes):
         lines.append(f"  headline: {post_lib.yaml_quote(headline)}")
     if photo_path:
         lines.append(f"  image: {post_lib.yaml_quote(photo_path)}")
+    if people:
+        lines.append(f"  people: [{', '.join(people)}]")
     lines.append(f"  submitted_via_issue: {os.environ.get('ISSUE_NUMBER', '0')}")
     return "\n".join(lines) + "\n"
 
@@ -193,6 +243,83 @@ def build_featured_section(fields, date_str, outlet, image_path, links, notes):
 
     lines += ["", "---"]
     return "\n".join(lines) + "\n"
+
+
+CARD_LINK_TEXT = {"Print": "Read the article", "TV": "Watch", "Radio": "Listen", "Podcast": "Listen"}
+
+# A row of Featured cards, as written by build_featured_card_group -- the
+# group's own tags sit at column 0 and everything inside is indented, so
+# the first unindented </div> is always the group's end.
+CARD_GROUP_RE = re.compile(r'<div class="media-feature-cards">\n(?P<cards>.*?)\n</div>', re.S)
+CARD_OPEN = '  <article class="media-feature-card">'
+
+
+def is_compact_feature(fields, other_links):
+    """A Featured submission with nothing to it beyond an image, headline
+    and one link would leave most of a full-width section empty, so it's
+    shown as a half-width card instead (paired side by side with the next
+    one). Anything with a description or extra links keeps the full
+    section layout, which has room for them."""
+    return not fields["description"].strip() and not other_links
+
+
+def build_featured_card(fields, date_str, outlet, media_type, image_path, notes):
+    """One card's HTML, indented to sit inside a media-feature-cards group.
+    Plain HTML rather than Markdown (Markdown isn't parsed inside an HTML
+    block), with all free text escaped -- issue text is untrusted input."""
+    import datetime
+    pretty_date = datetime.date.fromisoformat(date_str).strftime("%-d %B %Y")
+    esc_outlet = html.escape(outlet)
+    url = safe_url(fields["url"], notes)
+    href = html.escape(url) if url else None
+    headline = fields["headline"].strip()
+
+    lines = [CARD_OPEN]
+    if image_path:
+        img = f'<img src="{{{{ site.baseurl }}}}{image_path}" alt="{esc_outlet}" loading="lazy">'
+        lines.append(f'    <a class="media-feature-card-image" href="{href}">{img}</a>' if href
+                     else f'    <span class="media-feature-card-image">{img}</span>')
+    lines.append('    <div class="media-feature-card-body">')
+    lines.append(f'      <h2>{esc_outlet}, {pretty_date}</h2>')
+    if headline:
+        lines.append(f'      <p class="media-feature-card-headline">{html.escape(headline)}</p>')
+    if href:
+        link_text = CARD_LINK_TEXT.get(media_type, "Find out more")
+        lines.append(f'      <p class="media-feature-card-link"><a href="{href}">{link_text} →</a></p>')
+    lines.append('    </div>')
+    lines.append('  </article>')
+    return "\n".join(lines)
+
+
+def insert_featured_card(card_html, notes):
+    """Inserts a card below FEATURED_INSERT_MARKER in media.md: into the
+    card group directly below the marker if that group holds a single card
+    (making a side-by-side pair, newest on the left), otherwise as a new
+    group of its own. Returns (written, paired)."""
+    with open(MEDIA_PAGE_PATH, "r", encoding="utf-8") as f:
+        current = f.read()
+
+    if FEATURED_INSERT_MARKER not in current:
+        notes.append("Couldn't find the Featured-section insert marker in media.md -- "
+                      "not added as a Featured section (the archive entry was still saved).")
+        return False, False
+
+    head, _, rest = current.partition(FEATURED_INSERT_MARKER)
+    top = CARD_GROUP_RE.match(rest.lstrip("\n"))
+    if top and top.group("cards").count(CARD_OPEN) == 1:
+        rest = rest.lstrip("\n")
+        rest = ('<div class="media-feature-cards">\n' + card_html + "\n" + top.group("cards")
+                + "\n</div>" + rest[top.end():])
+        new_content = head + FEATURED_INSERT_MARKER + "\n\n" + rest
+        paired = True
+    else:
+        group = '<div class="media-feature-cards">\n' + card_html + "\n</div>\n\n---"
+        new_content = head + FEATURED_INSERT_MARKER + "\n\n" + group + rest
+        paired = False
+
+    with open(MEDIA_PAGE_PATH, "w", encoding="utf-8") as f:
+        f.write(new_content)
+    return True, paired
 
 
 def insert_featured_section(section_md, notes):
@@ -294,14 +421,25 @@ def main():
     elif fields["photo"].strip():
         notes.append("A photo was attached but the permission checkbox wasn't ticked -- photo skipped.")
 
-    entry_block = build_entry_block(fields, date_str, photo_path, notes)
+    people = resolve_people(fields["people"], notes)
+    entry_block = build_entry_block(fields, date_str, photo_path, people, notes)
     saved_to_data = append_entry(entry_block, notes)
 
     added_to_media_page = False
+    featured_note = None
     if is_featured:
         other_links = parse_other_links(fields["other_links"], notes)
-        section_md = build_featured_section(fields, date_str, outlet, photo_path, other_links, notes)
-        added_to_media_page = insert_featured_section(section_md, notes)
+        if is_compact_feature(fields, other_links):
+            card_html = build_featured_card(fields, date_str, outlet, media_type, photo_path, notes)
+            added_to_media_page, paired = insert_featured_card(card_html, notes)
+            featured_note = ("- Added as a Featured card on the Media page, side by side with the one below it."
+                             if paired else
+                             "- Added as a Featured card on the Media page (it'll sit side by side with the "
+                             "next short featured entry).")
+        else:
+            section_md = build_featured_section(fields, date_str, outlet, photo_path, other_links, notes)
+            added_to_media_page = insert_featured_section(section_md, notes)
+            featured_note = "- Added as a Featured section on the Media page."
 
     with open(manifest_path, "w", encoding="utf-8") as f:
         json.dump({
@@ -315,9 +453,11 @@ def main():
     if saved_to_data:
         summary_lines.append("- Added to `_data/media.yml`.")
     if added_to_media_page:
-        summary_lines.append("- Added as a Featured section on the Media page.")
+        summary_lines.append(featured_note)
     if saved_images:
         summary_lines.append(f"- Photo: `{saved_images[0]}`.")
+    if people and saved_to_data:
+        summary_lines.append(f"- Lab members shown: {', '.join(f'`{s}`' for s in people)}.")
     if notes:
         summary_lines.append("")
         summary_lines.append("Notes from processing this submission:")

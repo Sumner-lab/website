@@ -32,7 +32,7 @@ I'm from India, and completed my Master's in Applied Zoology (Entomology) at Cal
 - 2016–2018: MSc Applied Zoology (Entomology), University of Calicut, Kerala
 - 2013–2016: BSc Zoology, Providence Women's College, Kerala
 
-**Contact:** [femi.benny.24@ucl.ac.uk](mailto:femi.benny.24@ucl.ac.uk)
+**Contact:** [femi.benny.24@ucl.ac.uk](mail to:femi.benny.24@ucl.ac.uk)
 
 **Publications**
 

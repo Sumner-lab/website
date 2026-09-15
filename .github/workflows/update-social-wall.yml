@@ -9,6 +9,12 @@ permissions:
   contents: write
   actions: write
 
+# Shared with update-analytics.yml: both push to the site-data branch, so
+# running one at a time stops their pushes racing each other.
+concurrency:
+  group: site-data
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -17,12 +23,25 @@ jobs:
         with:
           ref: main
 
+      # The data file lives on the site-data branch, not main: main only
+      # accepts approved PRs, which a scheduled bot can't get. pages.yml
+      # lays site-data's _data/ over main's when it builds. Check it out
+      # alongside main (which still provides the script) and start from
+      # its copy, so an unchanged fetch is recognised as unchanged.
+      - name: Check out site-data
+        run: |
+          git fetch --depth=1 origin site-data
+          git worktree add --detach "$RUNNER_TEMP/site-data" FETCH_HEAD
+          cp "$RUNNER_TEMP/site-data/_data/social_wall.json" _data/social_wall.json
+
       - run: python3 .github/scripts/update_social_wall.py
         env:
           BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
           BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
 
       - run: |
+          cp _data/social_wall.json "$RUNNER_TEMP/site-data/_data/social_wall.json"
+          cd "$RUNNER_TEMP/site-data"
           if git diff --quiet -- _data/social_wall.json; then
             echo "No change in social wall data."
             exit 0
@@ -31,12 +50,12 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _data/social_wall.json
           git commit -m "Update social wall"
-          git push
+          git push origin HEAD:site-data
 
           # A push made with the default GITHUB_TOKEN doesn't trigger other
-          # workflows' `push` events (GitHub's loop-prevention rule), so
-          # pages.yml wouldn't otherwise pick up this new data. Dispatching
-          # it directly via the API isn't subject to that restriction.
-          gh workflow run pages.yml
+          # workflows' `push` events (GitHub's loop-prevention rule), and
+          # pages.yml only listens for pushes to main anyway, so dispatch it
+          # directly to pick up this new data.
+          gh workflow run pages.yml --repo "$GITHUB_REPOSITORY"
         env:
           GH_TOKEN: ${{ github.token }}

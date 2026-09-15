@@ -60,9 +60,13 @@ FIELD_LABELS = {
     "photos": "Photos (optional)",
 }
 
+ATTACHMENT_URL = (r'https://(?:github\.com/user-attachments/assets'
+                  r'|user-images\.githubusercontent\.com)/[^\)\s"]+')
+# GitHub inserts a pasted/uploaded image either as Markdown ![alt](url) or,
+# more recently, as an HTML <img ... src="url"> tag -- accept both.
 IMG_RE = re.compile(
-    r'!\[[^\]]*\]\((https://(?:github\.com/user-attachments/assets'
-    r'|user-images\.githubusercontent\.com)/[^\)\s]+)\)'
+    rf'!\[[^\]]*\]\(({ATTACHMENT_URL})\)'
+    rf'|<img\s[^>]*?\bsrc="({ATTACHMENT_URL})"'
 )
 
 
@@ -109,7 +113,7 @@ def yaml_quote(s):
 
 
 def extract_photo_urls(photos_field, notes):
-    urls = IMG_RE.findall(photos_field)
+    urls = [m.group(1) or m.group(2) for m in IMG_RE.finditer(photos_field)]
     if photos_field and not urls:
         notes.append("The photos field had content but no recognizable image attachments -- "
                       "treated as no photos.")
