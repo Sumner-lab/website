@@ -16,12 +16,21 @@ layout: default
   {% assign alumni = site.people | where: "status", "alumni" | sort: "name" %}
   {% assign rotations = "-1.6,1.2,-0.8,1.8,-1.2,0.9,-1.9,1.5" | split: "," %}
 
+  {%- assign all_themes = site.people | map: "themes" | join: "|" | split: "|" | uniq | sort -%}
+  <div class="people-filters" role="group" aria-label="Filter people" hidden data-people-filters>
+    <button type="button" class="people-filter" data-status="all" aria-pressed="true">Everyone</button>
+    <button type="button" class="people-filter" data-status="current" aria-pressed="false">Current group</button>
+    <button type="button" class="people-filter" data-status="alumni" aria-pressed="false">Left the nest</button>
+    {% if all_themes.size > 0 %}<span class="people-filter-divider" aria-hidden="true"></span>{% for theme in all_themes %}<button type="button" class="people-filter" data-theme="{{ theme | escape }}" aria-pressed="false">{{ theme }}</button>{% endfor %}{% endif %}
+  </div>
+
+  <section data-people-group="current">
   <h2>Current group</h2>
   <ul class="people-grid">
     {% for person in current %}
     {% assign r_index = forloop.index0 | modulo: 8 %}
     {% assign r = rotations[r_index] %}
-    <li class="people-card" style="--r: {{ r }}deg;">
+    <li class="people-card" style="--r: {{ r }}deg;"{% if person.themes %} data-themes="{{ person.themes | join: '|' | escape }}"{% endif %}>
       <a href="{{ person.url | relative_url }}">
         {% if person.photo %}
           <img src="{{ person.photo | relative_url }}" alt=""{% if person.photo_position %} style="object-position: {{ person.photo_position }};"{% endif %}>
@@ -31,19 +40,24 @@ layout: default
         <span class="people-card-caption">
           <span class="people-card-name">{{ person.name | default: person.title }}</span>
           {% if person.role %}<span class="people-card-role">{{ person.role }}</span>{% endif %}
+          {% capture card_years %}{% if person.stints %}{% for stint in person.stints %}{{ stint.joined }}{% if stint.left %}–{{ stint.left }}{% elsif person.status != "alumni" %}–present{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% elsif person.joined %}{{ person.joined }}{% if person.left %}–{{ person.left }}{% elsif person.status != "alumni" %}–present{% endif %}{% endif %}{% endcapture %}
+          {% assign card_years = card_years | strip %}{% if card_years != "" %}<span class="people-card-years">{{ card_years }}</span>{% endif %}
         </span>
       </a>
     </li>
     {% endfor %}
   </ul>
 
+  </section>
+
   {% if alumni.size > 0 %}
+  <section data-people-group="alumni">
   <h2>Left the nest</h2>
   <ul class="people-grid people-grid-alumni">
     {% for person in alumni %}
     {% assign r_index = forloop.index0 | modulo: 8 %}
     {% assign r = rotations[r_index] %}
-    <li class="people-card" style="--r: {{ r }}deg;">
+    <li class="people-card" style="--r: {{ r }}deg;"{% if person.themes %} data-themes="{{ person.themes | join: '|' | escape }}"{% endif %}>
       <a href="{{ person.url | relative_url }}">
         {% if person.photo %}
           <img src="{{ person.photo | relative_url }}" alt=""{% if person.photo_position %} style="object-position: {{ person.photo_position }};"{% endif %}>
@@ -53,10 +67,14 @@ layout: default
         <span class="people-card-caption">
           <span class="people-card-name">{{ person.name | default: person.title }}</span>
           {% if person.role %}<span class="people-card-role">{{ person.role }}</span>{% endif %}
+          {% capture card_years %}{% if person.stints %}{% for stint in person.stints %}{{ stint.joined }}{% if stint.left %}–{{ stint.left }}{% elsif person.status != "alumni" %}–present{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% elsif person.joined %}{{ person.joined }}{% if person.left %}–{{ person.left }}{% elsif person.status != "alumni" %}–present{% endif %}{% endif %}{% endcapture %}
+          {% assign card_years = card_years | strip %}{% if card_years != "" %}<span class="people-card-years">{{ card_years }}</span>{% endif %}
         </span>
       </a>
     </li>
     {% endfor %}
   </ul>
+  </section>
   {% endif %}
 </article>
+<script src="{{ '/assets/js/people.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
