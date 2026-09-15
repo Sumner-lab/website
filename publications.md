@@ -3,13 +3,13 @@ title: Publications
 permalink: /publications/
 header_image: /assets/images/hero-yellowjacket.jpg
 ---
-Peer-reviewed papers, book chapters, and other academic outputs co-authored by Seirian Sumner. For work published by lab members without Sumner as a co-author, see [Wider Sumner Lab Papers]({{ site.baseurl }}/publications/wider/).
+This page lists peer-reviewed papers, book chapters, and other academic outputs from the lab that are co-authored by lab PI, Seirian Sumner. For papers authored by group members during their time in the Sumner Lab, but without Seirian as a co-author - e.g. due to other, independent collaborations - see  [Wider Sumner Lab Papers]({{ site.baseurl }}/publications/wider/).
 
 ## 2026
 
 - Robertson DK, Vale-Hagan W, Stratakos AC, Doran O, Drinkwater E, Wu X, Miller ME, Davies L, Lange KL, Nakamura Y, **Benny FE, Sumner S**, Koidis A, Stergiadis S, Theodoridou K. An updated review of the opportunities and challenges in insects as food and feed. (accepted) ***Nutrition Bulletin***
 - Onah I, Ahmed Yusuf A, Bastos A, and **Sumner S**.  2026 ‘Diversity of Stingless Bees (Hymenoptera: Apidae) from Two Contrasting Climatic Regions of Nigeria’. (accepted). ***Journal of Apicultural Research***.
-- **Cunningham-Eurich I,** Aucock L, Walters-Hutton B, **Sumner S** and Broad G**.** Moth traps shine a light on nocturnal wasps. (accepted). ***Insect Diversity and Conservation***.
+- **Cunningham-Eurich I,** Aucock L, Walters-Hutton B, **Sumner S** and Broad G**.** 2026. Moth traps shine a light on nocturnal wasps. ***[Insect Diversity and Conservation](https://resjournals-onlinelibrary-wiley-com.libproxy.ucl.ac.uk/doi/10.1111/icad.70135)***.
 - **Sumner S, Cunningham-Eurich I** & Sturm U**.** 2026 In praise of parasitoids: how public engagement and citizen science can be used to improve the perceptions of an overlooked taxon. ***Current Opinion in Insect Science.*** 7: 101553  <a href="https://doi.org/10.1016/j.cois.2026.101553" target="_blank" rel="noreferrer noopener">https://doi.org/10.1016/j.cois.2026.101553</a>
 - **Bell EF, Wyatt CRD, Taylor D**, Radford AN and **Sumner S. ** 2026.Limits to behavioural plasticity in tropical paper wasps. ***Proceedings of The Royal Society B.*** 293: 20260252. <https://doi.org/10.1098/rspb.2026.0252>
 - **Corbett O**, Dreier S, Lengronne T, Patalano S, Reuter M, and **Sumner S**. 2026. ‘Compensation of labour by non-competing workers mitigates costs of aggression-based queen succession in the social wasp, *Polistes canadensis*. ***Animal Behaviour*** *123581 <http://doi.org/10.1016/j.anbehav.2026.123581>*
