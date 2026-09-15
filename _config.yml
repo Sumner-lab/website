@@ -39,6 +39,7 @@ defaults:
       layout: "page"
 
 exclude:
+  - netlify.toml
   - Gemfile
   - Gemfile.lock
   - README.md
