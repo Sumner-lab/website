@@ -1,0 +1,99 @@
+name: New member submission
+
+# Triggered by the label, not by the issue opening: the form's label is
+# applied as its own "labeled" event right after the issue is created, so
+# this still fires for every new submission -- and a maintainer can also
+# re-run it on an existing issue just by adding the label.
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  create-member-pr:
+    if: github.event.label.name == 'new-member-submission'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: new-member-${{ github.event.issue.number }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - run: pip install --quiet Pillow PyYAML
+
+      - name: Build the profile from the issue
+        id: build
+        run: python3 .github/scripts/create_person_from_issue.py
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_CREATED_AT: ${{ github.event.issue.created_at }}
+          NEW_MEMBER_SUMMARY_PATH: ${{ runner.temp }}/new_member_summary.md
+          NEW_MEMBER_MANIFEST_PATH: ${{ runner.temp }}/new_member_manifest.json
+
+      - name: Comment failure and stop
+        if: failure() && steps.build.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue comment "${{ github.event.issue.number }}" \
+            --body-file "${{ runner.temp }}/new_member_summary.md" || \
+          gh issue comment "${{ github.event.issue.number }}" \
+            --body "Something went wrong turning this into a profile. A maintainer will need to take a look -- sorry about that!"
+
+      - name: Open the review PR
+        if: steps.build.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          MANIFEST="${{ runner.temp }}/new_member_manifest.json"
+          SUMMARY="${{ runner.temp }}/new_member_summary.md"
+          ISSUE="${{ github.event.issue.number }}"
+          BRANCH="bot/new-member-$ISSUE"
+          SUBMITTER="${{ github.event.issue.user.login }}"
+
+          mapfile -t PATHS < <(python3 -c "
+          import json
+          m = json.load(open('$MANIFEST'))
+          print(m['person'])
+          for p in m['images']:
+              print(p)
+          ")
+          NAME=$(python3 -c "import json; print(json.load(open('$MANIFEST'))['name'])")
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add -- "${PATHS[@]}"
+          git commit -m "New lab member profile from issue #$ISSUE"
+          git push --force-with-lease origin "$BRANCH"
+
+          PR_BODY="Closes #$ISSUE
+
+          Submitted by @$SUBMITTER.
+
+          $(cat "$SUMMARY")"
+
+          existing=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            PR_NUMBER="$existing"
+          else
+            gh pr create --base main --head "$BRANCH" \
+              --title "New lab member: $NAME" \
+              --body "$PR_BODY"
+            PR_NUMBER=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
+          fi
+
+          gh issue comment "$ISSUE" --body "Thanks, and welcome to the lab! Your profile has been turned into a pull request for review: #$PR_NUMBER
+
+          $(cat "$SUMMARY")"
