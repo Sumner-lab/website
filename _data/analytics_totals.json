@@ -38,7 +38,7 @@
   ],
   "pageviews": 2707,
   "visits": 1115,
-  "countries_count": 64,
+  "countries_count": 63,
   "top_pages": [
     {
       "path": "/",
@@ -721,11 +721,6 @@
       "views": 2,
       "visits": 2,
       "iso": "AZ"
-    },
-    {
-      "name": "FR",
-      "views": 3,
-      "visits": 2
     },
     {
       "name": "India",
