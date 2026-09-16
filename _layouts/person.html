@@ -23,12 +23,15 @@ layout: default
 {%- endcapture -%}
 {%- assign years = years | strip -%}
 {%- assign has_research = false -%}
-{%- if page.project or page.studies or page.themes or page.background -%}{%- assign has_research = true -%}{%- endif -%}
+{%- if page.project or page.projects or page.past_projects or page.studies or page.themes or page.background -%}{%- assign has_research = true -%}{%- endif -%}
 {%- assign body = content | strip -%}
 {%- assign has_about = false -%}
 {%- if page.intro or page.background_text or page.biography or page.interests or page.other_interests or page.ask_me_about or body != "" -%}{%- assign has_about = true -%}{%- endif -%}
 {%- assign has_publications = false -%}
-{%- if page.publications.size > 0 or page.publications_text -%}{%- assign has_publications = true -%}{%- endif -%}
+{%- if page.publications.size > 0 or page.publications_text or page.scopus_author_id -%}{%- assign has_publications = true -%}{%- endif -%}
+{%- assign scopus_key = 'scopus_' | append: page.slug -%}
+{%- assign scopus_pubs = site.data.people[scopus_key].publications -%}
+{%- assign pub_count = page.publications.size | plus: scopus_pubs.size -%}
 
 <article class="nb wrap">
   <header class="nb-head">
@@ -40,7 +43,7 @@ layout: default
       {% endif %}
     </div>
     <div class="nb-head-text">
-      <h1>{{ person_name }}</h1>
+      <h1>{{ person_name }}{% if page.full_name %}<span class="nb-name-note" tabindex="0" aria-label="Full name: {{ page.full_name | escape }}">*<span class="nb-name-tip" aria-hidden="true">{{ page.full_name }}</span></span>{% endif %}</h1>
       {% if page.role %}<p class="nb-role">{{ page.role }}</p>{% endif %}
       {% if page.position or years != "" or page.studies or page.contact %}
       <div class="nb-specimen">
@@ -61,7 +64,7 @@ layout: default
     <div class="nb-tabs" role="tablist" aria-label="Profile sections" hidden>
       {% if has_about %}<button type="button" role="tab" id="nb-tab-about" aria-controls="about" aria-selected="true">About</button>{% endif %}
       {% if has_research %}<button type="button" role="tab" id="nb-tab-research" aria-controls="research" aria-selected="{% if has_about %}false{% else %}true{% endif %}"{% if has_about %} tabindex="-1"{% endif %}>Research</button>{% endif %}
-      {% if has_publications %}<button type="button" role="tab" id="nb-tab-publications" aria-controls="publications" aria-selected="false" tabindex="-1">Publications{% if page.publications.size > 0 %}<span class="nb-count">{{ page.publications.size }}</span>{% endif %}</button>{% endif %}
+      {% if has_publications %}<button type="button" role="tab" id="nb-tab-publications" aria-controls="publications" aria-selected="false" tabindex="-1">Publications{% if pub_count > 0 %}<span class="nb-count">{{ pub_count }}</span>{% endif %}</button>{% endif %}
       {% if my_media.size > 0 %}<button type="button" role="tab" id="nb-tab-media" aria-controls="media" aria-selected="false" tabindex="-1">In the media<span class="nb-count">{{ my_media.size }}</span></button>{% endif %}
     </div>
 
@@ -81,8 +84,6 @@ layout: default
     {% if has_research %}
     <section class="nb-page prose" id="research" role="tabpanel" aria-labelledby="nb-tab-research">
       <h2 class="nb-page-title">Research</h2>
-      {% if page.project %}<div class="nb-block"><h3 class="nb-label">Project</h3><p class="nb-project">{{ page.project | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p></div>{% endif %}
-      {% if page.themes %}<div class="nb-block"><h3 class="nb-label">Research themes</h3><ul class="nb-themes">{% for theme in page.themes %}<li>{{ theme }}</li>{% endfor %}</ul></div>{% endif %}
       {% if page.background %}
       {%- comment -%} Career ruler: lines starting with a year or year range ("2019–2023: ...", "Sept 2023–present: ...") are drawn to scale; any others are listed underneath. {%- endcomment -%}
       {%- assign ruler_min = 9999 -%}
@@ -103,16 +104,36 @@ layout: default
           {%- assign head = item | split: ":" | first | replace: "–", "-" | replace: "—", "-" | strip -%}
           {%- assign parts = head | split: "-" -%}
           {%- assign start = parts | first | strip -%}
-          {%- assign from = start | slice: -4, 4 | plus: 0 -%}
-          {%- if start.size <= 10 and from > 1900 -%}
+          {%- assign from_year = start | slice: -4, 4 | plus: 0 -%}
+          {%- if start.size <= 10 and from_year > 1900 -%}
+            {%- comment -%} A leading month name (Jan, Sept, ...) refines the position within its year; a bare year falls back to month 0 (Jan), matching the old whole-year behaviour. {%- endcomment -%}
+            {%- assign start_month = start | split: " " | first | downcase | slice: 0, 3 -%}
+            {%- assign months = "jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec" | split: "," -%}
+            {%- assign from_month = 0 -%}
+            {%- for m in months -%}{%- if start_month == m -%}{%- assign from_month = forloop.index0 -%}{%- break -%}{%- endif -%}{%- endfor -%}
+            {%- assign from_frac = from_month | divided_by: 12.0 -%}
+            {%- assign from = from_year | plus: from_frac -%}
             {%- assign stop = parts[1] | strip | downcase -%}
             {%- if parts.size < 2 -%}{%- assign to = from | plus: 1 -%}
             {%- elsif stop contains "present" or stop contains "now" -%}{%- assign to = ruler_max -%}
-            {%- else -%}{%- assign to = stop | slice: 0, 4 | plus: 0 -%}{%- if to <= from -%}{%- assign to = from | plus: 1 -%}{%- endif -%}
+            {%- else -%}
+              {%- assign to_year = stop | slice: -4, 4 | plus: 0 -%}
+              {%- assign stop_month = stop | slice: 0, 3 -%}
+              {%- assign to_month = 0 -%}
+              {%- for m in months -%}{%- if stop_month == m -%}{%- assign to_month = forloop.index0 -%}{%- break -%}{%- endif -%}{%- endfor -%}
+              {%- assign to_frac = to_month | divided_by: 12.0 -%}
+              {%- assign to = to_year | plus: to_frac -%}
+              {%- if to <= from -%}{%- assign to = from | plus: 1 -%}{%- endif -%}
             {%- endif -%}
             {%- assign left = from | minus: ruler_min | times: 100.0 | divided_by: span | round: 2 -%}
             {%- assign width = to | minus: from | times: 100.0 | divided_by: span | round: 2 -%}
-          <li><span class="nb-ruler-text">{{ item | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span><span class="nb-ruler-track" aria-hidden="true"><span style="left: {{ left }}%; width: {{ width }}%;"></span></span></li>
+            {%- comment -%} Show "date: role" on the ruler itself; anything after the first comma (project, institution, country) only appears on hover/focus, to keep the list scannable. {%- endcomment -%}
+            {%- assign date_label = item | split: ": " | first -%}
+            {%- assign detail = item | remove_first: date_label | remove_first: ": " | strip -%}
+            {%- assign role = detail | split: "," | first | strip -%}
+            {%- assign extra = detail | remove_first: role | remove_first: "," | strip -%}
+            {%- assign basic = date_label | append: ": " | append: role -%}
+          <li><span class="nb-ruler-text">{{ basic | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span><span class="nb-ruler-track" tabindex="0"{% if extra != "" %} aria-label="{{ extra | markdownify | strip_html | strip_newlines | strip | escape }}"{% endif %}><span style="left: {{ left }}%; width: {{ width }}%;" aria-hidden="true"></span>{% if extra != "" %}<span class="nb-ruler-tip" aria-hidden="true">{{ extra | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>{% endif %}</span></li>
           {%- endif -%}
           {%- endfor -%}
         </ol>
@@ -131,12 +152,36 @@ layout: default
         {% if undrawn != "" %}<ul class="nb-ruler-other">{{ undrawn }}</ul>{% endif %}
       </div>
       {% endif %}
+      {% if page.projects %}
+      <div class="nb-block">
+        <h3 class="nb-label">Projects</h3>
+        {% for proj in page.projects %}
+        <div class="nb-project-item">
+          <h4 class="nb-project-title">{{ proj.title | markdownify | remove: "<p>" | remove: "</p>" | strip }}</h4>
+          {% if proj.text %}<div class="prose">{{ proj.text | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+      {% elsif page.project %}<div class="nb-block"><h3 class="nb-label">Project</h3><p class="nb-project">{{ page.project | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p></div>{% endif %}
+      {% if page.past_projects %}
+      <div class="nb-block">
+        <h3 class="nb-label">Past projects</h3>
+        {% for proj in page.past_projects %}
+        <div class="nb-project-item">
+          <h4 class="nb-project-title">{{ proj.title | markdownify | remove: "<p>" | remove: "</p>" | strip }}</h4>
+          {% if proj.text %}<div class="prose">{{ proj.text | replace: baseurl_tag, site.baseurl | markdownify }}</div>{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+      {% if page.themes %}<div class="nb-block"><h3 class="nb-label">Research themes</h3><ul class="nb-themes">{% for theme in page.themes %}<li>{{ theme }}</li>{% endfor %}</ul></div>{% endif %}
     </section>
     {% endif %}
 
     {% if has_publications %}
     <section class="nb-page prose" id="publications" role="tabpanel" aria-labelledby="nb-tab-publications">
       <h2 class="nb-page-title">Publications</h2>
+      {% if page.scopus_author_id %}<div class="nb-block">{% include scopus-publications.html %}</div>{% endif %}
       {% if page.publications.size > 0 %}
       <div class="nb-block">
         {% if page.publications_label %}<h3 class="nb-label">{{ page.publications_label }}</h3>{% endif %}

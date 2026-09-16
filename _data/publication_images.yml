@@ -1,0 +1,17 @@
+# Optional images (e.g. a graphical abstract, or a key figure) shown next
+# to a publication in the "Scopus-indexed articles and preprints" list.
+#
+# The Scopus API used by .github/scripts/update_scopus_publications.py only
+# returns metadata (title, authors, journal, DOI, citation count) -- it has
+# no way to fetch images, so there's nothing to automate here. Add entries
+# by hand, keyed by the publication's DOI (lowercase, as it appears in
+# _data/people/scopus_*.json). This file lives separately from the
+# Scopus-generated files so the weekly auto-refresh never touches or
+# overwrites it.
+#
+# Upload the image under wp-content/uploads/ first, then reference it here.
+# One DOI can list more than one image (e.g. graphical abstract + a figure).
+#
+# Example:
+# "10.1186/s12915-025-02121-1":
+#   - /wp-content/uploads/publications/ixodes-genomes-graphical-abstract.png

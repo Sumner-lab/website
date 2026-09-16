@@ -39,12 +39,14 @@ Everything goes in the front matter at the top of the file. Only `name`, `role`,
 | Field | What it's for |
 |---|---|
 | `name`, `role`, `photo`, `photo_position`, `links` | Header, People page card, link buttons |
+| `full_name` | Header: shown in a hover/focus tooltip behind a small `*` next to `name`, for a full legal/given name that differs from the short form used everywhere else |
 | `status` | `current` or `alumni` ("Left the nest") |
 | `joined` / `left`, or `stints` for more than one spell | "In the lab" years |
 | `position` | Specimen label, e.g. `PhD Student` |
 | `contact` | Specimen label: email and any other contact details (Markdown) |
 | `studies` | Specimen label, e.g. `Asian giant hornets` |
-| `project` | Research tab |
+| `project` | Research tab: a single-line project title, no paragraph. Older/simpler profiles only |
+| `projects`, `past_projects` | Research tab: a list of `title` + `text` (Markdown, can be multiple paragraphs), one block per project. Use instead of `project` when a project needs more than a title — `past_projects` renders as its own "Past projects" block underneath |
 | `themes` | Research tab, and the theme filters on the People page, e.g. `[Ecology, Genomics]` |
 | `background` | Research tab: a list, one line per role, newest first. Lines starting with years (`2019–2023: …`) are drawn on the career ruler |
 | `intro`, `background_text`, `biography`, `interests`, `other_interests`, `ask_me_about` | About tab, in that order (Markdown). `background_text` is shown under "Background", `interests` under "Research interests" |
