@@ -9,22 +9,14 @@ redirect_from:
 links:
   - label: Twitter
     url: https://twitter.com/LewisRevely
+intro: Dr Lewis Revely has completed his PhD and now works with the Futures, Foresight and Emerging Technologies group in the Government Office for Science.
+position: PhD Student
+project: Mechanisms and Evolution of Phenotypic Plasticity in Social Insects
+interests: Social evolution and sociogenomics of termites. Particularly interested in the variation in developmental plasticity across both phenotypes and species within termites, across all levels of social complexity.
+background:
+- '2018–present: PhD Candidate, University College London'
+- '2014–2017: BA Biological Sciences, University of Oxford'
+publications:
+- 'Revely, L., Sumner, S. and Eggleton, P. (2021) [The plasticity and developmental potential of termites](https://www.frontiersin.org/articles/10.3389/fevo.2021.552624/full). *Frontiers in Ecology and Evolution*, 9, p.552624. doi: [10.3389/fevo.2021.552624](https://doi.org/10.3389/fevo.2021.552624)'
+contact: '[lewis.revely.18@ucl.ac.uk](mailto:lewis.revely.18@ucl.ac.uk)'
 ---
-Dr Lewis Revely has completed his PhD and now works with the Futures, Foresight and Emerging Technologies group in the Government Office for Science.
-
-**Position:** PhD Student
-
-**Project:** Mechanisms and Evolution of Phenotypic Plasticity in Social Insects
-
-**Research Interests:** Social evolution and sociogenomics of termites. Particularly interested in the variation in developmental plasticity across both phenotypes and species within termites, across all levels of social complexity.
-
-**Background**
-
-- 2018–present: PhD Candidate, University College London
-- 2014–2017: BA Biological Sciences, University of Oxford
-
-**Publications**
-
-- Revely, L., Sumner, S. and Eggleton, P. (2021) [The plasticity and developmental potential of termites](https://www.frontiersin.org/articles/10.3389/fevo.2021.552624/full). *Frontiers in Ecology and Evolution*, 9, p.552624. doi: [10.3389/fevo.2021.552624](https://doi.org/10.3389/fevo.2021.552624)
-
-**Contact:** [lewis.revely.18@ucl.ac.uk](mailto:lewis.revely.18@ucl.ac.uk)
