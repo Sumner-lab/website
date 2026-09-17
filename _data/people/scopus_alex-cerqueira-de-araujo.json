@@ -1,0 +1,96 @@
+{
+  "updated": "2026-09-15T00:00:00Z",
+  "name": "Alex Cerqueira de Araujo",
+  "author_id": "57463627000",
+  "profile_url": "https://www.scopus.com/authid/detail.uri?authorId=57463627000",
+  "publications": [
+    {
+      "title": "Genome sequences of four Ixodes species expands understanding of tick evolution",
+      "authors": "Cerqueira de Araujo A, Noel B, Bretaudeau A, Labadie K, Boudet M, Tadrent N, Istace B, Kritli S, Cruaud C, Olaso R, Deleuze J-F, Voordouw M, Hervet C, Plantard O, Zamoto-Niikura A, Chertemps T, Maibeche M, Hilliou F, Le Goff G, Chmelar J, Mazak V, Jmel MA, Kotsyfakis M, Medina JM, Hackenberg M, Simo L, Koutroumpa FA, Wincker P, Kopacek P, Perner J, Aury J-M, Rispe C",
+      "journal": "BMC Biology",
+      "year": 2025,
+      "date": "2025-01-21",
+      "doi": "10.1186/s12915-025-02121-1",
+      "url": "https://doi.org/10.1186/s12915-025-02121-1",
+      "document_type": "Article",
+      "citations": null
+    },
+    {
+      "title": "Optimization of screening methods leads to the discovery of new viruses in black soldier flies (Hermetia illucens)",
+      "authors": "Pienaar RD, Herrero S, Cerqueira de Araujo A, Krupa F, Abd-Alla AMM, Herniou EA",
+      "journal": "bioRxiv",
+      "year": 2024,
+      "date": "2024-08-27",
+      "doi": "10.1101/2024.08.27.609913",
+      "url": "https://doi.org/10.1101/2024.08.27.609913",
+      "document_type": "Preprint",
+      "citations": null
+    },
+    {
+      "title": "Rep virulence genes have been recruited convergently by nudivirus-derived Virus-Like Particles and ichnoviruses of Campoplegine wasps",
+      "authors": "Cerqueira de Araujo A, Leobold M, Cariou M, Ferreira dos Santos B, Uzbekov R, Ricciardi R, Scaramozzino P, Lucchi A, Musset K, Drezen J-M, Josse T, Huguet E",
+      "journal": "bioRxiv",
+      "year": 2023,
+      "date": "2023-12-12",
+      "doi": "10.1101/2023.12.12.569846",
+      "url": "https://doi.org/10.1101/2023.12.12.569846",
+      "document_type": "Preprint",
+      "citations": null
+    },
+    {
+      "title": "Chelonus inanitus bracovirus encodes lineage specific proteins and truncated immune IkB-like factors",
+      "authors": "Cerqueira de Araujo A, Josse T, Sibut V, Urabe M, Asadullah A, Barbe V, Nakai M, Huguet E, Periquet G, Drezen J-M",
+      "journal": "Journal of General Virology",
+      "year": 2022,
+      "date": "2022-10-01",
+      "doi": "10.1099/jgv.0.001791",
+      "url": "https://doi.org/10.1099/jgv.0.001791",
+      "document_type": "Article",
+      "citations": null
+    },
+    {
+      "title": "Conserved viral transcription plays a key role in virus-like particle production of the parasitoid wasp Venturia canescens",
+      "authors": "Cerqueira de Araujo A, Leobold M, Bezier A, Musset K, Uzbekov R, Volkoff A-N, Drezen J-M, Huguet E, Josse T",
+      "journal": "Journal of Virology",
+      "year": 2022,
+      "date": "2022-06-09",
+      "doi": "10.1128/jvi.00524-22",
+      "url": "https://doi.org/10.1128/jvi.00524-22",
+      "document_type": "Article",
+      "citations": null
+    },
+    {
+      "title": "Transposable element repression using piRNAs, and its relevance to endogenous viral elements (EVEs) and immunity in insects",
+      "authors": "Cerqueira de Araujo A, Huguet E, Herniou EA, Drezen J-M, Josse T",
+      "journal": "Current Opinion in Insect Science",
+      "year": 2022,
+      "date": "2022-01-19",
+      "doi": "10.1016/j.cois.2021.100876",
+      "url": "https://doi.org/10.1016/j.cois.2021.100876",
+      "document_type": "Article",
+      "citations": null
+    },
+    {
+      "title": "Immune priming depends on age, sex and Wolbachia in the interaction between Armadillidium vulgare and Salmonella",
+      "authors": "Prigot-Maurice C, Cerqueira de Araujo A, Beltran-Bech S, Braquart-Varnier C",
+      "journal": "Journal of Evolutionary Biology",
+      "year": 2021,
+      "date": "2021-02-01",
+      "doi": "10.1111/jeb.13721",
+      "url": "https://doi.org/10.1111/jeb.13721",
+      "document_type": "Article",
+      "citations": null
+    },
+    {
+      "title": "Survival capacity of the common woodlouse Armadillidium vulgare is improved with a second infection of Salmonella enterica",
+      "authors": "Prigot-Maurice C, Cerqueira de Araujo A, Durand S, Laverre T, Pigeault R, Verdon J, Bulet P, Beltran-Bech S, Braquart-Varnier C",
+      "journal": "Journal of Invertebrate Pathology",
+      "year": 2019,
+      "date": "2019-11-01",
+      "doi": "10.1016/j.jip.2019.107278",
+      "url": "https://doi.org/10.1016/j.jip.2019.107278",
+      "document_type": "Article",
+      "citations": null
+    }
+  ]
+}

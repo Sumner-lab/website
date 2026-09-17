@@ -3,6 +3,7 @@ name: Alex Cerqueira de Araujo
 role: Senior Bioinformatician
 status: current
 joined: "September 2024"
+scopus_author_id: "57463627000"
 photo: /wp-content/uploads/2026/08/alexcda.jpg
 title: Alex Cerqueira de Araujo
 redirect_from:
@@ -44,6 +45,10 @@ publications_text: |-
 
   *Book chapter*
 
-  1. Hulot F and Cerqueira de Araujo A. "Effets des cyanotoxines sur les communautés zooplanctoniques en milieu lentique." In: Bernard, C., Mougin, C. and Pery, A. (eds) *Écotoxicologie, des communautés au fonctionnement des écosystèmes*. ISTE, 2017, pp. 137–152.
-contact: '[alexandra.araujo@ucl.ac.uk](mailto:alexandra.araujo@ucl.ac.uk)'
----
+**Publications**
+{% include scopus-publications.html %}
+
+
+*Book chapter*
+
+1. Hulot F and Cerqueira de Araujo A. "Effets des cyanotoxines sur les communautés zooplanctoniques en milieu lentique." In: Bernard, C., Mougin, C. and Pery, A. (eds) *Écotoxicologie, des communautés au fonctionnement des écosystèmes*. ISTE, 2017, pp. 137–152.

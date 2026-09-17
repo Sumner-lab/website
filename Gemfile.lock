@@ -18,6 +18,7 @@ GEM
     ffi (1.17.4-arm-linux-gnu)
     ffi (1.17.4-arm-linux-musl)
     ffi (1.17.4-arm64-darwin)
+    ffi (1.17.4-x64-mingw-ucrt)
     ffi (1.17.4-x86-linux-gnu)
     ffi (1.17.4-x86-linux-musl)
     ffi (1.17.4-x86_64-darwin)
@@ -34,6 +35,9 @@ GEM
       bigdecimal
       rake (~> 13.3)
     google-protobuf (4.35.1-arm64-darwin)
+      bigdecimal
+      rake (~> 13.3)
+    google-protobuf (4.35.1-x64-mingw-ucrt)
       bigdecimal
       rake (~> 13.3)
     google-protobuf (4.35.1-x86-linux-gnu)
@@ -130,6 +134,8 @@ GEM
       google-protobuf (~> 4.31)
     sass-embedded (1.102.0-riscv64-linux-musl)
       google-protobuf (~> 4.31)
+    sass-embedded (1.102.0-x64-mingw-ucrt)
+      google-protobuf (~> 4.31)
     sass-embedded (1.102.0-x86_64-darwin)
       google-protobuf (~> 4.31)
     sass-embedded (1.102.0-x86_64-linux-android)
@@ -157,6 +163,7 @@ PLATFORMS
   riscv64-linux-gnu
   riscv64-linux-musl
   ruby
+  x64-mingw-ucrt
   x86-linux-gnu
   x86-linux-musl
   x86_64-darwin
@@ -192,6 +199,7 @@ CHECKSUMS
   ffi (1.17.4-arm-linux-gnu) sha256=d6dbddf7cb77bf955411af5f187a65b8cd378cb003c15c05697f5feee1cb1564
   ffi (1.17.4-arm-linux-musl) sha256=9d4838ded0465bef6e2426935f6bcc93134b6616785a84ffd2a3d82bc3cf6f95
   ffi (1.17.4-arm64-darwin) sha256=19071aaf1419251b0a46852abf960e77330a3b334d13a4ab51d58b31a937001b
+  ffi (1.17.4-x64-mingw-ucrt) sha256=f6ff9618cfccc494138bddade27aa06c74c6c7bc367a1ea1103d80c2fcb9ed35
   ffi (1.17.4-x86-linux-gnu) sha256=38e150df5f4ca555e25beca4090823ae09657bceded154e3c52f8631c1ed72cf
   ffi (1.17.4-x86-linux-musl) sha256=fbeec0fc7c795bcf86f623bb18d31ea1820f7bd580e1703a3d3740d527437809
   ffi (1.17.4-x86_64-darwin) sha256=aa70390523cf3235096cf64962b709b4cfbd5c082a2cb2ae714eb0fe2ccda496
@@ -202,6 +210,7 @@ CHECKSUMS
   google-protobuf (4.35.1-aarch64-linux-gnu) sha256=50ca44d0eeff3f8475e630a1accdd974256f3510694d574e2c9d6119ea8bc9e1
   google-protobuf (4.35.1-aarch64-linux-musl) sha256=d5c65cef6bd6498a9e5ed5f88cf6cf7e341c10b0a005e32137d5d1a2b6e8c18a
   google-protobuf (4.35.1-arm64-darwin) sha256=d9c957df04fa89c749fa9a72a7b383eb4296efc9b2303dc6fd6fbe39c698ad6b
+  google-protobuf (4.35.1-x64-mingw-ucrt) sha256=0660b716c44a4d3baa5cb648cd95dc7faed87ea92cd08fe92cf9156415b35033
   google-protobuf (4.35.1-x86-linux-gnu) sha256=cc7492566b27ad8b5dfa3a7b6f9b11e905050cc53c2fa8ff22de375a9e7a70fb
   google-protobuf (4.35.1-x86-linux-musl) sha256=ab403790b59e4dc588ffbed1eaacf05d4ca2f0d12ac9c13d6c64e69380d8c99e
   google-protobuf (4.35.1-x86_64-darwin) sha256=66b62b4df00931018a692806df66393efa960d6d2b7da69735187249f950d3ee
@@ -242,6 +251,7 @@ CHECKSUMS
   sass-embedded (1.102.0-riscv64-linux-android) sha256=3e091a63c9cefe52abf929189ea3fa3a50b31f541afd660f758d3ce02d9c1cd5
   sass-embedded (1.102.0-riscv64-linux-gnu) sha256=1d00c4083f15c49c98f655569abedd4f50cd5bd0006821014d3ab7fdd4112369
   sass-embedded (1.102.0-riscv64-linux-musl) sha256=2d9d5e784c2c928130b69e73b9525173c96edc438be197629ca6868d8b90d002
+  sass-embedded (1.102.0-x64-mingw-ucrt) sha256=651e6e99c7bb486c9531b2e1914a264983f8e4fe49a45b00c2303daec51fc25f
   sass-embedded (1.102.0-x86_64-darwin) sha256=3e78c6ac5be0ba4236d075bd044a49d0f515d54799f7d6f253c71d325ffedac0
   sass-embedded (1.102.0-x86_64-linux-android) sha256=c81ae0a1be26fa16e38dec96d0465129ec5cc446bbbd69667648e0a8fb0ac8f3
   sass-embedded (1.102.0-x86_64-linux-gnu) sha256=9815b7604123a9a44a65d44d5e58e7af1c7005174b745cda83bad4c9e3760ab3
