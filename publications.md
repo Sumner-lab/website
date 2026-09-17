@@ -37,7 +37,7 @@ This page lists peer-reviewed papers, book chapters, and other academic outputs 
 
 ## 2023
 
-- Manfredini F., Wurm Y., **Sumner S.**, Leadbeater E. 2023. Transcriptomic responses to location learning by honeybee dancers are partly mirrored in the brains of dance-followers. ***Proc. R. Soc.*** B290:20232274
+- Manfredini F., Wurm Y., **Sumner S.**, Leadbeater E. 2023. Transcriptomic responses to location learning by honeybee dancers are partly mirrored in the brains of dance-followers. ***Proc. R. Soc.*** B290:20232274. doi: [10.1098/rspb.2023.2274](https://doi.org/10.1098/rspb.2023.2274)
 - Cunningham-Eurich, I., Kontou, D., Yordanova, M., Maeda-Obregon, A., **Favreau**, **E.**, Wang, J. *et al.* 2023. Using citizen science data to assess the population genetic structure of the common yellowjacket wasp, *Vespula vulgaris*. ***Insect Molecular Biology***, 1–14
 - **Favreau E, Cini A, Taylor D**. *et al.* 2023. Putting hornets on the genomic map. ***Sci Rep*** 13, 6232
 - **Sumner S, Favreau E**, Geist K, Toth A L, Rehan S M. 2023. [Molecular patterns and processes in evolving sociality: lessons from insects](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OeD6rUEAAAAJ&sortby=pubdate&citation_for_view=OeD6rUEAAAAJ:olpn-zPbct0C). ***Phil. Trans. R. Soc. B*** 378: 20220076
