@@ -14,11 +14,15 @@ links:
     url: https://www.linkedin.com/in/idris-adams-a885341b3
   - label: ORCID
     url: https://orcid.org/0009-0006-6696-2722
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=flSeFcQAAAAJ&hl=en
 position: PhD Student
 project: Evolution of dietary and life history traits across aculeate Hymenoptera
 studies: Wasps (primarily solitary aculeates)
 themes: [Ecology, Evolution, Evolutionary biology, Dietary ecology]
 interests: I'm interested in the ecology and evolution of dietary and life-history traits in both solitary and social aculeate wasps, and the factors influencing the evolution of certain behaviours. I'm currently focusing on the Crabronidae, a species-rich family of over 10,000 species showing significant variation in prey types and life histories, including provisioning strategies, nest construction behaviours, and habitat choice. Methods I use include network analysis, phylogenetic comparative analyses, and experimental fieldwork.
+
+In addition to my PhD work, I'm a Student Representative for the Royal Entomological Society (RES), and Assistant Treasurer for the British Entomological & Natural History Society (BENHS).
 background:
 - '2023–present: PhD Candidate, University College London, NERC DTP Cohort 10'
 - '2019–2023: MSci Zoology, University of Sussex'
