@@ -2,7 +2,7 @@
 name: Christopher Wyatt
 role: Eco-Flow Project Lead
 status: current
-scopus_author_id: "56898654500"
+publications_source: orcid
 stints:
   - joined: "2013"
     left: "2014"
