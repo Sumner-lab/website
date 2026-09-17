@@ -42,9 +42,7 @@ projects:
       [code on GitHub](https://github.com/Eco-Flow/).
   - title: Wasp genomes, evolution and synteny
     text: |-
-      Wasps are my way into the genomics of social evolution: what changes in a genome as
-      societies grow more complex, and how the structure of the genome itself — the order
-      and arrangement of genes, or synteny — shifts between species.
+      Wasps are my way into the genomics of social evolution: what changes in a genome between simple and complex societies, and how the structure of the genome itself, the order and arrangement of genes, or synteny — shifts between species.
 
       This feeds Eco-Flow and is fed by it: [synteny](https://github.com/Eco-Flow/synteny)
       and [comparete](https://github.com/Eco-Flow/comparete) exist because these are the
