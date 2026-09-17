@@ -50,6 +50,7 @@ REPO_ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))
 PUBLICATIONS_PATH = os.path.join(REPO_ROOT, "publications.md")
 PEOPLE_DIR = os.path.join(REPO_ROOT, "_people")
 OUT_PATH = os.path.join(REPO_ROOT, "_data", "wider_publications.json")
+PERSON_DATA_DIR = os.path.join(REPO_ROOT, "_data", "people")
 
 ORCID_TOKEN_URL = "https://orcid.org/oauth/token"
 ORCID_API_BASE = "https://pub.orcid.org/v3.0"
@@ -151,6 +152,8 @@ def load_people(people_dir):
         people.append({
             "name": name, "status": fm.get("status"), "orcid": extract_orcid_id(fm),
             "joined": fm.get("joined"), "left": fm.get("left"), "stints": fm.get("stints") or [],
+            "slug": os.path.basename(path)[:-3],
+            "publications_source": (fm.get("publications_source") or "").strip().lower(),
         })
     return people
 
@@ -695,9 +698,11 @@ def main():
 
     enriched = []
     no_lab_author = []
+    crossref_cache = {}
     for doi, source_orcids in candidates.items():
         work = fetch_crossref_work(doi)
         time.sleep(CROSSREF_SLEEP_SECONDS)
+        crossref_cache[doi] = work
         if not work:
             continue
         if any(is_seirian_author(a) for a in work["authors"]):
@@ -771,6 +776,71 @@ def main():
         print(f"Wrote {OUT_PATH}: {len(wider_publications)} publication(s) "
               f"({len(newly_in_digest)} new, {len(pushed_out)} outranked, "
               f"{len(no_longer_eligible)} no longer eligible).")
+
+    # --- Part C: personal lists for profiles with publications_source: orcid ---
+    # Their whole publication record, not just work from their time in the
+    # lab: this is the list on their own page, the equivalent of the Scopus
+    # list for people who have a Scopus author ID.
+    for person in people:
+        if person.get("publications_source") != "orcid":
+            continue
+        if not person.get("orcid"):
+            print(f"  {person['name']} asks for an ORCID publication list but has no ORCID "
+                  f"link in their profile -- skipping.")
+            continue
+        try:
+            groups = fetch_orcid_works(person["orcid"], token)
+        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as e:
+            print(f"  Couldn't fetch ORCID works for {person['name']}: {e} -- leaving their "
+                  f"publication list as it is.")
+            continue
+        entries, seen = [], set()
+        for group in groups:
+            summary = summarize_group(group)
+            if not summary or summary["type"] in NON_PAPER_TYPES or summary["doi"] in seen:
+                continue
+            seen.add(summary["doi"])
+            work = crossref_cache.get(summary["doi"])
+            if work is None:
+                work = fetch_crossref_work(summary["doi"])
+                time.sleep(CROSSREF_SLEEP_SECONDS)
+                crossref_cache[summary["doi"]] = work
+            if not work:
+                continue
+            entries.append({
+                "doi": work["doi"],
+                "url": f"https://doi.org/{work['doi']}",
+                "title": work["title"],
+                "journal": work["journal"],
+                "year": work["year"],
+                "date": work["date"],
+                "authors": [
+                    {"name": f"{a['family']} {given_name_initials(a.get('given'))}".strip(),
+                     "lab_member": is_lab_member_author(a, orcid_index, family_index)}
+                    for a in work["authors"]
+                ],
+            })
+        entries.sort(key=lambda w: w["date"], reverse=True)
+        out_path = os.path.join(PERSON_DATA_DIR, f"orcid_{person['slug']}.json")
+        existing = None
+        if os.path.exists(out_path):
+            with open(out_path, encoding="utf-8") as f:
+                existing = json.load(f).get("publications")
+        if entries == existing:
+            print(f"  No change in {person['name']}'s ORCID publication list.")
+            continue
+        if not entries:
+            print(f"  ORCID returned no usable publications for {person['name']} -- leaving "
+                  f"their list as it is rather than emptying it.")
+            continue
+        os.makedirs(PERSON_DATA_DIR, exist_ok=True)
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump({"updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                       "name": person["name"], "orcid": person["orcid"],
+                       "profile_url": f"https://orcid.org/{person['orcid']}",
+                       "publications": entries}, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+        print(f"Wrote {out_path}: {len(entries)} publication(s) for {person['name']}.")
 
     write_run_summary(added, skipped, newly_in_digest, pushed_out, no_longer_eligible,
                        no_lab_author, orcid_index, family_index)

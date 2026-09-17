@@ -50,8 +50,11 @@ Everything goes in the front matter at the top of the file. Only `name`, `role`,
 | `themes` | Research tab, and the theme filters on the People page, e.g. `[Ecology, Genomics]` |
 | `background` | Research tab: a list, one line per role, newest first. Lines starting with years (`2019–2023: …`) are drawn on the career ruler. Add `\| ` to a line to split it: text before `\|` shows on the ruler/list, text after `\|` (project, institution, country) only shows on hover/focus |
 | `intro`, `background_text`, `biography`, `interests`, `other_interests`, `ask_me_about` | About tab, in that order (Markdown). `background_text` is shown under "Background", `interests` under "Research interests" |
+| `publications_source` | Set to `orcid` to have the Publications tab filled in from your ORCID record each week, instead of a hand-typed list (needs an ORCID link). `scopus_author_id` does the same from Scopus |
 | `publications` (+ optional `publications_label`) | Publications tab: a list, one publication per line (Markdown) |
 | `publications_text` | Publications tab, below the list: anything else, e.g. book chapters or popular science articles, with their own subheadings (Markdown) |
+
+An automatic list replaces a hand-typed `publications` list rather than repeating it, so a profile can keep its typed list until the first automatic one arrives. The lists are written to `_data/people/` by `.github/scripts/update_publications.py` during the weekly **Update publications** run, and come with full author lists from Crossref, with lab members in bold.
 
 Media appearances fill in the **In the media** tab automatically, from entries in `_data/media.yml` that list the person under `people:`. Anything written below the front matter still shows on the About tab, so sections that don't fit a field (Teaching, Book chapters…) can stay as normal Markdown.
 
