@@ -22,6 +22,8 @@ links:
   - label: Instagram
     url: https://www.instagram.com/cintia.oi/
 position: Post-doctoral researcher (NERC) / Scientific Associate (NHM)
+project: 'Unlocking the sensory secrets of predatory wasps: towards predictive tools for managing wasps (NERC funded)'
+studies: Hymenoptera - WASPS, ants and bees
 interests: |-
   My current project focuses on understanding the molecular evolution of sensory systems in wasp predatory behaviour, in collaboration with Prof. Eyal Privman (University of Haifa) and Prof. Gavin Broad (Natural History Museum). We aim to compare wasp genomes and sensory morphology to understand how wasps hunt. Stay tuned!
 

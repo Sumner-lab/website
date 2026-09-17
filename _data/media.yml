@@ -1507,6 +1507,16 @@
 - outlet: BBC Breakfast
   type: TV
   date: 2025-07-24
+  url: 'https://videopress.com/v/fc2GWn8i'
   people: [idris-adams]
   submitted_via_issue: 36
+
+- outlet: The iPAPER
+  type: Print
+  date: 2026-08-05
+  url: 'https://inews.co.uk/opinion/simple-ways-stop-flies-home-summer-4686657'
+  headline: Flies are everywhere right now - but there is a simple £10 solution
+  image: /wp-content/uploads/2026/08/media-the-ipaper-issue52-1.jpg
+  people: [seirian-sumner, femi-e-benny]
+  submitted_via_issue: 52
 
