@@ -27,11 +27,16 @@ layout: default
 {%- assign body = content | strip -%}
 {%- assign has_about = false -%}
 {%- if page.intro or page.background_text or page.biography or page.interests or page.other_interests or page.ask_me_about or body != "" -%}{%- assign has_about = true -%}{%- endif -%}
-{%- assign has_publications = false -%}
-{%- if page.publications.size > 0 or page.publications_text or page.scopus_author_id -%}{%- assign has_publications = true -%}{%- endif -%}
 {%- assign scopus_key = 'scopus_' | append: page.slug -%}
 {%- assign scopus_pubs = site.data.people[scopus_key].publications -%}
-{%- assign pub_count = page.publications.size | plus: scopus_pubs.size -%}
+{%- comment -%} An automatic list (ORCID, for profiles with publications_source: orcid) replaces a hand-typed one rather than repeating it. {%- endcomment -%}
+{%- assign orcid_key = 'orcid_' | append: page.slug -%}
+{%- assign orcid_pubs = site.data.people[orcid_key].publications -%}
+{%- assign listed_pubs = page.publications.size -%}
+{%- if orcid_pubs.size > 0 -%}{%- assign listed_pubs = orcid_pubs.size -%}{%- endif -%}
+{%- assign pub_count = listed_pubs | plus: scopus_pubs.size -%}
+{%- assign has_publications = false -%}
+{%- if pub_count > 0 or page.publications_text -%}{%- assign has_publications = true -%}{%- endif -%}
 
 <article class="nb wrap">
   <header class="nb-head">
@@ -191,7 +196,8 @@ layout: default
     <section class="nb-page prose" id="publications" role="tabpanel" aria-labelledby="nb-tab-publications">
       <h2 class="nb-page-title">Publications</h2>
       {% if page.scopus_author_id %}<div class="nb-block">{% include scopus-publications.html %}</div>{% endif %}
-      {% if page.publications.size > 0 %}
+      {% if orcid_pubs.size > 0 %}<div class="nb-block">{% include orcid-publications.html %}</div>{% endif %}
+      {% if page.publications.size > 0 and orcid_pubs.size == 0 %}
       <div class="nb-block">
         {% if page.publications_label %}<h3 class="nb-label">{{ page.publications_label }}</h3>{% endif %}
         <ul class="nb-pubs">
