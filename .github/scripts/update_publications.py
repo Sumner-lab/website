@@ -252,13 +252,22 @@ def split_name(full_name):
 
 
 def build_lab_member_index(people):
+    """orcid_index: ORCID -> member. family_index: surname, and each word of
+    it, -> members. Publishers spell surnames inconsistently ("Oi C A" vs
+    "Akemi Oi C", "de Araujo A" vs "Cerqueira de Araujo A"), so a word-level
+    index catches the variants; matches found that way are checked against
+    the given-name initial before they count."""
     orcid_index, family_index = {}, {}
     for p in people:
         given, family = split_name(p["name"])
         entry = {"name": p["name"], "given": given, "family": family}
         if p.get("orcid"):
             orcid_index[p["orcid"]] = entry
-        family_index.setdefault(family.lower(), []).append(entry)
+        keys = {family.lower()}
+        keys.update(w for w in re.split(r"[\s\-]+", family.lower())
+                    if len(w) > 1 and w not in PARTICLES)
+        for key in keys:
+            family_index.setdefault(key, []).append(entry)
     return orcid_index, family_index
 
 
@@ -298,9 +307,18 @@ def is_lab_member_author(author, orcid_index, family_index):
               f"this as a lab-member match (likely a publisher metadata error).")
         # Falls through to name-based matching below rather than trusting
         # a clearly-mismatched ORCID.
-    candidates = family_index.get((author.get("family") or "").lower())
+    family = (author.get("family") or "").lower()
+    candidates = family_index.get(family)
     if not candidates:
-        return False
+        # Try each word of the author's surname ("Akemi Oi" -> "oi"), but
+        # then always require the initial to match: a single word is much
+        # weaker evidence than the whole surname.
+        words = [w for w in re.split(r"[\s\-]+", family) if len(w) > 1 and w not in PARTICLES]
+        by_word = [c for w in words for c in family_index.get(w, [])]
+        if not by_word:
+            return False
+        author_initial = (author.get("given") or "")[:1].lower()
+        return any(c["given"][:1].lower() == author_initial for c in by_word if c["given"])
     if len(candidates) == 1:
         return True
     # Multiple lab members share this surname (e.g. two people named
@@ -676,6 +694,7 @@ def main():
             candidates.setdefault(summary["doi"], set()).add(person["orcid"])
 
     enriched = []
+    no_lab_author = []
     for doi, source_orcids in candidates.items():
         work = fetch_crossref_work(doi)
         time.sleep(CROSSREF_SLEEP_SECONDS)
@@ -684,6 +703,21 @@ def main():
         if any(is_seirian_author(a) for a in work["authors"]):
             print(f"  Skipping {doi}: Sumner is a co-author, so it belongs on the main "
                   f"publications list, not the wider-lab digest.")
+            continue
+        authors = [
+            {"name": f"{a['family']} {given_name_initials(a.get('given'))}".strip(),
+             "lab_member": is_lab_member_author(a, orcid_index, family_index)}
+            for a in work["authors"]
+        ]
+        if not any(a["lab_member"] for a in authors):
+            # The paper came from someone's ORCID record, but nobody from the
+            # lab is among its authors -- usually a work claimed on the wrong
+            # ORCID profile. Whatever the cause, it isn't a lab paper.
+            owners = ", ".join(sorted(orcid_index[o]["name"] for o in source_orcids if o in orcid_index))
+            print(f"  Skipping {doi}: no lab member among the authors "
+                  f"(found via {owners or 'an unknown ORCID'}).")
+            no_lab_author.append({"doi": doi, "title": work["title"], "year": work["year"],
+                                  "owners": owners, "authors": [a["name"] for a in authors]})
             continue
         enriched.append({
             "doi": work["doi"],
@@ -695,11 +729,7 @@ def main():
             "volume": work.get("volume"),
             "issue": work.get("issue"),
             "pages": work.get("pages"),
-            "authors": [
-                {"name": f"{a['family']} {given_name_initials(a.get('given'))}".strip(),
-                 "lab_member": is_lab_member_author(a, orcid_index, family_index)}
-                for a in work["authors"]
-            ],
+            "authors": authors,
             "source_orcid": sorted(source_orcids),
         })
     enriched.sort(key=lambda w: w["date"], reverse=True)
@@ -743,7 +773,7 @@ def main():
               f"{len(no_longer_eligible)} no longer eligible).")
 
     write_run_summary(added, skipped, newly_in_digest, pushed_out, no_longer_eligible,
-                       orcid_index, family_index)
+                       no_lab_author, orcid_index, family_index)
 
 
 def format_authors_for_report(authors, orcid_index=None, family_index=None):
@@ -775,7 +805,7 @@ def summarize_entry_for_report(entry):
 
 
 def write_run_summary(added, skipped, newly_in_digest, pushed_out, no_longer_eligible,
-                       orcid_index, family_index):
+                       no_lab_author, orcid_index, family_index):
     """Writes a plain-English summary of this run to a file the workflow
     uses as the PR body/comment -- reviewing this is much easier than
     reading a raw diff of wider_publications.json, where even one new
@@ -812,6 +842,14 @@ def write_run_summary(added, skipped, newly_in_digest, pushed_out, no_longer_eli
         lines += [f"- {summarize_entry_for_report(e)}" for e in no_longer_eligible]
     if not any_digest_change:
         lines.append("No change in the wider-lab digest this run.")
+    if no_lab_author:
+        lines += ["", f"{len(no_lab_author)} paper(s) left out because nobody from the lab is "
+                      f"among the authors -- usually a work claimed on the wrong ORCID profile, "
+                      f"worth checking on the ORCID record it came from:"]
+        for e in no_lab_author:
+            authors = ", ".join(e["authors"][:6]) + (", ..." if len(e["authors"]) > 6 else "")
+            lines.append(f"- {authors} ({e['year']}) {e['title']} — from {e['owners'] or 'an unknown ORCID'}"
+                          f" — [`{e['doi']}`](https://doi.org/{e['doi']})")
 
     lines += ["", "---",
               "This branch is bot-owned and gets force-pushed on every scheduled run -- "
