@@ -32,8 +32,11 @@ layout: default
 {%- comment -%} An automatic list (ORCID, for profiles with publications_source: orcid) replaces a hand-typed one rather than repeating it. {%- endcomment -%}
 {%- assign orcid_key = 'orcid_' | append: page.slug -%}
 {%- assign orcid_pubs = site.data.people[orcid_key].publications -%}
+{%- comment -%} A missing data file leaves orcid_pubs nil, and nil.size is nil rather than 0 -- so test the flag, never the size, or a profile with no generated list yet loses its hand-typed one. {%- endcomment -%}
+{%- assign has_orcid_pubs = false -%}
+{%- if orcid_pubs.size > 0 -%}{%- assign has_orcid_pubs = true -%}{%- endif -%}
 {%- assign listed_pubs = page.publications.size -%}
-{%- if orcid_pubs.size > 0 -%}{%- assign listed_pubs = orcid_pubs.size -%}{%- endif -%}
+{%- if has_orcid_pubs -%}{%- assign listed_pubs = orcid_pubs.size -%}{%- endif -%}
 {%- assign pub_count = listed_pubs | plus: scopus_pubs.size -%}
 {%- assign has_publications = false -%}
 {%- if pub_count > 0 or page.publications_text -%}{%- assign has_publications = true -%}{%- endif -%}
@@ -196,8 +199,8 @@ layout: default
     <section class="nb-page prose" id="publications" role="tabpanel" aria-labelledby="nb-tab-publications">
       <h2 class="nb-page-title">Publications</h2>
       {% if page.scopus_author_id %}<div class="nb-block">{% include scopus-publications.html %}</div>{% endif %}
-      {% if orcid_pubs.size > 0 %}<div class="nb-block">{% include orcid-publications.html %}</div>{% endif %}
-      {% if page.publications.size > 0 and orcid_pubs.size == 0 %}
+      {% if has_orcid_pubs %}<div class="nb-block">{% include orcid-publications.html %}</div>{% endif %}
+      {% if page.publications.size > 0 and has_orcid_pubs == false %}
       <div class="nb-block">
         {% if page.publications_label %}<h3 class="nb-label">{{ page.publications_label }}</h3>{% endif %}
         <ul class="nb-pubs">
