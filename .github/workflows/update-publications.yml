@@ -39,9 +39,15 @@ jobs:
 
       - name: Show diff in the run summary
         run: |
+          # Stage first: a person's first ORCID/Scopus list is a NEW file under
+          # _data/people, and plain `git diff` doesn't show untracked files --
+          # which is how one silently went missing (written, then reported as
+          # "no publication changes"). Staging makes new files visible to both
+          # this diff and the change check in the next step.
+          git add -A -- publications.md _data/wider_publications.json _data/people
           {
             echo '```diff'
-            git diff -- publications.md _data/wider_publications.json _data/people
+            git diff --cached -- publications.md _data/wider_publications.json _data/people
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY" || true
 
@@ -54,7 +60,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          if git diff --quiet -- publications.md _data/wider_publications.json _data/people; then
+          git add -A -- publications.md _data/wider_publications.json _data/people
+          if git diff --cached --quiet -- publications.md _data/wider_publications.json _data/people; then
             echo "No publication changes this run."
             existing=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
             if [ -n "$existing" ]; then
@@ -74,7 +81,7 @@ jobs:
           # bare branch name to refs/remotes/origin/* on its own here.
           git fetch origin "$BRANCH:refs/remotes/origin/$BRANCH" 2>/dev/null || true
           git checkout -B "$BRANCH"
-          git add publications.md _data/wider_publications.json _data/people
+          git add -A -- publications.md _data/wider_publications.json _data/people
           git commit -m "Update publications from ORCID/Crossref"
           git push --force-with-lease origin "$BRANCH"
 
