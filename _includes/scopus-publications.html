@@ -4,9 +4,19 @@
 <p><em>Scopus-indexed articles and preprints</em></p>
 <p>This list is refreshed automatically from the <a href="https://www.scopus.com/authid/detail.uri?authorId={{ page.scopus_author_id }}">Scopus author profile</a>.</p>
 {% if scopus.size > 0 %}
+<ol class="nb-pubs">
 {% for publication in scopus %}
-{{ forloop.index }}. {{ publication.authors }}. {{ publication.year }}. {{ publication.title }}. <em>{{ publication.journal }}</em>. <a href="{{ publication.url }}">{{ publication.url }}</a>{% if publication.citations != nil %} - <strong>{{ publication.citations }} Scopus citation{% unless publication.citations == 1 %}s{% endunless %}</strong>{% endif %}<br>
+{%- assign pub_images = site.data.publication_images[publication.doi] -%}
+<li class="nb-pub-entry{% if pub_images %} has-image{% endif %}">
+  <div class="nb-pub-text">{{ publication.authors }}. {{ publication.year }}. {{ publication.title }}. <em>{{ publication.journal }}</em>. <a href="{{ publication.url }}">{{ publication.url }}</a>{% if publication.citations != nil %} - <strong>{{ publication.citations }} Scopus citation{% unless publication.citations == 1 %}s{% endunless %}</strong>{% endif %}</div>
+  {% if pub_images %}
+  <div class="nb-pub-images">
+    {% for img in pub_images %}<img src="{{ img | relative_url }}" alt="Graphical abstract or figure from this paper" loading="lazy">{% endfor %}
+  </div>
+  {% endif %}
+</li>
 {% endfor %}
+</ol>
 {% else %}
 <p>The Scopus list is currently empty.</p>
 {% endif %}
