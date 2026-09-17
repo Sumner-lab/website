@@ -1,0 +1,3 @@
+# Overrides for Netlify pull request previews only (see netlify.toml).
+# Previews shouldn't count towards the site's visit analytics.
+cloudflare_analytics_token: ""

@@ -1,8 +1,7 @@
 ---
 name: Femi E Benny
-role: PhD Student, Ecology & Behaviour of Asian Giant Hornets
+role: PhD Student, Ecosystem services of social wasps
 status: current
-order: 7
 joined: "2024"
 photo: /wp-content/uploads/2025/01/IMG_5255-scaled.jpg
 title: Femi E Benny
@@ -13,8 +12,14 @@ links:
     url: https://bsky.app/profile/femi-benny.bsky.social
   - label: Instagram
     url: https://instagram.com/femibenny
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/femi-e-benny/
   - label: ORCID
     url: https://orcid.org/0000-0001-5991-9896
+  - label: ResearchGate
+    url: https://www.researchgate.net/profile/Femi-Benny
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=8ftK4iQAAAAJ&hl=en
 ---
 **Position:** PhD Student
 
@@ -45,8 +50,7 @@ I'm from India, and completed my Master's in Applied Zoology (Entomology) at Cal
 - Ranjith, A., Burks, R.A., **Benny, F. E.**, & Priyadarsanan, D.R. (2023) First report of two eulophid genera (Hymenoptera: Chalcidoidea: Eulophidae) from India with the description of two new species. *Zootaxa*, 5231(4), 471-480. doi: [10.11646/zootaxa.5231.4.8](https://doi.org/10.11646/zootaxa.5231.4.8)
 - Kaimal, S.G., & **Benny, F. E.** (2019) Butterfly diversity of Vengalam mangroves, Calicut, Kerala. *Perspectives in Life Sciences*. UGC-HRDC, University of Calicut.
 
-**Popular Science Articles**
-
+**Public Writing**
 - **Benny, F. E.** (2026) [Buzz Pollinators of the Indian Himalayas](https://roundglasssustain.com/species/bumblebees). Round Glass Sustain.
 - **Benny, F. E.** & Thejavikho Chase (2026) [“We’ve been eating it for more than 100 years”: how one community turns stink bug infestations into lunch](https://www.theguardian.com/environment/2025/nov/21/turning-stink-bug-infestations-into-lunch-india-the-alternatives). *The Guardian*.
 - **Benny, F. E.** (2026) [Commentary: Vanishing mango landraces reflect the loss of shared landscapes](https://india.mongabay.com/2026/05/vanishing-mango-landraces-reflect-the-loss-of-shared-landscapes-commentary/). *Mongabay*.
@@ -67,5 +71,3 @@ I'm from India, and completed my Master's in Applied Zoology (Entomology) at Cal
 - **Benny, F. E.** (2021) [Understanding the science behind avian influenza](https://india.mongabay.com/2021/02/explainer-understanding-the-science-behind-avian-influenza/). Mongabay.
 - **Benny, F. E.** (2021) [Eating insects could be the future of food](https://india.mongabay.com/2021/05/explainer-eating-insects-could-be-the-future-of-food/). Mongabay.
 - **Benny, F. E.** (2021) [Understanding the Alarm Around Asian Giant Hornets in the US](https://science.thewire.in/environment/understanding-the-alarm-around-asian-giant-hornets-in-the-us/). The Wire Science.
-
- [ResearchGate](https://www.researchgate.net/profile/Femi-Benny) · [Google Scholar](https://scholar.google.com/citations?user=8ftK4iQAAAAJ&hl=en)

@@ -280,42 +280,42 @@
   url: 'https://www.thetimes.com/article/0aa16915-7a75-4707-942d-7786b6ea1346'
   people: [seirian-sumner]
 
-- outlet: 'BBC MANCHESTER'
+- outlet: 'BBC Manchester'
   type: Radio
   type_detail: 'Interview - Radio'
   date: 2025-08-01
   precision: month
   people: [seirian-sumner]
 
-- outlet: 'BBC WILTSHIRE/GLOUCESTERSHIRE'
+- outlet: 'BBC Wiltshire/Gloucestershire'
   type: Radio
   type_detail: 'Interview - Radio'
   date: 2025-08-01
   precision: month
   people: [seirian-sumner]
 
-- outlet: 'BBC HEREFORD & WORCESTER/SHROPSHIRE/STOKE'
+- outlet: 'BBC Hereford & Worcester/Shropshire/Stoke'
   type: Radio
   type_detail: 'Interview - Radio'
   date: 2025-08-01
   precision: month
   people: [seirian-sumner]
 
-- outlet: 'BBC JERSEY/GUERNSEY'
+- outlet: 'BBC Jersey/Guernsey'
   type: Radio
   type_detail: 'Interview - Radio'
   date: 2025-08-01
   precision: month
   people: [seirian-sumner]
 
-- outlet: 'BBC 3CR/NORTHAMPTON'
+- outlet: 'BBC 3CR/Northampton'
   type: Radio
   type_detail: 'Interview - Radio'
   date: 2025-08-01
   precision: month
   people: [seirian-sumner]
 
-- outlet: 'BBC CORNWALL/DEVON'
+- outlet: 'BBC Cornwall/Devon'
   type: Radio
   type_detail: 'Interview - Radio'
   date: 2025-08-01
@@ -345,7 +345,7 @@
   url: 'https://www.independent.co.uk/life-style/health-and-families/wasp-sting-treatment-what-to-do-b2801407.html'
   people: [seirian-sumner]
 
-- outlet: 'BBC Yorkshire SHEFFIELD'
+- outlet: 'BBC Yorkshire Sheffield'
   type: Radio
   type_detail: 'Interview - Radio'
   date: 2025-08-01
@@ -631,56 +631,56 @@
   precision: month
   people: [seirian-sumner]
 
-- outlet: 'BBC NORFOLK'
+- outlet: 'BBC Norfolk'
   type: Radio
   type_detail: 'Interview - Radio'
   date: 2024-08-01
   precision: month
   people: [seirian-sumner]
 
-- outlet: 'BBC NOTTINGHAM'
+- outlet: 'BBC Nottingham'
   type: Radio
   type_detail: 'Interview - Radio'
   date: 2024-08-01
   precision: month
   people: [seirian-sumner]
 
-- outlet: 'BBC HUMBERSIDE'
+- outlet: 'BBC Humberside'
   type: Radio
   type_detail: 'Interview - Radio'
   date: 2024-08-01
   precision: month
   people: [seirian-sumner]
 
-- outlet: 'BBC LINCS'
+- outlet: 'BBC Lincs'
   type: Radio
   type_detail: 'Interview - Radio'
   date: 2024-08-01
   precision: month
   people: [seirian-sumner]
 
-- outlet: 'BBC CUMBRIA'
+- outlet: 'BBC Cumbria'
   type: Radio
   type_detail: 'Interview - Radio'
   date: 2024-08-01
   precision: month
   people: [seirian-sumner]
 
-- outlet: 'BBC DERBY'
+- outlet: 'BBC Derby'
   type: Radio
   type_detail: 'Interview - Radio'
   date: 2024-08-01
   precision: month
   people: [seirian-sumner]
 
-- outlet: 'BBC KENT'
+- outlet: 'BBC Kent'
   type: Radio
   type_detail: 'Interview - Radio'
   date: 2024-08-01
   precision: month
   people: [seirian-sumner]
 
-- outlet: 'BBC SOMERSET'
+- outlet: 'BBC Somerset'
   type: Radio
   type_detail: 'Interview - Radio'
   date: 2024-08-01
@@ -1507,6 +1507,16 @@
 - outlet: BBC Breakfast
   type: TV
   date: 2025-07-24
+  url: 'https://videopress.com/v/fc2GWn8i'
   people: [idris-adams]
   submitted_via_issue: 36
+
+- outlet: The iPAPER
+  type: Print
+  date: 2026-08-05
+  url: 'https://inews.co.uk/opinion/simple-ways-stop-flies-home-summer-4686657'
+  headline: Flies are everywhere right now - but there is a simple £10 solution
+  image: /wp-content/uploads/2026/08/media-the-ipaper-issue52-1.jpg
+  people: [seirian-sumner, femi-e-benny]
+  submitted_via_issue: 52
 
