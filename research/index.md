@@ -41,3 +41,7 @@ We combine genomic, transcriptomic, and behavioural approaches to understand how
     </a>
   </li>
 </ul>
+
+## Read the work
+
+Every paper, book chapter and preprint from the lab is listed on the [Publications page]({{ site.baseurl }}/publications/). Papers by lab members published without Seirian as a co-author are on [Wider Sumner Lab Papers]({{ site.baseurl }}/publications/wider/), and each person's own page lists theirs too.

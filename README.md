@@ -50,17 +50,37 @@ Everything goes in the front matter at the top of the file. Only `name`, `role`,
 | `themes` | Research tab, and the theme filters on the People page, e.g. `[Ecology, Genomics]` |
 | `background` | Research tab: a list, one line per role, newest first. Lines starting with years (`2019–2023: …`) are drawn on the career ruler. Add `\| ` to a line to split it: text before `\|` shows on the ruler/list, text after `\|` (project, institution, country) only shows on hover/focus |
 | `intro`, `background_text`, `biography`, `interests`, `other_interests`, `ask_me_about` | About tab, in that order (Markdown). `background_text` is shown under "Background", `interests` under "Research interests" |
-| `publications_source` | Set to `orcid` to have the Publications tab filled in from your ORCID record each week, instead of a hand-typed list (needs an ORCID link). `scopus_author_id` does the same from Scopus |
+| `publications_source`, `scopus_author_id` | Where the Publications tab comes from — see [Publications on a profile](#publications-on-a-profile) below |
 | `publications` (+ optional `publications_label`) | Publications tab: a list, one publication per line (Markdown) |
 | `publications_text` | Publications tab, below the list: anything else, e.g. book chapters or popular science articles, with their own subheadings (Markdown) |
-
-An automatic list replaces a hand-typed `publications` list rather than repeating it, so a profile can keep its typed list until the first automatic one arrives. The lists are written to `_data/people/` by `.github/scripts/update_publications.py` during the weekly **Update publications** run, and come with full author lists from Crossref, with lab members in bold.
 
 Media appearances fill in the **In the media** tab automatically, from entries in `_data/media.yml` that list the person under `people:`. Anything written below the front matter still shows on the About tab, so sections that don't fit a field (Teaching, Book chapters…) can stay as normal Markdown.
 
 Older profiles were written as one block of Markdown with bold labels (`**Position:**`, `**Background**`…). `bin/convert_profiles.py` moves those into the fields above without losing any text; run `python3 bin/convert_profiles.py --check` to preview it. It skips profiles that already use the fields, so it's safe to re-run.
 
 To see what each profile is still missing (years in the lab, career history, ORCID link, the newer fields…), run `python3 bin/profile_checklist.py`. It prints a table that can be pasted into an issue for the lab.
+
+### Publications on a profile
+
+Three ways to fill the **Publications** tab. Pick one per person:
+
+| | How | What happens |
+|---|---|---|
+| **ORCID** *(recommended)* | Add `publications_source: orcid`, and an ORCID link under `links:` | The weekly bot writes your list from your ORCID record. Free, no extra setup — the credentials are already in the repo. Keep your ORCID up to date and the page follows |
+| **Scopus** | Add `scopus_author_id: "12345678900"` | The weekly bot writes your list from your Scopus author profile. **Needs a `SCOPUS_API_KEY` repository secret**, from [dev.elsevier.com](https://dev.elsevier.com/) with a UCL account. Without it nothing updates. Your Scopus author ID is often on your ORCID record, under "Other IDs" |
+| **By hand** | Fill in the `publications:` list | Nothing updates itself. Fine for a short, stable list |
+
+The [Publications page](https://www.sumnerlab.co.uk/publications/) lists everything Seirian co-authors, preprints included and marked as such; the wider page lists lab members' work she isn't on. When a preprint is later published, the bot adds the published version as a new entry and leaves the preprint line for someone to delete by hand: it never removes anything on its own.
+
+Both automatic lists are written to `_data/people/` by the weekly **Update publications** run and come with full author lists from Crossref, with lab members in **bold**. An automatic list **replaces** a hand-typed `publications` list rather than repeating it, so you can leave your typed list in place until the first automatic one arrives. `publications_text` (book chapters, popular science articles) always shows underneath, whichever option you use.
+
+If the automatic list is missing a paper, or has one that isn't yours, fix it at the source — in your ORCID or Scopus record — and the next run will pick it up.
+
+## Keeping your own visits out of the numbers
+
+The [Numbers](https://www.sumnerlab.co.uk/numbers/) page counts visits with Cloudflare Web Analytics (no cookies, no IP storage). Lab members browsing or testing the site inflate those counts, so there's an opt-out: go to **[sumnerlab.co.uk/no-track/](https://www.sumnerlab.co.uk/no-track/)** and press **Turn tracking off**.
+
+It applies to that browser on that device only, so repeat it on your phone or another browser. Pull request previews never count towards analytics.
 
 ## Previewing a pull request
 
