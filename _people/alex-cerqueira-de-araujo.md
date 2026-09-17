@@ -41,16 +41,16 @@ past_projects:
       Figure legend: Evolution of Nudiviruses endogenised in *Campopleginae* wasps. Top left: dNdS ratios of viral (red, green, pink and blue) and wasp genes (grey). Top right: Syntenies of viral genes endogenised in two different species of wasps (*Venturia canescens* and *Campoplex capitator*). Viral genes are colored (yellow for lost genes by pseudogenisation) while wasp genes are white/grey. Bottom left: phylogeny of *Naldaviricetes*. Nudiviruses endogenised in *Campopleginae* are written in red (CnolaENV: Campoplex nolae Endogenous Nudivirus, CcapiENV: Campoplex capitator Endogenous Nudivirus, VcENV: Venturia canescens Endogenous Nudivirus). Bottom right: expression kinetic of viral genes and virulence factors (wasp genes envelopped in Virus-Like Particles - VLPs) in *Venturia canescens*. P1 to P5 refer to nymphal instars, where the VLP production is low compared to the adults.
 background:
 - 'Sept 2024–present: Postdoctoral researcher, UCL, UK'
-- 'Apr 2024-May 2024: Molecular phylogeny course - advanced, Ecole SupAgro Montpellier, France'
-- 'Jan 2024-Feb 2024: Visiting researcher, "Investigation of new cases of horizontal gene transfer in ticks", Institute of Parasitology, Biology Centre, Czech Academy of Sciences, Czech Republic'
-- 'Jan 2023–Jun 2024: Postdoctoral researcher, "Comparative and evolutionary genomics of ticks", INRAE-Oniris, France'
-- 'Feb 2019-Mar 2019: Bioinformatic courses, "UNIX initiation: big data manipulation using UNIX", Agrocampus, Rennes, France'
-- 'Sept 2018–Jul 2022: PhD in Science (Biology), "Evolution of recently domesticated viruses in Campopleginae parasitoid wasps", Institut de recherche sur la biologie de l’insecte, CNRS UMR 7261, Université de Tours, France'
-- 'Feb 2018-Jul 2018: Master 2 internship, "Immune plasticity of Armadillidium vulgare (pillbug)", Ecologie et Biologie des interactions laboratory - UMR CNRS 7267, Université de Poitiers, France'
-- 'Feb 2017-Jul 2017: Master 2 internship, "Immune plasticity of Armadillidium vulgare (pillbug)", Ecologie et Biologie des interactions laboratory - UMR CNRS 7267, Université de Poitiers, France'
-- 'May 2016-Jul 2016: Master 1 internship, "Effects of cyanotoxins on zooplankton communitie", Ecologie, Systematique et Evolution laboratory - UMR 8079, Université d’Orsay, France'
-- 'Sept 2015–Jun 2018: MSc in Evolutionary Ecology, "The chemical crown of social insect wasps", Université Paris-Saclay, France'
-- 'May 2015-Jul 2015: Internship, "Evolution of plant-pollinator relationship throughout the urbanization gradient", Ecologie, Systematique et Evolution laboratory - UMR 8079, Université d’Orsay, France'
+- 'Apr 2024-May 2024: Molecular phylogeny course - advanced, France | Ecole SupAgro Montpellier, France'
+- 'Jan 2024-Feb 2024: Visiting researcher, Czech Academy of Sciences, Czech Republic | "Investigation of new cases of horizontal gene transfer in ticks", Institute of Parasitology, Biology Centre, Czech Academy of Sciences, Czech Republic'
+- 'Jan 2023–Jun 2024: Postdoctoral researcher, INRAE-Oniris, France | "Comparative and evolutionary genomics of ticks", INRAE-Oniris, France'
+- 'Feb 2019-Mar 2019: Bioinformatic courses, Agrocampus, Rennes, France | "UNIX initiation: big data manipulation using UNIX", Agrocampus, Rennes, France'
+- 'Sept 2018–Jul 2022: PhD in Science (Biology), Université de Tours, France | "Evolution of recently domesticated viruses in Campopleginae parasitoid wasps", Institut de recherche sur la biologie de l’insecte, CNRS UMR 7261, Université de Tours, France'
+- 'Feb 2018-Jul 2018: Master 2 internship, Université de Poitiers, France | "Immune plasticity of Armadillidium vulgare (pillbug)", Ecologie et Biologie des interactions laboratory - UMR CNRS 7267, Université de Poitiers, France'
+- 'Feb 2017-Jul 2017: Master 2 internship, Université de Poitiers, France | "Immune plasticity of Armadillidium vulgare (pillbug)", Ecologie et Biologie des interactions laboratory - UMR CNRS 7267, Université de Poitiers, France'
+- 'May 2016-Jul 2016: Master 1 internship, Université d’Orsay, France | "Effects of cyanotoxins on zooplankton communitie", Ecologie, Systematique et Evolution laboratory - UMR 8079, Université d’Orsay, France'
+- 'Sept 2015–Jun 2018: MSc in Evolutionary Ecology, Université Paris-Saclay, France | "The chemical crown of social insect wasps", Université Paris-Saclay, France'
+- 'May 2015-Jul 2015: Internship, Université d’Orsay, France | "Evolution of plant-pollinator relationship throughout the urbanization gradient", Ecologie, Systematique et Evolution laboratory - UMR 8079, Université d’Orsay, France'
 - 'Sept 2012–Jun 2015: Bachelor of science degree in biology, Université de Poitiers, France'
 
 interests: |-

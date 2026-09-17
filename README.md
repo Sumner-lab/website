@@ -48,7 +48,7 @@ Everything goes in the front matter at the top of the file. Only `name`, `role`,
 | `project` | Research tab: a single-line project title, no paragraph. Older/simpler profiles only |
 | `projects`, `past_projects` | Research tab: a list of `title` + `text` (Markdown, can be multiple paragraphs), one block per project. Use instead of `project` when a project needs more than a title — `past_projects` renders as its own "Past projects" block underneath |
 | `themes` | Research tab, and the theme filters on the People page, e.g. `[Ecology, Genomics]` |
-| `background` | Research tab: a list, one line per role, newest first. Lines starting with years (`2019–2023: …`) are drawn on the career ruler |
+| `background` | Research tab: a list, one line per role, newest first. Lines starting with years (`2019–2023: …`) are drawn on the career ruler. Add `\| ` to a line to split it: text before `\|` shows on the ruler/list, text after `\|` (project, institution, country) only shows on hover/focus |
 | `intro`, `background_text`, `biography`, `interests`, `other_interests`, `ask_me_about` | About tab, in that order (Markdown). `background_text` is shown under "Background", `interests` under "Research interests" |
 | `publications` (+ optional `publications_label`) | Publications tab: a list, one publication per line (Markdown) |
 | `publications_text` | Publications tab, below the list: anything else, e.g. book chapters or popular science articles, with their own subheadings (Markdown) |

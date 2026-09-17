@@ -127,12 +127,15 @@ layout: default
             {%- endif -%}
             {%- assign left = from | minus: ruler_min | times: 100.0 | divided_by: span | round: 2 -%}
             {%- assign width = to | minus: from | times: 100.0 | divided_by: span | round: 2 -%}
-            {%- comment -%} Show "date: role" on the ruler itself; anything after the first comma (project, institution, country) only appears on hover/focus, to keep the list scannable. {%- endcomment -%}
-            {%- assign date_label = item | split: ": " | first -%}
-            {%- assign detail = item | remove_first: date_label | remove_first: ": " | strip -%}
-            {%- assign role = detail | split: "," | first | strip -%}
-            {%- assign extra = detail | remove_first: role | remove_first: "," | strip -%}
-            {%- assign basic = date_label | append: ": " | append: role -%}
+            {%- comment -%} Show the text before "|" on the ruler itself; anything after "|" (project, institution, country) only appears on hover/focus, to keep the list scannable. Lines without a "|" show in full, with no hover text. {%- endcomment -%}
+            {%- if item contains "|" -%}
+              {%- assign pipe_parts = item | split: "|" -%}
+              {%- assign basic = pipe_parts | first | strip -%}
+              {%- assign extra = pipe_parts | slice: 1, pipe_parts.size | join: "|" | strip -%}
+            {%- else -%}
+              {%- assign basic = item | strip -%}
+              {%- assign extra = "" -%}
+            {%- endif -%}
           <li><span class="nb-ruler-text">{{ basic | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span><span class="nb-ruler-track" tabindex="0"{% if extra != "" %} aria-label="{{ extra | markdownify | strip_html | strip_newlines | strip | escape }}"{% endif %}><span style="left: {{ left }}%; width: {{ width }}%;" aria-hidden="true"></span>{% if extra != "" %}<span class="nb-ruler-tip" aria-hidden="true">{{ extra | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>{% endif %}</span></li>
           {%- endif -%}
           {%- endfor -%}
@@ -146,7 +149,13 @@ layout: default
           {%- assign head = item | split: ":" | first | replace: "–", "-" | replace: "—", "-" | strip -%}
           {%- assign start = head | split: "-" | first | strip -%}
           {%- assign from = start | slice: -4, 4 | plus: 0 -%}
-          {%- unless start.size <= 10 and from > 1900 -%}<li>{{ item | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>{%- endunless -%}
+          {%- unless start.size <= 10 and from > 1900 -%}
+            {%- assign u_pipe_parts = item | split: "|" -%}
+            {%- assign u_basic = u_pipe_parts | first | strip -%}
+            {%- assign u_extra = "" -%}
+            {%- if u_pipe_parts.size > 1 -%}{%- assign u_extra = u_pipe_parts | slice: 1, u_pipe_parts.size | join: "|" | strip -%}{%- endif -%}
+            <li{% if u_extra != "" %} title="{{ u_extra | markdownify | strip_html | strip_newlines | strip | escape }}"{% endif %}>{{ u_basic | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>
+          {%- endunless -%}
           {%- endfor -%}
         {%- endcapture -%}
         {% if undrawn != "" %}<ul class="nb-ruler-other">{{ undrawn }}</ul>{% endif %}
