@@ -6,9 +6,14 @@
 {%- assign orcid_key = "orcid_" | append: page.slug -%}
 {%- assign orcid_data = site.data.people[orcid_key] -%}
 {% if orcid_data.publications.size > 0 %}
-<p class="nb-pubs-source">Updated automatically from <a href="{{ orcid_data.profile_url }}" target="_blank" rel="noopener">{{ page.name | default: page.title }}'s ORCID record</a>{% if orcid_data.updated %}, last checked {{ orcid_data.updated | date: "%-d %b %Y" }}{% endif %}.</p>
+{%- comment -%} publications_limit caps a long record (the PI's, say) at the most recent few. {%- endcomment -%}
+{%- assign shown = orcid_data.publications -%}
+{%- if page.publications_limit and orcid_data.publications.size > page.publications_limit -%}
+  {%- assign shown = orcid_data.publications | slice: 0, page.publications_limit -%}
+{%- endif -%}
+<p class="nb-pubs-source">{% if shown.size < orcid_data.publications.size %}The {{ shown.size }} most recent of {{ orcid_data.publications.size }}, updated{% else %}Updated{% endif %} automatically from <a href="{{ orcid_data.profile_url }}" target="_blank" rel="noopener">{{ page.name | default: page.title }}'s ORCID record</a>{% if orcid_data.updated %}, last checked {{ orcid_data.updated | date: "%-d %b %Y" }}{% endif %}.</p>
 <ul class="nb-pubs">
-  {% for pub in orcid_data.publications %}
+  {% for pub in shown %}
   <li>{% for author in pub.authors %}{% if author.lab_member %}<strong>{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %} ({{ pub.year }}) {{ pub.title }}.{% if pub.journal %} <em>{{ pub.journal }}</em>.{% endif %} doi: <a href="{{ pub.url }}">{{ pub.doi }}</a></li>
   {% endfor %}
 </ul>

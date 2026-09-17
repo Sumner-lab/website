@@ -2,6 +2,9 @@
 name: Seirian Sumner
 role: Principal Investigator · Professor of Behavioural Ecology
 status: current
+publications_source: orcid
+publications_limit: 20
+publications_text: Every paper, book chapter and preprint from the lab that Seirian has co-authored is listed on the [Publications page]({{ site.baseurl }}/publications/).
 order: 1
 joined: "2012"
 photo: /wp-content/uploads/2014/09/Seirian-Sumner.jpg
