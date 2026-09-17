@@ -1,21 +1,33 @@
 {% assign wall = site.data.social_wall %}
 {% assign hashtag = wall.hashtag | default: "sumnerlabucl" %}
 {% assign placeholder_image = "/assets/images/wasp-illustration.jpeg" | relative_url %}
-<section class="social-wall wrap" id="{{ hashtag }}-on-bluesky">
-  <h2 class="section-heading">#{{ hashtag }} on Bluesky</h2>
+{%- comment -%}
+  Bluesky posts are collected automatically (.github/scripts/update_social_wall.py);
+  Instagram ones are added by hand in _data/instagram.yml, since Instagram has no
+  hashtag feed we can use. Both are shown newest first, in one wall.
+{%- endcomment -%}
+{% assign empty_list = "" | split: "," %}
+{% assign bluesky_posts = wall.posts | default: empty_list %}
+{% assign instagram_posts = site.data.instagram.posts | default: empty_list %}
+{% assign posts = bluesky_posts | concat: instagram_posts | sort: "date" | reverse %}
+{% if posts.size > 9 %}{% assign posts = posts | slice: 0, 9 %}{% endif %}
+<section class="social-wall wrap" id="{{ hashtag }}-on-social">
+  <h2 class="section-heading">#{{ hashtag }}</h2>
   <div class="social-wall-grid">
-    {% if wall.posts.size > 0 %}
-      {% for post in wall.posts %}
+    {% if posts.size > 0 %}
+      {% for post in posts %}
+      {% assign is_instagram = false %}{% if post.url contains "instagram.com" %}{% assign is_instagram = true %}{% endif %}
       <a class="social-post" href="{{ post.url }}" target="_blank" rel="noopener">
-        <img class="social-post-image{% unless post.image %} social-post-image--placeholder{% endunless %}" src="{{ post.image | default: placeholder_image }}" alt="" loading="lazy">
-        <span class="social-post-meta">{{ post.handle }} &middot; {{ post.date | date: "%-d %b %Y" }}{% if post.quoting %} &middot; quoting @{{ post.quoting }}{% endif %}</span>
+        <img class="social-post-image{% unless post.image %} social-post-image--placeholder{% endunless %}" src="{% if post.image %}{{ post.image | relative_url }}{% else %}{{ placeholder_image }}{% endif %}" alt="" loading="lazy">
+        <span class="social-post-meta"><span class="social-post-network">{% if is_instagram %}Instagram{% else %}Bluesky{% endif %}</span>{% if post.handle %}{{ post.handle }} &middot; {% endif %}{{ post.date | date: "%-d %b %Y" }}{% if post.quoting %} &middot; quoting @{{ post.quoting }}{% endif %}</span>
         <span class="social-post-text">{{ post.text }}</span>
       </a>
       {% endfor %}
     {% elsif wall.updated %}
       <p class="social-wall-status">No posts tagged #{{ hashtag }} yet &mdash; be the first!</p>
     {% else %}
-      <p class="social-wall-status">Couldn&rsquo;t load posts right now &mdash; <a href="https://bsky.app/hashtag/{{ hashtag }}" target="_blank" rel="noopener">see them directly on Bluesky</a>.</p>
+      <p class="social-wall-status">Couldn&rsquo;t load posts right now &mdash; see them on <a href="https://bsky.app/hashtag/{{ hashtag }}" target="_blank" rel="noopener">Bluesky</a> or <a href="https://www.instagram.com/explore/tags/{{ hashtag }}/" target="_blank" rel="noopener">Instagram</a>.</p>
     {% endif %}
   </div>
+  <p class="social-wall-foot">Tag <strong>#{{ hashtag }}</strong> on <a href="https://bsky.app/hashtag/{{ hashtag }}" target="_blank" rel="noopener">Bluesky</a> and it appears here automatically. <a href="https://www.instagram.com/explore/tags/{{ hashtag }}/" target="_blank" rel="noopener">Instagram posts</a> are added by hand.</p>
 </section>

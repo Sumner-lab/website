@@ -531,6 +531,18 @@ a.research-tile:hover::after {
 }
 .latest-grid { margin-bottom: 1.75rem; }
 .social-wall-status { color: var(--color-text-muted); grid-column: 1 / -1; }
+.social-wall-foot { color: var(--color-text-muted); font-size: 0.88rem; margin: 1.25rem 0 0; }
+.social-post-network {
+  display: inline-block;
+  margin-right: 0.45rem;
+  padding: 0.05rem 0.4rem;
+  border-radius: 3px;
+  background: var(--color-accent-light);
+  color: var(--color-accent);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
 
 .latest-card, .social-post {
   text-decoration: none;
