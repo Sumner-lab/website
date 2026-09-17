@@ -76,6 +76,27 @@ Both automatic lists are written to `_data/people/` by the weekly **Update publi
 
 If the automatic list is missing a paper, or has one that isn't yours, fix it at the source — in your ORCID or Scopus record — and the next run will pick it up.
 
+## The #sumnerlabucl social wall
+
+The wall on the home page and the Media page shows posts tagged **#sumnerlabucl**, newest first.
+
+- **Bluesky posts appear automatically.** A bot checks every two hours (`.github/scripts/update_social_wall.py`) and writes `_data/social_wall.json`. Just use the hashtag.
+- **Instagram posts are added by hand,** in `_data/instagram.yml`. Instagram has no hashtag feed we can use: Meta's hashtag search needs an Instagram Business account and App Review for "Instagram Public Content Access", and its access tokens expire every 60 days.
+- **LinkedIn can't be included at all.** There's no public API for hashtag posts; LinkedIn's content APIs are restricted to approved partners and only cover an organisation's own posts.
+
+To add an Instagram post, add an entry to `_data/instagram.yml`:
+
+```yaml
+posts:
+  - url: https://www.instagram.com/p/ABC123/     # the post's permalink
+    date: 2026-09-14                             # YYYY-MM-DD
+    handle: "@sumnerlabucl"
+    text: A line or two from the caption.
+    image: /wp-content/uploads/2026/09/my-post.jpg
+```
+
+`image` must be a file in this repo — Instagram's own image URLs expire after a while — so save a copy of the picture under `wp-content/uploads/`. Leave it out and the wall shows the wasp illustration instead.
+
 ## Keeping your own visits out of the numbers
 
 The [Numbers](https://www.sumnerlab.co.uk/numbers/) page counts visits with Cloudflare Web Analytics (no cookies, no IP storage). Lab members browsing or testing the site inflate those counts, so there's an opt-out: go to **[sumnerlab.co.uk/no-track/](https://www.sumnerlab.co.uk/no-track/)** and press **Turn tracking off**.
