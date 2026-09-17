@@ -70,6 +70,8 @@ Three ways to fill the **Publications** tab. Pick one per person:
 | **Scopus** | Add `scopus_author_id: "12345678900"` | The weekly bot writes your list from your Scopus author profile. **Needs a `SCOPUS_API_KEY` repository secret**, from [dev.elsevier.com](https://dev.elsevier.com/) with a UCL account. Without it nothing updates. Your Scopus author ID is often on your ORCID record, under "Other IDs" |
 | **By hand** | Fill in the `publications:` list | Nothing updates itself. Fine for a short, stable list |
 
+The [Publications page](https://www.sumnerlab.co.uk/publications/) lists everything Seirian co-authors, preprints included and marked as such; the wider page lists lab members' work she isn't on. When a preprint is later published, the bot adds the published version as a new entry and leaves the preprint line for someone to delete by hand: it never removes anything on its own.
+
 Both automatic lists are written to `_data/people/` by the weekly **Update publications** run and come with full author lists from Crossref, with lab members in **bold**. An automatic list **replaces** a hand-typed `publications` list rather than repeating it, so you can leave your typed list in place until the first automatic one arrives. `publications_text` (book chapters, popular science articles) always shows underneath, whichever option you use.
 
 If the automatic list is missing a paper, or has one that isn't yours, fix it at the source — in your ORCID or Scopus record — and the next run will pick it up.

@@ -59,13 +59,14 @@ CROSSREF_MAILTO = "s.sumner@ucl.ac.uk"
 USER_AGENT = f"SumnerLabWebsiteBot/1.0 (mailto:{CROSSREF_MAILTO}; +https://sumner-lab.github.io/website/)"
 
 SEIRIAN_ORCID = "0000-0003-0213-2018"
-# publications.md has never listed a preprint, even historically (it's
-# framed as peer-reviewed papers/book chapters/etc.) -- keep excluding
-# them there. The wider-lab digest has no such "peer-reviewed only"
-# framing and exists to showcase the group's wider work, so it allows
-# preprints through; both still exclude non-paper record types.
+# publications.md lists preprints too, marked as such, so work that hasn't
+# been through review yet still has a home; both lists exclude non-paper
+# record types. When a preprint is later published, the published version
+# is added as its own entry (different DOI) and the preprint line is left
+# for a human to remove -- this script never deletes anything.
 NON_PAPER_TYPES = {"dataset", "data_set", "working_paper", "other", "annotation"}
-MAIN_LIST_EXCLUDED_TYPES = NON_PAPER_TYPES | {"preprint"}
+MAIN_LIST_EXCLUDED_TYPES = NON_PAPER_TYPES
+PREPRINT_TYPES = {"preprint"}
 WIDER_LIST_EXCLUDED_TYPES = NON_PAPER_TYPES
 MIN_CANDIDATE_YEAR = datetime.now(timezone.utc).year - 2
 WIDER_LIST_SIZE = 20
@@ -292,10 +293,7 @@ def is_seirian_author(author):
     deduplicated by DOI, but an entry there written without one (e.g. a
     volume/article number only) can't be matched, and the paper would then
     show up on the wider list -- which exists for papers she ISN'T on.
-
-    Callers pair this with the work's type: publications.md has never listed
-    preprints, so a Sumner-authored preprint has no other home and stays in
-    the wider digest rather than disappearing from the site altogether."""
+    Everything she co-authors, preprints included, belongs on publications.md."""
     if (author.get("orcid") or "").strip() == SEIRIAN_ORCID:
         return True
     given = (author.get("given") or "").strip().lower()
@@ -517,7 +515,7 @@ def format_author(author, is_member):
     return f"**{s}**" if is_member else s
 
 
-def format_citation_line(work, orcid_index, family_index):
+def format_citation_line(work, orcid_index, family_index, is_preprint=False):
     rendered = [format_author(a, is_lab_member_author(a, orcid_index, family_index)) for a in work["authors"]]
     author_str = rendered[0] if len(rendered) == 1 else ", ".join(rendered[:-1]) + " & " + rendered[-1]
 
@@ -530,7 +528,8 @@ def format_citation_line(work, orcid_index, family_index):
 
     doi_url = f"https://doi.org/{work['doi']}"
     title = work["title"] or "[title unknown]"
-    return (f"- {author_str} {work['year']}. {title}. {tail} "
+    marker = " *(preprint)*" if is_preprint else ""
+    return (f"- {author_str} {work['year']}. {title}. {tail}{marker} "
             f'<a href="{doi_url}" target="_blank" rel="noreferrer noopener">{doi_url}</a>')
 
 
@@ -646,7 +645,8 @@ def main():
         if not work:
             skipped.append(summary["doi"])
             continue
-        line = format_citation_line(work, orcid_index, family_index)
+        line = format_citation_line(work, orcid_index, family_index,
+                                    is_preprint=summary["type"] in PREPRINT_TYPES)
         new_by_year.setdefault(str(work["year"]), []).append(line)
         known_dois.add(work["doi"])
         added.append(work)
@@ -684,7 +684,6 @@ def main():
           f"and known lab dates...")
 
     candidates = {}  # doi -> set of contributing ORCID ids
-    candidate_types = {}  # doi -> ORCID work type, for the Sumner check below
     for person in members_with_orcid:
         try:
             groups = fetch_orcid_works(person["orcid"], token)
@@ -700,7 +699,6 @@ def main():
             if not in_membership_window(summary["date"], person["windows"]):
                 continue  # published outside their time in the lab
             candidates.setdefault(summary["doi"], set()).add(person["orcid"])
-            candidate_types.setdefault(summary["doi"], summary["type"])
 
     enriched = []
     no_lab_author = []
@@ -711,8 +709,7 @@ def main():
         crossref_cache[doi] = work
         if not work:
             continue
-        if (any(is_seirian_author(a) for a in work["authors"])
-                and candidate_types.get(doi) not in MAIN_LIST_EXCLUDED_TYPES):
+        if any(is_seirian_author(a) for a in work["authors"]):
             print(f"  Skipping {doi}: Sumner is a co-author, so it belongs on the main "
                   f"publications list, not the wider-lab digest.")
             continue
