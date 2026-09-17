@@ -1,48 +1,88 @@
 {
-  "updated": "2026-09-01T19:55:29Z",
+  "updated": "2026-09-17T15:17:57Z",
   "publications": [
     {
-      "doi": "10.64898/2026.08.20.745971",
-      "url": "https://doi.org/10.64898/2026.08.20.745971",
-      "title": "nf-core/genomeqc: a best-practice pipeline for comparing genome and assembly quality",
-      "journal": "bioRxiv",
+      "doi": "10.14411/eje.2026.022",
+      "url": "https://doi.org/10.14411/eje.2026.022",
+      "title": "Worldwide distribution and invasion status of Vespa velutina (Hymenoptera: Vespidae), the yellow-legged hornet, in 2025",
+      "journal": "European Journal of Entomology",
       "year": 2026,
-      "date": "2026-08-20",
-      "volume": null,
+      "date": "2026-08-18",
+      "volume": "123",
       "issue": null,
-      "pages": null,
+      "pages": "217-232",
       "authors": [
         {
-          "name": "Wyatt CD",
-          "lab_member": true
-        },
-        {
-          "name": "Duarte Frutos F",
-          "lab_member": true
-        },
-        {
-          "name": "Turner SD",
+          "name": "ROJAS-NOSSA SV",
           "lab_member": false
         },
         {
-          "name": "De Araujo AC",
-          "lab_member": true
-        },
-        {
-          "name": "Rashid U",
+          "name": "BARTLETT LJ",
           "lab_member": false
         },
         {
-          "name": "Begley V",
+          "name": "KOLICS \u00c9",
           "lab_member": false
         },
         {
-          "name": "Sumner S",
+          "name": "LEZA MDM",
+          "lab_member": false
+        },
+        {
+          "name": "NAVE A",
+          "lab_member": false
+        },
+        {
+          "name": "PUSCEDDU M",
+          "lab_member": false
+        },
+        {
+          "name": "REIN C",
+          "lab_member": false
+        },
+        {
+          "name": "ROBLA J",
+          "lab_member": false
+        },
+        {
+          "name": "ROME Q",
+          "lab_member": false
+        },
+        {
+          "name": "SEEHAUSEN ML",
+          "lab_member": false
+        },
+        {
+          "name": "SENKO D",
+          "lab_member": false
+        },
+        {
+          "name": "SNAIR KS",
+          "lab_member": false
+        },
+        {
+          "name": "TAYLOR BA",
           "lab_member": true
+        },
+        {
+          "name": "UENO T",
+          "lab_member": false
+        },
+        {
+          "name": "WALTER J",
+          "lab_member": false
+        },
+        {
+          "name": "WEIGAND A",
+          "lab_member": false
+        },
+        {
+          "name": "OTIS GW",
+          "lab_member": false
         }
       ],
       "source_orcid": [
-        "0000-0001-8033-2213"
+        "0000-0001-8634-0484"
       ]
     },
     {
@@ -414,6 +454,34 @@
       ]
     },
     {
+      "doi": "10.1016/j.cris.2025.100107",
+      "url": "https://doi.org/10.1016/j.cris.2025.100107",
+      "title": "The multifaceted role of brood communication in wasp societies",
+      "journal": "Current Research in Insect Science",
+      "year": 2025,
+      "date": "2025-01-01",
+      "volume": "7",
+      "issue": null,
+      "pages": "100107",
+      "authors": [
+        {
+          "name": "da Silva RC",
+          "lab_member": false
+        },
+        {
+          "name": "do Nascimento FS",
+          "lab_member": false
+        },
+        {
+          "name": "Oi CA",
+          "lab_member": true
+        }
+      ],
+      "source_orcid": [
+        "0000-0002-3682-8219"
+      ]
+    },
+    {
       "doi": "10.1111/een.13361",
       "url": "https://doi.org/10.1111/een.13361",
       "title": "Do nest sites limit wild honey bee colonies? Decoding swarm waggle dances to assess nest site availability",
@@ -447,46 +515,6 @@
       ],
       "source_orcid": [
         "0009-0006-6696-2722"
-      ]
-    },
-    {
-      "doi": "10.1101/2024.08.27.609913",
-      "url": "https://doi.org/10.1101/2024.08.27.609913",
-      "title": "Optimization of screening methods leads to the discovery of new viruses in black soldier flies ( Hermetia illucens )",
-      "journal": "bioRxiv",
-      "year": 2024,
-      "date": "2024-08-27",
-      "volume": null,
-      "issue": null,
-      "pages": null,
-      "authors": [
-        {
-          "name": "Pienaar RD",
-          "lab_member": false
-        },
-        {
-          "name": "Herrero S",
-          "lab_member": false
-        },
-        {
-          "name": "de Araujo AC",
-          "lab_member": true
-        },
-        {
-          "name": "Krupa F",
-          "lab_member": false
-        },
-        {
-          "name": "Abd-Alla AMM",
-          "lab_member": false
-        },
-        {
-          "name": "Herniou EA",
-          "lab_member": false
-        }
-      ],
-      "source_orcid": [
-        "0000-0002-9273-9886"
       ]
     },
     {
@@ -554,58 +582,6 @@
       ]
     },
     {
-      "doi": "10.1038/s41598-024-61534-0",
-      "url": "https://doi.org/10.1038/s41598-024-61534-0",
-      "title": "Population genomics of the invasive Northern Giant Hornet Vespa mandarinia in North America and across its native range",
-      "journal": "Scientific Reports",
-      "year": 2024,
-      "date": "2024-05-11",
-      "volume": "14",
-      "issue": "1",
-      "pages": null,
-      "authors": [
-        {
-          "name": "Taylor BA",
-          "lab_member": true
-        },
-        {
-          "name": "Tembrock LR",
-          "lab_member": false
-        },
-        {
-          "name": "Sankovitz M",
-          "lab_member": false
-        },
-        {
-          "name": "Wilson TM",
-          "lab_member": false
-        },
-        {
-          "name": "Looney C",
-          "lab_member": false
-        },
-        {
-          "name": "Takahashi J",
-          "lab_member": false
-        },
-        {
-          "name": "Gilligan TM",
-          "lab_member": false
-        },
-        {
-          "name": "Smith-Pardo AH",
-          "lab_member": false
-        },
-        {
-          "name": "Harpur BA",
-          "lab_member": false
-        }
-      ],
-      "source_orcid": [
-        "0000-0001-8634-0484"
-      ]
-    },
-    {
       "doi": "10.1016/j.jinsphys.2024.104629",
       "url": "https://doi.org/10.1016/j.jinsphys.2024.104629",
       "title": "Immune response in paper wasp workers: Task matters more than age",
@@ -630,7 +606,7 @@
         },
         {
           "name": "Akemi Oi C",
-          "lab_member": false
+          "lab_member": true
         },
         {
           "name": "Santos do Nascimento F",
@@ -682,147 +658,43 @@
       ]
     },
     {
-      "doi": "10.1101/2024.02.29.581698",
-      "url": "https://doi.org/10.1101/2024.02.29.581698",
-      "title": "Genome sequences of four Ixodes species expands understanding of tick evolution",
-      "journal": "bioRxiv",
+      "doi": "10.1007/s10905-024-09852-z",
+      "url": "https://doi.org/10.1007/s10905-024-09852-z",
+      "title": "Nestmate Recognition in Two Melipona Stingless Bee Species: The Effect of Cuticular Chemical Profiles and Colony Distance",
+      "journal": "Journal of Insect Behavior",
       "year": 2024,
-      "date": "2024-02-29",
-      "volume": null,
-      "issue": null,
-      "pages": null,
+      "date": "2024-03-01",
+      "volume": "37",
+      "issue": "1",
+      "pages": "106-120",
       "authors": [
         {
-          "name": "de Araujo AC",
+          "name": "Batista JE",
+          "lab_member": false
+        },
+        {
+          "name": "da Silva RC",
+          "lab_member": false
+        },
+        {
+          "name": "do Nascimento DL",
+          "lab_member": false
+        },
+        {
+          "name": "Oliveira RC",
+          "lab_member": false
+        },
+        {
+          "name": "Oi CA",
           "lab_member": true
         },
         {
-          "name": "No\u00ebl B",
-          "lab_member": false
-        },
-        {
-          "name": "Bretaudeau A",
-          "lab_member": false
-        },
-        {
-          "name": "Labadie K",
-          "lab_member": false
-        },
-        {
-          "name": "Boudet M",
-          "lab_member": false
-        },
-        {
-          "name": "Tadrent N",
-          "lab_member": false
-        },
-        {
-          "name": "Istace B",
-          "lab_member": false
-        },
-        {
-          "name": "Kritli S",
-          "lab_member": false
-        },
-        {
-          "name": "Cruaud C",
-          "lab_member": false
-        },
-        {
-          "name": "Olaso R",
-          "lab_member": false
-        },
-        {
-          "name": "Deleuze JF",
-          "lab_member": false
-        },
-        {
-          "name": "Voordouw M",
-          "lab_member": false
-        },
-        {
-          "name": "Hervet C",
-          "lab_member": false
-        },
-        {
-          "name": "Plantard O",
-          "lab_member": false
-        },
-        {
-          "name": "Zamoto-Niikura A",
-          "lab_member": false
-        },
-        {
-          "name": "Chertemps T",
-          "lab_member": false
-        },
-        {
-          "name": "Ma\u00efb\u00e8che M",
-          "lab_member": false
-        },
-        {
-          "name": "Hilliou F",
-          "lab_member": false
-        },
-        {
-          "name": "Goff GL",
-          "lab_member": false
-        },
-        {
-          "name": "Chmelar J",
-          "lab_member": false
-        },
-        {
-          "name": "Maz\u00e1k V",
-          "lab_member": false
-        },
-        {
-          "name": "Jmel MA",
-          "lab_member": false
-        },
-        {
-          "name": "Kotsyfakis M",
-          "lab_member": false
-        },
-        {
-          "name": "Medina JM",
-          "lab_member": false
-        },
-        {
-          "name": "Hackenberg M",
-          "lab_member": false
-        },
-        {
-          "name": "\u0160imo L",
-          "lab_member": false
-        },
-        {
-          "name": "Koutroumpa FA",
-          "lab_member": false
-        },
-        {
-          "name": "Wincker P",
-          "lab_member": false
-        },
-        {
-          "name": "Kopacek P",
-          "lab_member": false
-        },
-        {
-          "name": "Perner J",
-          "lab_member": false
-        },
-        {
-          "name": "Aury JM",
-          "lab_member": false
-        },
-        {
-          "name": "Rispe C",
+          "name": "do Nascimento FS",
           "lab_member": false
         }
       ],
       "source_orcid": [
-        "0000-0002-9273-9886"
+        "0000-0002-3682-8219"
       ]
     },
     {
@@ -855,6 +727,42 @@
       ],
       "source_orcid": [
         "0000-0002-3682-8219"
+      ]
+    },
+    {
+      "doi": "10.1111/1365-2656.14029",
+      "url": "https://doi.org/10.1111/1365-2656.14029",
+      "title": "Coupled information networks drive honeybee ( Apis mellifera ) collective foraging",
+      "journal": "Journal of Animal Ecology",
+      "year": 2024,
+      "date": "2024-01-01",
+      "volume": "93",
+      "issue": "1",
+      "pages": "71-82",
+      "authors": [
+        {
+          "name": "Hasenjager MJ",
+          "lab_member": false
+        },
+        {
+          "name": "Hoppitt W",
+          "lab_member": false
+        },
+        {
+          "name": "Cunningham\u2010Eurich I",
+          "lab_member": true
+        },
+        {
+          "name": "Franks VR",
+          "lab_member": false
+        },
+        {
+          "name": "Leadbeater E",
+          "lab_member": false
+        }
+      ],
+      "source_orcid": [
+        "0000-0002-7187-1407"
       ]
     }
   ]
