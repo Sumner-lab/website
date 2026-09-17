@@ -66,7 +66,7 @@ Three ways to fill the **Publications** tab. Pick one per person:
 
 | | How | What happens |
 |---|---|---|
-| **ORCID** *(recommended)* | Add `publications_source: orcid`, and an ORCID link under `links:` | The weekly bot writes your list from your ORCID record. Free, no extra setup — the credentials are already in the repo. Keep your ORCID up to date and the page follows |
+| **ORCID** *(recommended)* | Add `publications_source: orcid`, and an ORCID link under `links:` | The weekly bot writes your list from your ORCID record. Free, no extra setup — the credentials are already in the repo. Keep your ORCID up to date and the page follows. Add `publications_limit: 10` to show only the most recent few |
 | **Scopus** | Add `scopus_author_id: "12345678900"` | The weekly bot writes your list from your Scopus author profile. **Needs a `SCOPUS_API_KEY` repository secret**, from [dev.elsevier.com](https://dev.elsevier.com/) with a UCL account. Without it nothing updates. Your Scopus author ID is often on your ORCID record, under "Other IDs" |
 | **By hand** | Fill in the `publications:` list | Nothing updates itself. Fine for a short, stable list |
 

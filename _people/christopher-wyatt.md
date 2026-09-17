@@ -72,4 +72,5 @@ publications:
 - 'Guillemin, M-L., Contreras-Porcia, L., Ramírez, M.E., Macaya, E.C., Bulboa Contador, C., Woods, H., **Wyatt, C.**, and Brodie, J. (2016) The bladed Bangiales (Rhodophyta) of the South Eastern Pacific: molecular species delimitation reveals extensive diversity. *Molecular Phylogenetics and Evolution* 94(Pt B): 814–26. doi: [10.1016/j.ympev.2015.09.027](https://doi.org/10.1016/j.ympev.2015.09.027)'
 - 'Giampietro, C., Deflorian, G., Gallo, S., Di Matteo, A., Pradella, D., Bonomi, S., Belloni, E., et al. (2015) The alternative splicing factor Nova2 regulates vascular development and lumen formation. *Nature Communications* 6. doi: [10.1038/ncomms9479](http://dx.doi.org/10.1038/ncomms9479)'
 - 'Patalano, S., Vlasova, A., **Wyatt, C.**, Ewels, P., Camara, F., Ferreira, P.G., Asher, C.L., et al. (2015) Molecular signatures of plastic phenotypes in two eusocial insect species with simple societies. *Proceedings of the National Academy of Sciences* 112(45): 13970–75. doi: [10.1073/pnas.1515937112](https://doi.org/10.1073/pnas.1515937112)'
+contact: '[c.wyatt@ucl.ac.uk](mailto:c.wyatt@ucl.ac.uk)'
 ---
