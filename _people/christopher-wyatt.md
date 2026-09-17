@@ -40,6 +40,20 @@ projects:
 
       Get in touch at [ecoflow.ucl@gmail.com](mailto:ecoflow.ucl@gmail.com), or see the
       [code on GitHub](https://github.com/Eco-Flow/).
+  - title: Wasp genomes, evolution and synteny
+    text: |-
+      Wasps are my way into the genomics of social evolution: what changes in a genome as
+      societies grow more complex, and how the structure of the genome itself — the order
+      and arrangement of genes, or synteny — shifts between species.
+
+      This feeds Eco-Flow and is fed by it: [synteny](https://github.com/Eco-Flow/synteny)
+      and [comparete](https://github.com/Eco-Flow/comparete) exist because these are the
+      comparisons the work needs, and they're built so anyone else can run them too.
+
+      Recent papers include [the molecular basis of castes across vespid wasps](https://doi.org/10.1038/s41467-023-36456-6)
+      (*Nature Communications*, 2023) and [molecular signatures of plastic phenotypes in
+      two species with simple societies](https://doi.org/10.1073/pnas.1515937112)
+      (*PNAS*, 2015).
 interests: Building tools for fully reproducible data pipelines in ecological omics research. Using genomes, transcriptomes, proteomes and other research inputs, we build robust, tested, reproducible, scalable and easy-to-use data pipelines to speed up research output in our field, through the Eco-Flow project.
 other_interests: Research into non-model organisms — wasps primarily — and their genomes.
 background:
