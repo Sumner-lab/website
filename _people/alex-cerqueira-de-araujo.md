@@ -45,10 +45,6 @@ publications_text: |-
 
   *Book chapter*
 
-**Publications**
-{% include scopus-publications.html %}
-
-
-*Book chapter*
-
-1. Hulot F and Cerqueira de Araujo A. "Effets des cyanotoxines sur les communautés zooplanctoniques en milieu lentique." In: Bernard, C., Mougin, C. and Pery, A. (eds) *Écotoxicologie, des communautés au fonctionnement des écosystèmes*. ISTE, 2017, pp. 137–152.
+  1. Hulot F and Cerqueira de Araujo A. "Effets des cyanotoxines sur les communautés zooplanctoniques en milieu lentique." In: Bernard, C., Mougin, C. and Pery, A. (eds) *Écotoxicologie, des communautés au fonctionnement des écosystèmes*. ISTE, 2017, pp. 137–152.
+contact: '[alexandra.araujo@ucl.ac.uk](mailto:alexandra.araujo@ucl.ac.uk)'
+---
