@@ -2,6 +2,7 @@
 name: Christopher Wyatt
 role: Eco-Flow Project Lead
 status: current
+publications_source: orcid
 stints:
   - joined: "2013"
     left: "2014"
@@ -22,7 +23,23 @@ links:
   - label: ORCID
     url: https://orcid.org/0000-0001-8033-2213
 position: Eco-Flow project lead (September 2023–present)
-project: Building a bioinformatics ecosystem for ecologists using Nextflow.
+projects:
+  - title: Eco-Flow
+    text: |-
+      [Eco-Flow](https://eco-flow.org/) is a UCL-based community building open-source
+      [Nextflow](https://www.nextflow.io/) pipelines for agri-ecology and evolutionary
+      biology, funded by BBSRC. The aim is to make genomic analyses something an
+      ecologist can run, rather than something they first have to build: reproducible,
+      tested, scalable workflows written to [nf-core](https://nf-co.re/) standards, with
+      training alongside them.
+
+      Pipelines so far include [genomeqc](https://nf-co.re/genomeqc) (comparing genome and
+      assembly quality), [gwas](https://nf-co.re/gwas), and, in the
+      [Eco-Flow organisation](https://github.com/Eco-Flow/), `excon`, `synteny`,
+      `comparete`, `nanoporemetabarcoding` and `pollen-metabarcoding`.
+
+      Get in touch at [ecoflow.ucl@gmail.com](mailto:ecoflow.ucl@gmail.com), or see the
+      [code on GitHub](https://github.com/Eco-Flow/).
 interests: Building tools for fully reproducible data pipelines in ecological omics research. Using genomes, transcriptomes, proteomes and other research inputs, we build robust, tested, reproducible, scalable and easy-to-use data pipelines to speed up research output in our field, through the Eco-Flow project.
 other_interests: Research into non-model organisms — wasps primarily — and their genomes.
 background:
