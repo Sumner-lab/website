@@ -10,11 +10,12 @@ reflows or removes an existing line -- see assert_additive() below, which
 refuses to write if that ever stops being true.
 
 _data/wider_publications.json feeds _includes/latest-publications.html on
-publications/wider.md: the 20 most recent papers found across every
-CURRENT lab member's ORCID record (from the `links:` entry labeled ORCID
-in their _people/*.md front matter) that AREN'T already covered by
-publications.md -- i.e. work published without Sumner as a co-author,
-which is the whole point of that page.
+publications/wider.md: the 20 most recent papers found across every lab
+member's ORCID record (from the `links:` entry labeled ORCID in their
+_people/*.md front matter) that AREN'T already covered by publications.md
+-- i.e. work published without Sumner as a co-author, which is the whole
+point of that page. A paper published during someone's time in the lab
+stays in the digest after they leave: it's still a lab paper.
 
 ORCID's public API requires an OAuth2 client-credentials token even for
 public records (ORCID_CLIENT_ID / ORCID_CLIENT_SECRET env vars, from a
@@ -60,7 +61,7 @@ SEIRIAN_ORCID = "0000-0003-0213-2018"
 # publications.md has never listed a preprint, even historically (it's
 # framed as peer-reviewed papers/book chapters/etc.) -- keep excluding
 # them there. The wider-lab digest has no such "peer-reviewed only"
-# framing and exists to showcase current members' work, so it allows
+# framing and exists to showcase the group's wider work, so it allows
 # preprints through; both still exclude non-paper record types.
 NON_PAPER_TYPES = {"dataset", "data_set", "working_paper", "other", "annotation"}
 MAIN_LIST_EXCLUDED_TYPES = NON_PAPER_TYPES | {"preprint"}
@@ -272,6 +273,17 @@ def _names_loosely_overlap(a, b):
     a_tokens = [t.lower() for t in re.split(r"[\s\-]+", a or "") if len(t) > 1]
     b_tokens = [t.lower() for t in re.split(r"[\s\-]+", b or "") if len(t) > 1]
     return any(t in bt or bt in t for t in a_tokens for bt in b_tokens)
+
+
+def is_seirian_author(author):
+    """True if this Crossref author is Seirian. The main publications list is
+    deduplicated by DOI, but an entry there written without one (e.g. a
+    volume/article number only) can't be matched, and the paper would then
+    show up on the wider list -- which exists for papers she ISN'T on."""
+    if (author.get("orcid") or "").strip() == SEIRIAN_ORCID:
+        return True
+    given = (author.get("given") or "").strip().lower()
+    return (author.get("family") or "").strip().lower() == "sumner" and given.startswith("s")
 
 
 def is_lab_member_author(author, orcid_index, family_index):
@@ -627,9 +639,13 @@ def main():
         print(f"Skipped {len(skipped)} candidate DOI(s) that couldn't be enriched via Crossref: {skipped}")
 
     # --- Part B: latest-20 digest for publications/wider.md ---
-    current_with_orcid = []
+    # Current AND former members: a paper published while someone was here
+    # is a lab paper, and stays in the digest after they move on. The
+    # membership window below is what keeps out work from before they
+    # arrived or after they left.
+    members_with_orcid = []
     for p in people:
-        if p.get("status") != "current" or not p.get("orcid"):
+        if not p.get("orcid"):
             continue
         windows = membership_windows(p)
         if not windows:
@@ -638,12 +654,12 @@ def main():
                   f"so excluding them from the wider digest until that's added.")
             continue
         p["windows"] = windows
-        current_with_orcid.append(p)
-    print(f"Fetching ORCID works for {len(current_with_orcid)} current member(s) with an ORCID iD "
+        members_with_orcid.append(p)
+    print(f"Fetching ORCID works for {len(members_with_orcid)} member(s) with an ORCID iD "
           f"and known lab dates...")
 
     candidates = {}  # doi -> set of contributing ORCID ids
-    for person in current_with_orcid:
+    for person in members_with_orcid:
         try:
             groups = fetch_orcid_works(person["orcid"], token)
         except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as e:
@@ -664,6 +680,10 @@ def main():
         work = fetch_crossref_work(doi)
         time.sleep(CROSSREF_SLEEP_SECONDS)
         if not work:
+            continue
+        if any(is_seirian_author(a) for a in work["authors"]):
+            print(f"  Skipping {doi}: Sumner is a co-author, so it belongs on the main "
+                  f"publications list, not the wider-lab digest.")
             continue
         enriched.append({
             "doi": work["doi"],
@@ -788,7 +808,7 @@ def write_run_summary(added, skipped, newly_in_digest, pushed_out, no_longer_eli
         if lines[-1]:
             lines.append("")
         lines.append(f"{len(no_longer_eligible)} no longer eligible (published outside that "
-                      f"person's time in the lab, or now covered on the main publications list):")
+                      f"person's time in the lab, or covered on the main publications list):")
         lines += [f"- {summarize_entry_for_report(e)}" for e in no_longer_eligible]
     if not any_digest_change:
         lines.append("No change in the wider-lab digest this run.")
