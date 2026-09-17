@@ -291,7 +291,11 @@ def is_seirian_author(author):
     """True if this Crossref author is Seirian. The main publications list is
     deduplicated by DOI, but an entry there written without one (e.g. a
     volume/article number only) can't be matched, and the paper would then
-    show up on the wider list -- which exists for papers she ISN'T on."""
+    show up on the wider list -- which exists for papers she ISN'T on.
+
+    Callers pair this with the work's type: publications.md has never listed
+    preprints, so a Sumner-authored preprint has no other home and stays in
+    the wider digest rather than disappearing from the site altogether."""
     if (author.get("orcid") or "").strip() == SEIRIAN_ORCID:
         return True
     given = (author.get("given") or "").strip().lower()
@@ -680,6 +684,7 @@ def main():
           f"and known lab dates...")
 
     candidates = {}  # doi -> set of contributing ORCID ids
+    candidate_types = {}  # doi -> ORCID work type, for the Sumner check below
     for person in members_with_orcid:
         try:
             groups = fetch_orcid_works(person["orcid"], token)
@@ -695,6 +700,7 @@ def main():
             if not in_membership_window(summary["date"], person["windows"]):
                 continue  # published outside their time in the lab
             candidates.setdefault(summary["doi"], set()).add(person["orcid"])
+            candidate_types.setdefault(summary["doi"], summary["type"])
 
     enriched = []
     no_lab_author = []
@@ -705,7 +711,8 @@ def main():
         crossref_cache[doi] = work
         if not work:
             continue
-        if any(is_seirian_author(a) for a in work["authors"]):
+        if (any(is_seirian_author(a) for a in work["authors"])
+                and candidate_types.get(doi) not in MAIN_LIST_EXCLUDED_TYPES):
             print(f"  Skipping {doi}: Sumner is a co-author, so it belongs on the main "
                   f"publications list, not the wider-lab digest.")
             continue
