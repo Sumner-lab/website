@@ -13,6 +13,7 @@ links:
     url: https://twitter.com/EmelineFavreau
 intro: Emeline has now started working as a Bioinformatician in the Department of Medicine at the University of Cambridge, working on the [INTREPID project](https://intrepidproject.info) exploring molecular data from Primary Immunodeficient patients.
 position: Post-doctoral Bioinformatics Researcher (November 2019 – May 2022)
+now: Bioinformatician, University of Cambridge
 project: The molecular basis of social evolution in wasps and bees
 interests: My major research aim is to investigate the molecular basis of sociality from a comparative molecular viewpoint. Using multiple high-quality genomes, transcriptomes and captured chromatin conformation of different wasp and bee species, we can explore the evolution of sociality across lineages. This project is an international collaboration with PIs [Amy Toth](https://www.ent.iastate.edu/people/amy-toth) and [Sandra Rehan](http://www.rehanlab.com/), and postdocs Katie Geist and [Chris Wyatt]({{ site.baseurl }}/people/christopher-wyatt/).
 background:

@@ -11,6 +11,7 @@ links:
     url: https://twitter.com/LewisRevely
 intro: Dr Lewis Revely has completed his PhD and now works with the Futures, Foresight and Emerging Technologies group in the Government Office for Science.
 position: PhD Student
+now: Government Office for Science
 project: Mechanisms and Evolution of Phenotypic Plasticity in Social Insects
 interests: Social evolution and sociogenomics of termites. Particularly interested in the variation in developmental plasticity across both phenotypes and species within termites, across all levels of social complexity.
 background:
