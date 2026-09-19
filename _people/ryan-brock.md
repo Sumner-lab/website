@@ -20,5 +20,5 @@ interests: |-
 background:
 - '2015–present: MSc by Research, University of Bristol'
 - '2012–2015: BSc (Hons) Biological Sciences, University of East Anglia'
-contact: '[rb15971@bristol.ac.uk](mailto:rb15971@bristol.ac.uk) / [ryanbrock94@aol.com](mailto:ryanbrock94@aol.com)'
+contact: '[ryanbrock94@aol.com](mailto:ryanbrock94@aol.com)'
 ---

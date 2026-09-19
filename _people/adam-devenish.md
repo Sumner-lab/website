@@ -23,5 +23,5 @@ biography: |-
   - 2007–2009: BSc (Hons.) Biological Sciences, Roehampton University
 
   ![Fieldwork in Jonkershoek Nature Reserve, South Africa]({{ site.baseurl }}/wp-content/uploads/2014/09/DSC_0153_mini.jpg)
-contact: '[ajm.devenish@bristol.ac.uk](mailto:ajm.devenish@bristol.ac.uk) / [a.devenish@kew.org](mailto:a.devenish@kew.org)'
+contact: '[a.devenish@kew.org](mailto:a.devenish@kew.org)'
 ---

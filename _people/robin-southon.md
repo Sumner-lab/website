@@ -13,7 +13,6 @@ background:
 - '2013–present: PhD Studentship (NERC), University of Bristol'
 - '2013: Research Assistant, University of Bristol'
 - '2012: Internship, Smithsonian Conservation Biology Institute / Smithsonian Tropical Research Institute'
-contact: '[robin.southon@bristol.ac.uk](mailto:robin.southon@bristol.ac.uk)'
 ---
 ![Marked Polistes canadensis females with unmarked male, Panama]({{ site.baseurl }}/wp-content/uploads/2014/09/DSC_0089-200x300.jpg)
 
