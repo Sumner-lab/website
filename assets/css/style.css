@@ -1009,6 +1009,18 @@ a.media-card-inner:hover {
 .nb-name-note:hover .nb-name-tip,
 .nb-name-note:focus .nb-name-tip { display: block; }
 .nb-role { color: var(--color-text-muted); font-size: 1.1rem; margin: 0.4rem 0 0; max-width: 40rem; }
+.nb-former {
+  display: inline-flex; align-items: baseline; flex-wrap: wrap; gap: 0 0.55rem;
+  margin: 0.75rem 0 0;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--color-accent);
+  background: var(--color-accent-light);
+  color: var(--color-accent);
+  font-family: var(--font-mono);
+  font-size: 0.7rem; font-weight: 600; letter-spacing: 0.11em; text-transform: uppercase;
+}
+.nb-former-years { color: var(--color-text-muted); font-weight: 400; letter-spacing: 0.06em; }
+.nb-former-years::before { content: "· "; }
 .nb-specimen {
   margin-top: 1.25rem;
   max-width: 34rem;

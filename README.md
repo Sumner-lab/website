@@ -40,7 +40,7 @@ Everything goes in the front matter at the top of the file. Only `name`, `role`,
 |---|---|
 | `name`, `role`, `photo`, `photo_position`, `links` | Header, People page card, link buttons |
 | `full_name` | Header: shown in a hover/focus tooltip behind a small `*` next to `name`, for a full legal/given name that differs from the short form used everywhere else |
-| `status` | `current` or `alumni` ("Left the nest") |
+| `status` | `current` or `alumni` ("Left the nest"). An `alumni` profile is marked **Former lab member** under the name, with the years below if `joined`/`left` are filled in |
 | `joined` / `left`, or `stints` for more than one spell | "In the lab" years |
 | `position` | Specimen label, e.g. `PhD Student` |
 | `contact` | Specimen label: email and any other contact details (Markdown) |

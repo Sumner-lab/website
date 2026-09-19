@@ -53,6 +53,8 @@ layout: default
     <div class="nb-head-text">
       <h1>{{ person_name }}{% if page.full_name %}<span class="nb-name-note" tabindex="0" aria-label="Full name: {{ page.full_name | escape }}">*<span class="nb-name-tip" aria-hidden="true">{{ page.full_name }}</span></span>{% endif %}</h1>
       {% if page.role %}<p class="nb-role">{{ page.role }}</p>{% endif %}
+      {%- comment -%} A former member's page has to say so where it's read, not only in the small print of the specimen label below. {%- endcomment -%}
+      {% if page.status == "alumni" %}<p class="nb-former">Former lab member{% if years != "" %}<span class="nb-former-years">{{ years }}</span>{% endif %}</p>{% endif %}
       {% if page.position or years != "" or page.studies or page.contact %}
       <div class="nb-specimen">
         <p class="nb-specimen-cat"><span>Sumner Lab · UCL</span><span>{% if page.status == "alumni" %}Left the nest{% else %}Current group{% endif %}</span></p>
