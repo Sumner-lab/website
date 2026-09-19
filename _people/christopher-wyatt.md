@@ -7,7 +7,6 @@ stints:
   - joined: "2013"
     left: "2014"
   - joined: "2019"
-    left: "2026"
 photo: /wp-content/uploads/2019/05/ucl.jpg
 photo_position: "center 12%"
 title: Christopher Wyatt
