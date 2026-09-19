@@ -1009,6 +1009,13 @@ a.media-card-inner:hover {
 .nb-name-note:hover .nb-name-tip,
 .nb-name-note:focus .nb-name-tip { display: block; }
 .nb-role { color: var(--color-text-muted); font-size: 1.1rem; margin: 0.4rem 0 0; max-width: 40rem; }
+.nb-role-dr {
+  white-space: nowrap;
+  color: var(--color-accent);
+  font-family: var(--font-mono);
+  font-size: 0.78rem; letter-spacing: 0.04em;
+}
+.nb-role-dr::before { content: "· "; color: var(--color-text-muted); }
 .nb-former {
   display: inline-flex; align-items: baseline; flex-wrap: wrap; gap: 0 0.55rem;
   margin: 0.75rem 0 0;
@@ -1233,6 +1240,7 @@ a.media-card-inner:hover {
 }
 .people-card-name { font-family: var(--font-display); font-weight: 600; font-size: 1rem; }
 .people-card-role { font-size: 0.75rem; color: var(--color-text-muted); margin-top: 0.15rem; }
+.people-card-dr { display: block; margin-top: 0.2rem; color: var(--color-accent); font-family: var(--font-mono); font-size: 0.68rem; }
 .people-grid-alumni { background: linear-gradient(180deg, var(--color-border), transparent 45%); }
 .people-card a::before { top: -0.65rem; left: 50%; transform: translateX(-50%) rotate(var(--t, -3deg)); }
 .people-card:nth-child(even) a { --t: 4deg; }

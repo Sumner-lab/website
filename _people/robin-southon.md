@@ -2,6 +2,7 @@
 name: Robin Southon
 role: PhD Student, Adaptive Value of Males in Eusocial Insects
 status: alumni
+doctorate: true
 photo: /wp-content/uploads/2014/09/IMG_0331.jpg
 title: Robin Southon
 redirect_from:

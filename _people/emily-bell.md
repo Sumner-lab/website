@@ -2,6 +2,7 @@
 name: Emily Bell
 role: PhD Student, Caste Plasticity in Eusocial Insects
 status: alumni
+doctorate: true
 photo: /wp-content/uploads/2014/09/photo-23.jpg
 title: Emily Bell
 redirect_from:

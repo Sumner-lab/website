@@ -2,6 +2,7 @@
 name: Sandra Moreno
 role: PhD Student, Behavioural Genomics of Malaysian Hover Wasps
 status: alumni
+doctorate: true
 photo: /wp-content/uploads/2015/10/Sandra-buscando-cachalotes.jpg
 title: Sandra Moreno
 redirect_from:

@@ -2,6 +2,7 @@
 name: Adam Devenish
 role: PhD Student, Invasive Ants & Ecosystem Services
 status: alumni
+doctorate: true
 photo: /wp-content/uploads/2014/09/adam-cover.jpg
 title: Adam Devenish
 redirect_from:

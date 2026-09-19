@@ -1,7 +1,8 @@
 ---
 name: Patrick Kennedy
-role: PhD Student, Social Evolution (now Dr Kennedy)
+role: PhD Student, Social Evolution
 status: alumni
+doctorate: true
 now: Marie Curie Fellow, Columbia University and the University of Bristol
 photo: /wp-content/uploads/2026/08/patrickkennedy.jpeg
 title: Patrick Kennedy

@@ -1,7 +1,8 @@
 ---
 name: Sam Duckerin
-role: PhD Student, Pesticide Effects on Bumblebee Social Networks (now Dr Duckerin)
+role: PhD Student, Pesticide Effects on Bumblebee Social Networks
 status: alumni
+doctorate: true
 photo: /wp-content/uploads/2014/09/Bio-picture-1024x1024.jpg
 title: Sam Duckerin
 redirect_from:

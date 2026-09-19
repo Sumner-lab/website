@@ -52,7 +52,17 @@ layout: default
     </div>
     <div class="nb-head-text">
       <h1>{{ person_name }}{% if page.full_name %}<span class="nb-name-note" tabindex="0" aria-label="Full name: {{ page.full_name | escape }}">*<span class="nb-name-tip" aria-hidden="true">{{ page.full_name }}</span></span>{% endif %}</h1>
-      {% if page.role %}<p class="nb-role">{{ page.role }}</p>{% endif %}
+      {%- comment -%}
+        `doctorate: true` on a former PhD student adds "now Dr Surname" -- they finished, and
+        their role still says "PhD Student". Surname comes from `name`; set `doctorate` to a
+        name instead of true where the last word isn't the right one.
+      {%- endcomment -%}
+      {%- assign dr_name = "" -%}
+      {%- if page.doctorate -%}
+        {%- assign dr_name = person_name | split: " " | last -%}
+        {%- unless page.doctorate == true -%}{%- assign dr_name = page.doctorate -%}{%- endunless -%}
+      {%- endif -%}
+      {% if page.role %}<p class="nb-role">{{ page.role }}{% if dr_name != "" %} <span class="nb-role-dr">now Dr {{ dr_name }}</span>{% endif %}</p>{% endif %}
       {%- comment -%} A former member's page has to say so where it's read, not only in the small print of the specimen label below. {%- endcomment -%}
       {% if page.status == "alumni" %}<p class="nb-former">Former lab member{% if years != "" %}<span class="nb-former-years">{{ years }}</span>{% endif %}</p>{% endif %}
       {% if page.position or years != "" or page.now or page.studies or page.contact %}

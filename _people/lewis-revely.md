@@ -1,7 +1,8 @@
 ---
 name: Lewis Revely
-role: PhD Student, Phenotypic Plasticity in Social Insects (now Dr Revely)
+role: PhD Student, Phenotypic Plasticity in Social Insects
 status: alumni
+doctorate: true
 photo: /wp-content/uploads/2022/10/1637268490434-300x300.jpeg
 title: Lewis Revely
 redirect_from:
