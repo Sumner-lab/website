@@ -1106,6 +1106,12 @@ a.media-card-inner:hover {
   background: linear-gradient(var(--color-border), var(--color-border)) 0 50% / 100% 1px no-repeat;
 }
 .nb-ruler-track > span:first-child { position: absolute; top: 0; bottom: 0; min-width: 0.4rem; background: var(--color-accent); border-radius: 2px; cursor: default; }
+/* A former member's open-ended entry: fade the bar out instead of ending it on a year we don't know. */
+.nb-ruler-track > span.nb-ruler-open {
+  border-radius: 2px 0 0 2px;
+  -webkit-mask-image: linear-gradient(to right, #000 45%, rgba(0, 0, 0, 0.12));
+  mask-image: linear-gradient(to right, #000 45%, rgba(0, 0, 0, 0.12));
+}
 .nb-ruler-track:focus { outline: none; }
 .nb-ruler-track:focus > span:first-child { box-shadow: 0 0 0 2px var(--color-bg), 0 0 0 4px var(--color-accent); }
 .nb-ruler-tip {
