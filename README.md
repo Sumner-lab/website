@@ -42,13 +42,15 @@ Everything goes in the front matter at the top of the file. Only `name`, `role`,
 | `full_name` | Header: shown in a hover/focus tooltip behind a small `*` next to `name`, for a full legal/given name that differs from the short form used everywhere else |
 | `status` | `current` or `alumni` ("Left the nest"). An `alumni` profile is marked **Former lab member** under the name, with the years below if `joined`/`left` are filled in |
 | `joined` / `left`, or `stints` for more than one spell | "In the lab" years |
+| `now` | Specimen label: where a former member went next, e.g. `Bioinformatician, University of Cambridge`. Entirely optional |
+| `doctorate` | `true` on a former PhD student adds "now Dr Surname" after their role, on their page and their People page card. Set it to a name instead of `true` if the last word of `name` isn't the right surname |
 | `position` | Specimen label, e.g. `PhD Student` |
 | `contact` | Specimen label: email and any other contact details (Markdown) |
 | `studies` | Specimen label, e.g. `Asian giant hornets` |
 | `project` | Research tab: a single-line project title, no paragraph. Older/simpler profiles only |
 | `projects`, `past_projects` | Research tab: a list of `title` + `text` (Markdown, can be multiple paragraphs), one block per project. Use instead of `project` when a project needs more than a title — `past_projects` renders as its own "Past projects" block underneath |
 | `themes` | Research tab, and the theme filters on the People page, e.g. `[Ecology, Genomics]` |
-| `background` | Research tab: a list, one line per role, newest first. Lines starting with years (`2019–2023: …`) are drawn on the career ruler. Add `\| ` to a line to split it: text before `\|` shows on the ruler/list, text after `\|` (project, institution, country) only shows on hover/focus |
+| `background` | Research tab: a list, one line per role, newest first. Lines starting with years (`2019–2023: …`) are drawn on the career ruler. Add `\| ` to a line to split it: text before `\|` shows on the ruler/list, text after `\|` (project, institution, country) only shows on hover/focus. On an `alumni` profile a line ending `–present` is shown as "onwards" and its bar fades out, rather than claiming they're still in the post |
 | `intro`, `background_text`, `biography`, `interests`, `other_interests`, `ask_me_about` | About tab, in that order (Markdown). `background_text` is shown under "Background", `interests` under "Research interests" |
 | `publications_source`, `scopus_author_id` | Where the Publications tab comes from — see [Publications on a profile](#publications-on-a-profile) below |
 | `publications` (+ optional `publications_label`) | Publications tab: a list, one publication per line (Markdown) |

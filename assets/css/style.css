@@ -1009,6 +1009,13 @@ a.media-card-inner:hover {
 .nb-name-note:hover .nb-name-tip,
 .nb-name-note:focus .nb-name-tip { display: block; }
 .nb-role { color: var(--color-text-muted); font-size: 1.1rem; margin: 0.4rem 0 0; max-width: 40rem; }
+.nb-role-dr {
+  white-space: nowrap;
+  color: var(--color-accent);
+  font-family: var(--font-mono);
+  font-size: 0.78rem; letter-spacing: 0.04em;
+}
+.nb-role-dr::before { content: "· "; color: var(--color-text-muted); }
 .nb-former {
   display: inline-flex; align-items: baseline; flex-wrap: wrap; gap: 0 0.55rem;
   margin: 0.75rem 0 0;
@@ -1106,6 +1113,12 @@ a.media-card-inner:hover {
   background: linear-gradient(var(--color-border), var(--color-border)) 0 50% / 100% 1px no-repeat;
 }
 .nb-ruler-track > span:first-child { position: absolute; top: 0; bottom: 0; min-width: 0.4rem; background: var(--color-accent); border-radius: 2px; cursor: default; }
+/* A former member's open-ended entry: fade the bar out instead of ending it on a year we don't know. */
+.nb-ruler-track > span.nb-ruler-open {
+  border-radius: 2px 0 0 2px;
+  -webkit-mask-image: linear-gradient(to right, #000 45%, rgba(0, 0, 0, 0.12));
+  mask-image: linear-gradient(to right, #000 45%, rgba(0, 0, 0, 0.12));
+}
 .nb-ruler-track:focus { outline: none; }
 .nb-ruler-track:focus > span:first-child { box-shadow: 0 0 0 2px var(--color-bg), 0 0 0 4px var(--color-accent); }
 .nb-ruler-tip {
@@ -1227,6 +1240,7 @@ a.media-card-inner:hover {
 }
 .people-card-name { font-family: var(--font-display); font-weight: 600; font-size: 1rem; }
 .people-card-role { font-size: 0.75rem; color: var(--color-text-muted); margin-top: 0.15rem; }
+.people-card-dr { display: block; margin-top: 0.2rem; color: var(--color-accent); font-family: var(--font-mono); font-size: 0.68rem; }
 .people-grid-alumni { background: linear-gradient(180deg, var(--color-border), transparent 45%); }
 .people-card a::before { top: -0.65rem; left: 50%; transform: translateX(-50%) rotate(var(--t, -3deg)); }
 .people-card:nth-child(even) a { --t: 4deg; }
