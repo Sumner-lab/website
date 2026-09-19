@@ -23,5 +23,4 @@ background:
 - '2014–present: PhD Candidate, University of Bristol'
 - '2013–2014: Research Collaborator, Bionanoscience Group, University of Bristol'
 - '2010–2013: BSc (Hons) Biology, University of Bristol'
-contact: '[sam.duckerin@bristol.ac.uk](mailto:sam.duckerin@bristol.ac.uk)'
 ---

@@ -18,5 +18,4 @@ background:
 - '2014–2017: BA Biological Sciences, University of Oxford'
 publications:
 - 'Revely, L., Sumner, S. and Eggleton, P. (2021) [The plasticity and developmental potential of termites](https://www.frontiersin.org/articles/10.3389/fevo.2021.552624/full). *Frontiers in Ecology and Evolution*, 9, p.552624. doi: [10.3389/fevo.2021.552624](https://doi.org/10.3389/fevo.2021.552624)'
-contact: '[lewis.revely.18@ucl.ac.uk](mailto:lewis.revely.18@ucl.ac.uk)'
 ---

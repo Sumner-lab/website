@@ -24,6 +24,5 @@ biography: |-
   - 2010–2011: MSc in Biology (Integrative Bioscience), University of Oxford
   - 2008–2010: Educational Volunteer, ZSL London Zoo
   - 2007–2010: BSc in Zoology, University College London
-contact: '[emily.bell@bristol.ac.uk](mailto:emily.bell@bristol.ac.uk)'
 ---
 **Science Outreach:** I'm passionate about sharing my love of science with the public, making my work accessible to people of all ages. I helped co-organise Soapbox Science Bristol with Dr Sumner and colleagues at the Institute of Zoology, and co-founded a science outreach venture, [Popup Science](http://www.popupscience.co.uk/), with former Sumner group member Chris Wyatt. See my YouTube video ["The Life of a Field Biologist"](https://www.youtube.com/watch?v=Qg218jX6jJM), given to staff and students at Our Lady's Abingdon School, Oxfordshire, as part of their Culture and Technology series.

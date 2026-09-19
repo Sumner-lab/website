@@ -12,5 +12,4 @@ background:
 - '2015–present: PhD student, University of Bristol'
 - '2007–2009: MSc in Coastal Oceanography, Autonomous University of Baja California, Mexico'
 - '2001–2005: BSc in Biology, Autonomous University of Yucatán, Mexico'
-contact: '[sandra.morenomedina@bristol.ac.uk](mailto:sandra.morenomedina@bristol.ac.uk)'
 ---

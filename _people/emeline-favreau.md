@@ -26,5 +26,4 @@ publications:
 - 'Linard, B., Crampton-Platt, A., Moriniere, J., Timmermans, M.J.T.M., Andújar, C., Arribas, P., Miller, K.E., Lipecki, J., **Favreau, E.**, et al., Vogler, A.P. (2018) [The contribution of mitochondrial metagenomics to large-scale data mining and phylogenetic analysis of Coleoptera](https://doi.org/10.1016/j.ympev.2018.07.008). *Molecular Phylogenetics and Evolution*. 128: 1-11.'
 - '**Favreau, E.**, Martínez-Ruiz, C., Rodrigues Santiago, L., Hammond, R.L. and Wurm, Y. (2018) [Genes and genomic processes underpinning the social lives of ants](https://doi.org/10.1016/j.cois.2017.12.001). *Current Opinion in Insect Science*. 26:451-479.'
 - Lyal, C.H.C. and **Favreau, E.** (2015) [The rectal valve in Curculionoidea and other Coleoptera (Insecta)](http://dx.doi.org/10.11646/zootaxa.3926.4.1). *Zootaxa*. 3926(4):451-479.
-contact: '[emeline.favreau.15@ucl.ac.uk](mailto:emeline.favreau.15@ucl.ac.uk)'
 ---
