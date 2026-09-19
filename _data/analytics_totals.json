@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -36,55 +36,56 @@
     "2026-09-14",
     "2026-09-15",
     "2026-09-16",
-    "2026-09-17"
+    "2026-09-17",
+    "2026-09-18"
   ],
-  "pageviews": 3160,
-  "visits": 1300,
+  "pageviews": 3271,
+  "visits": 1340,
   "countries_count": 63,
   "top_pages": [
     {
       "path": "/",
-      "views": 337
+      "views": 358
     },
     {
       "path": "/people/",
-      "views": 284
+      "views": 303
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 158
+      "views": 160
     },
     {
       "path": "/updates/",
-      "views": 134
-    },
-    {
-      "path": "/people/femi-e-benny/",
-      "views": 104
+      "views": 136
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 96
+      "views": 114
+    },
+    {
+      "path": "/people/femi-e-benny/",
+      "views": 110
     },
     {
       "path": "/media/",
-      "views": 95
+      "views": 97
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 92
+      "views": 94
     },
     {
       "path": "/endless-forms/",
-      "views": 90
-    },
-    {
-      "path": "/people/christopher-wyatt/",
-      "views": 78
+      "views": 92
     },
     {
       "path": "/research/",
-      "views": 77
+      "views": 84
+    },
+    {
+      "path": "/people/christopher-wyatt/",
+      "views": 80
     },
     {
       "path": "/website/",
@@ -92,11 +93,11 @@
     },
     {
       "path": "/contact/",
-      "views": 65
+      "views": 66
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 58
+      "views": 64
     },
     {
       "path": "/people/sam-duckerin/",
@@ -104,19 +105,23 @@
     },
     {
       "path": "/people/idris-adams/",
-      "views": 52
+      "views": 53
     },
     {
       "path": "/people/benjamin-taylor/",
-      "views": 50
+      "views": 51
     },
     {
       "path": "/science-communication/",
-      "views": 44
+      "views": 47
     },
     {
       "path": "/people/caroline-chandler/",
-      "views": 41
+      "views": 42
+    },
+    {
+      "path": "/people/alessandro-cini/",
+      "views": 38
     },
     {
       "path": "/people/daisy-taylor/",
@@ -135,27 +140,23 @@
       "views": 38
     },
     {
-      "path": "/people/alessandro-cini/",
-      "views": 37
-    },
-    {
       "path": "/research/evolution/",
       "views": 37
     },
     {
       "path": "/big-wasp-survey/",
-      "views": 35
+      "views": 36
     },
     {
       "path": "/people/lewis-revely/",
       "views": 35
     },
     {
-      "path": "/people/owen-corbett/",
-      "views": 34
+      "path": "/research/genomics/",
+      "views": 35
     },
     {
-      "path": "/research/genomics/",
+      "path": "/people/owen-corbett/",
       "views": 34
     },
     {
@@ -187,12 +188,16 @@
       "views": 27
     },
     {
+      "path": "/people/iona-cunningham-eurich/",
+      "views": 25
+    },
+    {
       "path": "/where-hornets-are-queens/",
       "views": 25
     },
     {
       "path": "/people/fernando-duarte/",
-      "views": 23
+      "views": 24
     },
     {
       "path": "/people/patrick-kennedy/",
@@ -200,10 +205,6 @@
     },
     {
       "path": "/articles/",
-      "views": 21
-    },
-    {
-      "path": "/people/iona-cunningham-eurich/",
       "views": 21
     },
     {
@@ -224,7 +225,7 @@
     },
     {
       "path": "/billy-easeman-parasitoid-wasps/",
-      "views": 14
+      "views": 15
     },
     {
       "path": "/research/mechanisms/",
@@ -243,20 +244,20 @@
       "views": 14
     },
     {
-      "path": "/website/endless-forms/",
+      "path": "/publications/wider/",
       "views": 13
     },
     {
-      "path": "/publications/wider/",
-      "views": 12
+      "path": "/soapbox-science/",
+      "views": 13
     },
     {
       "path": "/wasplove-game/",
-      "views": 12
+      "views": 13
     },
     {
-      "path": "/soapbox-science/",
-      "views": 11
+      "path": "/website/endless-forms/",
+      "views": 13
     },
     {
       "path": "/website/numbers/",
@@ -368,6 +369,10 @@
     },
     {
       "path": "/hoi-lam-daisy-choi-investigating-the-evolutionary-patterns-of-diets-and-predatory-wasps/",
+      "views": 4
+    },
+    {
+      "path": "/how-do-identical-genomes-produce-phenotypic-and-behavioural-diversity/",
       "views": 4
     },
     {
@@ -483,10 +488,6 @@
       "views": 3
     },
     {
-      "path": "/how-do-identical-genomes-produce-phenotypic-and-behavioural-diversity/",
-      "views": 2
-    },
-    {
       "path": "/lab-visit-wespenvriend/",
       "views": 2
     },
@@ -558,31 +559,31 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1064,
-      "visits": 393,
+      "views": 1081,
+      "visits": 410,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 327,
-      "visits": 240,
+      "views": 332,
+      "visits": 243,
       "iso": "US"
     },
     {
       "name": "United Kingdom",
-      "views": 957,
-      "visits": 223,
+      "views": 1015,
+      "visits": 230,
       "iso": "GB"
     },
     {
       "name": "Singapore",
-      "views": 291,
-      "visits": 201,
+      "views": 305,
+      "visits": 210,
       "iso": "SG"
     },
     {
       "name": "Brazil",
-      "views": 257,
+      "views": 266,
       "visits": 46,
       "iso": "BR"
     },
@@ -594,8 +595,8 @@
     },
     {
       "name": "Ireland",
-      "views": 12,
-      "visits": 12,
+      "views": 13,
+      "visits": 13,
       "iso": "IE"
     },
     {
@@ -617,6 +618,12 @@
       "iso": "ZA"
     },
     {
+      "name": "Pakistan",
+      "views": 17,
+      "visits": 7,
+      "iso": "PK"
+    },
+    {
       "name": "Colombia",
       "views": 13,
       "visits": 6,
@@ -633,12 +640,6 @@
       "views": 5,
       "visits": 5,
       "iso": "MX"
-    },
-    {
-      "name": "Pakistan",
-      "views": 12,
-      "visits": 5,
-      "iso": "PK"
     },
     {
       "name": "Russian Federation",
@@ -702,9 +703,15 @@
     },
     {
       "name": "Saudi Arabia",
-      "views": 4,
+      "views": 5,
       "visits": 3,
       "iso": "SA"
+    },
+    {
+      "name": "Switzerland",
+      "views": 7,
+      "visits": 3,
+      "iso": "CH"
     },
     {
       "name": "Ukraine",
@@ -759,12 +766,6 @@
       "views": 2,
       "visits": 2,
       "iso": "RO"
-    },
-    {
-      "name": "Switzerland",
-      "views": 6,
-      "visits": 2,
-      "iso": "CH"
     },
     {
       "name": "Syria",
@@ -1110,6 +1111,11 @@
       "date": "2026-09-17",
       "views": 309,
       "visits": 79
+    },
+    {
+      "date": "2026-09-18",
+      "views": 111,
+      "visits": 40
     }
   ]
 }

@@ -1,52 +1,52 @@
 {
   "connected": true,
-  "updated": "2026-09-18T20:57:32Z",
+  "updated": "2026-09-19T11:07:41Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 1385,
-    "visits": 651
+    "views": 1315,
+    "visits": 597
   },
   "countries_7d": 34,
   "top_countries_7d": [
     {
       "name": "United States of America",
-      "views": 237,
-      "visits": 187,
+      "views": 212,
+      "visits": 182,
       "iso": "US"
     },
     {
       "name": "China",
-      "views": 290,
-      "visits": 161,
+      "views": 222,
+      "visits": 149,
       "iso": "CN"
     },
     {
       "name": "United Kingdom",
-      "views": 582,
+      "views": 630,
       "visits": 138,
       "iso": "GB"
     },
     {
       "name": "Singapore",
-      "views": 123,
-      "visits": 86,
+      "views": 95,
+      "visits": 59,
       "iso": "SG"
     },
     {
       "name": "Germany",
-      "views": 24,
-      "visits": 23,
+      "views": 13,
+      "visits": 12,
       "iso": "DE"
     },
     {
       "name": "Ireland",
-      "views": 8,
-      "visits": 8,
+      "views": 7,
+      "visits": 7,
       "iso": "IE"
     },
     {
       "name": "Brazil",
-      "views": 54,
+      "views": 63,
       "visits": 6,
       "iso": "BR"
     },
@@ -98,10 +98,22 @@
       "iso": "MY"
     },
     {
+      "name": "Pakistan",
+      "views": 8,
+      "visits": 2,
+      "iso": "PK"
+    },
+    {
       "name": "Philippines",
       "views": 2,
       "visits": 2,
       "iso": "PH"
+    },
+    {
+      "name": "Switzerland",
+      "views": 5,
+      "visits": 2,
+      "iso": "CH"
     },
     {
       "name": "Viet Nam",
@@ -146,12 +158,6 @@
       "iso": "CL"
     },
     {
-      "name": "Guatemala",
-      "views": 1,
-      "visits": 1,
-      "iso": "GT"
-    },
-    {
       "name": "Italy",
       "views": 1,
       "visits": 1,
@@ -182,12 +188,6 @@
       "iso": "SE"
     },
     {
-      "name": "Switzerland",
-      "views": 4,
-      "visits": 1,
-      "iso": "CH"
-    },
-    {
       "name": "Australia",
       "views": 1,
       "visits": 0,
@@ -206,10 +206,10 @@
       "iso": "CM"
     },
     {
-      "name": "Pakistan",
-      "views": 3,
+      "name": "Saudi Arabia",
+      "views": 1,
       "visits": 0,
-      "iso": "PK"
+      "iso": "SA"
     }
   ]
 }
