@@ -42,7 +42,7 @@
   ],
   "pageviews": 3324,
   "visits": 1369,
-  "countries_count": 65,
+  "countries_count": 63,
   "top_pages": [
     {
       "path": "/",
@@ -853,11 +853,6 @@
       "iso": "GT"
     },
     {
-      "name": "HK",
-      "views": 1,
-      "visits": 1
-    },
-    {
       "name": "Hungary",
       "views": 1,
       "visits": 1,
@@ -934,11 +929,6 @@
       "views": 1,
       "visits": 0,
       "iso": "CM"
-    },
-    {
-      "name": "IL",
-      "views": 1,
-      "visits": 0
     },
     {
       "name": "Qatar",
