@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -38,39 +38,40 @@
     "2026-09-16",
     "2026-09-17",
     "2026-09-18",
-    "2026-09-19"
+    "2026-09-19",
+    "2026-09-20"
   ],
-  "pageviews": 3324,
-  "visits": 1369,
-  "countries_count": 63,
+  "pageviews": 3438,
+  "visits": 1441,
+  "countries_count": 64,
   "top_pages": [
     {
       "path": "/",
-      "views": 371
+      "views": 388
     },
     {
       "path": "/people/",
-      "views": 310
+      "views": 313
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 164
+      "views": 177
     },
     {
       "path": "/updates/",
-      "views": 144
+      "views": 156
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 118
+      "views": 119
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 111
+      "views": 117
     },
     {
       "path": "/media/",
-      "views": 97
+      "views": 102
     },
     {
       "path": "/people/cintia-oi/",
@@ -78,11 +79,11 @@
     },
     {
       "path": "/endless-forms/",
-      "views": 92
+      "views": 93
     },
     {
       "path": "/research/",
-      "views": 85
+      "views": 91
     },
     {
       "path": "/people/christopher-wyatt/",
@@ -94,23 +95,23 @@
     },
     {
       "path": "/contact/",
-      "views": 66
+      "views": 67
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
       "views": 64
     },
     {
+      "path": "/people/idris-adams/",
+      "views": 56
+    },
+    {
       "path": "/people/sam-duckerin/",
       "views": 56
     },
     {
-      "path": "/people/idris-adams/",
-      "views": 53
-    },
-    {
       "path": "/people/benjamin-taylor/",
-      "views": 51
+      "views": 52
     },
     {
       "path": "/science-communication/",
@@ -118,26 +119,26 @@
     },
     {
       "path": "/people/caroline-chandler/",
-      "views": 42
+      "views": 43
     },
     {
       "path": "/people/romuald-tcheutchoua/",
-      "views": 40
+      "views": 41
     },
     {
       "path": "/people/alessandro-cini/",
+      "views": 40
+    },
+    {
+      "path": "/people/emeline-favreau/",
+      "views": 39
+    },
+    {
+      "path": "/publications/",
       "views": 39
     },
     {
       "path": "/people/daisy-taylor/",
-      "views": 38
-    },
-    {
-      "path": "/people/emeline-favreau/",
-      "views": 38
-    },
-    {
-      "path": "/publications/",
       "views": 38
     },
     {
@@ -149,11 +150,11 @@
       "views": 37
     },
     {
-      "path": "/people/lewis-revely/",
-      "views": 35
+      "path": "/research/genomics/",
+      "views": 36
     },
     {
-      "path": "/research/genomics/",
+      "path": "/people/lewis-revely/",
       "views": 35
     },
     {
@@ -221,6 +222,10 @@
       "views": 18
     },
     {
+      "path": "/wasplove-game/",
+      "views": 17
+    },
+    {
       "path": "/website/media/",
       "views": 17
     },
@@ -230,10 +235,6 @@
     },
     {
       "path": "/research/mechanisms/",
-      "views": 14
-    },
-    {
-      "path": "/wasplove-game/",
       "views": 14
     },
     {
@@ -261,8 +262,24 @@
       "views": 13
     },
     {
+      "path": "/daniel-altair-saureu-velasco-transcriptomics-of-caste-conflict-in-argentine-ants/",
+      "views": 12
+    },
+    {
+      "path": "/people/sam-morris/",
+      "views": 11
+    },
+    {
       "path": "/website/numbers/",
       "views": 11
+    },
+    {
+      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
+      "views": 10
+    },
+    {
+      "path": "/people/ryan-brock/",
+      "views": 10
     },
     {
       "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
@@ -273,6 +290,10 @@
       "views": 10
     },
     {
+      "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
+      "views": 9
+    },
+    {
       "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
       "views": 9
     },
@@ -281,11 +302,11 @@
       "views": 9
     },
     {
-      "path": "/daniel-altair-saureu-velasco-transcriptomics-of-caste-conflict-in-argentine-ants/",
+      "path": "/in2science-a-level-student-blog/",
       "views": 8
     },
     {
-      "path": "/in2science-a-level-student-blog/",
+      "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
       "views": 8
     },
     {
@@ -305,6 +326,10 @@
       "views": 7
     },
     {
+      "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
+      "views": 7
+    },
+    {
       "path": "/sampling-european-hornets/",
       "views": 7
     },
@@ -317,11 +342,11 @@
       "views": 6
     },
     {
-      "path": "/people/ryan-brock/",
+      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
       "views": 6
     },
     {
-      "path": "/people/sam-morris/",
+      "path": "/new-paper-published-first-social-wasp-genome-and-more/",
       "views": 6
     },
     {
@@ -333,19 +358,11 @@
       "views": 5
     },
     {
-      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
-      "views": 5
-    },
-    {
       "path": "/from-brussels-sprouts-to-brachiosaurs-our-science-communication-isnt-always-about-wasps/",
       "views": 5
     },
     {
       "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
-      "views": 5
-    },
-    {
-      "path": "/new-paper-published-first-social-wasp-genome-and-more/",
       "views": 5
     },
     {
@@ -357,15 +374,15 @@
       "views": 5
     },
     {
+      "path": "/whats-the-point-of-wasps/",
+      "views": 5
+    },
+    {
       "path": "/congratulations-dr-lewis-revely/",
       "views": 4
     },
     {
       "path": "/cshl-conference-on-the-biology-genomics-of-social-insects-friends-by-cintia/",
-      "views": 4
-    },
-    {
-      "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
       "views": 4
     },
     {
@@ -405,10 +422,6 @@
       "views": 4
     },
     {
-      "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
-      "views": 4
-    },
-    {
       "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
       "views": 4
     },
@@ -429,14 +442,6 @@
       "views": 4
     },
     {
-      "path": "/whats-the-point-of-wasps/",
-      "views": 4
-    },
-    {
-      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
-      "views": 3
-    },
-    {
       "path": "/extensive-local-gene-duplication-and-functional-divergence-among-paralogs-in-atlantic-salmon/",
       "views": 3
     },
@@ -446,10 +451,6 @@
     },
     {
       "path": "/iussi-conference-cairns-2014/",
-      "views": 3
-    },
-    {
-      "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
       "views": 3
     },
     {
@@ -560,26 +561,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1088,
-      "visits": 417,
+      "views": 1155,
+      "visits": 463,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 343,
-      "visits": 248,
+      "views": 357,
+      "visits": 260,
       "iso": "US"
     },
     {
       "name": "United Kingdom",
-      "views": 1028,
-      "visits": 232,
+      "views": 1033,
+      "visits": 236,
       "iso": "GB"
     },
     {
       "name": "Singapore",
-      "views": 319,
-      "visits": 219,
+      "views": 333,
+      "visits": 226,
       "iso": "SG"
     },
     {
@@ -709,6 +710,12 @@
       "iso": "SA"
     },
     {
+      "name": "Spain",
+      "views": 5,
+      "visits": 3,
+      "iso": "ES"
+    },
+    {
       "name": "Switzerland",
       "views": 7,
       "visits": 3,
@@ -751,6 +758,12 @@
       "iso": "AZ"
     },
     {
+      "name": "Japan",
+      "views": 13,
+      "visits": 2,
+      "iso": "JP"
+    },
+    {
       "name": "Malaysia",
       "views": 2,
       "visits": 2,
@@ -767,12 +780,6 @@
       "views": 2,
       "visits": 2,
       "iso": "RO"
-    },
-    {
-      "name": "Spain",
-      "views": 4,
-      "visits": 2,
-      "iso": "ES"
     },
     {
       "name": "Syria",
@@ -1122,6 +1129,11 @@
       "date": "2026-09-19",
       "views": 53,
       "visits": 29
+    },
+    {
+      "date": "2026-09-20",
+      "views": 114,
+      "visits": 72
     }
   ]
 }
