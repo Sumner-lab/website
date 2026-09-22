@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -39,55 +39,56 @@
     "2026-09-17",
     "2026-09-18",
     "2026-09-19",
-    "2026-09-20"
+    "2026-09-20",
+    "2026-09-21"
   ],
-  "pageviews": 3438,
-  "visits": 1441,
+  "pageviews": 3501,
+  "visits": 1468,
   "countries_count": 64,
   "top_pages": [
     {
       "path": "/",
-      "views": 388
+      "views": 405
     },
     {
       "path": "/people/",
-      "views": 313
+      "views": 317
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 177
+      "views": 180
     },
     {
       "path": "/updates/",
-      "views": 156
+      "views": 160
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 119
+      "views": 124
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 117
+      "views": 118
     },
     {
       "path": "/media/",
-      "views": 102
+      "views": 103
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 96
+      "views": 99
+    },
+    {
+      "path": "/research/",
+      "views": 95
     },
     {
       "path": "/endless-forms/",
       "views": 93
     },
     {
-      "path": "/research/",
-      "views": 91
-    },
-    {
       "path": "/people/christopher-wyatt/",
-      "views": 80
+      "views": 82
     },
     {
       "path": "/website/",
@@ -103,7 +104,7 @@
     },
     {
       "path": "/people/idris-adams/",
-      "views": 56
+      "views": 58
     },
     {
       "path": "/people/sam-duckerin/",
@@ -111,7 +112,7 @@
     },
     {
       "path": "/people/benjamin-taylor/",
-      "views": 52
+      "views": 53
     },
     {
       "path": "/science-communication/",
@@ -119,7 +120,11 @@
     },
     {
       "path": "/people/caroline-chandler/",
-      "views": 43
+      "views": 45
+    },
+    {
+      "path": "/publications/",
+      "views": 42
     },
     {
       "path": "/people/romuald-tcheutchoua/",
@@ -130,16 +135,12 @@
       "views": 40
     },
     {
+      "path": "/people/daisy-taylor/",
+      "views": 39
+    },
+    {
       "path": "/people/emeline-favreau/",
       "views": 39
-    },
-    {
-      "path": "/publications/",
-      "views": 39
-    },
-    {
-      "path": "/people/daisy-taylor/",
-      "views": 38
     },
     {
       "path": "/big-wasp-survey/",
@@ -167,7 +168,7 @@
     },
     {
       "path": "/people/adam-devenish/",
-      "views": 29
+      "views": 30
     },
     {
       "path": "/people/emily-bell/",
@@ -190,15 +191,19 @@
       "views": 27
     },
     {
+      "path": "/people/iona-cunningham-eurich/",
+      "views": 26
+    },
+    {
       "path": "/where-hornets-are-queens/",
       "views": 26
     },
     {
-      "path": "/people/iona-cunningham-eurich/",
+      "path": "/people/fernando-duarte/",
       "views": 25
     },
     {
-      "path": "/people/fernando-duarte/",
+      "path": "/research/ecology/",
       "views": 24
     },
     {
@@ -207,11 +212,7 @@
     },
     {
       "path": "/articles/",
-      "views": 21
-    },
-    {
-      "path": "/research/ecology/",
-      "views": 21
+      "views": 22
     },
     {
       "path": "/autumn-2015-welcome-to-four-new-group-members/",
@@ -238,6 +239,10 @@
       "views": 14
     },
     {
+      "path": "/soapbox-science/",
+      "views": 14
+    },
+    {
       "path": "/website/articles/",
       "views": 14
     },
@@ -251,10 +256,6 @@
     },
     {
       "path": "/publications/wider/",
-      "views": 13
-    },
-    {
-      "path": "/soapbox-science/",
       "views": 13
     },
     {
@@ -338,6 +339,10 @@
       "views": 7
     },
     {
+      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
+      "views": 7
+    },
+    {
       "path": "/a-novel-method-of-assessing-dominance-hierarchies-shows-nuance-linearity-and-stability-in-the-dinosaur-ant-dinoponera-quadriceps/",
       "views": 6
     },
@@ -347,10 +352,6 @@
     },
     {
       "path": "/new-paper-published-first-social-wasp-genome-and-more/",
-      "views": 6
-    },
-    {
-      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
       "views": 6
     },
     {
@@ -367,6 +368,10 @@
     },
     {
       "path": "/no-track/",
+      "views": 5
+    },
+    {
+      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
       "views": 5
     },
     {
@@ -419,10 +424,6 @@
     },
     {
       "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
-      "views": 4
-    },
-    {
-      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
       "views": 4
     },
     {
@@ -561,26 +562,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1155,
-      "visits": 463,
+      "views": 1156,
+      "visits": 464,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 357,
-      "visits": 260,
+      "views": 385,
+      "visits": 274,
       "iso": "US"
     },
     {
       "name": "United Kingdom",
-      "views": 1033,
-      "visits": 236,
+      "views": 1041,
+      "visits": 239,
       "iso": "GB"
     },
     {
       "name": "Singapore",
-      "views": 333,
-      "visits": 226,
+      "views": 356,
+      "visits": 232,
       "iso": "SG"
     },
     {
@@ -597,14 +598,14 @@
     },
     {
       "name": "Ireland",
-      "views": 13,
-      "visits": 13,
+      "views": 14,
+      "visits": 14,
       "iso": "IE"
     },
     {
       "name": "Netherlands",
-      "views": 14,
-      "visits": 9,
+      "views": 15,
+      "visits": 10,
       "iso": "NL"
     },
     {
@@ -758,6 +759,12 @@
       "iso": "AZ"
     },
     {
+      "name": "Hungary",
+      "views": 2,
+      "visits": 2,
+      "iso": "HU"
+    },
+    {
       "name": "Japan",
       "views": 13,
       "visits": 2,
@@ -858,12 +865,6 @@
       "views": 1,
       "visits": 1,
       "iso": "GT"
-    },
-    {
-      "name": "Hungary",
-      "views": 1,
-      "visits": 1,
-      "iso": "HU"
     },
     {
       "name": "Indonesia",
@@ -1134,6 +1135,11 @@
       "date": "2026-09-20",
       "views": 114,
       "visits": 72
+    },
+    {
+      "date": "2026-09-21",
+      "views": 63,
+      "visits": 27
     }
   ]
 }
