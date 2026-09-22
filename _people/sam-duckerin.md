@@ -1,7 +1,8 @@
 ---
 name: Sam Duckerin
-role: PhD Student, Pesticide Effects on Bumblebee Social Networks (now Dr Duckerin)
+role: PhD Student, Pesticide Effects on Bumblebee Social Networks
 status: alumni
+doctorate: true
 photo: /wp-content/uploads/2014/09/Bio-picture-1024x1024.jpg
 title: Sam Duckerin
 redirect_from:
@@ -23,5 +24,4 @@ background:
 - '2014–present: PhD Candidate, University of Bristol'
 - '2013–2014: Research Collaborator, Bionanoscience Group, University of Bristol'
 - '2010–2013: BSc (Hons) Biology, University of Bristol'
-contact: '[sam.duckerin@bristol.ac.uk](mailto:sam.duckerin@bristol.ac.uk)'
 ---

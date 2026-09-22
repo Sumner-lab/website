@@ -13,5 +13,4 @@ interests: |-
 
   I carried out a bio-informatics based research master's, analysing an RNAseq dataset from several *Dinoponera quadriceps* individuals. Using various computational methods, my aim was to understand how transcription profiles change with caste, and to identify genes, gene networks and the corresponding cellular functions associated with caste differentiation.
 background_text: '2012–2015: BSc Biology'
-contact: '[sm15766@bristol.ac.uk](mailto:sm15766@bristol.ac.uk)'
 ---

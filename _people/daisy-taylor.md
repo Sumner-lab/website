@@ -30,5 +30,4 @@ publications:
 - 'E.L. Thompson, D.A. Taylor, S.V. Nair, G. Birch, P. Haynes & D.A. Raftos (2012) Proteomic discovery of biomarkers of metal contamination in Sydney rock oysters (*Saccostrea glomerata*). *Aquatic Toxicology* 109:202-212. doi: 10.1016/j.aquatox.2011.09.018'
 - 'E.L. Thompson, D.A. Taylor, S.V. Nair, G. Birch, G.C. Hose & D.A. Raftos (2012) Proteomic analysis of Sydney rock oysters (*Saccostrea glomerata*) exposed to metal contamination in the field. *Environmental Pollution* 170:102-112. doi: 10.1016/j.envpol.2012.06.015'
 - 'E.L. Thompson, D.A. Taylor, S.V. Nair, G. Birch, P. Haynes & D.A. Raftos (2011) A proteomic analysis of the effects of metal contamination on Sydney rock oyster (*Saccostrea glomerata*) haemolymph. *Aquatic Toxicology* 103(3-4):241-249. doi: 10.1016/j.aquatox.2011.03.004'
-contact: '[daisy.taylor@bristol.ac.uk](mailto:daisy.taylor@bristol.ac.uk)'
 ---

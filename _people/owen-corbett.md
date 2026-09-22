@@ -2,6 +2,7 @@
 name: Owen Corbett
 role: PhD Student, Mechanisms of Conflict Resolution
 status: alumni
+doctorate: true
 photo: /wp-content/uploads/2022/10/owen1-1024x1024.jpg
 title: Owen Corbett
 redirect_from:

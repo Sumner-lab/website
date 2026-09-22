@@ -52,15 +52,27 @@ layout: default
     </div>
     <div class="nb-head-text">
       <h1>{{ person_name }}{% if page.full_name %}<span class="nb-name-note" tabindex="0" aria-label="Full name: {{ page.full_name | escape }}">*<span class="nb-name-tip" aria-hidden="true">{{ page.full_name }}</span></span>{% endif %}</h1>
-      {% if page.role %}<p class="nb-role">{{ page.role }}</p>{% endif %}
+      {%- comment -%}
+        `doctorate: true` on a former PhD student adds "now Dr Surname" -- they finished, and
+        their role still says "PhD Student". Surname comes from `name`; set `doctorate` to a
+        name instead of true where the last word isn't the right one.
+      {%- endcomment -%}
+      {%- assign dr_name = "" -%}
+      {%- if page.doctorate -%}
+        {%- assign dr_name = person_name | split: " " | last -%}
+        {%- unless page.doctorate == true -%}{%- assign dr_name = page.doctorate -%}{%- endunless -%}
+      {%- endif -%}
+      {% if page.role %}<p class="nb-role">{{ page.role }}{% if dr_name != "" %} <span class="nb-role-dr">now Dr {{ dr_name }}</span>{% endif %}</p>{% endif %}
       {%- comment -%} A former member's page has to say so where it's read, not only in the small print of the specimen label below. {%- endcomment -%}
       {% if page.status == "alumni" %}<p class="nb-former">Former lab member{% if years != "" %}<span class="nb-former-years">{{ years }}</span>{% endif %}</p>{% endif %}
-      {% if page.position or years != "" or page.studies or page.contact %}
+      {% if page.position or years != "" or page.now or page.studies or page.contact %}
       <div class="nb-specimen">
         <p class="nb-specimen-cat"><span>Sumner Lab · UCL</span><span>{% if page.status == "alumni" %}Left the nest{% else %}Current group{% endif %}</span></p>
         <dl>
           {% if page.position %}<dt>Position</dt><dd>{{ page.position | markdownify | remove: "<p>" | remove: "</p>" | strip }}</dd>{% endif %}
           {% if years != "" %}<dt>In the lab</dt><dd>{{ years }}</dd>{% endif %}
+          {%- comment -%} Optional: where a former member went next. Nobody has to fill it in. {%- endcomment -%}
+          {% if page.now %}<dt>Now</dt><dd>{{ page.now | replace: baseurl_tag, site.baseurl | markdownify | remove: "<p>" | remove: "</p>" | strip }}</dd>{% endif %}
           {% if page.studies %}<dt>Studies</dt><dd>{{ page.studies | markdownify | remove: "<p>" | remove: "</p>" | strip }}</dd>{% endif %}
           {% if page.contact %}<dt>Contact</dt><dd class="nb-specimen-contact">{{ page.contact | replace: baseurl_tag, site.baseurl | markdownify }}</dd>{% endif %}
         </dl>
@@ -107,6 +119,32 @@ layout: default
         <h3 class="nb-label">Career</h3>
         {% if ruler_min < 9999 %}
         {%- assign ruler_max = this_year | plus: 1 -%}
+        {%- comment -%}
+          A former member's "present" meant whenever their page was last written, so
+          don't stretch the ruler to today. Stop a couple of years past the last year
+          they actually recorded; open-ended bars fade out there rather than running on.
+        {%- endcomment -%}
+        {%- if page.status == "alumni" -%}
+          {%- assign last_year = 0 -%}
+          {%- for item in page.background -%}
+            {%- assign a_head = item | split: ":" | first | replace: "–", "-" | replace: "—", "-" | strip -%}
+            {%- assign a_parts = a_head | split: "-" -%}
+            {%- assign a_start = a_parts | first | strip -%}
+            {%- assign a_from = a_start | slice: -4, 4 | plus: 0 -%}
+            {%- if a_start.size <= 10 and a_from > 1900 -%}
+              {%- if a_from > last_year -%}{%- assign last_year = a_from -%}{%- endif -%}
+              {%- if a_parts.size > 1 -%}
+                {%- assign a_stop = a_parts[1] | strip | downcase -%}
+                {%- unless a_stop contains "present" or a_stop contains "now" -%}
+                  {%- assign a_to = a_stop | slice: -4, 4 | plus: 0 -%}
+                  {%- if a_to > last_year -%}{%- assign last_year = a_to -%}{%- endif -%}
+                {%- endunless -%}
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- assign alumni_max = last_year | plus: 2 -%}
+          {%- if alumni_max > ruler_min and alumni_max < ruler_max -%}{%- assign ruler_max = alumni_max -%}{%- endif -%}
+        {%- endif -%}
         {%- assign span = ruler_max | minus: ruler_min -%}
         {%- if span > 14 -%}{%- assign step = 4 -%}{%- elsif span > 6 -%}{%- assign step = 2 -%}{%- else -%}{%- assign step = 1 -%}{%- endif -%}
         <ol class="nb-ruler">
@@ -124,8 +162,9 @@ layout: default
             {%- assign from_frac = from_month | divided_by: 12.0 -%}
             {%- assign from = from_year | plus: from_frac -%}
             {%- assign stop = parts[1] | strip | downcase -%}
+            {%- assign open_ended = false -%}
             {%- if parts.size < 2 -%}{%- assign to = from | plus: 1 -%}
-            {%- elsif stop contains "present" or stop contains "now" -%}{%- assign to = ruler_max -%}
+            {%- elsif stop contains "present" or stop contains "now" -%}{%- assign to = ruler_max -%}{%- assign open_ended = true -%}
             {%- else -%}
               {%- assign to_year = stop | slice: -4, 4 | plus: 0 -%}
               {%- assign stop_month = stop | slice: 0, 3 -%}
@@ -146,7 +185,11 @@ layout: default
               {%- assign basic = item | strip -%}
               {%- assign extra = "" -%}
             {%- endif -%}
-          <li><span class="nb-ruler-text">{{ basic | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span><span class="nb-ruler-track" tabindex="0"{% if extra != "" %} aria-label="{{ extra | markdownify | strip_html | strip_newlines | strip | escape }}"{% endif %}><span style="left: {{ left }}%; width: {{ width }}%;" aria-hidden="true"></span>{% if extra != "" %}<span class="nb-ruler-tip" aria-hidden="true">{{ extra | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>{% endif %}</span></li>
+            {%- comment -%} "2014–present" on a former member's page would claim they're still in that post today. {%- endcomment -%}
+            {%- if open_ended and page.status == "alumni" -%}
+              {%- assign basic = basic | replace: "–present", " onwards" | replace: "—present", " onwards" | replace: "-present", " onwards" | replace: "–Present", " onwards" | replace: "—Present", " onwards" | replace: "-Present", " onwards" -%}
+            {%- endif -%}
+          <li><span class="nb-ruler-text">{{ basic | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span><span class="nb-ruler-track" tabindex="0"{% if extra != "" %} aria-label="{{ extra | markdownify | strip_html | strip_newlines | strip | escape }}"{% endif %}><span{% if open_ended and page.status == "alumni" %} class="nb-ruler-open"{% endif %} style="left: {{ left }}%; width: {{ width }}%;" aria-hidden="true"></span>{% if extra != "" %}<span class="nb-ruler-tip" aria-hidden="true">{{ extra | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>{% endif %}</span></li>
           {%- endif -%}
           {%- endfor -%}
         </ol>

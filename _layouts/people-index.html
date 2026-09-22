@@ -70,7 +70,13 @@ layout: default
         {% endif %}
         <span class="people-card-caption">
           <span class="people-card-name">{{ person.name | default: person.title }}</span>
-          {% if person.role %}<span class="people-card-role">{{ person.role }}</span>{% endif %}
+          {%- comment -%} A former PhD student's card says "now Dr Surname" too -- see `doctorate` in _layouts/person.html. {%- endcomment -%}
+          {%- assign card_dr = "" -%}
+          {%- if person.doctorate -%}
+            {%- assign card_dr = person.name | default: person.title | split: " " | last -%}
+            {%- unless person.doctorate == true -%}{%- assign card_dr = person.doctorate -%}{%- endunless -%}
+          {%- endif -%}
+          {% if person.role %}<span class="people-card-role">{{ person.role }}{% if card_dr != "" %} <span class="people-card-dr">now Dr {{ card_dr }}</span>{% endif %}</span>{% endif %}
           {% capture card_years %}{% if person.stints %}{% for stint in person.stints %}{{ stint.joined }}{% if stint.left %}–{{ stint.left }}{% elsif person.status != "alumni" %}–present{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% elsif person.joined %}{{ person.joined }}{% if person.left %}–{{ person.left }}{% elsif person.status != "alumni" %}–present{% endif %}{% endif %}{% endcapture %}
           {% assign card_years = card_years | strip %}{% if card_years != "" %}<span class="people-card-years">{{ card_years }}</span>{% endif %}
         </span>
