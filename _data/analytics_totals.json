@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -40,55 +40,56 @@
     "2026-09-18",
     "2026-09-19",
     "2026-09-20",
-    "2026-09-21"
+    "2026-09-21",
+    "2026-09-22"
   ],
-  "pageviews": 3501,
-  "visits": 1468,
+  "pageviews": 3581,
+  "visits": 1511,
   "countries_count": 64,
   "top_pages": [
     {
       "path": "/",
-      "views": 405
+      "views": 418
     },
     {
       "path": "/people/",
-      "views": 317
+      "views": 319
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 180
+      "views": 183
     },
     {
       "path": "/updates/",
-      "views": 160
+      "views": 168
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 124
+      "views": 130
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 118
+      "views": 119
     },
     {
       "path": "/media/",
-      "views": 103
+      "views": 104
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 99
+      "views": 101
     },
     {
       "path": "/research/",
-      "views": 95
+      "views": 98
     },
     {
       "path": "/endless-forms/",
-      "views": 93
+      "views": 97
     },
     {
       "path": "/people/christopher-wyatt/",
-      "views": 82
+      "views": 84
     },
     {
       "path": "/website/",
@@ -96,11 +97,11 @@
     },
     {
       "path": "/contact/",
-      "views": 67
+      "views": 69
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 64
+      "views": 65
     },
     {
       "path": "/people/idris-adams/",
@@ -108,15 +109,15 @@
     },
     {
       "path": "/people/sam-duckerin/",
-      "views": 56
+      "views": 57
     },
     {
       "path": "/people/benjamin-taylor/",
-      "views": 53
+      "views": 55
     },
     {
       "path": "/science-communication/",
-      "views": 47
+      "views": 49
     },
     {
       "path": "/people/caroline-chandler/",
@@ -124,15 +125,15 @@
     },
     {
       "path": "/publications/",
-      "views": 42
+      "views": 45
+    },
+    {
+      "path": "/people/alessandro-cini/",
+      "views": 41
     },
     {
       "path": "/people/romuald-tcheutchoua/",
       "views": 41
-    },
-    {
-      "path": "/people/alessandro-cini/",
-      "views": 40
     },
     {
       "path": "/people/daisy-taylor/",
@@ -144,7 +145,7 @@
     },
     {
       "path": "/big-wasp-survey/",
-      "views": 37
+      "views": 38
     },
     {
       "path": "/research/evolution/",
@@ -152,7 +153,7 @@
     },
     {
       "path": "/research/genomics/",
-      "views": 36
+      "views": 37
     },
     {
       "path": "/people/lewis-revely/",
@@ -175,6 +176,10 @@
       "views": 29
     },
     {
+      "path": "/people/robin-southon/",
+      "views": 29
+    },
+    {
       "path": "/people/sandra-moreno/",
       "views": 28
     },
@@ -183,7 +188,7 @@
       "views": 27
     },
     {
-      "path": "/people/robin-southon/",
+      "path": "/people/iona-cunningham-eurich/",
       "views": 27
     },
     {
@@ -191,28 +196,24 @@
       "views": 27
     },
     {
-      "path": "/people/iona-cunningham-eurich/",
-      "views": 26
-    },
-    {
       "path": "/where-hornets-are-queens/",
-      "views": 26
+      "views": 27
     },
     {
       "path": "/people/fernando-duarte/",
-      "views": 25
+      "views": 26
     },
     {
       "path": "/research/ecology/",
+      "views": 26
+    },
+    {
+      "path": "/articles/",
       "views": 24
     },
     {
       "path": "/people/patrick-kennedy/",
-      "views": 23
-    },
-    {
-      "path": "/articles/",
-      "views": 22
+      "views": 24
     },
     {
       "path": "/autumn-2015-welcome-to-four-new-group-members/",
@@ -232,14 +233,14 @@
     },
     {
       "path": "/billy-easeman-parasitoid-wasps/",
+      "views": 16
+    },
+    {
+      "path": "/soapbox-science/",
       "views": 15
     },
     {
       "path": "/research/mechanisms/",
-      "views": 14
-    },
-    {
-      "path": "/soapbox-science/",
       "views": 14
     },
     {
@@ -255,6 +256,10 @@
       "views": 14
     },
     {
+      "path": "/people/sam-morris/",
+      "views": 13
+    },
+    {
       "path": "/publications/wider/",
       "views": 13
     },
@@ -267,7 +272,7 @@
       "views": 12
     },
     {
-      "path": "/people/sam-morris/",
+      "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
       "views": 11
     },
     {
@@ -291,20 +296,16 @@
       "views": 10
     },
     {
+      "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
+      "views": 10
+    },
+    {
       "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
       "views": 9
     },
     {
-      "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
-      "views": 9
-    },
-    {
-      "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
-      "views": 9
-    },
-    {
       "path": "/in2science-a-level-student-blog/",
-      "views": 8
+      "views": 9
     },
     {
       "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
@@ -351,15 +352,19 @@
       "views": 6
     },
     {
+      "path": "/from-brussels-sprouts-to-brachiosaurs-our-science-communication-isnt-always-about-wasps/",
+      "views": 6
+    },
+    {
       "path": "/new-paper-published-first-social-wasp-genome-and-more/",
       "views": 6
     },
     {
-      "path": "/david-blahout-pollination-syndromes-and-wasps-as-pollinators/",
-      "views": 5
+      "path": "/what-roles-do-wasps-play-in-nature/",
+      "views": 6
     },
     {
-      "path": "/from-brussels-sprouts-to-brachiosaurs-our-science-communication-isnt-always-about-wasps/",
+      "path": "/david-blahout-pollination-syndromes-and-wasps-as-pollinators/",
       "views": 5
     },
     {
@@ -436,10 +441,6 @@
     },
     {
       "path": "/website/people/benjamin-taylor/",
-      "views": 4
-    },
-    {
-      "path": "/what-roles-do-wasps-play-in-nature/",
       "views": 4
     },
     {
@@ -562,26 +563,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1156,
-      "visits": 464,
+      "views": 1182,
+      "visits": 481,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 385,
-      "visits": 274,
+      "views": 395,
+      "visits": 279,
       "iso": "US"
     },
     {
       "name": "United Kingdom",
-      "views": 1041,
-      "visits": 239,
+      "views": 1050,
+      "visits": 245,
       "iso": "GB"
     },
     {
       "name": "Singapore",
-      "views": 356,
-      "visits": 232,
+      "views": 373,
+      "visits": 240,
       "iso": "SG"
     },
     {
@@ -592,8 +593,8 @@
     },
     {
       "name": "Germany",
-      "views": 44,
-      "visits": 41,
+      "views": 46,
+      "visits": 42,
       "iso": "DE"
     },
     {
@@ -640,15 +641,33 @@
     },
     {
       "name": "Mexico",
-      "views": 5,
-      "visits": 5,
+      "views": 6,
+      "visits": 6,
       "iso": "MX"
+    },
+    {
+      "name": "Japan",
+      "views": 19,
+      "visits": 4,
+      "iso": "JP"
+    },
+    {
+      "name": "Republic of Korea",
+      "views": 10,
+      "visits": 4,
+      "iso": "KR"
     },
     {
       "name": "Russian Federation",
       "views": 6,
       "visits": 4,
       "iso": "RU"
+    },
+    {
+      "name": "Saudi Arabia",
+      "views": 6,
+      "visits": 4,
+      "iso": "SA"
     },
     {
       "name": "Thailand",
@@ -697,18 +716,6 @@
       "views": 4,
       "visits": 3,
       "iso": "PH"
-    },
-    {
-      "name": "Republic of Korea",
-      "views": 3,
-      "visits": 3,
-      "iso": "KR"
-    },
-    {
-      "name": "Saudi Arabia",
-      "views": 5,
-      "visits": 3,
-      "iso": "SA"
     },
     {
       "name": "Spain",
@@ -765,12 +772,6 @@
       "iso": "HU"
     },
     {
-      "name": "Japan",
-      "views": 13,
-      "visits": 2,
-      "iso": "JP"
-    },
-    {
       "name": "Malaysia",
       "views": 2,
       "visits": 2,
@@ -781,6 +782,12 @@
       "views": 2,
       "visits": 2,
       "iso": "PL"
+    },
+    {
+      "name": "Portugal",
+      "views": 2,
+      "visits": 2,
+      "iso": "PT"
     },
     {
       "name": "Romania",
@@ -907,12 +914,6 @@
       "views": 2,
       "visits": 1,
       "iso": "OM"
-    },
-    {
-      "name": "Portugal",
-      "views": 1,
-      "visits": 1,
-      "iso": "PT"
     },
     {
       "name": "Sweden",
@@ -1140,6 +1141,11 @@
       "date": "2026-09-21",
       "views": 63,
       "visits": 27
+    },
+    {
+      "date": "2026-09-22",
+      "views": 80,
+      "visits": 43
     }
   ]
 }
