@@ -1,147 +1,71 @@
 {
   "connected": true,
-  "updated": "2026-09-24T01:19:56Z",
+  "updated": "2026-09-24T11:54:38Z",
   "since": "2026-08-14",
   "last7days": {
     "views": 817,
     "visits": 346
   },
-  "countries_7d": 23,
+  "countries_7d": 10,
   "top_countries_7d": [
     {
       "name": "China",
-      "views": 180,
-      "visits": 132,
+      "views": 150,
+      "visits": 120,
       "iso": "CN"
     },
     {
+      "name": "United Kingdom",
+      "views": 200,
+      "visits": 50,
+      "iso": "GB"
+    },
+    {
       "name": "United States of America",
-      "views": 108,
-      "visits": 74,
+      "views": 90,
+      "visits": 50,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 109,
-      "visits": 57,
+      "views": 90,
+      "visits": 30,
       "iso": "SG"
     },
     {
-      "name": "United Kingdom",
-      "views": 290,
-      "visits": 44,
-      "iso": "GB"
+      "name": "FR",
+      "views": 10,
+      "visits": 10
     },
     {
       "name": "Germany",
-      "views": 13,
-      "visits": 11,
+      "views": 20,
+      "visits": 10,
       "iso": "DE"
     },
     {
-      "name": "Japan",
-      "views": 19,
-      "visits": 4,
-      "iso": "JP"
-    },
-    {
-      "name": "Brazil",
-      "views": 60,
-      "visits": 3,
-      "iso": "BR"
-    },
-    {
-      "name": "Netherlands",
-      "views": 4,
-      "visits": 3,
-      "iso": "NL"
-    },
-    {
-      "name": "Canada",
-      "views": 2,
-      "visits": 2,
-      "iso": "CA"
-    },
-    {
-      "name": "Ireland",
-      "views": 2,
-      "visits": 2,
-      "iso": "IE"
-    },
-    {
-      "name": "Pakistan",
-      "views": 8,
-      "visits": 2,
-      "iso": "PK"
-    },
-    {
-      "name": "Republic of Korea",
-      "views": 8,
-      "visits": 2,
-      "iso": "KR"
-    },
-    {
-      "name": "Spain",
-      "views": 2,
-      "visits": 2,
-      "iso": "ES"
-    },
-    {
-      "name": "FR",
-      "views": 1,
-      "visits": 1
-    },
-    {
-      "name": "HK",
-      "views": 1,
-      "visits": 1
-    },
-    {
-      "name": "Hungary",
-      "views": 1,
-      "visits": 1,
-      "iso": "HU"
-    },
-    {
       "name": "Mexico",
-      "views": 1,
-      "visits": 1,
+      "views": 10,
+      "visits": 10,
       "iso": "MX"
     },
     {
-      "name": "Portugal",
-      "views": 1,
-      "visits": 1,
-      "iso": "PT"
-    },
-    {
-      "name": "Saudi Arabia",
-      "views": 2,
-      "visits": 1,
-      "iso": "SA"
-    },
-    {
-      "name": "South Africa",
-      "views": 1,
-      "visits": 1,
-      "iso": "ZA"
-    },
-    {
-      "name": "Switzerland",
-      "views": 2,
-      "visits": 1,
-      "iso": "CH"
-    },
-    {
-      "name": "IL",
-      "views": 1,
-      "visits": 0
-    },
-    {
-      "name": "India",
-      "views": 1,
+      "name": "Brazil",
+      "views": 100,
       "visits": 0,
-      "iso": "IN"
+      "iso": "BR"
+    },
+    {
+      "name": "Japan",
+      "views": 20,
+      "visits": 0,
+      "iso": "JP"
+    },
+    {
+      "name": "Republic of Korea",
+      "views": 10,
+      "visits": 0,
+      "iso": "KR"
     }
   ]
 }
