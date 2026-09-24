@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -41,51 +41,52 @@
     "2026-09-19",
     "2026-09-20",
     "2026-09-21",
-    "2026-09-22"
+    "2026-09-22",
+    "2026-09-23"
   ],
-  "pageviews": 3581,
-  "visits": 1511,
+  "pageviews": 3668,
+  "visits": 1567,
   "countries_count": 64,
   "top_pages": [
     {
       "path": "/",
-      "views": 418
+      "views": 432
     },
     {
       "path": "/people/",
-      "views": 319
+      "views": 323
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 183
+      "views": 187
     },
     {
       "path": "/updates/",
-      "views": 168
+      "views": 174
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 130
+      "views": 133
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 119
+      "views": 125
     },
     {
       "path": "/media/",
-      "views": 104
+      "views": 111
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 101
+      "views": 103
     },
     {
       "path": "/research/",
-      "views": 98
+      "views": 101
     },
     {
       "path": "/endless-forms/",
-      "views": 97
+      "views": 100
     },
     {
       "path": "/people/christopher-wyatt/",
@@ -97,7 +98,7 @@
     },
     {
       "path": "/contact/",
-      "views": 69
+      "views": 70
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
@@ -113,27 +114,31 @@
     },
     {
       "path": "/people/benjamin-taylor/",
-      "views": 55
+      "views": 56
     },
     {
       "path": "/science-communication/",
-      "views": 49
-    },
-    {
-      "path": "/people/caroline-chandler/",
-      "views": 45
+      "views": 51
     },
     {
       "path": "/publications/",
-      "views": 45
+      "views": 49
     },
     {
       "path": "/people/alessandro-cini/",
-      "views": 41
+      "views": 46
+    },
+    {
+      "path": "/people/caroline-chandler/",
+      "views": 46
     },
     {
       "path": "/people/romuald-tcheutchoua/",
       "views": 41
+    },
+    {
+      "path": "/big-wasp-survey/",
+      "views": 40
     },
     {
       "path": "/people/daisy-taylor/",
@@ -144,7 +149,7 @@
       "views": 39
     },
     {
-      "path": "/big-wasp-survey/",
+      "path": "/research/genomics/",
       "views": 38
     },
     {
@@ -152,16 +157,12 @@
       "views": 37
     },
     {
-      "path": "/research/genomics/",
-      "views": 37
-    },
-    {
       "path": "/people/lewis-revely/",
-      "views": 35
+      "views": 36
     },
     {
       "path": "/people/owen-corbett/",
-      "views": 34
+      "views": 35
     },
     {
       "path": "/website/people/",
@@ -173,14 +174,22 @@
     },
     {
       "path": "/people/emily-bell/",
-      "views": 29
+      "views": 30
     },
     {
       "path": "/people/robin-southon/",
       "views": 29
     },
     {
+      "path": "/people/fernando-duarte/",
+      "views": 28
+    },
+    {
       "path": "/people/sandra-moreno/",
+      "views": 28
+    },
+    {
+      "path": "/where-hornets-are-queens/",
       "views": 28
     },
     {
@@ -194,14 +203,6 @@
     {
       "path": "/website/updates/",
       "views": 27
-    },
-    {
-      "path": "/where-hornets-are-queens/",
-      "views": 27
-    },
-    {
-      "path": "/people/fernando-duarte/",
-      "views": 26
     },
     {
       "path": "/research/ecology/",
@@ -224,6 +225,10 @@
       "views": 18
     },
     {
+      "path": "/billy-easeman-parasitoid-wasps/",
+      "views": 17
+    },
+    {
       "path": "/wasplove-game/",
       "views": 17
     },
@@ -232,16 +237,16 @@
       "views": 17
     },
     {
-      "path": "/billy-easeman-parasitoid-wasps/",
-      "views": 16
-    },
-    {
-      "path": "/soapbox-science/",
+      "path": "/publications/wider/",
       "views": 15
     },
     {
       "path": "/research/mechanisms/",
-      "views": 14
+      "views": 15
+    },
+    {
+      "path": "/soapbox-science/",
+      "views": 15
     },
     {
       "path": "/website/articles/",
@@ -260,10 +265,6 @@
       "views": 13
     },
     {
-      "path": "/publications/wider/",
-      "views": 13
-    },
-    {
       "path": "/website/endless-forms/",
       "views": 13
     },
@@ -273,6 +274,10 @@
     },
     {
       "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
+      "views": 12
+    },
+    {
+      "path": "/people/ryan-brock/",
       "views": 11
     },
     {
@@ -281,10 +286,6 @@
     },
     {
       "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
-      "views": 10
-    },
-    {
-      "path": "/people/ryan-brock/",
       "views": 10
     },
     {
@@ -306,6 +307,10 @@
     {
       "path": "/in2science-a-level-student-blog/",
       "views": 9
+    },
+    {
+      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
+      "views": 8
     },
     {
       "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
@@ -336,6 +341,10 @@
       "views": 7
     },
     {
+      "path": "/wasp-day-2023/",
+      "views": 7
+    },
+    {
       "path": "/website/science-communication/",
       "views": 7
     },
@@ -348,15 +357,15 @@
       "views": 6
     },
     {
-      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
-      "views": 6
-    },
-    {
       "path": "/from-brussels-sprouts-to-brachiosaurs-our-science-communication-isnt-always-about-wasps/",
       "views": 6
     },
     {
       "path": "/new-paper-published-first-social-wasp-genome-and-more/",
+      "views": 6
+    },
+    {
+      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
       "views": 6
     },
     {
@@ -373,14 +382,6 @@
     },
     {
       "path": "/no-track/",
-      "views": 5
-    },
-    {
-      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
-      "views": 5
-    },
-    {
-      "path": "/wasp-day-2023/",
       "views": 5
     },
     {
@@ -476,6 +477,10 @@
       "views": 3
     },
     {
+      "path": "/sreya-magar-evolution-of-prey-selection-and-life-history-traits-in-sphecidae-wasps/",
+      "views": 3
+    },
+    {
       "path": "/visit-collaborator-prof-fabio-nascimento-usp-brazil/",
       "views": 3
     },
@@ -505,10 +510,6 @@
     },
     {
       "path": "/lucy-weatherley/",
-      "views": 2
-    },
-    {
-      "path": "/sreya-magar-evolution-of-prey-selection-and-life-history-traits-in-sphecidae-wasps/",
       "views": 2
     },
     {
@@ -563,26 +564,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1182,
-      "visits": 481,
+      "views": 1215,
+      "visits": 506,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 395,
-      "visits": 279,
+      "views": 415,
+      "visits": 295,
       "iso": "US"
     },
     {
       "name": "United Kingdom",
-      "views": 1050,
-      "visits": 245,
+      "views": 1066,
+      "visits": 250,
       "iso": "GB"
     },
     {
       "name": "Singapore",
-      "views": 373,
-      "visits": 240,
+      "views": 387,
+      "visits": 248,
       "iso": "SG"
     },
     {
@@ -593,7 +594,7 @@
     },
     {
       "name": "Germany",
-      "views": 46,
+      "views": 47,
       "visits": 42,
       "iso": "DE"
     },
@@ -610,28 +611,28 @@
       "iso": "NL"
     },
     {
+      "name": "South Africa",
+      "views": 11,
+      "visits": 9,
+      "iso": "ZA"
+    },
+    {
       "name": "Bangladesh",
       "views": 8,
       "visits": 8,
       "iso": "BD"
     },
     {
-      "name": "South Africa",
-      "views": 10,
-      "visits": 8,
-      "iso": "ZA"
+      "name": "Canada",
+      "views": 8,
+      "visits": 7,
+      "iso": "CA"
     },
     {
       "name": "Pakistan",
       "views": 17,
       "visits": 7,
       "iso": "PK"
-    },
-    {
-      "name": "Canada",
-      "views": 7,
-      "visits": 6,
-      "iso": "CA"
     },
     {
       "name": "Colombia",
@@ -695,7 +696,7 @@
     },
     {
       "name": "India",
-      "views": 8,
+      "views": 9,
       "visits": 3,
       "iso": "IN"
     },
@@ -1146,6 +1147,11 @@
       "date": "2026-09-22",
       "views": 80,
       "visits": 43
+    },
+    {
+      "date": "2026-09-23",
+      "views": 87,
+      "visits": 56
     }
   ]
 }
