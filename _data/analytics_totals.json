@@ -47,7 +47,7 @@
   ],
   "pageviews": 3756,
   "visits": 1611,
-  "countries_count": 66,
+  "countries_count": 65,
   "top_pages": [
     {
       "path": "/",
@@ -952,11 +952,6 @@
       "views": 1,
       "visits": 0,
       "iso": "QA"
-    },
-    {
-      "name": "TW",
-      "views": 1,
-      "visits": 0
     }
   ],
   "daily": [
