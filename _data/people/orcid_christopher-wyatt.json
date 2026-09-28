@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T18:02:36Z",
+  "updated": "2026-09-28T14:10:59Z",
   "name": "Christopher Wyatt",
   "orcid": "0000-0001-8033-2213",
   "profile_url": "https://orcid.org/0000-0001-8033-2213",
@@ -34,6 +34,36 @@
         },
         {
           "name": "Begley V",
+          "lab_member": false
+        },
+        {
+          "name": "Sumner S",
+          "lab_member": true
+        }
+      ]
+    },
+    {
+      "doi": "10.1098/rspb.2026.0252",
+      "url": "https://doi.org/10.1098/rspb.2026.0252",
+      "title": "Limits to behavioural plasticity in tropical paper wasps",
+      "journal": "Proceedings of the Royal Society B: Biological Sciences",
+      "year": 2026,
+      "date": "2026-05-06",
+      "authors": [
+        {
+          "name": "Bell EF",
+          "lab_member": true
+        },
+        {
+          "name": "Wyatt CDR",
+          "lab_member": true
+        },
+        {
+          "name": "Taylor D",
+          "lab_member": true
+        },
+        {
+          "name": "Radford AN",
           "lab_member": false
         },
         {
@@ -127,6 +157,60 @@
       ]
     },
     {
+      "doi": "10.1186/s12864-024-11040-4",
+      "url": "https://doi.org/10.1186/s12864-024-11040-4",
+      "title": "New genomic resources inform transcriptomic responses to heavy metal toxins in the common Eastern bumble bee Bombus impatiens",
+      "journal": "BMC Genomics",
+      "year": 2024,
+      "date": "2024-11-19",
+      "authors": [
+        {
+          "name": "Toth AL",
+          "lab_member": false
+        },
+        {
+          "name": "Wyatt CDR",
+          "lab_member": true
+        },
+        {
+          "name": "Masonbrink RE",
+          "lab_member": false
+        },
+        {
+          "name": "Geist KS",
+          "lab_member": false
+        },
+        {
+          "name": "Fortune R",
+          "lab_member": false
+        },
+        {
+          "name": "Scott SB",
+          "lab_member": false
+        },
+        {
+          "name": "Favreau E",
+          "lab_member": true
+        },
+        {
+          "name": "Rehan SM",
+          "lab_member": false
+        },
+        {
+          "name": "Sumner S",
+          "lab_member": true
+        },
+        {
+          "name": "Gardiner MM",
+          "lab_member": false
+        },
+        {
+          "name": "Sivakoff FS",
+          "lab_member": false
+        }
+      ]
+    },
+    {
       "doi": "10.3390/ijms24098102",
       "url": "https://doi.org/10.3390/ijms24098102",
       "title": "Alternative Splicing Changes Promoted by NOVA2 Upregulation in Endothelial Cells and Relevance for Gastric Cancer",
@@ -197,6 +281,96 @@
       ]
     },
     {
+      "doi": "10.1038/s41598-023-31932-x",
+      "url": "https://doi.org/10.1038/s41598-023-31932-x",
+      "title": "Putting hornets on the genomic map",
+      "journal": "Scientific Reports",
+      "year": 2023,
+      "date": "2023-04-21",
+      "authors": [
+        {
+          "name": "Favreau E",
+          "lab_member": true
+        },
+        {
+          "name": "Cini A",
+          "lab_member": true
+        },
+        {
+          "name": "Taylor D",
+          "lab_member": true
+        },
+        {
+          "name": "Câmara Ferreira F",
+          "lab_member": false
+        },
+        {
+          "name": "Bentley MA",
+          "lab_member": false
+        },
+        {
+          "name": "Cappa F",
+          "lab_member": false
+        },
+        {
+          "name": "Cervo R",
+          "lab_member": false
+        },
+        {
+          "name": "Privman E",
+          "lab_member": false
+        },
+        {
+          "name": "Schneider J",
+          "lab_member": false
+        },
+        {
+          "name": "Thiéry D",
+          "lab_member": false
+        },
+        {
+          "name": "Mashoodh R",
+          "lab_member": false
+        },
+        {
+          "name": "Wyatt CDR",
+          "lab_member": true
+        },
+        {
+          "name": "Brown RL",
+          "lab_member": false
+        },
+        {
+          "name": "Bodrug-Schepers A",
+          "lab_member": false
+        },
+        {
+          "name": "Stralis-Pavese N",
+          "lab_member": false
+        },
+        {
+          "name": "Dohm JC",
+          "lab_member": false
+        },
+        {
+          "name": "Mead D",
+          "lab_member": false
+        },
+        {
+          "name": "Himmelbauer H",
+          "lab_member": false
+        },
+        {
+          "name": "Guigo R",
+          "lab_member": false
+        },
+        {
+          "name": "Sumner S",
+          "lab_member": true
+        }
+      ]
+    },
+    {
       "doi": "10.1038/s41467-023-36456-6",
       "url": "https://doi.org/10.1038/s41467-023-36456-6",
       "title": "Social complexity, life-history and lineage influence the molecular basis of castes in vespid wasps",
@@ -239,6 +413,114 @@
         {
           "name": "Sumner S",
           "lab_member": true
+        }
+      ]
+    },
+    {
+      "doi": "10.1093/gbe/evac174",
+      "url": "https://doi.org/10.1093/gbe/evac174",
+      "title": "Co-expression Gene Networks and Machine-learning Algorithms Unveil a Core Genetic Toolkit for Reproductive Division of Labour in Rudimentary Insect Societies",
+      "journal": "Genome Biology and Evolution",
+      "year": 2023,
+      "date": "2023-01-04",
+      "authors": [
+        {
+          "name": "Favreau E",
+          "lab_member": true
+        },
+        {
+          "name": "Geist KS",
+          "lab_member": false
+        },
+        {
+          "name": "Wyatt CDR",
+          "lab_member": true
+        },
+        {
+          "name": "Toth AL",
+          "lab_member": false
+        },
+        {
+          "name": "Sumner S",
+          "lab_member": true
+        },
+        {
+          "name": "Rehan SM",
+          "lab_member": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/j.stemcr.2022.07.009",
+      "url": "https://doi.org/10.1016/j.stemcr.2022.07.009",
+      "title": "The trophectoderm acts as a niche for the inner cell mass through C/EBPα-regulated IL-6 signaling",
+      "journal": "Stem Cell Reports",
+      "year": 2022,
+      "date": "2022-09-01",
+      "authors": [
+        {
+          "name": "Plana-Carmona M",
+          "lab_member": false
+        },
+        {
+          "name": "Stik G",
+          "lab_member": false
+        },
+        {
+          "name": "Bulteau R",
+          "lab_member": false
+        },
+        {
+          "name": "Segura-Morales C",
+          "lab_member": false
+        },
+        {
+          "name": "Alcázar N",
+          "lab_member": false
+        },
+        {
+          "name": "Wyatt CD",
+          "lab_member": true
+        },
+        {
+          "name": "Klonizakis A",
+          "lab_member": false
+        },
+        {
+          "name": "de Andrés-Aguayo L",
+          "lab_member": false
+        },
+        {
+          "name": "Gasnier M",
+          "lab_member": false
+        },
+        {
+          "name": "Tian TV",
+          "lab_member": false
+        },
+        {
+          "name": "Torcal Garcia G",
+          "lab_member": false
+        },
+        {
+          "name": "Vila-Casadesús M",
+          "lab_member": false
+        },
+        {
+          "name": "Plachta N",
+          "lab_member": false
+        },
+        {
+          "name": "Serrano M",
+          "lab_member": false
+        },
+        {
+          "name": "Francesconi M",
+          "lab_member": false
+        },
+        {
+          "name": "Graf T",
+          "lab_member": false
         }
       ]
     },
@@ -297,6 +579,86 @@
       ]
     },
     {
+      "doi": "10.1038/s41586-021-03200-3",
+      "url": "https://doi.org/10.1038/s41586-021-03200-3",
+      "title": "Cooperative epithelial phagocytosis enables error correction in the early embryo",
+      "journal": "Nature",
+      "year": 2021,
+      "date": "2021-02-25",
+      "authors": [
+        {
+          "name": "Hoijman E",
+          "lab_member": false
+        },
+        {
+          "name": "Häkkinen HM",
+          "lab_member": false
+        },
+        {
+          "name": "Tolosa-Ramon Q",
+          "lab_member": false
+        },
+        {
+          "name": "Jiménez-Delgado S",
+          "lab_member": false
+        },
+        {
+          "name": "Wyatt C",
+          "lab_member": true
+        },
+        {
+          "name": "Miret-Cuesta M",
+          "lab_member": false
+        },
+        {
+          "name": "Irimia M",
+          "lab_member": false
+        },
+        {
+          "name": "Callan-Jones A",
+          "lab_member": false
+        },
+        {
+          "name": "Wieser S",
+          "lab_member": false
+        },
+        {
+          "name": "Ruprecht V",
+          "lab_member": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1038/s41467-021-21095-6",
+      "url": "https://doi.org/10.1038/s41467-021-21095-6",
+      "title": "The molecular basis of socially mediated phenotypic plasticity in a eusocial paper wasp",
+      "journal": "Nature Communications",
+      "year": 2021,
+      "date": "2021-02-03",
+      "authors": [
+        {
+          "name": "Taylor BA",
+          "lab_member": true
+        },
+        {
+          "name": "Cini A",
+          "lab_member": true
+        },
+        {
+          "name": "Wyatt CDR",
+          "lab_member": true
+        },
+        {
+          "name": "Reuter M",
+          "lab_member": false
+        },
+        {
+          "name": "Sumner S",
+          "lab_member": true
+        }
+      ]
+    },
+    {
       "doi": "10.1101/2020.12.08.407056",
       "url": "https://doi.org/10.1101/2020.12.08.407056",
       "title": "Genetic toolkit for sociality predicts castes across the spectrum of social complexity in wasps",
@@ -335,6 +697,120 @@
         {
           "name": "Sumner S",
           "lab_member": true
+        }
+      ]
+    },
+    {
+      "doi": "10.1038/s41467-020-16284-8",
+      "url": "https://doi.org/10.1038/s41467-020-16284-8",
+      "title": "Genomic adaptations to aquatic and aerial life in mayflies and the origin of insect wings",
+      "journal": "Nature Communications",
+      "year": 2020,
+      "date": "2020-05-26",
+      "authors": [
+        {
+          "name": "Almudi I",
+          "lab_member": false
+        },
+        {
+          "name": "Vizueta J",
+          "lab_member": false
+        },
+        {
+          "name": "Wyatt CDR",
+          "lab_member": true
+        },
+        {
+          "name": "de Mendoza A",
+          "lab_member": false
+        },
+        {
+          "name": "Marlétaz F",
+          "lab_member": false
+        },
+        {
+          "name": "Firbas PN",
+          "lab_member": false
+        },
+        {
+          "name": "Feuda R",
+          "lab_member": false
+        },
+        {
+          "name": "Masiero G",
+          "lab_member": false
+        },
+        {
+          "name": "Medina P",
+          "lab_member": false
+        },
+        {
+          "name": "Alcaina-Caro A",
+          "lab_member": false
+        },
+        {
+          "name": "Cruz F",
+          "lab_member": false
+        },
+        {
+          "name": "Gómez-Garrido J",
+          "lab_member": false
+        },
+        {
+          "name": "Gut M",
+          "lab_member": false
+        },
+        {
+          "name": "Alioto TS",
+          "lab_member": false
+        },
+        {
+          "name": "Vargas-Chavez C",
+          "lab_member": false
+        },
+        {
+          "name": "Davie K",
+          "lab_member": false
+        },
+        {
+          "name": "Misof B",
+          "lab_member": false
+        },
+        {
+          "name": "González J",
+          "lab_member": false
+        },
+        {
+          "name": "Aerts S",
+          "lab_member": false
+        },
+        {
+          "name": "Lister R",
+          "lab_member": false
+        },
+        {
+          "name": "Paps J",
+          "lab_member": false
+        },
+        {
+          "name": "Rozas J",
+          "lab_member": false
+        },
+        {
+          "name": "Sánchez-Gracia A",
+          "lab_member": false
+        },
+        {
+          "name": "Irimia M",
+          "lab_member": false
+        },
+        {
+          "name": "Maeso I",
+          "lab_member": false
+        },
+        {
+          "name": "Casares F",
+          "lab_member": false
         }
       ]
     },
