@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -45,27 +45,28 @@
     "2026-09-23",
     "2026-09-24",
     "2026-09-25",
-    "2026-09-26"
+    "2026-09-26",
+    "2026-09-27"
   ],
-  "pageviews": 3899,
-  "visits": 1704,
+  "pageviews": 3962,
+  "visits": 1742,
   "countries_count": 65,
   "top_pages": [
     {
       "path": "/",
-      "views": 471
+      "views": 492
     },
     {
       "path": "/people/",
-      "views": 331
+      "views": 333
     },
     {
       "path": "/updates/",
-      "views": 198
+      "views": 201
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 194
+      "views": 197
     },
     {
       "path": "/people/femi-e-benny/",
@@ -73,11 +74,11 @@
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 137
+      "views": 138
     },
     {
       "path": "/media/",
-      "views": 118
+      "views": 119
     },
     {
       "path": "/people/cintia-oi/",
@@ -85,7 +86,7 @@
     },
     {
       "path": "/research/",
-      "views": 106
+      "views": 109
     },
     {
       "path": "/endless-forms/",
@@ -120,6 +121,10 @@
       "views": 58
     },
     {
+      "path": "/publications/",
+      "views": 54
+    },
+    {
       "path": "/science-communication/",
       "views": 52
     },
@@ -128,16 +133,16 @@
       "views": 50
     },
     {
-      "path": "/publications/",
-      "views": 50
+      "path": "/big-wasp-survey/",
+      "views": 49
     },
     {
       "path": "/people/caroline-chandler/",
-      "views": 47
+      "views": 49
     },
     {
-      "path": "/big-wasp-survey/",
-      "views": 45
+      "path": "/people/emeline-favreau/",
+      "views": 42
     },
     {
       "path": "/people/romuald-tcheutchoua/",
@@ -145,10 +150,6 @@
     },
     {
       "path": "/people/daisy-taylor/",
-      "views": 40
-    },
-    {
-      "path": "/people/emeline-favreau/",
       "views": 40
     },
     {
@@ -173,10 +174,14 @@
     },
     {
       "path": "/people/emily-bell/",
-      "views": 33
+      "views": 35
     },
     {
       "path": "/people/robin-southon/",
+      "views": 33
+    },
+    {
+      "path": "/research/ecology/",
       "views": 33
     },
     {
@@ -193,10 +198,6 @@
     },
     {
       "path": "/people/fernando-duarte/",
-      "views": 29
-    },
-    {
-      "path": "/research/ecology/",
       "views": 29
     },
     {
@@ -228,6 +229,10 @@
       "views": 21
     },
     {
+      "path": "/soapbox-science/",
+      "views": 19
+    },
+    {
       "path": "/numbers/",
       "views": 18
     },
@@ -236,12 +241,12 @@
       "views": 17
     },
     {
-      "path": "/soapbox-science/",
+      "path": "/website/media/",
       "views": 17
     },
     {
-      "path": "/website/media/",
-      "views": 17
+      "path": "/people/ryan-brock/",
+      "views": 16
     },
     {
       "path": "/publications/wider/",
@@ -276,7 +281,7 @@
       "views": 13
     },
     {
-      "path": "/people/ryan-brock/",
+      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
       "views": 13
     },
     {
@@ -290,10 +295,6 @@
     {
       "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
       "views": 12
-    },
-    {
-      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
-      "views": 11
     },
     {
       "path": "/website/numbers/",
@@ -316,6 +317,10 @@
       "views": 9
     },
     {
+      "path": "/whats-the-point-of-wasps/",
+      "views": 9
+    },
+    {
       "path": "/colony-size-predicts-division-of-labour-in-attine-ants/",
       "views": 8
     },
@@ -333,10 +338,6 @@
     },
     {
       "path": "/website/publications/wider/",
-      "views": 8
-    },
-    {
-      "path": "/whats-the-point-of-wasps/",
       "views": 8
     },
     {
@@ -372,6 +373,10 @@
       "views": 6
     },
     {
+      "path": "/how-do-identical-genomes-produce-phenotypic-and-behavioural-diversity/",
+      "views": 6
+    },
+    {
       "path": "/new-paper-published-first-social-wasp-genome-and-more/",
       "views": 6
     },
@@ -396,6 +401,10 @@
       "views": 5
     },
     {
+      "path": "/lonely-potter/",
+      "views": 5
+    },
+    {
       "path": "/no-track/",
       "views": 5
     },
@@ -412,10 +421,6 @@
       "views": 4
     },
     {
-      "path": "/how-do-identical-genomes-produce-phenotypic-and-behavioural-diversity/",
-      "views": 4
-    },
-    {
       "path": "/impact_managed_bees_can_have_on_wild_bumblebees/",
       "views": 4
     },
@@ -429,10 +434,6 @@
     },
     {
       "path": "/lessons-from-the-jungle/",
-      "views": 4
-    },
-    {
-      "path": "/lonely-potter/",
       "views": 4
     },
     {
@@ -567,26 +568,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1283,
-      "visits": 551,
+      "views": 1307,
+      "visits": 569,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 482,
-      "visits": 346,
+      "views": 506,
+      "visits": 356,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 426,
-      "visits": 266,
+      "views": 436,
+      "visits": 273,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1090,
-      "visits": 260,
+      "views": 1092,
+      "visits": 261,
       "iso": "GB"
     },
     {
@@ -626,6 +627,12 @@
       "iso": "BD"
     },
     {
+      "name": "Colombia",
+      "views": 15,
+      "visits": 8,
+      "iso": "CO"
+    },
+    {
       "name": "Pakistan",
       "views": 18,
       "visits": 8,
@@ -636,12 +643,6 @@
       "views": 8,
       "visits": 7,
       "iso": "CA"
-    },
-    {
-      "name": "Colombia",
-      "views": 14,
-      "visits": 7,
-      "iso": "CO"
     },
     {
       "name": "India",
@@ -660,6 +661,12 @@
       "views": 19,
       "visits": 4,
       "iso": "JP"
+    },
+    {
+      "name": "Nigeria",
+      "views": 4,
+      "visits": 4,
+      "iso": "NG"
     },
     {
       "name": "Republic of Korea",
@@ -720,12 +727,6 @@
       "views": 3,
       "visits": 3,
       "iso": "MY"
-    },
-    {
-      "name": "Nigeria",
-      "views": 3,
-      "visits": 3,
-      "iso": "NG"
     },
     {
       "name": "Philippines",
@@ -885,7 +886,7 @@
     },
     {
       "name": "Iraq",
-      "views": 1,
+      "views": 2,
       "visits": 1,
       "iso": "IQ"
     },
@@ -1176,6 +1177,11 @@
       "date": "2026-09-26",
       "views": 59,
       "visits": 37
+    },
+    {
+      "date": "2026-09-27",
+      "views": 63,
+      "visits": 38
     }
   ]
 }
