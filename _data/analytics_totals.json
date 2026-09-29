@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -46,59 +46,60 @@
     "2026-09-24",
     "2026-09-25",
     "2026-09-26",
-    "2026-09-27"
+    "2026-09-27",
+    "2026-09-28"
   ],
-  "pageviews": 3962,
-  "visits": 1742,
-  "countries_count": 65,
+  "pageviews": 4037,
+  "visits": 1777,
+  "countries_count": 66,
   "top_pages": [
     {
       "path": "/",
-      "views": 492
+      "views": 509
     },
     {
       "path": "/people/",
-      "views": 333
+      "views": 338
     },
     {
       "path": "/updates/",
-      "views": 201
+      "views": 210
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 197
+      "views": 200
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 142
+      "views": 143
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 138
+      "views": 139
     },
     {
       "path": "/media/",
-      "views": 119
-    },
-    {
-      "path": "/people/cintia-oi/",
-      "views": 109
+      "views": 120
     },
     {
       "path": "/research/",
-      "views": 109
+      "views": 113
+    },
+    {
+      "path": "/people/cintia-oi/",
+      "views": 111
     },
     {
       "path": "/endless-forms/",
-      "views": 103
+      "views": 104
     },
     {
       "path": "/people/christopher-wyatt/",
-      "views": 87
+      "views": 90
     },
     {
       "path": "/contact/",
-      "views": 75
+      "views": 77
     },
     {
       "path": "/website/",
@@ -106,7 +107,11 @@
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 68
+      "views": 70
+    },
+    {
+      "path": "/people/benjamin-taylor/",
+      "views": 61
     },
     {
       "path": "/people/idris-adams/",
@@ -117,24 +122,20 @@
       "views": 60
     },
     {
-      "path": "/people/benjamin-taylor/",
-      "views": 58
-    },
-    {
       "path": "/publications/",
-      "views": 54
+      "views": 55
     },
     {
       "path": "/science-communication/",
+      "views": 54
+    },
+    {
+      "path": "/big-wasp-survey/",
       "views": 52
     },
     {
       "path": "/people/alessandro-cini/",
-      "views": 50
-    },
-    {
-      "path": "/big-wasp-survey/",
-      "views": 49
+      "views": 51
     },
     {
       "path": "/people/caroline-chandler/",
@@ -150,11 +151,11 @@
     },
     {
       "path": "/people/daisy-taylor/",
-      "views": 40
+      "views": 41
     },
     {
       "path": "/research/genomics/",
-      "views": 40
+      "views": 41
     },
     {
       "path": "/research/evolution/",
@@ -177,11 +178,11 @@
       "views": 35
     },
     {
-      "path": "/people/robin-southon/",
-      "views": 33
+      "path": "/research/ecology/",
+      "views": 35
     },
     {
-      "path": "/research/ecology/",
+      "path": "/people/robin-southon/",
       "views": 33
     },
     {
@@ -194,23 +195,23 @@
     },
     {
       "path": "/people/sandra-moreno/",
-      "views": 30
+      "views": 31
     },
     {
       "path": "/people/fernando-duarte/",
       "views": 29
     },
     {
-      "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
-      "views": 28
-    },
-    {
       "path": "/people/iona-cunningham-eurich/",
-      "views": 28
+      "views": 29
     },
     {
       "path": "/articles/",
-      "views": 27
+      "views": 28
+    },
+    {
+      "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
+      "views": 28
     },
     {
       "path": "/website/updates/",
@@ -221,16 +222,16 @@
       "views": 26
     },
     {
+      "path": "/wasplove-game/",
+      "views": 24
+    },
+    {
       "path": "/autumn-2015-welcome-to-four-new-group-members/",
       "views": 21
     },
     {
-      "path": "/wasplove-game/",
-      "views": 21
-    },
-    {
       "path": "/soapbox-science/",
-      "views": 19
+      "views": 20
     },
     {
       "path": "/numbers/",
@@ -249,19 +250,19 @@
       "views": 16
     },
     {
+      "path": "/research/mechanisms/",
+      "views": 16
+    },
+    {
       "path": "/publications/wider/",
       "views": 15
     },
     {
-      "path": "/research/mechanisms/",
+      "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
       "views": 15
     },
     {
       "path": "/people/sam-morris/",
-      "views": 14
-    },
-    {
-      "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
       "views": 14
     },
     {
@@ -541,6 +542,10 @@
       "views": 1
     },
     {
+      "path": "/people/adam-devenish",
+      "views": 1
+    },
+    {
       "path": "/research/ecology",
       "views": 1
     },
@@ -568,26 +573,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1307,
-      "visits": 569,
+      "views": 1324,
+      "visits": 577,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 506,
-      "visits": 356,
+      "views": 535,
+      "visits": 370,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 436,
-      "visits": 273,
+      "views": 449,
+      "visits": 280,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1092,
-      "visits": 261,
+      "views": 1102,
+      "visits": 263,
       "iso": "GB"
     },
     {
@@ -598,14 +603,14 @@
     },
     {
       "name": "Germany",
-      "views": 47,
-      "visits": 42,
+      "views": 49,
+      "visits": 43,
       "iso": "DE"
     },
     {
       "name": "Ireland",
-      "views": 18,
-      "visits": 18,
+      "views": 19,
+      "visits": 19,
       "iso": "IE"
     },
     {
@@ -633,6 +638,12 @@
       "iso": "CO"
     },
     {
+      "name": "India",
+      "views": 31,
+      "visits": 8,
+      "iso": "IN"
+    },
+    {
       "name": "Pakistan",
       "views": 18,
       "visits": 8,
@@ -643,12 +654,6 @@
       "views": 8,
       "visits": 7,
       "iso": "CA"
-    },
-    {
-      "name": "India",
-      "views": 30,
-      "visits": 7,
-      "iso": "IN"
     },
     {
       "name": "Mexico",
@@ -670,7 +675,7 @@
     },
     {
       "name": "Republic of Korea",
-      "views": 10,
+      "views": 11,
       "visits": 4,
       "iso": "KR"
     },
@@ -919,6 +924,11 @@
       "views": 2,
       "visits": 1,
       "iso": "OM"
+    },
+    {
+      "name": "PF",
+      "views": 1,
+      "visits": 1
     },
     {
       "name": "Sweden",
@@ -1182,6 +1192,11 @@
       "date": "2026-09-27",
       "views": 63,
       "visits": 38
+    },
+    {
+      "date": "2026-09-28",
+      "views": 75,
+      "visits": 35
     }
   ]
 }
