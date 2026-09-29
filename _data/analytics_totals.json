@@ -51,7 +51,7 @@
   ],
   "pageviews": 4037,
   "visits": 1777,
-  "countries_count": 66,
+  "countries_count": 65,
   "top_pages": [
     {
       "path": "/",
@@ -924,11 +924,6 @@
       "views": 2,
       "visits": 1,
       "iso": "OM"
-    },
-    {
-      "name": "PF",
-      "views": 1,
-      "visits": 1
     },
     {
       "name": "Sweden",
