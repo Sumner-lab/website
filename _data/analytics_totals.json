@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -47,47 +47,48 @@
     "2026-09-25",
     "2026-09-26",
     "2026-09-27",
-    "2026-09-28"
+    "2026-09-28",
+    "2026-09-29"
   ],
-  "pageviews": 4037,
-  "visits": 1777,
+  "pageviews": 4089,
+  "visits": 1805,
   "countries_count": 65,
   "top_pages": [
     {
       "path": "/",
-      "views": 509
+      "views": 520
     },
     {
       "path": "/people/",
-      "views": 338
+      "views": 340
     },
     {
       "path": "/updates/",
-      "views": 210
+      "views": 216
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 200
+      "views": 201
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 143
+      "views": 145
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 139
+      "views": 141
     },
     {
       "path": "/media/",
-      "views": 120
-    },
-    {
-      "path": "/research/",
-      "views": 113
+      "views": 123
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 111
+      "views": 114
+    },
+    {
+      "path": "/research/",
+      "views": 114
     },
     {
       "path": "/endless-forms/",
@@ -95,7 +96,7 @@
     },
     {
       "path": "/people/christopher-wyatt/",
-      "views": 90
+      "views": 92
     },
     {
       "path": "/contact/",
@@ -122,16 +123,16 @@
       "views": 60
     },
     {
-      "path": "/publications/",
-      "views": 55
+      "path": "/science-communication/",
+      "views": 57
     },
     {
-      "path": "/science-communication/",
-      "views": 54
+      "path": "/publications/",
+      "views": 56
     },
     {
       "path": "/big-wasp-survey/",
-      "views": 52
+      "views": 53
     },
     {
       "path": "/people/alessandro-cini/",
@@ -142,6 +143,10 @@
       "views": 49
     },
     {
+      "path": "/people/daisy-taylor/",
+      "views": 42
+    },
+    {
       "path": "/people/emeline-favreau/",
       "views": 42
     },
@@ -150,16 +155,12 @@
       "views": 42
     },
     {
-      "path": "/people/daisy-taylor/",
-      "views": 41
-    },
-    {
       "path": "/research/genomics/",
-      "views": 41
+      "views": 42
     },
     {
       "path": "/research/evolution/",
-      "views": 39
+      "views": 40
     },
     {
       "path": "/people/lewis-revely/",
@@ -183,7 +184,11 @@
     },
     {
       "path": "/people/robin-southon/",
-      "views": 33
+      "views": 34
+    },
+    {
+      "path": "/people/sandra-moreno/",
+      "views": 32
     },
     {
       "path": "/website/people/",
@@ -191,10 +196,6 @@
     },
     {
       "path": "/people/adam-devenish/",
-      "views": 31
-    },
-    {
-      "path": "/people/sandra-moreno/",
       "views": 31
     },
     {
@@ -214,6 +215,10 @@
       "views": 28
     },
     {
+      "path": "/wasplove-game/",
+      "views": 27
+    },
+    {
       "path": "/website/updates/",
       "views": 27
     },
@@ -222,16 +227,12 @@
       "views": 26
     },
     {
-      "path": "/wasplove-game/",
-      "views": 24
-    },
-    {
       "path": "/autumn-2015-welcome-to-four-new-group-members/",
       "views": 21
     },
     {
       "path": "/soapbox-science/",
-      "views": 20
+      "views": 21
     },
     {
       "path": "/numbers/",
@@ -254,11 +255,11 @@
       "views": 16
     },
     {
-      "path": "/publications/wider/",
-      "views": 15
+      "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
+      "views": 16
     },
     {
-      "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
+      "path": "/publications/wider/",
       "views": 15
     },
     {
@@ -302,15 +303,19 @@
       "views": 11
     },
     {
+      "path": "/in2science-a-level-student-blog/",
+      "views": 10
+    },
+    {
+      "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
+      "views": 10
+    },
+    {
       "path": "/website/people/iona-cunningham-eurich/",
       "views": 10
     },
     {
       "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
-      "views": 9
-    },
-    {
-      "path": "/in2science-a-level-student-blog/",
       "views": 9
     },
     {
@@ -347,10 +352,6 @@
     },
     {
       "path": "/citizen-science-for-the-win/",
-      "views": 7
-    },
-    {
-      "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
       "views": 7
     },
     {
@@ -573,26 +574,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1324,
-      "visits": 577,
+      "views": 1351,
+      "visits": 593,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 535,
-      "visits": 370,
+      "views": 549,
+      "visits": 375,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 449,
-      "visits": 280,
+      "views": 456,
+      "visits": 285,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1102,
-      "visits": 263,
+      "views": 1103,
+      "visits": 264,
       "iso": "GB"
     },
     {
@@ -632,6 +633,12 @@
       "iso": "BD"
     },
     {
+      "name": "Canada",
+      "views": 9,
+      "visits": 8,
+      "iso": "CA"
+    },
+    {
       "name": "Colombia",
       "views": 15,
       "visits": 8,
@@ -648,12 +655,6 @@
       "views": 18,
       "visits": 8,
       "iso": "PK"
-    },
-    {
-      "name": "Canada",
-      "views": 8,
-      "visits": 7,
-      "iso": "CA"
     },
     {
       "name": "Mexico",
@@ -897,7 +898,7 @@
     },
     {
       "name": "Italy",
-      "views": 1,
+      "views": 3,
       "visits": 1,
       "iso": "IT"
     },
@@ -1192,6 +1193,11 @@
       "date": "2026-09-28",
       "views": 75,
       "visits": 35
+    },
+    {
+      "date": "2026-09-29",
+      "views": 52,
+      "visits": 28
     }
   ]
 }
