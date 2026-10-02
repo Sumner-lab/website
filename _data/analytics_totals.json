@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -49,58 +49,63 @@
     "2026-09-27",
     "2026-09-28",
     "2026-09-29",
-    "2026-09-30"
+    "2026-09-30",
+    "2026-10-01"
   ],
-  "pageviews": 4187,
-  "visits": 1877,
-  "countries_count": 65,
+  "pageviews": 4281,
+  "visits": 1922,
+  "countries_count": 66,
   "top_pages": [
     {
       "path": "/",
-      "views": 533
+      "views": 547
     },
     {
       "path": "/people/",
-      "views": 344
+      "views": 346
     },
     {
       "path": "/updates/",
-      "views": 220
+      "views": 231
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 204
+      "views": 206
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 145
+      "views": 146
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 141
+      "views": 146
     },
     {
       "path": "/media/",
-      "views": 124
-    },
-    {
-      "path": "/research/",
-      "views": 115
+      "views": 126
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 114
+      "views": 118
+    },
+    {
+      "path": "/research/",
+      "views": 118
     },
     {
       "path": "/endless-forms/",
-      "views": 105
+      "views": 107
     },
     {
       "path": "/people/christopher-wyatt/",
-      "views": 95
+      "views": 97
     },
     {
       "path": "/contact/",
+      "views": 78
+    },
+    {
+      "path": "/people/alex-cerqueira-de-araujo/",
       "views": 77
     },
     {
@@ -108,24 +113,20 @@
       "views": 75
     },
     {
-      "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 70
+      "path": "/people/benjamin-taylor/",
+      "views": 66
     },
     {
       "path": "/people/idris-adams/",
       "views": 62
     },
     {
-      "path": "/people/benjamin-taylor/",
+      "path": "/people/sam-duckerin/",
       "views": 61
     },
     {
-      "path": "/people/sam-duckerin/",
-      "views": 60
-    },
-    {
       "path": "/science-communication/",
-      "views": 58
+      "views": 61
     },
     {
       "path": "/publications/",
@@ -137,7 +138,7 @@
     },
     {
       "path": "/people/alessandro-cini/",
-      "views": 51
+      "views": 53
     },
     {
       "path": "/people/caroline-chandler/",
@@ -145,18 +146,18 @@
     },
     {
       "path": "/people/daisy-taylor/",
-      "views": 43
+      "views": 45
     },
     {
       "path": "/people/emeline-favreau/",
-      "views": 42
-    },
-    {
-      "path": "/people/romuald-tcheutchoua/",
-      "views": 42
+      "views": 44
     },
     {
       "path": "/research/genomics/",
+      "views": 43
+    },
+    {
+      "path": "/people/romuald-tcheutchoua/",
       "views": 42
     },
     {
@@ -176,16 +177,20 @@
       "views": 38
     },
     {
-      "path": "/people/emily-bell/",
-      "views": 35
+      "path": "/people/iona-cunningham-eurich/",
+      "views": 37
     },
     {
-      "path": "/people/iona-cunningham-eurich/",
-      "views": 35
+      "path": "/people/emily-bell/",
+      "views": 36
     },
     {
       "path": "/research/ecology/",
       "views": 35
+    },
+    {
+      "path": "/people/fernando-duarte/",
+      "views": 34
     },
     {
       "path": "/people/robin-southon/",
@@ -193,7 +198,7 @@
     },
     {
       "path": "/people/adam-devenish/",
-      "views": 32
+      "views": 33
     },
     {
       "path": "/people/sandra-moreno/",
@@ -205,15 +210,11 @@
     },
     {
       "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
-      "views": 30
-    },
-    {
-      "path": "/people/fernando-duarte/",
-      "views": 29
+      "views": 31
     },
     {
       "path": "/articles/",
-      "views": 28
+      "views": 29
     },
     {
       "path": "/wasplove-game/",
@@ -233,15 +234,23 @@
     },
     {
       "path": "/soapbox-science/",
-      "views": 21
+      "views": 22
     },
     {
       "path": "/billy-easeman-parasitoid-wasps/",
-      "views": 19
+      "views": 21
     },
     {
       "path": "/numbers/",
       "views": 18
+    },
+    {
+      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
+      "views": 17
+    },
+    {
+      "path": "/research/mechanisms/",
+      "views": 17
     },
     {
       "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
@@ -256,19 +265,11 @@
       "views": 16
     },
     {
-      "path": "/research/mechanisms/",
-      "views": 16
-    },
-    {
       "path": "/publications/wider/",
       "views": 15
     },
     {
       "path": "/people/sam-morris/",
-      "views": 14
-    },
-    {
-      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
       "views": 14
     },
     {
@@ -288,6 +289,10 @@
       "views": 13
     },
     {
+      "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
+      "views": 13
+    },
+    {
       "path": "/website/endless-forms/",
       "views": 13
     },
@@ -300,10 +305,6 @@
       "views": 12
     },
     {
-      "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
-      "views": 12
-    },
-    {
       "path": "/in2science-a-level-student-blog/",
       "views": 11
     },
@@ -312,7 +313,15 @@
       "views": 11
     },
     {
+      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
+      "views": 10
+    },
+    {
       "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
+      "views": 10
+    },
+    {
+      "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
       "views": 10
     },
     {
@@ -328,15 +337,7 @@
       "views": 9
     },
     {
-      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
-      "views": 9
-    },
-    {
       "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
-      "views": 9
-    },
-    {
-      "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
       "views": 9
     },
     {
@@ -540,6 +541,10 @@
       "views": 2
     },
     {
+      "path": "/in2science-a-level-student-blog",
+      "views": 1
+    },
+    {
       "path": "/insights-from-a-nanopore-sequencing-visit-to-newcastle-university/",
       "views": 1
     },
@@ -579,26 +584,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1353,
-      "visits": 595,
+      "views": 1383,
+      "visits": 612,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 617,
-      "visits": 429,
+      "views": 630,
+      "visits": 442,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 468,
-      "visits": 293,
+      "views": 482,
+      "visits": 300,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1117,
-      "visits": 270,
+      "views": 1144,
+      "visits": 276,
       "iso": "GB"
     },
     {
@@ -674,6 +679,12 @@
       "iso": "JP"
     },
     {
+      "name": "Saudi Arabia",
+      "views": 15,
+      "visits": 5,
+      "iso": "SA"
+    },
+    {
       "name": "Nigeria",
       "views": 4,
       "visits": 4,
@@ -690,12 +701,6 @@
       "views": 6,
       "visits": 4,
       "iso": "RU"
-    },
-    {
-      "name": "Saudi Arabia",
-      "views": 6,
-      "visits": 4,
-      "iso": "SA"
     },
     {
       "name": "Spain",
@@ -870,6 +875,11 @@
       "views": 1,
       "visits": 1,
       "iso": "ET"
+    },
+    {
+      "name": "FR",
+      "views": 1,
+      "visits": 1
     },
     {
       "name": "Finland",
@@ -1208,6 +1218,11 @@
       "date": "2026-09-30",
       "views": 98,
       "visits": 72
+    },
+    {
+      "date": "2026-10-01",
+      "views": 94,
+      "visits": 45
     }
   ]
 }
