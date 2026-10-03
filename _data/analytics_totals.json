@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -50,47 +50,48 @@
     "2026-09-28",
     "2026-09-29",
     "2026-09-30",
-    "2026-10-01"
+    "2026-10-01",
+    "2026-10-02"
   ],
-  "pageviews": 4281,
-  "visits": 1922,
+  "pageviews": 4369,
+  "visits": 1974,
   "countries_count": 65,
   "top_pages": [
     {
       "path": "/",
-      "views": 547
+      "views": 574
     },
     {
       "path": "/people/",
-      "views": 346
+      "views": 349
     },
     {
       "path": "/updates/",
-      "views": 231
+      "views": 238
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 206
+      "views": 208
+    },
+    {
+      "path": "/people/seirian-sumner/",
+      "views": 149
     },
     {
       "path": "/people/femi-e-benny/",
       "views": 146
     },
     {
-      "path": "/people/seirian-sumner/",
-      "views": 146
-    },
-    {
       "path": "/media/",
-      "views": 126
-    },
-    {
-      "path": "/people/cintia-oi/",
-      "views": 118
+      "views": 127
     },
     {
       "path": "/research/",
-      "views": 118
+      "views": 123
+    },
+    {
+      "path": "/people/cintia-oi/",
+      "views": 119
     },
     {
       "path": "/endless-forms/",
@@ -102,7 +103,7 @@
     },
     {
       "path": "/contact/",
-      "views": 78
+      "views": 80
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
@@ -118,23 +119,23 @@
     },
     {
       "path": "/people/idris-adams/",
-      "views": 62
+      "views": 66
+    },
+    {
+      "path": "/science-communication/",
+      "views": 64
     },
     {
       "path": "/people/sam-duckerin/",
       "views": 61
     },
     {
-      "path": "/science-communication/",
-      "views": 61
-    },
-    {
       "path": "/publications/",
-      "views": 57
+      "views": 58
     },
     {
       "path": "/big-wasp-survey/",
-      "views": 53
+      "views": 56
     },
     {
       "path": "/people/alessandro-cini/",
@@ -149,20 +150,20 @@
       "views": 45
     },
     {
+      "path": "/research/evolution/",
+      "views": 45
+    },
+    {
       "path": "/people/emeline-favreau/",
       "views": 44
     },
     {
       "path": "/research/genomics/",
-      "views": 43
+      "views": 44
     },
     {
       "path": "/people/romuald-tcheutchoua/",
       "views": 42
-    },
-    {
-      "path": "/research/evolution/",
-      "views": 41
     },
     {
       "path": "/where-hornets-are-queens/",
@@ -181,16 +182,16 @@
       "views": 37
     },
     {
+      "path": "/research/ecology/",
+      "views": 37
+    },
+    {
       "path": "/people/emily-bell/",
       "views": 36
     },
     {
-      "path": "/research/ecology/",
-      "views": 35
-    },
-    {
       "path": "/people/fernando-duarte/",
-      "views": 34
+      "views": 35
     },
     {
       "path": "/people/robin-southon/",
@@ -201,16 +202,16 @@
       "views": 33
     },
     {
+      "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
+      "views": 32
+    },
+    {
       "path": "/people/sandra-moreno/",
       "views": 32
     },
     {
       "path": "/website/people/",
       "views": 32
-    },
-    {
-      "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
-      "views": 31
     },
     {
       "path": "/articles/",
@@ -241,19 +242,23 @@
       "views": 21
     },
     {
+      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
+      "views": 19
+    },
+    {
+      "path": "/research/mechanisms/",
+      "views": 19
+    },
+    {
+      "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
+      "views": 19
+    },
+    {
       "path": "/numbers/",
       "views": 18
     },
     {
-      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
-      "views": 17
-    },
-    {
-      "path": "/research/mechanisms/",
-      "views": 17
-    },
-    {
-      "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
+      "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
       "views": 17
     },
     {
@@ -289,10 +294,6 @@
       "views": 13
     },
     {
-      "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
-      "views": 13
-    },
-    {
       "path": "/website/endless-forms/",
       "views": 13
     },
@@ -313,6 +314,14 @@
       "views": 11
     },
     {
+      "path": "/whats-the-point-of-wasps/",
+      "views": 11
+    },
+    {
+      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
+      "views": 11
+    },
+    {
       "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
       "views": 10
     },
@@ -329,15 +338,15 @@
       "views": 10
     },
     {
-      "path": "/whats-the-point-of-wasps/",
-      "views": 10
-    },
-    {
       "path": "/colony-size-predicts-division-of-labour-in-attine-ants/",
       "views": 9
     },
     {
       "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
+      "views": 9
+    },
+    {
+      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
       "views": 9
     },
     {
@@ -365,10 +374,6 @@
       "views": 8
     },
     {
-      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
-      "views": 8
-    },
-    {
       "path": "/from-brussels-sprouts-to-brachiosaurs-our-science-communication-isnt-always-about-wasps/",
       "views": 7
     },
@@ -381,7 +386,7 @@
       "views": 7
     },
     {
-      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
+      "path": "/sreya-magar-evolution-of-prey-selection-and-life-history-traits-in-sphecidae-wasps/",
       "views": 7
     },
     {
@@ -402,10 +407,6 @@
     },
     {
       "path": "/lonely-potter/",
-      "views": 6
-    },
-    {
-      "path": "/sreya-magar-evolution-of-prey-selection-and-life-history-traits-in-sphecidae-wasps/",
       "views": 6
     },
     {
@@ -584,26 +585,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1383,
-      "visits": 612,
+      "views": 1411,
+      "visits": 633,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 630,
-      "visits": 442,
+      "views": 640,
+      "visits": 451,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 482,
-      "visits": 300,
+      "views": 493,
+      "visits": 308,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1144,
-      "visits": 276,
+      "views": 1157,
+      "visits": 285,
       "iso": "GB"
     },
     {
@@ -626,14 +627,14 @@
     },
     {
       "name": "Netherlands",
-      "views": 15,
-      "visits": 10,
+      "views": 28,
+      "visits": 11,
       "iso": "NL"
     },
     {
       "name": "Canada",
-      "views": 10,
-      "visits": 9,
+      "views": 11,
+      "visits": 10,
       "iso": "CA"
     },
     {
@@ -665,6 +666,12 @@
       "views": 18,
       "visits": 8,
       "iso": "PK"
+    },
+    {
+      "name": "Viet Nam",
+      "views": 9,
+      "visits": 7,
+      "iso": "VN"
     },
     {
       "name": "Mexico",
@@ -719,12 +726,6 @@
       "views": 4,
       "visits": 4,
       "iso": "TR"
-    },
-    {
-      "name": "Viet Nam",
-      "views": 4,
-      "visits": 4,
-      "iso": "VN"
     },
     {
       "name": "Denmark",
@@ -926,7 +927,7 @@
     },
     {
       "name": "New Zealand",
-      "views": 1,
+      "views": 8,
       "visits": 1,
       "iso": "NZ"
     },
@@ -1218,6 +1219,11 @@
       "date": "2026-10-01",
       "views": 94,
       "visits": 45
+    },
+    {
+      "date": "2026-10-02",
+      "views": 88,
+      "visits": 52
     }
   ]
 }
