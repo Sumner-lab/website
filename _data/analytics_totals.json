@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -51,47 +51,48 @@
     "2026-09-29",
     "2026-09-30",
     "2026-10-01",
-    "2026-10-02"
+    "2026-10-02",
+    "2026-10-03"
   ],
-  "pageviews": 4369,
-  "visits": 1974,
-  "countries_count": 65,
+  "pageviews": 4412,
+  "visits": 1996,
+  "countries_count": 66,
   "top_pages": [
     {
       "path": "/",
-      "views": 574
+      "views": 585
     },
     {
       "path": "/people/",
-      "views": 349
+      "views": 350
     },
     {
       "path": "/updates/",
-      "views": 238
+      "views": 242
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 208
-    },
-    {
-      "path": "/people/seirian-sumner/",
-      "views": 149
+      "views": 210
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 146
+      "views": 151
+    },
+    {
+      "path": "/people/seirian-sumner/",
+      "views": 150
     },
     {
       "path": "/media/",
-      "views": 127
+      "views": 128
     },
     {
       "path": "/research/",
-      "views": 123
+      "views": 125
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 119
+      "views": 120
     },
     {
       "path": "/endless-forms/",
@@ -103,7 +104,7 @@
     },
     {
       "path": "/contact/",
-      "views": 80
+      "views": 81
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
@@ -114,11 +115,11 @@
       "views": 75
     },
     {
-      "path": "/people/benjamin-taylor/",
-      "views": 66
+      "path": "/people/idris-adams/",
+      "views": 67
     },
     {
-      "path": "/people/idris-adams/",
+      "path": "/people/benjamin-taylor/",
       "views": 66
     },
     {
@@ -131,7 +132,7 @@
     },
     {
       "path": "/publications/",
-      "views": 58
+      "views": 60
     },
     {
       "path": "/big-wasp-survey/",
@@ -154,11 +155,11 @@
       "views": 45
     },
     {
-      "path": "/people/emeline-favreau/",
-      "views": 44
+      "path": "/research/genomics/",
+      "views": 45
     },
     {
-      "path": "/research/genomics/",
+      "path": "/people/emeline-favreau/",
       "views": 44
     },
     {
@@ -178,11 +179,11 @@
       "views": 38
     },
     {
-      "path": "/people/iona-cunningham-eurich/",
-      "views": 37
+      "path": "/research/ecology/",
+      "views": 38
     },
     {
-      "path": "/research/ecology/",
+      "path": "/people/iona-cunningham-eurich/",
       "views": 37
     },
     {
@@ -195,7 +196,7 @@
     },
     {
       "path": "/people/robin-southon/",
-      "views": 34
+      "views": 35
     },
     {
       "path": "/people/adam-devenish/",
@@ -219,7 +220,7 @@
     },
     {
       "path": "/wasplove-game/",
-      "views": 28
+      "views": 29
     },
     {
       "path": "/website/updates/",
@@ -230,16 +231,16 @@
       "views": 26
     },
     {
+      "path": "/soapbox-science/",
+      "views": 23
+    },
+    {
       "path": "/autumn-2015-welcome-to-four-new-group-members/",
       "views": 22
     },
     {
-      "path": "/soapbox-science/",
-      "views": 22
-    },
-    {
       "path": "/billy-easeman-parasitoid-wasps/",
-      "views": 21
+      "views": 22
     },
     {
       "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
@@ -306,6 +307,14 @@
       "views": 12
     },
     {
+      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
+      "views": 11
+    },
+    {
+      "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
+      "views": 11
+    },
+    {
       "path": "/in2science-a-level-student-blog/",
       "views": 11
     },
@@ -320,14 +329,6 @@
     {
       "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
       "views": 11
-    },
-    {
-      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
-      "views": 10
-    },
-    {
-      "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
-      "views": 10
     },
     {
       "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
@@ -358,6 +359,10 @@
       "views": 8
     },
     {
+      "path": "/from-brussels-sprouts-to-brachiosaurs-our-science-communication-isnt-always-about-wasps/",
+      "views": 8
+    },
+    {
       "path": "/sampling-european-hornets/",
       "views": 8
     },
@@ -374,8 +379,8 @@
       "views": 8
     },
     {
-      "path": "/from-brussels-sprouts-to-brachiosaurs-our-science-communication-isnt-always-about-wasps/",
-      "views": 7
+      "path": "/what-roles-do-wasps-play-in-nature/",
+      "views": 8
     },
     {
       "path": "/how-do-identical-genomes-produce-phenotypic-and-behavioural-diversity/",
@@ -391,10 +396,6 @@
     },
     {
       "path": "/website/science-communication/",
-      "views": 7
-    },
-    {
-      "path": "/what-roles-do-wasps-play-in-nature/",
       "views": 7
     },
     {
@@ -470,6 +471,10 @@
       "views": 5
     },
     {
+      "path": "/why-fly-half-way-across-the-world-to-trinidad-when-there-are-plenty-of-wasps-drowning-in-my-lemonade-in-peckham/",
+      "views": 5
+    },
+    {
       "path": "/hoi-lam-daisy-choi-investigating-the-evolutionary-patterns-of-diets-and-predatory-wasps/",
       "views": 4
     },
@@ -491,10 +496,6 @@
     },
     {
       "path": "/website/people/benjamin-taylor/",
-      "views": 4
-    },
-    {
-      "path": "/why-fly-half-way-across-the-world-to-trinidad-when-there-are-plenty-of-wasps-drowning-in-my-lemonade-in-peckham/",
       "views": 4
     },
     {
@@ -585,26 +586,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1411,
-      "visits": 633,
+      "views": 1413,
+      "visits": 635,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 640,
-      "visits": 451,
+      "views": 644,
+      "visits": 455,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 493,
-      "visits": 308,
+      "views": 510,
+      "visits": 317,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1157,
-      "visits": 285,
+      "views": 1161,
+      "visits": 288,
       "iso": "GB"
     },
     {
@@ -626,16 +627,16 @@
       "iso": "IE"
     },
     {
-      "name": "Netherlands",
-      "views": 28,
-      "visits": 11,
-      "iso": "NL"
+      "name": "Canada",
+      "views": 25,
+      "visits": 12,
+      "iso": "CA"
     },
     {
-      "name": "Canada",
-      "views": 11,
-      "visits": 10,
-      "iso": "CA"
+      "name": "Netherlands",
+      "views": 29,
+      "visits": 12,
+      "iso": "NL"
     },
     {
       "name": "South Africa",
@@ -918,6 +919,12 @@
       "views": 1,
       "visits": 1,
       "iso": "JO"
+    },
+    {
+      "name": "Kazakhstan",
+      "views": 1,
+      "visits": 1,
+      "iso": "KZ"
     },
     {
       "name": "Nepal",
@@ -1224,6 +1231,11 @@
       "date": "2026-10-02",
       "views": 88,
       "visits": 52
+    },
+    {
+      "date": "2026-10-03",
+      "views": 43,
+      "visits": 22
     }
   ]
 }
