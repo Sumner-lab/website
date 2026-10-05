@@ -1,9 +1,43 @@
 {
-  "updated": "2026-09-28T14:10:59Z",
+  "updated": "2026-10-05T14:58:02Z",
   "name": "Christopher Wyatt",
   "orcid": "0000-0001-8033-2213",
   "profile_url": "https://orcid.org/0000-0001-8033-2213",
   "publications": [
+    {
+      "doi": "10.64898/2026.09.25.754512",
+      "url": "https://doi.org/10.64898/2026.09.25.754512",
+      "title": "EXCON: a scalable, reproducible Nextflow pipeline for CAFE-based gene EXpansion and CONtraction analysis",
+      "journal": "bioRxiv",
+      "year": 2026,
+      "date": "2026-10-01",
+      "authors": [
+        {
+          "name": "Wyatt CDR",
+          "lab_member": true
+        },
+        {
+          "name": "Duarte F",
+          "lab_member": true
+        },
+        {
+          "name": "Cerqueira De Araujo A",
+          "lab_member": true
+        },
+        {
+          "name": "Murray S",
+          "lab_member": false
+        },
+        {
+          "name": "Oi C",
+          "lab_member": true
+        },
+        {
+          "name": "Sumner S",
+          "lab_member": true
+        }
+      ]
+    },
     {
       "doi": "10.64898/2026.08.20.745971",
       "url": "https://doi.org/10.64898/2026.08.20.745971",

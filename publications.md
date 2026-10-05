@@ -14,6 +14,7 @@ This page lists peer-reviewed papers, book chapters, preprints (marked as such),
 - **Bell EF, Wyatt CRD, Taylor D**, Radford AN and **Sumner S. ** 2026.Limits to behavioural plasticity in tropical paper wasps. ***Proceedings of The Royal Society B.*** 293: 20260252. <https://doi.org/10.1098/rspb.2026.0252>
 - **Corbett O**, Dreier S, Lengronne T, Patalano S, Reuter M, and **Sumner S**. 2026. ‘Compensation of labour by non-competing workers mitigates costs of aggression-based queen succession in the social wasp, *Polistes canadensis*. ***Animal Behaviour*** *123581 <http://doi.org/10.1016/j.anbehav.2026.123581>*
 - **Cunningham‐Eurich I**, Aucock L, Walters‐Hutton B, **Sumner S** & Broad GR 2026. Moth traps shine a light on nocturnal parasitoid wasps: Snapshot assessment of UK diversity and distributions. ***Insect Conservation and Diversity***. <a href="https://doi.org/10.1111/icad.70135" target="_blank" rel="noreferrer noopener">https://doi.org/10.1111/icad.70135</a>
+- **Wyatt CDR**, **Duarte F**, **Cerqueira De Araujo A**, Murray S, **Oi C** & **Sumner S** 2026. EXCON: a scalable, reproducible Nextflow pipeline for CAFE-based gene EXpansion and CONtraction analysis. ***bioRxiv***. *(preprint)* <a href="https://doi.org/10.64898/2026.09.25.754512" target="_blank" rel="noreferrer noopener">https://doi.org/10.64898/2026.09.25.754512</a>
 
 ## 2025
 
