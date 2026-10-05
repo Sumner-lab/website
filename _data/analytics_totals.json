@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -52,27 +52,28 @@
     "2026-09-30",
     "2026-10-01",
     "2026-10-02",
-    "2026-10-03"
+    "2026-10-03",
+    "2026-10-04"
   ],
-  "pageviews": 4412,
-  "visits": 1996,
+  "pageviews": 4454,
+  "visits": 2019,
   "countries_count": 66,
   "top_pages": [
     {
       "path": "/",
-      "views": 585
+      "views": 597
     },
     {
       "path": "/people/",
-      "views": 350
+      "views": 356
     },
     {
       "path": "/updates/",
-      "views": 242
+      "views": 247
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 210
+      "views": 211
     },
     {
       "path": "/people/femi-e-benny/",
@@ -84,11 +85,11 @@
     },
     {
       "path": "/media/",
-      "views": 128
+      "views": 131
     },
     {
       "path": "/research/",
-      "views": 125
+      "views": 126
     },
     {
       "path": "/people/cintia-oi/",
@@ -104,7 +105,7 @@
     },
     {
       "path": "/contact/",
-      "views": 81
+      "views": 82
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
@@ -136,7 +137,7 @@
     },
     {
       "path": "/big-wasp-survey/",
-      "views": 56
+      "views": 59
     },
     {
       "path": "/people/alessandro-cini/",
@@ -151,6 +152,10 @@
       "views": 45
     },
     {
+      "path": "/people/emeline-favreau/",
+      "views": 45
+    },
+    {
       "path": "/research/evolution/",
       "views": 45
     },
@@ -159,12 +164,12 @@
       "views": 45
     },
     {
-      "path": "/people/emeline-favreau/",
-      "views": 44
-    },
-    {
       "path": "/people/romuald-tcheutchoua/",
       "views": 42
+    },
+    {
+      "path": "/people/owen-corbett/",
+      "views": 39
     },
     {
       "path": "/where-hornets-are-queens/",
@@ -175,28 +180,28 @@
       "views": 38
     },
     {
-      "path": "/people/owen-corbett/",
+      "path": "/research/ecology/",
       "views": 38
     },
     {
-      "path": "/research/ecology/",
-      "views": 38
+      "path": "/people/emily-bell/",
+      "views": 37
     },
     {
       "path": "/people/iona-cunningham-eurich/",
       "views": 37
     },
     {
-      "path": "/people/emily-bell/",
-      "views": 36
-    },
-    {
       "path": "/people/fernando-duarte/",
-      "views": 35
+      "views": 36
     },
     {
       "path": "/people/robin-southon/",
       "views": 35
+    },
+    {
+      "path": "/people/sandra-moreno/",
+      "views": 34
     },
     {
       "path": "/people/adam-devenish/",
@@ -204,10 +209,6 @@
     },
     {
       "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
-      "views": 32
-    },
-    {
-      "path": "/people/sandra-moreno/",
       "views": 32
     },
     {
@@ -232,7 +233,7 @@
     },
     {
       "path": "/soapbox-science/",
-      "views": 23
+      "views": 24
     },
     {
       "path": "/autumn-2015-welcome-to-four-new-group-members/",
@@ -331,6 +332,10 @@
       "views": 11
     },
     {
+      "path": "/from-brussels-sprouts-to-brachiosaurs-our-science-communication-isnt-always-about-wasps/",
+      "views": 10
+    },
+    {
       "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
       "views": 10
     },
@@ -356,10 +361,6 @@
     },
     {
       "path": "/citizen-science-for-the-win/",
-      "views": 8
-    },
-    {
-      "path": "/from-brussels-sprouts-to-brachiosaurs-our-science-communication-isnt-always-about-wasps/",
       "views": 8
     },
     {
@@ -407,6 +408,10 @@
       "views": 6
     },
     {
+      "path": "/kendra-edwards-global-social-wasp-distributions/",
+      "views": 6
+    },
+    {
       "path": "/lonely-potter/",
       "views": 6
     },
@@ -428,10 +433,6 @@
     },
     {
       "path": "/iussi-conference-cairns-2014/",
-      "views": 5
-    },
-    {
-      "path": "/kendra-edwards-global-social-wasp-distributions/",
       "views": 5
     },
     {
@@ -586,26 +587,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1413,
-      "visits": 635,
+      "views": 1429,
+      "visits": 642,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 644,
-      "visits": 455,
+      "views": 650,
+      "visits": 459,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 510,
-      "visits": 317,
+      "views": 521,
+      "visits": 325,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1161,
-      "visits": 288,
+      "views": 1169,
+      "visits": 291,
       "iso": "GB"
     },
     {
@@ -628,8 +629,8 @@
     },
     {
       "name": "Canada",
-      "views": 25,
-      "visits": 12,
+      "views": 26,
+      "visits": 13,
       "iso": "CA"
     },
     {
@@ -1236,6 +1237,11 @@
       "date": "2026-10-03",
       "views": 43,
       "visits": 22
+    },
+    {
+      "date": "2026-10-04",
+      "views": 42,
+      "visits": 23
     }
   ]
 }
