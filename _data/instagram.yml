@@ -1,0 +1,11 @@
+# Instagram posts for the #sumnerlabucl wall (rendered by
+# _includes/social-wall.html alongside the Bluesky posts the bot collects).
+#
+# Instagram has no usable hashtag feed for a site like ours -- Meta's hashtag
+# search needs a Business account and App Review for "Instagram Public Content
+# Access" -- so these are added by hand. See "Adding an Instagram post to the
+# social wall" in README.md.
+#
+# Fields: url* (the post's permalink) date* (YYYY-MM-DD) | handle text image
+#         image is a file in the repo -- Instagram's own image URLs expire.
+posts: []
