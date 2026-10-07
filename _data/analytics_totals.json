@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -54,35 +54,36 @@
     "2026-10-02",
     "2026-10-03",
     "2026-10-04",
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-06"
   ],
-  "pageviews": 4515,
-  "visits": 2047,
-  "countries_count": 68,
+  "pageviews": 4567,
+  "visits": 2072,
+  "countries_count": 69,
   "top_pages": [
     {
       "path": "/",
-      "views": 609
+      "views": 619
     },
     {
       "path": "/people/",
-      "views": 361
+      "views": 362
     },
     {
       "path": "/updates/",
-      "views": 255
+      "views": 261
     },
     {
       "path": "/wasp-picnic-survey-2026/",
       "views": 211
     },
     {
-      "path": "/people/femi-e-benny/",
-      "views": 151
+      "path": "/people/seirian-sumner/",
+      "views": 158
     },
     {
-      "path": "/people/seirian-sumner/",
-      "views": 150
+      "path": "/people/femi-e-benny/",
+      "views": 152
     },
     {
       "path": "/media/",
@@ -90,7 +91,7 @@
     },
     {
       "path": "/research/",
-      "views": 129
+      "views": 130
     },
     {
       "path": "/people/cintia-oi/",
@@ -98,15 +99,15 @@
     },
     {
       "path": "/endless-forms/",
-      "views": 107
+      "views": 108
     },
     {
       "path": "/people/christopher-wyatt/",
-      "views": 97
+      "views": 98
     },
     {
       "path": "/contact/",
-      "views": 83
+      "views": 85
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
@@ -118,7 +119,7 @@
     },
     {
       "path": "/people/idris-adams/",
-      "views": 68
+      "views": 70
     },
     {
       "path": "/science-communication/",
@@ -126,7 +127,7 @@
     },
     {
       "path": "/people/benjamin-taylor/",
-      "views": 66
+      "views": 67
     },
     {
       "path": "/people/sam-duckerin/",
@@ -138,19 +139,19 @@
     },
     {
       "path": "/big-wasp-survey/",
-      "views": 59
+      "views": 61
     },
     {
       "path": "/people/alessandro-cini/",
-      "views": 53
+      "views": 55
     },
     {
       "path": "/people/caroline-chandler/",
-      "views": 52
+      "views": 53
     },
     {
       "path": "/people/emeline-favreau/",
-      "views": 46
+      "views": 47
     },
     {
       "path": "/research/genomics/",
@@ -166,14 +167,18 @@
     },
     {
       "path": "/people/romuald-tcheutchoua/",
-      "views": 42
+      "views": 43
     },
     {
       "path": "/people/owen-corbett/",
-      "views": 41
+      "views": 42
     },
     {
       "path": "/people/iona-cunningham-eurich/",
+      "views": 40
+    },
+    {
+      "path": "/research/ecology/",
       "views": 40
     },
     {
@@ -181,12 +186,8 @@
       "views": 40
     },
     {
-      "path": "/research/ecology/",
-      "views": 39
-    },
-    {
       "path": "/people/lewis-revely/",
-      "views": 38
+      "views": 39
     },
     {
       "path": "/people/emily-bell/",
@@ -198,7 +199,7 @@
     },
     {
       "path": "/people/robin-southon/",
-      "views": 35
+      "views": 36
     },
     {
       "path": "/people/adam-devenish/",
@@ -245,15 +246,15 @@
       "views": 22
     },
     {
+      "path": "/research/mechanisms/",
+      "views": 21
+    },
+    {
       "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
       "views": 20
     },
     {
       "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
-      "views": 19
-    },
-    {
-      "path": "/research/mechanisms/",
       "views": 19
     },
     {
@@ -265,12 +266,12 @@
       "views": 18
     },
     {
-      "path": "/website/media/",
-      "views": 17
+      "path": "/people/ryan-brock/",
+      "views": 18
     },
     {
-      "path": "/people/ryan-brock/",
-      "views": 16
+      "path": "/website/media/",
+      "views": 17
     },
     {
       "path": "/publications/wider/",
@@ -309,15 +310,15 @@
       "views": 12
     },
     {
+      "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
+      "views": 12
+    },
+    {
       "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
       "views": 12
     },
     {
       "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
-      "views": 11
-    },
-    {
-      "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
       "views": 11
     },
     {
@@ -445,6 +446,10 @@
       "views": 5
     },
     {
+      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
+      "views": 5
+    },
+    {
       "path": "/new-paper-highlighted-in-genome-biology-and-evolution/",
       "views": 5
     },
@@ -502,10 +507,6 @@
     },
     {
       "path": "/lab-visit-wespenvriend/",
-      "views": 3
-    },
-    {
-      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
       "views": 3
     },
     {
@@ -592,26 +593,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1440,
-      "visits": 648,
+      "views": 1462,
+      "visits": 658,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 655,
-      "visits": 462,
+      "views": 660,
+      "visits": 467,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 532,
-      "visits": 334,
+      "views": 538,
+      "visits": 338,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1184,
-      "visits": 296,
+      "views": 1189,
+      "visits": 298,
       "iso": "GB"
     },
     {
@@ -622,8 +623,8 @@
     },
     {
       "name": "Germany",
-      "views": 53,
-      "visits": 44,
+      "views": 55,
+      "visits": 45,
       "iso": "DE"
     },
     {
@@ -739,6 +740,11 @@
       "views": 3,
       "visits": 3,
       "iso": "DK"
+    },
+    {
+      "name": "HK",
+      "views": 12,
+      "visits": 3
     },
     {
       "name": "Kenya",
@@ -1264,6 +1270,11 @@
       "date": "2026-10-05",
       "views": 61,
       "visits": 28
+    },
+    {
+      "date": "2026-10-06",
+      "views": 52,
+      "visits": 25
     }
   ]
 }
