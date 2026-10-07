@@ -59,7 +59,7 @@
   ],
   "pageviews": 4567,
   "visits": 2072,
-  "countries_count": 69,
+  "countries_count": 68,
   "top_pages": [
     {
       "path": "/",
@@ -740,11 +740,6 @@
       "views": 3,
       "visits": 3,
       "iso": "DK"
-    },
-    {
-      "name": "HK",
-      "views": 12,
-      "visits": 3
     },
     {
       "name": "Kenya",
