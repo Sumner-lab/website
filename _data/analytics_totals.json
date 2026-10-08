@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -55,27 +55,28 @@
     "2026-10-03",
     "2026-10-04",
     "2026-10-05",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-07"
   ],
-  "pageviews": 4567,
-  "visits": 2072,
-  "countries_count": 68,
+  "pageviews": 4636,
+  "visits": 2097,
+  "countries_count": 69,
   "top_pages": [
     {
       "path": "/",
-      "views": 619
+      "views": 631
     },
     {
       "path": "/people/",
-      "views": 362
+      "views": 365
     },
     {
       "path": "/updates/",
-      "views": 261
+      "views": 268
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 211
+      "views": 212
     },
     {
       "path": "/people/seirian-sumner/",
@@ -83,15 +84,15 @@
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 152
+      "views": 153
     },
     {
       "path": "/media/",
-      "views": 132
+      "views": 135
     },
     {
       "path": "/research/",
-      "views": 130
+      "views": 135
     },
     {
       "path": "/people/cintia-oi/",
@@ -107,7 +108,11 @@
     },
     {
       "path": "/contact/",
-      "views": 85
+      "views": 88
+    },
+    {
+      "path": "/science-communication/",
+      "views": 78
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
@@ -119,31 +124,27 @@
     },
     {
       "path": "/people/idris-adams/",
-      "views": 70
-    },
-    {
-      "path": "/science-communication/",
-      "views": 68
+      "views": 72
     },
     {
       "path": "/people/benjamin-taylor/",
       "views": 67
     },
     {
+      "path": "/publications/",
+      "views": 66
+    },
+    {
+      "path": "/big-wasp-survey/",
+      "views": 64
+    },
+    {
       "path": "/people/sam-duckerin/",
       "views": 62
     },
     {
-      "path": "/publications/",
-      "views": 62
-    },
-    {
-      "path": "/big-wasp-survey/",
-      "views": 61
-    },
-    {
       "path": "/people/alessandro-cini/",
-      "views": 55
+      "views": 56
     },
     {
       "path": "/people/caroline-chandler/",
@@ -151,11 +152,11 @@
     },
     {
       "path": "/people/emeline-favreau/",
-      "views": 47
+      "views": 49
     },
     {
       "path": "/research/genomics/",
-      "views": 46
+      "views": 49
     },
     {
       "path": "/people/daisy-taylor/",
@@ -166,12 +167,12 @@
       "views": 45
     },
     {
-      "path": "/people/romuald-tcheutchoua/",
+      "path": "/people/owen-corbett/",
       "views": 43
     },
     {
-      "path": "/people/owen-corbett/",
-      "views": 42
+      "path": "/people/romuald-tcheutchoua/",
+      "views": 43
     },
     {
       "path": "/people/iona-cunningham-eurich/",
@@ -219,7 +220,7 @@
     },
     {
       "path": "/articles/",
-      "views": 29
+      "views": 30
     },
     {
       "path": "/wasplove-game/",
@@ -238,6 +239,10 @@
       "views": 27
     },
     {
+      "path": "/research/mechanisms/",
+      "views": 24
+    },
+    {
       "path": "/autumn-2015-welcome-to-four-new-group-members/",
       "views": 22
     },
@@ -246,12 +251,8 @@
       "views": 22
     },
     {
-      "path": "/research/mechanisms/",
-      "views": 21
-    },
-    {
       "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
-      "views": 20
+      "views": 21
     },
     {
       "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
@@ -270,12 +271,12 @@
       "views": 18
     },
     {
-      "path": "/website/media/",
+      "path": "/publications/wider/",
       "views": 17
     },
     {
-      "path": "/publications/wider/",
-      "views": 15
+      "path": "/website/media/",
+      "views": 17
     },
     {
       "path": "/people/sam-morris/",
@@ -294,15 +295,15 @@
       "views": 14
     },
     {
+      "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
+      "views": 14
+    },
+    {
       "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
       "views": 13
     },
     {
       "path": "/website/endless-forms/",
-      "views": 13
-    },
-    {
-      "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
       "views": 13
     },
     {
@@ -593,26 +594,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1462,
-      "visits": 658,
+      "views": 1474,
+      "visits": 670,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 660,
-      "visits": 467,
+      "views": 664,
+      "visits": 470,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 538,
-      "visits": 338,
+      "views": 548,
+      "visits": 342,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1189,
-      "visits": 298,
+      "views": 1224,
+      "visits": 300,
       "iso": "GB"
     },
     {
@@ -623,8 +624,8 @@
     },
     {
       "name": "Germany",
-      "views": 55,
-      "visits": 45,
+      "views": 57,
+      "visits": 46,
       "iso": "DE"
     },
     {
@@ -695,7 +696,7 @@
     },
     {
       "name": "Saudi Arabia",
-      "views": 15,
+      "views": 18,
       "visits": 5,
       "iso": "SA"
     },
@@ -808,6 +809,18 @@
       "iso": "HU"
     },
     {
+      "name": "Italy",
+      "views": 4,
+      "visits": 2,
+      "iso": "IT"
+    },
+    {
+      "name": "New Zealand",
+      "views": 9,
+      "visits": 2,
+      "iso": "NZ"
+    },
+    {
       "name": "Poland",
       "views": 2,
       "visits": 2,
@@ -904,6 +917,11 @@
       "iso": "GT"
     },
     {
+      "name": "IL",
+      "views": 1,
+      "visits": 1
+    },
+    {
       "name": "Indonesia",
       "views": 2,
       "visits": 1,
@@ -914,12 +932,6 @@
       "views": 2,
       "visits": 1,
       "iso": "IQ"
-    },
-    {
-      "name": "Italy",
-      "views": 3,
-      "visits": 1,
-      "iso": "IT"
     },
     {
       "name": "Jordan",
@@ -938,12 +950,6 @@
       "views": 1,
       "visits": 1,
       "iso": "NP"
-    },
-    {
-      "name": "New Zealand",
-      "views": 8,
-      "visits": 1,
-      "iso": "NZ"
     },
     {
       "name": "Oman",
@@ -1269,6 +1275,11 @@
     {
       "date": "2026-10-06",
       "views": 52,
+      "visits": 25
+    },
+    {
+      "date": "2026-10-07",
+      "views": 69,
       "visits": 25
     }
   ]
