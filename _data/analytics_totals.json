@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -57,35 +57,36 @@
     "2026-10-05",
     "2026-10-06",
     "2026-10-07",
-    "2026-10-08"
+    "2026-10-08",
+    "2026-10-09"
   ],
-  "pageviews": 4742,
-  "visits": 2194,
+  "pageviews": 4803,
+  "visits": 2234,
   "countries_count": 69,
   "top_pages": [
     {
       "path": "/",
-      "views": 640
+      "views": 653
     },
     {
       "path": "/people/",
-      "views": 367
+      "views": 370
     },
     {
       "path": "/updates/",
-      "views": 270
+      "views": 276
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 212
+      "views": 213
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 164
+      "views": 166
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 159
+      "views": 160
     },
     {
       "path": "/media/",
@@ -97,11 +98,11 @@
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 122
+      "views": 126
     },
     {
       "path": "/endless-forms/",
-      "views": 108
+      "views": 109
     },
     {
       "path": "/people/christopher-wyatt/",
@@ -109,31 +110,31 @@
     },
     {
       "path": "/contact/",
-      "views": 90
+      "views": 92
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 80
+      "views": 81
+    },
+    {
+      "path": "/people/idris-adams/",
+      "views": 78
     },
     {
       "path": "/science-communication/",
       "views": 78
     },
     {
-      "path": "/people/idris-adams/",
-      "views": 75
-    },
-    {
       "path": "/website/",
       "views": 75
     },
     {
-      "path": "/publications/",
-      "views": 69
+      "path": "/people/benjamin-taylor/",
+      "views": 70
     },
     {
-      "path": "/people/benjamin-taylor/",
-      "views": 68
+      "path": "/publications/",
+      "views": 69
     },
     {
       "path": "/people/sam-duckerin/",
@@ -141,11 +142,11 @@
     },
     {
       "path": "/big-wasp-survey/",
-      "views": 64
+      "views": 65
     },
     {
       "path": "/people/alessandro-cini/",
-      "views": 58
+      "views": 61
     },
     {
       "path": "/people/caroline-chandler/",
@@ -168,16 +169,16 @@
       "views": 46
     },
     {
+      "path": "/people/romuald-tcheutchoua/",
+      "views": 45
+    },
+    {
       "path": "/research/evolution/",
       "views": 45
     },
     {
-      "path": "/people/romuald-tcheutchoua/",
-      "views": 44
-    },
-    {
       "path": "/people/iona-cunningham-eurich/",
-      "views": 43
+      "views": 44
     },
     {
       "path": "/people/lewis-revely/",
@@ -192,20 +193,20 @@
       "views": 40
     },
     {
+      "path": "/people/fernando-duarte/",
+      "views": 40
+    },
+    {
       "path": "/research/ecology/",
       "views": 40
     },
     {
-      "path": "/people/fernando-duarte/",
+      "path": "/people/adam-devenish/",
       "views": 39
     },
     {
       "path": "/people/robin-southon/",
       "views": 38
-    },
-    {
-      "path": "/people/adam-devenish/",
-      "views": 37
     },
     {
       "path": "/people/sandra-moreno/",
@@ -220,16 +221,16 @@
       "views": 32
     },
     {
-      "path": "/articles/",
-      "views": 30
-    },
-    {
       "path": "/people/patrick-kennedy/",
-      "views": 29
+      "views": 31
     },
     {
       "path": "/wasplove-game/",
-      "views": 29
+      "views": 31
+    },
+    {
+      "path": "/articles/",
+      "views": 30
     },
     {
       "path": "/soapbox-science/",
@@ -252,20 +253,20 @@
       "views": 22
     },
     {
+      "path": "/people/ryan-brock/",
+      "views": 22
+    },
+    {
       "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
       "views": 21
     },
     {
-      "path": "/people/ryan-brock/",
+      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
       "views": 20
     },
     {
-      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
-      "views": 19
-    },
-    {
       "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
-      "views": 18
+      "views": 19
     },
     {
       "path": "/numbers/",
@@ -400,6 +401,10 @@
       "views": 7
     },
     {
+      "path": "/nextflow-summit-and-hackathon-barcelona-october-2022/",
+      "views": 7
+    },
+    {
       "path": "/sreya-magar-evolution-of-prey-selection-and-life-history-traits-in-sphecidae-wasps/",
       "views": 7
     },
@@ -424,6 +429,10 @@
       "views": 6
     },
     {
+      "path": "/wasps-matter/",
+      "views": 6
+    },
+    {
       "path": "/congratulations-dr-lewis-revely/",
       "views": 5
     },
@@ -433,6 +442,10 @@
     },
     {
       "path": "/extensive-local-gene-duplication-and-functional-divergence-among-paralogs-in-atlantic-salmon/",
+      "views": 5
+    },
+    {
+      "path": "/hoi-lam-daisy-choi-investigating-the-evolutionary-patterns-of-diets-and-predatory-wasps/",
       "views": 5
     },
     {
@@ -452,15 +465,15 @@
       "views": 5
     },
     {
+      "path": "/lucy-weatherley/",
+      "views": 5
+    },
+    {
       "path": "/new-paper-highlighted-in-genome-biology-and-evolution/",
       "views": 5
     },
     {
       "path": "/new-recruits-join-the-lab/",
-      "views": 5
-    },
-    {
-      "path": "/nextflow-summit-and-hackathon-barcelona-october-2022/",
       "views": 5
     },
     {
@@ -480,23 +493,11 @@
       "views": 5
     },
     {
-      "path": "/wasps-matter/",
-      "views": 5
-    },
-    {
       "path": "/why-fly-half-way-across-the-world-to-trinidad-when-there-are-plenty-of-wasps-drowning-in-my-lemonade-in-peckham/",
       "views": 5
     },
     {
-      "path": "/hoi-lam-daisy-choi-investigating-the-evolutionary-patterns-of-diets-and-predatory-wasps/",
-      "views": 4
-    },
-    {
       "path": "/losses-in-behavioural-plasticity-and-the-evolution-of-altruism/",
-      "views": 4
-    },
-    {
-      "path": "/lucy-weatherley/",
       "views": 4
     },
     {
@@ -595,26 +596,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1476,
-      "visits": 672,
+      "views": 1500,
+      "visits": 690,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 681,
-      "visits": 486,
+      "views": 683,
+      "visits": 488,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 616,
-      "visits": 408,
+      "views": 639,
+      "visits": 425,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1228,
-      "visits": 303,
+      "views": 1239,
+      "visits": 305,
       "iso": "GB"
     },
     {
@@ -643,8 +644,8 @@
     },
     {
       "name": "Netherlands",
-      "views": 29,
-      "visits": 12,
+      "views": 30,
+      "visits": 13,
       "iso": "NL"
     },
     {
@@ -1288,6 +1289,11 @@
       "date": "2026-10-08",
       "views": 106,
       "visits": 97
+    },
+    {
+      "date": "2026-10-09",
+      "views": 61,
+      "visits": 40
     }
   ]
 }
