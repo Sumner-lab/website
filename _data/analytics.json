@@ -1,23 +1,23 @@
 {
   "connected": true,
-  "updated": "2026-10-10T21:49:23Z",
+  "updated": "2026-10-11T12:59:53Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 434,
-    "visits": 260
+    "views": 438,
+    "visits": 271
   },
-  "countries_7d": 22,
+  "countries_7d": 23,
   "top_countries_7d": [
     {
       "name": "Singapore",
-      "views": 146,
-      "visits": 117,
+      "views": 139,
+      "visits": 116,
       "iso": "SG"
     },
     {
       "name": "China",
-      "views": 89,
-      "visits": 57,
+      "views": 110,
+      "visits": 72,
       "iso": "CN"
     },
     {
@@ -28,8 +28,8 @@
     },
     {
       "name": "United Kingdom",
-      "views": 82,
-      "visits": 20,
+      "views": 86,
+      "visits": 21,
       "iso": "GB"
     },
     {
@@ -37,12 +37,6 @@
       "views": 6,
       "visits": 4,
       "iso": "BR"
-    },
-    {
-      "name": "Canada",
-      "views": 15,
-      "visits": 3,
-      "iso": "CA"
     },
     {
       "name": "Germany",
@@ -62,18 +56,6 @@
       "iso": "IN"
     },
     {
-      "name": "Kazakhstan",
-      "views": 2,
-      "visits": 2,
-      "iso": "KZ"
-    },
-    {
-      "name": "Netherlands",
-      "views": 2,
-      "visits": 2,
-      "iso": "NL"
-    },
-    {
       "name": "Australia",
       "views": 2,
       "visits": 1,
@@ -84,6 +66,12 @@
       "views": 1,
       "visits": 1,
       "iso": "AT"
+    },
+    {
+      "name": "Canada",
+      "views": 1,
+      "visits": 1,
+      "iso": "CA"
     },
     {
       "name": "Finland",
@@ -101,6 +89,18 @@
       "views": 1,
       "visits": 1,
       "iso": "IT"
+    },
+    {
+      "name": "Kazakhstan",
+      "views": 1,
+      "visits": 1,
+      "iso": "KZ"
+    },
+    {
+      "name": "Netherlands",
+      "views": 1,
+      "visits": 1,
+      "iso": "NL"
     },
     {
       "name": "New Zealand",
@@ -131,6 +131,12 @@
       "views": 1,
       "visits": 1,
       "iso": "ES"
+    },
+    {
+      "name": "Iran",
+      "views": 2,
+      "visits": 0,
+      "iso": "IR"
     },
     {
       "name": "Saudi Arabia",
