@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -59,31 +59,32 @@
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-11"
   ],
-  "pageviews": 4850,
-  "visits": 2267,
+  "pageviews": 4909,
+  "visits": 2295,
   "countries_count": 70,
   "top_pages": [
     {
       "path": "/",
-      "views": 664
+      "views": 676
     },
     {
       "path": "/people/",
-      "views": 374
+      "views": 379
     },
     {
       "path": "/updates/",
-      "views": 279
+      "views": 287
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 214
+      "views": 215
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 166
+      "views": 171
     },
     {
       "path": "/people/femi-e-benny/",
@@ -91,11 +92,11 @@
     },
     {
       "path": "/media/",
-      "views": 139
+      "views": 141
     },
     {
       "path": "/research/",
-      "views": 136
+      "views": 138
     },
     {
       "path": "/people/cintia-oi/",
@@ -103,7 +104,7 @@
     },
     {
       "path": "/endless-forms/",
-      "views": 113
+      "views": 114
     },
     {
       "path": "/people/christopher-wyatt/",
@@ -111,19 +112,19 @@
     },
     {
       "path": "/contact/",
-      "views": 92
+      "views": 94
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
       "views": 85
     },
     {
-      "path": "/people/idris-adams/",
-      "views": 79
+      "path": "/science-communication/",
+      "views": 80
     },
     {
-      "path": "/science-communication/",
-      "views": 78
+      "path": "/people/idris-adams/",
+      "views": 79
     },
     {
       "path": "/website/",
@@ -134,12 +135,12 @@
       "views": 71
     },
     {
-      "path": "/publications/",
-      "views": 69
+      "path": "/big-wasp-survey/",
+      "views": 70
     },
     {
-      "path": "/big-wasp-survey/",
-      "views": 67
+      "path": "/publications/",
+      "views": 69
     },
     {
       "path": "/people/sam-duckerin/",
@@ -163,7 +164,7 @@
     },
     {
       "path": "/people/daisy-taylor/",
-      "views": 48
+      "views": 49
     },
     {
       "path": "/people/owen-corbett/",
@@ -182,11 +183,11 @@
       "views": 45
     },
     {
-      "path": "/people/lewis-revely/",
-      "views": 42
+      "path": "/where-hornets-are-queens/",
+      "views": 43
     },
     {
-      "path": "/where-hornets-are-queens/",
+      "path": "/people/lewis-revely/",
       "views": 42
     },
     {
@@ -198,12 +199,12 @@
       "views": 41
     },
     {
-      "path": "/research/ecology/",
+      "path": "/people/adam-devenish/",
       "views": 40
     },
     {
-      "path": "/people/adam-devenish/",
-      "views": 39
+      "path": "/research/ecology/",
+      "views": 40
     },
     {
       "path": "/people/robin-southon/",
@@ -226,16 +227,16 @@
       "views": 32
     },
     {
+      "path": "/articles/",
+      "views": 31
+    },
+    {
       "path": "/people/patrick-kennedy/",
       "views": 31
     },
     {
-      "path": "/articles/",
-      "views": 30
-    },
-    {
       "path": "/soapbox-science/",
-      "views": 27
+      "views": 28
     },
     {
       "path": "/website/updates/",
@@ -243,11 +244,11 @@
     },
     {
       "path": "/billy-easeman-parasitoid-wasps/",
-      "views": 24
+      "views": 26
     },
     {
       "path": "/research/mechanisms/",
-      "views": 24
+      "views": 25
     },
     {
       "path": "/people/ryan-brock/",
@@ -258,12 +259,12 @@
       "views": 22
     },
     {
-      "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
+      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
       "views": 21
     },
     {
-      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
-      "views": 20
+      "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
+      "views": 21
     },
     {
       "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
@@ -271,6 +272,10 @@
     },
     {
       "path": "/numbers/",
+      "views": 18
+    },
+    {
+      "path": "/people/sam-morris/",
       "views": 18
     },
     {
@@ -283,10 +288,6 @@
     },
     {
       "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
-      "views": 16
-    },
-    {
-      "path": "/people/sam-morris/",
       "views": 16
     },
     {
@@ -306,6 +307,10 @@
       "views": 14
     },
     {
+      "path": "/daniel-altair-saureu-velasco-transcriptomics-of-caste-conflict-in-argentine-ants/",
+      "views": 13
+    },
+    {
       "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
       "views": 13
     },
@@ -314,16 +319,12 @@
       "views": 13
     },
     {
-      "path": "/daniel-altair-saureu-velasco-transcriptomics-of-caste-conflict-in-argentine-ants/",
+      "path": "/colony-size-predicts-division-of-labour-in-attine-ants/",
       "views": 12
     },
     {
       "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
       "views": 12
-    },
-    {
-      "path": "/colony-size-predicts-division-of-labour-in-attine-ants/",
-      "views": 11
     },
     {
       "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
@@ -354,15 +355,15 @@
       "views": 10
     },
     {
+      "path": "/wasp-day-2023/",
+      "views": 10
+    },
+    {
       "path": "/website/people/iona-cunningham-eurich/",
       "views": 10
     },
     {
       "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
-      "views": 9
-    },
-    {
-      "path": "/wasp-day-2023/",
       "views": 9
     },
     {
@@ -398,6 +399,10 @@
       "views": 7
     },
     {
+      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
+      "views": 7
+    },
+    {
       "path": "/new-paper-published-first-social-wasp-genome-and-more/",
       "views": 7
     },
@@ -407,6 +412,10 @@
     },
     {
       "path": "/sreya-magar-evolution-of-prey-selection-and-life-history-traits-in-sphecidae-wasps/",
+      "views": 7
+    },
+    {
+      "path": "/wasps-matter/",
       "views": 7
     },
     {
@@ -426,15 +435,7 @@
       "views": 6
     },
     {
-      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
-      "views": 6
-    },
-    {
       "path": "/opening-the-life-sciences-building/",
-      "views": 6
-    },
-    {
-      "path": "/wasps-matter/",
       "views": 6
     },
     {
@@ -597,26 +598,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1523,
-      "visits": 707,
+      "views": 1540,
+      "visits": 719,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 687,
-      "visits": 492,
+      "views": 691,
+      "visits": 494,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 649,
-      "visits": 433,
+      "views": 664,
+      "visits": 442,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1247,
-      "visits": 309,
+      "views": 1267,
+      "visits": 313,
       "iso": "GB"
     },
     {
@@ -681,8 +682,8 @@
     },
     {
       "name": "Viet Nam",
-      "views": 9,
-      "visits": 7,
+      "views": 10,
+      "visits": 8,
       "iso": "VN"
     },
     {
@@ -699,7 +700,7 @@
     },
     {
       "name": "Saudi Arabia",
-      "views": 18,
+      "views": 19,
       "visits": 5,
       "iso": "SA"
     },
@@ -807,7 +808,7 @@
     },
     {
       "name": "Finland",
-      "views": 4,
+      "views": 5,
       "visits": 2,
       "iso": "FI"
     },
@@ -1306,6 +1307,11 @@
       "date": "2026-10-10",
       "views": 47,
       "visits": 33
+    },
+    {
+      "date": "2026-10-11",
+      "views": 59,
+      "visits": 28
     }
   ]
 }
