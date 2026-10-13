@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -60,35 +60,36 @@
     "2026-10-08",
     "2026-10-09",
     "2026-10-10",
-    "2026-10-11"
+    "2026-10-11",
+    "2026-10-12"
   ],
-  "pageviews": 4909,
-  "visits": 2295,
-  "countries_count": 70,
+  "pageviews": 4966,
+  "visits": 2335,
+  "countries_count": 71,
   "top_pages": [
     {
       "path": "/",
-      "views": 676
+      "views": 690
     },
     {
       "path": "/people/",
-      "views": 379
+      "views": 380
     },
     {
       "path": "/updates/",
-      "views": 287
+      "views": 291
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 215
+      "views": 226
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 171
+      "views": 172
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 164
+      "views": 165
     },
     {
       "path": "/media/",
@@ -96,7 +97,7 @@
     },
     {
       "path": "/research/",
-      "views": 138
+      "views": 139
     },
     {
       "path": "/people/cintia-oi/",
@@ -104,23 +105,23 @@
     },
     {
       "path": "/endless-forms/",
-      "views": 114
+      "views": 116
     },
     {
       "path": "/people/christopher-wyatt/",
-      "views": 104
+      "views": 105
     },
     {
       "path": "/contact/",
-      "views": 94
+      "views": 96
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 85
+      "views": 86
     },
     {
       "path": "/science-communication/",
-      "views": 80
+      "views": 81
     },
     {
       "path": "/people/idris-adams/",
@@ -140,11 +141,11 @@
     },
     {
       "path": "/publications/",
-      "views": 69
+      "views": 70
     },
     {
       "path": "/people/sam-duckerin/",
-      "views": 66
+      "views": 67
     },
     {
       "path": "/people/alessandro-cini/",
@@ -152,7 +153,7 @@
     },
     {
       "path": "/people/caroline-chandler/",
-      "views": 56
+      "views": 58
     },
     {
       "path": "/people/emeline-favreau/",
@@ -184,11 +185,11 @@
     },
     {
       "path": "/where-hornets-are-queens/",
-      "views": 43
+      "views": 45
     },
     {
       "path": "/people/lewis-revely/",
-      "views": 42
+      "views": 43
     },
     {
       "path": "/people/emily-bell/",
@@ -199,11 +200,11 @@
       "views": 41
     },
     {
-      "path": "/people/adam-devenish/",
-      "views": 40
+      "path": "/research/ecology/",
+      "views": 41
     },
     {
-      "path": "/research/ecology/",
+      "path": "/people/adam-devenish/",
       "views": 40
     },
     {
@@ -239,12 +240,12 @@
       "views": 28
     },
     {
-      "path": "/website/updates/",
+      "path": "/billy-easeman-parasitoid-wasps/",
       "views": 27
     },
     {
-      "path": "/billy-easeman-parasitoid-wasps/",
-      "views": 26
+      "path": "/website/updates/",
+      "views": 27
     },
     {
       "path": "/research/mechanisms/",
@@ -291,6 +292,10 @@
       "views": 16
     },
     {
+      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
+      "views": 15
+    },
+    {
       "path": "/website/articles/",
       "views": 14
     },
@@ -308,10 +313,6 @@
     },
     {
       "path": "/daniel-altair-saureu-velasco-transcriptomics-of-caste-conflict-in-argentine-ants/",
-      "views": 13
-    },
-    {
-      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
       "views": 13
     },
     {
@@ -347,6 +348,10 @@
       "views": 10
     },
     {
+      "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
+      "views": 10
+    },
+    {
       "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
       "views": 10
     },
@@ -363,8 +368,8 @@
       "views": 10
     },
     {
-      "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
-      "views": 9
+      "path": "/what-roles-do-wasps-play-in-nature/",
+      "views": 10
     },
     {
       "path": "/a-novel-method-of-assessing-dominance-hierarchies-shows-nuance-linearity-and-stability-in-the-dinosaur-ant-dinoponera-quadriceps/",
@@ -384,10 +389,6 @@
     },
     {
       "path": "/website/publications/wider/",
-      "views": 8
-    },
-    {
-      "path": "/what-roles-do-wasps-play-in-nature/",
       "views": 8
     },
     {
@@ -411,6 +412,10 @@
       "views": 7
     },
     {
+      "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
+      "views": 7
+    },
+    {
       "path": "/sreya-magar-evolution-of-prey-selection-and-life-history-traits-in-sphecidae-wasps/",
       "views": 7
     },
@@ -421,6 +426,10 @@
     {
       "path": "/website/science-communication/",
       "views": 7
+    },
+    {
+      "path": "/congratulations-dr-lewis-revely/",
+      "views": 6
     },
     {
       "path": "/cshl-conference-on-the-biology-genomics-of-social-insects-friends-by-cintia/",
@@ -437,10 +446,6 @@
     {
       "path": "/opening-the-life-sciences-building/",
       "views": 6
-    },
-    {
-      "path": "/congratulations-dr-lewis-revely/",
-      "views": 5
     },
     {
       "path": "/euro-iussi-lausanne-2024/",
@@ -488,10 +493,6 @@
     },
     {
       "path": "/seirians-seminar-frenzy/",
-      "views": 5
-    },
-    {
-      "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
       "views": 5
     },
     {
@@ -604,20 +605,20 @@
     },
     {
       "name": "United States of America",
-      "views": 691,
-      "visits": 494,
+      "views": 697,
+      "visits": 500,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 664,
-      "visits": 442,
+      "views": 688,
+      "visits": 458,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1267,
-      "visits": 313,
+      "views": 1292,
+      "visits": 329,
       "iso": "GB"
     },
     {
@@ -652,8 +653,8 @@
     },
     {
       "name": "India",
-      "views": 37,
-      "visits": 10,
+      "views": 38,
+      "visits": 11,
       "iso": "IN"
     },
     {
@@ -949,6 +950,12 @@
       "views": 1,
       "visits": 1,
       "iso": "JO"
+    },
+    {
+      "name": "Morocco",
+      "views": 1,
+      "visits": 1,
+      "iso": "MA"
     },
     {
       "name": "Nepal",
@@ -1312,6 +1319,11 @@
       "date": "2026-10-11",
       "views": 59,
       "visits": 28
+    },
+    {
+      "date": "2026-10-12",
+      "views": 57,
+      "visits": 40
     }
   ]
 }
