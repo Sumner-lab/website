@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -61,27 +61,28 @@
     "2026-10-09",
     "2026-10-10",
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
   ],
-  "pageviews": 4966,
-  "visits": 2335,
+  "pageviews": 5026,
+  "visits": 2375,
   "countries_count": 71,
   "top_pages": [
     {
       "path": "/",
-      "views": 690
+      "views": 695
     },
     {
       "path": "/people/",
-      "views": 380
+      "views": 384
     },
     {
       "path": "/updates/",
-      "views": 291
+      "views": 294
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 226
+      "views": 228
     },
     {
       "path": "/people/seirian-sumner/",
@@ -89,7 +90,7 @@
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 165
+      "views": 167
     },
     {
       "path": "/media/",
@@ -97,11 +98,11 @@
     },
     {
       "path": "/research/",
-      "views": 139
+      "views": 140
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 126
+      "views": 128
     },
     {
       "path": "/endless-forms/",
@@ -109,7 +110,7 @@
     },
     {
       "path": "/people/christopher-wyatt/",
-      "views": 105
+      "views": 107
     },
     {
       "path": "/contact/",
@@ -117,7 +118,7 @@
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 86
+      "views": 94
     },
     {
       "path": "/science-communication/",
@@ -136,11 +137,11 @@
       "views": 71
     },
     {
-      "path": "/big-wasp-survey/",
-      "views": 70
+      "path": "/publications/",
+      "views": 71
     },
     {
-      "path": "/publications/",
+      "path": "/big-wasp-survey/",
       "views": 70
     },
     {
@@ -149,7 +150,7 @@
     },
     {
       "path": "/people/alessandro-cini/",
-      "views": 61
+      "views": 62
     },
     {
       "path": "/people/caroline-chandler/",
@@ -157,22 +158,26 @@
     },
     {
       "path": "/people/emeline-favreau/",
-      "views": 52
+      "views": 53
     },
     {
       "path": "/research/genomics/",
-      "views": 50
+      "views": 51
     },
     {
       "path": "/people/daisy-taylor/",
       "views": 49
     },
     {
+      "path": "/people/iona-cunningham-eurich/",
+      "views": 48
+    },
+    {
       "path": "/people/owen-corbett/",
       "views": 47
     },
     {
-      "path": "/people/iona-cunningham-eurich/",
+      "path": "/people/fernando-duarte/",
       "views": 45
     },
     {
@@ -188,20 +193,16 @@
       "views": 45
     },
     {
+      "path": "/people/emily-bell/",
+      "views": 43
+    },
+    {
       "path": "/people/lewis-revely/",
       "views": 43
     },
     {
-      "path": "/people/emily-bell/",
-      "views": 41
-    },
-    {
-      "path": "/people/fernando-duarte/",
-      "views": 41
-    },
-    {
       "path": "/research/ecology/",
-      "views": 41
+      "views": 42
     },
     {
       "path": "/people/adam-devenish/",
@@ -249,7 +250,7 @@
     },
     {
       "path": "/research/mechanisms/",
-      "views": 25
+      "views": 26
     },
     {
       "path": "/people/ryan-brock/",
@@ -293,7 +294,7 @@
     },
     {
       "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
-      "views": 15
+      "views": 16
     },
     {
       "path": "/website/articles/",
@@ -372,15 +373,15 @@
       "views": 10
     },
     {
+      "path": "/sampling-european-hornets/",
+      "views": 9
+    },
+    {
       "path": "/a-novel-method-of-assessing-dominance-hierarchies-shows-nuance-linearity-and-stability-in-the-dinosaur-ant-dinoponera-quadriceps/",
       "views": 8
     },
     {
       "path": "/citizen-science-for-the-win/",
-      "views": 8
-    },
-    {
-      "path": "/sampling-european-hornets/",
       "views": 8
     },
     {
@@ -444,6 +445,14 @@
       "views": 6
     },
     {
+      "path": "/lessons-from-the-jungle/",
+      "views": 6
+    },
+    {
+      "path": "/new-paper-highlighted-in-genome-biology-and-evolution/",
+      "views": 6
+    },
+    {
       "path": "/opening-the-life-sciences-building/",
       "views": 6
     },
@@ -468,15 +477,7 @@
       "views": 5
     },
     {
-      "path": "/lessons-from-the-jungle/",
-      "views": 5
-    },
-    {
       "path": "/lucy-weatherley/",
-      "views": 5
-    },
-    {
-      "path": "/new-paper-highlighted-in-genome-biology-and-evolution/",
       "views": 5
     },
     {
@@ -611,14 +612,14 @@
     },
     {
       "name": "Singapore",
-      "views": 688,
-      "visits": 458,
+      "views": 698,
+      "visits": 468,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1292,
-      "visits": 329,
+      "views": 1322,
+      "visits": 339,
       "iso": "GB"
     },
     {
@@ -632,6 +633,12 @@
       "views": 57,
       "visits": 46,
       "iso": "DE"
+    },
+    {
+      "name": "India",
+      "views": 48,
+      "visits": 21,
+      "iso": "IN"
     },
     {
       "name": "Ireland",
@@ -652,10 +659,10 @@
       "iso": "NL"
     },
     {
-      "name": "India",
-      "views": 38,
-      "visits": 11,
-      "iso": "IN"
+      "name": "Italy",
+      "views": 14,
+      "visits": 12,
+      "iso": "IT"
     },
     {
       "name": "South Africa",
@@ -818,12 +825,6 @@
       "views": 2,
       "visits": 2,
       "iso": "HU"
-    },
-    {
-      "name": "Italy",
-      "views": 4,
-      "visits": 2,
-      "iso": "IT"
     },
     {
       "name": "Kazakhstan",
@@ -1323,6 +1324,11 @@
     {
       "date": "2026-10-12",
       "views": 57,
+      "visits": 40
+    },
+    {
+      "date": "2026-10-13",
+      "views": 60,
       "visits": 40
     }
   ]
