@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -62,23 +62,24 @@
     "2026-10-10",
     "2026-10-11",
     "2026-10-12",
-    "2026-10-13"
+    "2026-10-13",
+    "2026-10-14"
   ],
-  "pageviews": 5026,
-  "visits": 2375,
-  "countries_count": 71,
+  "pageviews": 5066,
+  "visits": 2392,
+  "countries_count": 73,
   "top_pages": [
     {
       "path": "/",
-      "views": 695
+      "views": 699
     },
     {
       "path": "/people/",
-      "views": 384
+      "views": 386
     },
     {
       "path": "/updates/",
-      "views": 294
+      "views": 299
     },
     {
       "path": "/wasp-picnic-survey-2026/",
@@ -86,23 +87,23 @@
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 172
+      "views": 174
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 167
+      "views": 168
+    },
+    {
+      "path": "/research/",
+      "views": 143
     },
     {
       "path": "/media/",
       "views": 141
     },
     {
-      "path": "/research/",
-      "views": 140
-    },
-    {
       "path": "/people/cintia-oi/",
-      "views": 128
+      "views": 129
     },
     {
       "path": "/endless-forms/",
@@ -114,7 +115,7 @@
     },
     {
       "path": "/contact/",
-      "views": 96
+      "views": 99
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
@@ -122,7 +123,7 @@
     },
     {
       "path": "/science-communication/",
-      "views": 81
+      "views": 82
     },
     {
       "path": "/people/idris-adams/",
@@ -133,12 +134,12 @@
       "views": 75
     },
     {
-      "path": "/people/benjamin-taylor/",
-      "views": 71
+      "path": "/publications/",
+      "views": 73
     },
     {
-      "path": "/publications/",
-      "views": 71
+      "path": "/people/benjamin-taylor/",
+      "views": 72
     },
     {
       "path": "/big-wasp-survey/",
@@ -154,7 +155,7 @@
     },
     {
       "path": "/people/caroline-chandler/",
-      "views": 58
+      "views": 59
     },
     {
       "path": "/people/emeline-favreau/",
@@ -162,7 +163,7 @@
     },
     {
       "path": "/research/genomics/",
-      "views": 51
+      "views": 53
     },
     {
       "path": "/people/daisy-taylor/",
@@ -173,12 +174,12 @@
       "views": 48
     },
     {
-      "path": "/people/owen-corbett/",
+      "path": "/people/fernando-duarte/",
       "views": 47
     },
     {
-      "path": "/people/fernando-duarte/",
-      "views": 45
+      "path": "/people/owen-corbett/",
+      "views": 47
     },
     {
       "path": "/people/romuald-tcheutchoua/",
@@ -202,15 +203,15 @@
     },
     {
       "path": "/research/ecology/",
-      "views": 42
+      "views": 43
     },
     {
       "path": "/people/adam-devenish/",
-      "views": 40
+      "views": 41
     },
     {
       "path": "/people/robin-southon/",
-      "views": 38
+      "views": 39
     },
     {
       "path": "/people/sandra-moreno/",
@@ -237,20 +238,20 @@
       "views": 31
     },
     {
-      "path": "/soapbox-science/",
-      "views": 28
+      "path": "/billy-easeman-parasitoid-wasps/",
+      "views": 29
     },
     {
-      "path": "/billy-easeman-parasitoid-wasps/",
+      "path": "/soapbox-science/",
+      "views": 29
+    },
+    {
+      "path": "/research/mechanisms/",
       "views": 27
     },
     {
       "path": "/website/updates/",
       "views": 27
-    },
-    {
-      "path": "/research/mechanisms/",
-      "views": 26
     },
     {
       "path": "/people/ryan-brock/",
@@ -285,15 +286,15 @@
       "views": 18
     },
     {
+      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
+      "views": 17
+    },
+    {
       "path": "/website/media/",
       "views": 17
     },
     {
       "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
-      "views": 16
-    },
-    {
-      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
       "views": 16
     },
     {
@@ -397,6 +398,10 @@
       "views": 7
     },
     {
+      "path": "/kendra-edwards-global-social-wasp-distributions/",
+      "views": 7
+    },
+    {
       "path": "/lonely-potter/",
       "views": 7
     },
@@ -441,11 +446,11 @@
       "views": 6
     },
     {
-      "path": "/kendra-edwards-global-social-wasp-distributions/",
+      "path": "/lessons-from-the-jungle/",
       "views": 6
     },
     {
-      "path": "/lessons-from-the-jungle/",
+      "path": "/lucy-weatherley/",
       "views": 6
     },
     {
@@ -474,10 +479,6 @@
     },
     {
       "path": "/iussi-conference-cairns-2014/",
-      "views": 5
-    },
-    {
-      "path": "/lucy-weatherley/",
       "views": 5
     },
     {
@@ -606,26 +607,26 @@
     },
     {
       "name": "United States of America",
-      "views": 697,
-      "visits": 500,
+      "views": 700,
+      "visits": 503,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 698,
-      "visits": 468,
+      "views": 714,
+      "visits": 475,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1322,
-      "visits": 339,
+      "views": 1336,
+      "visits": 341,
       "iso": "GB"
     },
     {
       "name": "Brazil",
-      "views": 272,
-      "visits": 50,
+      "views": 273,
+      "visits": 51,
       "iso": "BR"
     },
     {
@@ -648,14 +649,14 @@
     },
     {
       "name": "Canada",
-      "views": 26,
-      "visits": 13,
+      "views": 27,
+      "visits": 14,
       "iso": "CA"
     },
     {
       "name": "Netherlands",
-      "views": 30,
-      "visits": 13,
+      "views": 31,
+      "visits": 14,
       "iso": "NL"
     },
     {
@@ -905,10 +906,22 @@
       "iso": "KH"
     },
     {
+      "name": "Cape Verde",
+      "views": 1,
+      "visits": 1,
+      "iso": "CV"
+    },
+    {
       "name": "Chile",
       "views": 1,
       "visits": 1,
       "iso": "CL"
+    },
+    {
+      "name": "Czech Republic",
+      "views": 3,
+      "visits": 1,
+      "iso": "CZ"
     },
     {
       "name": "Ecuador",
@@ -1330,6 +1343,11 @@
       "date": "2026-10-13",
       "views": 60,
       "visits": 40
+    },
+    {
+      "date": "2026-10-14",
+      "views": 40,
+      "visits": 17
     }
   ]
 }
