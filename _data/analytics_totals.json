@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -63,43 +63,44 @@
     "2026-10-11",
     "2026-10-12",
     "2026-10-13",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-15"
   ],
-  "pageviews": 5066,
-  "visits": 2392,
+  "pageviews": 5133,
+  "visits": 2427,
   "countries_count": 73,
   "top_pages": [
     {
       "path": "/",
-      "views": 699
+      "views": 712
     },
     {
       "path": "/people/",
-      "views": 386
+      "views": 390
     },
     {
       "path": "/updates/",
-      "views": 299
+      "views": 309
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 228
+      "views": 232
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 174
+      "views": 178
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 168
+      "views": 172
+    },
+    {
+      "path": "/media/",
+      "views": 143
     },
     {
       "path": "/research/",
       "views": 143
-    },
-    {
-      "path": "/media/",
-      "views": 141
     },
     {
       "path": "/people/cintia-oi/",
@@ -107,7 +108,7 @@
     },
     {
       "path": "/endless-forms/",
-      "views": 116
+      "views": 117
     },
     {
       "path": "/people/christopher-wyatt/",
@@ -115,11 +116,11 @@
     },
     {
       "path": "/contact/",
-      "views": 99
+      "views": 101
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 94
+      "views": 97
     },
     {
       "path": "/science-communication/",
@@ -143,7 +144,7 @@
     },
     {
       "path": "/big-wasp-survey/",
-      "views": 70
+      "views": 71
     },
     {
       "path": "/people/sam-duckerin/",
@@ -155,31 +156,35 @@
     },
     {
       "path": "/people/caroline-chandler/",
-      "views": 59
+      "views": 60
+    },
+    {
+      "path": "/research/genomics/",
+      "views": 56
     },
     {
       "path": "/people/emeline-favreau/",
       "views": 53
     },
     {
-      "path": "/research/genomics/",
-      "views": 53
+      "path": "/people/daisy-taylor/",
+      "views": 50
     },
     {
-      "path": "/people/daisy-taylor/",
-      "views": 49
+      "path": "/people/fernando-duarte/",
+      "views": 48
     },
     {
       "path": "/people/iona-cunningham-eurich/",
       "views": 48
     },
     {
-      "path": "/people/fernando-duarte/",
+      "path": "/people/owen-corbett/",
       "views": 47
     },
     {
-      "path": "/people/owen-corbett/",
-      "views": 47
+      "path": "/people/emily-bell/",
+      "views": 45
     },
     {
       "path": "/people/romuald-tcheutchoua/",
@@ -194,15 +199,11 @@
       "views": 45
     },
     {
-      "path": "/people/emily-bell/",
-      "views": 43
+      "path": "/research/ecology/",
+      "views": 44
     },
     {
       "path": "/people/lewis-revely/",
-      "views": 43
-    },
-    {
-      "path": "/research/ecology/",
       "views": 43
     },
     {
@@ -223,7 +224,7 @@
     },
     {
       "path": "/wasplove-game/",
-      "views": 32
+      "views": 35
     },
     {
       "path": "/website/people/",
@@ -326,6 +327,14 @@
       "views": 12
     },
     {
+      "path": "/wasp-day-2023/",
+      "views": 12
+    },
+    {
+      "path": "/what-roles-do-wasps-play-in-nature/",
+      "views": 12
+    },
+    {
       "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
       "views": 12
     },
@@ -335,6 +344,10 @@
     },
     {
       "path": "/in2science-a-level-student-blog/",
+      "views": 11
+    },
+    {
+      "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
       "views": 11
     },
     {
@@ -354,23 +367,11 @@
       "views": 10
     },
     {
-      "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
-      "views": 10
-    },
-    {
       "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
       "views": 10
     },
     {
-      "path": "/wasp-day-2023/",
-      "views": 10
-    },
-    {
       "path": "/website/people/iona-cunningham-eurich/",
-      "views": 10
-    },
-    {
-      "path": "/what-roles-do-wasps-play-in-nature/",
       "views": 10
     },
     {
@@ -431,6 +432,10 @@
     },
     {
       "path": "/website/science-communication/",
+      "views": 7
+    },
+    {
+      "path": "/why-fly-half-way-across-the-world-to-trinidad-when-there-are-plenty-of-wasps-drowning-in-my-lemonade-in-peckham/",
       "views": 7
     },
     {
@@ -495,10 +500,6 @@
     },
     {
       "path": "/seirians-seminar-frenzy/",
-      "views": 5
-    },
-    {
-      "path": "/why-fly-half-way-across-the-world-to-trinidad-when-there-are-plenty-of-wasps-drowning-in-my-lemonade-in-peckham/",
       "views": 5
     },
     {
@@ -601,26 +602,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1540,
-      "visits": 719,
+      "views": 1563,
+      "visits": 729,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 700,
-      "visits": 503,
+      "views": 708,
+      "visits": 511,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 714,
-      "visits": 475,
+      "views": 725,
+      "visits": 479,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1336,
-      "visits": 341,
+      "views": 1349,
+      "visits": 348,
       "iso": "GB"
     },
     {
@@ -648,16 +649,16 @@
       "iso": "IE"
     },
     {
-      "name": "Canada",
-      "views": 27,
-      "visits": 14,
-      "iso": "CA"
+      "name": "Netherlands",
+      "views": 33,
+      "visits": 16,
+      "iso": "NL"
     },
     {
-      "name": "Netherlands",
-      "views": 31,
-      "visits": 14,
-      "iso": "NL"
+      "name": "Canada",
+      "views": 28,
+      "visits": 15,
+      "iso": "CA"
     },
     {
       "name": "Italy",
@@ -708,6 +709,12 @@
       "iso": "JP"
     },
     {
+      "name": "Russian Federation",
+      "views": 13,
+      "visits": 5,
+      "iso": "RU"
+    },
+    {
       "name": "Saudi Arabia",
       "views": 19,
       "visits": 5,
@@ -736,12 +743,6 @@
       "views": 11,
       "visits": 4,
       "iso": "KR"
-    },
-    {
-      "name": "Russian Federation",
-      "views": 6,
-      "visits": 4,
-      "iso": "RU"
     },
     {
       "name": "Thailand",
@@ -784,6 +785,12 @@
       "views": 7,
       "visits": 3,
       "iso": "CH"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "views": 3,
+      "visits": 3,
+      "iso": "TT"
     },
     {
       "name": "Ukraine",
@@ -1000,12 +1007,6 @@
       "views": 3,
       "visits": 1,
       "iso": "SE"
-    },
-    {
-      "name": "Trinidad and Tobago",
-      "views": 1,
-      "visits": 1,
-      "iso": "TT"
     },
     {
       "name": "Uruguay",
@@ -1348,6 +1349,11 @@
       "date": "2026-10-14",
       "views": 40,
       "visits": 17
+    },
+    {
+      "date": "2026-10-15",
+      "views": 67,
+      "visits": 35
     }
   ]
 }
