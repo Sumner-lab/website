@@ -1,132 +1,60 @@
 {
   "connected": true,
-  "updated": "2026-10-16T11:32:03Z",
+  "updated": "2026-10-16T21:17:19Z",
   "since": "2026-08-14",
   "last7days": {
     "views": 391,
     "visits": 233
   },
-  "countries_7d": 20,
+  "countries_7d": 8,
   "top_countries_7d": [
     {
-      "name": "Singapore",
-      "views": 110,
-      "visits": 67,
-      "iso": "SG"
-    },
-    {
       "name": "China",
-      "views": 88,
-      "visits": 58,
+      "views": 120,
+      "visits": 50,
       "iso": "CN"
     },
     {
+      "name": "Singapore",
+      "views": 80,
+      "visits": 50,
+      "iso": "SG"
+    },
+    {
       "name": "United Kingdom",
-      "views": 109,
-      "visits": 38,
+      "views": 100,
+      "visits": 30,
       "iso": "GB"
     },
     {
       "name": "United States of America",
-      "views": 28,
-      "visits": 26,
+      "views": 20,
+      "visits": 20,
       "iso": "US"
     },
     {
-      "name": "Netherlands",
-      "views": 4,
-      "visits": 4,
-      "iso": "NL"
-    },
-    {
-      "name": "Canada",
-      "views": 3,
-      "visits": 2,
-      "iso": "CA"
-    },
-    {
       "name": "India",
-      "views": 13,
-      "visits": 2,
+      "views": 10,
+      "visits": 10,
       "iso": "IN"
     },
     {
-      "name": "Russian Federation",
-      "views": 8,
-      "visits": 2,
-      "iso": "RU"
-    },
-    {
-      "name": "Trinidad and Tobago",
-      "views": 2,
-      "visits": 2,
-      "iso": "TT"
-    },
-    {
-      "name": "Brazil",
-      "views": 1,
-      "visits": 1,
-      "iso": "BR"
-    },
-    {
-      "name": "Cape Verde",
-      "views": 1,
-      "visits": 1,
-      "iso": "CV"
-    },
-    {
-      "name": "Czech Republic",
-      "views": 3,
-      "visits": 1,
-      "iso": "CZ"
-    },
-    {
-      "name": "Indonesia",
-      "views": 1,
-      "visits": 1,
-      "iso": "ID"
-    },
-    {
       "name": "Italy",
-      "views": 1,
-      "visits": 1,
+      "views": 10,
+      "visits": 10,
       "iso": "IT"
     },
     {
-      "name": "Jordan",
-      "views": 1,
-      "visits": 1,
-      "iso": "JO"
-    },
-    {
-      "name": "Morocco",
-      "views": 1,
-      "visits": 1,
-      "iso": "MA"
+      "name": "Netherlands",
+      "views": 10,
+      "visits": 10,
+      "iso": "NL"
     },
     {
       "name": "Viet Nam",
-      "views": 1,
-      "visits": 1,
+      "views": 10,
+      "visits": 10,
       "iso": "VN"
-    },
-    {
-      "name": "Finland",
-      "views": 1,
-      "visits": 0,
-      "iso": "FI"
-    },
-    {
-      "name": "Iran",
-      "views": 2,
-      "visits": 0,
-      "iso": "IR"
-    },
-    {
-      "name": "Saudi Arabia",
-      "views": 1,
-      "visits": 0,
-      "iso": "SA"
     }
   ]
 }
