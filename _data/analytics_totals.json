@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -64,43 +64,44 @@
     "2026-10-12",
     "2026-10-13",
     "2026-10-14",
-    "2026-10-15"
+    "2026-10-15",
+    "2026-10-16"
   ],
-  "pageviews": 5133,
-  "visits": 2427,
+  "pageviews": 5210,
+  "visits": 2464,
   "countries_count": 73,
   "top_pages": [
     {
       "path": "/",
-      "views": 712
+      "views": 731
     },
     {
       "path": "/people/",
-      "views": 390
+      "views": 393
     },
     {
       "path": "/updates/",
-      "views": 309
+      "views": 316
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 232
+      "views": 234
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 178
+      "views": 179
     },
     {
       "path": "/people/femi-e-benny/",
       "views": 172
     },
     {
-      "path": "/media/",
-      "views": 143
+      "path": "/research/",
+      "views": 152
     },
     {
-      "path": "/research/",
-      "views": 143
+      "path": "/media/",
+      "views": 145
     },
     {
       "path": "/people/cintia-oi/",
@@ -116,31 +117,31 @@
     },
     {
       "path": "/contact/",
-      "views": 101
+      "views": 102
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 97
+      "views": 98
     },
     {
       "path": "/science-communication/",
-      "views": 82
+      "views": 83
     },
     {
       "path": "/people/idris-adams/",
-      "views": 79
+      "views": 80
+    },
+    {
+      "path": "/publications/",
+      "views": 76
     },
     {
       "path": "/website/",
       "views": 75
     },
     {
-      "path": "/publications/",
-      "views": 73
-    },
-    {
       "path": "/people/benjamin-taylor/",
-      "views": 72
+      "views": 74
     },
     {
       "path": "/big-wasp-survey/",
@@ -148,11 +149,11 @@
     },
     {
       "path": "/people/sam-duckerin/",
-      "views": 67
+      "views": 68
     },
     {
       "path": "/people/alessandro-cini/",
-      "views": 62
+      "views": 63
     },
     {
       "path": "/people/caroline-chandler/",
@@ -160,7 +161,7 @@
     },
     {
       "path": "/research/genomics/",
-      "views": 56
+      "views": 57
     },
     {
       "path": "/people/emeline-favreau/",
@@ -168,19 +169,27 @@
     },
     {
       "path": "/people/daisy-taylor/",
-      "views": 50
-    },
-    {
-      "path": "/people/fernando-duarte/",
-      "views": 48
+      "views": 52
     },
     {
       "path": "/people/iona-cunningham-eurich/",
-      "views": 48
+      "views": 51
+    },
+    {
+      "path": "/people/fernando-duarte/",
+      "views": 49
+    },
+    {
+      "path": "/research/evolution/",
+      "views": 49
     },
     {
       "path": "/people/owen-corbett/",
       "views": 47
+    },
+    {
+      "path": "/research/ecology/",
+      "views": 46
     },
     {
       "path": "/people/emily-bell/",
@@ -191,24 +200,16 @@
       "views": 45
     },
     {
-      "path": "/research/evolution/",
-      "views": 45
-    },
-    {
       "path": "/where-hornets-are-queens/",
       "views": 45
     },
     {
-      "path": "/research/ecology/",
+      "path": "/people/lewis-revely/",
       "views": 44
     },
     {
-      "path": "/people/lewis-revely/",
-      "views": 43
-    },
-    {
       "path": "/people/adam-devenish/",
-      "views": 41
+      "views": 42
     },
     {
       "path": "/people/robin-southon/",
@@ -227,12 +228,12 @@
       "views": 35
     },
     {
-      "path": "/website/people/",
+      "path": "/articles/",
       "views": 32
     },
     {
-      "path": "/articles/",
-      "views": 31
+      "path": "/website/people/",
+      "views": 32
     },
     {
       "path": "/people/patrick-kennedy/",
@@ -259,12 +260,12 @@
       "views": 23
     },
     {
-      "path": "/autumn-2015-welcome-to-four-new-group-members/",
-      "views": 22
+      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
+      "views": 23
     },
     {
-      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
-      "views": 21
+      "path": "/autumn-2015-welcome-to-four-new-group-members/",
+      "views": 22
     },
     {
       "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
@@ -273,6 +274,10 @@
     {
       "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
       "views": 19
+    },
+    {
+      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
+      "views": 18
     },
     {
       "path": "/numbers/",
@@ -287,16 +292,16 @@
       "views": 18
     },
     {
-      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
-      "views": 17
-    },
-    {
       "path": "/website/media/",
       "views": 17
     },
     {
       "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
       "views": 16
+    },
+    {
+      "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
+      "views": 15
     },
     {
       "path": "/website/articles/",
@@ -311,7 +316,7 @@
       "views": 14
     },
     {
-      "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
+      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
       "views": 14
     },
     {
@@ -335,10 +340,6 @@
       "views": 12
     },
     {
-      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
-      "views": 12
-    },
-    {
       "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
       "views": 11
     },
@@ -348,6 +349,10 @@
     },
     {
       "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
+      "views": 11
+    },
+    {
+      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
       "views": 11
     },
     {
@@ -364,10 +369,6 @@
     },
     {
       "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
-      "views": 10
-    },
-    {
-      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
       "views": 10
     },
     {
@@ -602,26 +603,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1563,
-      "visits": 729,
+      "views": 1575,
+      "visits": 736,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 708,
-      "visits": 511,
+      "views": 729,
+      "visits": 526,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 725,
-      "visits": 479,
+      "views": 744,
+      "visits": 486,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1349,
-      "visits": 348,
+      "views": 1353,
+      "visits": 349,
       "iso": "GB"
     },
     {
@@ -638,8 +639,8 @@
     },
     {
       "name": "India",
-      "views": 48,
-      "visits": 21,
+      "views": 63,
+      "visits": 23,
       "iso": "IN"
     },
     {
@@ -667,22 +668,22 @@
       "iso": "IT"
     },
     {
-      "name": "South Africa",
-      "views": 11,
-      "visits": 9,
-      "iso": "ZA"
-    },
-    {
       "name": "Bangladesh",
-      "views": 8,
-      "visits": 8,
+      "views": 9,
+      "visits": 9,
       "iso": "BD"
     },
     {
       "name": "Colombia",
-      "views": 15,
-      "visits": 8,
+      "views": 16,
+      "visits": 9,
       "iso": "CO"
+    },
+    {
+      "name": "South Africa",
+      "views": 11,
+      "visits": 9,
+      "iso": "ZA"
     },
     {
       "name": "Pakistan",
@@ -697,16 +698,16 @@
       "iso": "VN"
     },
     {
+      "name": "Japan",
+      "views": 21,
+      "visits": 6,
+      "iso": "JP"
+    },
+    {
       "name": "Mexico",
       "views": 6,
       "visits": 6,
       "iso": "MX"
-    },
-    {
-      "name": "Japan",
-      "views": 20,
-      "visits": 5,
-      "iso": "JP"
     },
     {
       "name": "Russian Federation",
@@ -725,6 +726,12 @@
       "views": 7,
       "visits": 5,
       "iso": "ES"
+    },
+    {
+      "name": "Malaysia",
+      "views": 4,
+      "visits": 4,
+      "iso": "MY"
     },
     {
       "name": "Nigeria",
@@ -775,14 +782,8 @@
       "iso": "KE"
     },
     {
-      "name": "Malaysia",
-      "views": 3,
-      "visits": 3,
-      "iso": "MY"
-    },
-    {
       "name": "Switzerland",
-      "views": 7,
+      "views": 8,
       "visits": 3,
       "iso": "CH"
     },
@@ -821,6 +822,12 @@
       "views": 2,
       "visits": 2,
       "iso": "AZ"
+    },
+    {
+      "name": "Czech Republic",
+      "views": 4,
+      "visits": 2,
+      "iso": "CZ"
     },
     {
       "name": "Finland",
@@ -923,12 +930,6 @@
       "views": 1,
       "visits": 1,
       "iso": "CL"
-    },
-    {
-      "name": "Czech Republic",
-      "views": 3,
-      "visits": 1,
-      "iso": "CZ"
     },
     {
       "name": "Ecuador",
@@ -1354,6 +1355,11 @@
       "date": "2026-10-15",
       "views": 67,
       "visits": 35
+    },
+    {
+      "date": "2026-10-16",
+      "views": 77,
+      "visits": 37
     }
   ]
 }

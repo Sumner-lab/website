@@ -1,60 +1,162 @@
 {
   "connected": true,
-  "updated": "2026-10-16T21:17:19Z",
+  "updated": "2026-10-17T10:51:59Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 391,
-    "visits": 233
+    "views": 407,
+    "visits": 230
   },
-  "countries_7d": 8,
+  "countries_7d": 25,
   "top_countries_7d": [
     {
-      "name": "China",
-      "views": 120,
-      "visits": 50,
-      "iso": "CN"
-    },
-    {
       "name": "Singapore",
-      "views": 80,
-      "visits": 50,
+      "views": 106,
+      "visits": 57,
       "iso": "SG"
     },
     {
-      "name": "United Kingdom",
-      "views": 100,
-      "visits": 30,
-      "iso": "GB"
+      "name": "China",
+      "views": 76,
+      "visits": 47,
+      "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 20,
-      "visits": 20,
+      "views": 47,
+      "visits": 39,
       "iso": "US"
     },
     {
+      "name": "United Kingdom",
+      "views": 102,
+      "visits": 37,
+      "iso": "GB"
+    },
+    {
       "name": "India",
-      "views": 10,
-      "visits": 10,
+      "views": 28,
+      "visits": 4,
       "iso": "IN"
     },
     {
-      "name": "Italy",
-      "views": 10,
-      "visits": 10,
-      "iso": "IT"
-    },
-    {
       "name": "Netherlands",
-      "views": 10,
-      "visits": 10,
+      "views": 3,
+      "visits": 3,
       "iso": "NL"
     },
     {
+      "name": "Canada",
+      "views": 3,
+      "visits": 2,
+      "iso": "CA"
+    },
+    {
+      "name": "Czech Republic",
+      "views": 4,
+      "visits": 2,
+      "iso": "CZ"
+    },
+    {
+      "name": "Russian Federation",
+      "views": 8,
+      "visits": 2,
+      "iso": "RU"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "views": 2,
+      "visits": 2,
+      "iso": "TT"
+    },
+    {
+      "name": "Bangladesh",
+      "views": 1,
+      "visits": 1,
+      "iso": "BD"
+    },
+    {
+      "name": "Brazil",
+      "views": 1,
+      "visits": 1,
+      "iso": "BR"
+    },
+    {
+      "name": "Cape Verde",
+      "views": 1,
+      "visits": 1,
+      "iso": "CV"
+    },
+    {
+      "name": "Colombia",
+      "views": 1,
+      "visits": 1,
+      "iso": "CO"
+    },
+    {
+      "name": "Indonesia",
+      "views": 1,
+      "visits": 1,
+      "iso": "ID"
+    },
+    {
+      "name": "Italy",
+      "views": 1,
+      "visits": 1,
+      "iso": "IT"
+    },
+    {
+      "name": "Japan",
+      "views": 1,
+      "visits": 1,
+      "iso": "JP"
+    },
+    {
+      "name": "Jordan",
+      "views": 1,
+      "visits": 1,
+      "iso": "JO"
+    },
+    {
+      "name": "Malaysia",
+      "views": 1,
+      "visits": 1,
+      "iso": "MY"
+    },
+    {
+      "name": "Morocco",
+      "views": 1,
+      "visits": 1,
+      "iso": "MA"
+    },
+    {
       "name": "Viet Nam",
-      "views": 10,
-      "visits": 10,
+      "views": 1,
+      "visits": 1,
       "iso": "VN"
+    },
+    {
+      "name": "Finland",
+      "views": 1,
+      "visits": 0,
+      "iso": "FI"
+    },
+    {
+      "name": "Iran",
+      "views": 2,
+      "visits": 0,
+      "iso": "IR"
+    },
+    {
+      "name": "Saudi Arabia",
+      "views": 1,
+      "visits": 0,
+      "iso": "SA"
+    },
+    {
+      "name": "Switzerland",
+      "views": 1,
+      "visits": 0,
+      "iso": "CH"
     }
   ]
 }
