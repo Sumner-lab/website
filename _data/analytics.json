@@ -1,35 +1,35 @@
 {
   "connected": true,
-  "updated": "2026-10-17T20:40:46Z",
+  "updated": "2026-10-18T11:16:42Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 407,
-    "visits": 230
+    "views": 395,
+    "visits": 218
   },
-  "countries_7d": 25,
+  "countries_7d": 26,
   "top_countries_7d": [
     {
       "name": "Singapore",
       "views": 106,
-      "visits": 57,
+      "visits": 54,
       "iso": "SG"
     },
     {
-      "name": "China",
-      "views": 76,
-      "visits": 47,
-      "iso": "CN"
-    },
-    {
       "name": "United States of America",
-      "views": 47,
-      "visits": 39,
+      "views": 50,
+      "visits": 42,
       "iso": "US"
     },
     {
+      "name": "China",
+      "views": 64,
+      "visits": 35,
+      "iso": "CN"
+    },
+    {
       "name": "United Kingdom",
-      "views": 102,
-      "visits": 37,
+      "views": 95,
+      "visits": 34,
       "iso": "GB"
     },
     {
@@ -43,6 +43,12 @@
       "views": 3,
       "visits": 3,
       "iso": "NL"
+    },
+    {
+      "name": "Brazil",
+      "views": 2,
+      "visits": 2,
+      "iso": "BR"
     },
     {
       "name": "Canada",
@@ -69,16 +75,16 @@
       "iso": "TT"
     },
     {
+      "name": "Azerbaijan",
+      "views": 1,
+      "visits": 1,
+      "iso": "AZ"
+    },
+    {
       "name": "Bangladesh",
       "views": 1,
       "visits": 1,
       "iso": "BD"
-    },
-    {
-      "name": "Brazil",
-      "views": 1,
-      "visits": 1,
-      "iso": "BR"
     },
     {
       "name": "Cape Verde",
@@ -129,6 +135,12 @@
       "iso": "MA"
     },
     {
+      "name": "Spain",
+      "views": 4,
+      "visits": 1,
+      "iso": "ES"
+    },
+    {
       "name": "Viet Nam",
       "views": 1,
       "visits": 1,
@@ -139,12 +151,6 @@
       "views": 1,
       "visits": 0,
       "iso": "FI"
-    },
-    {
-      "name": "Iran",
-      "views": 2,
-      "visits": 0,
-      "iso": "IR"
     },
     {
       "name": "Saudi Arabia",

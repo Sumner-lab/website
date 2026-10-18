@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -65,15 +65,16 @@
     "2026-10-13",
     "2026-10-14",
     "2026-10-15",
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-17"
   ],
-  "pageviews": 5210,
-  "visits": 2464,
+  "pageviews": 5245,
+  "visits": 2485,
   "countries_count": 73,
   "top_pages": [
     {
       "path": "/",
-      "views": 731
+      "views": 740
     },
     {
       "path": "/people/",
@@ -81,7 +82,7 @@
     },
     {
       "path": "/updates/",
-      "views": 316
+      "views": 319
     },
     {
       "path": "/wasp-picnic-survey-2026/",
@@ -89,7 +90,7 @@
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 179
+      "views": 180
     },
     {
       "path": "/people/femi-e-benny/",
@@ -105,7 +106,7 @@
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 129
+      "views": 130
     },
     {
       "path": "/endless-forms/",
@@ -113,7 +114,7 @@
     },
     {
       "path": "/people/christopher-wyatt/",
-      "views": 107
+      "views": 108
     },
     {
       "path": "/contact/",
@@ -133,7 +134,7 @@
     },
     {
       "path": "/publications/",
-      "views": 76
+      "views": 77
     },
     {
       "path": "/website/",
@@ -153,7 +154,7 @@
     },
     {
       "path": "/people/alessandro-cini/",
-      "views": 63
+      "views": 64
     },
     {
       "path": "/people/caroline-chandler/",
@@ -161,7 +162,7 @@
     },
     {
       "path": "/research/genomics/",
-      "views": 57
+      "views": 59
     },
     {
       "path": "/people/emeline-favreau/",
@@ -173,7 +174,7 @@
     },
     {
       "path": "/people/iona-cunningham-eurich/",
-      "views": 51
+      "views": 52
     },
     {
       "path": "/people/fernando-duarte/",
@@ -188,15 +189,15 @@
       "views": 47
     },
     {
+      "path": "/people/romuald-tcheutchoua/",
+      "views": 46
+    },
+    {
       "path": "/research/ecology/",
       "views": 46
     },
     {
       "path": "/people/emily-bell/",
-      "views": 45
-    },
-    {
-      "path": "/people/romuald-tcheutchoua/",
       "views": 45
     },
     {
@@ -220,11 +221,11 @@
       "views": 36
     },
     {
-      "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
-      "views": 35
+      "path": "/wasplove-game/",
+      "views": 36
     },
     {
-      "path": "/wasplove-game/",
+      "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
       "views": 35
     },
     {
@@ -257,7 +258,7 @@
     },
     {
       "path": "/people/ryan-brock/",
-      "views": 23
+      "views": 25
     },
     {
       "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
@@ -304,6 +305,18 @@
       "views": 15
     },
     {
+      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
+      "views": 15
+    },
+    {
+      "path": "/daniel-altair-saureu-velasco-transcriptomics-of-caste-conflict-in-argentine-ants/",
+      "views": 14
+    },
+    {
+      "path": "/wasp-day-2023/",
+      "views": 14
+    },
+    {
       "path": "/website/articles/",
       "views": 14
     },
@@ -316,14 +329,6 @@
       "views": 14
     },
     {
-      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
-      "views": 14
-    },
-    {
-      "path": "/daniel-altair-saureu-velasco-transcriptomics-of-caste-conflict-in-argentine-ants/",
-      "views": 13
-    },
-    {
       "path": "/website/endless-forms/",
       "views": 13
     },
@@ -332,7 +337,11 @@
       "views": 12
     },
     {
-      "path": "/wasp-day-2023/",
+      "path": "/in2science-a-level-student-blog/",
+      "views": 12
+    },
+    {
+      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
       "views": 12
     },
     {
@@ -344,15 +353,7 @@
       "views": 11
     },
     {
-      "path": "/in2science-a-level-student-blog/",
-      "views": 11
-    },
-    {
       "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
-      "views": 11
-    },
-    {
-      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
       "views": 11
     },
     {
@@ -380,11 +381,19 @@
       "views": 9
     },
     {
+      "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
+      "views": 9
+    },
+    {
       "path": "/a-novel-method-of-assessing-dominance-hierarchies-shows-nuance-linearity-and-stability-in-the-dinosaur-ant-dinoponera-quadriceps/",
       "views": 8
     },
     {
       "path": "/citizen-science-for-the-win/",
+      "views": 8
+    },
+    {
+      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
       "views": 8
     },
     {
@@ -394,6 +403,10 @@
     {
       "path": "/website/publications/wider/",
       "views": 8
+    },
+    {
+      "path": "/david-blahout-pollination-syndromes-and-wasps-as-pollinators/",
+      "views": 7
     },
     {
       "path": "/how-do-identical-genomes-produce-phenotypic-and-behavioural-diversity/",
@@ -408,19 +421,11 @@
       "views": 7
     },
     {
-      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
-      "views": 7
-    },
-    {
       "path": "/new-paper-published-first-social-wasp-genome-and-more/",
       "views": 7
     },
     {
       "path": "/nextflow-summit-and-hackathon-barcelona-october-2022/",
-      "views": 7
-    },
-    {
-      "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
       "views": 7
     },
     {
@@ -445,10 +450,6 @@
     },
     {
       "path": "/cshl-conference-on-the-biology-genomics-of-social-insects-friends-by-cintia/",
-      "views": 6
-    },
-    {
-      "path": "/david-blahout-pollination-syndromes-and-wasps-as-pollinators/",
       "views": 6
     },
     {
@@ -488,6 +489,10 @@
       "views": 5
     },
     {
+      "path": "/losses-in-behavioural-plasticity-and-the-evolution-of-altruism/",
+      "views": 5
+    },
+    {
       "path": "/new-recruits-join-the-lab/",
       "views": 5
     },
@@ -502,10 +507,6 @@
     {
       "path": "/seirians-seminar-frenzy/",
       "views": 5
-    },
-    {
-      "path": "/losses-in-behavioural-plasticity-and-the-evolution-of-altruism/",
-      "views": 4
     },
     {
       "path": "/visit-collaborator-prof-fabio-nascimento-usp-brazil/",
@@ -603,32 +604,32 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1575,
-      "visits": 736,
+      "views": 1586,
+      "visits": 741,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 729,
-      "visits": 526,
+      "views": 736,
+      "visits": 533,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 744,
-      "visits": 486,
+      "views": 754,
+      "visits": 491,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1353,
-      "visits": 349,
+      "views": 1354,
+      "visits": 350,
       "iso": "GB"
     },
     {
       "name": "Brazil",
-      "views": 273,
-      "visits": 51,
+      "views": 274,
+      "visits": 52,
       "iso": "BR"
     },
     {
@@ -710,6 +711,12 @@
       "iso": "MX"
     },
     {
+      "name": "Spain",
+      "views": 11,
+      "visits": 6,
+      "iso": "ES"
+    },
+    {
       "name": "Russian Federation",
       "views": 13,
       "visits": 5,
@@ -720,12 +727,6 @@
       "views": 19,
       "visits": 5,
       "iso": "SA"
-    },
-    {
-      "name": "Spain",
-      "views": 7,
-      "visits": 5,
-      "iso": "ES"
     },
     {
       "name": "Malaysia",
@@ -768,6 +769,12 @@
       "views": 6,
       "visits": 3,
       "iso": "AU"
+    },
+    {
+      "name": "Azerbaijan",
+      "views": 3,
+      "visits": 3,
+      "iso": "AZ"
     },
     {
       "name": "Denmark",
@@ -816,12 +823,6 @@
       "views": 2,
       "visits": 2,
       "iso": "AR"
-    },
-    {
-      "name": "Azerbaijan",
-      "views": 2,
-      "visits": 2,
-      "iso": "AZ"
     },
     {
       "name": "Czech Republic",
@@ -1360,6 +1361,11 @@
       "date": "2026-10-16",
       "views": 77,
       "visits": 37
+    },
+    {
+      "date": "2026-10-17",
+      "views": 35,
+      "visits": 21
     }
   ]
 }
