@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -66,15 +66,16 @@
     "2026-10-14",
     "2026-10-15",
     "2026-10-16",
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-18"
   ],
-  "pageviews": 5245,
-  "visits": 2485,
+  "pageviews": 5270,
+  "visits": 2499,
   "countries_count": 73,
   "top_pages": [
     {
       "path": "/",
-      "views": 740
+      "views": 743
     },
     {
       "path": "/people/",
@@ -82,15 +83,15 @@
     },
     {
       "path": "/updates/",
-      "views": 319
+      "views": 321
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 234
+      "views": 235
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 180
+      "views": 181
     },
     {
       "path": "/people/femi-e-benny/",
@@ -98,7 +99,7 @@
     },
     {
       "path": "/research/",
-      "views": 152
+      "views": 153
     },
     {
       "path": "/media/",
@@ -114,11 +115,11 @@
     },
     {
       "path": "/people/christopher-wyatt/",
-      "views": 108
+      "views": 109
     },
     {
       "path": "/contact/",
-      "views": 102
+      "views": 103
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
@@ -126,11 +127,11 @@
     },
     {
       "path": "/science-communication/",
-      "views": 83
+      "views": 85
     },
     {
       "path": "/people/idris-adams/",
-      "views": 80
+      "views": 81
     },
     {
       "path": "/publications/",
@@ -154,7 +155,7 @@
     },
     {
       "path": "/people/alessandro-cini/",
-      "views": 64
+      "views": 65
     },
     {
       "path": "/people/caroline-chandler/",
@@ -162,11 +163,11 @@
     },
     {
       "path": "/research/genomics/",
-      "views": 59
+      "views": 60
     },
     {
       "path": "/people/emeline-favreau/",
-      "views": 53
+      "views": 56
     },
     {
       "path": "/people/daisy-taylor/",
@@ -177,16 +178,16 @@
       "views": 52
     },
     {
+      "path": "/research/evolution/",
+      "views": 50
+    },
+    {
       "path": "/people/fernando-duarte/",
       "views": 49
     },
     {
-      "path": "/research/evolution/",
-      "views": 49
-    },
-    {
       "path": "/people/owen-corbett/",
-      "views": 47
+      "views": 48
     },
     {
       "path": "/people/romuald-tcheutchoua/",
@@ -197,11 +198,11 @@
       "views": 46
     },
     {
-      "path": "/people/emily-bell/",
-      "views": 45
+      "path": "/where-hornets-are-queens/",
+      "views": 46
     },
     {
-      "path": "/where-hornets-are-queens/",
+      "path": "/people/emily-bell/",
       "views": 45
     },
     {
@@ -217,11 +218,11 @@
       "views": 39
     },
     {
-      "path": "/people/sandra-moreno/",
-      "views": 36
+      "path": "/wasplove-game/",
+      "views": 37
     },
     {
-      "path": "/wasplove-game/",
+      "path": "/people/sandra-moreno/",
       "views": 36
     },
     {
@@ -302,7 +303,7 @@
     },
     {
       "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
-      "views": 15
+      "views": 16
     },
     {
       "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
@@ -329,15 +330,15 @@
       "views": 14
     },
     {
+      "path": "/in2science-a-level-student-blog/",
+      "views": 13
+    },
+    {
       "path": "/website/endless-forms/",
       "views": 13
     },
     {
       "path": "/colony-size-predicts-division-of-labour-in-attine-ants/",
-      "views": 12
-    },
-    {
-      "path": "/in2science-a-level-student-blog/",
       "views": 12
     },
     {
@@ -397,6 +398,10 @@
       "views": 8
     },
     {
+      "path": "/wasps-matter/",
+      "views": 8
+    },
+    {
       "path": "/website/publications/",
       "views": 8
     },
@@ -430,10 +435,6 @@
     },
     {
       "path": "/sreya-magar-evolution-of-prey-selection-and-life-history-traits-in-sphecidae-wasps/",
-      "views": 7
-    },
-    {
-      "path": "/wasps-matter/",
       "views": 7
     },
     {
@@ -604,32 +605,32 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1586,
-      "visits": 741,
+      "views": 1587,
+      "visits": 742,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 736,
-      "visits": 533,
+      "views": 743,
+      "visits": 539,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 754,
-      "visits": 491,
+      "views": 762,
+      "visits": 495,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1354,
-      "visits": 350,
+      "views": 1362,
+      "visits": 352,
       "iso": "GB"
     },
     {
       "name": "Brazil",
-      "views": 274,
-      "visits": 52,
+      "views": 275,
+      "visits": 53,
       "iso": "BR"
     },
     {
@@ -1366,6 +1367,11 @@
       "date": "2026-10-17",
       "views": 35,
       "visits": 21
+    },
+    {
+      "date": "2026-10-18",
+      "views": 25,
+      "visits": 14
     }
   ]
 }
