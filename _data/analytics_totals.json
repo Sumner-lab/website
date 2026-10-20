@@ -72,7 +72,7 @@
   ],
   "pageviews": 5300,
   "visits": 2516,
-  "countries_count": 74,
+  "countries_count": 73,
   "top_pages": [
     {
       "path": "/",
@@ -1029,11 +1029,6 @@
       "views": 1,
       "visits": 0,
       "iso": "GH"
-    },
-    {
-      "name": "HK",
-      "views": 1,
-      "visits": 0
     },
     {
       "name": "Iran",
