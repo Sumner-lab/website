@@ -1,40 +1,40 @@
 {
   "connected": true,
-  "updated": "2026-10-19T22:25:19Z",
+  "updated": "2026-10-20T11:46:45Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 361,
-    "visits": 204
+    "views": 334,
+    "visits": 181
   },
-  "countries_7d": 23,
+  "countries_7d": 24,
   "top_countries_7d": [
     {
-      "name": "Singapore",
-      "views": 99,
-      "visits": 49,
-      "iso": "SG"
-    },
-    {
       "name": "United States of America",
-      "views": 53,
-      "visits": 46,
+      "views": 52,
+      "visits": 45,
       "iso": "US"
     },
     {
-      "name": "United Kingdom",
-      "views": 83,
-      "visits": 32,
-      "iso": "GB"
+      "name": "Singapore",
+      "views": 87,
+      "visits": 37,
+      "iso": "SG"
     },
     {
       "name": "China",
-      "views": 48,
-      "visits": 24,
+      "views": 52,
+      "visits": 28,
       "iso": "CN"
     },
     {
+      "name": "United Kingdom",
+      "views": 60,
+      "visits": 18,
+      "iso": "GB"
+    },
+    {
       "name": "India",
-      "views": 28,
+      "views": 30,
       "visits": 4,
       "iso": "IN"
     },
@@ -129,16 +129,21 @@
       "iso": "MY"
     },
     {
-      "name": "Morocco",
-      "views": 1,
+      "name": "Pakistan",
+      "views": 3,
       "visits": 1,
-      "iso": "MA"
+      "iso": "PK"
     },
     {
       "name": "Spain",
       "views": 4,
       "visits": 1,
       "iso": "ES"
+    },
+    {
+      "name": "HK",
+      "views": 1,
+      "visits": 0
     },
     {
       "name": "Switzerland",
