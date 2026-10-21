@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -68,31 +68,32 @@
     "2026-10-16",
     "2026-10-17",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
   ],
-  "pageviews": 5300,
-  "visits": 2516,
+  "pageviews": 5382,
+  "visits": 2565,
   "countries_count": 73,
   "top_pages": [
     {
       "path": "/",
-      "views": 750
+      "views": 760
     },
     {
       "path": "/people/",
-      "views": 395
+      "views": 399
     },
     {
       "path": "/updates/",
-      "views": 325
+      "views": 332
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 237
+      "views": 238
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 182
+      "views": 185
     },
     {
       "path": "/people/femi-e-benny/",
@@ -100,7 +101,7 @@
     },
     {
       "path": "/research/",
-      "views": 153
+      "views": 155
     },
     {
       "path": "/media/",
@@ -108,15 +109,15 @@
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 130
+      "views": 132
     },
     {
       "path": "/endless-forms/",
-      "views": 118
+      "views": 123
     },
     {
       "path": "/people/christopher-wyatt/",
-      "views": 109
+      "views": 110
     },
     {
       "path": "/contact/",
@@ -128,7 +129,7 @@
     },
     {
       "path": "/science-communication/",
-      "views": 85
+      "views": 88
     },
     {
       "path": "/people/idris-adams/",
@@ -143,12 +144,12 @@
       "views": 75
     },
     {
-      "path": "/people/benjamin-taylor/",
+      "path": "/big-wasp-survey/",
       "views": 74
     },
     {
-      "path": "/big-wasp-survey/",
-      "views": 71
+      "path": "/people/benjamin-taylor/",
+      "views": 74
     },
     {
       "path": "/people/sam-duckerin/",
@@ -156,19 +157,19 @@
     },
     {
       "path": "/people/alessandro-cini/",
-      "views": 65
+      "views": 66
+    },
+    {
+      "path": "/research/genomics/",
+      "views": 63
     },
     {
       "path": "/people/caroline-chandler/",
       "views": 60
     },
     {
-      "path": "/research/genomics/",
-      "views": 60
-    },
-    {
       "path": "/people/emeline-favreau/",
-      "views": 56
+      "views": 57
     },
     {
       "path": "/people/daisy-taylor/",
@@ -195,6 +196,10 @@
       "views": 48
     },
     {
+      "path": "/people/lewis-revely/",
+      "views": 47
+    },
+    {
       "path": "/research/ecology/",
       "views": 46
     },
@@ -207,11 +212,11 @@
       "views": 45
     },
     {
-      "path": "/people/lewis-revely/",
-      "views": 44
+      "path": "/people/adam-devenish/",
+      "views": 42
     },
     {
-      "path": "/people/adam-devenish/",
+      "path": "/wasplove-game/",
       "views": 42
     },
     {
@@ -219,12 +224,8 @@
       "views": 40
     },
     {
-      "path": "/wasplove-game/",
-      "views": 38
-    },
-    {
       "path": "/people/sandra-moreno/",
-      "views": 37
+      "views": 39
     },
     {
       "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
@@ -232,7 +233,7 @@
     },
     {
       "path": "/articles/",
-      "views": 33
+      "views": 34
     },
     {
       "path": "/website/people/",
@@ -271,16 +272,20 @@
       "views": 22
     },
     {
+      "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
+      "views": 22
+    },
+    {
+      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
+      "views": 21
+    },
+    {
       "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
       "views": 21
     },
     {
-      "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
-      "views": 19
-    },
-    {
-      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
-      "views": 18
+      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
+      "views": 20
     },
     {
       "path": "/numbers/",
@@ -299,16 +304,12 @@
       "views": 17
     },
     {
+      "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
+      "views": 17
+    },
+    {
       "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
       "views": 16
-    },
-    {
-      "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
-      "views": 16
-    },
-    {
-      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
-      "views": 15
     },
     {
       "path": "/daniel-altair-saureu-velasco-transcriptomics-of-caste-conflict-in-argentine-ants/",
@@ -340,6 +341,10 @@
     },
     {
       "path": "/colony-size-predicts-division-of-labour-in-attine-ants/",
+      "views": 12
+    },
+    {
+      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
       "views": 12
     },
     {
@@ -375,8 +380,20 @@
       "views": 10
     },
     {
+      "path": "/lessons-from-the-jungle/",
+      "views": 10
+    },
+    {
       "path": "/website/people/iona-cunningham-eurich/",
       "views": 10
+    },
+    {
+      "path": "/a-novel-method-of-assessing-dominance-hierarchies-shows-nuance-linearity-and-stability-in-the-dinosaur-ant-dinoponera-quadriceps/",
+      "views": 9
+    },
+    {
+      "path": "/nextflow-summit-and-hackathon-barcelona-october-2022/",
+      "views": 9
     },
     {
       "path": "/sampling-european-hornets/",
@@ -387,15 +404,15 @@
       "views": 9
     },
     {
-      "path": "/a-novel-method-of-assessing-dominance-hierarchies-shows-nuance-linearity-and-stability-in-the-dinosaur-ant-dinoponera-quadriceps/",
-      "views": 8
-    },
-    {
       "path": "/citizen-science-for-the-win/",
       "views": 8
     },
     {
-      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
+      "path": "/how-do-identical-genomes-produce-phenotypic-and-behavioural-diversity/",
+      "views": 8
+    },
+    {
+      "path": "/lucy-weatherley/",
       "views": 8
     },
     {
@@ -419,19 +436,11 @@
       "views": 7
     },
     {
-      "path": "/how-do-identical-genomes-produce-phenotypic-and-behavioural-diversity/",
-      "views": 7
-    },
-    {
       "path": "/kendra-edwards-global-social-wasp-distributions/",
       "views": 7
     },
     {
       "path": "/lonely-potter/",
-      "views": 7
-    },
-    {
-      "path": "/nextflow-summit-and-hackathon-barcelona-october-2022/",
       "views": 7
     },
     {
@@ -452,14 +461,6 @@
     },
     {
       "path": "/cshl-conference-on-the-biology-genomics-of-social-insects-friends-by-cintia/",
-      "views": 6
-    },
-    {
-      "path": "/lessons-from-the-jungle/",
-      "views": 6
-    },
-    {
-      "path": "/lucy-weatherley/",
       "views": 6
     },
     {
@@ -606,26 +607,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1591,
-      "visits": 746,
+      "views": 1651,
+      "visits": 784,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 748,
-      "visits": 544,
+      "views": 753,
+      "visits": 547,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 774,
-      "visits": 499,
+      "views": 781,
+      "visits": 502,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1364,
-      "visits": 354,
+      "views": 1369,
+      "visits": 358,
       "iso": "GB"
     },
     {
@@ -642,7 +643,7 @@
     },
     {
       "name": "India",
-      "views": 66,
+      "views": 68,
       "visits": 24,
       "iso": "IN"
     },
@@ -791,6 +792,12 @@
       "iso": "KE"
     },
     {
+      "name": "New Zealand",
+      "views": 12,
+      "visits": 3,
+      "iso": "NZ"
+    },
+    {
       "name": "Switzerland",
       "views": 8,
       "visits": 3,
@@ -849,12 +856,6 @@
       "views": 2,
       "visits": 2,
       "iso": "KZ"
-    },
-    {
-      "name": "New Zealand",
-      "views": 9,
-      "visits": 2,
-      "iso": "NZ"
     },
     {
       "name": "Poland",
@@ -1378,6 +1379,11 @@
       "date": "2026-10-19",
       "views": 30,
       "visits": 17
+    },
+    {
+      "date": "2026-10-20",
+      "views": 82,
+      "visits": 49
     }
   ]
 }

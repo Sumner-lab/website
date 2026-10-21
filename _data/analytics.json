@@ -1,17 +1,17 @@
 {
   "connected": true,
-  "updated": "2026-10-20T21:41:33Z",
+  "updated": "2026-10-21T11:58:37Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 334,
-    "visits": 181
+    "views": 356,
+    "visits": 190
   },
-  "countries_7d": 10,
+  "countries_7d": 9,
   "top_countries_7d": [
     {
       "name": "China",
-      "views": 90,
-      "visits": 50,
+      "views": 170,
+      "visits": 110,
       "iso": "CN"
     },
     {
@@ -22,27 +22,9 @@
     },
     {
       "name": "Singapore",
-      "views": 70,
+      "views": 80,
       "visits": 30,
       "iso": "SG"
-    },
-    {
-      "name": "United Kingdom",
-      "views": 50,
-      "visits": 20,
-      "iso": "GB"
-    },
-    {
-      "name": "India",
-      "views": 30,
-      "visits": 10,
-      "iso": "IN"
-    },
-    {
-      "name": "Italy",
-      "views": 10,
-      "visits": 10,
-      "iso": "IT"
     },
     {
       "name": "Malaysia",
@@ -61,6 +43,18 @@
       "views": 10,
       "visits": 10,
       "iso": "ES"
+    },
+    {
+      "name": "United Kingdom",
+      "views": 20,
+      "visits": 10,
+      "iso": "GB"
+    },
+    {
+      "name": "India",
+      "views": 20,
+      "visits": 0,
+      "iso": "IN"
     },
     {
       "name": "Switzerland",
