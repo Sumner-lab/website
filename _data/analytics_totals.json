@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -69,15 +69,16 @@
     "2026-10-17",
     "2026-10-18",
     "2026-10-19",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
   ],
-  "pageviews": 5382,
-  "visits": 2565,
+  "pageviews": 5439,
+  "visits": 2595,
   "countries_count": 73,
   "top_pages": [
     {
       "path": "/",
-      "views": 760
+      "views": 780
     },
     {
       "path": "/people/",
@@ -85,7 +86,7 @@
     },
     {
       "path": "/updates/",
-      "views": 332
+      "views": 352
     },
     {
       "path": "/wasp-picnic-survey-2026/",
@@ -120,12 +121,12 @@
       "views": 110
     },
     {
-      "path": "/contact/",
-      "views": 104
+      "path": "/people/alex-cerqueira-de-araujo/",
+      "views": 108
     },
     {
-      "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 98
+      "path": "/contact/",
+      "views": 104
     },
     {
       "path": "/science-communication/",
@@ -212,6 +213,10 @@
       "views": 45
     },
     {
+      "path": "/articles/",
+      "views": 44
+    },
+    {
       "path": "/people/adam-devenish/",
       "views": 42
     },
@@ -230,10 +235,6 @@
     {
       "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
       "views": 35
-    },
-    {
-      "path": "/articles/",
-      "views": 34
     },
     {
       "path": "/website/people/",
@@ -607,26 +608,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1651,
-      "visits": 784,
+      "views": 1664,
+      "visits": 794,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 753,
-      "visits": 547,
+      "views": 756,
+      "visits": 550,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 781,
-      "visits": 502,
+      "views": 793,
+      "visits": 508,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1369,
-      "visits": 358,
+      "views": 1376,
+      "visits": 363,
       "iso": "GB"
     },
     {
@@ -637,20 +638,20 @@
     },
     {
       "name": "Germany",
-      "views": 57,
-      "visits": 46,
+      "views": 68,
+      "visits": 47,
       "iso": "DE"
     },
     {
       "name": "India",
-      "views": 68,
-      "visits": 24,
+      "views": 69,
+      "visits": 25,
       "iso": "IN"
     },
     {
       "name": "Ireland",
-      "views": 19,
-      "visits": 19,
+      "views": 20,
+      "visits": 20,
       "iso": "IE"
     },
     {
@@ -672,6 +673,12 @@
       "iso": "IT"
     },
     {
+      "name": "Pakistan",
+      "views": 22,
+      "visits": 10,
+      "iso": "PK"
+    },
+    {
       "name": "Bangladesh",
       "views": 9,
       "visits": 9,
@@ -682,12 +689,6 @@
       "views": 16,
       "visits": 9,
       "iso": "CO"
-    },
-    {
-      "name": "Pakistan",
-      "views": 21,
-      "visits": 9,
-      "iso": "PK"
     },
     {
       "name": "South Africa",
@@ -732,6 +733,12 @@
       "iso": "SA"
     },
     {
+      "name": "Turkey",
+      "views": 10,
+      "visits": 5,
+      "iso": "TR"
+    },
+    {
       "name": "Malaysia",
       "views": 4,
       "visits": 4,
@@ -762,10 +769,10 @@
       "iso": "TH"
     },
     {
-      "name": "Turkey",
+      "name": "Trinidad and Tobago",
       "views": 4,
       "visits": 4,
-      "iso": "TR"
+      "iso": "TT"
     },
     {
       "name": "Australia",
@@ -802,12 +809,6 @@
       "views": 8,
       "visits": 3,
       "iso": "CH"
-    },
-    {
-      "name": "Trinidad and Tobago",
-      "views": 3,
-      "visits": 3,
-      "iso": "TT"
     },
     {
       "name": "Ukraine",
@@ -961,7 +962,7 @@
     },
     {
       "name": "Indonesia",
-      "views": 2,
+      "views": 3,
       "visits": 1,
       "iso": "ID"
     },
@@ -1384,6 +1385,11 @@
       "date": "2026-10-20",
       "views": 82,
       "visits": 49
+    },
+    {
+      "date": "2026-10-21",
+      "views": 57,
+      "visits": 30
     }
   ]
 }
