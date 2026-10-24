@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -71,23 +71,24 @@
     "2026-10-19",
     "2026-10-20",
     "2026-10-21",
-    "2026-10-22"
+    "2026-10-22",
+    "2026-10-23"
   ],
-  "pageviews": 5487,
-  "visits": 2619,
+  "pageviews": 5546,
+  "visits": 2649,
   "countries_count": 73,
   "top_pages": [
     {
       "path": "/",
-      "views": 791
+      "views": 801
     },
     {
       "path": "/people/",
-      "views": 402
+      "views": 405
     },
     {
       "path": "/updates/",
-      "views": 357
+      "views": 364
     },
     {
       "path": "/wasp-picnic-survey-2026/",
@@ -95,7 +96,7 @@
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 186
+      "views": 188
     },
     {
       "path": "/people/femi-e-benny/",
@@ -103,11 +104,11 @@
     },
     {
       "path": "/research/",
-      "views": 157
+      "views": 161
     },
     {
       "path": "/media/",
-      "views": 146
+      "views": 149
     },
     {
       "path": "/people/cintia-oi/",
@@ -119,19 +120,19 @@
     },
     {
       "path": "/people/christopher-wyatt/",
-      "views": 111
+      "views": 112
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 108
+      "views": 109
     },
     {
       "path": "/contact/",
-      "views": 104
+      "views": 105
     },
     {
       "path": "/science-communication/",
-      "views": 90
+      "views": 93
     },
     {
       "path": "/people/idris-adams/",
@@ -139,19 +140,19 @@
     },
     {
       "path": "/publications/",
-      "views": 79
+      "views": 80
+    },
+    {
+      "path": "/people/benjamin-taylor/",
+      "views": 78
+    },
+    {
+      "path": "/big-wasp-survey/",
+      "views": 75
     },
     {
       "path": "/website/",
       "views": 75
-    },
-    {
-      "path": "/big-wasp-survey/",
-      "views": 74
-    },
-    {
-      "path": "/people/benjamin-taylor/",
-      "views": 74
     },
     {
       "path": "/people/sam-duckerin/",
@@ -159,7 +160,7 @@
     },
     {
       "path": "/people/alessandro-cini/",
-      "views": 66
+      "views": 67
     },
     {
       "path": "/research/genomics/",
@@ -175,7 +176,7 @@
     },
     {
       "path": "/people/daisy-taylor/",
-      "views": 54
+      "views": 55
     },
     {
       "path": "/people/iona-cunningham-eurich/",
@@ -183,11 +184,15 @@
     },
     {
       "path": "/research/evolution/",
-      "views": 52
+      "views": 53
     },
     {
       "path": "/people/fernando-duarte/",
       "views": 49
+    },
+    {
+      "path": "/articles/",
+      "views": 48
     },
     {
       "path": "/people/owen-corbett/",
@@ -196,6 +201,10 @@
     {
       "path": "/people/romuald-tcheutchoua/",
       "views": 48
+    },
+    {
+      "path": "/people/emily-bell/",
+      "views": 47
     },
     {
       "path": "/people/lewis-revely/",
@@ -210,16 +219,8 @@
       "views": 46
     },
     {
-      "path": "/articles/",
-      "views": 45
-    },
-    {
-      "path": "/people/emily-bell/",
-      "views": 45
-    },
-    {
       "path": "/people/adam-devenish/",
-      "views": 42
+      "views": 44
     },
     {
       "path": "/wasplove-game/",
@@ -255,7 +256,7 @@
     },
     {
       "path": "/research/mechanisms/",
-      "views": 27
+      "views": 28
     },
     {
       "path": "/website/updates/",
@@ -294,11 +295,11 @@
       "views": 20
     },
     {
-      "path": "/numbers/",
-      "views": 18
+      "path": "/people/sam-morris/",
+      "views": 19
     },
     {
-      "path": "/people/sam-morris/",
+      "path": "/numbers/",
       "views": 18
     },
     {
@@ -338,6 +339,10 @@
       "views": 13
     },
     {
+      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
+      "views": 13
+    },
+    {
       "path": "/website/endless-forms/",
       "views": 13
     },
@@ -350,7 +355,7 @@
       "views": 12
     },
     {
-      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
+      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
       "views": 12
     },
     {
@@ -362,7 +367,7 @@
       "views": 12
     },
     {
-      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
+      "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
       "views": 11
     },
     {
@@ -372,6 +377,10 @@
     {
       "path": "/whats-the-point-of-wasps/",
       "views": 11
+    },
+    {
+      "path": "/a-novel-method-of-assessing-dominance-hierarchies-shows-nuance-linearity-and-stability-in-the-dinosaur-ant-dinoponera-quadriceps/",
+      "views": 10
     },
     {
       "path": "/from-brussels-sprouts-to-brachiosaurs-our-science-communication-isnt-always-about-wasps/",
@@ -390,10 +399,6 @@
       "views": 10
     },
     {
-      "path": "/a-novel-method-of-assessing-dominance-hierarchies-shows-nuance-linearity-and-stability-in-the-dinosaur-ant-dinoponera-quadriceps/",
-      "views": 9
-    },
-    {
       "path": "/how-do-identical-genomes-produce-phenotypic-and-behavioural-diversity/",
       "views": 9
     },
@@ -403,10 +408,6 @@
     },
     {
       "path": "/sampling-european-hornets/",
-      "views": 9
-    },
-    {
-      "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
       "views": 9
     },
     {
@@ -470,6 +471,10 @@
       "views": 6
     },
     {
+      "path": "/hoi-lam-daisy-choi-investigating-the-evolutionary-patterns-of-diets-and-predatory-wasps/",
+      "views": 6
+    },
+    {
       "path": "/new-paper-highlighted-in-genome-biology-and-evolution/",
       "views": 6
     },
@@ -479,10 +484,6 @@
     },
     {
       "path": "/extensive-local-gene-duplication-and-functional-divergence-among-paralogs-in-atlantic-salmon/",
-      "views": 5
-    },
-    {
-      "path": "/hoi-lam-daisy-choi-investigating-the-evolutionary-patterns-of-diets-and-predatory-wasps/",
       "views": 5
     },
     {
@@ -609,26 +610,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1680,
-      "visits": 804,
+      "views": 1683,
+      "visits": 807,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 760,
-      "visits": 551,
+      "views": 774,
+      "visits": 564,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 801,
-      "visits": 511,
+      "views": 815,
+      "visits": 518,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1387,
-      "visits": 370,
+      "views": 1411,
+      "visits": 375,
       "iso": "GB"
     },
     {
@@ -639,8 +640,8 @@
     },
     {
       "name": "Germany",
-      "views": 74,
-      "visits": 48,
+      "views": 76,
+      "visits": 49,
       "iso": "DE"
     },
     {
@@ -776,6 +777,12 @@
       "iso": "TT"
     },
     {
+      "name": "Argentina",
+      "views": 3,
+      "visits": 3,
+      "iso": "AR"
+    },
+    {
       "name": "Australia",
       "views": 6,
       "visits": 3,
@@ -830,12 +837,6 @@
       "iso": "DZ"
     },
     {
-      "name": "Argentina",
-      "views": 2,
-      "visits": 2,
-      "iso": "AR"
-    },
-    {
       "name": "Belgium",
       "views": 8,
       "visits": 2,
@@ -861,7 +862,7 @@
     },
     {
       "name": "Indonesia",
-      "views": 5,
+      "views": 6,
       "visits": 2,
       "iso": "ID"
     },
@@ -1396,6 +1397,11 @@
       "date": "2026-10-22",
       "views": 48,
       "visits": 24
+    },
+    {
+      "date": "2026-10-23",
+      "views": 59,
+      "visits": 30
     }
   ]
 }
