@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -72,23 +72,24 @@
     "2026-10-20",
     "2026-10-21",
     "2026-10-22",
-    "2026-10-23"
+    "2026-10-23",
+    "2026-10-24"
   ],
-  "pageviews": 5546,
-  "visits": 2649,
-  "countries_count": 73,
+  "pageviews": 5588,
+  "visits": 2674,
+  "countries_count": 74,
   "top_pages": [
     {
       "path": "/",
-      "views": 801
+      "views": 812
     },
     {
       "path": "/people/",
-      "views": 405
+      "views": 407
     },
     {
       "path": "/updates/",
-      "views": 364
+      "views": 370
     },
     {
       "path": "/wasp-picnic-survey-2026/",
@@ -104,7 +105,7 @@
     },
     {
       "path": "/research/",
-      "views": 161
+      "views": 162
     },
     {
       "path": "/media/",
@@ -124,11 +125,11 @@
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 109
+      "views": 111
     },
     {
       "path": "/contact/",
-      "views": 105
+      "views": 107
     },
     {
       "path": "/science-communication/",
@@ -140,11 +141,11 @@
     },
     {
       "path": "/publications/",
-      "views": 80
+      "views": 83
     },
     {
       "path": "/people/benjamin-taylor/",
-      "views": 78
+      "views": 79
     },
     {
       "path": "/big-wasp-survey/",
@@ -164,7 +165,7 @@
     },
     {
       "path": "/research/genomics/",
-      "views": 63
+      "views": 64
     },
     {
       "path": "/people/caroline-chandler/",
@@ -172,19 +173,23 @@
     },
     {
       "path": "/people/emeline-favreau/",
-      "views": 57
+      "views": 58
     },
     {
       "path": "/people/daisy-taylor/",
-      "views": 55
+      "views": 57
     },
     {
       "path": "/people/iona-cunningham-eurich/",
-      "views": 54
+      "views": 55
     },
     {
       "path": "/research/evolution/",
       "views": 53
+    },
+    {
+      "path": "/people/emily-bell/",
+      "views": 49
     },
     {
       "path": "/people/fernando-duarte/",
@@ -192,6 +197,10 @@
     },
     {
       "path": "/articles/",
+      "views": 48
+    },
+    {
+      "path": "/people/lewis-revely/",
       "views": 48
     },
     {
@@ -203,12 +212,8 @@
       "views": 48
     },
     {
-      "path": "/people/emily-bell/",
-      "views": 47
-    },
-    {
-      "path": "/people/lewis-revely/",
-      "views": 47
+      "path": "/people/adam-devenish/",
+      "views": 46
     },
     {
       "path": "/research/ecology/",
@@ -217,10 +222,6 @@
     {
       "path": "/where-hornets-are-queens/",
       "views": 46
-    },
-    {
-      "path": "/people/adam-devenish/",
-      "views": 44
     },
     {
       "path": "/wasplove-game/",
@@ -239,12 +240,12 @@
       "views": 35
     },
     {
-      "path": "/website/people/",
+      "path": "/people/patrick-kennedy/",
       "views": 32
     },
     {
-      "path": "/people/patrick-kennedy/",
-      "views": 31
+      "path": "/website/people/",
+      "views": 32
     },
     {
       "path": "/billy-easeman-parasitoid-wasps/",
@@ -252,7 +253,7 @@
     },
     {
       "path": "/soapbox-science/",
-      "views": 29
+      "views": 30
     },
     {
       "path": "/research/mechanisms/",
@@ -267,6 +268,10 @@
       "views": 25
     },
     {
+      "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
+      "views": 23
+    },
+    {
       "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
       "views": 23
     },
@@ -275,16 +280,12 @@
       "views": 22
     },
     {
-      "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
+      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
       "views": 22
     },
     {
       "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
       "views": 22
-    },
-    {
-      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
-      "views": 21
     },
     {
       "path": "/publications/wider/",
@@ -610,26 +611,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1683,
-      "visits": 807,
+      "views": 1708,
+      "visits": 822,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 774,
-      "visits": 564,
+      "views": 775,
+      "visits": 565,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 815,
-      "visits": 518,
+      "views": 822,
+      "visits": 523,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1411,
-      "visits": 375,
+      "views": 1419,
+      "visits": 379,
       "iso": "GB"
     },
     {
@@ -1029,6 +1030,11 @@
       "iso": "CM"
     },
     {
+      "name": "FR",
+      "views": 1,
+      "visits": 0
+    },
+    {
       "name": "Ghana",
       "views": 1,
       "visits": 0,
@@ -1402,6 +1408,11 @@
       "date": "2026-10-23",
       "views": 59,
       "visits": 30
+    },
+    {
+      "date": "2026-10-24",
+      "views": 42,
+      "visits": 25
     }
   ]
 }
