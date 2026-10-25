@@ -77,7 +77,7 @@
   ],
   "pageviews": 5588,
   "visits": 2674,
-  "countries_count": 74,
+  "countries_count": 73,
   "top_pages": [
     {
       "path": "/",
@@ -1028,11 +1028,6 @@
       "views": 1,
       "visits": 0,
       "iso": "CM"
-    },
-    {
-      "name": "FR",
-      "views": 1,
-      "visits": 0
     },
     {
       "name": "Ghana",
