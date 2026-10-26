@@ -1,9 +1,117 @@
 {
-  "updated": "2026-09-28T14:10:59Z",
+  "updated": "2026-10-26T13:18:53Z",
   "name": "Christopher Wyatt",
   "orcid": "0000-0001-8033-2213",
   "profile_url": "https://orcid.org/0000-0001-8033-2213",
   "publications": [
+    {
+      "doi": "10.64898/2026.10.16.759595",
+      "url": "https://doi.org/10.64898/2026.10.16.759595",
+      "title": "Chromosome-level genome and caste transcriptomes for Africa's most widespread social wasp (Belonogaster juncea) reveal unexpected genomic diversity",
+      "journal": "bioRxiv",
+      "year": 2026,
+      "date": "2026-10-18",
+      "authors": [
+        {
+          "name": "Wyatt CDR",
+          "lab_member": true
+        },
+        {
+          "name": "Favreau E",
+          "lab_member": true
+        },
+        {
+          "name": "Geist K",
+          "lab_member": false
+        },
+        {
+          "name": "Masonbrink RE",
+          "lab_member": false
+        },
+        {
+          "name": "Duarte F",
+          "lab_member": true
+        },
+        {
+          "name": "Oi CA",
+          "lab_member": true
+        },
+        {
+          "name": "Taylor BA",
+          "lab_member": true
+        },
+        {
+          "name": "Tcheutchoua R",
+          "lab_member": true
+        },
+        {
+          "name": "Kapmegne S",
+          "lab_member": false
+        },
+        {
+          "name": "Cerqueira De Araujo A",
+          "lab_member": true
+        },
+        {
+          "name": "Tindo M",
+          "lab_member": false
+        },
+        {
+          "name": "Masse PS",
+          "lab_member": false
+        },
+        {
+          "name": "Kennedy P",
+          "lab_member": true
+        },
+        {
+          "name": "Toth A",
+          "lab_member": false
+        },
+        {
+          "name": "Rehan S",
+          "lab_member": false
+        },
+        {
+          "name": "Sumner S",
+          "lab_member": true
+        }
+      ]
+    },
+    {
+      "doi": "10.64898/2026.09.25.754512",
+      "url": "https://doi.org/10.64898/2026.09.25.754512",
+      "title": "EXCON: a scalable, reproducible Nextflow pipeline for CAFE-based gene EXpansion and CONtraction analysis",
+      "journal": "bioRxiv",
+      "year": 2026,
+      "date": "2026-10-01",
+      "authors": [
+        {
+          "name": "Wyatt C",
+          "lab_member": true
+        },
+        {
+          "name": "Duarte F",
+          "lab_member": true
+        },
+        {
+          "name": "Cerqueira De Araujo A",
+          "lab_member": true
+        },
+        {
+          "name": "Murray S",
+          "lab_member": false
+        },
+        {
+          "name": "Oi C",
+          "lab_member": true
+        },
+        {
+          "name": "Sumner S",
+          "lab_member": true
+        }
+      ]
+    },
     {
       "doi": "10.64898/2026.08.20.745971",
       "url": "https://doi.org/10.64898/2026.08.20.745971",
