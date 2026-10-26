@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -73,43 +73,44 @@
     "2026-10-21",
     "2026-10-22",
     "2026-10-23",
-    "2026-10-24"
+    "2026-10-24",
+    "2026-10-25"
   ],
-  "pageviews": 5588,
-  "visits": 2674,
-  "countries_count": 73,
+  "pageviews": 5665,
+  "visits": 2713,
+  "countries_count": 75,
   "top_pages": [
     {
       "path": "/",
-      "views": 812
+      "views": 821
     },
     {
       "path": "/people/",
-      "views": 407
+      "views": 414
     },
     {
       "path": "/updates/",
-      "views": 370
+      "views": 378
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 238
+      "views": 239
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 188
+      "views": 191
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 173
+      "views": 174
     },
     {
       "path": "/research/",
-      "views": 162
+      "views": 167
     },
     {
       "path": "/media/",
-      "views": 149
+      "views": 154
     },
     {
       "path": "/people/cintia-oi/",
@@ -117,15 +118,15 @@
     },
     {
       "path": "/endless-forms/",
-      "views": 129
+      "views": 130
+    },
+    {
+      "path": "/people/alex-cerqueira-de-araujo/",
+      "views": 112
     },
     {
       "path": "/people/christopher-wyatt/",
       "views": 112
-    },
-    {
-      "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 111
     },
     {
       "path": "/contact/",
@@ -133,15 +134,15 @@
     },
     {
       "path": "/science-communication/",
-      "views": 93
-    },
-    {
-      "path": "/people/idris-adams/",
-      "views": 83
+      "views": 95
     },
     {
       "path": "/publications/",
-      "views": 83
+      "views": 87
+    },
+    {
+      "path": "/people/idris-adams/",
+      "views": 84
     },
     {
       "path": "/people/benjamin-taylor/",
@@ -156,12 +157,12 @@
       "views": 75
     },
     {
-      "path": "/people/sam-duckerin/",
+      "path": "/people/alessandro-cini/",
       "views": 68
     },
     {
-      "path": "/people/alessandro-cini/",
-      "views": 67
+      "path": "/people/sam-duckerin/",
+      "views": 68
     },
     {
       "path": "/research/genomics/",
@@ -173,7 +174,7 @@
     },
     {
       "path": "/people/emeline-favreau/",
-      "views": 58
+      "views": 59
     },
     {
       "path": "/people/daisy-taylor/",
@@ -185,10 +186,18 @@
     },
     {
       "path": "/research/evolution/",
+      "views": 54
+    },
+    {
+      "path": "/people/romuald-tcheutchoua/",
       "views": 53
     },
     {
       "path": "/people/emily-bell/",
+      "views": 50
+    },
+    {
+      "path": "/articles/",
       "views": 49
     },
     {
@@ -196,36 +205,28 @@
       "views": 49
     },
     {
-      "path": "/articles/",
-      "views": 48
+      "path": "/people/owen-corbett/",
+      "views": 49
     },
     {
       "path": "/people/lewis-revely/",
       "views": 48
     },
     {
-      "path": "/people/owen-corbett/",
+      "path": "/research/ecology/",
       "views": 48
     },
     {
-      "path": "/people/romuald-tcheutchoua/",
-      "views": 48
+      "path": "/wasplove-game/",
+      "views": 47
     },
     {
       "path": "/people/adam-devenish/",
       "views": 46
     },
     {
-      "path": "/research/ecology/",
-      "views": 46
-    },
-    {
       "path": "/where-hornets-are-queens/",
       "views": 46
-    },
-    {
-      "path": "/wasplove-game/",
-      "views": 42
     },
     {
       "path": "/people/robin-southon/",
@@ -237,7 +238,7 @@
     },
     {
       "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
-      "views": 35
+      "views": 36
     },
     {
       "path": "/people/patrick-kennedy/",
@@ -269,7 +270,7 @@
     },
     {
       "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
-      "views": 23
+      "views": 24
     },
     {
       "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
@@ -289,6 +290,10 @@
     },
     {
       "path": "/publications/wider/",
+      "views": 20
+    },
+    {
+      "path": "/wasp-day-2023/",
       "views": 20
     },
     {
@@ -316,10 +321,6 @@
       "views": 16
     },
     {
-      "path": "/wasp-day-2023/",
-      "views": 15
-    },
-    {
       "path": "/daniel-altair-saureu-velasco-transcriptomics-of-caste-conflict-in-argentine-ants/",
       "views": 14
     },
@@ -344,6 +345,10 @@
       "views": 13
     },
     {
+      "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
+      "views": 13
+    },
+    {
       "path": "/website/endless-forms/",
       "views": 13
     },
@@ -360,16 +365,12 @@
       "views": 12
     },
     {
-      "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
+      "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
       "views": 12
     },
     {
       "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
       "views": 12
-    },
-    {
-      "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
-      "views": 11
     },
     {
       "path": "/website/numbers/",
@@ -388,6 +389,10 @@
       "views": 10
     },
     {
+      "path": "/how-do-identical-genomes-produce-phenotypic-and-behavioural-diversity/",
+      "views": 10
+    },
+    {
       "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
       "views": 10
     },
@@ -400,15 +405,15 @@
       "views": 10
     },
     {
-      "path": "/how-do-identical-genomes-produce-phenotypic-and-behavioural-diversity/",
-      "views": 9
-    },
-    {
       "path": "/nextflow-summit-and-hackathon-barcelona-october-2022/",
       "views": 9
     },
     {
       "path": "/sampling-european-hornets/",
+      "views": 9
+    },
+    {
+      "path": "/wasps-matter/",
       "views": 9
     },
     {
@@ -421,10 +426,6 @@
     },
     {
       "path": "/new-paper-published-first-social-wasp-genome-and-more/",
-      "views": 8
-    },
-    {
-      "path": "/wasps-matter/",
       "views": 8
     },
     {
@@ -611,26 +612,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1708,
-      "visits": 822,
+      "views": 1723,
+      "visits": 834,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 775,
-      "visits": 565,
+      "views": 815,
+      "visits": 583,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 822,
-      "visits": 523,
+      "views": 830,
+      "visits": 526,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1419,
-      "visits": 379,
+      "views": 1426,
+      "visits": 381,
       "iso": "GB"
     },
     {
@@ -653,8 +654,8 @@
     },
     {
       "name": "Ireland",
-      "views": 20,
-      "visits": 20,
+      "views": 21,
+      "visits": 21,
       "iso": "IE"
     },
     {
@@ -796,6 +797,12 @@
       "iso": "AZ"
     },
     {
+      "name": "Belgium",
+      "views": 11,
+      "visits": 3,
+      "iso": "BE"
+    },
+    {
       "name": "Denmark",
       "views": 3,
       "visits": 3,
@@ -836,12 +843,6 @@
       "views": 2,
       "visits": 2,
       "iso": "DZ"
-    },
-    {
-      "name": "Belgium",
-      "views": 8,
-      "visits": 2,
-      "iso": "BE"
     },
     {
       "name": "Czech Republic",
@@ -970,6 +971,12 @@
       "iso": "GT"
     },
     {
+      "name": "Iceland",
+      "views": 2,
+      "visits": 1,
+      "iso": "IS"
+    },
+    {
       "name": "Iraq",
       "views": 2,
       "visits": 1,
@@ -1010,6 +1017,12 @@
       "views": 1,
       "visits": 1,
       "iso": "SK"
+    },
+    {
+      "name": "Slovenia",
+      "views": 1,
+      "visits": 1,
+      "iso": "SI"
     },
     {
       "name": "Sweden",
@@ -1408,6 +1421,11 @@
       "date": "2026-10-24",
       "views": 42,
       "visits": 25
+    },
+    {
+      "date": "2026-10-25",
+      "views": 77,
+      "visits": 39
     }
   ]
 }

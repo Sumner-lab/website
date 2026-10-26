@@ -1,112 +1,54 @@
 {
   "connected": true,
-  "updated": "2026-10-25T20:56:18Z",
+  "updated": "2026-10-26T13:13:24Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 343,
-    "visits": 189
+    "views": 395,
+    "visits": 214
   },
-  "countries_7d": 17,
+  "countries_7d": 7,
   "top_countries_7d": [
     {
       "name": "China",
-      "views": 122,
-      "visits": 81,
+      "views": 150,
+      "visits": 120,
       "iso": "CN"
     },
     {
-      "name": "Singapore",
-      "views": 68,
-      "visits": 32,
-      "iso": "SG"
-    },
-    {
       "name": "United States of America",
-      "views": 39,
-      "visits": 32,
+      "views": 70,
+      "visits": 50,
       "iso": "US"
     },
     {
+      "name": "Singapore",
+      "views": 80,
+      "visits": 40,
+      "iso": "SG"
+    },
+    {
+      "name": "Ireland",
+      "views": 10,
+      "visits": 10,
+      "iso": "IE"
+    },
+    {
       "name": "United Kingdom",
-      "views": 65,
-      "visits": 29,
+      "views": 30,
+      "visits": 10,
       "iso": "GB"
     },
     {
       "name": "Germany",
-      "views": 19,
-      "visits": 3,
+      "views": 30,
+      "visits": 0,
       "iso": "DE"
     },
     {
-      "name": "India",
-      "views": 6,
-      "visits": 2,
-      "iso": "IN"
-    },
-    {
-      "name": "Pakistan",
-      "views": 4,
-      "visits": 2,
-      "iso": "PK"
-    },
-    {
-      "name": "Argentina",
-      "views": 1,
-      "visits": 1,
-      "iso": "AR"
-    },
-    {
-      "name": "Belgium",
-      "views": 1,
-      "visits": 1,
-      "iso": "BE"
-    },
-    {
-      "name": "Brazil",
-      "views": 1,
-      "visits": 1,
-      "iso": "BR"
-    },
-    {
-      "name": "Indonesia",
-      "views": 4,
-      "visits": 1,
-      "iso": "ID"
-    },
-    {
-      "name": "Ireland",
-      "views": 1,
-      "visits": 1,
-      "iso": "IE"
-    },
-    {
-      "name": "New Zealand",
-      "views": 3,
-      "visits": 1,
-      "iso": "NZ"
-    },
-    {
-      "name": "Trinidad and Tobago",
-      "views": 1,
-      "visits": 1,
-      "iso": "TT"
-    },
-    {
       "name": "Turkey",
-      "views": 6,
-      "visits": 1,
+      "views": 10,
+      "visits": 0,
       "iso": "TR"
-    },
-    {
-      "name": "FR",
-      "views": 1,
-      "visits": 0
-    },
-    {
-      "name": "HK",
-      "views": 1,
-      "visits": 0
     }
   ]
 }
