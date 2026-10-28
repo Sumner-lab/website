@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -75,15 +75,16 @@
     "2026-10-23",
     "2026-10-24",
     "2026-10-25",
-    "2026-10-26"
+    "2026-10-26",
+    "2026-10-27"
   ],
-  "pageviews": 5723,
-  "visits": 2741,
-  "countries_count": 76,
+  "pageviews": 5758,
+  "visits": 2754,
+  "countries_count": 78,
   "top_pages": [
     {
       "path": "/",
-      "views": 830
+      "views": 837
     },
     {
       "path": "/people/",
@@ -91,11 +92,11 @@
     },
     {
       "path": "/updates/",
-      "views": 386
+      "views": 390
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 240
+      "views": 241
     },
     {
       "path": "/people/seirian-sumner/",
@@ -107,7 +108,7 @@
     },
     {
       "path": "/research/",
-      "views": 167
+      "views": 170
     },
     {
       "path": "/media/",
@@ -115,7 +116,7 @@
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 132
+      "views": 135
     },
     {
       "path": "/endless-forms/",
@@ -123,11 +124,11 @@
     },
     {
       "path": "/people/christopher-wyatt/",
-      "views": 113
+      "views": 114
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 112
+      "views": 113
     },
     {
       "path": "/contact/",
@@ -135,7 +136,7 @@
     },
     {
       "path": "/science-communication/",
-      "views": 95
+      "views": 96
     },
     {
       "path": "/publications/",
@@ -147,11 +148,11 @@
     },
     {
       "path": "/people/benjamin-taylor/",
-      "views": 79
+      "views": 80
     },
     {
       "path": "/big-wasp-survey/",
-      "views": 76
+      "views": 78
     },
     {
       "path": "/website/",
@@ -174,28 +175,28 @@
       "views": 61
     },
     {
+      "path": "/people/daisy-taylor/",
+      "views": 59
+    },
+    {
       "path": "/people/emeline-favreau/",
       "views": 59
     },
     {
-      "path": "/people/daisy-taylor/",
-      "views": 58
+      "path": "/people/romuald-tcheutchoua/",
+      "views": 57
+    },
+    {
+      "path": "/articles/",
+      "views": 56
     },
     {
       "path": "/people/iona-cunningham-eurich/",
       "views": 55
     },
     {
-      "path": "/people/romuald-tcheutchoua/",
-      "views": 55
-    },
-    {
       "path": "/research/evolution/",
       "views": 54
-    },
-    {
-      "path": "/articles/",
-      "views": 53
     },
     {
       "path": "/people/emily-bell/",
@@ -231,7 +232,7 @@
     },
     {
       "path": "/people/robin-southon/",
-      "views": 40
+      "views": 41
     },
     {
       "path": "/people/sandra-moreno/",
@@ -246,15 +247,15 @@
       "views": 32
     },
     {
+      "path": "/soapbox-science/",
+      "views": 32
+    },
+    {
       "path": "/website/people/",
       "views": 32
     },
     {
       "path": "/billy-easeman-parasitoid-wasps/",
-      "views": 31
-    },
-    {
-      "path": "/soapbox-science/",
       "views": 31
     },
     {
@@ -326,6 +327,10 @@
       "views": 15
     },
     {
+      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
+      "views": 14
+    },
+    {
       "path": "/website/articles/",
       "views": 14
     },
@@ -351,10 +356,6 @@
     },
     {
       "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
-      "views": 13
-    },
-    {
-      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
       "views": 13
     },
     {
@@ -438,6 +439,10 @@
       "views": 8
     },
     {
+      "path": "/cshl-conference-on-the-biology-genomics-of-social-insects-friends-by-cintia/",
+      "views": 7
+    },
+    {
       "path": "/david-blahout-pollination-syndromes-and-wasps-as-pollinators/",
       "views": 7
     },
@@ -467,10 +472,6 @@
     },
     {
       "path": "/congratulations-dr-lewis-revely/",
-      "views": 6
-    },
-    {
-      "path": "/cshl-conference-on-the-biology-genomics-of-social-insects-friends-by-cintia/",
       "views": 6
     },
     {
@@ -582,6 +583,10 @@
       "views": 1
     },
     {
+      "path": "/people/caroline-chandler",
+      "views": 1
+    },
+    {
       "path": "/people/sandra-moreno",
       "views": 1
     },
@@ -613,26 +618,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1735,
-      "visits": 843,
+      "views": 1737,
+      "visits": 845,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 823,
-      "visits": 589,
+      "views": 827,
+      "visits": 593,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 847,
-      "visits": 531,
+      "views": 851,
+      "visits": 532,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1432,
-      "visits": 384,
+      "views": 1448,
+      "visits": 386,
       "iso": "GB"
     },
     {
@@ -643,7 +648,7 @@
     },
     {
       "name": "Germany",
-      "views": 79,
+      "views": 82,
       "visits": 49,
       "iso": "DE"
     },
@@ -678,16 +683,16 @@
       "iso": "IT"
     },
     {
+      "name": "Bangladesh",
+      "views": 10,
+      "visits": 10,
+      "iso": "BD"
+    },
+    {
       "name": "Pakistan",
       "views": 22,
       "visits": 10,
       "iso": "PK"
-    },
-    {
-      "name": "Bangladesh",
-      "views": 9,
-      "visits": 9,
-      "iso": "BD"
     },
     {
       "name": "Colombia",
@@ -744,6 +749,12 @@
       "iso": "TR"
     },
     {
+      "name": "Belgium",
+      "views": 12,
+      "visits": 4,
+      "iso": "BE"
+    },
+    {
       "name": "Malaysia",
       "views": 4,
       "visits": 4,
@@ -796,12 +807,6 @@
       "views": 3,
       "visits": 3,
       "iso": "AZ"
-    },
-    {
-      "name": "Belgium",
-      "views": 11,
-      "visits": 3,
-      "iso": "BE"
     },
     {
       "name": "Denmark",
@@ -870,6 +875,12 @@
       "iso": "FI"
     },
     {
+      "name": "Greece",
+      "views": 2,
+      "visits": 2,
+      "iso": "GR"
+    },
+    {
       "name": "Hungary",
       "views": 2,
       "visits": 2,
@@ -877,7 +888,7 @@
     },
     {
       "name": "Indonesia",
-      "views": 6,
+      "views": 7,
       "visits": 2,
       "iso": "ID"
     },
@@ -966,12 +977,6 @@
       "iso": "ET"
     },
     {
-      "name": "Greece",
-      "views": 1,
-      "visits": 1,
-      "iso": "GR"
-    },
-    {
       "name": "Guatemala",
       "views": 1,
       "visits": 1,
@@ -1020,6 +1025,12 @@
       "iso": "PA"
     },
     {
+      "name": "Peru",
+      "views": 1,
+      "visits": 1,
+      "iso": "PE"
+    },
+    {
       "name": "Slovakia",
       "views": 1,
       "visits": 1,
@@ -1054,6 +1065,11 @@
       "views": 1,
       "visits": 0,
       "iso": "GH"
+    },
+    {
+      "name": "HK",
+      "views": 1,
+      "visits": 0
     },
     {
       "name": "Iran",
@@ -1438,6 +1454,11 @@
       "date": "2026-10-26",
       "views": 58,
       "visits": 28
+    },
+    {
+      "date": "2026-10-27",
+      "views": 35,
+      "visits": 13
     }
   ]
 }
