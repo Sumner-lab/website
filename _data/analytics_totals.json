@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -76,51 +76,52 @@
     "2026-10-24",
     "2026-10-25",
     "2026-10-26",
-    "2026-10-27"
+    "2026-10-27",
+    "2026-10-28"
   ],
-  "pageviews": 5758,
-  "visits": 2754,
-  "countries_count": 77,
+  "pageviews": 5845,
+  "visits": 2816,
+  "countries_count": 78,
   "top_pages": [
     {
       "path": "/",
-      "views": 837
+      "views": 853
     },
     {
       "path": "/people/",
-      "views": 422
+      "views": 426
     },
     {
       "path": "/updates/",
-      "views": 390
+      "views": 396
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 241
+      "views": 244
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 195
+      "views": 196
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 174
+      "views": 176
     },
     {
       "path": "/research/",
-      "views": 170
+      "views": 172
     },
     {
       "path": "/media/",
-      "views": 155
+      "views": 156
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 135
+      "views": 136
     },
     {
       "path": "/endless-forms/",
-      "views": 131
+      "views": 132
     },
     {
       "path": "/people/christopher-wyatt/",
@@ -132,23 +133,23 @@
     },
     {
       "path": "/contact/",
-      "views": 107
+      "views": 110
     },
     {
       "path": "/science-communication/",
-      "views": 96
+      "views": 97
     },
     {
       "path": "/publications/",
-      "views": 88
+      "views": 90
     },
     {
       "path": "/people/idris-adams/",
-      "views": 84
+      "views": 87
     },
     {
       "path": "/people/benjamin-taylor/",
-      "views": 80
+      "views": 81
     },
     {
       "path": "/big-wasp-survey/",
@@ -175,6 +176,10 @@
       "views": 61
     },
     {
+      "path": "/articles/",
+      "views": 59
+    },
+    {
       "path": "/people/daisy-taylor/",
       "views": 59
     },
@@ -184,11 +189,7 @@
     },
     {
       "path": "/people/romuald-tcheutchoua/",
-      "views": 57
-    },
-    {
-      "path": "/articles/",
-      "views": 56
+      "views": 59
     },
     {
       "path": "/people/iona-cunningham-eurich/",
@@ -203,11 +204,11 @@
       "views": 50
     },
     {
-      "path": "/people/fernando-duarte/",
-      "views": 49
+      "path": "/people/owen-corbett/",
+      "views": 50
     },
     {
-      "path": "/people/owen-corbett/",
+      "path": "/people/fernando-duarte/",
       "views": 49
     },
     {
@@ -228,7 +229,7 @@
     },
     {
       "path": "/where-hornets-are-queens/",
-      "views": 46
+      "views": 47
     },
     {
       "path": "/people/robin-southon/",
@@ -236,18 +237,18 @@
     },
     {
       "path": "/people/sandra-moreno/",
-      "views": 39
+      "views": 40
     },
     {
       "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
-      "views": 36
-    },
-    {
-      "path": "/people/patrick-kennedy/",
-      "views": 32
+      "views": 39
     },
     {
       "path": "/soapbox-science/",
+      "views": 33
+    },
+    {
+      "path": "/people/patrick-kennedy/",
       "views": 32
     },
     {
@@ -271,11 +272,19 @@
       "views": 26
     },
     {
+      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
+      "views": 26
+    },
+    {
       "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
       "views": 24
     },
     {
-      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
+      "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
+      "views": 24
+    },
+    {
+      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
       "views": 23
     },
     {
@@ -283,28 +292,24 @@
       "views": 22
     },
     {
-      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
-      "views": 22
-    },
-    {
-      "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
-      "views": 22
-    },
-    {
       "path": "/wasp-day-2023/",
       "views": 22
+    },
+    {
+      "path": "/publications/wider/",
+      "views": 21
     },
     {
       "path": "/people/sam-morris/",
       "views": 20
     },
     {
-      "path": "/publications/wider/",
+      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
       "views": 20
     },
     {
-      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
-      "views": 20
+      "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
+      "views": 19
     },
     {
       "path": "/numbers/",
@@ -315,16 +320,16 @@
       "views": 17
     },
     {
-      "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
-      "views": 17
+      "path": "/daniel-altair-saureu-velasco-transcriptomics-of-caste-conflict-in-argentine-ants/",
+      "views": 16
     },
     {
       "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
       "views": 16
     },
     {
-      "path": "/daniel-altair-saureu-velasco-transcriptomics-of-caste-conflict-in-argentine-ants/",
-      "views": 15
+      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
+      "views": 14
     },
     {
       "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
@@ -341,6 +346,14 @@
     {
       "path": "/website/wasp-picnic-survey-2026/",
       "views": 14
+    },
+    {
+      "path": "/whats-the-point-of-wasps/",
+      "views": 14
+    },
+    {
+      "path": "/how-do-identical-genomes-produce-phenotypic-and-behavioural-diversity/",
+      "views": 13
     },
     {
       "path": "/in2science-a-level-student-blog/",
@@ -371,19 +384,11 @@
       "views": 12
     },
     {
-      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
+      "path": "/lessons-from-the-jungle/",
       "views": 12
     },
     {
-      "path": "/how-do-identical-genomes-produce-phenotypic-and-behavioural-diversity/",
-      "views": 11
-    },
-    {
       "path": "/website/numbers/",
-      "views": 11
-    },
-    {
-      "path": "/whats-the-point-of-wasps/",
       "views": 11
     },
     {
@@ -399,16 +404,20 @@
       "views": 10
     },
     {
-      "path": "/lessons-from-the-jungle/",
-      "views": 10
-    },
-    {
       "path": "/wasps-matter/",
       "views": 10
     },
     {
       "path": "/website/people/iona-cunningham-eurich/",
       "views": 10
+    },
+    {
+      "path": "/lucy-weatherley/",
+      "views": 9
+    },
+    {
+      "path": "/new-paper-published-first-social-wasp-genome-and-more/",
+      "views": 9
     },
     {
       "path": "/nextflow-summit-and-hackathon-barcelona-october-2022/",
@@ -423,11 +432,11 @@
       "views": 8
     },
     {
-      "path": "/lucy-weatherley/",
+      "path": "/david-blahout-pollination-syndromes-and-wasps-as-pollinators/",
       "views": 8
     },
     {
-      "path": "/new-paper-published-first-social-wasp-genome-and-more/",
+      "path": "/lonely-potter/",
       "views": 8
     },
     {
@@ -439,19 +448,15 @@
       "views": 8
     },
     {
+      "path": "/why-fly-half-way-across-the-world-to-trinidad-when-there-are-plenty-of-wasps-drowning-in-my-lemonade-in-peckham/",
+      "views": 8
+    },
+    {
       "path": "/cshl-conference-on-the-biology-genomics-of-social-insects-friends-by-cintia/",
       "views": 7
     },
     {
-      "path": "/david-blahout-pollination-syndromes-and-wasps-as-pollinators/",
-      "views": 7
-    },
-    {
       "path": "/kendra-edwards-global-social-wasp-distributions/",
-      "views": 7
-    },
-    {
-      "path": "/lonely-potter/",
       "views": 7
     },
     {
@@ -463,11 +468,11 @@
       "views": 7
     },
     {
-      "path": "/website/science-communication/",
+      "path": "/visit-collaborator-prof-fabio-nascimento-usp-brazil/",
       "views": 7
     },
     {
-      "path": "/why-fly-half-way-across-the-world-to-trinidad-when-there-are-plenty-of-wasps-drowning-in-my-lemonade-in-peckham/",
+      "path": "/website/science-communication/",
       "views": 7
     },
     {
@@ -480,6 +485,10 @@
     },
     {
       "path": "/new-paper-highlighted-in-genome-biology-and-evolution/",
+      "views": 6
+    },
+    {
+      "path": "/seirians-seminar-frenzy/",
       "views": 6
     },
     {
@@ -515,14 +524,6 @@
       "views": 5
     },
     {
-      "path": "/seirians-seminar-frenzy/",
-      "views": 5
-    },
-    {
-      "path": "/visit-collaborator-prof-fabio-nascimento-usp-brazil/",
-      "views": 5
-    },
-    {
       "path": "/website/contact/",
       "views": 4
     },
@@ -547,6 +548,10 @@
       "views": 3
     },
     {
+      "path": "/insights-from-a-nanopore-sequencing-visit-to-newcastle-university/",
+      "views": 2
+    },
+    {
       "path": "/website/big-wasp-survey/",
       "views": 2
     },
@@ -568,10 +573,6 @@
     },
     {
       "path": "/in2science-a-level-student-blog",
-      "views": 1
-    },
-    {
-      "path": "/insights-from-a-nanopore-sequencing-visit-to-newcastle-university/",
       "views": 1
     },
     {
@@ -618,26 +619,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1737,
-      "visits": 845,
+      "views": 1743,
+      "visits": 851,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 827,
-      "visits": 593,
+      "views": 831,
+      "visits": 597,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 851,
-      "visits": 532,
+      "views": 863,
+      "visits": 536,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1448,
-      "visits": 386,
+      "views": 1501,
+      "visits": 429,
       "iso": "GB"
     },
     {
@@ -648,14 +649,14 @@
     },
     {
       "name": "Germany",
-      "views": 82,
+      "views": 84,
       "visits": 49,
       "iso": "DE"
     },
     {
       "name": "India",
-      "views": 69,
-      "visits": 25,
+      "views": 73,
+      "visits": 26,
       "iso": "IN"
     },
     {
@@ -672,7 +673,7 @@
     },
     {
       "name": "Canada",
-      "views": 28,
+      "views": 29,
       "visits": 15,
       "iso": "CA"
     },
@@ -731,6 +732,18 @@
       "iso": "ES"
     },
     {
+      "name": "Trinidad and Tobago",
+      "views": 6,
+      "visits": 6,
+      "iso": "TT"
+    },
+    {
+      "name": "Turkey",
+      "views": 11,
+      "visits": 6,
+      "iso": "TR"
+    },
+    {
       "name": "Russian Federation",
       "views": 13,
       "visits": 5,
@@ -741,12 +754,6 @@
       "views": 19,
       "visits": 5,
       "iso": "SA"
-    },
-    {
-      "name": "Turkey",
-      "views": 10,
-      "visits": 5,
-      "iso": "TR"
     },
     {
       "name": "Belgium",
@@ -783,12 +790,6 @@
       "views": 5,
       "visits": 4,
       "iso": "TH"
-    },
-    {
-      "name": "Trinidad and Tobago",
-      "views": 4,
-      "visits": 4,
-      "iso": "TT"
     },
     {
       "name": "Argentina",
@@ -969,6 +970,12 @@
       "views": 1,
       "visits": 1,
       "iso": "EC"
+    },
+    {
+      "name": "Estonia",
+      "views": 2,
+      "visits": 1,
+      "iso": "EE"
     },
     {
       "name": "Ethiopia",
@@ -1454,6 +1461,11 @@
       "date": "2026-10-27",
       "views": 35,
       "visits": 13
+    },
+    {
+      "date": "2026-10-28",
+      "views": 87,
+      "visits": 62
     }
   ]
 }
