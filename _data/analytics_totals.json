@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -77,15 +77,16 @@
     "2026-10-25",
     "2026-10-26",
     "2026-10-27",
-    "2026-10-28"
+    "2026-10-28",
+    "2026-10-29"
   ],
-  "pageviews": 5845,
-  "visits": 2816,
+  "pageviews": 5866,
+  "visits": 2830,
   "countries_count": 78,
   "top_pages": [
     {
       "path": "/",
-      "views": 853
+      "views": 858
     },
     {
       "path": "/people/",
@@ -93,7 +94,7 @@
     },
     {
       "path": "/updates/",
-      "views": 396
+      "views": 403
     },
     {
       "path": "/wasp-picnic-survey-2026/",
@@ -109,7 +110,7 @@
     },
     {
       "path": "/research/",
-      "views": 172
+      "views": 173
     },
     {
       "path": "/media/",
@@ -149,7 +150,7 @@
     },
     {
       "path": "/people/benjamin-taylor/",
-      "views": 81
+      "views": 84
     },
     {
       "path": "/big-wasp-survey/",
@@ -176,6 +177,10 @@
       "views": 61
     },
     {
+      "path": "/people/romuald-tcheutchoua/",
+      "views": 61
+    },
+    {
       "path": "/articles/",
       "views": 59
     },
@@ -185,10 +190,6 @@
     },
     {
       "path": "/people/emeline-favreau/",
-      "views": 59
-    },
-    {
-      "path": "/people/romuald-tcheutchoua/",
       "views": 59
     },
     {
@@ -244,12 +245,12 @@
       "views": 39
     },
     {
-      "path": "/soapbox-science/",
+      "path": "/people/patrick-kennedy/",
       "views": 33
     },
     {
-      "path": "/people/patrick-kennedy/",
-      "views": 32
+      "path": "/soapbox-science/",
+      "views": 33
     },
     {
       "path": "/website/people/",
@@ -328,6 +329,10 @@
       "views": 16
     },
     {
+      "path": "/whats-the-point-of-wasps/",
+      "views": 15
+    },
+    {
       "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
       "views": 14
     },
@@ -348,15 +353,15 @@
       "views": 14
     },
     {
-      "path": "/whats-the-point-of-wasps/",
-      "views": 14
-    },
-    {
       "path": "/how-do-identical-genomes-produce-phenotypic-and-behavioural-diversity/",
       "views": 13
     },
     {
       "path": "/in2science-a-level-student-blog/",
+      "views": 13
+    },
+    {
+      "path": "/lessons-from-the-jungle/",
       "views": 13
     },
     {
@@ -381,10 +386,6 @@
     },
     {
       "path": "/colony-size-predicts-division-of-labour-in-attine-ants/",
-      "views": 12
-    },
-    {
-      "path": "/lessons-from-the-jungle/",
       "views": 12
     },
     {
@@ -619,26 +620,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1743,
-      "visits": 851,
+      "views": 1745,
+      "visits": 853,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 831,
-      "visits": 597,
+      "views": 834,
+      "visits": 600,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 863,
-      "visits": 536,
+      "views": 871,
+      "visits": 537,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1501,
-      "visits": 429,
+      "views": 1504,
+      "visits": 432,
       "iso": "GB"
     },
     {
@@ -655,8 +656,8 @@
     },
     {
       "name": "India",
-      "views": 73,
-      "visits": 26,
+      "views": 74,
+      "visits": 27,
       "iso": "IN"
     },
     {
@@ -708,10 +709,22 @@
       "iso": "ZA"
     },
     {
+      "name": "Spain",
+      "views": 13,
+      "visits": 8,
+      "iso": "ES"
+    },
+    {
       "name": "Viet Nam",
       "views": 10,
       "visits": 8,
       "iso": "VN"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "views": 7,
+      "visits": 7,
+      "iso": "TT"
     },
     {
       "name": "Japan",
@@ -724,18 +737,6 @@
       "views": 6,
       "visits": 6,
       "iso": "MX"
-    },
-    {
-      "name": "Spain",
-      "views": 11,
-      "visits": 6,
-      "iso": "ES"
-    },
-    {
-      "name": "Trinidad and Tobago",
-      "views": 6,
-      "visits": 6,
-      "iso": "TT"
     },
     {
       "name": "Turkey",
@@ -786,6 +787,12 @@
       "iso": "KR"
     },
     {
+      "name": "Switzerland",
+      "views": 9,
+      "visits": 4,
+      "iso": "CH"
+    },
+    {
       "name": "Thailand",
       "views": 5,
       "visits": 4,
@@ -832,12 +839,6 @@
       "views": 5,
       "visits": 3,
       "iso": "PL"
-    },
-    {
-      "name": "Switzerland",
-      "views": 8,
-      "visits": 3,
-      "iso": "CH"
     },
     {
       "name": "Ukraine",
@@ -1466,6 +1467,11 @@
       "date": "2026-10-28",
       "views": 87,
       "visits": 62
+    },
+    {
+      "date": "2026-10-29",
+      "views": 21,
+      "visits": 14
     }
   ]
 }

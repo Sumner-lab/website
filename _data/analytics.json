@@ -1,54 +1,60 @@
 {
   "connected": true,
-  "updated": "2026-10-29T22:49:31Z",
+  "updated": "2026-10-30T13:04:51Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 406,
-    "visits": 221
+    "views": 379,
+    "visits": 211
   },
-  "countries_7d": 27,
+  "countries_7d": 29,
   "top_countries_7d": [
     {
       "name": "United Kingdom",
-      "views": 125,
-      "visits": 66,
+      "views": 117,
+      "visits": 62,
       "iso": "GB"
     },
     {
       "name": "China",
-      "views": 79,
-      "visits": 57,
+      "views": 65,
+      "visits": 49,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 75,
-      "visits": 47,
+      "views": 74,
+      "visits": 49,
       "iso": "US"
     },
     {
       "name": "Singapore",
       "views": 70,
-      "visits": 28,
+      "visits": 26,
       "iso": "SG"
     },
     {
-      "name": "Belgium",
-      "views": 5,
+      "name": "Trinidad and Tobago",
+      "views": 3,
       "visits": 3,
+      "iso": "TT"
+    },
+    {
+      "name": "Belgium",
+      "views": 4,
+      "visits": 2,
       "iso": "BE"
     },
     {
-      "name": "Germany",
-      "views": 16,
+      "name": "India",
+      "views": 5,
       "visits": 2,
-      "iso": "DE"
+      "iso": "IN"
     },
     {
-      "name": "Trinidad and Tobago",
+      "name": "Spain",
       "views": 2,
       "visits": 2,
-      "iso": "TT"
+      "iso": "ES"
     },
     {
       "name": "Argentina",
@@ -87,6 +93,12 @@
       "iso": "EE"
     },
     {
+      "name": "Germany",
+      "views": 10,
+      "visits": 1,
+      "iso": "DE"
+    },
+    {
       "name": "Greece",
       "views": 1,
       "visits": 1,
@@ -97,18 +109,6 @@
       "views": 2,
       "visits": 1,
       "iso": "IS"
-    },
-    {
-      "name": "India",
-      "views": 4,
-      "visits": 1,
-      "iso": "IN"
-    },
-    {
-      "name": "Indonesia",
-      "views": 4,
-      "visits": 1,
-      "iso": "ID"
     },
     {
       "name": "Ireland",
@@ -141,6 +141,12 @@
       "iso": "SI"
     },
     {
+      "name": "Switzerland",
+      "views": 1,
+      "visits": 1,
+      "iso": "CH"
+    },
+    {
       "name": "Turkey",
       "views": 1,
       "visits": 1,
@@ -167,6 +173,12 @@
       "name": "HK",
       "views": 1,
       "visits": 0
+    },
+    {
+      "name": "Indonesia",
+      "views": 2,
+      "visits": 0,
+      "iso": "ID"
     }
   ]
 }
