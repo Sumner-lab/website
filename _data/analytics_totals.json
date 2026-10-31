@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -78,27 +78,28 @@
     "2026-10-26",
     "2026-10-27",
     "2026-10-28",
-    "2026-10-29"
+    "2026-10-29",
+    "2026-10-30"
   ],
-  "pageviews": 5866,
-  "visits": 2830,
+  "pageviews": 5914,
+  "visits": 2855,
   "countries_count": 78,
   "top_pages": [
     {
       "path": "/",
-      "views": 858
+      "views": 867
     },
     {
       "path": "/people/",
-      "views": 426
+      "views": 428
     },
     {
       "path": "/updates/",
-      "views": 403
+      "views": 409
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 244
+      "views": 245
     },
     {
       "path": "/people/seirian-sumner/",
@@ -110,11 +111,11 @@
     },
     {
       "path": "/research/",
-      "views": 173
+      "views": 176
     },
     {
       "path": "/media/",
-      "views": 156
+      "views": 157
     },
     {
       "path": "/people/cintia-oi/",
@@ -134,19 +135,19 @@
     },
     {
       "path": "/contact/",
-      "views": 110
+      "views": 111
     },
     {
       "path": "/science-communication/",
-      "views": 97
+      "views": 98
     },
     {
       "path": "/publications/",
-      "views": 90
+      "views": 91
     },
     {
       "path": "/people/idris-adams/",
-      "views": 87
+      "views": 89
     },
     {
       "path": "/people/benjamin-taylor/",
@@ -154,7 +155,7 @@
     },
     {
       "path": "/big-wasp-survey/",
-      "views": 78
+      "views": 79
     },
     {
       "path": "/website/",
@@ -162,7 +163,7 @@
     },
     {
       "path": "/people/alessandro-cini/",
-      "views": 69
+      "views": 70
     },
     {
       "path": "/people/sam-duckerin/",
@@ -173,6 +174,10 @@
       "views": 64
     },
     {
+      "path": "/articles/",
+      "views": 61
+    },
+    {
       "path": "/people/caroline-chandler/",
       "views": 61
     },
@@ -181,15 +186,11 @@
       "views": 61
     },
     {
-      "path": "/articles/",
-      "views": 59
+      "path": "/people/emeline-favreau/",
+      "views": 60
     },
     {
       "path": "/people/daisy-taylor/",
-      "views": 59
-    },
-    {
-      "path": "/people/emeline-favreau/",
       "views": 59
     },
     {
@@ -202,6 +203,10 @@
     },
     {
       "path": "/people/emily-bell/",
+      "views": 52
+    },
+    {
+      "path": "/people/fernando-duarte/",
       "views": 50
     },
     {
@@ -209,7 +214,7 @@
       "views": 50
     },
     {
-      "path": "/people/fernando-duarte/",
+      "path": "/wasplove-game/",
       "views": 49
     },
     {
@@ -221,15 +226,11 @@
       "views": 48
     },
     {
-      "path": "/wasplove-game/",
+      "path": "/where-hornets-are-queens/",
       "views": 48
     },
     {
       "path": "/people/adam-devenish/",
-      "views": 47
-    },
-    {
-      "path": "/where-hornets-are-queens/",
       "views": 47
     },
     {
@@ -278,11 +279,11 @@
     },
     {
       "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
-      "views": 24
+      "views": 25
     },
     {
       "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
-      "views": 24
+      "views": 25
     },
     {
       "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
@@ -293,12 +294,12 @@
       "views": 22
     },
     {
-      "path": "/wasp-day-2023/",
+      "path": "/publications/wider/",
       "views": 22
     },
     {
-      "path": "/publications/wider/",
-      "views": 21
+      "path": "/wasp-day-2023/",
+      "views": 22
     },
     {
       "path": "/people/sam-morris/",
@@ -329,6 +330,18 @@
       "views": 16
     },
     {
+      "path": "/in2science-a-level-student-blog/",
+      "views": 15
+    },
+    {
+      "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
+      "views": 15
+    },
+    {
+      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
+      "views": 15
+    },
+    {
       "path": "/whats-the-point-of-wasps/",
       "views": 15
     },
@@ -337,7 +350,7 @@
       "views": 14
     },
     {
-      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
+      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
       "views": 14
     },
     {
@@ -357,19 +370,7 @@
       "views": 13
     },
     {
-      "path": "/in2science-a-level-student-blog/",
-      "views": 13
-    },
-    {
       "path": "/lessons-from-the-jungle/",
-      "views": 13
-    },
-    {
-      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
-      "views": 13
-    },
-    {
-      "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
       "views": 13
     },
     {
@@ -389,6 +390,10 @@
       "views": 12
     },
     {
+      "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
+      "views": 11
+    },
+    {
       "path": "/website/numbers/",
       "views": 11
     },
@@ -401,7 +406,7 @@
       "views": 10
     },
     {
-      "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
+      "path": "/nextflow-summit-and-hackathon-barcelona-october-2022/",
       "views": 10
     },
     {
@@ -418,10 +423,6 @@
     },
     {
       "path": "/new-paper-published-first-social-wasp-genome-and-more/",
-      "views": 9
-    },
-    {
-      "path": "/nextflow-summit-and-hackathon-barcelona-october-2022/",
       "views": 9
     },
     {
@@ -620,26 +621,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1745,
-      "visits": 853,
+      "views": 1764,
+      "visits": 866,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 834,
-      "visits": 600,
+      "views": 837,
+      "visits": 603,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 871,
-      "visits": 537,
+      "views": 879,
+      "visits": 543,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1504,
-      "visits": 432,
+      "views": 1519,
+      "visits": 434,
       "iso": "GB"
     },
     {
@@ -650,7 +651,7 @@
     },
     {
       "name": "Germany",
-      "views": 84,
+      "views": 86,
       "visits": 49,
       "iso": "DE"
     },
@@ -680,8 +681,8 @@
     },
     {
       "name": "Italy",
-      "views": 14,
-      "visits": 12,
+      "views": 15,
+      "visits": 13,
       "iso": "IT"
     },
     {
@@ -1472,6 +1473,11 @@
       "date": "2026-10-29",
       "views": 21,
       "visits": 14
+    },
+    {
+      "date": "2026-10-30",
+      "views": 48,
+      "visits": 25
     }
   ]
 }
