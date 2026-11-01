@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -79,59 +79,60 @@
     "2026-10-27",
     "2026-10-28",
     "2026-10-29",
-    "2026-10-30"
+    "2026-10-30",
+    "2026-10-31"
   ],
-  "pageviews": 5914,
-  "visits": 2855,
+  "pageviews": 5953,
+  "visits": 2889,
   "countries_count": 78,
   "top_pages": [
     {
       "path": "/",
-      "views": 867
+      "views": 878
     },
     {
       "path": "/people/",
-      "views": 428
+      "views": 431
     },
     {
       "path": "/updates/",
-      "views": 409
+      "views": 411
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 245
+      "views": 248
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 196
+      "views": 198
+    },
+    {
+      "path": "/research/",
+      "views": 178
     },
     {
       "path": "/people/femi-e-benny/",
       "views": 176
     },
     {
-      "path": "/research/",
-      "views": 176
-    },
-    {
       "path": "/media/",
-      "views": 157
+      "views": 158
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 136
+      "views": 137
     },
     {
       "path": "/endless-forms/",
       "views": 132
     },
     {
-      "path": "/people/christopher-wyatt/",
+      "path": "/people/alex-cerqueira-de-araujo/",
       "views": 114
     },
     {
-      "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 113
+      "path": "/people/christopher-wyatt/",
+      "views": 114
     },
     {
       "path": "/contact/",
@@ -139,7 +140,7 @@
     },
     {
       "path": "/science-communication/",
-      "views": 98
+      "views": 100
     },
     {
       "path": "/publications/",
@@ -151,7 +152,7 @@
     },
     {
       "path": "/people/benjamin-taylor/",
-      "views": 84
+      "views": 85
     },
     {
       "path": "/big-wasp-survey/",
@@ -163,7 +164,7 @@
     },
     {
       "path": "/people/alessandro-cini/",
-      "views": 70
+      "views": 73
     },
     {
       "path": "/people/sam-duckerin/",
@@ -175,7 +176,7 @@
     },
     {
       "path": "/articles/",
-      "views": 61
+      "views": 62
     },
     {
       "path": "/people/caroline-chandler/",
@@ -186,12 +187,12 @@
       "views": 61
     },
     {
-      "path": "/people/emeline-favreau/",
+      "path": "/people/daisy-taylor/",
       "views": 60
     },
     {
-      "path": "/people/daisy-taylor/",
-      "views": 59
+      "path": "/people/emeline-favreau/",
+      "views": 60
     },
     {
       "path": "/people/iona-cunningham-eurich/",
@@ -218,6 +219,10 @@
       "views": 49
     },
     {
+      "path": "/people/adam-devenish/",
+      "views": 48
+    },
+    {
       "path": "/people/lewis-revely/",
       "views": 48
     },
@@ -228,10 +233,6 @@
     {
       "path": "/where-hornets-are-queens/",
       "views": 48
-    },
-    {
-      "path": "/people/adam-devenish/",
-      "views": 47
     },
     {
       "path": "/people/robin-southon/",
@@ -246,11 +247,11 @@
       "views": 39
     },
     {
-      "path": "/people/patrick-kennedy/",
-      "views": 33
+      "path": "/soapbox-science/",
+      "views": 34
     },
     {
-      "path": "/soapbox-science/",
+      "path": "/people/patrick-kennedy/",
       "views": 33
     },
     {
@@ -286,12 +287,12 @@
       "views": 25
     },
     {
-      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
-      "views": 23
+      "path": "/autumn-2015-welcome-to-four-new-group-members/",
+      "views": 24
     },
     {
-      "path": "/autumn-2015-welcome-to-four-new-group-members/",
-      "views": 22
+      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
+      "views": 23
     },
     {
       "path": "/publications/wider/",
@@ -318,15 +319,15 @@
       "views": 18
     },
     {
+      "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
+      "views": 17
+    },
+    {
       "path": "/website/media/",
       "views": 17
     },
     {
       "path": "/daniel-altair-saureu-velasco-transcriptomics-of-caste-conflict-in-argentine-ants/",
-      "views": 16
-    },
-    {
-      "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
       "views": 16
     },
     {
@@ -621,26 +622,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1764,
-      "visits": 866,
+      "views": 1769,
+      "visits": 871,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 837,
-      "visits": 603,
+      "views": 850,
+      "visits": 615,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 879,
-      "visits": 543,
+      "views": 884,
+      "visits": 546,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1519,
-      "visits": 434,
+      "views": 1523,
+      "visits": 437,
       "iso": "GB"
     },
     {
@@ -651,8 +652,8 @@
     },
     {
       "name": "Germany",
-      "views": 86,
-      "visits": 49,
+      "views": 89,
+      "visits": 51,
       "iso": "DE"
     },
     {
@@ -660,6 +661,12 @@
       "views": 74,
       "visits": 27,
       "iso": "IN"
+    },
+    {
+      "name": "Canada",
+      "views": 38,
+      "visits": 24,
+      "iso": "CA"
     },
     {
       "name": "Ireland",
@@ -672,12 +679,6 @@
       "views": 34,
       "visits": 17,
       "iso": "NL"
-    },
-    {
-      "name": "Canada",
-      "views": 29,
-      "visits": 15,
-      "iso": "CA"
     },
     {
       "name": "Italy",
@@ -1478,6 +1479,11 @@
       "date": "2026-10-30",
       "views": 48,
       "visits": 25
+    },
+    {
+      "date": "2026-10-31",
+      "views": 39,
+      "visits": 34
     }
   ]
 }

@@ -1,36 +1,42 @@
 {
   "connected": true,
-  "updated": "2026-10-31T21:41:06Z",
+  "updated": "2026-11-01T13:33:21Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 368,
-    "visits": 206
+    "views": 365,
+    "visits": 215
   },
-  "countries_7d": 29,
+  "countries_7d": 28,
   "top_countries_7d": [
     {
-      "name": "China",
-      "views": 81,
-      "visits": 59,
-      "iso": "CN"
-    },
-    {
       "name": "United Kingdom",
-      "views": 108,
-      "visits": 59,
+      "views": 104,
+      "visits": 58,
       "iso": "GB"
     },
     {
       "name": "United States of America",
-      "views": 63,
-      "visits": 39,
+      "views": 75,
+      "visits": 50,
       "iso": "US"
     },
     {
+      "name": "China",
+      "views": 61,
+      "visits": 49,
+      "iso": "CN"
+    },
+    {
       "name": "Singapore",
-      "views": 64,
-      "visits": 25,
+      "views": 62,
+      "visits": 23,
       "iso": "SG"
+    },
+    {
+      "name": "Canada",
+      "views": 10,
+      "visits": 9,
+      "iso": "CA"
     },
     {
       "name": "Trinidad and Tobago",
@@ -43,6 +49,12 @@
       "views": 4,
       "visits": 2,
       "iso": "BE"
+    },
+    {
+      "name": "Germany",
+      "views": 13,
+      "visits": 2,
+      "iso": "DE"
     },
     {
       "name": "India",
@@ -147,27 +159,10 @@
       "iso": "TR"
     },
     {
-      "name": "Canada",
-      "views": 1,
-      "visits": 0,
-      "iso": "CA"
-    },
-    {
-      "name": "FR",
-      "views": 1,
-      "visits": 0
-    },
-    {
       "name": "Finland",
       "views": 1,
       "visits": 0,
       "iso": "FI"
-    },
-    {
-      "name": "Germany",
-      "views": 10,
-      "visits": 0,
-      "iso": "DE"
     },
     {
       "name": "HK",
