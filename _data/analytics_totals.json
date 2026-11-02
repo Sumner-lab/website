@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -80,35 +80,36 @@
     "2026-10-28",
     "2026-10-29",
     "2026-10-30",
-    "2026-10-31"
+    "2026-10-31",
+    "2026-11-01"
   ],
-  "pageviews": 5953,
-  "visits": 2889,
-  "countries_count": 78,
+  "pageviews": 5994,
+  "visits": 2910,
+  "countries_count": 79,
   "top_pages": [
     {
       "path": "/",
-      "views": 878
+      "views": 883
     },
     {
       "path": "/people/",
-      "views": 431
+      "views": 434
     },
     {
       "path": "/updates/",
-      "views": 411
+      "views": 413
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 248
+      "views": 253
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 198
+      "views": 200
     },
     {
       "path": "/research/",
-      "views": 178
+      "views": 181
     },
     {
       "path": "/people/femi-e-benny/",
@@ -120,23 +121,23 @@
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 137
+      "views": 143
     },
     {
       "path": "/endless-forms/",
-      "views": 132
+      "views": 133
+    },
+    {
+      "path": "/people/christopher-wyatt/",
+      "views": 116
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
       "views": 114
     },
     {
-      "path": "/people/christopher-wyatt/",
-      "views": 114
-    },
-    {
       "path": "/contact/",
-      "views": 111
+      "views": 112
     },
     {
       "path": "/science-communication/",
@@ -156,7 +157,7 @@
     },
     {
       "path": "/big-wasp-survey/",
-      "views": 79
+      "views": 81
     },
     {
       "path": "/website/",
@@ -164,7 +165,7 @@
     },
     {
       "path": "/people/alessandro-cini/",
-      "views": 73
+      "views": 74
     },
     {
       "path": "/people/sam-duckerin/",
@@ -172,7 +173,7 @@
     },
     {
       "path": "/research/genomics/",
-      "views": 64
+      "views": 65
     },
     {
       "path": "/articles/",
@@ -200,7 +201,7 @@
     },
     {
       "path": "/research/evolution/",
-      "views": 54
+      "views": 55
     },
     {
       "path": "/people/emily-bell/",
@@ -255,28 +256,32 @@
       "views": 33
     },
     {
+      "path": "/billy-easeman-parasitoid-wasps/",
+      "views": 32
+    },
+    {
       "path": "/website/people/",
       "views": 32
     },
     {
-      "path": "/billy-easeman-parasitoid-wasps/",
-      "views": 31
+      "path": "/research/mechanisms/",
+      "views": 29
     },
     {
-      "path": "/research/mechanisms/",
-      "views": 28
+      "path": "/people/ryan-brock/",
+      "views": 27
     },
     {
       "path": "/website/updates/",
       "views": 27
     },
     {
-      "path": "/people/ryan-brock/",
+      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
       "views": 26
     },
     {
-      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
-      "views": 26
+      "path": "/autumn-2015-welcome-to-four-new-group-members/",
+      "views": 25
     },
     {
       "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
@@ -285,10 +290,6 @@
     {
       "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
       "views": 25
-    },
-    {
-      "path": "/autumn-2015-welcome-to-four-new-group-members/",
-      "views": 24
     },
     {
       "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
@@ -419,6 +420,10 @@
       "views": 10
     },
     {
+      "path": "/citizen-science-for-the-win/",
+      "views": 9
+    },
+    {
       "path": "/lucy-weatherley/",
       "views": 9
     },
@@ -431,8 +436,8 @@
       "views": 9
     },
     {
-      "path": "/citizen-science-for-the-win/",
-      "views": 8
+      "path": "/why-fly-half-way-across-the-world-to-trinidad-when-there-are-plenty-of-wasps-drowning-in-my-lemonade-in-peckham/",
+      "views": 9
     },
     {
       "path": "/david-blahout-pollination-syndromes-and-wasps-as-pollinators/",
@@ -448,10 +453,6 @@
     },
     {
       "path": "/website/publications/wider/",
-      "views": 8
-    },
-    {
-      "path": "/why-fly-half-way-across-the-world-to-trinidad-when-there-are-plenty-of-wasps-drowning-in-my-lemonade-in-peckham/",
       "views": 8
     },
     {
@@ -622,27 +623,33 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1769,
-      "visits": 871,
+      "views": 1770,
+      "visits": 872,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 850,
-      "visits": 615,
+      "views": 854,
+      "visits": 618,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 884,
-      "visits": 546,
+      "views": 894,
+      "visits": 551,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1523,
-      "visits": 437,
+      "views": 1524,
+      "visits": 438,
       "iso": "GB"
+    },
+    {
+      "name": "Germany",
+      "views": 95,
+      "visits": 56,
+      "iso": "DE"
     },
     {
       "name": "Brazil",
@@ -651,28 +658,22 @@
       "iso": "BR"
     },
     {
-      "name": "Germany",
-      "views": 89,
-      "visits": 51,
-      "iso": "DE"
-    },
-    {
       "name": "India",
       "views": 74,
       "visits": 27,
       "iso": "IN"
     },
     {
+      "name": "Ireland",
+      "views": 26,
+      "visits": 26,
+      "iso": "IE"
+    },
+    {
       "name": "Canada",
       "views": 38,
       "visits": 24,
       "iso": "CA"
-    },
-    {
-      "name": "Ireland",
-      "views": 21,
-      "visits": 21,
-      "iso": "IE"
     },
     {
       "name": "Netherlands",
@@ -682,8 +683,8 @@
     },
     {
       "name": "Italy",
-      "views": 15,
-      "visits": 13,
+      "views": 23,
+      "visits": 14,
       "iso": "IT"
     },
     {
@@ -1075,6 +1076,11 @@
       "views": 1,
       "visits": 0,
       "iso": "GH"
+    },
+    {
+      "name": "HK",
+      "views": 6,
+      "visits": 0
     },
     {
       "name": "Iran",
@@ -1484,6 +1490,11 @@
       "date": "2026-10-31",
       "views": 39,
       "visits": 34
+    },
+    {
+      "date": "2026-11-01",
+      "views": 41,
+      "visits": 21
     }
   ]
 }
