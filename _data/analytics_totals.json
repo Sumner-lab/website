@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -82,23 +82,24 @@
     "2026-10-30",
     "2026-10-31",
     "2026-11-01",
-    "2026-11-02"
+    "2026-11-02",
+    "2026-11-03"
   ],
-  "pageviews": 6047,
-  "visits": 2937,
+  "pageviews": 6072,
+  "visits": 2950,
   "countries_count": 78,
   "top_pages": [
     {
       "path": "/",
-      "views": 888
+      "views": 891
     },
     {
       "path": "/people/",
-      "views": 436
+      "views": 437
     },
     {
       "path": "/updates/",
-      "views": 417
+      "views": 420
     },
     {
       "path": "/wasp-picnic-survey-2026/",
@@ -110,7 +111,7 @@
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 183
+      "views": 187
     },
     {
       "path": "/research/",
@@ -134,7 +135,7 @@
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 114
+      "views": 115
     },
     {
       "path": "/contact/",
@@ -146,7 +147,7 @@
     },
     {
       "path": "/people/idris-adams/",
-      "views": 91
+      "views": 92
     },
     {
       "path": "/publications/",
@@ -169,23 +170,23 @@
       "views": 74
     },
     {
-      "path": "/people/sam-duckerin/",
-      "views": 68
+      "path": "/articles/",
+      "views": 69
     },
     {
-      "path": "/articles/",
-      "views": 66
+      "path": "/people/sam-duckerin/",
+      "views": 68
     },
     {
       "path": "/research/genomics/",
       "views": 65
     },
     {
-      "path": "/people/caroline-chandler/",
-      "views": 61
+      "path": "/people/romuald-tcheutchoua/",
+      "views": 62
     },
     {
-      "path": "/people/romuald-tcheutchoua/",
+      "path": "/people/caroline-chandler/",
       "views": 61
     },
     {
@@ -210,7 +211,7 @@
     },
     {
       "path": "/people/fernando-duarte/",
-      "views": 50
+      "views": 51
     },
     {
       "path": "/people/owen-corbett/",
@@ -238,7 +239,7 @@
     },
     {
       "path": "/people/robin-southon/",
-      "views": 41
+      "views": 42
     },
     {
       "path": "/people/sandra-moreno/",
@@ -273,6 +274,10 @@
       "views": 29
     },
     {
+      "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
+      "views": 28
+    },
+    {
       "path": "/website/updates/",
       "views": 27
     },
@@ -282,10 +287,6 @@
     },
     {
       "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
-      "views": 26
-    },
-    {
-      "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
       "views": 26
     },
     {
@@ -325,6 +326,10 @@
       "views": 17
     },
     {
+      "path": "/in2science-a-level-student-blog/",
+      "views": 17
+    },
+    {
       "path": "/website/media/",
       "views": 17
     },
@@ -337,7 +342,7 @@
       "views": 16
     },
     {
-      "path": "/in2science-a-level-student-blog/",
+      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
       "views": 15
     },
     {
@@ -347,10 +352,6 @@
     {
       "path": "/whats-the-point-of-wasps/",
       "views": 15
-    },
-    {
-      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
-      "views": 14
     },
     {
       "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
@@ -449,6 +450,10 @@
       "views": 8
     },
     {
+      "path": "/sreya-magar-evolution-of-prey-selection-and-life-history-traits-in-sphecidae-wasps/",
+      "views": 8
+    },
+    {
       "path": "/website/publications/",
       "views": 8
     },
@@ -466,10 +471,6 @@
     },
     {
       "path": "/opening-the-life-sciences-building/",
-      "views": 7
-    },
-    {
-      "path": "/sreya-magar-evolution-of-prey-selection-and-life-history-traits-in-sphecidae-wasps/",
       "views": 7
     },
     {
@@ -624,39 +625,45 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1772,
-      "visits": 874,
+      "views": 1773,
+      "visits": 875,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 858,
-      "visits": 621,
+      "views": 860,
+      "visits": 622,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 906,
-      "visits": 556,
+      "views": 916,
+      "visits": 561,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1536,
-      "visits": 441,
+      "views": 1541,
+      "visits": 443,
       "iso": "GB"
     },
     {
       "name": "Germany",
-      "views": 107,
+      "views": 108,
       "visits": 64,
       "iso": "DE"
     },
     {
       "name": "Brazil",
-      "views": 279,
-      "visits": 54,
+      "views": 283,
+      "visits": 56,
       "iso": "BR"
+    },
+    {
+      "name": "Canada",
+      "views": 41,
+      "visits": 27,
+      "iso": "CA"
     },
     {
       "name": "India",
@@ -665,15 +672,9 @@
       "iso": "IN"
     },
     {
-      "name": "Canada",
-      "views": 40,
-      "visits": 26,
-      "iso": "CA"
-    },
-    {
       "name": "Ireland",
-      "views": 27,
-      "visits": 26,
+      "views": 28,
+      "visits": 27,
       "iso": "IE"
     },
     {
@@ -1496,6 +1497,11 @@
       "date": "2026-11-02",
       "views": 53,
       "visits": 27
+    },
+    {
+      "date": "2026-11-03",
+      "views": 25,
+      "visits": 13
     }
   ]
 }

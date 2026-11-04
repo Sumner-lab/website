@@ -1,53 +1,53 @@
 {
   "connected": true,
-  "updated": "2026-11-03T23:28:13Z",
+  "updated": "2026-11-04T14:39:55Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 324,
+    "views": 314,
     "visits": 196
   },
-  "countries_7d": 22,
+  "countries_7d": 18,
   "top_countries_7d": [
     {
       "name": "United Kingdom",
-      "views": 104,
+      "views": 93,
       "visits": 57,
       "iso": "GB"
     },
     {
-      "name": "United States of America",
-      "views": 35,
-      "visits": 32,
-      "iso": "US"
-    },
-    {
       "name": "China",
-      "views": 37,
-      "visits": 31,
+      "views": 36,
+      "visits": 30,
       "iso": "CN"
     },
     {
       "name": "Singapore",
-      "views": 59,
-      "visits": 25,
+      "views": 65,
+      "visits": 29,
       "iso": "SG"
     },
     {
+      "name": "United States of America",
+      "views": 33,
+      "visits": 29,
+      "iso": "US"
+    },
+    {
       "name": "Germany",
-      "views": 28,
+      "views": 26,
       "visits": 15,
       "iso": "DE"
     },
     {
       "name": "Canada",
-      "views": 12,
-      "visits": 11,
+      "views": 13,
+      "visits": 12,
       "iso": "CA"
     },
     {
       "name": "Ireland",
-      "views": 6,
-      "visits": 5,
+      "views": 7,
+      "visits": 6,
       "iso": "IE"
     },
     {
@@ -55,6 +55,12 @@
       "views": 3,
       "visits": 3,
       "iso": "TT"
+    },
+    {
+      "name": "Brazil",
+      "views": 4,
+      "visits": 2,
+      "iso": "BR"
     },
     {
       "name": "India",
@@ -93,28 +99,10 @@
       "iso": "AU"
     },
     {
-      "name": "Bangladesh",
-      "views": 1,
-      "visits": 1,
-      "iso": "BD"
-    },
-    {
-      "name": "Belgium",
-      "views": 1,
-      "visits": 1,
-      "iso": "BE"
-    },
-    {
       "name": "Estonia",
       "views": 2,
       "visits": 1,
       "iso": "EE"
-    },
-    {
-      "name": "Greece",
-      "views": 1,
-      "visits": 1,
-      "iso": "GR"
     },
     {
       "name": "Japan",
@@ -123,21 +111,9 @@
       "iso": "JP"
     },
     {
-      "name": "Peru",
-      "views": 1,
-      "visits": 1,
-      "iso": "PE"
-    },
-    {
       "name": "HK",
-      "views": 7,
+      "views": 6,
       "visits": 0
-    },
-    {
-      "name": "Indonesia",
-      "views": 1,
-      "visits": 0,
-      "iso": "ID"
     }
   ]
 }
