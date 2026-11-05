@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -83,31 +83,32 @@
     "2026-10-31",
     "2026-11-01",
     "2026-11-02",
-    "2026-11-03"
+    "2026-11-03",
+    "2026-11-04"
   ],
-  "pageviews": 6072,
-  "visits": 2950,
-  "countries_count": 78,
+  "pageviews": 6124,
+  "visits": 2976,
+  "countries_count": 79,
   "top_pages": [
     {
       "path": "/",
-      "views": 891
+      "views": 898
     },
     {
       "path": "/people/",
-      "views": 437
+      "views": 442
     },
     {
       "path": "/updates/",
-      "views": 420
+      "views": 427
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 262
+      "views": 264
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 201
+      "views": 203
     },
     {
       "path": "/people/femi-e-benny/",
@@ -115,7 +116,7 @@
     },
     {
       "path": "/research/",
-      "views": 183
+      "views": 187
     },
     {
       "path": "/media/",
@@ -123,7 +124,7 @@
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 143
+      "views": 144
     },
     {
       "path": "/endless-forms/",
@@ -134,20 +135,20 @@
       "views": 117
     },
     {
+      "path": "/contact/",
+      "views": 115
+    },
+    {
       "path": "/people/alex-cerqueira-de-araujo/",
       "views": 115
     },
     {
-      "path": "/contact/",
-      "views": 113
-    },
-    {
       "path": "/science-communication/",
-      "views": 100
+      "views": 103
     },
     {
       "path": "/people/idris-adams/",
-      "views": 92
+      "views": 93
     },
     {
       "path": "/publications/",
@@ -159,7 +160,7 @@
     },
     {
       "path": "/big-wasp-survey/",
-      "views": 82
+      "views": 83
     },
     {
       "path": "/website/",
@@ -171,7 +172,7 @@
     },
     {
       "path": "/articles/",
-      "views": 69
+      "views": 70
     },
     {
       "path": "/people/sam-duckerin/",
@@ -179,7 +180,7 @@
     },
     {
       "path": "/research/genomics/",
-      "views": 65
+      "views": 66
     },
     {
       "path": "/people/romuald-tcheutchoua/",
@@ -199,7 +200,7 @@
     },
     {
       "path": "/research/evolution/",
-      "views": 56
+      "views": 58
     },
     {
       "path": "/people/iona-cunningham-eurich/",
@@ -210,19 +211,23 @@
       "views": 52
     },
     {
+      "path": "/people/owen-corbett/",
+      "views": 52
+    },
+    {
       "path": "/people/fernando-duarte/",
       "views": 51
     },
     {
-      "path": "/people/owen-corbett/",
+      "path": "/wasplove-game/",
+      "views": 50
+    },
+    {
+      "path": "/where-hornets-are-queens/",
       "views": 50
     },
     {
       "path": "/research/ecology/",
-      "views": 49
-    },
-    {
-      "path": "/wasplove-game/",
       "views": 49
     },
     {
@@ -231,10 +236,6 @@
     },
     {
       "path": "/people/lewis-revely/",
-      "views": 48
-    },
-    {
-      "path": "/where-hornets-are-queens/",
       "views": 48
     },
     {
@@ -259,7 +260,7 @@
     },
     {
       "path": "/billy-easeman-parasitoid-wasps/",
-      "views": 32
+      "views": 33
     },
     {
       "path": "/website/people/",
@@ -286,12 +287,12 @@
       "views": 26
     },
     {
-      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
+      "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
       "views": 26
     },
     {
-      "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
-      "views": 25
+      "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
+      "views": 26
     },
     {
       "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
@@ -342,20 +343,20 @@
       "views": 16
     },
     {
+      "path": "/whats-the-point-of-wasps/",
+      "views": 16
+    },
+    {
       "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
+      "views": 15
+    },
+    {
+      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
       "views": 15
     },
     {
       "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
       "views": 15
-    },
-    {
-      "path": "/whats-the-point-of-wasps/",
-      "views": 15
-    },
-    {
-      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
-      "views": 14
     },
     {
       "path": "/website/articles/",
@@ -395,7 +396,7 @@
     },
     {
       "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
-      "views": 11
+      "views": 12
     },
     {
       "path": "/website/numbers/",
@@ -411,6 +412,10 @@
     },
     {
       "path": "/nextflow-summit-and-hackathon-barcelona-october-2022/",
+      "views": 10
+    },
+    {
+      "path": "/sampling-european-hornets/",
       "views": 10
     },
     {
@@ -431,10 +436,6 @@
     },
     {
       "path": "/new-paper-published-first-social-wasp-genome-and-more/",
-      "views": 9
-    },
-    {
-      "path": "/sampling-european-hornets/",
       "views": 9
     },
     {
@@ -538,6 +539,10 @@
       "views": 4
     },
     {
+      "path": "/insights-from-a-nanopore-sequencing-visit-to-newcastle-university/",
+      "views": 3
+    },
+    {
       "path": "/lab-visit-wespenvriend/",
       "views": 3
     },
@@ -554,7 +559,7 @@
       "views": 3
     },
     {
-      "path": "/insights-from-a-nanopore-sequencing-visit-to-newcastle-university/",
+      "path": "/research/ecology",
       "views": 2
     },
     {
@@ -598,10 +603,6 @@
       "views": 1
     },
     {
-      "path": "/research/ecology",
-      "views": 1
-    },
-    {
       "path": "/website/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
       "views": 1
     },
@@ -625,32 +626,32 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1773,
-      "visits": 875,
+      "views": 1788,
+      "visits": 887,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 860,
-      "visits": 622,
+      "views": 867,
+      "visits": 629,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 916,
-      "visits": 561,
+      "views": 921,
+      "visits": 563,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1541,
-      "visits": 443,
+      "views": 1549,
+      "visits": 444,
       "iso": "GB"
     },
     {
       "name": "Germany",
-      "views": 108,
-      "visits": 64,
+      "views": 111,
+      "visits": 66,
       "iso": "DE"
     },
     {
@@ -660,16 +661,16 @@
       "iso": "BR"
     },
     {
+      "name": "India",
+      "views": 80,
+      "visits": 28,
+      "iso": "IN"
+    },
+    {
       "name": "Canada",
       "views": 41,
       "visits": 27,
       "iso": "CA"
-    },
-    {
-      "name": "India",
-      "views": 74,
-      "visits": 27,
-      "iso": "IN"
     },
     {
       "name": "Ireland",
@@ -870,6 +871,12 @@
       "iso": "AT"
     },
     {
+      "name": "Bolivia",
+      "views": 2,
+      "visits": 2,
+      "iso": "BO"
+    },
+    {
       "name": "Czech Republic",
       "views": 4,
       "visits": 2,
@@ -940,12 +947,6 @@
       "views": 2,
       "visits": 1,
       "iso": "AM"
-    },
-    {
-      "name": "Bolivia",
-      "views": 1,
-      "visits": 1,
-      "iso": "BO"
     },
     {
       "name": "Bosnia and Herzegovina",
@@ -1072,6 +1073,11 @@
       "views": 1,
       "visits": 0,
       "iso": "CM"
+    },
+    {
+      "name": "FR",
+      "views": 7,
+      "visits": 0
     },
     {
       "name": "Ghana",
@@ -1502,6 +1508,11 @@
       "date": "2026-11-03",
       "views": 25,
       "visits": 13
+    },
+    {
+      "date": "2026-11-04",
+      "views": 52,
+      "visits": 26
     }
   ]
 }
