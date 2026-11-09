@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -87,31 +87,32 @@
     "2026-11-04",
     "2026-11-05",
     "2026-11-06",
-    "2026-11-07"
+    "2026-11-07",
+    "2026-11-08"
   ],
-  "pageviews": 6332,
-  "visits": 3097,
+  "pageviews": 6394,
+  "visits": 3129,
   "countries_count": 78,
   "top_pages": [
     {
       "path": "/",
-      "views": 927
+      "views": 938
     },
     {
       "path": "/updates/",
-      "views": 449
+      "views": 454
     },
     {
       "path": "/people/",
-      "views": 448
+      "views": 451
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 274
+      "views": 280
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 214
+      "views": 215
     },
     {
       "path": "/research/",
@@ -123,7 +124,7 @@
     },
     {
       "path": "/media/",
-      "views": 163
+      "views": 166
     },
     {
       "path": "/people/cintia-oi/",
@@ -131,27 +132,27 @@
     },
     {
       "path": "/endless-forms/",
-      "views": 140
+      "views": 141
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 118
+      "views": 119
+    },
+    {
+      "path": "/contact/",
+      "views": 117
     },
     {
       "path": "/people/christopher-wyatt/",
       "views": 117
     },
     {
-      "path": "/contact/",
-      "views": 115
-    },
-    {
       "path": "/science-communication/",
-      "views": 106
+      "views": 108
     },
     {
       "path": "/people/idris-adams/",
-      "views": 100
+      "views": 104
     },
     {
       "path": "/people/benjamin-taylor/",
@@ -166,12 +167,12 @@
       "views": 83
     },
     {
-      "path": "/people/alessandro-cini/",
-      "views": 77
+      "path": "/articles/",
+      "views": 79
     },
     {
-      "path": "/articles/",
-      "views": 75
+      "path": "/people/alessandro-cini/",
+      "views": 77
     },
     {
       "path": "/website/",
@@ -179,7 +180,7 @@
     },
     {
       "path": "/people/sam-duckerin/",
-      "views": 70
+      "views": 71
     },
     {
       "path": "/research/genomics/",
@@ -191,7 +192,7 @@
     },
     {
       "path": "/people/romuald-tcheutchoua/",
-      "views": 62
+      "views": 63
     },
     {
       "path": "/people/caroline-chandler/",
@@ -203,15 +204,19 @@
     },
     {
       "path": "/where-hornets-are-queens/",
-      "views": 60
+      "views": 61
     },
     {
       "path": "/people/iona-cunningham-eurich/",
-      "views": 59
+      "views": 60
     },
     {
       "path": "/research/evolution/",
       "views": 59
+    },
+    {
+      "path": "/people/fernando-duarte/",
+      "views": 54
     },
     {
       "path": "/people/emily-bell/",
@@ -223,10 +228,6 @@
     },
     {
       "path": "/people/adam-devenish/",
-      "views": 51
-    },
-    {
-      "path": "/people/fernando-duarte/",
       "views": 51
     },
     {
@@ -243,7 +244,7 @@
     },
     {
       "path": "/people/robin-southon/",
-      "views": 46
+      "views": 47
     },
     {
       "path": "/people/sandra-moreno/",
@@ -254,11 +255,11 @@
       "views": 39
     },
     {
-      "path": "/people/patrick-kennedy/",
-      "views": 35
+      "path": "/soapbox-science/",
+      "views": 36
     },
     {
-      "path": "/soapbox-science/",
+      "path": "/people/patrick-kennedy/",
       "views": 35
     },
     {
@@ -270,16 +271,16 @@
       "views": 33
     },
     {
+      "path": "/research/mechanisms/",
+      "views": 32
+    },
+    {
       "path": "/website/people/",
       "views": 32
     },
     {
-      "path": "/research/mechanisms/",
-      "views": 31
-    },
-    {
       "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
-      "views": 29
+      "views": 30
     },
     {
       "path": "/people/ryan-brock/",
@@ -310,20 +311,20 @@
       "views": 22
     },
     {
+      "path": "/people/sam-morris/",
+      "views": 21
+    },
+    {
       "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
       "views": 21
     },
     {
-      "path": "/people/sam-morris/",
-      "views": 20
+      "path": "/in2science-a-level-student-blog/",
+      "views": 19
     },
     {
       "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
       "views": 19
-    },
-    {
-      "path": "/in2science-a-level-student-blog/",
-      "views": 18
     },
     {
       "path": "/numbers/",
@@ -346,7 +347,15 @@
       "views": 16
     },
     {
+      "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
+      "views": 16
+    },
+    {
       "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
+      "views": 16
+    },
+    {
+      "path": "/what-roles-do-wasps-play-in-nature/",
       "views": 16
     },
     {
@@ -359,14 +368,6 @@
     },
     {
       "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
-      "views": 15
-    },
-    {
-      "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
-      "views": 15
-    },
-    {
-      "path": "/what-roles-do-wasps-play-in-nature/",
       "views": 15
     },
     {
@@ -406,6 +407,10 @@
       "views": 12
     },
     {
+      "path": "/from-brussels-sprouts-to-brachiosaurs-our-science-communication-isnt-always-about-wasps/",
+      "views": 11
+    },
+    {
       "path": "/lucy-weatherley/",
       "views": 11
     },
@@ -426,7 +431,7 @@
       "views": 10
     },
     {
-      "path": "/from-brussels-sprouts-to-brachiosaurs-our-science-communication-isnt-always-about-wasps/",
+      "path": "/sreya-magar-evolution-of-prey-selection-and-life-history-traits-in-sphecidae-wasps/",
       "views": 10
     },
     {
@@ -442,6 +447,10 @@
       "views": 10
     },
     {
+      "path": "/hoi-lam-daisy-choi-investigating-the-evolutionary-patterns-of-diets-and-predatory-wasps/",
+      "views": 9
+    },
+    {
       "path": "/lonely-potter/",
       "views": 9
     },
@@ -450,15 +459,7 @@
       "views": 9
     },
     {
-      "path": "/sreya-magar-evolution-of-prey-selection-and-life-history-traits-in-sphecidae-wasps/",
-      "views": 9
-    },
-    {
       "path": "/david-blahout-pollination-syndromes-and-wasps-as-pollinators/",
-      "views": 8
-    },
-    {
-      "path": "/hoi-lam-daisy-choi-investigating-the-evolutionary-patterns-of-diets-and-predatory-wasps/",
       "views": 8
     },
     {
@@ -479,6 +480,10 @@
     },
     {
       "path": "/cshl-conference-on-the-biology-genomics-of-social-insects-friends-by-cintia/",
+      "views": 7
+    },
+    {
+      "path": "/losses-in-behavioural-plasticity-and-the-evolution-of-altruism/",
       "views": 7
     },
     {
@@ -503,10 +508,6 @@
     },
     {
       "path": "/impact_managed_bees_can_have_on_wild_bumblebees/",
-      "views": 6
-    },
-    {
-      "path": "/losses-in-behavioural-plasticity-and-the-evolution-of-altruism/",
       "views": 6
     },
     {
@@ -629,32 +630,32 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1847,
-      "visits": 930,
+      "views": 1861,
+      "visits": 940,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 899,
-      "visits": 657,
+      "views": 906,
+      "visits": 663,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 959,
-      "visits": 580,
+      "views": 971,
+      "visits": 585,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1600,
+      "views": 1606,
       "visits": 456,
       "iso": "GB"
     },
     {
       "name": "Germany",
-      "views": 122,
-      "visits": 76,
+      "views": 131,
+      "visits": 82,
       "iso": "DE"
     },
     {
@@ -665,8 +666,8 @@
     },
     {
       "name": "Canada",
-      "views": 49,
-      "visits": 33,
+      "views": 58,
+      "visits": 35,
       "iso": "CA"
     },
     {
@@ -820,6 +821,12 @@
       "iso": "AR"
     },
     {
+      "name": "Austria",
+      "views": 5,
+      "visits": 3,
+      "iso": "AT"
+    },
+    {
       "name": "Azerbaijan",
       "views": 3,
       "visits": 3,
@@ -830,6 +837,12 @@
       "views": 3,
       "visits": 3,
       "iso": "DK"
+    },
+    {
+      "name": "Indonesia",
+      "views": 8,
+      "visits": 3,
+      "iso": "ID"
     },
     {
       "name": "Kenya",
@@ -862,16 +875,16 @@
       "iso": "UZ"
     },
     {
+      "name": "Venezuela",
+      "views": 4,
+      "visits": 3,
+      "iso": "VE"
+    },
+    {
       "name": "Algeria",
       "views": 2,
       "visits": 2,
       "iso": "DZ"
-    },
-    {
-      "name": "Austria",
-      "views": 2,
-      "visits": 2,
-      "iso": "AT"
     },
     {
       "name": "Bolivia",
@@ -904,12 +917,6 @@
       "iso": "HU"
     },
     {
-      "name": "Indonesia",
-      "views": 7,
-      "visits": 2,
-      "iso": "ID"
-    },
-    {
       "name": "Kazakhstan",
       "views": 2,
       "visits": 2,
@@ -938,12 +945,6 @@
       "views": 2,
       "visits": 2,
       "iso": "AE"
-    },
-    {
-      "name": "Venezuela",
-      "views": 3,
-      "visits": 2,
-      "iso": "VE"
     },
     {
       "name": "Armenia",
@@ -1526,6 +1527,11 @@
       "date": "2026-11-07",
       "views": 63,
       "visits": 46
+    },
+    {
+      "date": "2026-11-08",
+      "views": 62,
+      "visits": 32
     }
   ]
 }
