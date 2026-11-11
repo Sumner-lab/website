@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -89,59 +89,60 @@
     "2026-11-06",
     "2026-11-07",
     "2026-11-08",
-    "2026-11-09"
+    "2026-11-09",
+    "2026-11-10"
   ],
-  "pageviews": 6464,
-  "visits": 3172,
+  "pageviews": 6517,
+  "visits": 3193,
   "countries_count": 79,
   "top_pages": [
     {
       "path": "/",
-      "views": 954
+      "views": 956
     },
     {
       "path": "/updates/",
-      "views": 465
+      "views": 467
     },
     {
       "path": "/people/",
-      "views": 454
+      "views": 456
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 282
+      "views": 283
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 215
+      "views": 216
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 200
+      "views": 202
     },
     {
       "path": "/research/",
-      "views": 199
+      "views": 200
     },
     {
       "path": "/media/",
       "views": 167
     },
     {
-      "path": "/people/cintia-oi/",
-      "views": 145
+      "path": "/endless-forms/",
+      "views": 149
     },
     {
-      "path": "/endless-forms/",
-      "views": 144
+      "path": "/people/cintia-oi/",
+      "views": 146
+    },
+    {
+      "path": "/contact/",
+      "views": 121
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
       "views": 119
-    },
-    {
-      "path": "/contact/",
-      "views": 118
     },
     {
       "path": "/people/christopher-wyatt/",
@@ -153,27 +154,27 @@
     },
     {
       "path": "/people/idris-adams/",
-      "views": 104
+      "views": 105
     },
     {
       "path": "/people/benjamin-taylor/",
-      "views": 93
+      "views": 96
     },
     {
       "path": "/publications/",
-      "views": 93
+      "views": 96
+    },
+    {
+      "path": "/articles/",
+      "views": 84
     },
     {
       "path": "/big-wasp-survey/",
       "views": 84
     },
     {
-      "path": "/articles/",
-      "views": 81
-    },
-    {
       "path": "/people/alessandro-cini/",
-      "views": 77
+      "views": 80
     },
     {
       "path": "/website/",
@@ -181,31 +182,31 @@
     },
     {
       "path": "/people/sam-duckerin/",
-      "views": 71
+      "views": 73
     },
     {
       "path": "/research/genomics/",
-      "views": 69
+      "views": 70
     },
     {
       "path": "/people/romuald-tcheutchoua/",
+      "views": 67
+    },
+    {
+      "path": "/where-hornets-are-queens/",
       "views": 65
     },
     {
       "path": "/people/daisy-taylor/",
-      "views": 63
-    },
-    {
-      "path": "/where-hornets-are-queens/",
-      "views": 62
+      "views": 64
     },
     {
       "path": "/people/caroline-chandler/",
-      "views": 61
+      "views": 62
     },
     {
       "path": "/people/emeline-favreau/",
-      "views": 61
+      "views": 62
     },
     {
       "path": "/people/iona-cunningham-eurich/",
@@ -220,24 +221,24 @@
       "views": 54
     },
     {
+      "path": "/people/lewis-revely/",
+      "views": 54
+    },
+    {
+      "path": "/wasplove-game/",
+      "views": 54
+    },
+    {
       "path": "/people/owen-corbett/",
       "views": 53
     },
     {
+      "path": "/people/adam-devenish/",
+      "views": 52
+    },
+    {
       "path": "/people/emily-bell/",
       "views": 52
-    },
-    {
-      "path": "/people/lewis-revely/",
-      "views": 52
-    },
-    {
-      "path": "/wasplove-game/",
-      "views": 52
-    },
-    {
-      "path": "/people/adam-devenish/",
-      "views": 51
     },
     {
       "path": "/research/ecology/",
@@ -245,15 +246,15 @@
     },
     {
       "path": "/people/robin-southon/",
-      "views": 47
+      "views": 48
+    },
+    {
+      "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
+      "views": 40
     },
     {
       "path": "/people/sandra-moreno/",
       "views": 40
-    },
-    {
-      "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
-      "views": 39
     },
     {
       "path": "/people/patrick-kennedy/",
@@ -300,11 +301,11 @@
       "views": 26
     },
     {
-      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
-      "views": 23
+      "path": "/publications/wider/",
+      "views": 25
     },
     {
-      "path": "/publications/wider/",
+      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
       "views": 23
     },
     {
@@ -631,31 +632,31 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1894,
-      "visits": 962,
+      "views": 1921,
+      "visits": 967,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 911,
-      "visits": 668,
+      "views": 923,
+      "visits": 676,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 978,
-      "visits": 588,
+      "views": 983,
+      "visits": 593,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1617,
-      "visits": 460,
+      "views": 1620,
+      "visits": 461,
       "iso": "GB"
     },
     {
       "name": "Germany",
-      "views": 135,
+      "views": 138,
       "visits": 84,
       "iso": "DE"
     },
@@ -667,8 +668,8 @@
     },
     {
       "name": "Canada",
-      "views": 63,
-      "visits": 38,
+      "views": 65,
+      "visits": 40,
       "iso": "CA"
     },
     {
@@ -805,7 +806,7 @@
     },
     {
       "name": "Republic of Korea",
-      "views": 11,
+      "views": 12,
       "visits": 4,
       "iso": "KR"
     },
@@ -1544,6 +1545,11 @@
       "date": "2026-11-09",
       "views": 70,
       "visits": 43
+    },
+    {
+      "date": "2026-11-10",
+      "views": 53,
+      "visits": 21
     }
   ]
 }
