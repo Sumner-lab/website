@@ -1,42 +1,42 @@
 {
   "connected": true,
-  "updated": "2026-11-11T14:29:59Z",
+  "updated": "2026-11-12T00:48:03Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 445,
-    "visits": 243
+    "views": 463,
+    "visits": 237
   },
-  "countries_7d": 18,
+  "countries_7d": 17,
   "top_countries_7d": [
     {
       "name": "China",
-      "views": 148,
-      "visits": 92,
+      "views": 175,
+      "visits": 87,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 63,
-      "visits": 54,
+      "views": 65,
+      "visits": 53,
       "iso": "US"
     },
     {
       "name": "Singapore",
       "views": 67,
-      "visits": 32,
+      "visits": 31,
       "iso": "SG"
     },
     {
-      "name": "Germany",
-      "views": 30,
-      "visits": 20,
-      "iso": "DE"
+      "name": "United Kingdom",
+      "views": 84,
+      "visits": 22,
+      "iso": "GB"
     },
     {
-      "name": "United Kingdom",
-      "views": 79,
+      "name": "Germany",
+      "views": 27,
       "visits": 18,
-      "iso": "GB"
+      "iso": "DE"
     },
     {
       "name": "Canada",
@@ -45,16 +45,16 @@
       "iso": "CA"
     },
     {
-      "name": "India",
-      "views": 8,
-      "visits": 3,
-      "iso": "IN"
-    },
-    {
       "name": "Ireland",
       "views": 4,
       "visits": 3,
       "iso": "IE"
+    },
+    {
+      "name": "India",
+      "views": 2,
+      "visits": 2,
+      "iso": "IN"
     },
     {
       "name": "Australia",
@@ -67,12 +67,6 @@
       "views": 3,
       "visits": 1,
       "iso": "AT"
-    },
-    {
-      "name": "Bolivia",
-      "views": 1,
-      "visits": 1,
-      "iso": "BO"
     },
     {
       "name": "Brazil",
@@ -99,15 +93,16 @@
       "iso": "NL"
     },
     {
+      "name": "Slovakia",
+      "views": 1,
+      "visits": 1,
+      "iso": "SK"
+    },
+    {
       "name": "Venezuela",
       "views": 1,
       "visits": 1,
       "iso": "VE"
-    },
-    {
-      "name": "FR",
-      "views": 7,
-      "visits": 0
     },
     {
       "name": "Republic of Korea",
