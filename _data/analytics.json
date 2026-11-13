@@ -1,114 +1,54 @@
 {
   "connected": true,
-  "updated": "2026-11-12T23:41:06Z",
+  "updated": "2026-11-13T14:40:41Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 463,
-    "visits": 237
+    "views": 493,
+    "visits": 247
   },
-  "countries_7d": 17,
+  "countries_7d": 7,
   "top_countries_7d": [
     {
       "name": "China",
-      "views": 175,
-      "visits": 87,
+      "views": 230,
+      "visits": 90,
       "iso": "CN"
     },
     {
-      "name": "United States of America",
-      "views": 65,
-      "visits": 53,
-      "iso": "US"
-    },
-    {
       "name": "Singapore",
-      "views": 67,
-      "visits": 31,
+      "views": 70,
+      "visits": 40,
       "iso": "SG"
     },
     {
-      "name": "United Kingdom",
-      "views": 84,
-      "visits": 22,
-      "iso": "GB"
+      "name": "United States of America",
+      "views": 50,
+      "visits": 30,
+      "iso": "US"
     },
     {
       "name": "Germany",
-      "views": 27,
-      "visits": 18,
+      "views": 40,
+      "visits": 20,
       "iso": "DE"
     },
     {
+      "name": "United Kingdom",
+      "views": 50,
+      "visits": 20,
+      "iso": "GB"
+    },
+    {
       "name": "Canada",
-      "views": 24,
-      "visits": 13,
+      "views": 20,
+      "visits": 0,
       "iso": "CA"
     },
     {
       "name": "Ireland",
-      "views": 4,
-      "visits": 3,
-      "iso": "IE"
-    },
-    {
-      "name": "India",
-      "views": 2,
-      "visits": 2,
-      "iso": "IN"
-    },
-    {
-      "name": "Australia",
-      "views": 1,
-      "visits": 1,
-      "iso": "AU"
-    },
-    {
-      "name": "Austria",
-      "views": 3,
-      "visits": 1,
-      "iso": "AT"
-    },
-    {
-      "name": "Brazil",
-      "views": 5,
-      "visits": 1,
-      "iso": "BR"
-    },
-    {
-      "name": "Bulgaria",
-      "views": 1,
-      "visits": 1,
-      "iso": "BG"
-    },
-    {
-      "name": "Indonesia",
-      "views": 1,
-      "visits": 1,
-      "iso": "ID"
-    },
-    {
-      "name": "Netherlands",
-      "views": 1,
-      "visits": 1,
-      "iso": "NL"
-    },
-    {
-      "name": "Slovakia",
-      "views": 1,
-      "visits": 1,
-      "iso": "SK"
-    },
-    {
-      "name": "Venezuela",
-      "views": 1,
-      "visits": 1,
-      "iso": "VE"
-    },
-    {
-      "name": "Republic of Korea",
-      "views": 1,
+      "views": 10,
       "visits": 0,
-      "iso": "KR"
+      "iso": "IE"
     }
   ]
 }

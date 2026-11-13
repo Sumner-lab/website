@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -91,55 +91,56 @@
     "2026-11-08",
     "2026-11-09",
     "2026-11-10",
-    "2026-11-11"
+    "2026-11-11",
+    "2026-11-12"
   ],
-  "pageviews": 6587,
-  "visits": 3213,
+  "pageviews": 6700,
+  "visits": 3259,
   "countries_count": 79,
   "top_pages": [
     {
       "path": "/",
-      "views": 963
+      "views": 981
     },
     {
       "path": "/updates/",
-      "views": 472
+      "views": 483
     },
     {
       "path": "/people/",
-      "views": 460
+      "views": 468
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 283
+      "views": 285
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 218
+      "views": 225
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 203
+      "views": 208
     },
     {
       "path": "/research/",
-      "views": 201
+      "views": 202
     },
     {
       "path": "/media/",
-      "views": 170
+      "views": 171
     },
     {
       "path": "/endless-forms/",
-      "views": 153
+      "views": 159
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 152
+      "views": 155
     },
     {
       "path": "/contact/",
-      "views": 122
+      "views": 123
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
@@ -147,7 +148,7 @@
     },
     {
       "path": "/people/christopher-wyatt/",
-      "views": 118
+      "views": 120
     },
     {
       "path": "/science-communication/",
@@ -158,28 +159,28 @@
       "views": 106
     },
     {
-      "path": "/publications/",
-      "views": 98
+      "path": "/people/benjamin-taylor/",
+      "views": 99
     },
     {
-      "path": "/people/benjamin-taylor/",
-      "views": 97
+      "path": "/publications/",
+      "views": 99
     },
     {
       "path": "/big-wasp-survey/",
-      "views": 85
+      "views": 88
     },
     {
       "path": "/articles/",
-      "views": 84
+      "views": 85
     },
     {
       "path": "/people/alessandro-cini/",
-      "views": 81
+      "views": 83
     },
     {
       "path": "/people/sam-duckerin/",
-      "views": 75
+      "views": 77
     },
     {
       "path": "/website/",
@@ -187,79 +188,79 @@
     },
     {
       "path": "/research/genomics/",
-      "views": 71
+      "views": 73
     },
     {
       "path": "/people/romuald-tcheutchoua/",
-      "views": 69
+      "views": 70
     },
     {
       "path": "/people/daisy-taylor/",
+      "views": 69
+    },
+    {
+      "path": "/people/caroline-chandler/",
       "views": 66
+    },
+    {
+      "path": "/people/emeline-favreau/",
+      "views": 65
     },
     {
       "path": "/where-hornets-are-queens/",
       "views": 65
     },
     {
-      "path": "/people/caroline-chandler/",
-      "views": 63
-    },
-    {
-      "path": "/people/emeline-favreau/",
-      "views": 63
-    },
-    {
       "path": "/research/evolution/",
-      "views": 62
+      "views": 64
     },
     {
       "path": "/people/iona-cunningham-eurich/",
       "views": 60
     },
     {
+      "path": "/people/lewis-revely/",
+      "views": 60
+    },
+    {
+      "path": "/people/adam-devenish/",
+      "views": 57
+    },
+    {
       "path": "/people/fernando-duarte/",
       "views": 57
     },
     {
-      "path": "/people/lewis-revely/",
-      "views": 55
-    },
-    {
       "path": "/people/owen-corbett/",
-      "views": 54
+      "views": 57
     },
     {
       "path": "/wasplove-game/",
-      "views": 54
-    },
-    {
-      "path": "/people/adam-devenish/",
-      "views": 53
+      "views": 55
     },
     {
       "path": "/people/emily-bell/",
       "views": 53
     },
     {
+      "path": "/people/robin-southon/",
+      "views": 51
+    },
+    {
       "path": "/research/ecology/",
       "views": 50
     },
     {
-      "path": "/people/robin-southon/",
-      "views": 49
+      "path": "/people/sandra-moreno/",
+      "views": 43
     },
     {
       "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
-      "views": 41
-    },
-    {
-      "path": "/people/sandra-moreno/",
-      "views": 41
+      "views": 42
     },
     {
       "path": "/people/patrick-kennedy/",
-      "views": 39
+      "views": 40
     },
     {
       "path": "/soapbox-science/",
@@ -267,7 +268,7 @@
     },
     {
       "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
-      "views": 35
+      "views": 36
     },
     {
       "path": "/billy-easeman-parasitoid-wasps/",
@@ -326,16 +327,16 @@
       "views": 21
     },
     {
+      "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
+      "views": 20
+    },
+    {
       "path": "/what-roles-do-wasps-play-in-nature/",
       "views": 20
     },
     {
       "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
       "views": 19
-    },
-    {
-      "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
-      "views": 18
     },
     {
       "path": "/numbers/",
@@ -347,6 +348,10 @@
     },
     {
       "path": "/daniel-altair-saureu-velasco-transcriptomics-of-caste-conflict-in-argentine-ants/",
+      "views": 16
+    },
+    {
+      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
       "views": 16
     },
     {
@@ -364,10 +369,6 @@
     {
       "path": "/whats-the-point-of-wasps/",
       "views": 16
-    },
-    {
-      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
-      "views": 15
     },
     {
       "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
@@ -438,6 +439,10 @@
       "views": 10
     },
     {
+      "path": "/hoi-lam-daisy-choi-investigating-the-evolutionary-patterns-of-diets-and-predatory-wasps/",
+      "views": 10
+    },
+    {
       "path": "/wasps-matter/",
       "views": 10
     },
@@ -448,10 +453,6 @@
     {
       "path": "/why-fly-half-way-across-the-world-to-trinidad-when-there-are-plenty-of-wasps-drowning-in-my-lemonade-in-peckham/",
       "views": 10
-    },
-    {
-      "path": "/hoi-lam-daisy-choi-investigating-the-evolutionary-patterns-of-diets-and-predatory-wasps/",
-      "views": 9
     },
     {
       "path": "/lonely-potter/",
@@ -633,32 +634,32 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 1963,
-      "visits": 974,
+      "views": 2044,
+      "visits": 1003,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 932,
-      "visits": 682,
+      "views": 942,
+      "visits": 688,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 988,
-      "visits": 594,
+      "views": 997,
+      "visits": 597,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1633,
-      "visits": 466,
+      "views": 1638,
+      "visits": 469,
       "iso": "GB"
     },
     {
       "name": "Germany",
-      "views": 138,
-      "visits": 84,
+      "views": 142,
+      "visits": 85,
       "iso": "DE"
     },
     {
@@ -675,8 +676,8 @@
     },
     {
       "name": "India",
-      "views": 82,
-      "visits": 30,
+      "views": 84,
+      "visits": 32,
       "iso": "IN"
     },
     {
@@ -693,8 +694,8 @@
     },
     {
       "name": "Italy",
-      "views": 23,
-      "visits": 14,
+      "views": 24,
+      "visits": 15,
       "iso": "IT"
     },
     {
@@ -866,6 +867,12 @@
       "iso": "PL"
     },
     {
+      "name": "Portugal",
+      "views": 3,
+      "visits": 3,
+      "iso": "PT"
+    },
+    {
       "name": "Ukraine",
       "views": 4,
       "visits": 3,
@@ -924,12 +931,6 @@
       "views": 2,
       "visits": 2,
       "iso": "KZ"
-    },
-    {
-      "name": "Portugal",
-      "views": 2,
-      "visits": 2,
-      "iso": "PT"
     },
     {
       "name": "Romania",
@@ -1556,6 +1557,11 @@
       "date": "2026-11-11",
       "views": 70,
       "visits": 20
+    },
+    {
+      "date": "2026-11-12",
+      "views": 113,
+      "visits": 46
     }
   ]
 }
