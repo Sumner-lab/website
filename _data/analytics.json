@@ -1,41 +1,41 @@
 {
   "connected": true,
-  "updated": "2026-11-14T22:30:38Z",
+  "updated": "2026-11-15T14:01:53Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 539,
-    "visits": 249
+    "views": 544,
+    "visits": 236
   },
-  "countries_7d": 20,
+  "countries_7d": 19,
   "top_countries_7d": [
     {
       "name": "China",
-      "views": 300,
-      "visits": 114,
+      "views": 329,
+      "visits": 121,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 63,
-      "visits": 48,
+      "views": 54,
+      "visits": 39,
       "iso": "US"
     },
     {
       "name": "Singapore",
       "views": 53,
-      "visits": 26,
+      "visits": 25,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 53,
-      "visits": 17,
+      "views": 44,
+      "visits": 15,
       "iso": "GB"
     },
     {
       "name": "Germany",
-      "views": 29,
-      "visits": 16,
+      "views": 23,
+      "visits": 9,
       "iso": "DE"
     },
     {
@@ -51,28 +51,22 @@
       "iso": "IN"
     },
     {
-      "name": "Ireland",
-      "views": 4,
-      "visits": 3,
-      "iso": "IE"
-    },
-    {
       "name": "Italy",
       "views": 3,
       "visits": 3,
       "iso": "IT"
     },
     {
+      "name": "Slovakia",
+      "views": 4,
+      "visits": 3,
+      "iso": "SK"
+    },
+    {
       "name": "Sweden",
       "views": 2,
       "visits": 2,
       "iso": "SE"
-    },
-    {
-      "name": "Australia",
-      "views": 1,
-      "visits": 1,
-      "iso": "AU"
     },
     {
       "name": "Austria",
@@ -87,16 +81,21 @@
       "iso": "BG"
     },
     {
+      "name": "FR",
+      "views": 1,
+      "visits": 1
+    },
+    {
       "name": "Indonesia",
       "views": 1,
       "visits": 1,
       "iso": "ID"
     },
     {
-      "name": "Netherlands",
-      "views": 1,
+      "name": "Ireland",
+      "views": 2,
       "visits": 1,
-      "iso": "NL"
+      "iso": "IE"
     },
     {
       "name": "Portugal",
@@ -109,12 +108,6 @@
       "views": 1,
       "visits": 1,
       "iso": "RO"
-    },
-    {
-      "name": "Slovakia",
-      "views": 1,
-      "visits": 1,
-      "iso": "SK"
     },
     {
       "name": "Venezuela",
