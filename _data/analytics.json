@@ -1,54 +1,101 @@
 {
   "connected": true,
-  "updated": "2026-11-17T16:09:47Z",
+  "updated": "2026-11-18T00:59:40Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 594,
-    "visits": 256
+    "views": 639,
+    "visits": 281
   },
-  "countries_7d": 7,
+  "countries_7d": 15,
   "top_countries_7d": [
     {
       "name": "China",
-      "views": 410,
-      "visits": 130,
+      "views": 459,
+      "visits": 170,
       "iso": "CN"
     },
     {
-      "name": "Singapore",
-      "views": 70,
-      "visits": 40,
-      "iso": "SG"
-    },
-    {
       "name": "United States of America",
-      "views": 60,
-      "visits": 40,
+      "views": 65,
+      "visits": 42,
       "iso": "US"
     },
     {
-      "name": "Canada",
-      "views": 10,
-      "visits": 10,
-      "iso": "CA"
-    },
-    {
-      "name": "Sweden",
-      "views": 10,
-      "visits": 10,
-      "iso": "SE"
+      "name": "Singapore",
+      "views": 48,
+      "visits": 25,
+      "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 20,
-      "visits": 10,
+      "views": 33,
+      "visits": 17,
       "iso": "GB"
     },
     {
       "name": "Germany",
-      "views": 20,
-      "visits": 0,
+      "views": 12,
+      "visits": 6,
       "iso": "DE"
+    },
+    {
+      "name": "Slovakia",
+      "views": 5,
+      "visits": 4,
+      "iso": "SK"
+    },
+    {
+      "name": "Italy",
+      "views": 3,
+      "visits": 3,
+      "iso": "IT"
+    },
+    {
+      "name": "Canada",
+      "views": 2,
+      "visits": 2,
+      "iso": "CA"
+    },
+    {
+      "name": "FR",
+      "views": 2,
+      "visits": 2
+    },
+    {
+      "name": "India",
+      "views": 2,
+      "visits": 2,
+      "iso": "IN"
+    },
+    {
+      "name": "Portugal",
+      "views": 2,
+      "visits": 2,
+      "iso": "PT"
+    },
+    {
+      "name": "Republic of Korea",
+      "views": 2,
+      "visits": 2,
+      "iso": "KR"
+    },
+    {
+      "name": "Sweden",
+      "views": 2,
+      "visits": 2,
+      "iso": "SE"
+    },
+    {
+      "name": "Austria",
+      "views": 1,
+      "visits": 1,
+      "iso": "AT"
+    },
+    {
+      "name": "Romania",
+      "views": 1,
+      "visits": 1,
+      "iso": "RO"
     }
   ]
 }
