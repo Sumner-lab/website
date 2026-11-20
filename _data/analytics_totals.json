@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -98,31 +98,32 @@
     "2026-11-15",
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19"
   ],
-  "pageviews": 7291,
-  "visits": 3534,
+  "pageviews": 7334,
+  "visits": 3556,
   "countries_count": 80,
   "top_pages": [
     {
       "path": "/",
-      "views": 1041
+      "views": 1048
     },
     {
       "path": "/updates/",
-      "views": 528
+      "views": 531
     },
     {
       "path": "/people/",
-      "views": 507
+      "views": 511
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 294
+      "views": 295
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 248
+      "views": 251
     },
     {
       "path": "/research/",
@@ -130,19 +131,19 @@
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 221
+      "views": 223
     },
     {
       "path": "/media/",
-      "views": 191
+      "views": 192
     },
     {
       "path": "/endless-forms/",
-      "views": 190
+      "views": 191
     },
     {
       "path": "/people/cintia-oi/",
-      "views": 163
+      "views": 164
     },
     {
       "path": "/contact/",
@@ -150,7 +151,7 @@
     },
     {
       "path": "/people/christopher-wyatt/",
-      "views": 132
+      "views": 133
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
@@ -161,20 +162,20 @@
       "views": 121
     },
     {
+      "path": "/people/benjamin-taylor/",
+      "views": 117
+    },
+    {
       "path": "/science-communication/",
       "views": 116
     },
     {
-      "path": "/people/benjamin-taylor/",
+      "path": "/publications/",
       "views": 112
     },
     {
-      "path": "/publications/",
-      "views": 111
-    },
-    {
       "path": "/big-wasp-survey/",
-      "views": 95
+      "views": 96
     },
     {
       "path": "/people/alessandro-cini/",
@@ -186,7 +187,7 @@
     },
     {
       "path": "/people/sam-duckerin/",
-      "views": 86
+      "views": 88
     },
     {
       "path": "/research/genomics/",
@@ -202,6 +203,10 @@
     },
     {
       "path": "/people/caroline-chandler/",
+      "views": 76
+    },
+    {
+      "path": "/people/iona-cunningham-eurich/",
       "views": 75
     },
     {
@@ -210,10 +215,6 @@
     },
     {
       "path": "/people/emeline-favreau/",
-      "views": 73
-    },
-    {
-      "path": "/people/iona-cunningham-eurich/",
       "views": 73
     },
     {
@@ -250,7 +251,7 @@
     },
     {
       "path": "/wasplove-game/",
-      "views": 55
+      "views": 56
     },
     {
       "path": "/research/ecology/",
@@ -266,7 +267,7 @@
     },
     {
       "path": "/people/patrick-kennedy/",
-      "views": 48
+      "views": 50
     },
     {
       "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
@@ -317,15 +318,15 @@
       "views": 24
     },
     {
+      "path": "/people/sam-morris/",
+      "views": 24
+    },
+    {
       "path": "/wasp-day-2023/",
       "views": 24
     },
     {
       "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
-      "views": 23
-    },
-    {
-      "path": "/people/sam-morris/",
       "views": 23
     },
     {
@@ -341,6 +342,10 @@
       "views": 21
     },
     {
+      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
+      "views": 19
+    },
+    {
       "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
       "views": 19
     },
@@ -354,10 +359,6 @@
     },
     {
       "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
-      "views": 17
-    },
-    {
-      "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
       "views": 17
     },
     {
@@ -421,6 +422,10 @@
       "views": 12
     },
     {
+      "path": "/sreya-magar-evolution-of-prey-selection-and-life-history-traits-in-sphecidae-wasps/",
+      "views": 12
+    },
+    {
       "path": "/citizen-science-for-the-win/",
       "views": 11
     },
@@ -438,10 +443,6 @@
     },
     {
       "path": "/nextflow-summit-and-hackathon-barcelona-october-2022/",
-      "views": 11
-    },
-    {
-      "path": "/sreya-magar-evolution-of-prey-selection-and-life-history-traits-in-sphecidae-wasps/",
       "views": 11
     },
     {
@@ -648,26 +649,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 2460,
-      "visits": 1167,
+      "views": 2475,
+      "visits": 1175,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 1000,
-      "visits": 728,
+      "views": 1006,
+      "visits": 733,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 1035,
-      "visits": 620,
+      "views": 1039,
+      "visits": 624,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1682,
-      "visits": 490,
+      "views": 1693,
+      "visits": 491,
       "iso": "GB"
     },
     {
@@ -737,6 +738,12 @@
       "iso": "ZA"
     },
     {
+      "name": "Republic of Korea",
+      "views": 16,
+      "visits": 8,
+      "iso": "KR"
+    },
+    {
       "name": "Spain",
       "views": 13,
       "visits": 8,
@@ -773,12 +780,6 @@
       "iso": "MX"
     },
     {
-      "name": "Republic of Korea",
-      "views": 14,
-      "visits": 6,
-      "iso": "KR"
-    },
-    {
       "name": "Slovakia",
       "views": 10,
       "visits": 6,
@@ -789,6 +790,12 @@
       "views": 8,
       "visits": 5,
       "iso": "AU"
+    },
+    {
+      "name": "Portugal",
+      "views": 5,
+      "visits": 5,
+      "iso": "PT"
     },
     {
       "name": "Russian Federation",
@@ -839,10 +846,10 @@
       "iso": "PH"
     },
     {
-      "name": "Portugal",
-      "views": 4,
+      "name": "Sweden",
+      "views": 9,
       "visits": 4,
-      "iso": "PT"
+      "iso": "SE"
     },
     {
       "name": "Thailand",
@@ -897,12 +904,6 @@
       "views": 3,
       "visits": 3,
       "iso": "RO"
-    },
-    {
-      "name": "Sweden",
-      "views": 5,
-      "visits": 3,
-      "iso": "SE"
     },
     {
       "name": "Ukraine",
@@ -1612,6 +1613,11 @@
       "date": "2026-11-18",
       "views": 135,
       "visits": 60
+    },
+    {
+      "date": "2026-11-19",
+      "views": 43,
+      "visits": 22
     }
   ]
 }
