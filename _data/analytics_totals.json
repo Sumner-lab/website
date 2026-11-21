@@ -104,7 +104,7 @@
   ],
   "pageviews": 7508,
   "visits": 3638,
-  "countries_count": 81,
+  "countries_count": 80,
   "top_pages": [
     {
       "path": "/",
@@ -941,11 +941,6 @@
       "views": 4,
       "visits": 2,
       "iso": "CZ"
-    },
-    {
-      "name": "FR",
-      "views": 3,
-      "visits": 2
     },
     {
       "name": "Finland",
