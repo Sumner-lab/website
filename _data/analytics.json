@@ -1,35 +1,35 @@
 {
   "connected": true,
-  "updated": "2026-11-22T23:38:53Z",
+  "updated": "2026-11-23T18:22:04Z",
   "since": "2026-08-14",
   "last7days": {
-    "views": 708,
-    "visits": 337
+    "views": 700,
+    "visits": 334
   },
   "countries_7d": 17,
   "top_countries_7d": [
     {
       "name": "China",
-      "views": 492,
-      "visits": 205,
+      "views": 474,
+      "visits": 197,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 70,
-      "visits": 50,
+      "views": 75,
+      "visits": 54,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 39,
-      "visits": 24,
+      "views": 41,
+      "visits": 23,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 60,
-      "visits": 22,
+      "views": 62,
+      "visits": 23,
       "iso": "GB"
     },
     {
@@ -80,6 +80,12 @@
       "iso": "SK"
     },
     {
+      "name": "Sweden",
+      "views": 5,
+      "visits": 2,
+      "iso": "SE"
+    },
+    {
       "name": "Argentina",
       "views": 1,
       "visits": 1,
@@ -102,12 +108,6 @@
       "views": 1,
       "visits": 1,
       "iso": "SA"
-    },
-    {
-      "name": "Sweden",
-      "views": 4,
-      "visits": 1,
-      "iso": "SE"
     }
   ]
 }
