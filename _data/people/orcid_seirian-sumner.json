@@ -1,9 +1,93 @@
 {
-  "updated": "2026-09-17T21:35:20Z",
+  "updated": "2026-11-23T18:29:27Z",
   "name": "Seirian Sumner",
   "orcid": "0000-0003-0213-2018",
   "profile_url": "https://orcid.org/0000-0003-0213-2018",
   "publications": [
+    {
+      "doi": "10.1098/rsos.261733",
+      "url": "https://doi.org/10.1098/rsos.261733",
+      "title": "Deconstructing the nesting cycle of a progressive provisioning wasp provides insights into the mechanisms regulating maternal care",
+      "journal": "Royal Society Open Science",
+      "year": 2026,
+      "date": "2026-11-04",
+      "authors": [
+        {
+          "name": "Oi CA",
+          "lab_member": true
+        },
+        {
+          "name": "Moreno-Medina S",
+          "lab_member": true
+        },
+        {
+          "name": "Wyatt C",
+          "lab_member": true
+        },
+        {
+          "name": "Ferreira FC",
+          "lab_member": false
+        },
+        {
+          "name": "Bodrug-Schepers A",
+          "lab_member": false
+        },
+        {
+          "name": "Stralis-Pavese N",
+          "lab_member": false
+        },
+        {
+          "name": "Dohm JC",
+          "lab_member": false
+        },
+        {
+          "name": "Guigó R",
+          "lab_member": false
+        },
+        {
+          "name": "Himmelbauer H",
+          "lab_member": false
+        },
+        {
+          "name": "Sumner S",
+          "lab_member": true
+        }
+      ]
+    },
+    {
+      "doi": "10.64898/2026.09.25.754512",
+      "url": "https://doi.org/10.64898/2026.09.25.754512",
+      "title": "EXCON: a scalable, reproducible Nextflow pipeline for CAFE-based gene EXpansion and CONtraction analysis",
+      "journal": "bioRxiv",
+      "year": 2026,
+      "date": "2026-10-01",
+      "authors": [
+        {
+          "name": "Wyatt C",
+          "lab_member": true
+        },
+        {
+          "name": "Duarte F",
+          "lab_member": true
+        },
+        {
+          "name": "Cerqueira De Araujo A",
+          "lab_member": true
+        },
+        {
+          "name": "Murray S",
+          "lab_member": false
+        },
+        {
+          "name": "Oi C",
+          "lab_member": true
+        },
+        {
+          "name": "Sumner S",
+          "lab_member": true
+        }
+      ]
+    },
     {
       "doi": "10.1016/j.cois.2026.101553",
       "url": "https://doi.org/10.1016/j.cois.2026.101553",
