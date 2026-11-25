@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -103,23 +103,24 @@
     "2026-11-20",
     "2026-11-21",
     "2026-11-22",
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
   ],
-  "pageviews": 7732,
-  "visits": 3734,
-  "countries_count": 80,
+  "pageviews": 7798,
+  "visits": 3766,
+  "countries_count": 82,
   "top_pages": [
     {
       "path": "/",
-      "views": 1084
+      "views": 1098
     },
     {
       "path": "/updates/",
-      "views": 564
+      "views": 570
     },
     {
       "path": "/people/",
-      "views": 536
+      "views": 541
     },
     {
       "path": "/wasp-picnic-survey-2026/",
@@ -127,11 +128,11 @@
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 265
+      "views": 266
     },
     {
       "path": "/research/",
-      "views": 239
+      "views": 240
     },
     {
       "path": "/people/femi-e-benny/",
@@ -139,7 +140,7 @@
     },
     {
       "path": "/endless-forms/",
-      "views": 209
+      "views": 211
     },
     {
       "path": "/media/",
@@ -159,7 +160,7 @@
     },
     {
       "path": "/people/idris-adams/",
-      "views": 130
+      "views": 132
     },
     {
       "path": "/people/benjamin-taylor/",
@@ -183,15 +184,19 @@
     },
     {
       "path": "/people/alessandro-cini/",
-      "views": 99
-    },
-    {
-      "path": "/research/genomics/",
-      "views": 94
+      "views": 103
     },
     {
       "path": "/people/sam-duckerin/",
-      "views": 93
+      "views": 100
+    },
+    {
+      "path": "/research/genomics/",
+      "views": 95
+    },
+    {
+      "path": "/people/daisy-taylor/",
+      "views": 90
     },
     {
       "path": "/people/romuald-tcheutchoua/",
@@ -199,10 +204,6 @@
     },
     {
       "path": "/articles/",
-      "views": 88
-    },
-    {
-      "path": "/people/daisy-taylor/",
       "views": 88
     },
     {
@@ -214,20 +215,20 @@
       "views": 82
     },
     {
+      "path": "/people/iona-cunningham-eurich/",
+      "views": 80
+    },
+    {
       "path": "/research/evolution/",
       "views": 80
     },
     {
-      "path": "/people/iona-cunningham-eurich/",
+      "path": "/people/lewis-revely/",
       "views": 79
     },
     {
-      "path": "/people/lewis-revely/",
-      "views": 76
-    },
-    {
       "path": "/people/adam-devenish/",
-      "views": 75
+      "views": 76
     },
     {
       "path": "/website/",
@@ -242,23 +243,27 @@
       "views": 72
     },
     {
+      "path": "/people/robin-southon/",
+      "views": 70
+    },
+    {
       "path": "/people/emily-bell/",
       "views": 69
     },
     {
-      "path": "/people/robin-southon/",
-      "views": 69
-    },
-    {
       "path": "/wasplove-game/",
-      "views": 60
+      "views": 62
     },
     {
       "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
-      "views": 59
+      "views": 60
     },
     {
       "path": "/people/fernando-duarte/",
+      "views": 58
+    },
+    {
+      "path": "/people/patrick-kennedy/",
       "views": 58
     },
     {
@@ -266,16 +271,12 @@
       "views": 58
     },
     {
-      "path": "/people/patrick-kennedy/",
+      "path": "/research/ecology/",
       "views": 56
     },
     {
-      "path": "/research/ecology/",
-      "views": 55
-    },
-    {
       "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
-      "views": 50
+      "views": 52
     },
     {
       "path": "/research/mechanisms/",
@@ -310,20 +311,20 @@
       "views": 29
     },
     {
+      "path": "/wasp-day-2023/",
+      "views": 27
+    },
+    {
       "path": "/website/updates/",
       "views": 27
     },
     {
-      "path": "/wasp-day-2023/",
-      "views": 26
+      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
+      "views": 25
     },
     {
       "path": "/publications/wider/",
       "views": 25
-    },
-    {
-      "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
-      "views": 24
     },
     {
       "path": "/in2science-a-level-student-blog/",
@@ -346,6 +347,10 @@
       "views": 21
     },
     {
+      "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
+      "views": 20
+    },
+    {
       "path": "/whats-the-point-of-wasps/",
       "views": 20
     },
@@ -354,7 +359,7 @@
       "views": 19
     },
     {
-      "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
+      "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
       "views": 19
     },
     {
@@ -383,10 +388,6 @@
     },
     {
       "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
-      "views": 17
-    },
-    {
-      "path": "/tiffene-larose-trait-analysis-motion-tracking-and-spatial-use-in-polistes-wasps/",
       "views": 17
     },
     {
@@ -426,6 +427,10 @@
       "views": 12
     },
     {
+      "path": "/from-brussels-sprouts-to-brachiosaurs-our-science-communication-isnt-always-about-wasps/",
+      "views": 12
+    },
+    {
       "path": "/hoi-lam-daisy-choi-investigating-the-evolutionary-patterns-of-diets-and-predatory-wasps/",
       "views": 12
     },
@@ -435,10 +440,6 @@
     },
     {
       "path": "/citizen-science-for-the-win/",
-      "views": 11
-    },
-    {
-      "path": "/from-brussels-sprouts-to-brachiosaurs-our-science-communication-isnt-always-about-wasps/",
       "views": 11
     },
     {
@@ -506,16 +507,16 @@
       "views": 8
     },
     {
+      "path": "/euro-iussi-lausanne-2024/",
+      "views": 7
+    },
+    {
       "path": "/visit-collaborator-prof-fabio-nascimento-usp-brazil/",
       "views": 7
     },
     {
       "path": "/website/science-communication/",
       "views": 7
-    },
-    {
-      "path": "/euro-iussi-lausanne-2024/",
-      "views": 6
     },
     {
       "path": "/extensive-local-gene-duplication-and-functional-divergence-among-paralogs-in-atlantic-salmon/",
@@ -653,26 +654,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 2754,
-      "visits": 1284,
+      "views": 2785,
+      "visits": 1296,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 1037,
-      "visits": 758,
+      "views": 1042,
+      "visits": 762,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 1074,
-      "visits": 640,
+      "views": 1080,
+      "visits": 643,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1721,
-      "visits": 500,
+      "views": 1725,
+      "visits": 503,
       "iso": "GB"
     },
     {
@@ -683,14 +684,14 @@
     },
     {
       "name": "Brazil",
-      "views": 288,
+      "views": 289,
       "visits": 57,
       "iso": "BR"
     },
     {
       "name": "Canada",
-      "views": 69,
-      "visits": 44,
+      "views": 80,
+      "visits": 48,
       "iso": "CA"
     },
     {
@@ -742,6 +743,12 @@
       "iso": "ZA"
     },
     {
+      "name": "Spain",
+      "views": 14,
+      "visits": 9,
+      "iso": "ES"
+    },
+    {
       "name": "Viet Nam",
       "views": 11,
       "visits": 9,
@@ -758,12 +765,6 @@
       "views": 16,
       "visits": 8,
       "iso": "KR"
-    },
-    {
-      "name": "Spain",
-      "views": 13,
-      "visits": 8,
-      "iso": "ES"
     },
     {
       "name": "Japan",
@@ -808,6 +809,12 @@
       "iso": "AT"
     },
     {
+      "name": "Malaysia",
+      "views": 7,
+      "visits": 5,
+      "iso": "MY"
+    },
+    {
       "name": "Philippines",
       "views": 6,
       "visits": 5,
@@ -848,12 +855,6 @@
       "views": 13,
       "visits": 4,
       "iso": "BE"
-    },
-    {
-      "name": "Malaysia",
-      "views": 4,
-      "visits": 4,
-      "iso": "MY"
     },
     {
       "name": "Nigeria",
@@ -940,10 +941,21 @@
       "iso": "BO"
     },
     {
+      "name": "Chile",
+      "views": 2,
+      "visits": 2,
+      "iso": "CL"
+    },
+    {
       "name": "Czech Republic",
       "views": 4,
       "visits": 2,
       "iso": "CZ"
+    },
+    {
+      "name": "FR",
+      "views": 2,
+      "visits": 2
     },
     {
       "name": "Finland",
@@ -1012,12 +1024,6 @@
       "iso": "CV"
     },
     {
-      "name": "Chile",
-      "views": 1,
-      "visits": 1,
-      "iso": "CL"
-    },
-    {
       "name": "Ecuador",
       "views": 1,
       "visits": 1,
@@ -1064,6 +1070,12 @@
       "views": 1,
       "visits": 1,
       "iso": "JO"
+    },
+    {
+      "name": "Libya",
+      "views": 1,
+      "visits": 1,
+      "iso": "LY"
     },
     {
       "name": "Morocco",
@@ -1642,6 +1654,11 @@
       "date": "2026-11-23",
       "views": 62,
       "visits": 29
+    },
+    {
+      "date": "2026-11-24",
+      "views": 66,
+      "visits": 32
     }
   ]
 }
