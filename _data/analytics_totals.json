@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -104,35 +104,36 @@
     "2026-11-21",
     "2026-11-22",
     "2026-11-23",
-    "2026-11-24"
+    "2026-11-24",
+    "2026-11-25"
   ],
-  "pageviews": 7798,
-  "visits": 3766,
-  "countries_count": 81,
+  "pageviews": 7861,
+  "visits": 3802,
+  "countries_count": 83,
   "top_pages": [
     {
       "path": "/",
-      "views": 1098
+      "views": 1109
     },
     {
       "path": "/updates/",
-      "views": 570
+      "views": 576
     },
     {
       "path": "/people/",
-      "views": 541
+      "views": 544
     },
     {
       "path": "/wasp-picnic-survey-2026/",
-      "views": 301
+      "views": 302
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 266
+      "views": 269
     },
     {
       "path": "/research/",
-      "views": 240
+      "views": 242
     },
     {
       "path": "/people/femi-e-benny/",
@@ -144,7 +145,7 @@
     },
     {
       "path": "/media/",
-      "views": 202
+      "views": 203
     },
     {
       "path": "/people/cintia-oi/",
@@ -152,7 +153,7 @@
     },
     {
       "path": "/contact/",
-      "views": 154
+      "views": 155
     },
     {
       "path": "/people/christopher-wyatt/",
@@ -168,11 +169,11 @@
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 123
+      "views": 124
     },
     {
       "path": "/publications/",
-      "views": 118
+      "views": 120
     },
     {
       "path": "/science-communication/",
@@ -180,7 +181,7 @@
     },
     {
       "path": "/big-wasp-survey/",
-      "views": 103
+      "views": 104
     },
     {
       "path": "/people/alessandro-cini/",
@@ -192,7 +193,7 @@
     },
     {
       "path": "/research/genomics/",
-      "views": 95
+      "views": 96
     },
     {
       "path": "/people/daisy-taylor/",
@@ -207,24 +208,24 @@
       "views": 88
     },
     {
+      "path": "/people/caroline-chandler/",
+      "views": 83
+    },
+    {
       "path": "/people/emeline-favreau/",
       "views": 83
     },
     {
-      "path": "/people/caroline-chandler/",
-      "views": 82
+      "path": "/people/iona-cunningham-eurich/",
+      "views": 81
     },
     {
-      "path": "/people/iona-cunningham-eurich/",
+      "path": "/people/lewis-revely/",
       "views": 80
     },
     {
       "path": "/research/evolution/",
       "views": 80
-    },
-    {
-      "path": "/people/lewis-revely/",
-      "views": 79
     },
     {
       "path": "/people/adam-devenish/",
@@ -240,19 +241,19 @@
     },
     {
       "path": "/where-hornets-are-queens/",
-      "views": 72
+      "views": 73
+    },
+    {
+      "path": "/people/emily-bell/",
+      "views": 70
     },
     {
       "path": "/people/robin-southon/",
       "views": 70
     },
     {
-      "path": "/people/emily-bell/",
-      "views": 69
-    },
-    {
       "path": "/wasplove-game/",
-      "views": 62
+      "views": 64
     },
     {
       "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
@@ -272,15 +273,15 @@
     },
     {
       "path": "/research/ecology/",
-      "views": 56
+      "views": 57
     },
     {
       "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
-      "views": 52
+      "views": 53
     },
     {
       "path": "/research/mechanisms/",
-      "views": 44
+      "views": 47
     },
     {
       "path": "/soapbox-science/",
@@ -288,7 +289,15 @@
     },
     {
       "path": "/billy-easeman-parasitoid-wasps/",
-      "views": 36
+      "views": 38
+    },
+    {
+      "path": "/wasp-day-2023/",
+      "views": 37
+    },
+    {
+      "path": "/autumn-2015-welcome-to-four-new-group-members/",
+      "views": 32
     },
     {
       "path": "/website/people/",
@@ -299,20 +308,12 @@
       "views": 31
     },
     {
-      "path": "/autumn-2015-welcome-to-four-new-group-members/",
-      "views": 30
-    },
-    {
       "path": "/people/ryan-brock/",
       "views": 29
     },
     {
       "path": "/research-published-fine-e2-80-90scale-spatial-genetic-structure-of-common-and-declining-bumble-bees-across-an-agricultural-landscape/",
       "views": 29
-    },
-    {
-      "path": "/wasp-day-2023/",
-      "views": 27
     },
     {
       "path": "/website/updates/",
@@ -327,16 +328,16 @@
       "views": 25
     },
     {
+      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
+      "views": 25
+    },
+    {
       "path": "/in2science-a-level-student-blog/",
       "views": 24
     },
     {
       "path": "/people/sam-morris/",
       "views": 24
-    },
-    {
-      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
-      "views": 23
     },
     {
       "path": "/what-roles-do-wasps-play-in-nature/",
@@ -355,6 +356,10 @@
       "views": 20
     },
     {
+      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
+      "views": 19
+    },
+    {
       "path": "/louisa-stefani-does-increased-awareness-and-understanding-of-wasps-change-public-perceptions-of-their-importance-and-utility/",
       "views": 19
     },
@@ -363,8 +368,8 @@
       "views": 19
     },
     {
-      "path": "/dylan-john-evolution-of-nesting-and-prey-use-traits-in-vespid-wasps/",
-      "views": 18
+      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
+      "views": 19
     },
     {
       "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
@@ -376,10 +381,6 @@
     },
     {
       "path": "/numbers/",
-      "views": 18
-    },
-    {
-      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
       "views": 18
     },
     {
@@ -654,26 +655,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 2785,
-      "visits": 1296,
+      "views": 2803,
+      "visits": 1304,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 1042,
-      "visits": 762,
+      "views": 1060,
+      "visits": 778,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 1080,
-      "visits": 643,
+      "views": 1083,
+      "visits": 645,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1725,
-      "visits": 503,
+      "views": 1742,
+      "visits": 508,
       "iso": "GB"
     },
     {
@@ -684,14 +685,14 @@
     },
     {
       "name": "Brazil",
-      "views": 289,
-      "visits": 57,
+      "views": 290,
+      "visits": 58,
       "iso": "BR"
     },
     {
       "name": "Canada",
-      "views": 80,
-      "visits": 48,
+      "views": 81,
+      "visits": 49,
       "iso": "CA"
     },
     {
@@ -737,6 +738,12 @@
       "iso": "CO"
     },
     {
+      "name": "Republic of Korea",
+      "views": 17,
+      "visits": 9,
+      "iso": "KR"
+    },
+    {
       "name": "South Africa",
       "views": 11,
       "visits": 9,
@@ -761,12 +768,6 @@
       "iso": "MX"
     },
     {
-      "name": "Republic of Korea",
-      "views": 16,
-      "visits": 8,
-      "iso": "KR"
-    },
-    {
       "name": "Japan",
       "views": 22,
       "visits": 7,
@@ -780,9 +781,15 @@
     },
     {
       "name": "Turkey",
-      "views": 16,
+      "views": 17,
       "visits": 7,
       "iso": "TR"
+    },
+    {
+      "name": "Philippines",
+      "views": 7,
+      "visits": 6,
+      "iso": "PH"
     },
     {
       "name": "Saudi Arabia",
@@ -813,12 +820,6 @@
       "views": 7,
       "visits": 5,
       "iso": "MY"
-    },
-    {
-      "name": "Philippines",
-      "views": 6,
-      "visits": 5,
-      "iso": "PH"
     },
     {
       "name": "Portugal",
@@ -1073,6 +1074,12 @@
       "iso": "LY"
     },
     {
+      "name": "Moldova",
+      "views": 1,
+      "visits": 1,
+      "iso": "MD"
+    },
+    {
       "name": "Morocco",
       "views": 1,
       "visits": 1,
@@ -1137,6 +1144,12 @@
       "views": 1,
       "visits": 0,
       "iso": "QA"
+    },
+    {
+      "name": "Tunisia",
+      "views": 1,
+      "visits": 0,
+      "iso": "TN"
     }
   ],
   "daily": [
@@ -1654,6 +1667,11 @@
       "date": "2026-11-24",
       "views": 66,
       "visits": 32
+    },
+    {
+      "date": "2026-11-25",
+      "views": 63,
+      "visits": 36
     }
   ]
 }
