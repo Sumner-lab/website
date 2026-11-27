@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "method": "per-day-unsampled-v5",
   "counted_dates": [
     "2026-08-14",
@@ -105,23 +105,24 @@
     "2026-11-22",
     "2026-11-23",
     "2026-11-24",
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26"
   ],
-  "pageviews": 7861,
-  "visits": 3802,
-  "countries_count": 83,
+  "pageviews": 7922,
+  "visits": 3844,
+  "countries_count": 85,
   "top_pages": [
     {
       "path": "/",
-      "views": 1109
+      "views": 1127
     },
     {
       "path": "/updates/",
-      "views": 576
+      "views": 583
     },
     {
       "path": "/people/",
-      "views": 544
+      "views": 545
     },
     {
       "path": "/wasp-picnic-survey-2026/",
@@ -129,15 +130,15 @@
     },
     {
       "path": "/people/seirian-sumner/",
-      "views": 269
+      "views": 270
     },
     {
       "path": "/research/",
-      "views": 242
+      "views": 245
     },
     {
       "path": "/people/femi-e-benny/",
-      "views": 232
+      "views": 233
     },
     {
       "path": "/endless-forms/",
@@ -153,15 +154,15 @@
     },
     {
       "path": "/contact/",
-      "views": 155
+      "views": 156
     },
     {
       "path": "/people/christopher-wyatt/",
-      "views": 138
+      "views": 141
     },
     {
       "path": "/people/idris-adams/",
-      "views": 132
+      "views": 134
     },
     {
       "path": "/people/benjamin-taylor/",
@@ -169,7 +170,7 @@
     },
     {
       "path": "/people/alex-cerqueira-de-araujo/",
-      "views": 124
+      "views": 126
     },
     {
       "path": "/publications/",
@@ -193,11 +194,11 @@
     },
     {
       "path": "/research/genomics/",
-      "views": 96
+      "views": 97
     },
     {
       "path": "/people/daisy-taylor/",
-      "views": 90
+      "views": 92
     },
     {
       "path": "/people/romuald-tcheutchoua/",
@@ -217,7 +218,7 @@
     },
     {
       "path": "/people/iona-cunningham-eurich/",
-      "views": 81
+      "views": 83
     },
     {
       "path": "/people/lewis-revely/",
@@ -232,11 +233,15 @@
       "views": 76
     },
     {
+      "path": "/people/owen-corbett/",
+      "views": 75
+    },
+    {
       "path": "/website/",
       "views": 75
     },
     {
-      "path": "/people/owen-corbett/",
+      "path": "/people/robin-southon/",
       "views": 73
     },
     {
@@ -248,12 +253,8 @@
       "views": 70
     },
     {
-      "path": "/people/robin-southon/",
-      "views": 70
-    },
-    {
       "path": "/wasplove-game/",
-      "views": 64
+      "views": 67
     },
     {
       "path": "/eco-flow-a-bioinformatics-ecosystem-for-agri-ecology/",
@@ -277,7 +278,7 @@
     },
     {
       "path": "/the-lord-of-the-bees-the-microcolony-revolution/",
-      "views": 53
+      "views": 55
     },
     {
       "path": "/research/mechanisms/",
@@ -288,24 +289,24 @@
       "views": 41
     },
     {
-      "path": "/billy-easeman-parasitoid-wasps/",
-      "views": 38
+      "path": "/wasp-day-2023/",
+      "views": 39
     },
     {
-      "path": "/wasp-day-2023/",
-      "views": 37
+      "path": "/billy-easeman-parasitoid-wasps/",
+      "views": 38
     },
     {
       "path": "/autumn-2015-welcome-to-four-new-group-members/",
       "views": 32
     },
     {
-      "path": "/website/people/",
+      "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
       "views": 32
     },
     {
-      "path": "/murder-hornet-collection-and-visit-to-wasp-farmers-in-japan/",
-      "views": 31
+      "path": "/website/people/",
+      "views": 32
     },
     {
       "path": "/people/ryan-brock/",
@@ -320,15 +321,15 @@
       "views": 27
     },
     {
+      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
+      "views": 27
+    },
+    {
       "path": "/expanding-the-spectrum-of-edible-insects-in-europe-the-way-forward/",
       "views": 25
     },
     {
       "path": "/publications/wider/",
-      "views": 25
-    },
-    {
-      "path": "/zann-teo-jiexin-population-differentiation-of-ammophila-wasps/",
       "views": 25
     },
     {
@@ -346,6 +347,10 @@
     {
       "path": "/effects-of-agrochemicals-on-ants-just-the-tip-of-the-ant-mound/",
       "views": 21
+    },
+    {
+      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
+      "views": 20
     },
     {
       "path": "/what-can-swarm-founding-wasps-tell-us-about-the-evolution-of-sociality/",
@@ -368,10 +373,6 @@
       "views": 19
     },
     {
-      "path": "/wasp-collecting-in-the-amazon-brazil-january-2023/",
-      "views": 19
-    },
-    {
       "path": "/jeferson-pedrosa-dos-santos-on-his-six-month-project-with-the-sumner-lab/",
       "views": 18
     },
@@ -388,6 +389,10 @@
       "views": 17
     },
     {
+      "path": "/lonely-potter/",
+      "views": 17
+    },
+    {
       "path": "/sophie-staples-assessing-the-impact-of-land-use-on-fluctuating-asymmetry-and-body-size-in-the-common-yellow-jacket-wasp-vespula-vulgaris/",
       "views": 17
     },
@@ -397,10 +402,6 @@
     },
     {
       "path": "/daniel-altair-saureu-velasco-transcriptomics-of-caste-conflict-in-argentine-ants/",
-      "views": 16
-    },
-    {
-      "path": "/lonely-potter/",
       "views": 16
     },
     {
@@ -655,26 +656,26 @@
   "top_countries": [
     {
       "name": "China",
-      "views": 2803,
-      "visits": 1304,
+      "views": 2828,
+      "visits": 1324,
       "iso": "CN"
     },
     {
       "name": "United States of America",
-      "views": 1060,
-      "visits": 778,
+      "views": 1066,
+      "visits": 783,
       "iso": "US"
     },
     {
       "name": "Singapore",
-      "views": 1083,
-      "visits": 645,
+      "views": 1093,
+      "visits": 650,
       "iso": "SG"
     },
     {
       "name": "United Kingdom",
-      "views": 1742,
-      "visits": 508,
+      "views": 1753,
+      "visits": 513,
       "iso": "GB"
     },
     {
@@ -732,16 +733,16 @@
       "iso": "PK"
     },
     {
+      "name": "Republic of Korea",
+      "views": 18,
+      "visits": 10,
+      "iso": "KR"
+    },
+    {
       "name": "Colombia",
       "views": 16,
       "visits": 9,
       "iso": "CO"
-    },
-    {
-      "name": "Republic of Korea",
-      "views": 17,
-      "visits": 9,
-      "iso": "KR"
     },
     {
       "name": "South Africa",
@@ -762,16 +763,16 @@
       "iso": "VN"
     },
     {
+      "name": "Japan",
+      "views": 23,
+      "visits": 8,
+      "iso": "JP"
+    },
+    {
       "name": "Mexico",
       "views": 8,
       "visits": 8,
       "iso": "MX"
-    },
-    {
-      "name": "Japan",
-      "views": 22,
-      "visits": 7,
-      "iso": "JP"
     },
     {
       "name": "Trinidad and Tobago",
@@ -799,9 +800,15 @@
     },
     {
       "name": "Slovakia",
-      "views": 10,
+      "views": 11,
       "visits": 6,
       "iso": "SK"
+    },
+    {
+      "name": "Argentina",
+      "views": 5,
+      "visits": 5,
+      "iso": "AR"
     },
     {
       "name": "Australia",
@@ -846,12 +853,6 @@
       "iso": "CH"
     },
     {
-      "name": "Argentina",
-      "views": 4,
-      "visits": 4,
-      "iso": "AR"
-    },
-    {
       "name": "Belgium",
       "views": 13,
       "visits": 4,
@@ -864,6 +865,12 @@
       "iso": "NG"
     },
     {
+      "name": "Romania",
+      "views": 4,
+      "visits": 4,
+      "iso": "RO"
+    },
+    {
       "name": "Thailand",
       "views": 5,
       "visits": 4,
@@ -874,6 +881,12 @@
       "views": 3,
       "visits": 3,
       "iso": "AZ"
+    },
+    {
+      "name": "Bolivia",
+      "views": 3,
+      "visits": 3,
+      "iso": "BO"
     },
     {
       "name": "Denmark",
@@ -906,12 +919,6 @@
       "iso": "PL"
     },
     {
-      "name": "Romania",
-      "views": 3,
-      "visits": 3,
-      "iso": "RO"
-    },
-    {
       "name": "Ukraine",
       "views": 4,
       "visits": 3,
@@ -934,12 +941,6 @@
       "views": 2,
       "visits": 2,
       "iso": "DZ"
-    },
-    {
-      "name": "Bolivia",
-      "views": 2,
-      "visits": 2,
-      "iso": "BO"
     },
     {
       "name": "Chile",
@@ -996,6 +997,12 @@
       "iso": "AM"
     },
     {
+      "name": "Belarus",
+      "views": 1,
+      "visits": 1,
+      "iso": "BY"
+    },
+    {
       "name": "Bosnia and Herzegovina",
       "views": 2,
       "visits": 1,
@@ -1042,6 +1049,11 @@
       "views": 1,
       "visits": 1,
       "iso": "ET"
+    },
+    {
+      "name": "FR",
+      "views": 2,
+      "visits": 1
     },
     {
       "name": "Guatemala",
@@ -1672,6 +1684,11 @@
       "date": "2026-11-25",
       "views": 63,
       "visits": 36
+    },
+    {
+      "date": "2026-11-26",
+      "views": 61,
+      "visits": 42
     }
   ]
 }
