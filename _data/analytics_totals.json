@@ -110,7 +110,7 @@
   ],
   "pageviews": 7922,
   "visits": 3844,
-  "countries_count": 85,
+  "countries_count": 84,
   "top_pages": [
     {
       "path": "/",
@@ -1049,11 +1049,6 @@
       "views": 1,
       "visits": 1,
       "iso": "ET"
-    },
-    {
-      "name": "FR",
-      "views": 2,
-      "visits": 1
     },
     {
       "name": "Guatemala",
